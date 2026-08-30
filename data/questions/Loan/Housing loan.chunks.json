@@ -1,0 +1,642 @@
+[
+  {
+    "id": "chunk_001",
+    "text": "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "chunk_002",
+    "text": "الحد الأدنى لصافي الراتب/الدخل (مع تحويل راتب): 450 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار. في حال الأجهزة الأمنية والعسكرية: 1,000 دينار مع عبء دين يقل عن 35%، و1,500 دينار مع عبء دين يقل عن 55%."
+  },
+  {
+    "id": "chunk_003",
+    "text": "مدة الخدمة (مع تحويل راتب) بشكل عام: 3 أشهر لسنتين."
+  },
+  {
+    "id": "chunk_004",
+    "text": "مدة الخدمة للقطاع العام (مع تحويل راتب): 3 أشهر أو مثبت، باستثناء المدرسين للقطاع العام المثبتين والخاضعين للضمان، والمتقاعدين عند تقاعدهم مباشرة."
+  },
+  {
+    "id": "chunk_005",
+    "text": "مدة الخدمة للشركات المعتمدة (مع تحويل راتب): 3 أشهر ومثبت."
+  },
+  {
+    "id": "chunk_006",
+    "text": "مدة الخدمة للشركات الغير معتمدة (مع تحويل راتب): 3 أشهر ومثبت، ووجود خبرات سابقة لا تقل عن سنة، وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية."
+  },
+  {
+    "id": "chunk_007",
+    "text": "مدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة (مع تحويل راتب): مدة الخدمة لا تقل عن سنة وأن يكون العميل مشتركاً بصندوق الادخار أو ما شابه ذلك."
+  },
+  {
+    "id": "chunk_008",
+    "text": "مدة الخدمة للأعمال الحرة/المهنيين/المغتربين (مع تحويل راتب): سنتين."
+  },
+  {
+    "id": "chunk_009",
+    "text": "عمولة منح (مع تحويل راتب، الفئة الأولى): 1%."
+  },
+  {
+    "id": "chunk_010",
+    "text": "عبء الدين (مع تحويل راتب، الفئة الأولى): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+  },
+  {
+    "id": "chunk_011",
+    "text": "الحد الأدنى لمدة القرض (مع تحويل راتب، الفئة الأولى): 12 شهر."
+  },
+  {
+    "id": "chunk_012",
+    "text": "الحد الأقصى لمدة القرض (مع تحويل راتب، الفئة الأولى): للأراضي: 96 شهر. للشقق: إذا التمويل أعلى من 80% تكون المدة 300 شهر، إذا التمويل لغاية 80% تكون المدة 360 شهر."
+  },
+  {
+    "id": "chunk_013",
+    "text": "الحد الأدنى لمبلغ القرض (مع تحويل راتب، الفئة الأولى): 15,000."
+  },
+  {
+    "id": "chunk_014",
+    "text": "الحد الأقصى لمبلغ القرض (مع تحويل راتب، الفئة الأولى): 1,000,000."
+  },
+  {
+    "id": "chunk_015",
+    "text": "هل يمكن رفع سقف القرض (مع تحويل راتب، الفئة الأولى): نعم."
+  },
+  {
+    "id": "chunk_016",
+    "text": "عبء الدين كمدين وكفيل (مع تحويل راتب، الفئة الأولى): 70%."
+  },
+  {
+    "id": "chunk_017",
+    "text": "عمر البناء (مع تحويل راتب، الفئة الأولى): أن لا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يظهر التخمين أنه بحالة جيدة، وبخلاف ذلك يتم الاعتماد على تخمين الأرض فقط."
+  },
+  {
+    "id": "chunk_018",
+    "text": "عمولة إعادة هيكلة (مع تحويل راتب، الفئة الأولى): 5 دنانير."
+  },
+  {
+    "id": "chunk_019",
+    "text": "نسبة التمويل (مع تحويل راتب، الفئة الأولى): من 30% إلى 100%."
+  },
+  {
+    "id": "chunk_020",
+    "text": "تفاصيل نسبة التمويل - شراء شقق جاهزة (مع تحويل راتب): لغاية 100% حسب الشروط، وللمهنيين وأصحاب الأعمال الحرة والمغتربين 80%."
+  },
+  {
+    "id": "chunk_021",
+    "text": "تفاصيل نسبة التمويل - شراء عقار إضافي (مع تحويل راتب): 80% حد أعلى."
+  },
+  {
+    "id": "chunk_022",
+    "text": "تفاصيل نسبة التمويل - شراء أراضي (مع تحويل راتب): 80% حد أعلى."
+  },
+  {
+    "id": "chunk_023",
+    "text": "تفاصيل نسبة التمويل - عقار لغاية الإجازة (مع تحويل راتب): 70% باستثناء أيلة لغاية 100%."
+  },
+  {
+    "id": "chunk_024",
+    "text": "تفاصيل نسبة التمويل - بناء (مع تحويل راتب): لغاية 100%."
+  },
+  {
+    "id": "chunk_025",
+    "text": "شراء قروض عقارية/سكنية من بنوك أخرى - الحد الأدنى لقيمة القرض 15,000، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 1,000 دينار."
+  },
+  {
+    "id": "chunk_026",
+    "text": "شراء قروض من بنوك أخرى - نسبة التمويل: حسب سياسة المنتج."
+  },
+  {
+    "id": "chunk_027",
+    "text": "شراء قروض من بنوك أخرى - ملتزم بالسداد ولا توجد أي مستحقة عليه عند تقديم الطلب."
+  },
+  {
+    "id": "chunk_028",
+    "text": "معايير المنح لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تمويل عمولة التسديد المبكر لدى البنك الآخر. يتم تسديد قيمة القرض مباشرة للبنك المقرض. باقي قيمة القرض تحول لحساب العميل بعد ورود تعهد تحويل الراتب من مكان عمل العميل وبراءة ذمة من البنك السابق. يتم صرف المبلغ المتبقي من القرض بعد سداد التزام البنك الآخر وقبل ورود أول راتب شريطة الحصول على براءة ذمة أصولية وتعهد تحويل راتب أصولي والتأكد من صحة الكتاب من الشركة عن طريق الفرع."
+  },
+  {
+    "id": "chunk_029",
+    "text": "الوثائق المطلوبة لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم). كشف حساب من البنك الآخر، وحسب مدة التزام وبحد أقصى 6 أشهر. تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الأخر. تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة الى تعهد تحويل أصولي. يتم تقديم ميزة cash out بمقدار 10% من قيمة القرض تكون جزء من رصيد القرض السكني المنوي منحه للعميل وبما لا يزيد عن 100% من نسبة التمويل وتودع في حساب العميل."
+  },
+  {
+    "id": "chunk_030",
+    "text": "تمويل حسب الوظائف - القطاع العام: موظفي الفئة الثالثة مستثنون ماعدا الذين تزيد مدة خدمتهم عن 3 سنوات. لا يمكن تمويل موظفي البلديات، عمال المياومة. لا يمكن تمويل موظفي مجالس الخدمات المشتركة."
+  },
+  {
+    "id": "chunk_031",
+    "text": "الأجهزة الأمنية والعسكرية: يمكن تمويل المستخدمين المدنيين لكافة الأجهزة الأمنية في حال كان يحمل رقم وظيفي مكون من 6 خانات وأن تكون الرتبة بدرجة."
+  },
+  {
+    "id": "chunk_032",
+    "text": "يمنع منح قروض لمن هم دون رتبة وكيل حتى وإن تم تحويل الراتب إلينا باستثناء قروض رفع السقف."
+  },
+  {
+    "id": "chunk_033",
+    "text": "يمنع منح قروض لمن هم دون رتبة وكيل إلا بتحويل اقتطاع وبمبالغ قروض محدودة والالتزام بالقسط المحدد بالقسيمة إن وجد."
+  },
+  {
+    "id": "chunk_034",
+    "text": "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+  },
+  {
+    "id": "chunk_035",
+    "text": "القطاع الخاص: لا يمكن تمويل المحامين. لا يمكن تمويل موظفي الأسواق التجارية الغير إداريين. لا يمكن تمويل موظفي شركات التمويل."
+  },
+  {
+    "id": "chunk_036",
+    "text": "المستندات المطلوبة: صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول. صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول."
+  },
+  {
+    "id": "chunk_037",
+    "text": "صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية/العسكرية، تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف)."
+  },
+  {
+    "id": "chunk_038",
+    "text": "شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور، وفي حال وجود أي حوافز يتم طلب قسيمة راتب لآخر 6 شهور (يجب أن تكون القسائم مختومة أو مروسة جهة العمل)."
+  },
+  {
+    "id": "chunk_039",
+    "text": "صورة عن عقد العمل لموظفي العقود."
+  },
+  {
+    "id": "chunk_040",
+    "text": "كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول."
+  },
+  {
+    "id": "chunk_041",
+    "text": "القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الأجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب إلينا."
+  },
+  {
+    "id": "chunk_042",
+    "text": "تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك."
+  },
+  {
+    "id": "chunk_043",
+    "text": "كشف الضمان الاجتماعي للعملاء الذين مدة عملهم أقل من سنة للشركات باستثناء موظفي القطاع العام."
+  },
+  {
+    "id": "chunk_044",
+    "text": "الوثائق المطلوبة في حال شراء الالتزامات: تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم) وحسب الأصول."
+  },
+  {
+    "id": "chunk_045",
+    "text": "الوثائق المطلوبة في حال شراء الالتزامات: كشف حساب من البنك الآخر وبحد أدنى 6 شهور."
+  },
+  {
+    "id": "chunk_046",
+    "text": "القطاع العام: تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الأخر."
+  },
+  {
+    "id": "chunk_047",
+    "text": "في حال شراء الالتزامات للأجهزة الأمنية والعسكرية عدا المخابرات والتقاعد المدني والعسكري والضمان الاجتماعي، يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلينا بعد سداد التزاماته لدى البنك الآخر المحول إليه الراتب."
+  },
+  {
+    "id": "chunk_048",
+    "text": "القطاع الخاص تعهد تحويل راتب مشروط وحسب الصيغة المعتمدة لدينا لحين استلام براءة الذمة من البنك الأخر."
+  },
+  {
+    "id": "chunk_049",
+    "text": "تزويدنا بما يفيد سداد السلف الداخلية أو أي جهات خارجية تم سداد التزامات العميل بها."
+  },
+  {
+    "id": "chunk_050",
+    "text": "تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة إلى تعهد تحويل راتب."
+  },
+  {
+    "id": "chunk_051",
+    "text": "أوراق العقار: عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء مبين به مراحل البناء من مخمن معتمد. إثبات دفع العميل الدفعة المقدمة لعملاء قروض تمويل البناء الجاهز. تخمين عقاري معتمد."
+  },
+  {
+    "id": "chunk_052",
+    "text": "الفئة 2: قرض سكني من غير تحويل راتب. العمر المطلوب: (24 إلى 65) سنة عند المنح و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "chunk_053",
+    "text": "الحد الأدنى لصافي الراتب/الدخل (من غير تحويل راتب): 600 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار."
+  },
+  {
+    "id": "chunk_054",
+    "text": "مدة الخدمة (من غير تحويل راتب): بشكل عام: سنة. الأعمال الحرة/المهنيين/المغتربين: سنتين."
+  },
+  {
+    "id": "chunk_055",
+    "text": "عمولة منح (من غير تحويل راتب): 1%."
+  },
+  {
+    "id": "chunk_056",
+    "text": "عبء الدين (من غير تحويل راتب): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+  },
+  {
+    "id": "chunk_057",
+    "text": "الحد الأدنى لمدة القرض (من غير تحويل راتب): 12 شهر."
+  },
+  {
+    "id": "chunk_058",
+    "text": "الحد الأقصى لمدة القرض (من غير تحويل راتب): للأراضي: 96 شهر. للشقق: 300 شهر."
+  },
+  {
+    "id": "chunk_059",
+    "text": "الحد الأدنى لمبلغ القرض (من غير تحويل راتب): 30,000 دينار."
+  },
+  {
+    "id": "chunk_060",
+    "text": "الحد الأقصى لمبلغ القرض (من غير تحويل راتب): 300,000 دينار."
+  },
+  {
+    "id": "chunk_061",
+    "text": "هل يمكن رفع سقف القرض (من غير تحويل راتب): نعم."
+  },
+  {
+    "id": "chunk_062",
+    "text": "عبء الدين كمدين وكفيل (من غير تحويل راتب): 70%."
+  },
+  {
+    "id": "chunk_063",
+    "text": "عمر البناء (من غير تحويل راتب): أن لا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يظهر التخمين أنه بحالة جيدة، وبخلاف ذلك يتم الاعتماد على تخمين الأرض فقط."
+  },
+  {
+    "id": "chunk_064",
+    "text": "عمولة إعادة هيكلة (من غير تحويل راتب): 5 دنانير."
+  },
+  {
+    "id": "chunk_065",
+    "text": "تفاصيل نسبة التمويل - شراء شقق جاهزة (من غير تحويل راتب): لغاية 70% حد أعلى."
+  },
+  {
+    "id": "chunk_066",
+    "text": "تفاصيل نسبة التمويل - شراء عقار إضافي (من غير تحويل راتب): 70% حد أعلى."
+  },
+  {
+    "id": "chunk_067",
+    "text": "تفاصيل نسبة التمويل - شراء أراضي (من غير تحويل راتب): 60% حد أعلى."
+  },
+  {
+    "id": "chunk_068",
+    "text": "تفاصيل نسبة التمويل - عقار لغاية الإجازة (من غير تحويل راتب): لا ينطبق."
+  },
+  {
+    "id": "chunk_069",
+    "text": "تفاصيل نسبة التمويل - بناء (من غير تحويل راتب): لا ينطبق."
+  },
+  {
+    "id": "chunk_070",
+    "text": "المستندات المطلوبة (من غير تحويل راتب): صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول. صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول."
+  },
+  {
+    "id": "chunk_071",
+    "text": "أوراق العقار (من غير تحويل راتب): عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء من مخمن معتمد. إثبات دفع الدفعة المقدمة لعملاء قروض البناء الجاهز. تخمين عقاري معتمد. يتم إيداع 80% من فرق التمويل بحساب العميل لدينا."
+  },
+  {
+    "id": "chunk_072",
+    "text": "تأجيل الدفعات (الفئة 3): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط."
+  },
+  {
+    "id": "chunk_073",
+    "text": "أنواع الممتلكات التي لا يمكن تمويلها: الممتلكات ذات الاستعمال المقيد قانونياً، كالأراضي الزراعية. شراء الأراضي لغايات الاستثمار. أية ممتلكات تخضع لقيود على إعادة بيعها أو تحد من قيمتها. الممتلكات التجارية، والممتلكات الصناعية، والممتلكات الأخرى دون الاستخدام السكني. التأكد من العلاقة التجارية بين البائع والمشتري (يمنع تمويل الشراء من أقارب من الدرجة الأولى)."
+  },
+  {
+    "id": "chunk_074",
+    "text": "شروط الاعفاء من عمولة المنح وتحمل البنك مصاريف الرهن: مبلغ القرض 40,000 فما فوق. أن لا تقل مدة القرض عن 10 سنوات. التزام العميل مع البنك 5 سنوات. عملاء الرواتب شريطة تحويل الراتب."
+  },
+  {
+    "id": "chunk_075",
+    "text": "التأمين على الحياة: تأمين على حياة المدين مجاناً."
+  },
+  {
+    "id": "chunk_076",
+    "text": "عمولة السداد المبكر: 1% في حال بقي أكثر من سنة على انتهاء القرض. 0% في حال تبقى أقل من سنة على انتهاء القرض."
+  },
+  {
+    "id": "chunk_077",
+    "text": "الفئة 4: قرض متناقص مقابل رهن عقار. هو قرض شخصي مقابل رهن عقاري (يجب على العميل أن يكون متطابقاً مع سياسة القرض الشخصي)."
+  },
+  {
+    "id": "chunk_078",
+    "text": "الإجراءات: تمويل 60% في حال رهن شقة. المدة (12-96) شهر، الاقتراض (25,000 - 150,000) دينار أردني، عبء الدين 55%."
+  },
+  {
+    "id": "chunk_079",
+    "text": "الإجراءات: تمويل 50% في حال رهن أراضي. المدة (12-96) شهر، الاقتراض (25,000 - 150,000) دينار أردني، عبء الدين 55%."
+  },
+  {
+    "id": "chunk_080",
+    "text": "متطلبات القرض المتناقص مقابل رهن عقار: تخمين عقاري، بحسب سياسة التخمين العقاري."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "Minimum net salary/income (with salary transfer): 450 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD. In the case of Security and Military Apparatuses: 1,000 JOD with a debt burden of less than 35%, and 1,500 JOD with a debt burden of less than 55%."
+  },
+  {
+    "id": "chunk_003_en",
+    "text": "Length of service (with salary transfer) in general: 3 months to two years."
+  },
+  {
+    "id": "chunk_004_en",
+    "text": "Length of service, Public Sector (with salary transfer): 3 months or confirmed, excluding confirmed public sector teachers subject to Social Security, and retirees immediately upon retirement."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Length of service, Approved companies (with salary transfer): 3 months and confirmed."
+  },
+  {
+    "id": "chunk_006_en",
+    "text": "Length of service, Unapproved companies (with salary transfer): 3 months and confirmed, with previous experience of not less than one year, and no interruption in Social Security for more than a month between the last job and the current job."
+  },
+  {
+    "id": "chunk_007_en",
+    "text": "Length of service, UN and affiliated international organizations employees (with salary transfer): Length of service is not less than one year and the customer must be a participant in a provident fund or similar."
+  },
+  {
+    "id": "chunk_008_en",
+    "text": "Length of service, Self-employed/Professionals/Expatriates (with salary transfer): Two years."
+  },
+  {
+    "id": "chunk_009_en",
+    "text": "Granting commission (with salary transfer, Category 1): 1%"
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Debt burden (with salary transfer, Category 1): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+  },
+  {
+    "id": "chunk_011_en",
+    "text": "Minimum loan period (with salary transfer, Category 1): 12 months."
+  },
+  {
+    "id": "chunk_012_en",
+    "text": "Maximum loan period (with salary transfer, Category 1): For lands: 96 months. For apartments: If the financing is higher than 80%, the period is up to 300 months; if the financing is up to 80%, the period is 360 months."
+  },
+  {
+    "id": "chunk_013_en",
+    "text": "Minimum loan amount (with salary transfer, Category 1): 15,000."
+  },
+  {
+    "id": "chunk_014_en",
+    "text": "Maximum loan amount (with salary transfer, Category 1): 1,000,000."
+  },
+  {
+    "id": "chunk_015_en",
+    "text": "Can the loan ceiling be raised (with salary transfer, Category 1): Yes."
+  },
+  {
+    "id": "chunk_016_en",
+    "text": "Debt burden as a debtor and guarantor (with salary transfer, Category 1): 70%."
+  },
+  {
+    "id": "chunk_017_en",
+    "text": "Property age (with salary transfer, Category 1): The age of the building must not exceed 20 years upon requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only."
+  },
+  {
+    "id": "chunk_018_en",
+    "text": "Restructuring commission (with salary transfer, Category 1): 5 JOD."
+  },
+  {
+    "id": "chunk_019_en",
+    "text": "Financing ratio (with salary transfer, Category 1): from 30% to 100%."
+  },
+  {
+    "id": "chunk_020_en",
+    "text": "Financing ratio details - Buying ready apartments (with salary transfer): Up to 100% according to conditions, and 80% for professionals, self-employed, and expatriates."
+  },
+  {
+    "id": "chunk_021_en",
+    "text": "Financing ratio details - Buying additional property (with salary transfer): 80% maximum limit."
+  },
+  {
+    "id": "chunk_022_en",
+    "text": "Financing ratio details - Buying lands (with salary transfer): 80% maximum limit."
+  },
+  {
+    "id": "chunk_023_en",
+    "text": "Financing ratio details - Vacation property (with salary transfer): 70% except for Ayla up to 100%."
+  },
+  {
+    "id": "chunk_024_en",
+    "text": "Financing ratio details - Construction (with salary transfer): Up to 100%."
+  },
+  {
+    "id": "chunk_025_en",
+    "text": "Buying Mortgage/housing loans from other banks - The minimum loan value is 15,000, provided that the remaining amount for the customer after paying obligations is not less than 1,000 JOD."
+  },
+  {
+    "id": "chunk_026_en",
+    "text": "Buying loans from other banks - Financing ratio: According to product policy."
+  },
+  {
+    "id": "chunk_027_en",
+    "text": "Buying loans from other banks - Committed to repayment and there are no dues on them upon submitting the application."
+  },
+  {
+    "id": "chunk_028_en",
+    "text": "Granting criteria for buying loans from other banks: According to the applicable program. Financing the early settlement commission at the other bank. The loan value is paid directly to the lending bank. The remaining loan value is transferred to the customer's account after receiving a salary transfer commitment from the customer's workplace and a clearance certificate from the previous bank. The remaining loan amount is disbursed after settling the other bank's obligation and before the arrival of the first salary, provided obtaining a formal clearance certificate, a formal salary transfer commitment, and verifying the authenticity of the letter from the company through the branch."
+  },
+  {
+    "id": "chunk_029_en",
+    "text": "Required documents for buying loans from other banks: According to the applicable program. Providing the bank with a recent obligations certificate (not exceeding 30 days). Account statement from the other bank, according to the commitment period and for a maximum of 6 months. Conditional salary transfer commitment until receiving the clearance from the other bank. Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a formal transfer commitment. A cash-out feature of 10% of the loan value is provided, which will be part of the intended housing loan balance granted to the customer, not exceeding 100% of the financing ratio, and deposited into the customer's account."
+  },
+  {
+    "id": "chunk_030_en",
+    "text": "Financing according to jobs - Public Sector: Third-category employees are excluded, except for those whose service period exceeds 3 years. Municipality employees and day laborers cannot be financed. Joint Services Councils employees cannot be financed."
+  },
+  {
+    "id": "chunk_031_en",
+    "text": "Security and Military Apparatuses: Civilian employees of all security apparatuses can be financed if they carry a 6-digit job number and hold a ranked grade."
+  },
+  {
+    "id": "chunk_032_en",
+    "text": "Loans are prohibited for those below the rank of Warrant Officer (Wakil), even if the salary is transferred to us, except for loan ceiling increase loans."
+  },
+  {
+    "id": "chunk_033_en",
+    "text": "Loans are prohibited for those below the rank of Warrant Officer (Wakil) except by transferring a deduction, with limited loan amounts, and commitment to the specified installment on the payslip if any."
+  },
+  {
+    "id": "chunk_034_en",
+    "text": "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+  },
+  {
+    "id": "chunk_035_en",
+    "text": "Private Sector: Lawyers cannot be financed. Non-administrative commercial market employees cannot be financed. Financing company employees cannot be financed."
+  },
+  {
+    "id": "chunk_036_en",
+    "text": "Required Documents: A true copy of a valid identification document. (A copy of a valid residency document (for non-Jordanians) in addition to a valid passport)."
+  },
+  {
+    "id": "chunk_037_en",
+    "text": "A true copy of a valid identification document (Civil/Military ID, recording Intelligence ID information on the loan application and the employee's signature)."
+  },
+  {
+    "id": "chunk_038_en",
+    "text": "Original salary certificate/payslip for the last three months, and in case of any incentives, a payslip for the last 6 months is requested (the payslip must be stamped or on the employer's letterhead)."
+  },
+  {
+    "id": "chunk_039_en",
+    "text": "A copy of the employment contract for contract employees."
+  },
+  {
+    "id": "chunk_040_en",
+    "text": "A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary), duly certified."
+  },
+  {
+    "id": "chunk_041_en",
+    "text": "Public Sector: Salary transfer commitment according to their approved format, except for Security and Military apparatuses (a payslip stating the salary transfer to us)."
+  },
+  {
+    "id": "chunk_042_en",
+    "text": "A formal salary transfer commitment, according to the bank's approved format."
+  },
+  {
+    "id": "chunk_043_en",
+    "text": "Social Security statement for customers whose employment period is less than a year for companies, excluding public sector employees."
+  },
+  {
+    "id": "chunk_044_en",
+    "text": "Required documents in case of buying obligations: Providing the bank with a recent obligations certificate (not exceeding 30 days) and duly certified."
+  },
+  {
+    "id": "chunk_045_en",
+    "text": "Required documents in case of buying obligations: Account statement from the other bank for a minimum of 6 months."
+  },
+  {
+    "id": "chunk_046_en",
+    "text": "Public Sector: Conditional salary transfer commitment until receiving the clearance from the other bank."
+  },
+  {
+    "id": "chunk_047_en",
+    "text": "In case of buying obligations for Security and Military Apparatuses, except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary is transferred."
+  },
+  {
+    "id": "chunk_048_en",
+    "text": "Private Sector: Conditional salary transfer commitment according to our approved format until receiving the clearance from the other bank."
+  },
+  {
+    "id": "chunk_049_en",
+    "text": "Providing us with proof of payment of internal advances or any external parties where the customer's obligations were paid."
+  },
+  {
+    "id": "chunk_050_en",
+    "text": "Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a salary transfer commitment."
+  },
+  {
+    "id": "chunk_051_en",
+    "text": "Property Papers: Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal."
+  },
+  {
+    "id": "chunk_052_en",
+    "text": "Category 2: Housing loan without salary transfer. Required Age: (24 to 65) years at the time of granting and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "chunk_053_en",
+    "text": "Minimum net salary/income (without salary transfer): 600 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD."
+  },
+  {
+    "id": "chunk_054_en",
+    "text": "Length of service (without salary transfer): In general: One year. Self-employed/Professionals/Expatriates: Two years."
+  },
+  {
+    "id": "chunk_055_en",
+    "text": "Granting commission (without salary transfer): 1%"
+  },
+  {
+    "id": "chunk_056_en",
+    "text": "Debt burden (without salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+  },
+  {
+    "id": "chunk_057_en",
+    "text": "Minimum loan period (without salary transfer): 12 months."
+  },
+  {
+    "id": "chunk_058_en",
+    "text": "Maximum loan period (without salary transfer): For lands: 96 months. For apartments: 300 months."
+  },
+  {
+    "id": "chunk_059_en",
+    "text": "Minimum loan amount (without salary transfer): 30,000 JOD."
+  },
+  {
+    "id": "chunk_060_en",
+    "text": "Maximum loan amount (without salary transfer): 300,000 JOD."
+  },
+  {
+    "id": "chunk_061_en",
+    "text": "Can the loan ceiling be raised (without salary transfer): Yes."
+  },
+  {
+    "id": "chunk_062_en",
+    "text": "Debt burden as a debtor and guarantor (without salary transfer): 70%."
+  },
+  {
+    "id": "chunk_063_en",
+    "text": "Property age (without salary transfer): The age of the building must not exceed 20 years upon requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only."
+  },
+  {
+    "id": "chunk_064_en",
+    "text": "Restructuring commission (without salary transfer): 5 JOD."
+  },
+  {
+    "id": "chunk_065_en",
+    "text": "Financing ratio details - Buying ready apartments (without salary transfer): Up to 70% maximum limit."
+  },
+  {
+    "id": "chunk_066_en",
+    "text": "Financing ratio details - Buying additional property (without salary transfer): 70% maximum limit."
+  },
+  {
+    "id": "chunk_067_en",
+    "text": "Financing ratio details - Buying lands (without salary transfer): 60% maximum limit."
+  },
+  {
+    "id": "chunk_068_en",
+    "text": "Financing ratio details - Vacation property (without salary transfer): Not applicable."
+  },
+  {
+    "id": "chunk_069_en",
+    "text": "Financing ratio details - Construction (without salary transfer): Not applicable."
+  },
+  {
+    "id": "chunk_070_en",
+    "text": "Required Documents (without salary transfer): A true copy of a valid identification document. A copy of a valid residency document (for non-Jordanians) in addition to a valid passport."
+  },
+  {
+    "id": "chunk_071_en",
+    "text": "Property Papers (without salary transfer): Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal. 80% of the financing difference is deposited in the customer's account with us."
+  },
+  {
+    "id": "chunk_072_en",
+    "text": "Postponement of Installments (Category 3): Postponing only two installments is allowed during the year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment and there are no dues on them (more than 30 days) during the previous 6 months. Not exceeding the maximum age limit for the customer upon the due date of the last installment. Deduction customers are not allowed to postpone installments."
+  },
+  {
+    "id": "chunk_073_en",
+    "text": "Types of properties that cannot be financed: Properties with legally restricted use, for example, lands designated for agricultural purposes. Buying lands for investment purposes. Any properties subject to restrictions on resale or that limit their value. Commercial properties, industrial properties, and other properties without residential use. Ensuring the commercial relationship between the seller and buyer (financing purchases from first-degree relatives is prohibited)."
+  },
+  {
+    "id": "chunk_074_en",
+    "text": "Conditions for exemption from granting commission and the bank bearing mortgage expenses: Loan amount of 40,000 and above. The loan period is not less than 10 years. The customer's commitment with the bank for 5 years. Salary customers provided salary transfer."
+  },
+  {
+    "id": "chunk_075_en",
+    "text": "Life Insurance: Free life insurance for the debtor."
+  },
+  {
+    "id": "chunk_076_en",
+    "text": "Early Settlement Commission: 1% if more than a year remains until the end of the loan. 0% if less than a year remains until the end of the loan."
+  },
+  {
+    "id": "chunk_077_en",
+    "text": "Category 4: Declining loan against a property mortgage. It is a personal loan against a Property mortgage (the customer must comply with the personal loan policy)."
+  },
+  {
+    "id": "chunk_078_en",
+    "text": "Procedures: 60% financing in case of an apartment mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+  },
+  {
+    "id": "chunk_079_en",
+    "text": "Procedures: 50% financing in case of land mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+  },
+  {
+    "id": "chunk_080_en",
+    "text": "Requirements: Property appraisal, according to the property appraisal policy."
+  }
+]

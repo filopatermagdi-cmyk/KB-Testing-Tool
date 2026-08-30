@@ -1,0 +1,114 @@
+[
+  {
+    "id": "chunk_001",
+    "text": "القرض الفوري: قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، وتتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، ودون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع."
+  },
+  {
+    "id": "chunk_002",
+    "text": "الحصول على قرض شخصي بسرعة فائقة من مكان تواجد العميل، وبأي وقت على التطبيق."
+  },
+  {
+    "id": "chunk_003",
+    "text": "سهولة وسرعة الحصول على القرض دون الحاجة إلى زيارة أي فرع."
+  },
+  {
+    "id": "chunk_004",
+    "text": "تجربة سلسة تمنح العميل الخيار بترتيب الدفعات بما يتناسب معه."
+  },
+  {
+    "id": "chunk_005",
+    "text": "قيد مبلغ القرض مباشرةً في الحساب."
+  },
+  {
+    "id": "chunk_006",
+    "text": "تطبق شروط القرض الشخصي العادي بخصوص السداد المبكر."
+  },
+  {
+    "id": "chunk_007",
+    "text": "بعد أخذ القرض يختفي هذا الخيار للعميل (لا يمكنه أخذ قرض فوري آخر)."
+  },
+  {
+    "id": "chunk_008",
+    "text": "يمكن للعميل اختيار اليوم الذي يريد السداد به (مثلاً كل 14 من الشهر)."
+  },
+  {
+    "id": "chunk_009",
+    "text": "كم هي عدد المرات التي يمكن بها الحصول على قرض فوري؟ مرة واحدة."
+  },
+  {
+    "id": "chunk_010",
+    "text": "هل يمكن التقديم والحصول على القرض أيام العطل الرسمية؟ نعم، يمكن التقديم في أي وقت."
+  },
+  {
+    "id": "chunk_011",
+    "text": "ما هي مدة السداد؟ يعتمد على مبلغ القرض ويعتمد على المدة المختارة من قبل العميل."
+  },
+  {
+    "id": "chunk_012",
+    "text": "هل يمكن لجميع العملاء الحصول على قرض فوري؟ لا، لأنه يتم اختيار العملاء بناءً على إجراءات محددة وتكون قد تمت الموافقة على قرض العميل بشكل مسبق."
+  },
+  {
+    "id": "chunk_013",
+    "text": "في حال الرغبة في الحصول على مبلغ أعلى؟ يجب زيارة الفرع وتقديم الطلب حسب السياسة الائتمانية."
+  },
+  {
+    "id": "chunk_014",
+    "text": "ما هي عمولة المنح؟ 1% من قيمة القرض وللسنة الأولى فقط. يتم خصم العمولة أيضاً في حال طلب زيادة على رصيد القرض."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Instant Loan: An instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "Obtain a personal loan extremely quickly from wherever you are, at any time on the app."
+  },
+  {
+    "id": "chunk_003_en",
+    "text": "Ease and speed of obtaining the loan without the need to visit any branch."
+  },
+  {
+    "id": "chunk_004_en",
+    "text": "A seamless experience that gives you the option to arrange payments in a way that suits you."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Crediting the loan amount directly into the account."
+  },
+  {
+    "id": "chunk_006_en",
+    "text": "Standard personal loan terms apply regarding early settlement."
+  },
+  {
+    "id": "chunk_007_en",
+    "text": "After taking the loan, this option disappears for the customer (they cannot take another instant loan)."
+  },
+  {
+    "id": "chunk_008_en",
+    "text": "The customer can choose the day they want to pay (e.g., every 14th of the month)."
+  },
+  {
+    "id": "chunk_009_en",
+    "text": "How many times can an instant loan be obtained? Once."
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Can I apply for and obtain the loan on public holidays? Yes, you can apply at any time."
+  },
+  {
+    "id": "chunk_011_en",
+    "text": "What is the repayment period? It depends on the loan amount and the period chosen by the customer."
+  },
+  {
+    "id": "chunk_012_en",
+    "text": "Can all customers get an instant loan? No, because customers are selected based on specific procedures and the customer's loan has been pre-approved."
+  },
+  {
+    "id": "chunk_013_en",
+    "text": "What if I want to obtain a higher amount? You must visit the branch and submit an application according to the credit policy."
+  },
+  {
+    "id": "chunk_014_en",
+    "text": "What is the granting commission? 1% of the loan value for the first year only. The commission is also deducted in case of requesting an increase on the loan balance."
+  }
+]

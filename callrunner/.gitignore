@@ -1,0 +1,20 @@
+.env
+tmp/
+node_modules/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Classifier's default download dir (real runs use tmp/recordings, already ignored)
+Recordings/
+
+# Generated TTS caller clips (source of truth is scenario.txt + tts.js)
+assets-tts/
+
+# Large media — keep the repo lean; regenerate locally (VIDEO_ALWAYS=1 npm test).
+# docs/demo-run.gif is intentionally committed (the deck needs it); videos are not.
+*.webm
+*.mp4
+*.mov
+*.mkv

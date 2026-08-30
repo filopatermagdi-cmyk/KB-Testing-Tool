@@ -1,0 +1,170 @@
+[
+  {
+    "id": "chunk_001",
+    "text": "القرض الفوري مقابل بطاقة ائتمانية يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويتم إصدار بطاقة ائتمانية مقابل القرض، وتُصدر لأول سنة بدون عمولة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته."
+  },
+  {
+    "id": "chunk_002",
+    "text": "الحد الأدنى لمدة الخدمة في العمل الحالي (وجود 12 اشتراك ضمان اجتماعي لآخر سنة): 3 شهور للشركات المعتمدة، و6 شهور للشركات غير المعتمدة."
+  },
+  {
+    "id": "chunk_003",
+    "text": "الراتب الأدنى: 450 دينار."
+  },
+  {
+    "id": "chunk_004",
+    "text": "جهة العمل معتمدة: غير مشترط."
+  },
+  {
+    "id": "chunk_005",
+    "text": "تحويل الراتب: غير مشترط."
+  },
+  {
+    "id": "chunk_006",
+    "text": "الحد الأدنى لمبلغ القرض: 1,000 دينار."
+  },
+  {
+    "id": "chunk_007",
+    "text": "الحد الأقصى لمبلغ القرض: 25,000 دينار."
+  },
+  {
+    "id": "chunk_008",
+    "text": "مدة القرض: 12 شهر إلى 96 شهر."
+  },
+  {
+    "id": "chunk_009",
+    "text": "الحد الأدنى لعمر العميل عند المنح: 22-65 سنة."
+  },
+  {
+    "id": "chunk_010",
+    "text": "الحد الأعلى لعمر العميل عند انتهاء القرض: 75 سنة."
+  },
+  {
+    "id": "chunk_011",
+    "text": "عبء الدين: 50%."
+  },
+  {
+    "id": "chunk_012",
+    "text": "عبء الدين كمدين وكفيل: 50%."
+  },
+  {
+    "id": "chunk_013",
+    "text": "رفع سقف القرض: لا يمكن رفع السقف."
+  },
+  {
+    "id": "chunk_014",
+    "text": "سعر الفائدة: 10%."
+  },
+  {
+    "id": "chunk_015",
+    "text": "عمولة منح: 1%."
+  },
+  {
+    "id": "chunk_016",
+    "text": "عمولة السداد المبكر: لا يوجد سداد جزئي، يمكن سداده بشكل كامل بعمولة سداد نسبتها 1% على أصل المبلغ."
+  },
+  {
+    "id": "chunk_017",
+    "text": "عمولة التأمين على الحياة: حسب عمولة التأمين للبطاقة (0.1% على الرصيد المستغل بحد أدنى دينار)."
+  },
+  {
+    "id": "chunk_018",
+    "text": "تمرير الطلبات: مباشرة من خلال التطبيق."
+  },
+  {
+    "id": "chunk_019",
+    "text": "سقف البطاقة: مبلغ القرض هو عبارة عن 90% من سقف البطاقة."
+  },
+  {
+    "id": "chunk_020",
+    "text": "فائدة التأخير: في حال تأخر العميل بسداد قسطين متتاليين يتم احتساب فائدة 1.5% شهرياً على الرصيد المتبقي المستغل."
+  },
+  {
+    "id": "chunk_021",
+    "text": "مواعيد اقتطاع الدفعات: في حال تم تنفيذ القرض بـ 15 الشهر وقبل: تكون الدفعة بنفس الشهر. أما في حال تنفيذ القرض بعد 15 الشهر: تكون الدفعة بالشهر التالي."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "The Instant Loan Against a Credit Card is offered through the app, and the amount is transferred to the account within a short period. A credit card is issued against the loan, provided without a commission for the first year, after which there is an annual renewal commission that varies according to the card category. It cannot be rescheduled or restructured."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "Minimum service period in the current job (having 12 Social Security contributions for the last year): 3 months for approved companies, 6 months for unapproved companies."
+  },
+  {
+    "id": "chunk_003_en",
+    "text": "Minimum salary: 450 JOD."
+  },
+  {
+    "id": "chunk_004_en",
+    "text": "Approved employer: Not required."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Salary transfer: Not required."
+  },
+  {
+    "id": "chunk_006_en",
+    "text": "Minimum loan amount: 1,000 JOD."
+  },
+  {
+    "id": "chunk_007_en",
+    "text": "Maximum loan amount: 25,000 JOD."
+  },
+  {
+    "id": "chunk_008_en",
+    "text": "Loan period: 12 months to 96 months."
+  },
+  {
+    "id": "chunk_009_en",
+    "text": "Customer's age at granting: 22-65 years."
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Maximum customer age at the end of the loan: 75 years."
+  },
+  {
+    "id": "chunk_011_en",
+    "text": "Debt burden: 50%."
+  },
+  {
+    "id": "chunk_012_en",
+    "text": "Debt burden as debtor and guarantor: 50%."
+  },
+  {
+    "id": "chunk_013_en",
+    "text": "Raising the ceiling: The ceiling cannot be raised."
+  },
+  {
+    "id": "chunk_014_en",
+    "text": "Interest rate: 10%."
+  },
+  {
+    "id": "chunk_015_en",
+    "text": "Granting commission: 1%."
+  },
+  {
+    "id": "chunk_016_en",
+    "text": "Early settlement commission: There is no partial settlement; it can be fully settled with a settlement commission of 1% on the principal amount."
+  },
+  {
+    "id": "chunk_017_en",
+    "text": "Life insurance commission: According to the card's insurance commission (0.1% on the utilized balance, with a minimum of one JOD)."
+  },
+  {
+    "id": "chunk_018_en",
+    "text": "Processing applications: Directly through the app."
+  },
+  {
+    "id": "chunk_019_en",
+    "text": "Card ceiling: The loan amount represents 90% of the card ceiling."
+  },
+  {
+    "id": "chunk_020_en",
+    "text": "Late interest: If the customer is late in paying two consecutive installments, a monthly interest of 1.5% is calculated on the remaining utilized balance."
+  },
+  {
+    "id": "chunk_021_en",
+    "text": "Installment deduction dates: If the loan is executed on the 15th of the month or earlier: The payment will be in the same month. If the loan is executed after the 15th of the month: The payment will be in the following month."
+  }
+]

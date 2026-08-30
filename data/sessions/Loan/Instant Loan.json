@@ -1,0 +1,314 @@
+[
+  {
+    "session_id": "InstantLoan-ar-001",
+    "subtopic": "Loan/Instant Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "INSTANTLOAN-Q003",
+        "question": "كيف يمكن الحصول على القرض الفوري من ناحية السرعة والمكان؟",
+        "expected_answer": "يمكن الحصول على القرض بسرعة فائقة من مكان تواجد العميل، وفي أي وقت من خلال التطبيق.",
+        "audio_file": "wav\\INSTANTLOAN-Q003.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "INSTANTLOAN-Q017",
+        "question": "كم عدد المرات التي يمكن فيها الحصول على قرض فوري؟",
+        "expected_answer": "يمكن الحصول على القرض الفوري مرة واحدة فقط.",
+        "audio_file": "wav\\INSTANTLOAN-Q017.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "INSTANTLOAN-Q009",
+        "question": "كيف يتم قيد مبلغ القرض الفوري؟",
+        "expected_answer": "يتم قيد مبلغ القرض مباشرةً في حساب العميل.",
+        "audio_file": "wav\\INSTANTLOAN-Q009.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "INSTANTLOAN-Q013",
+        "question": "ماذا يحدث لخيار القرض الفوري بعد أن يأخذه العميل؟",
+        "expected_answer": "يختفي خيار القرض الفوري للعميل بعد أخذه، ولا يمكنه أخذ قرض فوري آخر.",
+        "audio_file": "wav\\INSTANTLOAN-Q013.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "INSTANTLOAN-Q025",
+        "question": "ماذا يجب على العميل فعله إذا رغب في الحصول على مبلغ أعلى من القرض الفوري؟",
+        "expected_answer": "يجب على العميل زيارة الفرع وتقديم الطلب حسب السياسة الائتمانية.",
+        "audio_file": "wav\\INSTANTLOAN-Q025.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "INSTANTLOAN-Q015",
+        "question": "هل يمكن للعميل اختيار يوم سداد القرض الفوري؟",
+        "expected_answer": "نعم، يمكن للعميل اختيار اليوم الذي يريد السداد به، مثلاً كل 14 من الشهر.",
+        "audio_file": "wav\\INSTANTLOAN-Q015.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "INSTANTLOAN-Q027",
+        "question": "كم تبلغ عمولة المنح للقرض الفوري؟",
+        "expected_answer": "تبلغ عمولة المنح 1% من قيمة القرض، وذلك للسنة الأولى فقط. ويتم خصم العمولة أيضاً في حال طلب زيادة على رصيد القرض.",
+        "audio_file": "wav\\INSTANTLOAN-Q027.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "INSTANTLOAN-Q001",
+        "question": "ما هو القرض الفوري؟",
+        "expected_answer": "هو قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، يتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، دون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع.",
+        "audio_file": "wav\\INSTANTLOAN-Q001.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "INSTANTLOAN-Q023",
+        "question": "هل يمكن لجميع العملاء الحصول على قرض فوري؟",
+        "expected_answer": "لا، لأنه يتم اختيار العملاء بناءً على إجراءات محددة، وتكون قد تمت الموافقة على قرض العميل بشكل مسبق.",
+        "audio_file": "wav\\INSTANTLOAN-Q023.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "INSTANTLOAN-Q021",
+        "question": "على ماذا تعتمد مدة سداد القرض الفوري؟",
+        "expected_answer": "تعتمد مدة السداد على مبلغ القرض وعلى المدة المختارة من قبل العميل.",
+        "audio_file": "wav\\INSTANTLOAN-Q021.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "InstantLoan-ar-002",
+    "subtopic": "Loan/Instant Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "INSTANTLOAN-Q005",
+        "question": "هل يحتاج العميل لزيارة فرع للحصول على القرض الفوري؟",
+        "expected_answer": "لا، يتميز القرض الفوري بسهولة وسرعة الحصول عليه دون الحاجة إلى زيارة أي فرع.",
+        "audio_file": "wav\\INSTANTLOAN-Q005.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "INSTANTLOAN-Q007",
+        "question": "هل يمكن للعميل ترتيب دفعات القرض الفوري بما يناسبه؟",
+        "expected_answer": "نعم، تمنح التجربة العميل خياراً سلساً لترتيب الدفعات بما يتناسب معه.",
+        "audio_file": "wav\\INSTANTLOAN-Q007.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "INSTANTLOAN-Q011",
+        "question": "ما هي الشروط المطبقة على السداد المبكر للقرض الفوري؟",
+        "expected_answer": "تطبق شروط القرض الشخصي العادي بخصوص السداد المبكر.",
+        "audio_file": "wav\\INSTANTLOAN-Q011.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "INSTANTLOAN-Q019",
+        "question": "هل يمكن التقديم والحصول على القرض الفوري في أيام العطل الرسمية؟",
+        "expected_answer": "نعم، يمكن التقديم على القرض الفوري في أي وقت، بما في ذلك أيام العطل الرسمية.",
+        "audio_file": "wav\\INSTANTLOAN-Q019.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "INSTANTLOAN-Q015",
+        "question": "هل يمكن للعميل اختيار يوم سداد القرض الفوري؟",
+        "expected_answer": "نعم، يمكن للعميل اختيار اليوم الذي يريد السداد به، مثلاً كل 14 من الشهر.",
+        "audio_file": "wav\\INSTANTLOAN-Q015.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "INSTANTLOAN-Q003",
+        "question": "كيف يمكن الحصول على القرض الفوري من ناحية السرعة والمكان؟",
+        "expected_answer": "يمكن الحصول على القرض بسرعة فائقة من مكان تواجد العميل، وفي أي وقت من خلال التطبيق.",
+        "audio_file": "wav\\INSTANTLOAN-Q003.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "INSTANTLOAN-Q013",
+        "question": "ماذا يحدث لخيار القرض الفوري بعد أن يأخذه العميل؟",
+        "expected_answer": "يختفي خيار القرض الفوري للعميل بعد أخذه، ولا يمكنه أخذ قرض فوري آخر.",
+        "audio_file": "wav\\INSTANTLOAN-Q013.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "INSTANTLOAN-Q021",
+        "question": "على ماذا تعتمد مدة سداد القرض الفوري؟",
+        "expected_answer": "تعتمد مدة السداد على مبلغ القرض وعلى المدة المختارة من قبل العميل.",
+        "audio_file": "wav\\INSTANTLOAN-Q021.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "INSTANTLOAN-Q023",
+        "question": "هل يمكن لجميع العملاء الحصول على قرض فوري؟",
+        "expected_answer": "لا، لأنه يتم اختيار العملاء بناءً على إجراءات محددة، وتكون قد تمت الموافقة على قرض العميل بشكل مسبق.",
+        "audio_file": "wav\\INSTANTLOAN-Q023.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "INSTANTLOAN-Q017",
+        "question": "كم عدد المرات التي يمكن فيها الحصول على قرض فوري؟",
+        "expected_answer": "يمكن الحصول على القرض الفوري مرة واحدة فقط.",
+        "audio_file": "wav\\INSTANTLOAN-Q017.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "InstantLoan-en-001",
+    "subtopic": "Loan/Instant Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "INSTANTLOAN-Q014",
+        "question": "What happens to the Instant Loan option after the customer takes it?",
+        "expected_answer": "The Instant Loan option disappears for the customer after taking it, and they cannot take another instant loan.",
+        "audio_file": "wav\\INSTANTLOAN-Q014.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "INSTANTLOAN-Q020",
+        "question": "Can a customer apply for and obtain the Instant Loan on public holidays?",
+        "expected_answer": "Yes, a customer can apply for the Instant Loan at any time, including public holidays.",
+        "audio_file": "wav\\INSTANTLOAN-Q020.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "INSTANTLOAN-Q022",
+        "question": "What does the repayment period of the Instant Loan depend on?",
+        "expected_answer": "The repayment period depends on the loan amount and on the period chosen by the customer.",
+        "audio_file": "wav\\INSTANTLOAN-Q022.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "INSTANTLOAN-Q024",
+        "question": "Can all customers get an instant loan?",
+        "expected_answer": "No, because customers are selected based on specific procedures, and the customer's loan has been pre-approved.",
+        "audio_file": "wav\\INSTANTLOAN-Q024.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "INSTANTLOAN-Q006",
+        "question": "Does the customer need to visit a branch to obtain the Instant Loan?",
+        "expected_answer": "No, the Instant Loan is characterized by ease and speed of obtaining it without the need to visit any branch.",
+        "audio_file": "wav\\INSTANTLOAN-Q006.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "INSTANTLOAN-Q008",
+        "question": "Can the customer arrange the Instant Loan payments to suit them?",
+        "expected_answer": "Yes, the experience gives the customer a seamless option to arrange payments in a way that suits them.",
+        "audio_file": "wav\\INSTANTLOAN-Q008.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "INSTANTLOAN-Q016",
+        "question": "Can the customer choose the repayment day for the Instant Loan?",
+        "expected_answer": "Yes, the customer can choose the day they want to pay, for example every 14th of the month.",
+        "audio_file": "wav\\INSTANTLOAN-Q016.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "INSTANTLOAN-Q028",
+        "question": "What is the granting commission for the Instant Loan?",
+        "expected_answer": "The granting commission is 1% of the loan value, for the first year only. The commission is also deducted in case of requesting an increase on the loan balance.",
+        "audio_file": "wav\\INSTANTLOAN-Q028.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "INSTANTLOAN-Q018",
+        "question": "How many times can an instant loan be obtained?",
+        "expected_answer": "An instant loan can be obtained only once.",
+        "audio_file": "wav\\INSTANTLOAN-Q018.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "INSTANTLOAN-Q010",
+        "question": "How is the Instant Loan amount credited?",
+        "expected_answer": "The loan amount is credited directly into the customer's account.",
+        "audio_file": "wav\\INSTANTLOAN-Q010.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "InstantLoan-en-002",
+    "subtopic": "Loan/Instant Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "INSTANTLOAN-Q002",
+        "question": "What is the Instant Loan?",
+        "expected_answer": "It is an instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch.",
+        "audio_file": "wav\\INSTANTLOAN-Q002.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "INSTANTLOAN-Q026",
+        "question": "What should a customer do if they want to obtain a higher amount than the Instant Loan offers?",
+        "expected_answer": "The customer must visit the branch and submit an application according to the credit policy.",
+        "audio_file": "wav\\INSTANTLOAN-Q026.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "INSTANTLOAN-Q012",
+        "question": "What terms apply to early settlement of the Instant Loan?",
+        "expected_answer": "Standard personal loan terms apply regarding early settlement.",
+        "audio_file": "wav\\INSTANTLOAN-Q012.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "INSTANTLOAN-Q004",
+        "question": "How can the Instant Loan be obtained in terms of speed and location?",
+        "expected_answer": "The loan can be obtained extremely quickly from wherever the customer is, at any time through the app.",
+        "audio_file": "wav\\INSTANTLOAN-Q004.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "INSTANTLOAN-Q016",
+        "question": "Can the customer choose the repayment day for the Instant Loan?",
+        "expected_answer": "Yes, the customer can choose the day they want to pay, for example every 14th of the month.",
+        "audio_file": "wav\\INSTANTLOAN-Q016.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "INSTANTLOAN-Q014",
+        "question": "What happens to the Instant Loan option after the customer takes it?",
+        "expected_answer": "The Instant Loan option disappears for the customer after taking it, and they cannot take another instant loan.",
+        "audio_file": "wav\\INSTANTLOAN-Q014.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "INSTANTLOAN-Q024",
+        "question": "Can all customers get an instant loan?",
+        "expected_answer": "No, because customers are selected based on specific procedures, and the customer's loan has been pre-approved.",
+        "audio_file": "wav\\INSTANTLOAN-Q024.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "INSTANTLOAN-Q010",
+        "question": "How is the Instant Loan amount credited?",
+        "expected_answer": "The loan amount is credited directly into the customer's account.",
+        "audio_file": "wav\\INSTANTLOAN-Q010.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "INSTANTLOAN-Q018",
+        "question": "How many times can an instant loan be obtained?",
+        "expected_answer": "An instant loan can be obtained only once.",
+        "audio_file": "wav\\INSTANTLOAN-Q018.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "INSTANTLOAN-Q008",
+        "question": "Can the customer arrange the Instant Loan payments to suit them?",
+        "expected_answer": "Yes, the experience gives the customer a seamless option to arrange payments in a way that suits them.",
+        "audio_file": "wav\\INSTANTLOAN-Q008.wav"
+      }
+    ]
+  }
+]

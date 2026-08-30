@@ -1,0 +1,674 @@
+[
+  {
+    "id": "PLCC-Q001",
+    "pair_id": "PLCC-P001",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "هو قرض يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويصدر مقابله بطاقة ائتمانية بدون عمولة لأول سنة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته.",
+    "source_chunks": [
+      "القرض الفوري مقابل بطاقة ائتمانية يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويتم إصدار بطاقة ائتمانية مقابل القرض، وتُصدر لأول سنة بدون عمولة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته."
+    ],
+    "chunk_ids": [
+      "chunk_001"
+    ],
+    "audio_file": "wav\\PLCC-Q001.wav"
+  },
+  {
+    "id": "PLCC-Q002",
+    "pair_id": "PLCC-P001",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the Instant Loan Against a Credit Card?",
+    "expected_answer": "It is a loan offered through the app, where the amount is transferred to the account within a short period. A credit card is issued against it, provided without a commission for the first year, after which there is an annual renewal commission that varies according to the card category. It cannot be rescheduled or restructured.",
+    "source_chunks": [
+      "The Instant Loan Against a Credit Card is offered through the app, and the amount is transferred to the account within a short period. A credit card is issued against the loan, provided without a commission for the first year, after which there is an annual renewal commission that varies according to the card category. It cannot be rescheduled or restructured."
+    ],
+    "chunk_ids": [
+      "chunk_001_en"
+    ],
+    "audio_file": "wav\\PLCC-Q002.wav"
+  },
+  {
+    "id": "PLCC-Q003",
+    "pair_id": "PLCC-P002",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو الحد الأدنى لمدة الخدمة للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "الحد الأدنى لمدة الخدمة في العمل الحالي هو 3 شهور للشركات المعتمدة، و6 شهور للشركات غير المعتمدة، مع وجود 12 اشتراك ضمان اجتماعي خلال آخر سنة.",
+    "source_chunks": [
+      "الحد الأدنى لمدة الخدمة في العمل الحالي (وجود 12 اشتراك ضمان اجتماعي لآخر سنة): 3 شهور للشركات المعتمدة، و6 شهور للشركات غير المعتمدة."
+    ],
+    "chunk_ids": [
+      "chunk_002"
+    ],
+    "audio_file": "wav\\PLCC-Q003.wav"
+  },
+  {
+    "id": "PLCC-Q004",
+    "pair_id": "PLCC-P002",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the minimum length of service to obtain the Instant Loan Against a Credit Card?",
+    "expected_answer": "The minimum service period in the current job is 3 months for approved companies, and 6 months for unapproved companies, with 12 Social Security contributions for the last year.",
+    "source_chunks": [
+      "Minimum service period in the current job (having 12 Social Security contributions for the last year): 3 months for approved companies, 6 months for unapproved companies."
+    ],
+    "chunk_ids": [
+      "chunk_002_en"
+    ],
+    "audio_file": "wav\\PLCC-Q004.wav"
+  },
+  {
+    "id": "PLCC-Q005",
+    "pair_id": "PLCC-P003",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو الحد الأدنى للراتب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "الحد الأدنى للراتب هو 450 دينار.",
+    "source_chunks": [
+      "الراتب الأدنى: 450 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_003"
+    ],
+    "audio_file": "wav\\PLCC-Q005.wav"
+  },
+  {
+    "id": "PLCC-Q006",
+    "pair_id": "PLCC-P003",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the minimum salary to obtain the Instant Loan Against a Credit Card?",
+    "expected_answer": "The minimum salary is 450 JOD.",
+    "source_chunks": [
+      "Minimum salary: 450 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_003_en"
+    ],
+    "audio_file": "wav\\PLCC-Q006.wav"
+  },
+  {
+    "id": "PLCC-Q007",
+    "pair_id": "PLCC-P004",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "هل يشترط أن تكون جهة العمل معتمدة للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "لا، لا يُشترط أن تكون جهة العمل معتمدة.",
+    "source_chunks": [
+      "جهة العمل معتمدة: غير مشترط."
+    ],
+    "chunk_ids": [
+      "chunk_004"
+    ],
+    "audio_file": "wav\\PLCC-Q007.wav"
+  },
+  {
+    "id": "PLCC-Q008",
+    "pair_id": "PLCC-P004",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "Is it required that the employer be an approved company to obtain the Instant Loan Against a Credit Card?",
+    "expected_answer": "No, an approved employer is not required.",
+    "source_chunks": [
+      "Approved employer: Not required."
+    ],
+    "chunk_ids": [
+      "chunk_004_en"
+    ],
+    "audio_file": "wav\\PLCC-Q008.wav"
+  },
+  {
+    "id": "PLCC-Q009",
+    "pair_id": "PLCC-P005",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "هل يشترط تحويل الراتب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "لا، لا يُشترط تحويل الراتب.",
+    "source_chunks": [
+      "تحويل الراتب: غير مشترط."
+    ],
+    "chunk_ids": [
+      "chunk_005"
+    ],
+    "audio_file": "wav\\PLCC-Q009.wav"
+  },
+  {
+    "id": "PLCC-Q010",
+    "pair_id": "PLCC-P005",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "Is salary transfer required to obtain the Instant Loan Against a Credit Card?",
+    "expected_answer": "No, salary transfer is not required.",
+    "source_chunks": [
+      "Salary transfer: Not required."
+    ],
+    "chunk_ids": [
+      "chunk_005_en"
+    ],
+    "audio_file": "wav\\PLCC-Q010.wav"
+  },
+  {
+    "id": "PLCC-Q011",
+    "pair_id": "PLCC-P006",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو الحد الأدنى لمبلغ القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "الحد الأدنى لمبلغ القرض هو 1,000 دينار.",
+    "source_chunks": [
+      "الحد الأدنى لمبلغ القرض: 1,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_006"
+    ],
+    "audio_file": "wav\\PLCC-Q011.wav"
+  },
+  {
+    "id": "PLCC-Q012",
+    "pair_id": "PLCC-P006",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the minimum amount for the Instant Loan Against a Credit Card?",
+    "expected_answer": "The minimum loan amount is 1,000 JOD.",
+    "source_chunks": [
+      "Minimum loan amount: 1,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_006_en"
+    ],
+    "audio_file": "wav\\PLCC-Q012.wav"
+  },
+  {
+    "id": "PLCC-Q013",
+    "pair_id": "PLCC-P007",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو الحد الأقصى لمبلغ القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "الحد الأقصى لمبلغ القرض هو 25,000 دينار.",
+    "source_chunks": [
+      "الحد الأقصى لمبلغ القرض: 25,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_007"
+    ],
+    "audio_file": "wav\\PLCC-Q013.wav"
+  },
+  {
+    "id": "PLCC-Q014",
+    "pair_id": "PLCC-P007",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the maximum amount for the Instant Loan Against a Credit Card?",
+    "expected_answer": "The maximum loan amount is 25,000 JOD.",
+    "source_chunks": [
+      "Maximum loan amount: 25,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_007_en"
+    ],
+    "audio_file": "wav\\PLCC-Q014.wav"
+  },
+  {
+    "id": "PLCC-Q015",
+    "pair_id": "PLCC-P008",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هي مدة القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "تتراوح مدة القرض بين 12 و96 شهراً.",
+    "source_chunks": [
+      "مدة القرض: 12 شهر إلى 96 شهر."
+    ],
+    "chunk_ids": [
+      "chunk_008"
+    ],
+    "audio_file": "wav\\PLCC-Q015.wav"
+  },
+  {
+    "id": "PLCC-Q016",
+    "pair_id": "PLCC-P008",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the period of the Instant Loan Against a Credit Card?",
+    "expected_answer": "The loan period ranges from 12 to 96 months.",
+    "source_chunks": [
+      "Loan period: 12 months to 96 months."
+    ],
+    "chunk_ids": [
+      "chunk_008_en"
+    ],
+    "audio_file": "wav\\PLCC-Q016.wav"
+  },
+  {
+    "id": "PLCC-Q017",
+    "pair_id": "PLCC-P009",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو الحد الأدنى لعمر العميل عند منح القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "الحد الأدنى لعمر العميل عند المنح يتراوح بين 22 و65 سنة.",
+    "source_chunks": [
+      "الحد الأدنى لعمر العميل عند المنح: 22-65 سنة."
+    ],
+    "chunk_ids": [
+      "chunk_009"
+    ],
+    "audio_file": "wav\\PLCC-Q017.wav"
+  },
+  {
+    "id": "PLCC-Q018",
+    "pair_id": "PLCC-P009",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the customer's age requirement at granting for the Instant Loan Against a Credit Card?",
+    "expected_answer": "The customer's age at granting ranges from 22 to 65 years.",
+    "source_chunks": [
+      "Customer's age at granting: 22-65 years."
+    ],
+    "chunk_ids": [
+      "chunk_009_en"
+    ],
+    "audio_file": "wav\\PLCC-Q018.wav"
+  },
+  {
+    "id": "PLCC-Q019",
+    "pair_id": "PLCC-P010",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو الحد الأعلى لعمر العميل عند انتهاء القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "الحد الأعلى لعمر العميل عند انتهاء القرض هو 75 سنة.",
+    "source_chunks": [
+      "الحد الأعلى لعمر العميل عند انتهاء القرض: 75 سنة."
+    ],
+    "chunk_ids": [
+      "chunk_010"
+    ],
+    "audio_file": "wav\\PLCC-Q019.wav"
+  },
+  {
+    "id": "PLCC-Q020",
+    "pair_id": "PLCC-P010",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the maximum customer age at the end of the Instant Loan Against a Credit Card?",
+    "expected_answer": "The maximum customer age at the end of the loan is 75 years.",
+    "source_chunks": [
+      "Maximum customer age at the end of the loan: 75 years."
+    ],
+    "chunk_ids": [
+      "chunk_010_en"
+    ],
+    "audio_file": "wav\\PLCC-Q020.wav"
+  },
+  {
+    "id": "PLCC-Q021",
+    "pair_id": "PLCC-P011",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هي نسبة عبء الدين للقرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "نسبة عبء الدين 50%.",
+    "source_chunks": [
+      "عبء الدين: 50%."
+    ],
+    "chunk_ids": [
+      "chunk_011"
+    ],
+    "audio_file": "wav\\PLCC-Q021.wav"
+  },
+  {
+    "id": "PLCC-Q022",
+    "pair_id": "PLCC-P011",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the debt burden for the Instant Loan Against a Credit Card?",
+    "expected_answer": "The debt burden is 50%.",
+    "source_chunks": [
+      "Debt burden: 50%."
+    ],
+    "chunk_ids": [
+      "chunk_011_en"
+    ],
+    "audio_file": "wav\\PLCC-Q022.wav"
+  },
+  {
+    "id": "PLCC-Q023",
+    "pair_id": "PLCC-P012",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل للقرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 50%.",
+    "source_chunks": [
+      "عبء الدين كمدين وكفيل: 50%."
+    ],
+    "chunk_ids": [
+      "chunk_012"
+    ],
+    "audio_file": "wav\\PLCC-Q023.wav"
+  },
+  {
+    "id": "PLCC-Q024",
+    "pair_id": "PLCC-P012",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the debt burden ratio when there is a debtor and a guarantor for the Instant Loan Against a Credit Card?",
+    "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 50%.",
+    "source_chunks": [
+      "Debt burden as debtor and guarantor: 50%."
+    ],
+    "chunk_ids": [
+      "chunk_012_en"
+    ],
+    "audio_file": "wav\\PLCC-Q024.wav"
+  },
+  {
+    "id": "PLCC-Q025",
+    "pair_id": "PLCC-P013",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "هل يمكن رفع سقف القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "لا، لا يمكن رفع سقف هذا القرض.",
+    "source_chunks": [
+      "رفع سقف القرض: لا يمكن رفع السقف."
+    ],
+    "chunk_ids": [
+      "chunk_013"
+    ],
+    "audio_file": "wav\\PLCC-Q025.wav"
+  },
+  {
+    "id": "PLCC-Q026",
+    "pair_id": "PLCC-P013",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "Can the ceiling of the Instant Loan Against a Credit Card be raised?",
+    "expected_answer": "No, the ceiling of this loan cannot be raised.",
+    "source_chunks": [
+      "Raising the ceiling: The ceiling cannot be raised."
+    ],
+    "chunk_ids": [
+      "chunk_013_en"
+    ],
+    "audio_file": "wav\\PLCC-Q026.wav"
+  },
+  {
+    "id": "PLCC-Q027",
+    "pair_id": "PLCC-P014",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هو سعر الفائدة على القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "سعر الفائدة 10%.",
+    "source_chunks": [
+      "سعر الفائدة: 10%."
+    ],
+    "chunk_ids": [
+      "chunk_014"
+    ],
+    "audio_file": "wav\\PLCC-Q027.wav"
+  },
+  {
+    "id": "PLCC-Q028",
+    "pair_id": "PLCC-P014",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the interest rate on the Instant Loan Against a Credit Card?",
+    "expected_answer": "The interest rate is 10%.",
+    "source_chunks": [
+      "Interest rate: 10%."
+    ],
+    "chunk_ids": [
+      "chunk_014_en"
+    ],
+    "audio_file": "wav\\PLCC-Q028.wav"
+  },
+  {
+    "id": "PLCC-Q029",
+    "pair_id": "PLCC-P015",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "كم تبلغ عمولة المنح للقرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "تبلغ عمولة المنح 1%.",
+    "source_chunks": [
+      "عمولة منح: 1%."
+    ],
+    "chunk_ids": [
+      "chunk_015"
+    ],
+    "audio_file": "wav\\PLCC-Q029.wav"
+  },
+  {
+    "id": "PLCC-Q030",
+    "pair_id": "PLCC-P015",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What is the granting commission for the Instant Loan Against a Credit Card?",
+    "expected_answer": "The granting commission is 1%.",
+    "source_chunks": [
+      "Granting commission: 1%."
+    ],
+    "chunk_ids": [
+      "chunk_015_en"
+    ],
+    "audio_file": "wav\\PLCC-Q030.wav"
+  },
+  {
+    "id": "PLCC-Q031",
+    "pair_id": "PLCC-P016",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "هل يمكن السداد المبكر الجزئي للقرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "لا يوجد سداد جزئي، ولكن يمكن سداد القرض بشكل كامل بعمولة سداد نسبتها 1% على أصل المبلغ.",
+    "source_chunks": [
+      "عمولة السداد المبكر: لا يوجد سداد جزئي، يمكن سداده بشكل كامل بعمولة سداد نسبتها 1% على أصل المبلغ."
+    ],
+    "chunk_ids": [
+      "chunk_016"
+    ],
+    "audio_file": "wav\\PLCC-Q031.wav"
+  },
+  {
+    "id": "PLCC-Q032",
+    "pair_id": "PLCC-P016",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "Is partial early settlement possible for the Instant Loan Against a Credit Card?",
+    "expected_answer": "There is no partial settlement; the loan can be fully settled with a settlement commission of 1% on the principal amount.",
+    "source_chunks": [
+      "Early settlement commission: There is no partial settlement; it can be fully settled with a settlement commission of 1% on the principal amount."
+    ],
+    "chunk_ids": [
+      "chunk_016_en"
+    ],
+    "audio_file": "wav\\PLCC-Q032.wav"
+  },
+  {
+    "id": "PLCC-Q033",
+    "pair_id": "PLCC-P017",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "كيف تُحسب عمولة التأمين على الحياة للقرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "تُحسب عمولة التأمين على الحياة حسب عمولة التأمين الخاصة بالبطاقة، وهي 0.1% على الرصيد المستغل بحد أدنى دينار واحد.",
+    "source_chunks": [
+      "عمولة التأمين على الحياة: حسب عمولة التأمين للبطاقة (0.1% على الرصيد المستغل بحد أدنى دينار)."
+    ],
+    "chunk_ids": [
+      "chunk_017"
+    ],
+    "audio_file": "wav\\PLCC-Q033.wav"
+  },
+  {
+    "id": "PLCC-Q034",
+    "pair_id": "PLCC-P017",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "How is the life insurance commission calculated for the Instant Loan Against a Credit Card?",
+    "expected_answer": "The life insurance commission is calculated according to the card's insurance commission, which is 0.1% on the utilized balance, with a minimum of one JOD.",
+    "source_chunks": [
+      "Life insurance commission: According to the card's insurance commission (0.1% on the utilized balance, with a minimum of one JOD)."
+    ],
+    "chunk_ids": [
+      "chunk_017_en"
+    ],
+    "audio_file": "wav\\PLCC-Q034.wav"
+  },
+  {
+    "id": "PLCC-Q035",
+    "pair_id": "PLCC-P018",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "كيف يتم تقديم طلبات القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "يتم تمرير الطلبات مباشرة من خلال التطبيق.",
+    "source_chunks": [
+      "تمرير الطلبات: مباشرة من خلال التطبيق."
+    ],
+    "chunk_ids": [
+      "chunk_018"
+    ],
+    "audio_file": "wav\\PLCC-Q035.wav"
+  },
+  {
+    "id": "PLCC-Q036",
+    "pair_id": "PLCC-P018",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "How are applications for the Instant Loan Against a Credit Card submitted?",
+    "expected_answer": "Applications are processed directly through the app.",
+    "source_chunks": [
+      "Processing applications: Directly through the app."
+    ],
+    "chunk_ids": [
+      "chunk_018_en"
+    ],
+    "audio_file": "wav\\PLCC-Q036.wav"
+  },
+  {
+    "id": "PLCC-Q037",
+    "pair_id": "PLCC-P019",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "كيف يُحدد مبلغ القرض بالنسبة لسقف البطاقة؟",
+    "expected_answer": "مبلغ القرض يمثل 90% من سقف البطاقة.",
+    "source_chunks": [
+      "سقف البطاقة: مبلغ القرض هو عبارة عن 90% من سقف البطاقة."
+    ],
+    "chunk_ids": [
+      "chunk_019"
+    ],
+    "audio_file": "wav\\PLCC-Q037.wav"
+  },
+  {
+    "id": "PLCC-Q038",
+    "pair_id": "PLCC-P019",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "How is the loan amount determined relative to the card ceiling?",
+    "expected_answer": "The loan amount represents 90% of the card ceiling.",
+    "source_chunks": [
+      "Card ceiling: The loan amount represents 90% of the card ceiling."
+    ],
+    "chunk_ids": [
+      "chunk_019_en"
+    ],
+    "audio_file": "wav\\PLCC-Q038.wav"
+  },
+  {
+    "id": "PLCC-Q039",
+    "pair_id": "PLCC-P020",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ماذا يحدث إذا تأخر العميل في سداد قسطين متتاليين من القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "يتم احتساب فائدة تأخير نسبتها 1.5% شهرياً على الرصيد المتبقي المستغل.",
+    "source_chunks": [
+      "فائدة التأخير: في حال تأخر العميل بسداد قسطين متتاليين يتم احتساب فائدة 1.5% شهرياً على الرصيد المتبقي المستغل."
+    ],
+    "chunk_ids": [
+      "chunk_020"
+    ],
+    "audio_file": "wav\\PLCC-Q039.wav"
+  },
+  {
+    "id": "PLCC-Q040",
+    "pair_id": "PLCC-P020",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What happens if the customer is late in paying two consecutive installments of the Instant Loan Against a Credit Card?",
+    "expected_answer": "A late interest of 1.5% monthly is calculated on the remaining utilized balance.",
+    "source_chunks": [
+      "Late interest: If the customer is late in paying two consecutive installments, a monthly interest of 1.5% is calculated on the remaining utilized balance."
+    ],
+    "chunk_ids": [
+      "chunk_020_en"
+    ],
+    "audio_file": "wav\\PLCC-Q040.wav"
+  },
+  {
+    "id": "PLCC-Q041",
+    "pair_id": "PLCC-P021",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "ما هي مواعيد اقتطاع دفعات القرض الفوري مقابل بطاقة ائتمانية؟",
+    "expected_answer": "إذا تم تنفيذ القرض في اليوم 15 من الشهر أو قبله، تكون الدفعة في نفس الشهر. أما إذا تم تنفيذ القرض بعد اليوم 15 من الشهر، تكون الدفعة في الشهر التالي.",
+    "source_chunks": [
+      "مواعيد اقتطاع الدفعات: في حال تم تنفيذ القرض بـ 15 الشهر وقبل: تكون الدفعة بنفس الشهر. أما في حال تنفيذ القرض بعد 15 الشهر: تكون الدفعة بالشهر التالي."
+    ],
+    "chunk_ids": [
+      "chunk_021"
+    ],
+    "audio_file": "wav\\PLCC-Q041.wav"
+  },
+  {
+    "id": "PLCC-Q042",
+    "pair_id": "PLCC-P021",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "PLCC",
+    "question": "What are the installment deduction dates for the Instant Loan Against a Credit Card?",
+    "expected_answer": "If the loan is executed on the 15th of the month or earlier, the payment will be in the same month. If the loan is executed after the 15th of the month, the payment will be in the following month.",
+    "source_chunks": [
+      "Installment deduction dates: If the loan is executed on the 15th of the month or earlier: The payment will be in the same month. If the loan is executed after the 15th of the month: The payment will be in the following month."
+    ],
+    "chunk_ids": [
+      "chunk_021_en"
+    ],
+    "audio_file": "wav\\PLCC-Q042.wav"
+  }
+]

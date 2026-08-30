@@ -1,0 +1,874 @@
+[
+  {
+    "id": "chunk_001",
+    "text": "لفئة 1: معلومات القرض الشخصي بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65) و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "chunk_002",
+    "text": "عبء الدين للرواتب الأقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار."
+  },
+  {
+    "id": "chunk_003",
+    "text": "عبء الدين للرواتب الأكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+  },
+  {
+    "id": "chunk_004",
+    "text": "في حال القطاع الأمني أو العسكري أو راتب أقل من 450 دينار يكون عبء الدين 35%."
+  },
+  {
+    "id": "chunk_005",
+    "text": "عبء الدين كمدين وكفيل: 70%."
+  },
+  {
+    "id": "chunk_006",
+    "text": "الحد الأدنى لصافي الدخل بشكل عام: 450 دينار."
+  },
+  {
+    "id": "chunk_007",
+    "text": "الحد الأدنى لصافي الدخل في حال الأجهزة الأمنية والعسكرية: 1,000 دينار."
+  },
+  {
+    "id": "chunk_008",
+    "text": "الحد الأدنى لصافي الدخل في حال المهنيين وأطباء الأسنان والأطباء أصحاب العيادات: 2,000 دينار."
+  },
+  {
+    "id": "chunk_009",
+    "text": "الحد الأدنى لصافي الدخل في حال الأعمال الحرة من غير سجلات: 1,000 دينار."
+  },
+  {
+    "id": "chunk_010",
+    "text": "عمولة المنح: 1%."
+  },
+  {
+    "id": "chunk_011",
+    "text": "مبلغ القرض بشكل عام: 2,000 – 110,000 دينار."
+  },
+  {
+    "id": "chunk_012",
+    "text": "مبلغ القرض للمبيعات: 2,000 – 20,000 دينار."
+  },
+  {
+    "id": "chunk_013",
+    "text": "مبلغ القرض لأصحاب العيادات: 2,000 – 110,000 دينار، و2,000 – 100,000 دينار في المحافظات."
+  },
+  {
+    "id": "chunk_014",
+    "text": "مبلغ القرض للمهنيين وأطباء الأسنان: 2,000 – 70,000 دينار."
+  },
+  {
+    "id": "chunk_015",
+    "text": "مبلغ القرض للأعمال الحرة بدون سجلات تجارية: 2,000 – 25,000 دينار."
+  },
+  {
+    "id": "chunk_016",
+    "text": "مدة القرض بشكل عام: 12 – 96 شهر."
+  },
+  {
+    "id": "chunk_017",
+    "text": "مدة القرض في حال المهنيين والأعمال الحرة: 12 – 84 شهر."
+  },
+  {
+    "id": "chunk_018",
+    "text": "مدة القرض في حال الأعمال الحرة من غير سجلات: 12 – 60 شهر."
+  },
+  {
+    "id": "chunk_019",
+    "text": "الشروط بشكل عام - تأجيل الدفعات: يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الأقساط."
+  },
+  {
+    "id": "chunk_020",
+    "text": "شراء قروض من بنوك أخرى: الحد الأدنى لقيمة القرض 2,000 دينار على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزامات عن 500 دينار."
+  },
+  {
+    "id": "chunk_021",
+    "text": "شراء قروض من بنوك أخرى: ملتزم بالسداد ولا توجد أي مستحقة عليه عند تقديم الطلب."
+  },
+  {
+    "id": "chunk_022",
+    "text": "معايير المنح لشراء قروض من بنوك أخرى: حسب الفئة المستهدفة ومدة سداد القرض ونسبة الالتزام من الدخل (DBR) ومبلغ القرض، مضاعفات الراتب أو الدخل حسب البرنامج المعمول به. تمويل عمولة التسديد المبكر لدى البنك الآخر."
+  },
+  {
+    "id": "chunk_023",
+    "text": "رسوم التأمين - تأمين على حياة المدين: الموافقة التلقائية ضمن بوليصة التأمين الجماعية: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض أقل من 100,000 دينار."
+  },
+  {
+    "id": "chunk_024",
+    "text": "يتم رفع سقف القرض شريطة: تقديم العميل لتعهد استمرارية تحويل راتب من نفس الشركة عند المنح."
+  },
+  {
+    "id": "chunk_025",
+    "text": "يتم رفع سقف القرض شريطة: أن يكون ملتزم بالسداد ولا توجد عليه أي مستحقة أكثر من 30 يوم على نظام كريف لآخر 12 شهر."
+  },
+  {
+    "id": "chunk_026",
+    "text": "يتم رفع سقف القرض شريطة: الاعتذار حصراً في حال وجود قضايا آخر 3 سنوات كمدين أو كفيل للزوج/الزوجة، باستثناء قضايا القتل العمد والمخدرات والاختلاس وقضايا الشرف، أو ظهور القضية بعد تاريخ المنح الأصلي."
+  },
+  {
+    "id": "chunk_027",
+    "text": "شروط التمويل الإضافي (زيادة الرصيد): الحد الأدنى لقيمة الزيادة على رصيد القرض الحالي: 500 دينار. عبء الدين لغاية حسب قطاع العميل. قروض رفع السقف وإعادة الجدولة يتم قبول الراتب صافي 450 دينار لجميع القطاعات أو 350 دينار للمهنيين وأصحاب الأعمال الحرة."
+  },
+  {
+    "id": "chunk_028",
+    "text": "لفئة 2: قرض شخصي (القطاع الأمني والعسكري). الأجهزة الأمنية والعسكرية: قوات الدرك، والأمن العام، والقوات المسلحة، وسلاح الجو، والمخابرات العامة، والدفاع المدني."
+  },
+  {
+    "id": "chunk_029",
+    "text": "مدة الخدمة: الحد الأدنى 36 شهر. الملازم وأعلى: 24 شهر. الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر."
+  },
+  {
+    "id": "chunk_030",
+    "text": "شروط رفع السقف: 1) الحد الأدنى لصافي الراتب 450 دينار حسب المنتج. 2) إضافة كفالة الزوجة للمتزوجين، والغير متزوجين كفالة الأم أو الشقيقة. 3) يشترط مرور سنة على المنح الأصلي أو مرور سنة عن كل آخر زيادة للقرض."
+  },
+  {
+    "id": "chunk_031",
+    "text": "عملاء الاقتطاع: يتم قبول قيمة الاقتطاع قيمة القسط + 50 دينار. المخابرات يتم قبول قيمة القسط + 20 دينار."
+  },
+  {
+    "id": "chunk_032",
+    "text": "الحد الأقصى للعمر مع نهاية آخر قسط: الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى. إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+  },
+  {
+    "id": "chunk_033",
+    "text": "خضوع العميل بالضمان الاجتماعي: نعم. تعهد تحويل راتب: نعم. الحد الأقصى لمدة العمل: حسب قطاع العميل."
+  },
+  {
+    "id": "chunk_034",
+    "text": "الوثائق المطلوبة: وثيقة إثبات الشخصية سارية المفعول (الهوية العسكرية/شهادة التعيين، تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور. تعهد تحويل راتب أصولي حسب الصيغة المعتمدة من البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول). شهادة التزامات في حال وجود التزام. عدم اشتراط تقديم كشف حساب لمدة 6 أشهر لتوثيق الدخل للعسكريين (غير المحولة رواتبهم) على أن يتم إثبات قبض الراتب نقداً بموجب 3 قسائم راتب، أو كتاب من المالية أو مأمور الصرف."
+  },
+  {
+    "id": "chunk_035",
+    "text": "شروط إضافية: استثناء الحصول على تعهد تحويل الراتب المشروط من الجهات التالية: الأجهزة الأمنية، الجامعة الأردنية، مستشفى الأمير حمزة، سلاح الجو الملكي الأردني، والضمان الاجتماعي للمستفيدين، والاكتفاء بالحصول على تفويض من العميل بسداد مديونيته واستلام براءة الذمة من موظف الفرع وتسليمها لجهة العمل."
+  },
+  {
+    "id": "chunk_036",
+    "text": "للتمويل المشترك يقبل تحويل راتب واحد فقط للعميل الأساسي إذا كان مبلغ الراتب المحول أكبر من أو يساوي 110% من القسط الشهري (معدل التغطية <= 110%)."
+  },
+  {
+    "id": "chunk_037",
+    "text": "ينطبق مجموع صافي الدخل المحتسب للقروض المشتركة على سعر الفائدة حيث يتم التسعير على صافي الدخول معاً."
+  },
+  {
+    "id": "chunk_038",
+    "text": "يجب أن لا يتجاوز عمر العميل الذكر عن 60 سنة في نهاية القرض (باستثناء المتقاعدين)."
+  },
+  {
+    "id": "chunk_039",
+    "text": "يجب أن لا يتجاوز عمر العميل الأنثى عن 55 سنة في نهاية القرض (باستثناء المتقاعدين)."
+  },
+  {
+    "id": "chunk_040",
+    "text": "متقاعدين الضمان الاجتماعي المبكر، العميل الذكر: يجب أن لا يقل العمر عن 50 سنة."
+  },
+  {
+    "id": "chunk_041",
+    "text": "متقاعدين الضمان الاجتماعي المبكر، العميل الأنثى: يجب أن لا يقل العمر عن 45 سنة."
+  },
+  {
+    "id": "chunk_042",
+    "text": "لفئة 3: قرض شخصي (المهنيين). الجزء 1: لأصحاب العيادات. تمويل شراء عيادة جديدة أو شراء قرض تمويل العيادة من البنوك الأخرى بالإضافة إلى تمويل صيانة، توسعة أو عمل ديكور (سيولة نقدية) بضمان رهن العيادة أو العقار. الخبرة العملية للعميل: ألا تقل عن سنتين من تاريخ تأسيس العيادة الخاصة."
+  },
+  {
+    "id": "chunk_043",
+    "text": "المستندات المطلوبة للقرض الشخصي للمهنيين (الأطباء أصحاب العيادات): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة."
+  },
+  {
+    "id": "chunk_044",
+    "text": "الجزء 2: للمهنيين، أطباء الأسنان. الأطباء والمهندسين والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين وحاملو الشهادات المالية الذين لديهم أعمال خاصة بهم. أصحاب الأعمال الحرة. الأطباء أصحاب العيادات."
+  },
+  {
+    "id": "chunk_045",
+    "text": "المتطلبات والمعايير (الجزء 2): الخبرة العملية للعميل: سنتين. الحد الأدنى لعمر الشركة: سنتين. شروط التمويل: لا ينطبق. عمولة إعادة الهيكلة: 5 دنانير. عمولة رفع رصيد: 1% من مبلغ الزيادة. صلاحية الموافقة: تنتهي صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية بعد مضي 45 يوم (شهر ونصف)."
+  },
+  {
+    "id": "chunk_046",
+    "text": "الوثائق المطلوبة (الجزء 2): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة."
+  },
+  {
+    "id": "chunk_047",
+    "text": "الجزء 3: الأعمال الحرة بدون سجلات تجارية. أصحاب الأعمال الحرة بدون سجلات تجارية (المغنيين، المؤثرون على مواقع التواصل الاجتماعي، التقنيين، المستشارين)."
+  },
+  {
+    "id": "chunk_048",
+    "text": "المتطلبات والمعايير (الجزء 3) - شروط التمويل: معدل صرف 1,000 دينار فما فوق عبر الشراء عن طريق بطاقة القيد الفوري أو البطاقة المدفوعة مسبقاً لآخر 6 شهور."
+  },
+  {
+    "id": "chunk_049",
+    "text": "لفئة 4: القطاع العام. الوزارات والمؤسسات الحكومية، المؤسسات شبه الحكومية والمؤسسات غير الربحية التي تدار من خلال الحكومة أو أي من أذرعها."
+  },
+  {
+    "id": "chunk_050",
+    "text": "عملاء الاقتطاع (القطاع العام): يتم قبول قيمة الاقتطاع قيمة القسط + 50 دينار. المخابرات يتم قبول قيمة القسط + 20 دينار."
+  },
+  {
+    "id": "chunk_051",
+    "text": "الحد الأدنى لمدة الخدمة (القطاع العام): قطاع عام: 3 شهور أو مثبت. باستثناء: المدرسين للقطاع العام: مثبتين وخاضعين للضمان."
+  },
+  {
+    "id": "chunk_052",
+    "text": "خضوع العميل بالضمان الاجتماعي (القطاع العام): نعم. تعهد تحويل راتب: نعم."
+  },
+  {
+    "id": "chunk_053",
+    "text": "الوثائق المطلوبة (القطاع العام): وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور. تعهد تحويل راتب أصولي حسب الصيغة المعتمدة من البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية. صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول). شهادة التزامات في حال وجود التزام."
+  },
+  {
+    "id": "chunk_054",
+    "text": "لفئة 5: القطاع الخاص. شركات معتمدة وغير معتمدة والمبيعات، موظفي الأمم المتحدة (UN)، موظفي فنادق 5 نجوم."
+  },
+  {
+    "id": "chunk_055",
+    "text": "مدة الخدمة (القطاع الخاص): 3 شهور ومثبت للشركات المعتمدة. 3 شهور ومثبت للشركات غير المعتمدة شريطة وجود خبرات سابقة لا تقل عن سنة وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية. موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+  },
+  {
+    "id": "chunk_056",
+    "text": "خضوع العميل بالضمان الاجتماعي (القطاع الخاص): نعم."
+  },
+  {
+    "id": "chunk_057",
+    "text": "الوثائق المطلوبة (القطاع الخاص): وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور. تعهد تحويل راتب أصولي حسب الصيغة المعتمدة من البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية. صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول). كشف الضمان الاجتماعي لمن تقل مدة خدمتهم عن 12 شهر، باستثناء موظفي القطاع العام. شهادة التزامات في حال وجود التزام."
+  },
+  {
+    "id": "chunk_058",
+    "text": "لفئة 6: القرض الشخصي رواتب أقل من 450 دينار. مدة الخدمة: 3 شهور ومثبت للشركات المعتمدة. 3 شهور ومثبت للشركات غير المعتمدة شريطة وجود خبرات سابقة لا تقل عن سنة وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية. موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+  },
+  {
+    "id": "chunk_059",
+    "text": "الحد الأدنى لصافي الدخل (رواتب أقل من 450): 300 دينار."
+  },
+  {
+    "id": "chunk_060",
+    "text": "مبلغ القرض بالدينار (رواتب أقل من 450): 2,000 – 10,000 دينار."
+  },
+  {
+    "id": "chunk_061",
+    "text": "مدة القرض (رواتب أقل من 450): من 12 - 96 شهر."
+  },
+  {
+    "id": "chunk_062",
+    "text": "تحويل راتب (رواتب أقل من 450): نعم."
+  },
+  {
+    "id": "chunk_063",
+    "text": "الوثائق المطلوبة (رواتب أقل من 450): وثيقة إثبات الشخصية سارية المفعول. وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية/العسكرية، تدوين معلومات هوية المخابرات على الطلب القرض وتوقيع الموظف). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لآخر 6 شهور (يجب أن تكون القسائم مختومة أو مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الأجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب إلينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء الذين مدة عملهم أقل من سنة للشركات باستثناء موظفي القطاع العام."
+  },
+  {
+    "id": "chunk_064",
+    "text": "الوثائق المطلوبة في حال شراء الالتزامات (رواتب أقل من 450): تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم) وحسب الأصول. كشف حساب من البنك الآخر وبحد أدنى 6 شهور. القطاع العام: تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الآخر. في حال شراء الالتزامات للأجهزة الأمنية والعسكرية عدا المخابرات والتقاعد المدني والعسكري والضمان الاجتماعي يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلينا بعد سداد التزاماته لدى البنك الآخر المحول إليه الراتب. القطاع الخاص تعهد تحويل راتب مشروط وحسب الصيغة المعتمدة لدينا لحين استلام براءة الذمة من البنك الآخر. تزويدنا بما يفيد سداد السلف الداخلية أو أي جهات خارجية تم سداد التزامات العميل بها. تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة إلى تعهد تحويل راتب."
+  },
+  {
+    "id": "chunk_065",
+    "text": "لفئة 7: قرض المكافآت الشخصي. قرض المكافآت الشخصي مصمم لمكافأة العملاء على التزامهم بسداد الأقساط بشكل منتظم، من خلال تقديم تخفيضات تدريجية على هوامش القرض. ويتم منح هذه المكافآت على شكل استرداد نقدي شهري يصل مباشرة إلى خزنة القرض الخاصة بهم."
+  },
+  {
+    "id": "chunk_066",
+    "text": "تقليل تكلفة القرض: يحصل العملاء على تخفيضات تُقلل من إجمالي الفائدة على القرض."
+  },
+  {
+    "id": "chunk_067",
+    "text": "مكافآت نقدية: يسترجع العملاء جزءاً من أقساطهم على شكل استرداد نقدي يتم إيداعه في خزنة الاسترداد النقدي."
+  },
+  {
+    "id": "chunk_068",
+    "text": "تعزيز الالتزام بالسداد المنتظم: يكافئ هذا القرض العملاء على سداد أقساطهم في مواعيدها، مما يساعدهم في استرداد جزء من تكاليف فائدة القرض."
+  },
+  {
+    "id": "chunk_069",
+    "text": "ما هو قرض المكافآت الشخصي؟ قرض المكافآت الشخصي هو قرض شخصي يمنحك استرداد نقدي طالما حافظت على سداد أقساطك في وقتها. وبعد 6 شهور من الالتزام بالسداد على الوقت، يتم زيادة نسبة الاسترداد النقدي."
+  },
+  {
+    "id": "chunk_070",
+    "text": "كيف أحصل على الاسترداد النقدي؟ يتم الحصول على الاسترداد النقدي شهرياً عند دفع قسط القرض في تاريخ السداد."
+  },
+  {
+    "id": "chunk_071",
+    "text": "هل تؤثر مرتبتي على نسبة الاسترداد النقدي التي أحصل عليها؟ لا، مرتبتك لن تؤثر على قيمة الاسترداد النقدي الذي تحصل عليه على قرضك الشخصي، فهذا برنامج مختلف."
+  },
+  {
+    "id": "chunk_072",
+    "text": "هل تتغير نسبة الاسترداد النقدي الذي أحصل عليه؟ نعم، إذا قمت بسداد أقساطك في الوقت المحدد لمدة 6 أشهر متتالية، فإن نسبة الاسترداد النقدي تزيد. وستزداد النسبة كل 6 أشهر على مدار سنتين طالما التزمت بالدفع في الوقت المحدد."
+  },
+  {
+    "id": "chunk_073",
+    "text": "أين يمكنني رؤية الاسترداد النقدي وكيف يمكنني سحبه؟ ستجد مبلغ الاسترداد النقدي في خزنة القروض على تطبيقنا، ويمكنك سحبه من الخزنة الموجودة في صفحة المكافآت. كل ما عليك فعله هو تحويله لحسابك."
+  },
+  {
+    "id": "chunk_074",
+    "text": "متى يتم إيداع الاسترداد النقدي في خزنتي؟ ستحصل على مبلغ الاسترداد النقدي في نهاية كل شهر، بشرط أن تكون قد دفعت قسطك في تاريخ سداد القسط."
+  },
+  {
+    "id": "chunk_075",
+    "text": "متى يمكنني سحب مبلغ الاسترداد النقدي؟ يمكنك سحب مبلغ الاسترداد النقدي في أي وقت. ستتجمّع مبالغ الاسترداد النقدي في الخزنة على التطبيق كل شهر (تطبّق الشروط والأحكام)."
+  },
+  {
+    "id": "chunk_076",
+    "text": "هل هناك سقف شهري لمبلغ الاسترداد النقدي الذي يمكنني الحصول عليه؟ لا، ليس هناك سقف لمبلغ الاسترداد النقدي."
+  },
+  {
+    "id": "chunk_077",
+    "text": "هل تنتهي صلاحية مبلغ الاسترداد النقدي الموجود في الخزنة؟ لا، يمكنك الاحتفاظ بمبلغ الاسترداد النقدي في الخزنة لأي مدة ترغب بها، وبإمكانك سحبه متى ما شئت."
+  },
+  {
+    "id": "chunk_078",
+    "text": "هل سيصلني إشعار عندما يصل مبلغ الاسترداد النقدي لخزنة القروض؟ نعم، سوف تتلقى إشعاراً عبر التطبيق كل شهر عندما يصبح مبلغ الاسترداد النقدي في خزنتك متاحاً للسحب."
+  },
+  {
+    "id": "chunk_079",
+    "text": "ماذا يحصل إذا تأخرت في سداد دفعة واحدة؟ ستبقى ضمن برنامج الاسترداد النقدي، لكن سيتم إيقاف الاسترداد النقدي مؤقتاً، وستحتاج إلى الانتظار لمدة 6 أشهر من الالتزام بالسداد على الوقت لتبدأ باكتساب الاسترداد النقدي من جديد. لديك فترة سماح 29 يوماً لسداد أقساطك قبل تعليق الاسترداد النقدي مؤقتاً."
+  },
+  {
+    "id": "chunk_080",
+    "text": "ماذا لو تأخرت في سداد أكثر من قسط خلال مدة القرض؟ إذا تأخرت في سداد قسط لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، سيتم استبعادك نهائياً من البرنامج وستتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض."
+  },
+  {
+    "id": "chunk_081",
+    "text": "كيف يؤثر سعر الفائدة الأساسي (معدل البنك المركزي الأردني) على معدل الفائدة على قرضي ونسبة الاسترداد النقدي؟ لن تتأثر نسبة الاسترداد النقدي الذي تحصل عليه إذا قام البنك المركزي بزيادة أو خفض سعر الفائدة الأساسي على القرض. وسيتم إعادة تسعير معدل الفائدة وفقاً لتسعيرة البنك المركزي الأردني."
+  },
+  {
+    "id": "chunk_082",
+    "text": "هل يمكنني سداد دفعات إضافية على قرضي، وكيف يؤثر ذلك على الاسترداد النقدي؟ نعم، يمكنك سداد دفعات إضافية في أي وقت. ولن يؤثر ذلك على الاسترداد النقدي الشهري، لأن الاسترداد النقدي يعتمد على دفع الأقساط في وقتها."
+  },
+  {
+    "id": "chunk_083",
+    "text": "هل سأفقد الاسترداد النقدي الذي اكتسبته مسبقاً إذا تأخرت في دفع قسط من أقساطي؟ لا، سيبقى مبلغ الاسترداد النقدي الذي اكتسبته مسبقاً في خزنتك، ولكن لن تتمكن من اكتساب المزيد من الاسترداد النقدي إلى أن تعود لدفع الأقساط في وقتها."
+  },
+  {
+    "id": "chunk_084",
+    "text": "هل يمكنني استخدام الاسترداد النقدي لسداد أقساط قرضي؟ نعم، يمكنك استخدام الاسترداد النقدي لسداد أقساط قرضك أو لأغراض أخرى."
+  },
+  {
+    "id": "chunk_085",
+    "text": "هل هناك حد أقصى لمدة قرض المكافآت الشخصي؟ نعم، يعتمد الحد الأقصى لمدة القرض على الشروط والأحكام المذكورة في اتفاقية القرض."
+  },
+  {
+    "id": "chunk_086",
+    "text": "ماذا يحدث إذا قام العميل بدفع القسط خلال فترة السماح؟ لن يحصل العميل على استرداد نقدي خلال نفس الشهر، بل سيتم صرفه كمبلغ إجمالي في نهاية الشهر التالي."
+  },
+  {
+    "id": "chunk_087",
+    "text": "هل يمكنني تقديم طلب قرض المكافآت الشخصي من خلال التطبيق؟ لا، حالياً لا يتم تقديم طلب قرض المكافآت الشخصي من خلال التطبيق."
+  },
+  {
+    "id": "chunk_088",
+    "text": "ماذا يحدث إذا قام العميل برفع سقف رصيد القرض المكافآت الشخصي؟ إذا قام العميل برفع سقف رصيد قرض المكافآت الشخصي، فسيتم إعادة تعيين الرصيد إلى المبلغ الجديد للقرض ويبدأ من (MOB = 0). وسيتم حساب الاسترداد النقدي بناءً على رصيد القرض بعد الزيادة."
+  },
+  {
+    "id": "chunk_089",
+    "text": "ماذا يحدث إذا قام العميل بعمل سداد جزئي مبكر للقرض الشخصي الحالي مع المكافآت؟ إذا قام العميل بسداد القرض جزئياً بشكل مبكر، ستنخفض قيمة المبلغ المسترد، حيث سيتم حسابه بناءً على الرصيد المتبقي بعد السداد المبكر."
+  },
+  {
+    "id": "chunk_090",
+    "text": "ماذا يحدث إذا قام العميل بتأجيل قسط القرض الشخصي الحالي مع المكافآت؟ إذا قام العميل بتأجيل القسط، فلن يحصل على المبلغ المسترد عن الشهر الذي تم فيه تأجيل الدفع."
+  },
+  {
+    "id": "chunk_091",
+    "text": "الشروط العامة للتأهيل: المعايير وشروط التأهيل هي نفسها الخاصة بالقرض الشخصي، حيث إن القرض الشخصي يعمل بآلية تسعير مختلفة."
+  },
+  {
+    "id": "chunk_092",
+    "text": "العملاء الموظفين – مع تحويل الراتب: الحد الأدنى لمبلغ القرض 2,000 دينار أردني. الحد الأقصى لمبلغ القرض 110,000 دينار أردني. نسبة عبء الدين (DBR) 50% أو 55% (تعتمد على فئة التوظيف). الحد الأدنى لفترة الخدمة حسب فئة التوظيف."
+  },
+  {
+    "id": "chunk_093",
+    "text": "العملاء غير الموظفين (أصحاب الأعمال الحرة): الحد الأدنى لمبلغ القرض 2,000 دينار أردني. الحد الأقصى لمبلغ القرض 75,000 دينار أردني (للعملاء الذين لديهم سجل ائتماني جيد)، أو 35,000 دينار أردني (للعملاء الذين ليس لديهم سجل ائتماني). نسبة عبء الدين (DBR) 40%. الحد الأدنى لفترة الخدمة سنتان."
+  },
+  {
+    "id": "chunk_094",
+    "text": "قرض شخصي مقابل تأمينات نقدية - الوظيفة: التصريح عن مصدر الدخل دون الحاجة إلى تزويد البنك بالمستندات المطلوبة لإثبات الدخل."
+  },
+  {
+    "id": "chunk_095",
+    "text": "مبلغ التمويل (تأمينات نقدية): 5,000 دينار."
+  },
+  {
+    "id": "chunk_096",
+    "text": "مدة التمويل (تأمينات نقدية): من 6 أشهر إلى 96 شهر."
+  },
+  {
+    "id": "chunk_097",
+    "text": "آلية السداد (تأمينات نقدية): من الحساب الجاري."
+  },
+  {
+    "id": "chunk_098",
+    "text": "قيمة التأمينات (تأمينات نقدية): 100%."
+  },
+  {
+    "id": "chunk_099",
+    "text": "رسوم التأمين (تأمينات نقدية): غير مؤمن."
+  },
+  {
+    "id": "chunk_100",
+    "text": "شروط إضافية (تأمينات نقدية): العملة الأجنبية (العملات الأجنبية المقبولة هي الدولار الأمريكي وأي عملة أخرى معتمدة من قبل الخزينة من حيث استقرارها)."
+  },
+  {
+    "id": "chunk_101",
+    "text": "المستندات المطلوبة (تأمينات نقدية): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية/العسكرية، تدوين معلومات هوية المخابرات على الطلب القرض وتوقيع الموظف). نموذج حجز تأمينات نقدية."
+  },
+  {
+    "id": "chunk_102",
+    "text": "قرض شخصي مقابل رهن عقاري - الحد الأدنى لفترة الخدمة: من 3 أشهر إلى سنتين."
+  },
+  {
+    "id": "chunk_103",
+    "text": "قرض شخصي مقابل رهن عقاري - الإفراط بالمديونية: 95%."
+  },
+  {
+    "id": "chunk_104",
+    "text": "قرض شخصي مقابل رهن عقاري - عبء الدين: 55%."
+  },
+  {
+    "id": "chunk_105",
+    "text": "قرض شخصي مقابل رهن عقاري - الحد الأدنى لمدة القرض: 12 شهراً."
+  },
+  {
+    "id": "chunk_106",
+    "text": "قرض شخصي مقابل رهن عقاري - الحد الأقصى لمدة القرض: 96 شهراً."
+  },
+  {
+    "id": "chunk_107",
+    "text": "قرض شخصي مقابل رهن عقاري - الحد الأدنى لمبلغ القرض: 25,000 دينار أردني."
+  },
+  {
+    "id": "chunk_108",
+    "text": "قرض شخصي مقابل رهن عقاري - الحد الأقصى لمبلغ القرض: 1,000,000 دينار أردني."
+  },
+  {
+    "id": "chunk_109",
+    "text": "قرض شخصي مقابل رهن عقاري - نسبة التمويل: 50% من قيمة التخمين في حال أرض أو 60% من قيمة التخمين في حال شقة."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Category 1: General Personal Loan Information. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "Debt burden for salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD."
+  },
+  {
+    "id": "chunk_003_en",
+    "text": "Debt burden for salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+  },
+  {
+    "id": "chunk_004_en",
+    "text": "In the case of the Security or Military sector, or a salary less than 450 JOD, the debt burden is 35%."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Debt burden as debtor and guarantor: 70%."
+  },
+  {
+    "id": "chunk_006_en",
+    "text": "Minimum net income in general: 450 JOD."
+  },
+  {
+    "id": "chunk_007_en",
+    "text": "Minimum net income in the case of Security and Military Apparatuses: 1,000 JOD."
+  },
+  {
+    "id": "chunk_008_en",
+    "text": "Minimum net income in the case of professionals, dentists, and doctors with clinics: 2,000 JOD."
+  },
+  {
+    "id": "chunk_009_en",
+    "text": "Minimum net income in the case of freelancers without commercial registers: 1,000 JOD."
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Granting commission: 1%."
+  },
+  {
+    "id": "chunk_011_en",
+    "text": "Loan amount in general: 2,000 – 110,000 JOD."
+  },
+  {
+    "id": "chunk_012_en",
+    "text": "Loan amount for sales: 2,000 – 20,000 JOD."
+  },
+  {
+    "id": "chunk_013_en",
+    "text": "Loan amount for clinic owners: 2,000 – 110,000 JOD, and 2,000 – 100,000 JOD in governorates."
+  },
+  {
+    "id": "chunk_014_en",
+    "text": "Loan amount for professionals, dentists: 2,000 – 70,000 JOD."
+  },
+  {
+    "id": "chunk_015_en",
+    "text": "Loan amount for freelance businesses without commercial registers: 2,000 – 25,000 JOD."
+  },
+  {
+    "id": "chunk_016_en",
+    "text": "Loan period in general: 12 – 96 months."
+  },
+  {
+    "id": "chunk_017_en",
+    "text": "Loan period in the case of professionals and self-employed: 12 – 84 months."
+  },
+  {
+    "id": "chunk_018_en",
+    "text": "Loan period in the case of freelancers without commercial registers: 12 – 60 months."
+  },
+  {
+    "id": "chunk_019_en",
+    "text": "General Conditions - Postponement of Installments: Postponing only two installments is allowed during the year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment and there are no dues on them (more than 30 days) during the previous 6 months. Not exceeding the maximum age limit for the customer upon the due date of the last installment. Deduction customers are not allowed to postpone installments."
+  },
+  {
+    "id": "chunk_020_en",
+    "text": "Buying loans from other banks: The minimum loan value is 2,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 500 JOD."
+  },
+  {
+    "id": "chunk_021_en",
+    "text": "Buying loans from other banks: Committed to repayment and there are no dues on them upon submitting the application."
+  },
+  {
+    "id": "chunk_022_en",
+    "text": "Granting criteria (buying loans from other banks): According to the target segment, loan repayment period, Debt Burden Ratio (DBR) from income, and loan amount, in multiples of the salary or income according to the applicable program. Financing the early settlement commission at the other bank."
+  },
+  {
+    "id": "chunk_023_en",
+    "text": "Insurance fees - Life insurance for the debtor: Automatic approval within the group insurance policy. Customers aged 65 years and below. Loan amount is less than 100,000 JOD."
+  },
+  {
+    "id": "chunk_024_en",
+    "text": "Raising the loan ceiling is subject to: The customer providing a continuous salary transfer commitment from the same company upon granting."
+  },
+  {
+    "id": "chunk_025_en",
+    "text": "Raising the loan ceiling is subject to: Being committed to repayment with no dues exceeding 30 days on the CRIF system for the last 12 months."
+  },
+  {
+    "id": "chunk_026_en",
+    "text": "Raising the loan ceiling is subject to: Exclusive rejection in case of lawsuits in the last 3 years as a debtor or guarantor for the husband/wife, excluding premeditated murder, drugs, embezzlement, and honor crimes. Or if the lawsuit appears after the original granting date."
+  },
+  {
+    "id": "chunk_027_en",
+    "text": "Additional financing conditions (Top-up): Minimum increase amount on the current loan balance: 500 JOD. Debt burden up to the customer's sector limit. For ceiling increase and rescheduling loans, a net salary of 450 JOD is accepted for all sectors, or 350 JOD for professionals and self-employed."
+  },
+  {
+    "id": "chunk_028_en",
+    "text": "Category 2: Personal Loan (Security & Military Sector). Security and Military Apparatuses: Gendarmerie, Public Security, Armed Forces, Air Force, General Intelligence, and Civil Defense."
+  },
+  {
+    "id": "chunk_029_en",
+    "text": "Length of Service: Minimum 36 months. Lieutenant and above: 24 months. Gendarmerie, Army, and Public Security university degree holders only: 6 months."
+  },
+  {
+    "id": "chunk_030_en",
+    "text": "Ceiling Increase Conditions: 1) Minimum net salary of 450 JOD according to the product. 2) Adding the wife's guarantee for married individuals, and mother or sister's guarantee for unmarried individuals. 3) Requires the passage of one year since the original grant or one year since every last loan increase."
+  },
+  {
+    "id": "chunk_031_en",
+    "text": "Deduction Customers: The accepted deduction value is the installment value + 50 JOD. Intelligence: The accepted value is the installment + 20 JOD."
+  },
+  {
+    "id": "chunk_032_en",
+    "text": "Maximum age at the end of the last installment: Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+  },
+  {
+    "id": "chunk_033_en",
+    "text": "Customer subject to Social Security (Yes/No): Yes. Salary transfer commitment: Yes. Maximum work period: According to the customer's sector."
+  },
+  {
+    "id": "chunk_034_en",
+    "text": "Required Documents: Valid identification document: Military ID (appointment certificate), recording Intelligence ID information on the loan application and the employee's signature. Original salary certificate/payslip for the last three months. A formal salary transfer commitment, according to the format approved by the bank, except for the Public Sector and Security and Military Apparatuses. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary). Obligations certificate in case of existing obligations. No requirement to provide a 6-month account statement to document income for military personnel (whose salaries are not transferred) provided that the cash salary receipt is proven by 3 payslips, or a letter from Finance or the disbursing officer."
+  },
+  {
+    "id": "chunk_035_en",
+    "text": "Additional Conditions: Exception from obtaining a conditional salary transfer commitment from the following entities: Security Apparatuses, University of Jordan, Prince Hamza Hospital, Royal Jordanian Air Force, and Social Security beneficiaries. It is sufficient to obtain an authorization from the customer to settle their indebtedness, receive the clearance certificate from the branch employee, and deliver it to the employer."
+  },
+  {
+    "id": "chunk_036_en",
+    "text": "For joint financing, only one salary transfer is accepted for the main customer if the transferred salary amount is greater than or equal to 110% of the monthly installment (coverage ratio <= 110%)."
+  },
+  {
+    "id": "chunk_037_en",
+    "text": "The total calculated net income for joint loans applies to the interest rate, as pricing is based on combined net incomes."
+  },
+  {
+    "id": "chunk_038_en",
+    "text": "The male customer's age must not exceed 60 years at the end of the loan (excluding retirees)."
+  },
+  {
+    "id": "chunk_039_en",
+    "text": "The female customer's age must not exceed 55 years at the end of the loan (excluding retirees)."
+  },
+  {
+    "id": "chunk_040_en",
+    "text": "Early Social Security retirees (Male): Age must not be less than 50 years."
+  },
+  {
+    "id": "chunk_041_en",
+    "text": "Early Social Security retirees (Female): Age must not be less than 45 years."
+  },
+  {
+    "id": "chunk_042_en",
+    "text": "Category 3: Personal Loan (Professionals). Part 1: For Clinic Owners. Financing the purchase of a new clinic or buying out a clinic financing loan from other banks, in addition to financing maintenance, expansion, or decor (cash liquidity) against mortgaging the clinic or real estate. Customer's practical experience: Not less than two years from the date of establishing the private clinic."
+  },
+  {
+    "id": "chunk_043_en",
+    "text": "Required Documents for Personal Loan for Professionals (Doctors owning clinics): A copy of a valid profession license, or one expired for not more than 3 months. A copy of the commercial register. A true copy of syndicate membership if applicable. A 6-month account statement for the customer's personal account and the establishment or company."
+  },
+  {
+    "id": "chunk_044_en",
+    "text": "Part 2: For Professionals, Dentists. Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Self-employed. Doctors owning clinics."
+  },
+  {
+    "id": "chunk_045_en",
+    "text": "Requirements and Criteria (Part 2): Customer's practical experience: Two years. Minimum company age: Two years. Financing conditions: Not applicable. Restructuring commission: 5 JOD. Balance increase commission: 1% of the increase amount. Approval validity: The credit approval for the personal loan program expires after 45 days (a month and a half)."
+  },
+  {
+    "id": "chunk_046_en",
+    "text": "Required Documents (Part 2): A copy of a valid profession license, or one expired for not more than 3 months. A copy of the commercial register. A true copy of syndicate membership if applicable. A 6-month account statement for the customer's personal account and the establishment or company."
+  },
+  {
+    "id": "chunk_047_en",
+    "text": "Part 3: Freelance Businesses without Commercial Registers. Freelancers without commercial registers (influencers on social media, technicians, consultants)."
+  },
+  {
+    "id": "chunk_048_en",
+    "text": "Requirements and Criteria (Part 3) - Financing conditions: Spending average of 1,000 JOD and above via purchases using an instant debit card or prepaid card for the last 6 months."
+  },
+  {
+    "id": "chunk_049_en",
+    "text": "Category 4: Public Sector. Ministries and governmental institutions, semi-governmental institutions, and non-profit organizations managed through the government or any of its arms."
+  },
+  {
+    "id": "chunk_050_en",
+    "text": "Deduction Customers (Public Sector): The accepted deduction value is the installment value + 50 JOD. Intelligence: The accepted value is the installment + 20 JOD."
+  },
+  {
+    "id": "chunk_051_en",
+    "text": "Minimum length of service (Public Sector): Public sector: 3 months or confirmed. Exception: Public sector teachers: confirmed and subject to Social Security."
+  },
+  {
+    "id": "chunk_052_en",
+    "text": "Customer subject to Social Security (Yes/No) (Public Sector): Yes. Salary transfer commitment: Yes."
+  },
+  {
+    "id": "chunk_053_en",
+    "text": "Required Documents (Public Sector): Valid identification document (Civil ID). Original salary certificate/payslip for the last three months. A formal salary transfer commitment, according to the format approved by the bank, except for the Public Sector and Security and Military Apparatuses. A copy of the employment contract for contract employees. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary). Obligations certificate in case of existing obligations."
+  },
+  {
+    "id": "chunk_054_en",
+    "text": "Category 5: Private Sector. Companies - approved and unapproved, sales, UN employees, 5-star hotel employees."
+  },
+  {
+    "id": "chunk_055_en",
+    "text": "Length of service (Private Sector): 3 months and confirmed for approved companies. 3 months and confirmed for unapproved companies, provided there is previous experience of not less than a year and no interruption in Social Security for more than a month between the last job and the current job. UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+  },
+  {
+    "id": "chunk_056_en",
+    "text": "Customer subject to Social Security (Yes/No) (Private Sector): Yes."
+  },
+  {
+    "id": "chunk_057_en",
+    "text": "Required Documents (Private Sector): Valid identification document (Civil ID). Original salary certificate/payslip for the last three months. A formal salary transfer commitment, according to the format approved by the bank, except for the Public Sector and Security and Military Apparatuses. A copy of the employment contract for contract employees. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary). Social Security statement for those whose service period is less than 12 months, excluding public sector employees. Obligations certificate in case of existing obligations."
+  },
+  {
+    "id": "chunk_058_en",
+    "text": "Category 6: Personal Loan - Salaries less than 450 JOD. Length of service: 3 months and confirmed for approved companies. 3 months and confirmed for unapproved companies, provided there is previous experience of not less than a year and no interruption in Social Security for more than a month between the last job and the current job. UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+  },
+  {
+    "id": "chunk_059_en",
+    "text": "Minimum net income (Salaries less than 450 JOD): 300 JOD."
+  },
+  {
+    "id": "chunk_060_en",
+    "text": "Loan amount in JOD (Salaries less than 450 JOD): 2,000 – 10,000 JOD."
+  },
+  {
+    "id": "chunk_061_en",
+    "text": "Loan period (Salaries less than 450 JOD): From 12 - 96 months."
+  },
+  {
+    "id": "chunk_062_en",
+    "text": "Salary transfer (Salaries less than 450 JOD): Yes."
+  },
+  {
+    "id": "chunk_063_en",
+    "text": "Required Documents (Salaries less than 450 JOD): Valid identification document. Valid residency document (for non-Jordanians) in addition to a valid passport. A true copy of a valid identification document (Civil/Military ID, recording Intelligence ID information on the loan application and the employee's signature). Original salary certificate/payslip for the last three months, and in case of any incentives, a payslip for the last 6 months is requested (the payslip must be stamped or on the employer's letterhead). A copy of the employment contract for contract employees. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary), duly certified. Public Sector: Salary transfer commitment according to their approved format, except for Security and Military apparatuses (a payslip stating the salary transfer to us). A formal salary transfer commitment, according to the bank's approved format. Social Security statement for customers whose employment period is less than a year for companies, excluding public sector employees."
+  },
+  {
+    "id": "chunk_064_en",
+    "text": "Required documents in case of buying obligations (Salaries less than 450 JOD): Providing the bank with a recent obligations certificate (not exceeding 30 days) and duly certified. Account statement from the other bank for a minimum of 6 months. Public Sector: Conditional salary transfer commitment until receiving the clearance from the other bank. In case of buying obligations for Security and Military Apparatuses, except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary is transferred. Private Sector: Conditional salary transfer commitment according to our approved format until receiving the clearance from the other bank. Providing us with proof of payment of internal advances or any external parties where the customer's obligations were paid. Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a salary transfer commitment."
+  },
+  {
+    "id": "chunk_065_en",
+    "text": "Category 7: Personal Rewards Loan. The Personal Rewards Loan is designed to reward customers for their commitment to regularly paying installments by offering progressive reductions on loan margins. These rewards are granted as monthly cashback directly into their loan vault."
+  },
+  {
+    "id": "chunk_066_en",
+    "text": "Reduce loan cost: Customers receive reductions that lower the total interest on the loan."
+  },
+  {
+    "id": "chunk_067_en",
+    "text": "Cash rewards: Customers get back a portion of their installments in the form of cashback deposited in the cashback vault."
+  },
+  {
+    "id": "chunk_068_en",
+    "text": "Promote regular repayment commitment: This loan rewards customers for paying their installments on time, helping them recover part of the loan interest costs."
+  },
+  {
+    "id": "chunk_069_en",
+    "text": "What is the Personal Rewards Loan? It is a personal loan that gives you cashback as long as you maintain paying your installments on time. After 6 months of commitment to timely repayment, the cashback percentage increases."
+  },
+  {
+    "id": "chunk_070_en",
+    "text": "How do I get the cashback? Cashback is obtained monthly when paying the loan installment on the due date."
+  },
+  {
+    "id": "chunk_071_en",
+    "text": "Does my tier affect the cashback percentage I get? No, your tier will not affect the cashback value you receive on your personal loan; this is a different program."
+  },
+  {
+    "id": "chunk_072_en",
+    "text": "Does the cashback percentage I get change? Yes, if you pay your installments on time for 6 consecutive months, the cashback percentage increases. The percentage will increase every 6 months over two years as long as you commit to paying on time."
+  },
+  {
+    "id": "chunk_073_en",
+    "text": "Where can I see the cashback and how can I withdraw it? You will find the cashback amount in the loan vault on our app, and you can withdraw it from the vault on the rewards page. All you have to do is transfer it to your account."
+  },
+  {
+    "id": "chunk_074_en",
+    "text": "When is the cashback deposited into my vault? You will receive the cashback amount at the end of each month, provided you have paid your installment on the due date."
+  },
+  {
+    "id": "chunk_075_en",
+    "text": "When can I withdraw the cashback amount? You can withdraw the cashback amount at any time. Cashback amounts will accumulate in the app's vault every month (Terms and Conditions apply)."
+  },
+  {
+    "id": "chunk_076_en",
+    "text": "Is there a monthly cap on the cashback amount I can receive? No, there is no cap on the cashback amount."
+  },
+  {
+    "id": "chunk_077_en",
+    "text": "Does the cashback amount in the vault expire? No, you can keep the cashback amount in the vault for as long as you wish, and you can withdraw it whenever you want."
+  },
+  {
+    "id": "chunk_078_en",
+    "text": "Will I receive a notification when the cashback amount reaches the loan vault? Yes, you will receive an app notification every month when the cashback amount in your vault becomes available for withdrawal."
+  },
+  {
+    "id": "chunk_079_en",
+    "text": "What happens if I am late on a single payment? You will remain in the cashback program, but the cashback will be paused temporarily, and you will need to wait for 6 months of committed on-time payments to start earning cashback again. You have a 29-day grace period to pay your installments before the cashback is paused."
+  },
+  {
+    "id": "chunk_080_en",
+    "text": "What if I am late on more than one installment during the loan period? If you are late paying an installment by 30 days or more twice during the loan period, you will be permanently disqualified from the program and will stop receiving any cashback or further interest rate reductions until the end of the loan's life."
+  },
+  {
+    "id": "chunk_081_en",
+    "text": "How does the base interest rate (Central Bank of Jordan rate) affect my loan's interest rate and cashback percentage? The cashback percentage you receive will not be affected if the Central Bank increases or decreases the base interest rate on the loan. The interest rate will be re-priced according to the CBJ pricing."
+  },
+  {
+    "id": "chunk_082_en",
+    "text": "Can I make extra payments on my loan, and how does it affect cashback? Yes, you can make extra payments at any time. This will not affect the monthly cashback, because the cashback relies on paying installments on time."
+  },
+  {
+    "id": "chunk_083_en",
+    "text": "Will I lose my previously earned cashback if I am late paying an installment? No, the previously earned cashback amount will remain in your vault, but you won't be able to earn more cashback until you return to paying installments on time."
+  },
+  {
+    "id": "chunk_084_en",
+    "text": "Can I use the cashback to pay my loan installments? Yes, you can use the cashback to pay your loan installments or for other purposes."
+  },
+  {
+    "id": "chunk_085_en",
+    "text": "Is there a maximum period for the Personal Rewards Loan? Yes, the maximum loan period depends on the terms and conditions mentioned in the loan agreement."
+  },
+  {
+    "id": "chunk_086_en",
+    "text": "What happens if the customer pays the installment during the grace period? The customer will not receive cashback during the same month; instead, it will be disbursed as a lump sum at the end of the following month."
+  },
+  {
+    "id": "chunk_087_en",
+    "text": "Can I apply for the Personal Rewards Loan through the app? No, currently the Personal Rewards Loan application is not submitted through the app."
+  },
+  {
+    "id": "chunk_088_en",
+    "text": "What happens if the customer raises the Personal Rewards Loan balance ceiling? If the customer raises the balance ceiling, the balance will reset to the new loan amount and start from (MOB = 0). The cashback will be calculated based on the loan balance after the increase."
+  },
+  {
+    "id": "chunk_089_en",
+    "text": "What happens if the customer makes a partial early settlement on the current personal loan with rewards? If the customer partially settles the loan early, the cashback value will decrease, as it will be calculated based on the remaining balance after the early settlement."
+  },
+  {
+    "id": "chunk_090_en",
+    "text": "What happens if the customer postpones an installment of the current personal loan with rewards? If the customer postpones the installment, they will not receive the cashback amount for the month the payment was postponed."
+  },
+  {
+    "id": "chunk_091_en",
+    "text": "General Qualification Conditions: The criteria and qualification conditions are the same as those for the standard Personal Loan, as the Personal Loan operates on a different pricing mechanism."
+  },
+  {
+    "id": "chunk_092_en",
+    "text": "Employed Customers – With Salary Transfer: Minimum Loan Amount 2,000 JOD. Maximum Loan Amount 110,000 JOD. Debt Burden Ratio (DBR) 50% or 55% (Depends on employment category). Minimum Service Period According to employment category."
+  },
+  {
+    "id": "chunk_093_en",
+    "text": "Non-Employed Customers (Self-Employed): Minimum Loan Amount 2,000 JOD. Maximum Loan Amount 75,000 JOD (for customers with a good credit history), or 35,000 JOD (for customers without a credit history). Debt Burden Ratio (DBR) 40%. Minimum Service Period Two years."
+  },
+  {
+    "id": "chunk_094_en",
+    "text": "Category 8: Personal Loan Against Cash Collateral. Job: Declaring the source of income without the need to provide the bank with documents to prove income."
+  },
+  {
+    "id": "chunk_095_en",
+    "text": "Financing amount (Cash Collateral): 5,000 JOD."
+  },
+  {
+    "id": "chunk_096_en",
+    "text": "Financing period (Cash Collateral): From 6 months to 96 months."
+  },
+  {
+    "id": "chunk_097_en",
+    "text": "Repayment mechanism (Cash Collateral): From the current account."
+  },
+  {
+    "id": "chunk_098_en",
+    "text": "Collateral value (Cash Collateral): 100%."
+  },
+  {
+    "id": "chunk_099_en",
+    "text": "Insurance fees (Cash Collateral): Uninsured."
+  },
+  {
+    "id": "chunk_100_en",
+    "text": "Additional conditions (Cash Collateral): Foreign currency (Accepted foreign currencies are US Dollars and any other currency approved by the Treasury in terms of its stability)."
+  },
+  {
+    "id": "chunk_101_en",
+    "text": "Required Documents (Cash Collateral): A copy of a valid residency document (for non-Jordanians) in addition to a valid passport. Valid identification document. (Civil / Military ID, recording Intelligence ID information on the loan application and the employee's signature). Cash collateral hold form."
+  },
+  {
+    "id": "chunk_102_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Minimum service period: From 3 months to 2 years."
+  },
+  {
+    "id": "chunk_103_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Over-indebtedness: 95%."
+  },
+  {
+    "id": "chunk_104_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Debt burden: 55%."
+  },
+  {
+    "id": "chunk_105_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Minimum loan period: 12 months."
+  },
+  {
+    "id": "chunk_106_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Maximum loan period: 96 months."
+  },
+  {
+    "id": "chunk_107_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Minimum loan amount: 25,000 JOD."
+  },
+  {
+    "id": "chunk_108_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Maximum loan amount: 1,000,000 JOD."
+  },
+  {
+    "id": "chunk_109_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Financing ratio: 50% of the appraisal value for land, or 60% of the appraisal value for an apartment."
+  }
+]

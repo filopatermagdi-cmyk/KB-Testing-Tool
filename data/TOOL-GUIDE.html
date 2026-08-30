@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>zilla-kb-tool - Complete Architecture &amp; Operations Guide</title>
+<style>
+  body { font-family:'Segoe UI',Arial,sans-serif; color:#222; margin:38px; line-height:1.5; }
+  h1 { color:#0b3d66; margin-bottom:2px; }
+  h2 { color:#0b3d66; border-bottom:2px solid #dce7f0; padding-bottom:5px; margin-top:30px; }
+  h3 { color:#155e8a; margin:18px 0 4px; }
+  p, li { font-size:13px; }
+  pre { background:#f4f7fa; border:1px solid #dbe5ee; border-radius:6px;
+        padding:9px 12px; font-size:11.5px; overflow-x:auto; page-break-inside:avoid; }
+  code { font-family:Consolas,monospace; background:#eef2f7; padding:1px 4px; border-radius:4px; font-size:11.5px; }
+  table { border-collapse:collapse; width:100%; margin:10px 0; page-break-inside:auto; }
+  th { background:#0b3d66; color:#fff; text-align:left; padding:6px 9px; font-size:12px; }
+  td { border-bottom:1px solid #dde; padding:6px 9px; vertical-align:top; font-size:12px; }
+  tr:nth-child(even) td { background:#f7fafc; }
+  .box { background:#eef6ee; border-left:5px solid #2e8b57; padding:10px 14px; border-radius:6px; margin:12px 0; }
+  .warn { background:#fdf3e7; border-left:5px solid #d35400; }
+  .tag { display:inline-block; background:#eaf3fb; color:#155e8a; border:1px solid #cfe3f2;
+         border-radius:12px; padding:1px 10px; font-size:11px; margin:0 4px 4px 0; }
+  .phase { display:inline-block; background:#0b3d66; color:#fff; border-radius:6px;
+           padding:2px 10px; font-size:12px; margin-right:8px; }
+  footer { color:#99a; font-size:11px; margin-top:26px; border-top:1px solid #eee; padding-top:8px; }
+</style></head><body>
+
+<h1>zilla-kb-tool &mdash; Complete Guide</h1>
+<p class="sub">Automated knowledge-base regression testing for Zilla voice agents &bull; v2026-08-22</p>
+
+<div class="box"><b>What it does.</b> End-to-end pipeline that turns a Word-document knowledge
+base into realistic test questions (Arabic &amp; English), speaks them to live Zilla voice
+agents through real calls or WebSockets, records the answers, and grades every answer with an
+LLM judge on <b>Relevancy</b> and <b>Faithfulness</b> - producing auditable score reports.</div>
+
+<span class="tag">TypeScript (tsx)</span><span class="tag">Python evaluator</span>
+<span class="tag">DeepEval 4.1.8</span><span class="tag">Playwright call runner</span>
+<span class="tag">WebSocket runner</span><span class="tag">Edge TTS + ffmpeg</span>
+<span class="tag">Gemini question generator</span><span class="tag">Groq/OpenRouter/Ollama judges</span>
+
+<h2>1. Pipeline at a glance</h2>
+<pre>spl_kb.docx
+   |  npm run extract-chunks        (python-docx)
+   v
+data/chunks.json --&gt; npm run generate-questions  (Gemini)  --&gt; data/questions.json
+                          |                                              |
+                          |  npm run validate-questions                  |  npm run generate-audio
+                          v                                              v  (Edge TTS + ffmpeg)
+                    console report                              wav/Qxxx.wav (+ audio_file)
+                                                                         |
+                                        npm run build-sessions  &lt;--------+
+                                                     |    (seeded shuffle, AR+EN sessions)
+                                                     v
+                                          data/sessions.json
+                                                     |
+              npm run run-sessions  (browser call via Playwright "CallRunner")
+                       OR  run-sessions-ws  (direct WebSocket, text turns)
+                                                     v
+                          data/runs/&lt;session&gt;/... + data/runs/run-results-&lt;stamp&gt;.json
+                                                     |  npm run capture-answers
+                                                     v
+                                data/captured-answers-&lt;stamp&gt;.json
+                                                     |  npm run evaluate  (DeepEval judge)
+                                                     v
+                                data/eval-results-*.json  -&gt; reports
+
+sidecars:  npm run agents  (resolve agent names -&gt; ids in .env)
+           npm run clean    (--from N resets phases N..8)
+           npm run ui       (local dashboard for everything above)</pre>
+
+<h2>2. Phase reference</h2>
+
+<h3><span class="phase">Phase 1</span> extract-chunks &mdash; <code>src/question-generator/extract_chunks.py</code></h3>
+<p>Parses the KB Word document into addressable chunks: one chunk per non-empty paragraph,
+one per table row (merged-cell duplicates removed). Tags each chunk with stable id
+(<code>chunk_001&hellip;</code>), language (<code>ar</code>/<code>en</code> by Unicode range) and group.</p>
+<table><tr><th></th><th></th></tr>
+<tr><td>Input</td><td><code>spl_kb.docx</code></td></tr>
+<tr><td>Output</td><td><code>data/chunks.json</code> - <code>{id, type, text, language, group}</code></td></tr>
+<tr><td>Services</td><td>none (local python-docx)</td></tr></table>
+
+<h3><span class="phase">Phase 2</span> generate-questions &mdash; <code>src/question-generator/generate.ts</code></h3>
+<p>Picks chunks (standalone + pairs from the same table for "combined" questions) and asks an
+LLM for one realistic customer question + ground-truth answer each, in EN and AR
+(same <code>pair_id</code>). Resumable, rate-limit-aware, saves after every question.
+Short chunks (&lt;15 chars) skipped.</p>
+<table>
+<tr><td>Input / Output</td><td><code>data/chunks.json</code> &rarr; <code>data/questions.json</code>
+(<code>{id Q###, pair_id P###, language, question, expected_answer, source_chunks[]}</code>)</td></tr>
+<tr><td>Services</td><td>Gemini <code>gemini-3.6-flash</code> or OpenAI-compatible (temperature 0.3, JSON mode)</td></tr>
+<tr><td>Key env</td><td><code>SAMPLE_SIZE</code> (number|all), <code>GENERATE_ENGLISH/ARABIC</code>,
+<code>RESUME</code>, <code>MAX_RETRIES</code>, <code>REQUEST_DELAY_MS</code></td></tr>
+</table>
+<p><b>validate-questions</b> re-checks any questions file (ids, uniqueness, languages,
+non-empty fields, source chunks resolvable against chunks.json). Console report only.</p>
+
+<h3><span class="phase">Phase 3</span> generate-audio &mdash; <code>src/tts/generate_audio.ts</code></h3>
+<p>Speaks every question: Edge TTS (voices <code>ar-EG-SalmaNeural</code> /
+<code>en-US-JennyNeural</code>) &rarr; mp3 &rarr; ffmpeg &rarr; 16 kHz mono WAV; writes
+<code>audio_file</code> back into questions.json. Resumable, 3 retries.</p>
+
+<h3><span class="phase">Phase 4</span> build-sessions &mdash; <code>src/session-builder/build_sessions.ts</code></h3>
+<p>Bundles questions that HAVE audio into multi-turn sessions per language using a seeded
+deterministic shuffle (mulberry32, seed <code>RANDOM_SEED=42</code>) so runs are reproducible.</p>
+<table>
+<tr><td>Output</td><td><code>data/sessions.json</code> -
+<code>{session_id S###_ar/_en, language, agent_id, messages[{turn, question_id, audio_file}&hellip;]}</code></td></tr>
+<tr><td>Key env</td><td><code>MESSAGES_PER_SESSION=10</code>, <code>TOTAL_SESSIONS_AR/EN=10</code>,
+<code>ALLOW_REPEAT_QUESTIONS</code>, <code>ZILLA_AGENT_ID_AR/EN</code></td></tr>
+</table>
+
+<h3><span class="phase">Phase 5</span> running sessions &mdash; two interchangeable runners</h3>
+<table>
+<tr><th></th><th>run-sessions.ts (UI mode)</th><th>run-sessions-ws.ts (direct WS)</th></tr>
+<tr><td>Mechanism</td><td>Playwright browser drives the real Zilla web app, injects WAV clips as mic input (vendored CallRunner subprocess)</td><td>One raw WebSocket to <code>WS_URL .../audio/{token}</code>; sends <code>{"text": question}</code>, assembles streamed reply sentences</td></tr>
+<tr><td>Needs</td><td>Zilla email/password login, staged clips</td><td>No browser, no audio</td></tr>
+<tr><td>Turn-complete logic</td><td>CallRunner e2e heuristics</td><td>1800 ms frame silence (settle) + 20 s hard timeout</td></tr>
+<tr><td>Outputs</td><td colspan="2">Identical shapes: per-session <code>summary-&lt;stamp&gt;.json</code> + aggregate <code>data/runs/run-results-&lt;stamp&gt;.json</code></td></tr>
+<tr><td>Scheduling env</td><td colspan="2"><code>CONCURRENCY</code>, <code>CONCURRENT_AR/EN</code>, <code>--sessions S001_ar,... </code>; UI mode adds RESHUFFLE/SHUFFLE_SESSIONS/SESSIONS_PER_RUN</td></tr>
+</table>
+
+<h3><span class="phase">Phase 6</span> capture-answers &mdash; <code>src/capture/capture_answers.ts</code></h3>
+<p>Joins raw run artifacts into the clean dataset the evaluator consumes: customer question
+&rarr; following agent answer, plus expected answer, source chunks, latency and call URL.
+Question order is taken from staged clip filenames (authoritative under reshuffle).</p>
+<table><tr><td>Input</td><td>newest <code>run-results-*.json</code> (+ summaries, sessions, questions)</td></tr>
+<tr><td>Output</td><td><code>data/captured-answers-&lt;ISO-stamp&gt;.json</code> with totals
+(sessions, answered/unanswered, avg latency) and per-turn records</td></tr></table>
+
+<h3><span class="phase">Phase 7</span> evaluate &mdash; <code>src/evaluator/evaluate.py</code></h3>
+<p>DeepEval-based grading of every captured answer:</p>
+<ul>
+<li><b>Adapter <code>OpenAICompatModel</code>:</b> plain chat-completions client so ANY
+OpenAI-compatible endpoint works - Groq cloud, OpenRouter cloud, or local Ollama.
+Temperature 0, key chosen by endpoint host. Counts tokens/calls per run.</li>
+<li><b>Dialect-aware templates:</b> wrappers adding our rules to DeepEval prompts:
+Levantine-dialect tolerance, Arabic-native comparison (no translation),
+English-only reasons, no-truncation claim extraction, "&#1601;&#1602;&#1591;" list-scope rule,
+natural-closings rule.</li>
+<li><b>Metrics:</b> Answer-Relevancy + Faithfulness (threshold 0.5); deterministic reasons
+rebuilt from raw verdict counts instead of LLM prose.</li>
+<li><b>Resilience:</b> auto-retry (3&times;) on HTTP 429, malformed JSON and empty completions;
+results saved after EVERY question so resume never loses work; result files are named
+per source AND per judge so switching judges never clobbers scores.</li>
+<li><b>Observability:</b> per-question judge latency + run-level token usage stored in output.</li>
+</ul>
+
+<h2>3. Sidecar tools</h2>
+<table>
+<tr><th>Command</th><th>What it does</th></tr>
+<tr><td><code>npm run agents</code></td>
+<td>Headless-browser login to Zilla, lists account agents, resolves agent NAMES to IDs
+(case-insensitive unique substring match) and rewrites <code>ZILLA_AGENT_ID_AR/EN</code> in .env.
+<code>--list</code> / <code>--json</code> flags.</td></tr>
+<tr><td><code>npm run clean -- --from N</code></td>
+<td>Resets generated data from phase N onward (1=chunks &hellip; 8=eval results);
+<code>--dry</code> lists without deleting. Never touches spl_kb.docx.</td></tr>
+<tr><td><code>npm run ui</code></td>
+<td>Local dashboard on <code>127.0.0.1:5173</code>: edit every .env value, run/stop any
+phase with live console, status cards, animated per-call transcripts with metric pills.
+No external deps (node:http only).</td></tr>
+</table>
+
+<h2>4. Data dictionary</h2>
+<table>
+<tr><th>File</th><th>Produced by</th><th>Consumed by</th></tr>
+<tr><td>spl_kb.docx</td><td>(source KB)</td><td>extract-chunks</td></tr>
+<tr><td>data/chunks.json</td><td>extract-chunks</td><td>generate-questions, validate</td></tr>
+<tr><td>data/questions.json</td><td>generate-questions (+TTS update)</td><td>audio, sessions, capture, UI</td></tr>
+<tr><td>wav/Qxxx.wav</td><td>generate-audio</td><td>build-sessions filter, UI runner</td></tr>
+<tr><td>data/sessions.json</td><td>build-sessions</td><td>both runners, capture, UI</td></tr>
+<tr><td>data/runs/**</td><td>runners</td><td>capture-answers, UI</td></tr>
+<tr><td>data/captured-answers-*.json</td><td>capture-answers</td><td>evaluate, UI</td></tr>
+<tr><td>data/eval-results-*.json</td><td>evaluate</td><td>UI, reports</td></tr>
+</table>
+
+<h2>5. Configuration (.env groups)</h2>
+<pre>[question generation]  LLM_PROVIDER=gemini, GEMINI_MODEL=gemini-3.6-flash, GEMINI_API_KEY,
+                       SAMPLE_SIZE, GENERATE_ENGLISH/ARABIC, RESUME, MAX_RETRIES
+[judge]                EVAL_LLM_PROVIDER=openai, EVAL_MODEL=openai/gpt-oss-120b,
+                       EVAL_LLM_BASE_URL=https://api.groq.com/openai/v1, GROQ_API_KEY
+                       (alt: OpenRouter sk-or-v1-... key in OPENAI_API_KEY, or Ollama local)
+[sessions]             MESSAGES_PER_SESSION=10, TOTAL_SESSIONS_AR/EN=10, RANDOM_SEED=42,
+                       ALLOW_REPEAT_QUESTIONS, ZILLA_AGENT_ID_AR/EN
+[zilla connection]     APP_URL=https://ziila-stg.intella.me, VITE_API_BASE_URL=...api,
+                       ZILLA_EMAIL/ZILLA_PASSWORD
+[runner scheduling]    CONCURRENCY=2, CONCURRENT_AR/EN, SESSIONS_PER_RUN, SHUFFLE flags
+[websocket runner]     WS_URL=ws://host:port/audio/{token}, WS_MODE=text,
+                       WS_SETTLE_MS=1800, WS_TURN_TIMEOUT_MS=20000, WS_INTER_TURN_MS=400
+[dashboard]            UI_PORT=5173</pre>
+
+<h2>6. Quality assurance of the judge itself</h2>
+<p>The judge was selected by grading the SAME 5 Arabic questions with three candidate models,
+then stress-tested with deliberately corrupted answers (poison test):</p>
+<table>
+<tr><th>Judge</th><th>Relevancy</th><th>Faithfulness</th><th>Time/5q</th><th>Verdict</th></tr>
+<tr><td><b>gpt-oss-120b (Groq)</b></td><td><b>1.00</b></td><td><b>1.00</b></td><td><b>2.7 min</b></td><td>adopted</td></tr>
+<tr><td>nemotron-550b (OpenRouter)</td><td>0.72</td><td>0.90</td><td>10.1 min</td><td>strong but slow</td></tr>
+<tr><td>qwen2.5:7b (local)</td><td>0.62</td><td>0.57</td><td>~3 min</td><td>offline fallback only</td></tr>
+</table>
+<div class="box"><b>Poison test: 4/4 correct.</b> Fake cities &rarr; Faithfulness 0.00;
+fabricated numbers (999) &rarr; Faithfulness 0.00; off-topic chatter &rarr; Relevancy 0.00;
+untouched control answer &rarr; perfect scores. Each metric catches exactly its own fault type.</div>
+
+<h2>7. Quickstart</h2>
+<pre>npm install && pip install deepeval python-dotenv openai docx edge-tts
+npm run agents -- --list          # pick agent ids -> .env
+npm run extract-chunks && npm run generate-questions && npm run validate-questions
+npm run generate-audio && npm run build-sessions
+npm run run-sessions-ws           # or run-sessions for real browser calls
+npm run capture-answers && npm run evaluate -- --sample 5 --no-resume
+# or drive everything from: npm run ui</pre>
+
+<div class="warn"><b>Quota cheat-sheet.</b> Groq (judge): ~1,000 requests per rolling ~2h45m
+window - a 200-question run (~1,400 calls) needs two sittings or let retry+resume bridge the
+reset. OpenRouter free: ~50 requests/day total. Gemini (questions): standard free limits.
+Local Ollama: unlimited, lower accuracy on long-list comparisons.</div>
+
+<footer>zilla-kb-tool3 &bull; generated 2026-08-22 &bull; companions:
+EVALUATION-REPORT.pdf (scores) &bull; judge-comparison.md (raw appendix)</footer>
+</body></html>

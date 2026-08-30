@@ -1,0 +1,3542 @@
+[
+  {
+    "id": "PERSONALLOAN-Q001",
+    "pair_id": "PERSONALLOAN-P001",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد العمري المطلوب للحصول على قرض شخصي بشكل عام؟",
+    "expected_answer": "يتراوح العمر المطلوب عند المنح بين 22 و65 سنة بشكل عام، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+    "source_chunks": [
+      "لفئة 1: معلومات القرض الشخصي بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65) و(75) سنة عند تسديد آخر قسط."
+    ],
+    "chunk_ids": [
+      "chunk_001"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q001.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q002",
+    "pair_id": "PERSONALLOAN-P001",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the required age to obtain a personal loan in general?",
+    "expected_answer": "The required age at granting is generally between 22 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+    "source_chunks": [
+      "Category 1: General Personal Loan Information. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+    ],
+    "chunk_ids": [
+      "chunk_001_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q002.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q003",
+    "pair_id": "PERSONALLOAN-P002",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد العمري المطلوب للمهنيين وأصحاب الأعمال الحرة للحصول على قرض شخصي؟",
+    "expected_answer": "يتراوح العمر المطلوب عند المنح للمهنيين وأصحاب الأعمال الحرة بين 26 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+    "source_chunks": [
+      "لفئة 1: معلومات القرض الشخصي بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65) و(75) سنة عند تسديد آخر قسط."
+    ],
+    "chunk_ids": [
+      "chunk_001"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q003.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q004",
+    "pair_id": "PERSONALLOAN-P002",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the required age for professionals and self-employed individuals to obtain a personal loan?",
+    "expected_answer": "The required age at granting for professionals and self-employed individuals is between 26 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+    "source_chunks": [
+      "Category 1: General Personal Loan Information. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+    ],
+    "chunk_ids": [
+      "chunk_001_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q004.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q005",
+    "pair_id": "PERSONALLOAN-P003",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي نسبة عبء الدين للرواتب الأقل من أو تساوي 2,500 دينار للقرض الشخصي؟",
+    "expected_answer": "55% للقرض فقط، بالإضافة إلى 5% للبطاقة لأصحاب الدخل الأقل من 2,500 دينار.",
+    "source_chunks": [
+      "عبء الدين للرواتب الأقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_002"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q005.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q006",
+    "pair_id": "PERSONALLOAN-P003",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the debt burden for salaries less than or equal to 2,500 JOD for the personal loan?",
+    "expected_answer": "55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD.",
+    "source_chunks": [
+      "Debt burden for salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_002_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q006.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q007",
+    "pair_id": "PERSONALLOAN-P004",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي نسبة عبء الدين للرواتب الأكبر من 2,500 دينار للقرض الشخصي؟",
+    "expected_answer": "55% للقرض فقط، بالإضافة إلى 10% للبطاقة لأصحاب الدخل الأعلى من 2,500 دينار.",
+    "source_chunks": [
+      "عبء الدين للرواتب الأكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_003"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q007.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q008",
+    "pair_id": "PERSONALLOAN-P004",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the debt burden for salaries greater than 2,500 JOD for the personal loan?",
+    "expected_answer": "55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD.",
+    "source_chunks": [
+      "Debt burden for salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_003_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q008.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q009",
+    "pair_id": "PERSONALLOAN-P005",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي نسبة عبء الدين للعاملين في القطاع الأمني أو العسكري أو لمن راتبه أقل من 450 دينار؟",
+    "expected_answer": "تكون نسبة عبء الدين 35% في حال القطاع الأمني أو العسكري أو راتب أقل من 450 دينار.",
+    "source_chunks": [
+      "في حال القطاع الأمني أو العسكري أو راتب أقل من 450 دينار يكون عبء الدين 35%."
+    ],
+    "chunk_ids": [
+      "chunk_004"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q009.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q010",
+    "pair_id": "PERSONALLOAN-P005",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the debt burden for those in the Security or Military sector, or with a salary less than 450 JOD?",
+    "expected_answer": "The debt burden is 35% in the case of the Security or Military sector, or a salary less than 450 JOD.",
+    "source_chunks": [
+      "In the case of the Security or Military sector, or a salary less than 450 JOD, the debt burden is 35%."
+    ],
+    "chunk_ids": [
+      "chunk_004_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q010.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q011",
+    "pair_id": "PERSONALLOAN-P006",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل للقرض الشخصي؟",
+    "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 70%.",
+    "source_chunks": [
+      "عبء الدين كمدين وكفيل: 70%."
+    ],
+    "chunk_ids": [
+      "chunk_005"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q011.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q012",
+    "pair_id": "PERSONALLOAN-P006",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the debt burden ratio when there is both a debtor and a guarantor for the personal loan?",
+    "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 70%.",
+    "source_chunks": [
+      "Debt burden as debtor and guarantor: 70%."
+    ],
+    "chunk_ids": [
+      "chunk_005_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q012.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q013",
+    "pair_id": "PERSONALLOAN-P007",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لصافي الدخل بشكل عام للحصول على قرض شخصي؟",
+    "expected_answer": "الحد الأدنى لصافي الدخل بشكل عام هو 450 دينار.",
+    "source_chunks": [
+      "الحد الأدنى لصافي الدخل بشكل عام: 450 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_006"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q013.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q014",
+    "pair_id": "PERSONALLOAN-P007",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum net income in general to obtain a personal loan?",
+    "expected_answer": "The minimum net income in general is 450 JOD.",
+    "source_chunks": [
+      "Minimum net income in general: 450 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_006_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q014.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q015",
+    "pair_id": "PERSONALLOAN-P008",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لصافي الدخل للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض شخصي؟",
+    "expected_answer": "الحد الأدنى لصافي الدخل للعاملين في الأجهزة الأمنية والعسكرية هو 1,000 دينار.",
+    "source_chunks": [
+      "الحد الأدنى لصافي الدخل في حال الأجهزة الأمنية والعسكرية: 1,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_007"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q015.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q016",
+    "pair_id": "PERSONALLOAN-P008",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum net income for Security and Military Apparatuses personnel to obtain a personal loan?",
+    "expected_answer": "The minimum net income for Security and Military Apparatuses personnel is 1,000 JOD.",
+    "source_chunks": [
+      "Minimum net income in the case of Security and Military Apparatuses: 1,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_007_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q016.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q017",
+    "pair_id": "PERSONALLOAN-P009",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لصافي الدخل للمهنيين وأطباء الأسنان والأطباء أصحاب العيادات؟",
+    "expected_answer": "الحد الأدنى لصافي الدخل للمهنيين وأطباء الأسنان والأطباء أصحاب العيادات هو 2,000 دينار.",
+    "source_chunks": [
+      "الحد الأدنى لصافي الدخل في حال المهنيين وأطباء الأسنان والأطباء أصحاب العيادات: 2,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_008"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q017.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q018",
+    "pair_id": "PERSONALLOAN-P009",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum net income for professionals, dentists, and doctors with clinics?",
+    "expected_answer": "The minimum net income for professionals, dentists, and doctors with clinics is 2,000 JOD.",
+    "source_chunks": [
+      "Minimum net income in the case of professionals, dentists, and doctors with clinics: 2,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_008_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q018.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q019",
+    "pair_id": "PERSONALLOAN-P010",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لصافي الدخل لأصحاب الأعمال الحرة من غير سجلات؟",
+    "expected_answer": "الحد الأدنى لصافي الدخل لأصحاب الأعمال الحرة من غير سجلات هو 1,000 دينار.",
+    "source_chunks": [
+      "الحد الأدنى لصافي الدخل في حال الأعمال الحرة من غير سجلات: 1,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_009"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q019.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q020",
+    "pair_id": "PERSONALLOAN-P010",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum net income for freelancers without commercial registers?",
+    "expected_answer": "The minimum net income for freelancers without commercial registers is 1,000 JOD.",
+    "source_chunks": [
+      "Minimum net income in the case of freelancers without commercial registers: 1,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_009_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q020.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q021",
+    "pair_id": "PERSONALLOAN-P011",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "كم تبلغ عمولة المنح للقرض الشخصي؟",
+    "expected_answer": "تبلغ عمولة المنح 1%.",
+    "source_chunks": [
+      "عمولة المنح: 1%."
+    ],
+    "chunk_ids": [
+      "chunk_010"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q021.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q022",
+    "pair_id": "PERSONALLOAN-P011",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the granting commission for the personal loan?",
+    "expected_answer": "The granting commission is 1%.",
+    "source_chunks": [
+      "Granting commission: 1%."
+    ],
+    "chunk_ids": [
+      "chunk_010_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q022.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q023",
+    "pair_id": "PERSONALLOAN-P012",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو مبلغ القرض الشخصي بشكل عام؟",
+    "expected_answer": "يتراوح مبلغ القرض الشخصي بشكل عام بين 2,000 و110,000 دينار.",
+    "source_chunks": [
+      "مبلغ القرض بشكل عام: 2,000 – 110,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_011"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q023.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q024",
+    "pair_id": "PERSONALLOAN-P012",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan amount in general?",
+    "expected_answer": "The personal loan amount in general ranges from 2,000 to 110,000 JOD.",
+    "source_chunks": [
+      "Loan amount in general: 2,000 – 110,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_011_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q024.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q025",
+    "pair_id": "PERSONALLOAN-P013",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو مبلغ القرض الشخصي لموظفي المبيعات؟",
+    "expected_answer": "يتراوح مبلغ القرض لموظفي المبيعات بين 2,000 و20,000 دينار.",
+    "source_chunks": [
+      "مبلغ القرض للمبيعات: 2,000 – 20,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_012"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q025.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q026",
+    "pair_id": "PERSONALLOAN-P013",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan amount for sales employees?",
+    "expected_answer": "The loan amount for sales employees ranges from 2,000 to 20,000 JOD.",
+    "source_chunks": [
+      "Loan amount for sales: 2,000 – 20,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_012_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q026.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q027",
+    "pair_id": "PERSONALLOAN-P014",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو مبلغ القرض الشخصي لأصحاب العيادات؟",
+    "expected_answer": "يتراوح مبلغ القرض لأصحاب العيادات بين 2,000 و110,000 دينار، وبين 2,000 و100,000 دينار في المحافظات.",
+    "source_chunks": [
+      "مبلغ القرض لأصحاب العيادات: 2,000 – 110,000 دينار، و2,000 – 100,000 دينار في المحافظات."
+    ],
+    "chunk_ids": [
+      "chunk_013"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q027.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q028",
+    "pair_id": "PERSONALLOAN-P014",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan amount for clinic owners?",
+    "expected_answer": "The loan amount for clinic owners ranges from 2,000 to 110,000 JOD, and from 2,000 to 100,000 JOD in governorates.",
+    "source_chunks": [
+      "Loan amount for clinic owners: 2,000 – 110,000 JOD, and 2,000 – 100,000 JOD in governorates."
+    ],
+    "chunk_ids": [
+      "chunk_013_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q028.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q029",
+    "pair_id": "PERSONALLOAN-P015",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو مبلغ القرض الشخصي للمهنيين وأطباء الأسنان؟",
+    "expected_answer": "يتراوح مبلغ القرض للمهنيين وأطباء الأسنان بين 2,000 و70,000 دينار.",
+    "source_chunks": [
+      "مبلغ القرض للمهنيين وأطباء الأسنان: 2,000 – 70,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_014"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q029.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q030",
+    "pair_id": "PERSONALLOAN-P015",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan amount for professionals and dentists?",
+    "expected_answer": "The loan amount for professionals and dentists ranges from 2,000 to 70,000 JOD.",
+    "source_chunks": [
+      "Loan amount for professionals, dentists: 2,000 – 70,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_014_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q030.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q031",
+    "pair_id": "PERSONALLOAN-P016",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو مبلغ القرض الشخصي لأصحاب الأعمال الحرة بدون سجلات تجارية؟",
+    "expected_answer": "يتراوح مبلغ القرض لأصحاب الأعمال الحرة بدون سجلات تجارية بين 2,000 و25,000 دينار.",
+    "source_chunks": [
+      "مبلغ القرض للأعمال الحرة بدون سجلات تجارية: 2,000 – 25,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_015"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q031.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q032",
+    "pair_id": "PERSONALLOAN-P016",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan amount for freelance businesses without commercial registers?",
+    "expected_answer": "The loan amount for freelance businesses without commercial registers ranges from 2,000 to 25,000 JOD.",
+    "source_chunks": [
+      "Loan amount for freelance businesses without commercial registers: 2,000 – 25,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_015_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q032.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q033",
+    "pair_id": "PERSONALLOAN-P017",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي مدة القرض الشخصي بشكل عام؟",
+    "expected_answer": "تتراوح مدة القرض الشخصي بشكل عام بين 12 و96 شهراً.",
+    "source_chunks": [
+      "مدة القرض بشكل عام: 12 – 96 شهر."
+    ],
+    "chunk_ids": [
+      "chunk_016"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q033.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q034",
+    "pair_id": "PERSONALLOAN-P017",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan period in general?",
+    "expected_answer": "The personal loan period in general ranges from 12 to 96 months.",
+    "source_chunks": [
+      "Loan period in general: 12 – 96 months."
+    ],
+    "chunk_ids": [
+      "chunk_016_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q034.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q035",
+    "pair_id": "PERSONALLOAN-P018",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي مدة القرض الشخصي للمهنيين وأصحاب الأعمال الحرة؟",
+    "expected_answer": "تتراوح مدة القرض للمهنيين وأصحاب الأعمال الحرة بين 12 و84 شهراً.",
+    "source_chunks": [
+      "مدة القرض في حال المهنيين والأعمال الحرة: 12 – 84 شهر."
+    ],
+    "chunk_ids": [
+      "chunk_017"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q035.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q036",
+    "pair_id": "PERSONALLOAN-P018",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan period for professionals and self-employed individuals?",
+    "expected_answer": "The loan period for professionals and self-employed individuals ranges from 12 to 84 months.",
+    "source_chunks": [
+      "Loan period in the case of professionals and self-employed: 12 – 84 months."
+    ],
+    "chunk_ids": [
+      "chunk_017_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q036.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q037",
+    "pair_id": "PERSONALLOAN-P019",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي مدة القرض الشخصي لأصحاب الأعمال الحرة من غير سجلات؟",
+    "expected_answer": "تتراوح مدة القرض لأصحاب الأعمال الحرة من غير سجلات بين 12 و60 شهراً.",
+    "source_chunks": [
+      "مدة القرض في حال الأعمال الحرة من غير سجلات: 12 – 60 شهر."
+    ],
+    "chunk_ids": [
+      "chunk_018"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q037.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q038",
+    "pair_id": "PERSONALLOAN-P019",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan period for freelancers without commercial registers?",
+    "expected_answer": "The loan period for freelancers without commercial registers ranges from 12 to 60 months.",
+    "source_chunks": [
+      "Loan period in the case of freelancers without commercial registers: 12 – 60 months."
+    ],
+    "chunk_ids": [
+      "chunk_018_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q038.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q039",
+    "pair_id": "PERSONALLOAN-P020",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي شروط تأجيل دفعات القرض الشخصي؟",
+    "expected_answer": "يُسمح بتأجيل دفعتين فقط خلال العام على ألا تقعا ضمن نفس النصف من السنة، وبشرط مرور 6 أشهر على تاريخ صرف القرض، والتزام العميل بالسداد دون مستحقات تتجاوز 30 يوماً خلال الأشهر الستة السابقة، وعدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. ولا يُسمح لعملاء الاقتطاعات بتأجيل الأقساط.",
+    "source_chunks": [
+      "الشروط بشكل عام - تأجيل الدفعات: يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الأقساط."
+    ],
+    "chunk_ids": [
+      "chunk_019"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q039.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q040",
+    "pair_id": "PERSONALLOAN-P020",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the conditions for postponing personal loan installments?",
+    "expected_answer": "Only two postponements are allowed during the year, provided they do not fall within the same half of the year, that 6 months have passed since the loan disbursement date, that the customer is committed to repayment with no dues exceeding 30 days during the previous 6 months, and that the maximum age limit for the customer at the due date of the last installment is not exceeded. Deduction customers are not allowed to postpone installments.",
+    "source_chunks": [
+      "General Conditions - Postponement of Installments: Postponing only two installments is allowed during the year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment and there are no dues on them (more than 30 days) during the previous 6 months. Not exceeding the maximum age limit for the customer upon the due date of the last installment. Deduction customers are not allowed to postpone installments."
+    ],
+    "chunk_ids": [
+      "chunk_019_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q040.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q041",
+    "pair_id": "PERSONALLOAN-P021",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لقيمة قرض شراء التزامات من بنوك أخرى؟",
+    "expected_answer": "الحد الأدنى لقيمة القرض 2,000 دينار، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 500 دينار.",
+    "source_chunks": [
+      "شراء قروض من بنوك أخرى: الحد الأدنى لقيمة القرض 2,000 دينار على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزامات عن 500 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_020"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q041.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q042",
+    "pair_id": "PERSONALLOAN-P021",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum value of a loan for buying obligations from other banks?",
+    "expected_answer": "The minimum loan value is 2,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 500 JOD.",
+    "source_chunks": [
+      "Buying loans from other banks: The minimum loan value is 2,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 500 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_020_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q042.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q043",
+    "pair_id": "PERSONALLOAN-P022",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو شرط الالتزام بالسداد عند تقديم طلب شراء التزامات من بنك آخر؟",
+    "expected_answer": "يجب أن يكون العميل ملتزماً بالسداد وألا توجد عليه أي مستحقات عند تقديم الطلب.",
+    "source_chunks": [
+      "شراء قروض من بنوك أخرى: ملتزم بالسداد ولا توجد أي مستحقة عليه عند تقديم الطلب."
+    ],
+    "chunk_ids": [
+      "chunk_021"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q043.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q044",
+    "pair_id": "PERSONALLOAN-P022",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What repayment commitment is required when submitting an application to buy obligations from another bank?",
+    "expected_answer": "The customer must be committed to repayment and have no dues upon submitting the application.",
+    "source_chunks": [
+      "Buying loans from other banks: Committed to repayment and there are no dues on them upon submitting the application."
+    ],
+    "chunk_ids": [
+      "chunk_021_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q044.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q045",
+    "pair_id": "PERSONALLOAN-P023",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي معايير منح قرض شراء الالتزامات من بنوك أخرى؟",
+    "expected_answer": "تُحدد معايير المنح حسب الفئة المستهدفة ومدة سداد القرض ونسبة الالتزام من الدخل (DBR) ومبلغ القرض، ومضاعفات الراتب أو الدخل حسب البرنامج المعمول به. كما يتم تمويل عمولة التسديد المبكر لدى البنك الآخر.",
+    "source_chunks": [
+      "معايير المنح لشراء قروض من بنوك أخرى: حسب الفئة المستهدفة ومدة سداد القرض ونسبة الالتزام من الدخل (DBR) ومبلغ القرض، مضاعفات الراتب أو الدخل حسب البرنامج المعمول به. تمويل عمولة التسديد المبكر لدى البنك الآخر."
+    ],
+    "chunk_ids": [
+      "chunk_022"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q045.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q046",
+    "pair_id": "PERSONALLOAN-P023",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the granting criteria for buying loans from other banks?",
+    "expected_answer": "Granting criteria are according to the target segment, loan repayment period, Debt Burden Ratio (DBR) from income, and loan amount, in multiples of the salary or income according to the applicable program. The early settlement commission at the other bank is also financed.",
+    "source_chunks": [
+      "Granting criteria (buying loans from other banks): According to the target segment, loan repayment period, Debt Burden Ratio (DBR) from income, and loan amount, in multiples of the salary or income according to the applicable program. Financing the early settlement commission at the other bank."
+    ],
+    "chunk_ids": [
+      "chunk_022_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q046.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q047",
+    "pair_id": "PERSONALLOAN-P024",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي شروط الموافقة التلقائية على التأمين على حياة المدين للقرض الشخصي؟",
+    "expected_answer": "تتم الموافقة التلقائية ضمن بوليصة التأمين الجماعية للعملاء الذين تبلغ أعمارهم 65 سنة فأقل، وبشرط أن يكون مبلغ القرض أقل من 100,000 دينار.",
+    "source_chunks": [
+      "رسوم التأمين - تأمين على حياة المدين: الموافقة التلقائية ضمن بوليصة التأمين الجماعية: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض أقل من 100,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_023"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q047.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q048",
+    "pair_id": "PERSONALLOAN-P024",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the conditions for automatic life insurance approval for the debtor on the personal loan?",
+    "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 years and below, provided the loan amount is less than 100,000 JOD.",
+    "source_chunks": [
+      "Insurance fees - Life insurance for the debtor: Automatic approval within the group insurance policy. Customers aged 65 years and below. Loan amount is less than 100,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_023_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q048.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q049",
+    "pair_id": "PERSONALLOAN-P025",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الشرط الأول لرفع سقف القرض الشخصي؟",
+    "expected_answer": "يجب على العميل تقديم تعهد باستمرارية تحويل الراتب من نفس الشركة عند المنح.",
+    "source_chunks": [
+      "يتم رفع سقف القرض شريطة: تقديم العميل لتعهد استمرارية تحويل راتب من نفس الشركة عند المنح."
+    ],
+    "chunk_ids": [
+      "chunk_024"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q049.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q050",
+    "pair_id": "PERSONALLOAN-P025",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the first condition for raising the personal loan ceiling?",
+    "expected_answer": "The customer must provide a continuous salary transfer commitment from the same company upon granting.",
+    "source_chunks": [
+      "Raising the loan ceiling is subject to: The customer providing a continuous salary transfer commitment from the same company upon granting."
+    ],
+    "chunk_ids": [
+      "chunk_024_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q050.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q051",
+    "pair_id": "PERSONALLOAN-P026",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو شرط الالتزام بالسداد لرفع سقف القرض الشخصي؟",
+    "expected_answer": "يجب أن يكون العميل ملتزماً بالسداد ولا توجد عليه أي مستحقة تتجاوز 30 يوماً على نظام كريف لآخر 12 شهراً.",
+    "source_chunks": [
+      "يتم رفع سقف القرض شريطة: أن يكون ملتزم بالسداد ولا توجد عليه أي مستحقة أكثر من 30 يوم على نظام كريف لآخر 12 شهر."
+    ],
+    "chunk_ids": [
+      "chunk_025"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q051.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q052",
+    "pair_id": "PERSONALLOAN-P026",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What repayment commitment is required to raise the personal loan ceiling?",
+    "expected_answer": "The customer must be committed to repayment with no dues exceeding 30 days on the CRIF system for the last 12 months.",
+    "source_chunks": [
+      "Raising the loan ceiling is subject to: Being committed to repayment with no dues exceeding 30 days on the CRIF system for the last 12 months."
+    ],
+    "chunk_ids": [
+      "chunk_025_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q052.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q053",
+    "pair_id": "PERSONALLOAN-P027",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو شرط القضايا القانونية لرفع سقف القرض الشخصي؟",
+    "expected_answer": "يتم الاعتذار حصراً في حال وجود قضايا خلال آخر 3 سنوات كمدين أو كفيل للزوج أو الزوجة، باستثناء قضايا القتل العمد والمخدرات والاختلاس وقضايا الشرف، أو في حال ظهور القضية بعد تاريخ المنح الأصلي.",
+    "source_chunks": [
+      "يتم رفع سقف القرض شريطة: الاعتذار حصراً في حال وجود قضايا آخر 3 سنوات كمدين أو كفيل للزوج/الزوجة، باستثناء قضايا القتل العمد والمخدرات والاختلاس وقضايا الشرف، أو ظهور القضية بعد تاريخ المنح الأصلي."
+    ],
+    "chunk_ids": [
+      "chunk_026"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q053.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q054",
+    "pair_id": "PERSONALLOAN-P027",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the legal-cases condition for raising the personal loan ceiling?",
+    "expected_answer": "Exclusive rejection applies only in case of lawsuits in the last 3 years as a debtor or guarantor for the husband/wife, excluding premeditated murder, drugs, embezzlement, and honor crimes, or if the lawsuit appears after the original granting date.",
+    "source_chunks": [
+      "Raising the loan ceiling is subject to: Exclusive rejection in case of lawsuits in the last 3 years as a debtor or guarantor for the husband/wife, excluding premeditated murder, drugs, embezzlement, and honor crimes. Or if the lawsuit appears after the original granting date."
+    ],
+    "chunk_ids": [
+      "chunk_026_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q054.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q055",
+    "pair_id": "PERSONALLOAN-P028",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي شروط التمويل الإضافي (زيادة الرصيد) على القرض الشخصي؟",
+    "expected_answer": "الحد الأدنى لقيمة الزيادة على رصيد القرض الحالي 500 دينار، وعبء الدين يكون حسب الحد الأعلى لقطاع العميل. وفي قروض رفع السقف وإعادة الجدولة، يتم قبول راتب صافٍ 450 دينار لجميع القطاعات أو 350 دينار للمهنيين وأصحاب الأعمال الحرة.",
+    "source_chunks": [
+      "شروط التمويل الإضافي (زيادة الرصيد): الحد الأدنى لقيمة الزيادة على رصيد القرض الحالي: 500 دينار. عبء الدين لغاية حسب قطاع العميل. قروض رفع السقف وإعادة الجدولة يتم قبول الراتب صافي 450 دينار لجميع القطاعات أو 350 دينار للمهنيين وأصحاب الأعمال الحرة."
+    ],
+    "chunk_ids": [
+      "chunk_027"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q055.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q056",
+    "pair_id": "PERSONALLOAN-P028",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the conditions for additional financing (Top-up) on the personal loan?",
+    "expected_answer": "The minimum increase amount on the current loan balance is 500 JOD, and the debt burden is up to the customer's sector limit. For ceiling increase and rescheduling loans, a net salary of 450 JOD is accepted for all sectors, or 350 JOD for professionals and self-employed.",
+    "source_chunks": [
+      "Additional financing conditions (Top-up): Minimum increase amount on the current loan balance: 500 JOD. Debt burden up to the customer's sector limit. For ceiling increase and rescheduling loans, a net salary of 450 JOD is accepted for all sectors, or 350 JOD for professionals and self-employed."
+    ],
+    "chunk_ids": [
+      "chunk_027_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q056.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q057",
+    "pair_id": "PERSONALLOAN-P029",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي الأجهزة الأمنية والعسكرية المشمولة بفئة القرض الشخصي الخاصة بها؟",
+    "expected_answer": "تشمل هذه الفئة قوات الدرك، والأمن العام، والقوات المسلحة، وسلاح الجو، والمخابرات العامة، والدفاع المدني.",
+    "source_chunks": [
+      "لفئة 2: قرض شخصي (القطاع الأمني والعسكري). الأجهزة الأمنية والعسكرية: قوات الدرك، والأمن العام، والقوات المسلحة، وسلاح الجو، والمخابرات العامة، والدفاع المدني."
+    ],
+    "chunk_ids": [
+      "chunk_028"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q057.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q058",
+    "pair_id": "PERSONALLOAN-P029",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Which Security and Military Apparatuses are covered by their dedicated personal loan category?",
+    "expected_answer": "This category includes Gendarmerie, Public Security, Armed Forces, Air Force, General Intelligence, and Civil Defense.",
+    "source_chunks": [
+      "Category 2: Personal Loan (Security & Military Sector). Security and Military Apparatuses: Gendarmerie, Public Security, Armed Forces, Air Force, General Intelligence, and Civil Defense."
+    ],
+    "chunk_ids": [
+      "chunk_028_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q058.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q059",
+    "pair_id": "PERSONALLOAN-P030",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لمدة الخدمة للحصول على قرض شخصي للقطاع الأمني والعسكري؟",
+    "expected_answer": "الحد الأدنى لمدة الخدمة 36 شهراً، أما للملازم وأعلى فالحد الأدنى 24 شهراً، وحملة الشهادات الجامعية فقط في الدرك والجيش والأمن العام: 6 أشهر.",
+    "source_chunks": [
+      "مدة الخدمة: الحد الأدنى 36 شهر. الملازم وأعلى: 24 شهر. الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر."
+    ],
+    "chunk_ids": [
+      "chunk_029"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q059.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q060",
+    "pair_id": "PERSONALLOAN-P030",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum length of service to obtain a personal loan for the Security and Military sector?",
+    "expected_answer": "The minimum length of service is 36 months; for Lieutenant and above it is 24 months; and for university degree holders only in the Gendarmerie, Army, and Public Security, it is 6 months.",
+    "source_chunks": [
+      "Length of Service: Minimum 36 months. Lieutenant and above: 24 months. Gendarmerie, Army, and Public Security university degree holders only: 6 months."
+    ],
+    "chunk_ids": [
+      "chunk_029_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q060.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q061",
+    "pair_id": "PERSONALLOAN-P031",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي شروط رفع السقف للقرض الشخصي في القطاع الأمني والعسكري؟",
+    "expected_answer": "يشترط أن يكون الحد الأدنى لصافي الراتب 450 دينار حسب المنتج، وإضافة كفالة الزوجة للمتزوجين أو كفالة الأم أو الشقيقة للغير متزوجين، ومرور سنة على المنح الأصلي أو سنة على آخر زيادة للقرض.",
+    "source_chunks": [
+      "شروط رفع السقف: 1) الحد الأدنى لصافي الراتب 450 دينار حسب المنتج. 2) إضافة كفالة الزوجة للمتزوجين، والغير متزوجين كفالة الأم أو الشقيقة. 3) يشترط مرور سنة على المنح الأصلي أو مرور سنة عن كل آخر زيادة للقرض."
+    ],
+    "chunk_ids": [
+      "chunk_030"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q061.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q062",
+    "pair_id": "PERSONALLOAN-P031",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the conditions for raising the ceiling of the personal loan in the Security and Military sector?",
+    "expected_answer": "The conditions are: a minimum net salary of 450 JOD according to the product, adding the wife's guarantee for married individuals or the mother's/sister's guarantee for unmarried individuals, and requiring the passage of one year since the original grant or since the last loan increase.",
+    "source_chunks": [
+      "Ceiling Increase Conditions: 1) Minimum net salary of 450 JOD according to the product. 2) Adding the wife's guarantee for married individuals, and mother or sister's guarantee for unmarried individuals. 3) Requires the passage of one year since the original grant or one year since every last loan increase."
+    ],
+    "chunk_ids": [
+      "chunk_030_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q062.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q063",
+    "pair_id": "PERSONALLOAN-P032",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي قيمة الاقتطاع المقبولة لعملاء القطاع الأمني والعسكري؟",
+    "expected_answer": "يتم قبول قيمة الاقتطاع بقيمة القسط زائد 50 دينار، وفي حال المخابرات يتم قبول قيمة القسط زائد 20 دينار.",
+    "source_chunks": [
+      "عملاء الاقتطاع: يتم قبول قيمة الاقتطاع قيمة القسط + 50 دينار. المخابرات يتم قبول قيمة القسط + 20 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_031"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q063.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q064",
+    "pair_id": "PERSONALLOAN-P032",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the accepted deduction value for Security and Military sector customers?",
+    "expected_answer": "The accepted deduction value is the installment value plus 50 JOD, and for Intelligence, the accepted value is the installment plus 20 JOD.",
+    "source_chunks": [
+      "Deduction Customers: The accepted deduction value is the installment value + 50 JOD. Intelligence: The accepted value is the installment + 20 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_031_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q064.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q065",
+    "pair_id": "PERSONALLOAN-P033",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأقصى لمدة الخدمة للقطاع الأمني والعسكري؟",
+    "expected_answer": "الحد الأقصى لمدة الخدمة 25 سنة، باستثناء رتبة رائد فأكثر التي لا يوجد لها حد أعلى. كما تم إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام من رتبة ملازم فما فوق، بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد.",
+    "source_chunks": [
+      "الحد الأقصى للعمر مع نهاية آخر قسط: الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى. إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+    ],
+    "chunk_ids": [
+      "chunk_032"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q065.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q066",
+    "pair_id": "PERSONALLOAN-P033",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the maximum length of service for the Security and Military sector?",
+    "expected_answer": "The maximum service limit is 25 years, except for the rank of Major and above, which has no upper limit. The maximum service period clause upon granting was also cancelled for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement.",
+    "source_chunks": [
+      "Maximum age at the end of the last installment: Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+    ],
+    "chunk_ids": [
+      "chunk_032_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q066.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q067",
+    "pair_id": "PERSONALLOAN-P034",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يخضع عملاء القطاع الأمني والعسكري للضمان الاجتماعي وتحويل الراتب؟",
+    "expected_answer": "نعم، يخضع العميل للضمان الاجتماعي ويُطلب منه تعهد تحويل راتب، والحد الأقصى لمدة العمل يكون حسب قطاع العميل.",
+    "source_chunks": [
+      "خضوع العميل بالضمان الاجتماعي: نعم. تعهد تحويل راتب: نعم. الحد الأقصى لمدة العمل: حسب قطاع العميل."
+    ],
+    "chunk_ids": [
+      "chunk_033"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q067.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q068",
+    "pair_id": "PERSONALLOAN-P034",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Are Security and Military sector customers subject to Social Security and salary transfer?",
+    "expected_answer": "Yes, the customer is subject to Social Security and a salary transfer commitment is required, and the maximum work period is according to the customer's sector.",
+    "source_chunks": [
+      "Customer subject to Social Security (Yes/No): Yes. Salary transfer commitment: Yes. Maximum work period: According to the customer's sector."
+    ],
+    "chunk_ids": [
+      "chunk_033_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q068.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q069",
+    "pair_id": "PERSONALLOAN-P035",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي المستندات المطلوبة للقرض الشخصي لعملاء القطاع الأمني والعسكري؟",
+    "expected_answer": "تشمل المستندات: وثيقة إثبات شخصية سارية المفعول (الهوية العسكرية أو شهادة التعيين، مع تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف)، وشهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وتعهد تحويل راتب أصولي حسب صيغة البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية، وكشف حساب شخصي لمدة 6 أشهر للعملاء الجدد يبيّن الراتب المحول، وشهادة التزامات في حال وجود التزام. ولا يُشترط تقديم كشف حساب 6 أشهر لتوثيق الدخل للعسكريين غير المحولة رواتبهم، بشرط إثبات قبض الراتب نقداً بموجب 3 قسائم راتب أو كتاب من المالية أو مأمور الصرف.",
+    "source_chunks": [
+      "الوثائق المطلوبة: وثيقة إثبات الشخصية سارية المفعول (الهوية العسكرية/شهادة التعيين، تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور. تعهد تحويل راتب أصولي حسب الصيغة المعتمدة من البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول). شهادة التزامات في حال وجود التزام. عدم اشتراط تقديم كشف حساب لمدة 6 أشهر لتوثيق الدخل للعسكريين (غير المحولة رواتبهم) على أن يتم إثبات قبض الراتب نقداً بموجب 3 قسائم راتب، أو كتاب من المالية أو مأمور الصرف."
+    ],
+    "chunk_ids": [
+      "chunk_034"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q069.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q070",
+    "pair_id": "PERSONALLOAN-P035",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What documents are required for the personal loan for Security and Military sector customers?",
+    "expected_answer": "Documents include: a valid identification document (Military ID or appointment certificate, with Intelligence ID information recorded on the loan application and the employee's signature), an original salary certificate or payslip for the last three months, a formal salary transfer commitment per the bank's format except for the Public Sector and Security and Military Apparatuses, a 6-month personal account statement for new customers showing the transferred salary, and an obligations certificate in case of existing obligations. A 6-month account statement is not required to document income for military personnel whose salaries are not transferred, provided the cash salary receipt is proven by 3 payslips or a letter from Finance or the disbursing officer.",
+    "source_chunks": [
+      "Required Documents: Valid identification document: Military ID (appointment certificate), recording Intelligence ID information on the loan application and the employee's signature. Original salary certificate/payslip for the last three months. A formal salary transfer commitment, according to the format approved by the bank, except for the Public Sector and Security and Military Apparatuses. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary). Obligations certificate in case of existing obligations. No requirement to provide a 6-month account statement to document income for military personnel (whose salaries are not transferred) provided that the cash salary receipt is proven by 3 payslips, or a letter from Finance or the disbursing officer."
+    ],
+    "chunk_ids": [
+      "chunk_034_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q070.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q071",
+    "pair_id": "PERSONALLOAN-P036",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي الجهات المستثناة من تعهد تحويل الراتب المشروط؟",
+    "expected_answer": "الجهات المستثناة هي: الأجهزة الأمنية، والجامعة الأردنية، ومستشفى الأمير حمزة، وسلاح الجو الملكي الأردني، والضمان الاجتماعي للمستفيدين، حيث يُكتفى بالحصول على تفويض من العميل بسداد مديونيته واستلام براءة الذمة من موظف الفرع وتسليمها لجهة العمل.",
+    "source_chunks": [
+      "شروط إضافية: استثناء الحصول على تعهد تحويل الراتب المشروط من الجهات التالية: الأجهزة الأمنية، الجامعة الأردنية، مستشفى الأمير حمزة، سلاح الجو الملكي الأردني، والضمان الاجتماعي للمستفيدين، والاكتفاء بالحصول على تفويض من العميل بسداد مديونيته واستلام براءة الذمة من موظف الفرع وتسليمها لجهة العمل."
+    ],
+    "chunk_ids": [
+      "chunk_035"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q071.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q072",
+    "pair_id": "PERSONALLOAN-P036",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Which entities are exempt from the conditional salary transfer commitment?",
+    "expected_answer": "The exempt entities are: Security Apparatuses, the University of Jordan, Prince Hamza Hospital, the Royal Jordanian Air Force, and Social Security beneficiaries, for whom it is sufficient to obtain an authorization from the customer to settle their indebtedness, receive the clearance certificate from the branch employee, and deliver it to the employer.",
+    "source_chunks": [
+      "Additional Conditions: Exception from obtaining a conditional salary transfer commitment from the following entities: Security Apparatuses, University of Jordan, Prince Hamza Hospital, Royal Jordanian Air Force, and Social Security beneficiaries. It is sufficient to obtain an authorization from the customer to settle their indebtedness, receive the clearance certificate from the branch employee, and deliver it to the employer."
+    ],
+    "chunk_ids": [
+      "chunk_035_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q072.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q073",
+    "pair_id": "PERSONALLOAN-P037",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو شرط تحويل الراتب في التمويل المشترك؟",
+    "expected_answer": "يُقبل تحويل راتب واحد فقط للعميل الأساسي إذا كان مبلغ الراتب المحوّل أكبر من أو يساوي 110% من القسط الشهري (معدل التغطية أقل من أو يساوي 110%).",
+    "source_chunks": [
+      "للتمويل المشترك يقبل تحويل راتب واحد فقط للعميل الأساسي إذا كان مبلغ الراتب المحول أكبر من أو يساوي 110% من القسط الشهري (معدل التغطية <= 110%)."
+    ],
+    "chunk_ids": [
+      "chunk_036"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q073.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q074",
+    "pair_id": "PERSONALLOAN-P037",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the salary transfer condition for joint financing?",
+    "expected_answer": "Only one salary transfer is accepted for the main customer if the transferred salary amount is greater than or equal to 110% of the monthly installment (coverage ratio less than or equal to 110%).",
+    "source_chunks": [
+      "For joint financing, only one salary transfer is accepted for the main customer if the transferred salary amount is greater than or equal to 110% of the monthly installment (coverage ratio <= 110%)."
+    ],
+    "chunk_ids": [
+      "chunk_036_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q074.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q075",
+    "pair_id": "PERSONALLOAN-P038",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "كيف يتم تسعير سعر الفائدة للقروض المشتركة؟",
+    "expected_answer": "يتم التسعير على أساس مجموع صافي الدخول المحتسب للعملاء معاً في القروض المشتركة.",
+    "source_chunks": [
+      "ينطبق مجموع صافي الدخل المحتسب للقروض المشتركة على سعر الفائدة حيث يتم التسعير على صافي الدخول معاً."
+    ],
+    "chunk_ids": [
+      "chunk_037"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q075.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q076",
+    "pair_id": "PERSONALLOAN-P038",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "How is the interest rate priced for joint loans?",
+    "expected_answer": "Pricing is based on the total calculated net income for the customers combined in joint loans.",
+    "source_chunks": [
+      "The total calculated net income for joint loans applies to the interest rate, as pricing is based on combined net incomes."
+    ],
+    "chunk_ids": [
+      "chunk_037_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q076.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q077",
+    "pair_id": "PERSONALLOAN-P039",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأقصى لعمر العميل الذكر في نهاية القرض الشخصي (القطاع الأمني والعسكري)؟",
+    "expected_answer": "يجب ألا يتجاوز عمر العميل الذكر 60 سنة في نهاية القرض، باستثناء المتقاعدين.",
+    "source_chunks": [
+      "يجب أن لا يتجاوز عمر العميل الذكر عن 60 سنة في نهاية القرض (باستثناء المتقاعدين)."
+    ],
+    "chunk_ids": [
+      "chunk_038"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q077.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q078",
+    "pair_id": "PERSONALLOAN-P039",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the maximum age for a male customer at the end of the personal loan (Security and Military sector)?",
+    "expected_answer": "The male customer's age must not exceed 60 years at the end of the loan, excluding retirees.",
+    "source_chunks": [
+      "The male customer's age must not exceed 60 years at the end of the loan (excluding retirees)."
+    ],
+    "chunk_ids": [
+      "chunk_038_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q078.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q079",
+    "pair_id": "PERSONALLOAN-P040",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأقصى لعمر العميلة الأنثى في نهاية القرض الشخصي (القطاع الأمني والعسكري)؟",
+    "expected_answer": "يجب ألا يتجاوز عمر العميلة الأنثى 55 سنة في نهاية القرض، باستثناء المتقاعدات.",
+    "source_chunks": [
+      "يجب أن لا يتجاوز عمر العميل الأنثى عن 55 سنة في نهاية القرض (باستثناء المتقاعدين)."
+    ],
+    "chunk_ids": [
+      "chunk_039"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q079.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q080",
+    "pair_id": "PERSONALLOAN-P040",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the maximum age for a female customer at the end of the personal loan (Security and Military sector)?",
+    "expected_answer": "The female customer's age must not exceed 55 years at the end of the loan, excluding retirees.",
+    "source_chunks": [
+      "The female customer's age must not exceed 55 years at the end of the loan (excluding retirees)."
+    ],
+    "chunk_ids": [
+      "chunk_039_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q080.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q081",
+    "pair_id": "PERSONALLOAN-P041",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لعمر متقاعدي الضمان الاجتماعي المبكر الذكور؟",
+    "expected_answer": "يجب ألا يقل عمر العميل الذكر المتقاعد مبكراً عن الضمان الاجتماعي عن 50 سنة.",
+    "source_chunks": [
+      "متقاعدين الضمان الاجتماعي المبكر، العميل الذكر: يجب أن لا يقل العمر عن 50 سنة."
+    ],
+    "chunk_ids": [
+      "chunk_040"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q081.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q082",
+    "pair_id": "PERSONALLOAN-P041",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum age for male early Social Security retirees?",
+    "expected_answer": "The male customer's age must not be less than 50 years for early Social Security retirement.",
+    "source_chunks": [
+      "Early Social Security retirees (Male): Age must not be less than 50 years."
+    ],
+    "chunk_ids": [
+      "chunk_040_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q082.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q083",
+    "pair_id": "PERSONALLOAN-P042",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لعمر متقاعدات الضمان الاجتماعي المبكر الإناث؟",
+    "expected_answer": "يجب ألا يقل عمر العميلة الأنثى المتقاعدة مبكراً عن الضمان الاجتماعي عن 45 سنة.",
+    "source_chunks": [
+      "متقاعدين الضمان الاجتماعي المبكر، العميل الأنثى: يجب أن لا يقل العمر عن 45 سنة."
+    ],
+    "chunk_ids": [
+      "chunk_041"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q083.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q084",
+    "pair_id": "PERSONALLOAN-P042",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum age for female early Social Security retirees?",
+    "expected_answer": "The female customer's age must not be less than 45 years for early Social Security retirement.",
+    "source_chunks": [
+      "Early Social Security retirees (Female): Age must not be less than 45 years."
+    ],
+    "chunk_ids": [
+      "chunk_041_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q084.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q085",
+    "pair_id": "PERSONALLOAN-P043",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الغرض من القرض الشخصي لأصحاب العيادات؟",
+    "expected_answer": "يهدف هذا القرض إلى تمويل شراء عيادة جديدة أو شراء قرض تمويل عيادة من بنوك أخرى، بالإضافة إلى تمويل الصيانة أو التوسعة أو الديكور (سيولة نقدية) بضمان رهن العيادة أو العقار.",
+    "source_chunks": [
+      "لفئة 3: قرض شخصي (المهنيين). الجزء 1: لأصحاب العيادات. تمويل شراء عيادة جديدة أو شراء قرض تمويل العيادة من البنوك الأخرى بالإضافة إلى تمويل صيانة، توسعة أو عمل ديكور (سيولة نقدية) بضمان رهن العيادة أو العقار. الخبرة العملية للعميل: ألا تقل عن سنتين من تاريخ تأسيس العيادة الخاصة."
+    ],
+    "chunk_ids": [
+      "chunk_042"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q085.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q086",
+    "pair_id": "PERSONALLOAN-P043",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the purpose of the personal loan for clinic owners?",
+    "expected_answer": "This loan aims to finance the purchase of a new clinic or buy out a clinic financing loan from other banks, in addition to financing maintenance, expansion, or decor (cash liquidity), against mortgaging the clinic or real estate.",
+    "source_chunks": [
+      "Category 3: Personal Loan (Professionals). Part 1: For Clinic Owners. Financing the purchase of a new clinic or buying out a clinic financing loan from other banks, in addition to financing maintenance, expansion, or decor (cash liquidity) against mortgaging the clinic or real estate. Customer's practical experience: Not less than two years from the date of establishing the private clinic."
+    ],
+    "chunk_ids": [
+      "chunk_042_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q086.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q087",
+    "pair_id": "PERSONALLOAN-P044",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى للخبرة العملية المطلوبة لأصحاب العيادات للحصول على قرض شخصي؟",
+    "expected_answer": "يجب أن لا تقل الخبرة العملية عن سنتين من تاريخ تأسيس العيادة الخاصة.",
+    "source_chunks": [
+      "لفئة 3: قرض شخصي (المهنيين). الجزء 1: لأصحاب العيادات. تمويل شراء عيادة جديدة أو شراء قرض تمويل العيادة من البنوك الأخرى بالإضافة إلى تمويل صيانة، توسعة أو عمل ديكور (سيولة نقدية) بضمان رهن العيادة أو العقار. الخبرة العملية للعميل: ألا تقل عن سنتين من تاريخ تأسيس العيادة الخاصة."
+    ],
+    "chunk_ids": [
+      "chunk_042"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q087.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q088",
+    "pair_id": "PERSONALLOAN-P044",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum practical experience required for clinic owners to obtain a personal loan?",
+    "expected_answer": "Practical experience must not be less than two years from the date of establishing the private clinic.",
+    "source_chunks": [
+      "Category 3: Personal Loan (Professionals). Part 1: For Clinic Owners. Financing the purchase of a new clinic or buying out a clinic financing loan from other banks, in addition to financing maintenance, expansion, or decor (cash liquidity) against mortgaging the clinic or real estate. Customer's practical experience: Not less than two years from the date of establishing the private clinic."
+    ],
+    "chunk_ids": [
+      "chunk_042_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q088.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q089",
+    "pair_id": "PERSONALLOAN-P045",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي المستندات المطلوبة للقرض الشخصي لأصحاب العيادات؟",
+    "expected_answer": "تشمل المستندات: صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور، وصورة عن السجل التجاري، وصورة طبق الأصل عن عضوية النقابة إن وجدت، وكشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة.",
+    "source_chunks": [
+      "المستندات المطلوبة للقرض الشخصي للمهنيين (الأطباء أصحاب العيادات): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة."
+    ],
+    "chunk_ids": [
+      "chunk_043"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q089.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q090",
+    "pair_id": "PERSONALLOAN-P045",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What documents are required for the personal loan for clinic owners?",
+    "expected_answer": "Documents include: a copy of a valid profession license, or one expired for not more than 3 months, a copy of the commercial register, a true copy of syndicate membership if applicable, and a 6-month account statement for the customer's personal account and the establishment or company.",
+    "source_chunks": [
+      "Required Documents for Personal Loan for Professionals (Doctors owning clinics): A copy of a valid profession license, or one expired for not more than 3 months. A copy of the commercial register. A true copy of syndicate membership if applicable. A 6-month account statement for the customer's personal account and the establishment or company."
+    ],
+    "chunk_ids": [
+      "chunk_043_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q090.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q091",
+    "pair_id": "PERSONALLOAN-P046",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "من يشمل تصنيف \"المهنيين وأطباء الأسنان\" ضمن فئات القرض الشخصي؟",
+    "expected_answer": "يشمل هذا التصنيف الأطباء والمهندسين والصيادلة والمحاسبين والمدققين القانونيين والمستشارين وحاملي الشهادات المالية الذين لديهم أعمال خاصة بهم، وأصحاب الأعمال الحرة، والأطباء أصحاب العيادات.",
+    "source_chunks": [
+      "الجزء 2: للمهنيين، أطباء الأسنان. الأطباء والمهندسين والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين وحاملو الشهادات المالية الذين لديهم أعمال خاصة بهم. أصحاب الأعمال الحرة. الأطباء أصحاب العيادات."
+    ],
+    "chunk_ids": [
+      "chunk_044"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q091.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q092",
+    "pair_id": "PERSONALLOAN-P046",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Who is included under the \"Professionals, Dentists\" classification among personal loan categories?",
+    "expected_answer": "This classification includes doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, self-employed individuals, and doctors owning clinics.",
+    "source_chunks": [
+      "Part 2: For Professionals, Dentists. Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Self-employed. Doctors owning clinics."
+    ],
+    "chunk_ids": [
+      "chunk_044_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q092.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q093",
+    "pair_id": "PERSONALLOAN-P047",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي متطلبات الخبرة العملية وعمر الشركة للمهنيين وأطباء الأسنان؟",
+    "expected_answer": "يشترط أن تكون الخبرة العملية للعميل سنتين على الأقل، وأن لا يقل عمر الشركة عن سنتين.",
+    "source_chunks": [
+      "المتطلبات والمعايير (الجزء 2): الخبرة العملية للعميل: سنتين. الحد الأدنى لعمر الشركة: سنتين. شروط التمويل: لا ينطبق. عمولة إعادة الهيكلة: 5 دنانير. عمولة رفع رصيد: 1% من مبلغ الزيادة. صلاحية الموافقة: تنتهي صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية بعد مضي 45 يوم (شهر ونصف)."
+    ],
+    "chunk_ids": [
+      "chunk_045"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q093.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q094",
+    "pair_id": "PERSONALLOAN-P047",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the practical experience and company age requirements for professionals and dentists?",
+    "expected_answer": "The customer's practical experience must be at least two years, and the minimum company age must be two years.",
+    "source_chunks": [
+      "Requirements and Criteria (Part 2): Customer's practical experience: Two years. Minimum company age: Two years. Financing conditions: Not applicable. Restructuring commission: 5 JOD. Balance increase commission: 1% of the increase amount. Approval validity: The credit approval for the personal loan program expires after 45 days (a month and a half)."
+    ],
+    "chunk_ids": [
+      "chunk_045_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q094.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q095",
+    "pair_id": "PERSONALLOAN-P048",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "كم تبلغ عمولة إعادة الهيكلة وعمولة رفع الرصيد للمهنيين وأطباء الأسنان؟",
+    "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير، وتبلغ عمولة رفع الرصيد 1% من مبلغ الزيادة.",
+    "source_chunks": [
+      "المتطلبات والمعايير (الجزء 2): الخبرة العملية للعميل: سنتين. الحد الأدنى لعمر الشركة: سنتين. شروط التمويل: لا ينطبق. عمولة إعادة الهيكلة: 5 دنانير. عمولة رفع رصيد: 1% من مبلغ الزيادة. صلاحية الموافقة: تنتهي صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية بعد مضي 45 يوم (شهر ونصف)."
+    ],
+    "chunk_ids": [
+      "chunk_045"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q095.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q096",
+    "pair_id": "PERSONALLOAN-P048",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the restructuring commission and balance increase commission for professionals and dentists?",
+    "expected_answer": "The restructuring commission is 5 JOD, and the balance increase commission is 1% of the increase amount.",
+    "source_chunks": [
+      "Requirements and Criteria (Part 2): Customer's practical experience: Two years. Minimum company age: Two years. Financing conditions: Not applicable. Restructuring commission: 5 JOD. Balance increase commission: 1% of the increase amount. Approval validity: The credit approval for the personal loan program expires after 45 days (a month and a half)."
+    ],
+    "chunk_ids": [
+      "chunk_045_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q096.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q097",
+    "pair_id": "PERSONALLOAN-P049",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي مدة صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية؟",
+    "expected_answer": "تنتهي صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية بعد مضي 45 يوماً (شهر ونصف).",
+    "source_chunks": [
+      "المتطلبات والمعايير (الجزء 2): الخبرة العملية للعميل: سنتين. الحد الأدنى لعمر الشركة: سنتين. شروط التمويل: لا ينطبق. عمولة إعادة الهيكلة: 5 دنانير. عمولة رفع رصيد: 1% من مبلغ الزيادة. صلاحية الموافقة: تنتهي صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية بعد مضي 45 يوم (شهر ونصف)."
+    ],
+    "chunk_ids": [
+      "chunk_045"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q097.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q098",
+    "pair_id": "PERSONALLOAN-P049",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the validity period of the credit approval for the personal loan program?",
+    "expected_answer": "The credit approval for the personal loan program expires after 45 days (a month and a half).",
+    "source_chunks": [
+      "Requirements and Criteria (Part 2): Customer's practical experience: Two years. Minimum company age: Two years. Financing conditions: Not applicable. Restructuring commission: 5 JOD. Balance increase commission: 1% of the increase amount. Approval validity: The credit approval for the personal loan program expires after 45 days (a month and a half)."
+    ],
+    "chunk_ids": [
+      "chunk_045_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q098.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q099",
+    "pair_id": "PERSONALLOAN-P050",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي المستندات المطلوبة للمهنيين وأطباء الأسنان؟",
+    "expected_answer": "تشمل المستندات: صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور، وصورة عن السجل التجاري، وصورة طبق الأصل عن عضوية النقابة إن وجدت، وكشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة.",
+    "source_chunks": [
+      "الوثائق المطلوبة (الجزء 2): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة."
+    ],
+    "chunk_ids": [
+      "chunk_046"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q099.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q100",
+    "pair_id": "PERSONALLOAN-P050",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What documents are required for professionals and dentists?",
+    "expected_answer": "Documents include: a copy of a valid profession license, or one expired for not more than 3 months, a copy of the commercial register, a true copy of syndicate membership if applicable, and a 6-month account statement for the customer's personal account and the establishment or company.",
+    "source_chunks": [
+      "Required Documents (Part 2): A copy of a valid profession license, or one expired for not more than 3 months. A copy of the commercial register. A true copy of syndicate membership if applicable. A 6-month account statement for the customer's personal account and the establishment or company."
+    ],
+    "chunk_ids": [
+      "chunk_046_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q100.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q101",
+    "pair_id": "PERSONALLOAN-P051",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "من يشمل تصنيف \"الأعمال الحرة بدون سجلات تجارية\"؟",
+    "expected_answer": "يشمل هذا التصنيف أصحاب الأعمال الحرة بدون سجلات تجارية، مثل المغنيين، والمؤثرين على مواقع التواصل الاجتماعي، والتقنيين، والمستشارين.",
+    "source_chunks": [
+      "الجزء 3: الأعمال الحرة بدون سجلات تجارية. أصحاب الأعمال الحرة بدون سجلات تجارية (المغنيين، المؤثرون على مواقع التواصل الاجتماعي، التقنيين، المستشارين)."
+    ],
+    "chunk_ids": [
+      "chunk_047"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q101.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q102",
+    "pair_id": "PERSONALLOAN-P051",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Who is included under the \"Freelance Businesses without Commercial Registers\" classification?",
+    "expected_answer": "This classification includes freelancers without commercial registers, such as social media influencers, technicians, and consultants.",
+    "source_chunks": [
+      "Part 3: Freelance Businesses without Commercial Registers. Freelancers without commercial registers (influencers on social media, technicians, consultants)."
+    ],
+    "chunk_ids": [
+      "chunk_047_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q102.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q103",
+    "pair_id": "PERSONALLOAN-P052",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي شروط التمويل لأصحاب الأعمال الحرة بدون سجلات تجارية؟",
+    "expected_answer": "يشترط معدل صرف 1,000 دينار فما فوق عبر الشراء عن طريق بطاقة القيد الفوري أو البطاقة المدفوعة مسبقاً لآخر 6 شهور.",
+    "source_chunks": [
+      "المتطلبات والمعايير (الجزء 3) - شروط التمويل: معدل صرف 1,000 دينار فما فوق عبر الشراء عن طريق بطاقة القيد الفوري أو البطاقة المدفوعة مسبقاً لآخر 6 شهور."
+    ],
+    "chunk_ids": [
+      "chunk_048"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q103.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q104",
+    "pair_id": "PERSONALLOAN-P052",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the financing conditions for freelance businesses without commercial registers?",
+    "expected_answer": "A spending average of 1,000 JOD and above via purchases using an instant debit card or prepaid card for the last 6 months is required.",
+    "source_chunks": [
+      "Requirements and Criteria (Part 3) - Financing conditions: Spending average of 1,000 JOD and above via purchases using an instant debit card or prepaid card for the last 6 months."
+    ],
+    "chunk_ids": [
+      "chunk_048_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q104.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q105",
+    "pair_id": "PERSONALLOAN-P053",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي الجهات المشمولة بفئة القطاع العام للقرض الشخصي؟",
+    "expected_answer": "تشمل هذه الفئة الوزارات والمؤسسات الحكومية، والمؤسسات شبه الحكومية، والمؤسسات غير الربحية التي تُدار من خلال الحكومة أو أي من أذرعها.",
+    "source_chunks": [
+      "لفئة 4: القطاع العام. الوزارات والمؤسسات الحكومية، المؤسسات شبه الحكومية والمؤسسات غير الربحية التي تدار من خلال الحكومة أو أي من أذرعها."
+    ],
+    "chunk_ids": [
+      "chunk_049"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q105.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q106",
+    "pair_id": "PERSONALLOAN-P053",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Which entities are covered by the Public Sector personal loan category?",
+    "expected_answer": "This category includes ministries and governmental institutions, semi-governmental institutions, and non-profit organizations managed through the government or any of its arms.",
+    "source_chunks": [
+      "Category 4: Public Sector. Ministries and governmental institutions, semi-governmental institutions, and non-profit organizations managed through the government or any of its arms."
+    ],
+    "chunk_ids": [
+      "chunk_049_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q106.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q107",
+    "pair_id": "PERSONALLOAN-P054",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي قيمة الاقتطاع المقبولة لعملاء القطاع العام؟",
+    "expected_answer": "يتم قبول قيمة الاقتطاع بقيمة القسط زائد 50 دينار، وفي حال المخابرات يتم قبول قيمة القسط زائد 20 دينار.",
+    "source_chunks": [
+      "عملاء الاقتطاع (القطاع العام): يتم قبول قيمة الاقتطاع قيمة القسط + 50 دينار. المخابرات يتم قبول قيمة القسط + 20 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_050"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q107.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q108",
+    "pair_id": "PERSONALLOAN-P054",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the accepted deduction value for Public Sector customers?",
+    "expected_answer": "The accepted deduction value is the installment value plus 50 JOD, and for Intelligence, the accepted value is the installment plus 20 JOD.",
+    "source_chunks": [
+      "Deduction Customers (Public Sector): The accepted deduction value is the installment value + 50 JOD. Intelligence: The accepted value is the installment + 20 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_050_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q108.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q109",
+    "pair_id": "PERSONALLOAN-P055",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي القطاع العام للحصول على قرض شخصي؟",
+    "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر أو أن يكون الموظف مثبتاً، باستثناء المدرسين في القطاع العام الذين يشترط أن يكونوا مثبتين وخاضعين للضمان الاجتماعي.",
+    "source_chunks": [
+      "الحد الأدنى لمدة الخدمة (القطاع العام): قطاع عام: 3 شهور أو مثبت. باستثناء: المدرسين للقطاع العام: مثبتين وخاضعين للضمان."
+    ],
+    "chunk_ids": [
+      "chunk_051"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q109.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q110",
+    "pair_id": "PERSONALLOAN-P055",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum length of service for Public Sector employees to obtain a personal loan?",
+    "expected_answer": "The minimum length of service is 3 months or being confirmed, except for public sector teachers, who must be confirmed and subject to Social Security.",
+    "source_chunks": [
+      "Minimum length of service (Public Sector): Public sector: 3 months or confirmed. Exception: Public sector teachers: confirmed and subject to Social Security."
+    ],
+    "chunk_ids": [
+      "chunk_051_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q110.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q111",
+    "pair_id": "PERSONALLOAN-P056",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يخضع عملاء القطاع العام للضمان الاجتماعي وتحويل الراتب؟",
+    "expected_answer": "نعم، يخضع العميل للضمان الاجتماعي ويُطلب منه تعهد تحويل راتب.",
+    "source_chunks": [
+      "خضوع العميل بالضمان الاجتماعي (القطاع العام): نعم. تعهد تحويل راتب: نعم."
+    ],
+    "chunk_ids": [
+      "chunk_052"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q111.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q112",
+    "pair_id": "PERSONALLOAN-P056",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Are Public Sector customers subject to Social Security and salary transfer?",
+    "expected_answer": "Yes, the customer is subject to Social Security and a salary transfer commitment is required.",
+    "source_chunks": [
+      "Customer subject to Social Security (Yes/No) (Public Sector): Yes. Salary transfer commitment: Yes."
+    ],
+    "chunk_ids": [
+      "chunk_052_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q112.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q113",
+    "pair_id": "PERSONALLOAN-P057",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي المستندات المطلوبة للقرض الشخصي لموظفي القطاع العام؟",
+    "expected_answer": "تشمل المستندات: وثيقة إثبات شخصية سارية المفعول (الهوية المدنية)، وشهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وتعهد تحويل راتب أصولي حسب صيغة البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية، وصورة عن عقد العمل لموظفي العقود، وكشف حساب شخصي لمدة 6 أشهر للعملاء الجدد يبيّن الراتب المحول، وشهادة التزامات في حال وجود التزام.",
+    "source_chunks": [
+      "الوثائق المطلوبة (القطاع العام): وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور. تعهد تحويل راتب أصولي حسب الصيغة المعتمدة من البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية. صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول). شهادة التزامات في حال وجود التزام."
+    ],
+    "chunk_ids": [
+      "chunk_053"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q113.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q114",
+    "pair_id": "PERSONALLOAN-P057",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What documents are required for the personal loan for Public Sector employees?",
+    "expected_answer": "Documents include: a valid identification document (Civil ID), an original salary certificate or payslip for the last three months, a formal salary transfer commitment per the bank's format except for the Public Sector and Security and Military Apparatuses, a copy of the employment contract for contract employees, a 6-month personal account statement for new customers showing the transferred salary, and an obligations certificate in case of existing obligations.",
+    "source_chunks": [
+      "Required Documents (Public Sector): Valid identification document (Civil ID). Original salary certificate/payslip for the last three months. A formal salary transfer commitment, according to the format approved by the bank, except for the Public Sector and Security and Military Apparatuses. A copy of the employment contract for contract employees. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary). Obligations certificate in case of existing obligations."
+    ],
+    "chunk_ids": [
+      "chunk_053_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q114.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q115",
+    "pair_id": "PERSONALLOAN-P058",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي الجهات المشمولة بفئة القطاع الخاص للقرض الشخصي؟",
+    "expected_answer": "تشمل هذه الفئة الشركات المعتمدة وغير المعتمدة، وموظفي المبيعات، وموظفي الأمم المتحدة، وموظفي فنادق 5 نجوم.",
+    "source_chunks": [
+      "لفئة 5: القطاع الخاص. شركات معتمدة وغير معتمدة والمبيعات، موظفي الأمم المتحدة (UN)، موظفي فنادق 5 نجوم."
+    ],
+    "chunk_ids": [
+      "chunk_054"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q115.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q116",
+    "pair_id": "PERSONALLOAN-P058",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Which entities are covered by the Private Sector personal loan category?",
+    "expected_answer": "This category includes approved and unapproved companies, sales employees, UN employees, and 5-star hotel employees.",
+    "source_chunks": [
+      "Category 5: Private Sector. Companies - approved and unapproved, sales, UN employees, 5-star hotel employees."
+    ],
+    "chunk_ids": [
+      "chunk_054_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q116.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q117",
+    "pair_id": "PERSONALLOAN-P059",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات المعتمدة في القطاع الخاص؟",
+    "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر مع كون الموظف مثبتاً.",
+    "source_chunks": [
+      "مدة الخدمة (القطاع الخاص): 3 شهور ومثبت للشركات المعتمدة. 3 شهور ومثبت للشركات غير المعتمدة شريطة وجود خبرات سابقة لا تقل عن سنة وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية. موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+    ],
+    "chunk_ids": [
+      "chunk_055"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q117.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q118",
+    "pair_id": "PERSONALLOAN-P059",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum length of service for employees of approved companies in the Private Sector?",
+    "expected_answer": "The minimum length of service is 3 months and the employee must be confirmed.",
+    "source_chunks": [
+      "Length of service (Private Sector): 3 months and confirmed for approved companies. 3 months and confirmed for unapproved companies, provided there is previous experience of not less than a year and no interruption in Social Security for more than a month between the last job and the current job. UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+    ],
+    "chunk_ids": [
+      "chunk_055_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q118.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q119",
+    "pair_id": "PERSONALLOAN-P060",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات غير المعتمدة في القطاع الخاص؟",
+    "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر مع كون الموظف مثبتاً، بشرط وجود خبرة سابقة لا تقل عن سنة وعدم وجود انقطاع في الضمان الاجتماعي لأكثر من شهر بين الوظيفة السابقة والحالية.",
+    "source_chunks": [
+      "مدة الخدمة (القطاع الخاص): 3 شهور ومثبت للشركات المعتمدة. 3 شهور ومثبت للشركات غير المعتمدة شريطة وجود خبرات سابقة لا تقل عن سنة وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية. موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+    ],
+    "chunk_ids": [
+      "chunk_055"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q119.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q120",
+    "pair_id": "PERSONALLOAN-P060",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum length of service for employees of unapproved companies in the Private Sector?",
+    "expected_answer": "The minimum length of service is 3 months and the employee must be confirmed, provided there is prior experience of not less than a year and no interruption in Social Security exceeding one month between the last job and the current job.",
+    "source_chunks": [
+      "Length of service (Private Sector): 3 months and confirmed for approved companies. 3 months and confirmed for unapproved companies, provided there is previous experience of not less than a year and no interruption in Social Security for more than a month between the last job and the current job. UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+    ],
+    "chunk_ids": [
+      "chunk_055_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q120.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q121",
+    "pair_id": "PERSONALLOAN-P061",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة لها؟",
+    "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق ادخار أو ما شابهه.",
+    "source_chunks": [
+      "مدة الخدمة (القطاع الخاص): 3 شهور ومثبت للشركات المعتمدة. 3 شهور ومثبت للشركات غير المعتمدة شريطة وجود خبرات سابقة لا تقل عن سنة وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية. موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+    ],
+    "chunk_ids": [
+      "chunk_055"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q121.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q122",
+    "pair_id": "PERSONALLOAN-P061",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum length of service for UN and affiliated international organizations employees?",
+    "expected_answer": "The minimum length of service is not less than one year, and the customer must be a participant in a provident fund or similar.",
+    "source_chunks": [
+      "Length of service (Private Sector): 3 months and confirmed for approved companies. 3 months and confirmed for unapproved companies, provided there is previous experience of not less than a year and no interruption in Social Security for more than a month between the last job and the current job. UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+    ],
+    "chunk_ids": [
+      "chunk_055_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q122.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q123",
+    "pair_id": "PERSONALLOAN-P062",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يخضع عملاء القطاع الخاص للضمان الاجتماعي؟",
+    "expected_answer": "نعم، يخضع عملاء القطاع الخاص للضمان الاجتماعي.",
+    "source_chunks": [
+      "خضوع العميل بالضمان الاجتماعي (القطاع الخاص): نعم."
+    ],
+    "chunk_ids": [
+      "chunk_056"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q123.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q124",
+    "pair_id": "PERSONALLOAN-P062",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Are Private Sector customers subject to Social Security?",
+    "expected_answer": "Yes, Private Sector customers are subject to Social Security.",
+    "source_chunks": [
+      "Customer subject to Social Security (Yes/No) (Private Sector): Yes."
+    ],
+    "chunk_ids": [
+      "chunk_056_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q124.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q125",
+    "pair_id": "PERSONALLOAN-P063",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي المستندات المطلوبة للقرض الشخصي لموظفي القطاع الخاص؟",
+    "expected_answer": "تشمل المستندات: وثيقة إثبات شخصية سارية المفعول (الهوية المدنية)، وشهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وتعهد تحويل راتب أصولي حسب صيغة البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية، وصورة عن عقد العمل لموظفي العقود، وكشف حساب شخصي لمدة 6 أشهر للعملاء الجدد يبيّن الراتب المحول، وكشف الضمان الاجتماعي لمن تقل مدة خدمته عن 12 شهراً باستثناء موظفي القطاع العام، وشهادة التزامات في حال وجود التزام.",
+    "source_chunks": [
+      "الوثائق المطلوبة (القطاع الخاص): وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور. تعهد تحويل راتب أصولي حسب الصيغة المعتمدة من البنك باستثناء القطاع العام والأجهزة الأمنية والعسكرية. صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول). كشف الضمان الاجتماعي لمن تقل مدة خدمتهم عن 12 شهر، باستثناء موظفي القطاع العام. شهادة التزامات في حال وجود التزام."
+    ],
+    "chunk_ids": [
+      "chunk_057"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q125.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q126",
+    "pair_id": "PERSONALLOAN-P063",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What documents are required for the personal loan for Private Sector employees?",
+    "expected_answer": "Documents include: a valid identification document (Civil ID), an original salary certificate or payslip for the last three months, a formal salary transfer commitment per the bank's format except for the Public Sector and Security and Military Apparatuses, a copy of the employment contract for contract employees, a 6-month personal account statement for new customers showing the transferred salary, a Social Security statement for those whose service period is less than 12 months (excluding public sector employees), and an obligations certificate in case of existing obligations.",
+    "source_chunks": [
+      "Required Documents (Private Sector): Valid identification document (Civil ID). Original salary certificate/payslip for the last three months. A formal salary transfer commitment, according to the format approved by the bank, except for the Public Sector and Security and Military Apparatuses. A copy of the employment contract for contract employees. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary). Social Security statement for those whose service period is less than 12 months, excluding public sector employees. Obligations certificate in case of existing obligations."
+    ],
+    "chunk_ids": [
+      "chunk_057_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q126.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q127",
+    "pair_id": "PERSONALLOAN-P064",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لمدة الخدمة للقرض الشخصي لرواتب أقل من 450 دينار؟",
+    "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر مع كون الموظف مثبتاً للشركات المعتمدة، أو 3 أشهر مثبت مع خبرة سابقة لا تقل عن سنة وعدم انقطاع بالضمان الاجتماعي أكثر من شهر للشركات غير المعتمدة، أو سنة على الأقل مع الاشتراك في صندوق ادخار لموظفي الأمم المتحدة والهيئات الدولية التابعة لها.",
+    "source_chunks": [
+      "لفئة 6: القرض الشخصي رواتب أقل من 450 دينار. مدة الخدمة: 3 شهور ومثبت للشركات المعتمدة. 3 شهور ومثبت للشركات غير المعتمدة شريطة وجود خبرات سابقة لا تقل عن سنة وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية. موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+    ],
+    "chunk_ids": [
+      "chunk_058"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q127.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q128",
+    "pair_id": "PERSONALLOAN-P064",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum length of service for the personal loan for salaries less than 450 JOD?",
+    "expected_answer": "The minimum length of service is 3 months with the employee confirmed for approved companies; or 3 months confirmed with prior experience of not less than a year and no Social Security interruption exceeding a month for unapproved companies; or at least one year with participation in a provident fund for UN and affiliated international organizations employees.",
+    "source_chunks": [
+      "Category 6: Personal Loan - Salaries less than 450 JOD. Length of service: 3 months and confirmed for approved companies. 3 months and confirmed for unapproved companies, provided there is previous experience of not less than a year and no interruption in Social Security for more than a month between the last job and the current job. UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+    ],
+    "chunk_ids": [
+      "chunk_058_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q128.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q129",
+    "pair_id": "PERSONALLOAN-P065",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لصافي الدخل للقرض الشخصي لرواتب أقل من 450 دينار؟",
+    "expected_answer": "الحد الأدنى لصافي الدخل هو 300 دينار.",
+    "source_chunks": [
+      "الحد الأدنى لصافي الدخل (رواتب أقل من 450): 300 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_059"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q129.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q130",
+    "pair_id": "PERSONALLOAN-P065",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum net income for the personal loan for salaries less than 450 JOD?",
+    "expected_answer": "The minimum net income is 300 JOD.",
+    "source_chunks": [
+      "Minimum net income (Salaries less than 450 JOD): 300 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_059_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q130.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q131",
+    "pair_id": "PERSONALLOAN-P066",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو مبلغ القرض الشخصي لرواتب أقل من 450 دينار؟",
+    "expected_answer": "يتراوح مبلغ القرض بين 2,000 و10,000 دينار.",
+    "source_chunks": [
+      "مبلغ القرض بالدينار (رواتب أقل من 450): 2,000 – 10,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_060"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q131.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q132",
+    "pair_id": "PERSONALLOAN-P066",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan amount for salaries less than 450 JOD?",
+    "expected_answer": "The loan amount ranges from 2,000 to 10,000 JOD.",
+    "source_chunks": [
+      "Loan amount in JOD (Salaries less than 450 JOD): 2,000 – 10,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_060_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q132.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q133",
+    "pair_id": "PERSONALLOAN-P067",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي مدة القرض الشخصي لرواتب أقل من 450 دينار؟",
+    "expected_answer": "تتراوح مدة القرض بين 12 و96 شهراً.",
+    "source_chunks": [
+      "مدة القرض (رواتب أقل من 450): من 12 - 96 شهر."
+    ],
+    "chunk_ids": [
+      "chunk_061"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q133.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q134",
+    "pair_id": "PERSONALLOAN-P067",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the personal loan period for salaries less than 450 JOD?",
+    "expected_answer": "The loan period ranges from 12 to 96 months.",
+    "source_chunks": [
+      "Loan period (Salaries less than 450 JOD): From 12 - 96 months."
+    ],
+    "chunk_ids": [
+      "chunk_061_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q134.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q135",
+    "pair_id": "PERSONALLOAN-P068",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يُشترط تحويل الراتب للقرض الشخصي لرواتب أقل من 450 دينار؟",
+    "expected_answer": "نعم، يُشترط تحويل الراتب.",
+    "source_chunks": [
+      "تحويل راتب (رواتب أقل من 450): نعم."
+    ],
+    "chunk_ids": [
+      "chunk_062"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q135.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q136",
+    "pair_id": "PERSONALLOAN-P068",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Is salary transfer required for the personal loan for salaries less than 450 JOD?",
+    "expected_answer": "Yes, salary transfer is required.",
+    "source_chunks": [
+      "Salary transfer (Salaries less than 450 JOD): Yes."
+    ],
+    "chunk_ids": [
+      "chunk_062_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q136.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q137",
+    "pair_id": "PERSONALLOAN-P069",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي المستندات الأساسية المطلوبة للقرض الشخصي لرواتب أقل من 450 دينار؟",
+    "expected_answer": "تشمل المستندات: وثيقة إثبات شخصية سارية المفعول، ووثيقة إقامة سارية لغير الأردني مع جواز سفر ساري، وشهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر (أو لآخر 6 أشهر في حال وجود حوافز، مختومة أو مروسة من جهة العمل)، وصورة عن عقد العمل لموظفي العقود، وكشف حساب شخصي لمدة 6 أشهر للعملاء الجدد مصادق عليه حسب الأصول، وتعهد تحويل راتب (حسب صيغة القطاع العام أو الصيغة المعتمدة للبنك)، وكشف الضمان الاجتماعي لمن تقل مدة عمله عن سنة باستثناء موظفي القطاع العام.",
+    "source_chunks": [
+      "الوثائق المطلوبة (رواتب أقل من 450): وثيقة إثبات الشخصية سارية المفعول. وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية/العسكرية، تدوين معلومات هوية المخابرات على الطلب القرض وتوقيع الموظف). شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لآخر 6 شهور (يجب أن تكون القسائم مختومة أو مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الأجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب إلينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء الذين مدة عملهم أقل من سنة للشركات باستثناء موظفي القطاع العام."
+    ],
+    "chunk_ids": [
+      "chunk_063"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q137.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q138",
+    "pair_id": "PERSONALLOAN-P069",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the basic documents required for the personal loan for salaries less than 450 JOD?",
+    "expected_answer": "Documents include: a valid identification document, a valid residency document for non-Jordanians with a valid passport, an original salary certificate or payslip for the last three months (or the last 6 months in case of incentives, stamped or on the employer's letterhead), a copy of the employment contract for contract employees, a 6-month personal account statement for new customers duly certified, a salary transfer commitment (per the public sector format or the bank's approved format), and a Social Security statement for those whose employment period is less than a year, excluding public sector employees.",
+    "source_chunks": [
+      "Required Documents (Salaries less than 450 JOD): Valid identification document. Valid residency document (for non-Jordanians) in addition to a valid passport. A true copy of a valid identification document (Civil/Military ID, recording Intelligence ID information on the loan application and the employee's signature). Original salary certificate/payslip for the last three months, and in case of any incentives, a payslip for the last 6 months is requested (the payslip must be stamped or on the employer's letterhead). A copy of the employment contract for contract employees. A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary), duly certified. Public Sector: Salary transfer commitment according to their approved format, except for Security and Military apparatuses (a payslip stating the salary transfer to us). A formal salary transfer commitment, according to the bank's approved format. Social Security statement for customers whose employment period is less than a year for companies, excluding public sector employees."
+    ],
+    "chunk_ids": [
+      "chunk_063_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q138.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q139",
+    "pair_id": "PERSONALLOAN-P070",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي الوثائق المطلوبة في حال شراء الالتزامات للقرض الشخصي لرواتب أقل من 450 دينار؟",
+    "expected_answer": "تشمل الوثائق: شهادة التزامات حديثة لا تزيد عن 30 يوماً، وكشف حساب من البنك الآخر بحد أدنى 6 شهور، وتعهد تحويل راتب مشروط من القطاع العام أو القطاع الخاص لحين استلام براءة الذمة، وتعهد خطي من عملاء الأجهزة الأمنية والعسكرية (عدا المخابرات والتقاعد والضمان الاجتماعي)، بالإضافة إلى إثبات سداد السلف وبراءة الذمة من البنك الآخر.",
+    "source_chunks": [
+      "الوثائق المطلوبة في حال شراء الالتزامات (رواتب أقل من 450): تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم) وحسب الأصول. كشف حساب من البنك الآخر وبحد أدنى 6 شهور. القطاع العام: تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الآخر. في حال شراء الالتزامات للأجهزة الأمنية والعسكرية عدا المخابرات والتقاعد المدني والعسكري والضمان الاجتماعي يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلينا بعد سداد التزاماته لدى البنك الآخر المحول إليه الراتب. القطاع الخاص تعهد تحويل راتب مشروط وحسب الصيغة المعتمدة لدينا لحين استلام براءة الذمة من البنك الآخر. تزويدنا بما يفيد سداد السلف الداخلية أو أي جهات خارجية تم سداد التزامات العميل بها. تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة إلى تعهد تحويل راتب."
+    ],
+    "chunk_ids": [
+      "chunk_064"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q139.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q140",
+    "pair_id": "PERSONALLOAN-P070",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What documents are required in case of buying obligations for the personal loan for salaries less than 450 JOD?",
+    "expected_answer": "Documents include: a recent obligations certificate not exceeding 30 days, an account statement from the other bank for a minimum of 6 months, a conditional salary transfer commitment from the public or private sector until receiving the clearance, a written commitment from Security and Military Apparatuses customers (except Intelligence, retirement, and Social Security), in addition to proof of payment of advances and a clearance certificate from the other bank.",
+    "source_chunks": [
+      "Required documents in case of buying obligations (Salaries less than 450 JOD): Providing the bank with a recent obligations certificate (not exceeding 30 days) and duly certified. Account statement from the other bank for a minimum of 6 months. Public Sector: Conditional salary transfer commitment until receiving the clearance from the other bank. In case of buying obligations for Security and Military Apparatuses, except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary is transferred. Private Sector: Conditional salary transfer commitment according to our approved format until receiving the clearance from the other bank. Providing us with proof of payment of internal advances or any external parties where the customer's obligations were paid. Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a salary transfer commitment."
+    ],
+    "chunk_ids": [
+      "chunk_064_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q140.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q141",
+    "pair_id": "PERSONALLOAN-P071",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو قرض المكافآت الشخصي؟",
+    "expected_answer": "قرض المكافآت الشخصي هو قرض شخصي يمنحك استرداداً نقدياً طالما حافظت على سداد أقساطك في وقتها. وبعد 6 شهور من الالتزام بالسداد على الوقت، تزداد نسبة الاسترداد النقدي.",
+    "source_chunks": [
+      "لفئة 7: قرض المكافآت الشخصي. قرض المكافآت الشخصي مصمم لمكافأة العملاء على التزامهم بسداد الأقساط بشكل منتظم، من خلال تقديم تخفيضات تدريجية على هوامش القرض. ويتم منح هذه المكافآت على شكل استرداد نقدي شهري يصل مباشرة إلى خزنة القرض الخاصة بهم.",
+      "ما هو قرض المكافآت الشخصي؟ قرض المكافآت الشخصي هو قرض شخصي يمنحك استرداد نقدي طالما حافظت على سداد أقساطك في وقتها. وبعد 6 شهور من الالتزام بالسداد على الوقت، يتم زيادة نسبة الاسترداد النقدي."
+    ],
+    "chunk_ids": [
+      "chunk_065",
+      "chunk_069"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q141.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q142",
+    "pair_id": "PERSONALLOAN-P071",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the Personal Rewards Loan?",
+    "expected_answer": "It is a personal loan that gives you cashback as long as you maintain paying your installments on time. After 6 months of commitment to timely repayment, the cashback percentage increases.",
+    "source_chunks": [
+      "Category 7: Personal Rewards Loan. The Personal Rewards Loan is designed to reward customers for their commitment to regularly paying installments by offering progressive reductions on loan margins. These rewards are granted as monthly cashback directly into their loan vault.",
+      "What is the Personal Rewards Loan? It is a personal loan that gives you cashback as long as you maintain paying your installments on time. After 6 months of commitment to timely repayment, the cashback percentage increases."
+    ],
+    "chunk_ids": [
+      "chunk_065_en",
+      "chunk_069_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q142.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q143",
+    "pair_id": "PERSONALLOAN-P072",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي الفوائد الرئيسية لقرض المكافآت الشخصي؟",
+    "expected_answer": "يقلل هذا القرض من تكلفة القرض عبر تخفيضات تُقلل إجمالي الفائدة، ويقدم مكافآت نقدية على شكل استرداد يودع في خزنة الاسترداد النقدي، ويعزز الالتزام بالسداد المنتظم عبر مكافأة العملاء على سداد أقساطهم في مواعيدها.",
+    "source_chunks": [
+      "تقليل تكلفة القرض: يحصل العملاء على تخفيضات تُقلل من إجمالي الفائدة على القرض.",
+      "مكافآت نقدية: يسترجع العملاء جزءاً من أقساطهم على شكل استرداد نقدي يتم إيداعه في خزنة الاسترداد النقدي.",
+      "تعزيز الالتزام بالسداد المنتظم: يكافئ هذا القرض العملاء على سداد أقساطهم في مواعيدها، مما يساعدهم في استرداد جزء من تكاليف فائدة القرض."
+    ],
+    "chunk_ids": [
+      "chunk_066",
+      "chunk_067",
+      "chunk_068"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q143.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q144",
+    "pair_id": "PERSONALLOAN-P072",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the main benefits of the Personal Rewards Loan?",
+    "expected_answer": "This loan reduces loan cost through reductions that lower the total interest, provides cash rewards in the form of cashback deposited in the cashback vault, and promotes regular repayment commitment by rewarding customers for paying their installments on time.",
+    "source_chunks": [
+      "Reduce loan cost: Customers receive reductions that lower the total interest on the loan.",
+      "Cash rewards: Customers get back a portion of their installments in the form of cashback deposited in the cashback vault.",
+      "Promote regular repayment commitment: This loan rewards customers for paying their installments on time, helping them recover part of the loan interest costs."
+    ],
+    "chunk_ids": [
+      "chunk_066_en",
+      "chunk_067_en",
+      "chunk_068_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q144.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q145",
+    "pair_id": "PERSONALLOAN-P073",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "كيف يحصل العميل على الاسترداد النقدي؟",
+    "expected_answer": "يتم الحصول على الاسترداد النقدي شهرياً عند دفع قسط القرض في تاريخ السداد.",
+    "source_chunks": [
+      "كيف أحصل على الاسترداد النقدي؟ يتم الحصول على الاسترداد النقدي شهرياً عند دفع قسط القرض في تاريخ السداد."
+    ],
+    "chunk_ids": [
+      "chunk_070"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q145.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q146",
+    "pair_id": "PERSONALLOAN-P073",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "How does the customer get the cashback?",
+    "expected_answer": "Cashback is obtained monthly when paying the loan installment on the due date.",
+    "source_chunks": [
+      "How do I get the cashback? Cashback is obtained monthly when paying the loan installment on the due date."
+    ],
+    "chunk_ids": [
+      "chunk_070_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q146.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q147",
+    "pair_id": "PERSONALLOAN-P074",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل تؤثر مرتبة العميل على نسبة الاسترداد النقدي؟",
+    "expected_answer": "لا، مرتبة العميل لن تؤثر على قيمة الاسترداد النقدي الذي يحصل عليه على قرضه الشخصي، لأن هذا برنامج مختلف.",
+    "source_chunks": [
+      "هل تؤثر مرتبتي على نسبة الاسترداد النقدي التي أحصل عليها؟ لا، مرتبتك لن تؤثر على قيمة الاسترداد النقدي الذي تحصل عليه على قرضك الشخصي، فهذا برنامج مختلف."
+    ],
+    "chunk_ids": [
+      "chunk_071"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q147.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q148",
+    "pair_id": "PERSONALLOAN-P074",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Does the customer's tier affect the cashback percentage?",
+    "expected_answer": "No, the customer's tier will not affect the cashback value they receive on their personal loan; this is a different program.",
+    "source_chunks": [
+      "Does my tier affect the cashback percentage I get? No, your tier will not affect the cashback value you receive on your personal loan; this is a different program."
+    ],
+    "chunk_ids": [
+      "chunk_071_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q148.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q149",
+    "pair_id": "PERSONALLOAN-P075",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل تتغير نسبة الاسترداد النقدي مع مرور الوقت؟",
+    "expected_answer": "نعم، إذا سدد العميل أقساطه في الوقت المحدد لمدة 6 أشهر متتالية، تزداد نسبة الاسترداد النقدي، وتستمر الزيادة كل 6 أشهر على مدار سنتين طالما التزم العميل بالدفع في الوقت المحدد.",
+    "source_chunks": [
+      "هل تتغير نسبة الاسترداد النقدي الذي أحصل عليه؟ نعم، إذا قمت بسداد أقساطك في الوقت المحدد لمدة 6 أشهر متتالية، فإن نسبة الاسترداد النقدي تزيد. وستزداد النسبة كل 6 أشهر على مدار سنتين طالما التزمت بالدفع في الوقت المحدد."
+    ],
+    "chunk_ids": [
+      "chunk_072"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q149.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q150",
+    "pair_id": "PERSONALLOAN-P075",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Does the cashback percentage change over time?",
+    "expected_answer": "Yes, if the customer pays their installments on time for 6 consecutive months, the cashback percentage increases, and the percentage continues to increase every 6 months over two years as long as the customer commits to paying on time.",
+    "source_chunks": [
+      "Does the cashback percentage I get change? Yes, if you pay your installments on time for 6 consecutive months, the cashback percentage increases. The percentage will increase every 6 months over two years as long as you commit to paying on time."
+    ],
+    "chunk_ids": [
+      "chunk_072_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q150.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q151",
+    "pair_id": "PERSONALLOAN-P076",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "أين يمكن رؤية الاسترداد النقدي وكيف يمكن سحبه؟",
+    "expected_answer": "يمكن رؤية مبلغ الاسترداد النقدي في خزنة القروض على التطبيق، ويمكن سحبه من الخزنة الموجودة في صفحة المكافآت بتحويله إلى الحساب.",
+    "source_chunks": [
+      "أين يمكنني رؤية الاسترداد النقدي وكيف يمكنني سحبه؟ ستجد مبلغ الاسترداد النقدي في خزنة القروض على تطبيقنا، ويمكنك سحبه من الخزنة الموجودة في صفحة المكافآت. كل ما عليك فعله هو تحويله لحسابك."
+    ],
+    "chunk_ids": [
+      "chunk_073"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q151.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q152",
+    "pair_id": "PERSONALLOAN-P076",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Where can the cashback be seen and how can it be withdrawn?",
+    "expected_answer": "The cashback amount can be found in the loan vault on the app, and it can be withdrawn from the vault on the rewards page by transferring it to the account.",
+    "source_chunks": [
+      "Where can I see the cashback and how can I withdraw it? You will find the cashback amount in the loan vault on our app, and you can withdraw it from the vault on the rewards page. All you have to do is transfer it to your account."
+    ],
+    "chunk_ids": [
+      "chunk_073_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q152.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q153",
+    "pair_id": "PERSONALLOAN-P077",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "متى يتم إيداع الاسترداد النقدي في خزنة العميل؟",
+    "expected_answer": "يتم إيداع مبلغ الاسترداد النقدي في نهاية كل شهر، بشرط أن يكون العميل قد دفع قسطه في تاريخ سداد القسط.",
+    "source_chunks": [
+      "متى يتم إيداع الاسترداد النقدي في خزنتي؟ ستحصل على مبلغ الاسترداد النقدي في نهاية كل شهر، بشرط أن تكون قد دفعت قسطك في تاريخ سداد القسط."
+    ],
+    "chunk_ids": [
+      "chunk_074"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q153.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q154",
+    "pair_id": "PERSONALLOAN-P077",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "When is the cashback deposited into the customer's vault?",
+    "expected_answer": "The cashback amount is deposited at the end of each month, provided the customer has paid their installment on the due date.",
+    "source_chunks": [
+      "When is the cashback deposited into my vault? You will receive the cashback amount at the end of each month, provided you have paid your installment on the due date."
+    ],
+    "chunk_ids": [
+      "chunk_074_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q154.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q155",
+    "pair_id": "PERSONALLOAN-P078",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "متى يمكن للعميل سحب مبلغ الاسترداد النقدي؟",
+    "expected_answer": "يمكن للعميل سحب مبلغ الاسترداد النقدي في أي وقت، وتتجمّع المبالغ في الخزنة على التطبيق كل شهر (مع تطبيق الشروط والأحكام).",
+    "source_chunks": [
+      "متى يمكنني سحب مبلغ الاسترداد النقدي؟ يمكنك سحب مبلغ الاسترداد النقدي في أي وقت. ستتجمّع مبالغ الاسترداد النقدي في الخزنة على التطبيق كل شهر (تطبّق الشروط والأحكام)."
+    ],
+    "chunk_ids": [
+      "chunk_075"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q155.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q156",
+    "pair_id": "PERSONALLOAN-P078",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "When can the customer withdraw the cashback amount?",
+    "expected_answer": "The customer can withdraw the cashback amount at any time, and amounts accumulate in the app's vault every month (Terms and Conditions apply).",
+    "source_chunks": [
+      "When can I withdraw the cashback amount? You can withdraw the cashback amount at any time. Cashback amounts will accumulate in the app's vault every month (Terms and Conditions apply)."
+    ],
+    "chunk_ids": [
+      "chunk_075_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q156.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q157",
+    "pair_id": "PERSONALLOAN-P079",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل هناك سقف شهري لمبلغ الاسترداد النقدي؟",
+    "expected_answer": "لا، ليس هناك سقف لمبلغ الاسترداد النقدي الذي يمكن للعميل الحصول عليه.",
+    "source_chunks": [
+      "هل هناك سقف شهري لمبلغ الاسترداد النقدي الذي يمكنني الحصول عليه؟ لا، ليس هناك سقف لمبلغ الاسترداد النقدي."
+    ],
+    "chunk_ids": [
+      "chunk_076"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q157.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q158",
+    "pair_id": "PERSONALLOAN-P079",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Is there a monthly cap on the cashback amount?",
+    "expected_answer": "No, there is no cap on the cashback amount the customer can receive.",
+    "source_chunks": [
+      "Is there a monthly cap on the cashback amount I can receive? No, there is no cap on the cashback amount."
+    ],
+    "chunk_ids": [
+      "chunk_076_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q158.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q159",
+    "pair_id": "PERSONALLOAN-P080",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل تنتهي صلاحية مبلغ الاسترداد النقدي الموجود في الخزنة؟",
+    "expected_answer": "لا، يمكن للعميل الاحتفاظ بمبلغ الاسترداد النقدي في الخزنة لأي مدة يرغب بها، وسحبه في أي وقت.",
+    "source_chunks": [
+      "هل تنتهي صلاحية مبلغ الاسترداد النقدي الموجود في الخزنة؟ لا، يمكنك الاحتفاظ بمبلغ الاسترداد النقدي في الخزنة لأي مدة ترغب بها، وبإمكانك سحبه متى ما شئت."
+    ],
+    "chunk_ids": [
+      "chunk_077"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q159.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q160",
+    "pair_id": "PERSONALLOAN-P080",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Does the cashback amount in the vault expire?",
+    "expected_answer": "No, the customer can keep the cashback amount in the vault for as long as they wish, and withdraw it whenever they want.",
+    "source_chunks": [
+      "Does the cashback amount in the vault expire? No, you can keep the cashback amount in the vault for as long as you wish, and you can withdraw it whenever you want."
+    ],
+    "chunk_ids": [
+      "chunk_077_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q160.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q161",
+    "pair_id": "PERSONALLOAN-P081",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يتلقى العميل إشعاراً عند وصول الاسترداد النقدي لخزنة القروض؟",
+    "expected_answer": "نعم، يتلقى العميل إشعاراً عبر التطبيق كل شهر عندما يصبح مبلغ الاسترداد النقدي في خزنته متاحاً للسحب.",
+    "source_chunks": [
+      "هل سيصلني إشعار عندما يصل مبلغ الاسترداد النقدي لخزنة القروض؟ نعم، سوف تتلقى إشعاراً عبر التطبيق كل شهر عندما يصبح مبلغ الاسترداد النقدي في خزنتك متاحاً للسحب."
+    ],
+    "chunk_ids": [
+      "chunk_078"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q161.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q162",
+    "pair_id": "PERSONALLOAN-P081",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Does the customer receive a notification when the cashback amount reaches the loan vault?",
+    "expected_answer": "Yes, the customer receives an app notification every month when the cashback amount in their vault becomes available for withdrawal.",
+    "source_chunks": [
+      "Will I receive a notification when the cashback amount reaches the loan vault? Yes, you will receive an app notification every month when the cashback amount in your vault becomes available for withdrawal."
+    ],
+    "chunk_ids": [
+      "chunk_078_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q162.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q163",
+    "pair_id": "PERSONALLOAN-P082",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ماذا يحدث إذا تأخر العميل في سداد دفعة واحدة من قرض المكافآت الشخصي؟",
+    "expected_answer": "يبقى العميل ضمن برنامج الاسترداد النقدي، لكن يتم إيقاف الاسترداد النقدي مؤقتاً، ويحتاج إلى الانتظار لمدة 6 أشهر من الالتزام بالسداد في الوقت المحدد لاستئناف اكتساب الاسترداد النقدي. ولدى العميل فترة سماح 29 يوماً لسداد القسط قبل تعليق الاسترداد النقدي مؤقتاً.",
+    "source_chunks": [
+      "ماذا يحصل إذا تأخرت في سداد دفعة واحدة؟ ستبقى ضمن برنامج الاسترداد النقدي، لكن سيتم إيقاف الاسترداد النقدي مؤقتاً، وستحتاج إلى الانتظار لمدة 6 أشهر من الالتزام بالسداد على الوقت لتبدأ باكتساب الاسترداد النقدي من جديد. لديك فترة سماح 29 يوماً لسداد أقساطك قبل تعليق الاسترداد النقدي مؤقتاً."
+    ],
+    "chunk_ids": [
+      "chunk_079"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q163.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q164",
+    "pair_id": "PERSONALLOAN-P082",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What happens if the customer is late on a single payment of the Personal Rewards Loan?",
+    "expected_answer": "The customer remains in the cashback program, but the cashback is paused temporarily, and they need to wait 6 months of committed on-time payments to resume earning cashback. The customer has a 29-day grace period to pay the installment before the cashback is paused temporarily.",
+    "source_chunks": [
+      "What happens if I am late on a single payment? You will remain in the cashback program, but the cashback will be paused temporarily, and you will need to wait for 6 months of committed on-time payments to start earning cashback again. You have a 29-day grace period to pay your installments before the cashback is paused."
+    ],
+    "chunk_ids": [
+      "chunk_079_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q164.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q165",
+    "pair_id": "PERSONALLOAN-P083",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ماذا يحدث إذا تأخر العميل في سداد أكثر من قسط خلال مدة قرض المكافآت الشخصي؟",
+    "expected_answer": "إذا تأخر العميل في سداد قسط لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، يتم استبعاده نهائياً من البرنامج ويتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض.",
+    "source_chunks": [
+      "ماذا لو تأخرت في سداد أكثر من قسط خلال مدة القرض؟ إذا تأخرت في سداد قسط لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، سيتم استبعادك نهائياً من البرنامج وستتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض."
+    ],
+    "chunk_ids": [
+      "chunk_080"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q165.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q166",
+    "pair_id": "PERSONALLOAN-P083",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What happens if the customer is late on more than one installment during the Personal Rewards Loan period?",
+    "expected_answer": "If the customer is late paying an installment by 30 days or more twice during the loan period, they are permanently disqualified from the program and stop receiving any cashback or further interest rate reductions until the end of the loan's life.",
+    "source_chunks": [
+      "What if I am late on more than one installment during the loan period? If you are late paying an installment by 30 days or more twice during the loan period, you will be permanently disqualified from the program and will stop receiving any cashback or further interest rate reductions until the end of the loan's life."
+    ],
+    "chunk_ids": [
+      "chunk_080_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q166.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q167",
+    "pair_id": "PERSONALLOAN-P084",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "كيف يؤثر تغيّر سعر الفائدة الأساسي على نسبة الاسترداد النقدي؟",
+    "expected_answer": "لن تتأثر نسبة الاسترداد النقدي إذا قام البنك المركزي الأردني بزيادة أو خفض سعر الفائدة الأساسي على القرض، وسيتم إعادة تسعير معدل الفائدة وفقاً لتسعيرة البنك المركزي.",
+    "source_chunks": [
+      "كيف يؤثر سعر الفائدة الأساسي (معدل البنك المركزي الأردني) على معدل الفائدة على قرضي ونسبة الاسترداد النقدي؟ لن تتأثر نسبة الاسترداد النقدي الذي تحصل عليه إذا قام البنك المركزي بزيادة أو خفض سعر الفائدة الأساسي على القرض. وسيتم إعادة تسعير معدل الفائدة وفقاً لتسعيرة البنك المركزي الأردني."
+    ],
+    "chunk_ids": [
+      "chunk_081"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q167.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q168",
+    "pair_id": "PERSONALLOAN-P084",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "How does a change in the base interest rate affect the cashback percentage?",
+    "expected_answer": "The cashback percentage will not be affected if the Central Bank of Jordan increases or decreases the base interest rate on the loan; the interest rate will be re-priced according to the CBJ pricing.",
+    "source_chunks": [
+      "How does the base interest rate (Central Bank of Jordan rate) affect my loan's interest rate and cashback percentage? The cashback percentage you receive will not be affected if the Central Bank increases or decreases the base interest rate on the loan. The interest rate will be re-priced according to the CBJ pricing."
+    ],
+    "chunk_ids": [
+      "chunk_081_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q168.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q169",
+    "pair_id": "PERSONALLOAN-P085",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يمكن للعميل سداد دفعات إضافية على قرض المكافآت الشخصي، وكيف يؤثر ذلك على الاسترداد النقدي؟",
+    "expected_answer": "نعم، يمكن للعميل سداد دفعات إضافية في أي وقت، ولن يؤثر ذلك على الاسترداد النقدي الشهري لأنه يعتمد على دفع الأقساط في وقتها.",
+    "source_chunks": [
+      "هل يمكنني سداد دفعات إضافية على قرضي، وكيف يؤثر ذلك على الاسترداد النقدي؟ نعم، يمكنك سداد دفعات إضافية في أي وقت. ولن يؤثر ذلك على الاسترداد النقدي الشهري، لأن الاسترداد النقدي يعتمد على دفع الأقساط في وقتها."
+    ],
+    "chunk_ids": [
+      "chunk_082"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q169.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q170",
+    "pair_id": "PERSONALLOAN-P085",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Can the customer make extra payments on the Personal Rewards Loan, and how does it affect cashback?",
+    "expected_answer": "Yes, the customer can make extra payments at any time, and this will not affect the monthly cashback, because the cashback relies on paying installments on time.",
+    "source_chunks": [
+      "Can I make extra payments on my loan, and how does it affect cashback? Yes, you can make extra payments at any time. This will not affect the monthly cashback, because the cashback relies on paying installments on time."
+    ],
+    "chunk_ids": [
+      "chunk_082_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q170.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q171",
+    "pair_id": "PERSONALLOAN-P086",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يفقد العميل الاسترداد النقدي المكتسب مسبقاً إذا تأخر في سداد قسط؟",
+    "expected_answer": "لا، يبقى مبلغ الاسترداد النقدي المكتسب مسبقاً في خزنة العميل، ولكن لن يتمكن من اكتساب المزيد من الاسترداد النقدي إلى أن يعود لدفع الأقساط في وقتها.",
+    "source_chunks": [
+      "هل سأفقد الاسترداد النقدي الذي اكتسبته مسبقاً إذا تأخرت في دفع قسط من أقساطي؟ لا، سيبقى مبلغ الاسترداد النقدي الذي اكتسبته مسبقاً في خزنتك، ولكن لن تتمكن من اكتساب المزيد من الاسترداد النقدي إلى أن تعود لدفع الأقساط في وقتها."
+    ],
+    "chunk_ids": [
+      "chunk_083"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q171.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q172",
+    "pair_id": "PERSONALLOAN-P086",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Does the customer lose previously earned cashback if they are late paying an installment?",
+    "expected_answer": "No, the previously earned cashback amount remains in the customer's vault, but they will not be able to earn more cashback until they return to paying installments on time.",
+    "source_chunks": [
+      "Will I lose my previously earned cashback if I am late paying an installment? No, the previously earned cashback amount will remain in your vault, but you won't be able to earn more cashback until you return to paying installments on time."
+    ],
+    "chunk_ids": [
+      "chunk_083_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q172.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q173",
+    "pair_id": "PERSONALLOAN-P087",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يمكن للعميل استخدام الاسترداد النقدي لسداد أقساط قرضه؟",
+    "expected_answer": "نعم، يمكن للعميل استخدام الاسترداد النقدي لسداد أقساط قرضه أو لأغراض أخرى.",
+    "source_chunks": [
+      "هل يمكنني استخدام الاسترداد النقدي لسداد أقساط قرضي؟ نعم، يمكنك استخدام الاسترداد النقدي لسداد أقساط قرضك أو لأغراض أخرى."
+    ],
+    "chunk_ids": [
+      "chunk_084"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q173.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q174",
+    "pair_id": "PERSONALLOAN-P087",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Can the customer use the cashback to pay their loan installments?",
+    "expected_answer": "Yes, the customer can use the cashback to pay their loan installments or for other purposes.",
+    "source_chunks": [
+      "Can I use the cashback to pay my loan installments? Yes, you can use the cashback to pay your loan installments or for other purposes."
+    ],
+    "chunk_ids": [
+      "chunk_084_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q174.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q175",
+    "pair_id": "PERSONALLOAN-P088",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل هناك حد أقصى لمدة قرض المكافآت الشخصي؟",
+    "expected_answer": "نعم، يعتمد الحد الأقصى لمدة القرض على الشروط والأحكام المذكورة في اتفاقية القرض.",
+    "source_chunks": [
+      "هل هناك حد أقصى لمدة قرض المكافآت الشخصي؟ نعم، يعتمد الحد الأقصى لمدة القرض على الشروط والأحكام المذكورة في اتفاقية القرض."
+    ],
+    "chunk_ids": [
+      "chunk_085"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q175.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q176",
+    "pair_id": "PERSONALLOAN-P088",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Is there a maximum period for the Personal Rewards Loan?",
+    "expected_answer": "Yes, the maximum loan period depends on the terms and conditions mentioned in the loan agreement.",
+    "source_chunks": [
+      "Is there a maximum period for the Personal Rewards Loan? Yes, the maximum loan period depends on the terms and conditions mentioned in the loan agreement."
+    ],
+    "chunk_ids": [
+      "chunk_085_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q176.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q177",
+    "pair_id": "PERSONALLOAN-P089",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ماذا يحدث إذا دفع العميل القسط خلال فترة السماح لقرض المكافآت الشخصي؟",
+    "expected_answer": "لن يحصل العميل على استرداد نقدي خلال نفس الشهر، بل سيتم صرفه كمبلغ إجمالي في نهاية الشهر التالي.",
+    "source_chunks": [
+      "ماذا يحدث إذا قام العميل بدفع القسط خلال فترة السماح؟ لن يحصل العميل على استرداد نقدي خلال نفس الشهر، بل سيتم صرفه كمبلغ إجمالي في نهاية الشهر التالي."
+    ],
+    "chunk_ids": [
+      "chunk_086"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q177.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q178",
+    "pair_id": "PERSONALLOAN-P089",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What happens if the customer pays the installment during the grace period of the Personal Rewards Loan?",
+    "expected_answer": "The customer will not receive cashback during the same month; instead, it will be disbursed as a lump sum at the end of the following month.",
+    "source_chunks": [
+      "What happens if the customer pays the installment during the grace period? The customer will not receive cashback during the same month; instead, it will be disbursed as a lump sum at the end of the following month."
+    ],
+    "chunk_ids": [
+      "chunk_086_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q178.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q179",
+    "pair_id": "PERSONALLOAN-P090",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يمكن تقديم طلب قرض المكافآت الشخصي من خلال التطبيق؟",
+    "expected_answer": "لا، حالياً لا يتم تقديم طلب قرض المكافآت الشخصي من خلال التطبيق.",
+    "source_chunks": [
+      "هل يمكنني تقديم طلب قرض المكافآت الشخصي من خلال التطبيق؟ لا، حالياً لا يتم تقديم طلب قرض المكافآت الشخصي من خلال التطبيق."
+    ],
+    "chunk_ids": [
+      "chunk_087"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q179.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q180",
+    "pair_id": "PERSONALLOAN-P090",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Can the Personal Rewards Loan be applied for through the app?",
+    "expected_answer": "No, currently the Personal Rewards Loan application is not submitted through the app.",
+    "source_chunks": [
+      "Can I apply for the Personal Rewards Loan through the app? No, currently the Personal Rewards Loan application is not submitted through the app."
+    ],
+    "chunk_ids": [
+      "chunk_087_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q180.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q181",
+    "pair_id": "PERSONALLOAN-P091",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ماذا يحدث إذا رفع العميل سقف رصيد قرض المكافآت الشخصي؟",
+    "expected_answer": "إذا رفع العميل سقف رصيد قرض المكافآت الشخصي، يُعاد تعيين الرصيد إلى المبلغ الجديد للقرض ويبدأ من (MOB = 0)، ويتم حساب الاسترداد النقدي بناءً على رصيد القرض بعد الزيادة.",
+    "source_chunks": [
+      "ماذا يحدث إذا قام العميل برفع سقف رصيد القرض المكافآت الشخصي؟ إذا قام العميل برفع سقف رصيد قرض المكافآت الشخصي، فسيتم إعادة تعيين الرصيد إلى المبلغ الجديد للقرض ويبدأ من (MOB = 0). وسيتم حساب الاسترداد النقدي بناءً على رصيد القرض بعد الزيادة."
+    ],
+    "chunk_ids": [
+      "chunk_088"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q181.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q182",
+    "pair_id": "PERSONALLOAN-P091",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What happens if the customer raises the Personal Rewards Loan balance ceiling?",
+    "expected_answer": "If the customer raises the balance ceiling, the balance resets to the new loan amount and starts from (MOB = 0), and the cashback is calculated based on the loan balance after the increase.",
+    "source_chunks": [
+      "What happens if the customer raises the Personal Rewards Loan balance ceiling? If the customer raises the balance ceiling, the balance will reset to the new loan amount and start from (MOB = 0). The cashback will be calculated based on the loan balance after the increase."
+    ],
+    "chunk_ids": [
+      "chunk_088_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q182.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q183",
+    "pair_id": "PERSONALLOAN-P092",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ماذا يحدث إذا قام العميل بسداد جزئي مبكر لقرضه الشخصي مع المكافآت؟",
+    "expected_answer": "إذا سدد العميل القرض جزئياً بشكل مبكر، تنخفض قيمة المبلغ المسترد، حيث يتم حسابه بناءً على الرصيد المتبقي بعد السداد المبكر.",
+    "source_chunks": [
+      "ماذا يحدث إذا قام العميل بعمل سداد جزئي مبكر للقرض الشخصي الحالي مع المكافآت؟ إذا قام العميل بسداد القرض جزئياً بشكل مبكر، ستنخفض قيمة المبلغ المسترد، حيث سيتم حسابه بناءً على الرصيد المتبقي بعد السداد المبكر."
+    ],
+    "chunk_ids": [
+      "chunk_089"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q183.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q184",
+    "pair_id": "PERSONALLOAN-P092",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What happens if the customer makes a partial early settlement on the personal loan with rewards?",
+    "expected_answer": "If the customer partially settles the loan early, the cashback value decreases, as it is calculated based on the remaining balance after the early settlement.",
+    "source_chunks": [
+      "What happens if the customer makes a partial early settlement on the current personal loan with rewards? If the customer partially settles the loan early, the cashback value will decrease, as it will be calculated based on the remaining balance after the early settlement."
+    ],
+    "chunk_ids": [
+      "chunk_089_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q184.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q185",
+    "pair_id": "PERSONALLOAN-P093",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ماذا يحدث إذا أجّل العميل قسط قرضه الشخصي مع المكافآت؟",
+    "expected_answer": "إذا أجّل العميل القسط، فلن يحصل على المبلغ المسترد عن الشهر الذي تم فيه تأجيل الدفع.",
+    "source_chunks": [
+      "ماذا يحدث إذا قام العميل بتأجيل قسط القرض الشخصي الحالي مع المكافآت؟ إذا قام العميل بتأجيل القسط، فلن يحصل على المبلغ المسترد عن الشهر الذي تم فيه تأجيل الدفع."
+    ],
+    "chunk_ids": [
+      "chunk_090"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q185.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q186",
+    "pair_id": "PERSONALLOAN-P093",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What happens if the customer postpones an installment of the personal loan with rewards?",
+    "expected_answer": "If the customer postpones the installment, they will not receive the cashback amount for the month the payment was postponed.",
+    "source_chunks": [
+      "What happens if the customer postpones an installment of the current personal loan with rewards? If the customer postpones the installment, they will not receive the cashback amount for the month the payment was postponed."
+    ],
+    "chunk_ids": [
+      "chunk_090_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q186.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q187",
+    "pair_id": "PERSONALLOAN-P094",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل تختلف شروط التأهيل لقرض المكافآت الشخصي عن القرض الشخصي العادي؟",
+    "expected_answer": "لا، المعايير وشروط التأهيل هي نفسها الخاصة بالقرض الشخصي، إلا أن القرض الشخصي مع المكافآت يعمل بآلية تسعير مختلفة.",
+    "source_chunks": [
+      "الشروط العامة للتأهيل: المعايير وشروط التأهيل هي نفسها الخاصة بالقرض الشخصي، حيث إن القرض الشخصي يعمل بآلية تسعير مختلفة."
+    ],
+    "chunk_ids": [
+      "chunk_091"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q187.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q188",
+    "pair_id": "PERSONALLOAN-P094",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Do the qualification conditions for the Personal Rewards Loan differ from the standard personal loan?",
+    "expected_answer": "No, the criteria and qualification conditions are the same as those for the standard Personal Loan, though the loan with rewards operates on a different pricing mechanism.",
+    "source_chunks": [
+      "General Qualification Conditions: The criteria and qualification conditions are the same as those for the standard Personal Loan, as the Personal Loan operates on a different pricing mechanism."
+    ],
+    "chunk_ids": [
+      "chunk_091_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q188.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q189",
+    "pair_id": "PERSONALLOAN-P095",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي شروط قرض المكافآت الشخصي للعملاء الموظفين مع تحويل الراتب؟",
+    "expected_answer": "الحد الأدنى لمبلغ القرض 2,000 دينار أردني، والحد الأقصى 110,000 دينار أردني، ونسبة عبء الدين 50% أو 55% حسب فئة التوظيف، والحد الأدنى لفترة الخدمة يعتمد على فئة التوظيف.",
+    "source_chunks": [
+      "العملاء الموظفين – مع تحويل الراتب: الحد الأدنى لمبلغ القرض 2,000 دينار أردني. الحد الأقصى لمبلغ القرض 110,000 دينار أردني. نسبة عبء الدين (DBR) 50% أو 55% (تعتمد على فئة التوظيف). الحد الأدنى لفترة الخدمة حسب فئة التوظيف."
+    ],
+    "chunk_ids": [
+      "chunk_092"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q189.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q190",
+    "pair_id": "PERSONALLOAN-P095",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the terms of the Personal Rewards Loan for employed customers with salary transfer?",
+    "expected_answer": "The minimum loan amount is 2,000 JOD, the maximum is 110,000 JOD, the Debt Burden Ratio is 50% or 55% depending on the employment category, and the minimum service period depends on the employment category.",
+    "source_chunks": [
+      "Employed Customers – With Salary Transfer: Minimum Loan Amount 2,000 JOD. Maximum Loan Amount 110,000 JOD. Debt Burden Ratio (DBR) 50% or 55% (Depends on employment category). Minimum Service Period According to employment category."
+    ],
+    "chunk_ids": [
+      "chunk_092_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q190.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q191",
+    "pair_id": "PERSONALLOAN-P096",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي شروط قرض المكافآت الشخصي للعملاء غير الموظفين (أصحاب الأعمال الحرة)؟",
+    "expected_answer": "الحد الأدنى لمبلغ القرض 2,000 دينار أردني، والحد الأقصى 75,000 دينار أردني للعملاء ذوي السجل الائتماني الجيد أو 35,000 دينار أردني لمن لا يملك سجلاً ائتمانياً، ونسبة عبء الدين 40%، والحد الأدنى لفترة الخدمة سنتان.",
+    "source_chunks": [
+      "العملاء غير الموظفين (أصحاب الأعمال الحرة): الحد الأدنى لمبلغ القرض 2,000 دينار أردني. الحد الأقصى لمبلغ القرض 75,000 دينار أردني (للعملاء الذين لديهم سجل ائتماني جيد)، أو 35,000 دينار أردني (للعملاء الذين ليس لديهم سجل ائتماني). نسبة عبء الدين (DBR) 40%. الحد الأدنى لفترة الخدمة سنتان."
+    ],
+    "chunk_ids": [
+      "chunk_093"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q191.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q192",
+    "pair_id": "PERSONALLOAN-P096",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the terms of the Personal Rewards Loan for non-employed customers (self-employed)?",
+    "expected_answer": "The minimum loan amount is 2,000 JOD, the maximum is 75,000 JOD for customers with a good credit history, or 35,000 JOD for those without a credit history, the Debt Burden Ratio is 40%, and the minimum service period is two years.",
+    "source_chunks": [
+      "Non-Employed Customers (Self-Employed): Minimum Loan Amount 2,000 JOD. Maximum Loan Amount 75,000 JOD (for customers with a good credit history), or 35,000 JOD (for customers without a credit history). Debt Burden Ratio (DBR) 40%. Minimum Service Period Two years."
+    ],
+    "chunk_ids": [
+      "chunk_093_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q192.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q193",
+    "pair_id": "PERSONALLOAN-P097",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي طبيعة القرض الشخصي مقابل تأمينات نقدية؟",
+    "expected_answer": "يعتمد هذا القرض على التصريح عن مصدر الدخل دون الحاجة إلى تزويد البنك بالمستندات المطلوبة لإثبات الدخل.",
+    "source_chunks": [
+      "قرض شخصي مقابل تأمينات نقدية - الوظيفة: التصريح عن مصدر الدخل دون الحاجة إلى تزويد البنك بالمستندات المطلوبة لإثبات الدخل."
+    ],
+    "chunk_ids": [
+      "chunk_094"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q193.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q194",
+    "pair_id": "PERSONALLOAN-P097",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the nature of the Personal Loan Against Cash Collateral?",
+    "expected_answer": "This loan relies on declaring the source of income without the need to provide the bank with documents to prove income.",
+    "source_chunks": [
+      "Category 8: Personal Loan Against Cash Collateral. Job: Declaring the source of income without the need to provide the bank with documents to prove income."
+    ],
+    "chunk_ids": [
+      "chunk_094_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q194.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q195",
+    "pair_id": "PERSONALLOAN-P098",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "كم يبلغ مبلغ التمويل للقرض الشخصي مقابل تأمينات نقدية؟",
+    "expected_answer": "يبلغ مبلغ التمويل 5,000 دينار.",
+    "source_chunks": [
+      "مبلغ التمويل (تأمينات نقدية): 5,000 دينار."
+    ],
+    "chunk_ids": [
+      "chunk_095"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q195.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q196",
+    "pair_id": "PERSONALLOAN-P098",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the financing amount for the Personal Loan Against Cash Collateral?",
+    "expected_answer": "The financing amount is 5,000 JOD.",
+    "source_chunks": [
+      "Financing amount (Cash Collateral): 5,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_095_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q196.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q197",
+    "pair_id": "PERSONALLOAN-P099",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي مدة التمويل للقرض الشخصي مقابل تأمينات نقدية؟",
+    "expected_answer": "تتراوح مدة التمويل من 6 أشهر إلى 96 شهراً.",
+    "source_chunks": [
+      "مدة التمويل (تأمينات نقدية): من 6 أشهر إلى 96 شهر."
+    ],
+    "chunk_ids": [
+      "chunk_096"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q197.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q198",
+    "pair_id": "PERSONALLOAN-P099",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the financing period for the Personal Loan Against Cash Collateral?",
+    "expected_answer": "The financing period ranges from 6 months to 96 months.",
+    "source_chunks": [
+      "Financing period (Cash Collateral): From 6 months to 96 months."
+    ],
+    "chunk_ids": [
+      "chunk_096_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q198.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q199",
+    "pair_id": "PERSONALLOAN-P100",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي آلية السداد للقرض الشخصي مقابل تأمينات نقدية؟",
+    "expected_answer": "يتم السداد من الحساب الجاري.",
+    "source_chunks": [
+      "آلية السداد (تأمينات نقدية): من الحساب الجاري."
+    ],
+    "chunk_ids": [
+      "chunk_097"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q199.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q200",
+    "pair_id": "PERSONALLOAN-P100",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the repayment mechanism for the Personal Loan Against Cash Collateral?",
+    "expected_answer": "Repayment is made from the current account.",
+    "source_chunks": [
+      "Repayment mechanism (Cash Collateral): From the current account."
+    ],
+    "chunk_ids": [
+      "chunk_097_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q200.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q201",
+    "pair_id": "PERSONALLOAN-P101",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي قيمة التأمينات المطلوبة للقرض الشخصي مقابل تأمينات نقدية؟",
+    "expected_answer": "قيمة التأمينات المطلوبة هي 100%.",
+    "source_chunks": [
+      "قيمة التأمينات (تأمينات نقدية): 100%."
+    ],
+    "chunk_ids": [
+      "chunk_098"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q201.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q202",
+    "pair_id": "PERSONALLOAN-P101",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the required collateral value for the Personal Loan Against Cash Collateral?",
+    "expected_answer": "The required collateral value is 100%.",
+    "source_chunks": [
+      "Collateral value (Cash Collateral): 100%."
+    ],
+    "chunk_ids": [
+      "chunk_098_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q202.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q203",
+    "pair_id": "PERSONALLOAN-P102",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "هل يوجد تأمين على القرض الشخصي مقابل تأمينات نقدية؟",
+    "expected_answer": "لا، هذا القرض غير مؤمن.",
+    "source_chunks": [
+      "رسوم التأمين (تأمينات نقدية): غير مؤمن."
+    ],
+    "chunk_ids": [
+      "chunk_099"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q203.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q204",
+    "pair_id": "PERSONALLOAN-P102",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "Is there insurance on the Personal Loan Against Cash Collateral?",
+    "expected_answer": "No, this loan is uninsured.",
+    "source_chunks": [
+      "Insurance fees (Cash Collateral): Uninsured."
+    ],
+    "chunk_ids": [
+      "chunk_099_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q204.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q205",
+    "pair_id": "PERSONALLOAN-P103",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي العملات الأجنبية المقبولة كتأمينات نقدية؟",
+    "expected_answer": "العملات الأجنبية المقبولة هي الدولار الأمريكي وأي عملة أخرى معتمدة من قبل الخزينة من حيث استقرارها.",
+    "source_chunks": [
+      "شروط إضافية (تأمينات نقدية): العملة الأجنبية (العملات الأجنبية المقبولة هي الدولار الأمريكي وأي عملة أخرى معتمدة من قبل الخزينة من حيث استقرارها)."
+    ],
+    "chunk_ids": [
+      "chunk_100"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q205.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q206",
+    "pair_id": "PERSONALLOAN-P103",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What foreign currencies are accepted as cash collateral?",
+    "expected_answer": "The accepted foreign currencies are US Dollars and any other currency approved by the Treasury in terms of its stability.",
+    "source_chunks": [
+      "Additional conditions (Cash Collateral): Foreign currency (Accepted foreign currencies are US Dollars and any other currency approved by the Treasury in terms of its stability)."
+    ],
+    "chunk_ids": [
+      "chunk_100_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q206.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q207",
+    "pair_id": "PERSONALLOAN-P104",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي المستندات المطلوبة للقرض الشخصي مقابل تأمينات نقدية؟",
+    "expected_answer": "تشمل المستندات: صورة عن وثيقة إقامة سارية المفعول لغير الأردني مع جواز سفر ساري المفعول، ووثيقة إثبات شخصية سارية المفعول (الهوية المدنية أو العسكرية، مع تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف)، ونموذج حجز تأمينات نقدية.",
+    "source_chunks": [
+      "المستندات المطلوبة (تأمينات نقدية): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية/العسكرية، تدوين معلومات هوية المخابرات على الطلب القرض وتوقيع الموظف). نموذج حجز تأمينات نقدية."
+    ],
+    "chunk_ids": [
+      "chunk_101"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q207.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q208",
+    "pair_id": "PERSONALLOAN-P104",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What documents are required for the Personal Loan Against Cash Collateral?",
+    "expected_answer": "Documents include: a copy of a valid residency document for non-Jordanians with a valid passport, a valid identification document (Civil or Military ID, with Intelligence ID information recorded on the loan application and the employee's signature), and a cash collateral hold form.",
+    "source_chunks": [
+      "Required Documents (Cash Collateral): A copy of a valid residency document (for non-Jordanians) in addition to a valid passport. Valid identification document. (Civil / Military ID, recording Intelligence ID information on the loan application and the employee's signature). Cash collateral hold form."
+    ],
+    "chunk_ids": [
+      "chunk_101_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q208.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q209",
+    "pair_id": "PERSONALLOAN-P105",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى لفترة الخدمة للقرض الشخصي مقابل رهن عقاري؟",
+    "expected_answer": "الحد الأدنى لفترة الخدمة يتراوح من 3 أشهر إلى سنتين.",
+    "source_chunks": [
+      "قرض شخصي مقابل رهن عقاري - الحد الأدنى لفترة الخدمة: من 3 أشهر إلى سنتين."
+    ],
+    "chunk_ids": [
+      "chunk_102"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q209.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q210",
+    "pair_id": "PERSONALLOAN-P105",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the minimum service period for the Personal Loan Against Real Estate Mortgage?",
+    "expected_answer": "The minimum service period ranges from 3 months to 2 years.",
+    "source_chunks": [
+      "Personal Loan Against Real Estate Mortgage - Minimum service period: From 3 months to 2 years."
+    ],
+    "chunk_ids": [
+      "chunk_102_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q210.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q211",
+    "pair_id": "PERSONALLOAN-P106",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي نسبة الإفراط بالمديونية للقرض الشخصي مقابل رهن عقاري؟",
+    "expected_answer": "نسبة الإفراط بالمديونية 95%.",
+    "source_chunks": [
+      "قرض شخصي مقابل رهن عقاري - الإفراط بالمديونية: 95%."
+    ],
+    "chunk_ids": [
+      "chunk_103"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q211.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q212",
+    "pair_id": "PERSONALLOAN-P106",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the over-indebtedness ratio for the Personal Loan Against Real Estate Mortgage?",
+    "expected_answer": "The over-indebtedness ratio is 95%.",
+    "source_chunks": [
+      "Personal Loan Against Real Estate Mortgage - Over-indebtedness: 95%."
+    ],
+    "chunk_ids": [
+      "chunk_103_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q212.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q213",
+    "pair_id": "PERSONALLOAN-P107",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي نسبة عبء الدين للقرض الشخصي مقابل رهن عقاري؟",
+    "expected_answer": "نسبة عبء الدين 55%.",
+    "source_chunks": [
+      "قرض شخصي مقابل رهن عقاري - عبء الدين: 55%."
+    ],
+    "chunk_ids": [
+      "chunk_104"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q213.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q214",
+    "pair_id": "PERSONALLOAN-P107",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the debt burden for the Personal Loan Against Real Estate Mortgage?",
+    "expected_answer": "The debt burden is 55%.",
+    "source_chunks": [
+      "Personal Loan Against Real Estate Mortgage - Debt burden: 55%."
+    ],
+    "chunk_ids": [
+      "chunk_104_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q214.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q215",
+    "pair_id": "PERSONALLOAN-P108",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى والأقصى لمدة القرض الشخصي مقابل رهن عقاري؟",
+    "expected_answer": "الحد الأدنى لمدة القرض 12 شهراً، والحد الأقصى 96 شهراً.",
+    "source_chunks": [
+      "قرض شخصي مقابل رهن عقاري - الحد الأدنى لمدة القرض: 12 شهراً.",
+      "قرض شخصي مقابل رهن عقاري - الحد الأقصى لمدة القرض: 96 شهراً."
+    ],
+    "chunk_ids": [
+      "chunk_105",
+      "chunk_106"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q215.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q216",
+    "pair_id": "PERSONALLOAN-P108",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the minimum and maximum periods for the Personal Loan Against Real Estate Mortgage?",
+    "expected_answer": "The minimum loan period is 12 months, and the maximum is 96 months.",
+    "source_chunks": [
+      "Personal Loan Against Real Estate Mortgage - Minimum loan period: 12 months.",
+      "Personal Loan Against Real Estate Mortgage - Maximum loan period: 96 months."
+    ],
+    "chunk_ids": [
+      "chunk_105_en",
+      "chunk_106_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q216.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q217",
+    "pair_id": "PERSONALLOAN-P109",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هو الحد الأدنى والأقصى لمبلغ القرض الشخصي مقابل رهن عقاري؟",
+    "expected_answer": "الحد الأدنى لمبلغ القرض 25,000 دينار أردني، والحد الأقصى 1,000,000 دينار أردني.",
+    "source_chunks": [
+      "قرض شخصي مقابل رهن عقاري - الحد الأدنى لمبلغ القرض: 25,000 دينار أردني.",
+      "قرض شخصي مقابل رهن عقاري - الحد الأقصى لمبلغ القرض: 1,000,000 دينار أردني."
+    ],
+    "chunk_ids": [
+      "chunk_107",
+      "chunk_108"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q217.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q218",
+    "pair_id": "PERSONALLOAN-P109",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What are the minimum and maximum amounts for the Personal Loan Against Real Estate Mortgage?",
+    "expected_answer": "The minimum loan amount is 25,000 JOD, and the maximum is 1,000,000 JOD.",
+    "source_chunks": [
+      "Personal Loan Against Real Estate Mortgage - Minimum loan amount: 25,000 JOD.",
+      "Personal Loan Against Real Estate Mortgage - Maximum loan amount: 1,000,000 JOD."
+    ],
+    "chunk_ids": [
+      "chunk_107_en",
+      "chunk_108_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q218.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q219",
+    "pair_id": "PERSONALLOAN-P110",
+    "language": "ar",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "ما هي نسبة التمويل للقرض الشخصي مقابل رهن عقاري؟",
+    "expected_answer": "نسبة التمويل 50% من قيمة التخمين في حال كان الرهن أرضاً، أو 60% من قيمة التخمين في حال كان الرهن شقة.",
+    "source_chunks": [
+      "قرض شخصي مقابل رهن عقاري - نسبة التمويل: 50% من قيمة التخمين في حال أرض أو 60% من قيمة التخمين في حال شقة."
+    ],
+    "chunk_ids": [
+      "chunk_109"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q219.wav"
+  },
+  {
+    "id": "PERSONALLOAN-Q220",
+    "pair_id": "PERSONALLOAN-P110",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Personal Loan",
+    "question": "What is the financing ratio for the Personal Loan Against Real Estate Mortgage?",
+    "expected_answer": "The financing ratio is 50% of the appraisal value for land, or 60% of the appraisal value for an apartment.",
+    "source_chunks": [
+      "Personal Loan Against Real Estate Mortgage - Financing ratio: 50% of the appraisal value for land, or 60% of the appraisal value for an apartment."
+    ],
+    "chunk_ids": [
+      "chunk_109_en"
+    ],
+    "audio_file": "wav\\PERSONALLOAN-Q220.wav"
+  }
+]

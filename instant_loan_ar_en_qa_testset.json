@@ -1,0 +1,538 @@
+{
+  "chunks": [
+    {
+      "id": "chunk_001",
+      "text": "القرض الفوري: قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، وتتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، ودون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع."
+    },
+    {
+      "id": "chunk_002",
+      "text": "الحصول على قرض شخصي بسرعة فائقة من مكان تواجد العميل، وبأي وقت على التطبيق."
+    },
+    {
+      "id": "chunk_003",
+      "text": "سهولة وسرعة الحصول على القرض دون الحاجة إلى زيارة أي فرع."
+    },
+    {
+      "id": "chunk_004",
+      "text": "تجربة سلسة تمنح العميل الخيار بترتيب الدفعات بما يتناسب معه."
+    },
+    {
+      "id": "chunk_005",
+      "text": "قيد مبلغ القرض مباشرةً في الحساب."
+    },
+    {
+      "id": "chunk_006",
+      "text": "تطبق شروط القرض الشخصي العادي بخصوص السداد المبكر."
+    },
+    {
+      "id": "chunk_007",
+      "text": "بعد أخذ القرض يختفي هذا الخيار للعميل (لا يمكنه أخذ قرض فوري آخر)."
+    },
+    {
+      "id": "chunk_008",
+      "text": "يمكن للعميل اختيار اليوم الذي يريد السداد به (مثلاً كل 14 من الشهر)."
+    },
+    {
+      "id": "chunk_009",
+      "text": "كم هي عدد المرات التي يمكن بها الحصول على قرض فوري؟ مرة واحدة."
+    },
+    {
+      "id": "chunk_010",
+      "text": "هل يمكن التقديم والحصول على القرض أيام العطل الرسمية؟ نعم، يمكن التقديم في أي وقت."
+    },
+    {
+      "id": "chunk_011",
+      "text": "ما هي مدة السداد؟ يعتمد على مبلغ القرض ويعتمد على المدة المختارة من قبل العميل."
+    },
+    {
+      "id": "chunk_012",
+      "text": "هل يمكن لجميع العملاء الحصول على قرض فوري؟ لا، لأنه يتم اختيار العملاء بناءً على إجراءات محددة وتكون قد تمت الموافقة على قرض العميل بشكل مسبق."
+    },
+    {
+      "id": "chunk_013",
+      "text": "في حال الرغبة في الحصول على مبلغ أعلى؟ يجب زيارة الفرع وتقديم الطلب حسب السياسة الائتمانية."
+    },
+    {
+      "id": "chunk_014",
+      "text": "ما هي عمولة المنح؟ 1% من قيمة القرض وللسنة الأولى فقط. يتم خصم العمولة أيضاً في حال طلب زيادة على رصيد القرض."
+    },
+    {
+      "id": "chunk_001_en",
+      "text": "Instant Loan: An instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch."
+    },
+    {
+      "id": "chunk_002_en",
+      "text": "Obtain a personal loan extremely quickly from wherever you are, at any time on the app."
+    },
+    {
+      "id": "chunk_003_en",
+      "text": "Ease and speed of obtaining the loan without the need to visit any branch."
+    },
+    {
+      "id": "chunk_004_en",
+      "text": "A seamless experience that gives you the option to arrange payments in a way that suits you."
+    },
+    {
+      "id": "chunk_005_en",
+      "text": "Crediting the loan amount directly into the account."
+    },
+    {
+      "id": "chunk_006_en",
+      "text": "Standard personal loan terms apply regarding early settlement."
+    },
+    {
+      "id": "chunk_007_en",
+      "text": "After taking the loan, this option disappears for the customer (they cannot take another instant loan)."
+    },
+    {
+      "id": "chunk_008_en",
+      "text": "The customer can choose the day they want to pay (e.g., every 14th of the month)."
+    },
+    {
+      "id": "chunk_009_en",
+      "text": "How many times can an instant loan be obtained? Once."
+    },
+    {
+      "id": "chunk_010_en",
+      "text": "Can I apply for and obtain the loan on public holidays? Yes, you can apply at any time."
+    },
+    {
+      "id": "chunk_011_en",
+      "text": "What is the repayment period? It depends on the loan amount and the period chosen by the customer."
+    },
+    {
+      "id": "chunk_012_en",
+      "text": "Can all customers get an instant loan? No, because customers are selected based on specific procedures and the customer's loan has been pre-approved."
+    },
+    {
+      "id": "chunk_013_en",
+      "text": "What if I want to obtain a higher amount? You must visit the branch and submit an application according to the credit policy."
+    },
+    {
+      "id": "chunk_014_en",
+      "text": "What is the granting commission? 1% of the loan value for the first year only. The commission is also deducted in case of requesting an increase on the loan balance."
+    }
+  ],
+  "questions": [
+    {
+      "id": "INSTANTLOAN-Q001",
+      "pair_id": "INSTANTLOAN-P001",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "ما هو القرض الفوري؟",
+      "expected_answer": "هو قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، يتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، دون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع.",
+      "source_chunks": [
+        "القرض الفوري: قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، وتتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، ودون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع."
+      ],
+      "chunk_ids": [
+        "chunk_001"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q002",
+      "pair_id": "INSTANTLOAN-P001",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "What is the Instant Loan?",
+      "expected_answer": "It is an instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch.",
+      "source_chunks": [
+        "Instant Loan: An instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch."
+      ],
+      "chunk_ids": [
+        "chunk_001_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q003",
+      "pair_id": "INSTANTLOAN-P002",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "كيف يمكن الحصول على القرض الفوري من ناحية السرعة والمكان؟",
+      "expected_answer": "يمكن الحصول على القرض بسرعة فائقة من مكان تواجد العميل، وفي أي وقت من خلال التطبيق.",
+      "source_chunks": [
+        "الحصول على قرض شخصي بسرعة فائقة من مكان تواجد العميل، وبأي وقت على التطبيق."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q004",
+      "pair_id": "INSTANTLOAN-P002",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "How can the Instant Loan be obtained in terms of speed and location?",
+      "expected_answer": "The loan can be obtained extremely quickly from wherever the customer is, at any time through the app.",
+      "source_chunks": [
+        "Obtain a personal loan extremely quickly from wherever you are, at any time on the app."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q005",
+      "pair_id": "INSTANTLOAN-P003",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "هل يحتاج العميل لزيارة فرع للحصول على القرض الفوري؟",
+      "expected_answer": "لا، يتميز القرض الفوري بسهولة وسرعة الحصول عليه دون الحاجة إلى زيارة أي فرع.",
+      "source_chunks": [
+        "سهولة وسرعة الحصول على القرض دون الحاجة إلى زيارة أي فرع."
+      ],
+      "chunk_ids": [
+        "chunk_003"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q006",
+      "pair_id": "INSTANTLOAN-P003",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "Does the customer need to visit a branch to obtain the Instant Loan?",
+      "expected_answer": "No, the Instant Loan is characterized by ease and speed of obtaining it without the need to visit any branch.",
+      "source_chunks": [
+        "Ease and speed of obtaining the loan without the need to visit any branch."
+      ],
+      "chunk_ids": [
+        "chunk_003_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q007",
+      "pair_id": "INSTANTLOAN-P004",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "هل يمكن للعميل ترتيب دفعات القرض الفوري بما يناسبه؟",
+      "expected_answer": "نعم، تمنح التجربة العميل خياراً سلساً لترتيب الدفعات بما يتناسب معه.",
+      "source_chunks": [
+        "تجربة سلسة تمنح العميل الخيار بترتيب الدفعات بما يتناسب معه."
+      ],
+      "chunk_ids": [
+        "chunk_004"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q008",
+      "pair_id": "INSTANTLOAN-P004",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "Can the customer arrange the Instant Loan payments to suit them?",
+      "expected_answer": "Yes, the experience gives the customer a seamless option to arrange payments in a way that suits them.",
+      "source_chunks": [
+        "A seamless experience that gives you the option to arrange payments in a way that suits you."
+      ],
+      "chunk_ids": [
+        "chunk_004_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q009",
+      "pair_id": "INSTANTLOAN-P005",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "كيف يتم قيد مبلغ القرض الفوري؟",
+      "expected_answer": "يتم قيد مبلغ القرض مباشرةً في حساب العميل.",
+      "source_chunks": [
+        "قيد مبلغ القرض مباشرةً في الحساب."
+      ],
+      "chunk_ids": [
+        "chunk_005"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q010",
+      "pair_id": "INSTANTLOAN-P005",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "How is the Instant Loan amount credited?",
+      "expected_answer": "The loan amount is credited directly into the customer's account.",
+      "source_chunks": [
+        "Crediting the loan amount directly into the account."
+      ],
+      "chunk_ids": [
+        "chunk_005_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q011",
+      "pair_id": "INSTANTLOAN-P006",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "ما هي الشروط المطبقة على السداد المبكر للقرض الفوري؟",
+      "expected_answer": "تطبق شروط القرض الشخصي العادي بخصوص السداد المبكر.",
+      "source_chunks": [
+        "تطبق شروط القرض الشخصي العادي بخصوص السداد المبكر."
+      ],
+      "chunk_ids": [
+        "chunk_006"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q012",
+      "pair_id": "INSTANTLOAN-P006",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "What terms apply to early settlement of the Instant Loan?",
+      "expected_answer": "Standard personal loan terms apply regarding early settlement.",
+      "source_chunks": [
+        "Standard personal loan terms apply regarding early settlement."
+      ],
+      "chunk_ids": [
+        "chunk_006_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q013",
+      "pair_id": "INSTANTLOAN-P007",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "ماذا يحدث لخيار القرض الفوري بعد أن يأخذه العميل؟",
+      "expected_answer": "يختفي خيار القرض الفوري للعميل بعد أخذه، ولا يمكنه أخذ قرض فوري آخر.",
+      "source_chunks": [
+        "بعد أخذ القرض يختفي هذا الخيار للعميل (لا يمكنه أخذ قرض فوري آخر)."
+      ],
+      "chunk_ids": [
+        "chunk_007"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q014",
+      "pair_id": "INSTANTLOAN-P007",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "What happens to the Instant Loan option after the customer takes it?",
+      "expected_answer": "The Instant Loan option disappears for the customer after taking it, and they cannot take another instant loan.",
+      "source_chunks": [
+        "After taking the loan, this option disappears for the customer (they cannot take another instant loan)."
+      ],
+      "chunk_ids": [
+        "chunk_007_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q015",
+      "pair_id": "INSTANTLOAN-P008",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "هل يمكن للعميل اختيار يوم سداد القرض الفوري؟",
+      "expected_answer": "نعم، يمكن للعميل اختيار اليوم الذي يريد السداد به، مثلاً كل 14 من الشهر.",
+      "source_chunks": [
+        "يمكن للعميل اختيار اليوم الذي يريد السداد به (مثلاً كل 14 من الشهر)."
+      ],
+      "chunk_ids": [
+        "chunk_008"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q016",
+      "pair_id": "INSTANTLOAN-P008",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "Can the customer choose the repayment day for the Instant Loan?",
+      "expected_answer": "Yes, the customer can choose the day they want to pay, for example every 14th of the month.",
+      "source_chunks": [
+        "The customer can choose the day they want to pay (e.g., every 14th of the month)."
+      ],
+      "chunk_ids": [
+        "chunk_008_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q017",
+      "pair_id": "INSTANTLOAN-P009",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "كم عدد المرات التي يمكن فيها الحصول على قرض فوري؟",
+      "expected_answer": "يمكن الحصول على القرض الفوري مرة واحدة فقط.",
+      "source_chunks": [
+        "كم هي عدد المرات التي يمكن بها الحصول على قرض فوري؟ مرة واحدة."
+      ],
+      "chunk_ids": [
+        "chunk_009"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q018",
+      "pair_id": "INSTANTLOAN-P009",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "How many times can an instant loan be obtained?",
+      "expected_answer": "An instant loan can be obtained only once.",
+      "source_chunks": [
+        "How many times can an instant loan be obtained? Once."
+      ],
+      "chunk_ids": [
+        "chunk_009_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q019",
+      "pair_id": "INSTANTLOAN-P010",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "هل يمكن التقديم والحصول على القرض الفوري في أيام العطل الرسمية؟",
+      "expected_answer": "نعم، يمكن التقديم على القرض الفوري في أي وقت، بما في ذلك أيام العطل الرسمية.",
+      "source_chunks": [
+        "هل يمكن التقديم والحصول على القرض أيام العطل الرسمية؟ نعم، يمكن التقديم في أي وقت."
+      ],
+      "chunk_ids": [
+        "chunk_010"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q020",
+      "pair_id": "INSTANTLOAN-P010",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "Can a customer apply for and obtain the Instant Loan on public holidays?",
+      "expected_answer": "Yes, a customer can apply for the Instant Loan at any time, including public holidays.",
+      "source_chunks": [
+        "Can I apply for and obtain the loan on public holidays? Yes, you can apply at any time."
+      ],
+      "chunk_ids": [
+        "chunk_010_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q021",
+      "pair_id": "INSTANTLOAN-P011",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "على ماذا تعتمد مدة سداد القرض الفوري؟",
+      "expected_answer": "تعتمد مدة السداد على مبلغ القرض وعلى المدة المختارة من قبل العميل.",
+      "source_chunks": [
+        "ما هي مدة السداد؟ يعتمد على مبلغ القرض ويعتمد على المدة المختارة من قبل العميل."
+      ],
+      "chunk_ids": [
+        "chunk_011"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q022",
+      "pair_id": "INSTANTLOAN-P011",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "What does the repayment period of the Instant Loan depend on?",
+      "expected_answer": "The repayment period depends on the loan amount and on the period chosen by the customer.",
+      "source_chunks": [
+        "What is the repayment period? It depends on the loan amount and the period chosen by the customer."
+      ],
+      "chunk_ids": [
+        "chunk_011_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q023",
+      "pair_id": "INSTANTLOAN-P012",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "هل يمكن لجميع العملاء الحصول على قرض فوري؟",
+      "expected_answer": "لا، لأنه يتم اختيار العملاء بناءً على إجراءات محددة، وتكون قد تمت الموافقة على قرض العميل بشكل مسبق.",
+      "source_chunks": [
+        "هل يمكن لجميع العملاء الحصول على قرض فوري؟ لا، لأنه يتم اختيار العملاء بناءً على إجراءات محددة وتكون قد تمت الموافقة على قرض العميل بشكل مسبق."
+      ],
+      "chunk_ids": [
+        "chunk_012"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q024",
+      "pair_id": "INSTANTLOAN-P012",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "Can all customers get an instant loan?",
+      "expected_answer": "No, because customers are selected based on specific procedures, and the customer's loan has been pre-approved.",
+      "source_chunks": [
+        "Can all customers get an instant loan? No, because customers are selected based on specific procedures and the customer's loan has been pre-approved."
+      ],
+      "chunk_ids": [
+        "chunk_012_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q025",
+      "pair_id": "INSTANTLOAN-P013",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "ماذا يجب على العميل فعله إذا رغب في الحصول على مبلغ أعلى من القرض الفوري؟",
+      "expected_answer": "يجب على العميل زيارة الفرع وتقديم الطلب حسب السياسة الائتمانية.",
+      "source_chunks": [
+        "في حال الرغبة في الحصول على مبلغ أعلى؟ يجب زيارة الفرع وتقديم الطلب حسب السياسة الائتمانية."
+      ],
+      "chunk_ids": [
+        "chunk_013"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q026",
+      "pair_id": "INSTANTLOAN-P013",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "What should a customer do if they want to obtain a higher amount than the Instant Loan offers?",
+      "expected_answer": "The customer must visit the branch and submit an application according to the credit policy.",
+      "source_chunks": [
+        "What if I want to obtain a higher amount? You must visit the branch and submit an application according to the credit policy."
+      ],
+      "chunk_ids": [
+        "chunk_013_en"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q027",
+      "pair_id": "INSTANTLOAN-P014",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "كم تبلغ عمولة المنح للقرض الفوري؟",
+      "expected_answer": "تبلغ عمولة المنح 1% من قيمة القرض، وذلك للسنة الأولى فقط. ويتم خصم العمولة أيضاً في حال طلب زيادة على رصيد القرض.",
+      "source_chunks": [
+        "ما هي عمولة المنح؟ 1% من قيمة القرض وللسنة الأولى فقط. يتم خصم العمولة أيضاً في حال طلب زيادة على رصيد القرض."
+      ],
+      "chunk_ids": [
+        "chunk_014"
+      ]
+    },
+    {
+      "id": "INSTANTLOAN-Q028",
+      "pair_id": "INSTANTLOAN-P014",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Instant Loan",
+      "question": "What is the granting commission for the Instant Loan?",
+      "expected_answer": "The granting commission is 1% of the loan value, for the first year only. The commission is also deducted in case of requesting an increase on the loan balance.",
+      "source_chunks": [
+        "What is the granting commission? 1% of the loan value for the first year only. The commission is also deducted in case of requesting an increase on the loan balance."
+      ],
+      "chunk_ids": [
+        "chunk_014_en"
+      ]
+    }
+  ]
+}

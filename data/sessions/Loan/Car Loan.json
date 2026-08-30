@@ -1,0 +1,1406 @@
+[
+  {
+    "session_id": "CarLoan-ar-001",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q017",
+        "question": "ما هو الحد الأدنى لمبلغ قرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمبلغ القرض هو 7,500 دينار.",
+        "audio_file": "wav\\CARLOAN-Q017.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q045",
+        "question": "ما هي فترة السماح لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "تصل فترة السماح إلى 45 يوماً في حال توقيع العقد بعد اليوم 15 من الشهر.",
+        "audio_file": "wav\\CARLOAN-Q045.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q137",
+        "question": "ما هي الجهات المصنفة ضمن \"الشركات المعتمدة\" لأغراض قرض السيارة بتحويل الراتب؟",
+        "expected_answer": "تشمل جميع الوظائف في الشركات المعتمدة والمنظمات التابعة للأمم المتحدة (UN).",
+        "audio_file": "wav\\CARLOAN-Q137.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q125",
+        "question": "ما هو الشرط الأساسي لتمويل السيارات الصينية عند تحويل الراتب؟",
+        "expected_answer": "يشترط أن يكون للسيارة الصينية وكيل حصري معتمد.",
+        "audio_file": "wav\\CARLOAN-Q125.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q025",
+        "question": "ما هي نسبة عبء الدين المسموح بها لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "نسبة عبء الدين المسموح بها 50%، وترتفع إلى 65% في حال وجود بطاقة ائتمانية.",
+        "audio_file": "wav\\CARLOAN-Q025.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q129",
+        "question": "كيف يتم تمويل السيارات ذات العلامة التجارية الصينية من أي معرض غير الوكيل نفسه؟",
+        "expected_answer": "يمكن تمويلها من أي معرض بشرط وجود وكيل معتمد لها في الأردن وأن تكون بعداد صفر، حتى لو لم تكن مباعة من نفس الوكيل، شريطة تزويد البنك بتقرير فحص وتخمين وتقرير CARSEER.",
+        "audio_file": "wav\\CARLOAN-Q129.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q005",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للموظفين المشتركين بالضمان الاجتماعي للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة هو ستة أشهر للموظفين المشتركين في الضمان الاجتماعي.",
+        "audio_file": "wav\\CARLOAN-Q005.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q071",
+        "question": "ما هو الحد الأدنى للراتب الصافي لموظفي البنك المركزي والسيتي بانك؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي هو 450 دينار.",
+        "audio_file": "wav\\CARLOAN-Q071.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q139",
+        "question": "ما هي الجهات المصنفة ضمن \"الشركات غير المعتمدة\" لأغراض قرض السيارة بتحويل الراتب؟",
+        "expected_answer": "تشمل المدرّسين في القطاع الخاص وجميع الوظائف في الشركات غير المعتمدة، بالإضافة إلى الفنادق والهيئات والمنظمات الدولية وقطاع المبيعات.",
+        "audio_file": "wav\\CARLOAN-Q139.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q161",
+        "question": "من يتحمل فائدة القرض ضمن حملة أبو خضر؟",
+        "expected_answer": "قد تتحمل الوكالة الفائدة على مدة القرض، أو قد يتحملها العميل.",
+        "audio_file": "wav\\CARLOAN-Q161.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-002",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q113",
+        "question": "ما هو المستند الإضافي المطلوب من موظفي العقود عند تحويل الراتب؟",
+        "expected_answer": "يُطلب من موظفي العقود تقديم صورة عن عقد العمل.",
+        "audio_file": "wav\\CARLOAN-Q113.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q037",
+        "question": "كيف يتم التعامل مع فحص السيارات المستعملة (Pre-owned) المشتراة من وكالات السيارات؟",
+        "expected_answer": "يُكتفى بعرض السعر المقدم من الوكالة للسيارات الجديدة، وللسيارات المستعملة (Pre-owned) التي لا يزيد عمرها عن 3 سنوات شريطة شرائها من نفس الوكالة؛ وفي غير ذلك يتم فحصها وتخمينها من قبل مخمنين معتمدين.",
+        "audio_file": "wav\\CARLOAN-Q037.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q041",
+        "question": "كيف يتم صرف أمر الدفع بقيمة السيارة الممولة؟",
+        "expected_answer": "يصدر أمر الدفع باسم التاجر بائع السيارة فقط، أو يُحوَّل إلى حساب البائع إن كان عميلاً لدى بنك اتحاد، ولا يمكن بأي حال قيد قيمة القرض إلى حساب العميل المقترض.",
+        "audio_file": "wav\\CARLOAN-Q041.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q155",
+        "question": "ما هي نسبة التمويل ضمن حملة قروض سيارات مجموعة أبو خضر بدون تحويل الراتب؟",
+        "expected_answer": "تصل نسبة التمويل إلى 80% بدون تحويل الراتب.",
+        "audio_file": "wav\\CARLOAN-Q155.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q133",
+        "question": "من هم \"المهنيون\" ضمن برنامج قرض السيارة، وما الحد الأدنى لمدة خدمتهم؟",
+        "expected_answer": "يشمل المهنيون الأطباء والمهندسين والصيادلة والمحاسبين والمدققين القانونيين والمستشارين وحاملي الشهادات المالية الذين لديهم أعمال خاصة بهم، والحد الأدنى لمدة الخدمة المطلوبة هو سنتان.",
+        "audio_file": "wav\\CARLOAN-Q133.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q001",
+        "question": "ما هو الحد العمري لأصحاب الرواتب للحصول على قرض سيارة؟",
+        "expected_answer": "يتراوح عمر أصحاب الرواتب عند منح القرض بين 22 و65 سنة، على ألا يتجاوز عمر العميل عند سداد آخر قسط 75 سنة.",
+        "audio_file": "wav\\CARLOAN-Q001.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q039",
+        "question": "ما هي الضمانات المطلوبة لقرض السيارة؟",
+        "expected_answer": "يتم رهن السيارة بقيمة تساوي 100% من قيمة القرض، مع تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهنها من الدرجة الأولى لصالح البنك وحده، وتقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين مع كتاب الرهن لحفظها في ملف العميل.",
+        "audio_file": "wav\\CARLOAN-Q039.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q067",
+        "question": "ما هو الحد الأدنى للراتب الصافي لجميع القطاعات في حال كانت الرواتب غير محولة؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي هو 600 دينار.",
+        "audio_file": "wav\\CARLOAN-Q067.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q089",
+        "question": "كم تبلغ عمولة إعادة الهيكلة لقرض السيارة عند تحويل الراتب؟",
+        "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير.",
+        "audio_file": "wav\\CARLOAN-Q089.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q091",
+        "question": "ما هو الحد الأقصى لعمر السيارة الممولة عند تحويل الراتب؟",
+        "expected_answer": "لا يزيد عمر السيارة الممولة عن 14 سنة.",
+        "audio_file": "wav\\CARLOAN-Q091.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-003",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q009",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للمغتربين للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة للمغتربين سنتان.",
+        "audio_file": "wav\\CARLOAN-Q009.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q065",
+        "question": "ما هو الحد الأدنى للراتب الصافي لأصحاب الأعمال الحرة مع تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي لأصحاب الأعمال الحرة هو 1,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q065.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q043",
+        "question": "كم تبلغ عمولة إعادة الهيكلة لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير.",
+        "audio_file": "wav\\CARLOAN-Q043.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q055",
+        "question": "ما هي آلية تمويل السيارات الصينية بدون تحويل راتب؟",
+        "expected_answer": "يتم تمويل جميع السيارات الصينية التي لها وكيل رسمي معتمد في الأردن، وذلك بنفس الشروط المطبقة على باقي السيارات.",
+        "audio_file": "wav\\CARLOAN-Q055.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q103",
+        "question": "ما هي رسوم التأمين على الحياة حسب مبلغ القرض عند تحويل الراتب؟",
+        "expected_answer": "تبلغ رسوم التأمين 75 ديناراً للقروض الأقل من 20,000 دينار، و150 ديناراً للقروض من 20,000 إلى 50,000 دينار، و250 ديناراً للقروض الأكبر من 50,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q103.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q057",
+        "question": "من هي الوكالات الصينية المعتمدة لتمويل السيارات؟",
+        "expected_answer": "الوكالات الصينية المعتمدة هي: مجموعة غرغور (Skywell)، مجموعة غرغور (XPeng)، شركة الاتحاد لتزويد المعدات (Maxus)، صقر صقر لبناني الجنسية (IM Motors)، شركة هارلم لتجارة السيارات (Jetour)، الشركة المركزية للتجارة والمركبات (Chery)، شركة أكاماس لتجارة السيارات (Hongqi)، شاهين (MG)، شاهين (HOGQI)، شركة نهج المنار (GWM – HAVAL)، الشركة العصرية وكيلها طهبوب (NETA)، الشركة العصرية وكيلها طهبوب (BESTUNE)، حلول التنقل وكيلها بسطامي وصاحب (BYD)، عليان (GAC)، وكالات صينية تابعة لمجموعة العبيدي وسيارات المستقبل (BYD)، وشركة الوصل لتجارة السيارات (Geely).",
+        "audio_file": "wav\\CARLOAN-Q057.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q145",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات غير المعتمدة المثبتين؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، بشرط وجود خبرة سابقة لا تقل عن سنة وعدم وجود انقطاع في الضمان الاجتماعي لأكثر من شهر بين الوظيفة السابقة والحالية.",
+        "audio_file": "wav\\CARLOAN-Q145.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q143",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي للحصول على قرض سيارة؟",
+        "expected_answer": "يمكن التقديم فور التقاعد مباشرة دون اشتراط مدة خدمة إضافية.",
+        "audio_file": "wav\\CARLOAN-Q143.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q013",
+        "question": "ما هو الحد الأدنى للدخل للمهنيين وأصحاب الأعمال الحرة للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للدخل للمهنيين وأصحاب الأعمال الحرة هو 1,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q013.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q105",
+        "question": "ما هي الجنسيات غير الأردنية المؤهلة للحصول على قرض سيارة بنفس معاملة الأردنيين؟",
+        "expected_answer": "يُمنح القرض للمقيمين من الجنسيتين العراقية والفلسطينية بنفس معاملة العملاء الأردنيين.",
+        "audio_file": "wav\\CARLOAN-Q105.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-004",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q147",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة للحصول على قرض سيارة؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق الادخار أو ما شابهه.",
+        "audio_file": "wav\\CARLOAN-Q147.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q123",
+        "question": "ما هي المستندات الإضافية المطلوبة من المهنيين عند تحويل الراتب؟",
+        "expected_answer": "يُطلب من المهنيين صورة عن رخصة مهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 أشهر، وصورة عن السجل التجاري، وصورة طبق الأصل عن عضوية النقابة إن وجدت، وكشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة.",
+        "audio_file": "wav\\CARLOAN-Q123.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q081",
+        "question": "ما هي مدة قرض السيارة بشكل عام عند تحويل الراتب؟",
+        "expected_answer": "تتراوح مدة القرض بشكل عام بين 12 و96 شهراً.",
+        "audio_file": "wav\\CARLOAN-Q081.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q099",
+        "question": "ما هي متطلبات تأمين المركبة الممولة عند تحويل الراتب؟",
+        "expected_answer": "يشترط تأمين شامل للسيارة بما لا يقل عن قيمة القرض، وذلك للسنة الأولى فقط.",
+        "audio_file": "wav\\CARLOAN-Q099.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q075",
+        "question": "ما هي نسبة عبء الدين المسموح بها للرواتب الأقل من أو تساوي 2,500 دينار عند تحويل الراتب؟",
+        "expected_answer": "55% للقرض فقط، بالإضافة إلى 5% للبطاقة الائتمانية لأصحاب الدخل الأقل من 2,500 دينار.",
+        "audio_file": "wav\\CARLOAN-Q075.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q165",
+        "question": "ما هو تاريخ انتهاء حملة قروض سيارات مجموعة أبو خضر؟",
+        "expected_answer": "تستمر الحملة لغاية 31/12/2026، مع بقاء جميع شروط المنتج الأساسية كما هي.",
+        "audio_file": "wav\\CARLOAN-Q165.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q093",
+        "question": "ما هي نسبة التمويل عند تحويل الراتب مقارنة بعدم تحويله؟",
+        "expected_answer": "تبلغ نسبة التمويل 100% عند تحويل الراتب، و80% بدون تحويل الراتب ولجميع القطاعات الأخرى.",
+        "audio_file": "wav\\CARLOAN-Q093.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q107",
+        "question": "ما هو نوع تسجيل السيارات التي يمكن تمويلها عند تحويل الراتب؟",
+        "expected_answer": "يتم تمويل السيارات ذات التسجيل الخصوصي فقط.",
+        "audio_file": "wav\\CARLOAN-Q107.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q095",
+        "question": "هل يُشترط تحويل الراتب وخضوع العميل للضمان الاجتماعي للحصول على القرض؟",
+        "expected_answer": "نعم، يُشترط تحويل الراتب والخضوع للضمان الاجتماعي، باستثناء المهنيين.",
+        "audio_file": "wav\\CARLOAN-Q095.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q119",
+        "question": "ما هو تعهد تحويل الراتب المطلوب من باقي القطاعات غير العام؟",
+        "expected_answer": "يُقدَّم تعهد تحويل راتب أصولي وفق الصيغة المعتمدة لدى البنك.",
+        "audio_file": "wav\\CARLOAN-Q119.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-005",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q061",
+        "question": "ما هي المعارض المعتمدة التي تمنح نسبة تمويل 80% بدون تحويل راتب؟",
+        "expected_answer": "المعارض المعتمدة لنسبة تمويل 80% هي: معرض الشريف، معرض القلم، معرض نهار بغداد، معرض بورصة السيارات كلاسيك كار، معرض بريستيج، معرض الرائد، معرض ريمون حنانيا، معرض سيارتي، معرض كركر، معرض شادي فريج، معرض الرائع، معرض Auto House، الطريق الأبيض، معرض رويال، معرض عماد المغيرة، معرض بركات العواملة، معرض ليث جريسات، معرض مالك بني عمر، معرض الجيلاوي، معرض شعيبث، معرض البلورة، معرض ابو ايمن القمة، معرض البستنجي، معرض استانبولي، معرض معتز جريسات، معرض المدينة الذكية، معارض العبيدي، معرض ابو هيكل، معرض الهدف، معرض مقبل، معرض سيارتك، معرض الصقر، معرض الخبراء، معرض العقاب، معرض الياقوت، معرض اميغوز، معرض العساف، معرض الحدائق، معرض نمبر ون، معرض الامين، معرض اوتومول، معرض محمد غريب، معرض بيبلوس، معرض العصرية لتجارة السيارات، معرض العلامة الذهيبة، معرض كاكوري، معرض اوتوكار، معرض نادر غيث، معرض بوابة السابع، معرض علي خريسات، معرض غسان العبيدي، معرض قطيشات، معرض شركة سيارات المستقبل، معرض بلال ابو الشيح، معرض ليث و قصي، معرض البخيت، معرض الديك، معرض عدوان الصالح، معرض محمد العساف، معرض الجدي، معرض بسمان، معرض جوهرة البخيت، معرض الحسيني، معرض حيدر، معرض العطيوي، معرض ابو ناصر، ومعرض رزان.",
+        "audio_file": "wav\\CARLOAN-Q061.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q149",
+        "question": "ما هو الحد الأدنى لمدة الخدمة بنفس الشركة لموظفي القطاع العام ضمن برنامج تحويل الرواتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة.",
+        "audio_file": "wav\\CARLOAN-Q149.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q059",
+        "question": "ما هي نسبة التمويل المتاحة عند الشراء من المعارض المعتمدة بدون تحويل راتب؟",
+        "expected_answer": "نسبة التمويل من المعارض المعتمدة المدرجة في القائمة هي 80%.",
+        "audio_file": "wav\\CARLOAN-Q059.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q079",
+        "question": "ما هي نسبة عبء الدين المسموح بها في حال وجود مدين وكفيل معاً؟",
+        "expected_answer": "نسبة عبء الدين المسموح بها في حال وجود مدين وكفيل هي 70%.",
+        "audio_file": "wav\\CARLOAN-Q079.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q049",
+        "question": "ما هي شروط الموافقة التلقائية على التأمين على الحياة لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "تتم الموافقة التلقائية ضمن بوليصة التأمين الجماعية للعملاء الذين تبلغ أعمارهم 65 سنة فأقل، وبشرط ألا يزيد مبلغ القرض عن 100,000 دينار أو يساويه.",
+        "audio_file": "wav\\CARLOAN-Q049.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q011",
+        "question": "ما هو الحد الأدنى للدخل لأصحاب الرواتب للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للدخل لأصحاب الرواتب هو 450 دينار.",
+        "audio_file": "wav\\CARLOAN-Q011.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q077",
+        "question": "ما هي نسبة عبء الدين المسموح بها للرواتب الأكبر من 2,500 دينار عند تحويل الراتب؟",
+        "expected_answer": "55% للقرض فقط، بالإضافة إلى 10% للبطاقة الائتمانية لأصحاب الدخل الأعلى من 2,500 دينار.",
+        "audio_file": "wav\\CARLOAN-Q077.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q127",
+        "question": "كيف يتم تمويل السيارات المصنّعة في الصين ولكن تحمل علامة تجارية عالمية غير صينية؟",
+        "expected_answer": "يتم تمويلها بنفس شروط وميزات السيارات غير الصينية، ومن الأمثلة عليها FORD وTOYOTA وVW.",
+        "audio_file": "wav\\CARLOAN-Q127.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q111",
+        "question": "ما هي مستندات إثبات الراتب المطلوبة عند تحويل الراتب؟",
+        "expected_answer": "تُطلب شهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وفي حال وجود حوافز تُطلب قسيمة راتب لآخر 6 أشهر، على أن تكون القسائم مختومة أو مروسة من جهة العمل.",
+        "audio_file": "wav\\CARLOAN-Q111.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q051",
+        "question": "ما هي شروط تأجيل دفعات قرض السيارة؟",
+        "expected_answer": "يُسمح بتأجيل دفعتين فقط خلال العام على ألا تقعا ضمن نفس النصف من السنة، وبشرط مرور 6 أشهر على تاريخ صرف القرض، والتزام العميل بالسداد دون مستحقات تتجاوز 30 يوماً خلال الأشهر الستة السابقة، وعدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. ولا يُسمح لعملاء الاقتطاعات بتأجيل الأقساط.",
+        "audio_file": "wav\\CARLOAN-Q051.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-006",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q101",
+        "question": "ما هي شروط التأمين على حياة المدين لقرض السيارة عند تحويل الراتب؟",
+        "expected_answer": "يشترط أن يكون عمر العميل 65 سنة فأقل، وأن يكون مبلغ القرض أقل من 100,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q101.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q031",
+        "question": "ما هي متطلبات الفحص الفني للسيارات الجديدة عند التمويل؟",
+        "expected_answer": "يجب تقديم عرض سعر من التاجر لجميع السيارات؛ أما السيارات ذات العداد صفر فيُكتفى بعرض السعر فقط دون فحص وتخمين شريطة تقديم كتاب كفالة من الوكالة وألا يتجاوز عمر السيارة 3 سنوات، وإن لم تكن واردة عن طريق وكالة يُكتفى بفحص وتخمين من مخمنين معتمدين.",
+        "audio_file": "wav\\CARLOAN-Q031.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q117",
+        "question": "ما هو تعهد تحويل الراتب المطلوب من موظفي القطاع العام؟",
+        "expected_answer": "يقدم موظفو القطاع العام تعهد تحويل راتب وفق الصيغة المعتمدة لديهم، باستثناء الأجهزة الأمنية والعسكرية التي تقدم بدلاً منه قسيمة راتب تفيد بتحويل الراتب إلى البنك.",
+        "audio_file": "wav\\CARLOAN-Q117.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q131",
+        "question": "ما هو الحد الأقصى لعمر السيارات الصينية المستعملة الممكن تمويلها؟",
+        "expected_answer": "لا يزيد عمر السيارة الصينية المستعملة الممكن تمويلها عن 3 سنوات.",
+        "audio_file": "wav\\CARLOAN-Q131.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q163",
+        "question": "ما هي آلية خصم الأقساط ضمن حملة أبو خضر؟",
+        "expected_answer": "يُحصل على كتاب تفويض من مجموعة أبو خضر لخصم مجموع الأقساط من حسابهم لدى البنك، ويُحجز المبلغ في حساب تأمينات فرعي خاص بالعميل، ثم يُفعَّل أمر تحويل دوري شهري بقيمة القسط من حساب التأمينات إلى حساب السداد.",
+        "audio_file": "wav\\CARLOAN-Q163.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q109",
+        "question": "ما هي طرق السداد الإضافية المتاحة لسيارات الوكالة والسيارات بكفالة الوكالة؟",
+        "expected_answer": "يمكن تقديم دفعات ربع سنوية أو نصف سنوية أو سنوية، بشرط تقديم ما يثبت المقدرة على السداد عند تاريخ استحقاق الدفعة وألا تتجاوز مدة التمويل 4 سنوات.",
+        "audio_file": "wav\\CARLOAN-Q109.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q141",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات المعتمدة المثبتين؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة لموظفي الشركات المعتمدة المثبتين هو 3 أشهر.",
+        "audio_file": "wav\\CARLOAN-Q141.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q003",
+        "question": "ما هو الحد العمري لأصحاب المهن والأعمال الحرة والمغتربين للحصول على قرض سيارة؟",
+        "expected_answer": "يتراوح عمر أصحاب المهن والأعمال الحرة والمغتربين عند منح القرض بين 24 و65 سنة، على ألا يتجاوز عمر العميل عند سداد آخر قسط 75 سنة.",
+        "audio_file": "wav\\CARLOAN-Q003.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q023",
+        "question": "ما هي مدة التمويل الدنيا والعليا لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة التمويل 12 شهراً، والحد الأعلى 8 سنوات.",
+        "audio_file": "wav\\CARLOAN-Q023.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q121",
+        "question": "متى يُطلب كشف الضمان الاجتماعي عند تحويل الراتب؟",
+        "expected_answer": "يُطلب كشف الضمان الاجتماعي لمن تقل مدة عمله لدى الشركة عن سنة واحدة، باستثناء موظفي القطاع العام.",
+        "audio_file": "wav\\CARLOAN-Q121.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-007",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q069",
+        "question": "ما هو الحد الأدنى للراتب الصافي لجميع القطاعات في حال تحويل الراتب؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي هو 450 دينار.",
+        "audio_file": "wav\\CARLOAN-Q069.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q135",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض سيارة؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة. وتشمل هذه الفئة الأجهزة الأمنية والعسكرية وقوات الدرك والأمن العام والقوات المسلحة وسلاح الجو والمخابرات العامة.",
+        "audio_file": "wav\\CARLOAN-Q135.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q015",
+        "question": "ما هو الحد الأدنى للدخل للمغتربين للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للدخل للمغتربين هو 2,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q015.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q027",
+        "question": "ما هي المستندات الأساسية المطلوبة من العميل (إثبات الهوية والمركبة) للحصول على قرض سيارة؟",
+        "expected_answer": "يُطلب من العميل تقديم إثبات شخصية ساري المفعول، ولغير الأردني وثيقة إقامة سارية مع جواز سفر ساري المفعول، بالإضافة إلى رخصة المركبة أو بيان جمركي أو عرض سعر من الوكالة، وعقد بيع أو عرض سعر، وفحص وتخمين للسيارة خارج الوكالة حسب السياسة المعتمدة. وتنطبق هذه المتطلبات سواء تم تحويل الراتب أم لا.",
+        "audio_file": "wav\\CARLOAN-Q027.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q029",
+        "question": "ما هي المستندات الخاصة بالسيارة المطلوبة بعد الموافقة على قرض السيارة؟",
+        "expected_answer": "يُطلب كتاب فحص وتخمين للسيارات المستعملة أو عرض سعر للسيارات الجديدة من الوكالة، ورخصة السيارة باسم البائع، وبعد الموافقة تُقدَّم رخصة السيارة مؤشرة بالرهن مع كتاب رهن مختوم وبوليصة تأمين شامل لصالح البنك.",
+        "audio_file": "wav\\CARLOAN-Q029.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q007",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لأصحاب المهن والأعمال الحرة للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة سنة واحدة لمن يعمل داخل أمانة عمان، وسنتان لمن يعمل خارج أمانة عمان.",
+        "audio_file": "wav\\CARLOAN-Q007.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q033",
+        "question": "ما هي متطلبات الفحص الفني للسيارات الجديدة الواردة من الوكالة عند التمويل؟",
+        "expected_answer": "يُكتفى بعرض سعر من الوكالة دون الحاجة لفحص وتخمين.",
+        "audio_file": "wav\\CARLOAN-Q033.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q019",
+        "question": "ما هو الحد الأعلى لمبلغ قرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأعلى لمبلغ القرض هو 150,000 دينار للسيارة الواحدة، وبحد أقصى 3 سيارات بمجموع إجمالي لا يتجاوز 200,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q019.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q087",
+        "question": "كم تبلغ عمولة المنح لقرض السيارة عند تحويل الراتب؟",
+        "expected_answer": "تبلغ عمولة المنح 1%.",
+        "audio_file": "wav\\CARLOAN-Q087.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q035",
+        "question": "ما هي متطلبات الفحص الفني للسيارات المستعملة عند التمويل؟",
+        "expected_answer": "يُطلب كتاب فحص بدرجة (3 جيد) من مراكز الفحص المعتمدة لدى البنك يبيّن قيمة السيارة وحالتها.",
+        "audio_file": "wav\\CARLOAN-Q035.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-008",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q083",
+        "question": "ما هو الحد الأدنى والأعلى لمبلغ قرض السيارة عند تحويل الراتب؟",
+        "expected_answer": "الحد الأدنى لمبلغ القرض 7,500 دينار، والحد الأعلى 100,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q083.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q085",
+        "question": "ما هو الحد الأدنى لسعر السيارة الممولة عند تحويل الراتب؟",
+        "expected_answer": "الحد الأدنى لسعر السيارة هو 10,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q085.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q151",
+        "question": "هل يمكن تمويل السيارات الهايبرد والكهربائية ضمن برنامج القطاع العام؟",
+        "expected_answer": "نعم، يشمل البرنامج تمويل السيارات الجديدة أو المستعملة بما في ذلك السيارات الهايبرد والكهربائية للاستخدام الشخصي أو العائلي.",
+        "audio_file": "wav\\CARLOAN-Q151.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q047",
+        "question": "كم تبلغ عمولة السداد المبكر لقرض السيارة؟",
+        "expected_answer": "تبلغ عمولة السداد المبكر 1% إذا تبقّى أكثر من سنة على انتهاء القرض، و0% إذا تبقّى أقل من سنة على انتهائه.",
+        "audio_file": "wav\\CARLOAN-Q047.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q021",
+        "question": "ما هو الحد الأدنى لسعر السيارة الممولة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لسعر السيارة هو 10,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q021.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q157",
+        "question": "كم يبلغ سعر الفائدة ضمن حملة قروض سيارات مجموعة أبو خضر؟",
+        "expected_answer": "يبلغ سعر الفائدة 7.25%.",
+        "audio_file": "wav\\CARLOAN-Q157.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q115",
+        "question": "متى يُطلب كشف حساب شخصي لمدة 6 أشهر عند تقديم طلب قرض بتحويل الراتب؟",
+        "expected_answer": "يُطلب كشف حساب شخصي لمدة 6 أشهر لمن ليس له تعامل سابق مع البنك، ويجب أن يُظهر الراتب المحول وأن يكون مصادقاً عليه حسب الأصول.",
+        "audio_file": "wav\\CARLOAN-Q115.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q063",
+        "question": "ما هو الحد الأدنى للراتب الصافي للمغتربين للحصول على قرض سيارة مع تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي للمغتربين هو 2,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q063.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q097",
+        "question": "ما هو الحد الأقصى لعدد السيارات وقيمة التمويل الإجمالية للعميل الواحد عند تحويل الراتب؟",
+        "expected_answer": "يمكن تمويل العميل بحد أقصى 200,000 دينار وبحسب نسبة الالتزام، وبحد أقصى 3 سيارات كقروض قائمة في آنٍ واحد.",
+        "audio_file": "wav\\CARLOAN-Q097.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q153",
+        "question": "ما هي نسبة التمويل ضمن حملة قروض سيارات مجموعة أبو خضر مع تحويل الراتب؟",
+        "expected_answer": "تصل نسبة التمويل إلى 100% عند تحويل الراتب.",
+        "audio_file": "wav\\CARLOAN-Q153.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-ar-009",
+    "subtopic": "Loan/Car Loan",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q159",
+        "question": "ما هي الميزة الإضافية الخاصة بتحمّل الأقساط الشهرية ضمن حملة أبو خضر؟",
+        "expected_answer": "تتحمل مجموعة أبو خضر للسيارات الأقساط الشهرية للقرض بشكل مقدم بالحساب من تاريخ المنح ولغاية 1/1/2027، أي من القسط الشهري الأول وحتى الأقساط المستحقة حتى ذلك التاريخ.",
+        "audio_file": "wav\\CARLOAN-Q159.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q053",
+        "question": "ما هي مدة صلاحية الموافقة على تأجيل الدفعات لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "صلاحية الموافقة على تأجيل الدفعات 45 يوماً.",
+        "audio_file": "wav\\CARLOAN-Q053.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q073",
+        "question": "ما هو الحد الأدنى للراتب الصافي لموظفي البنوك الأخرى؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي هو 1,000 دينار.",
+        "audio_file": "wav\\CARLOAN-Q073.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q029",
+        "question": "ما هي المستندات الخاصة بالسيارة المطلوبة بعد الموافقة على قرض السيارة؟",
+        "expected_answer": "يُطلب كتاب فحص وتخمين للسيارات المستعملة أو عرض سعر للسيارات الجديدة من الوكالة، ورخصة السيارة باسم البائع، وبعد الموافقة تُقدَّم رخصة السيارة مؤشرة بالرهن مع كتاب رهن مختوم وبوليصة تأمين شامل لصالح البنك.",
+        "audio_file": "wav\\CARLOAN-Q029.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q147",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة للحصول على قرض سيارة؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق الادخار أو ما شابهه.",
+        "audio_file": "wav\\CARLOAN-Q147.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q051",
+        "question": "ما هي شروط تأجيل دفعات قرض السيارة؟",
+        "expected_answer": "يُسمح بتأجيل دفعتين فقط خلال العام على ألا تقعا ضمن نفس النصف من السنة، وبشرط مرور 6 أشهر على تاريخ صرف القرض، والتزام العميل بالسداد دون مستحقات تتجاوز 30 يوماً خلال الأشهر الستة السابقة، وعدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. ولا يُسمح لعملاء الاقتطاعات بتأجيل الأقساط.",
+        "audio_file": "wav\\CARLOAN-Q051.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q149",
+        "question": "ما هو الحد الأدنى لمدة الخدمة بنفس الشركة لموظفي القطاع العام ضمن برنامج تحويل الرواتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة.",
+        "audio_file": "wav\\CARLOAN-Q149.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q033",
+        "question": "ما هي متطلبات الفحص الفني للسيارات الجديدة الواردة من الوكالة عند التمويل؟",
+        "expected_answer": "يُكتفى بعرض سعر من الوكالة دون الحاجة لفحص وتخمين.",
+        "audio_file": "wav\\CARLOAN-Q033.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q045",
+        "question": "ما هي فترة السماح لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "تصل فترة السماح إلى 45 يوماً في حال توقيع العقد بعد اليوم 15 من الشهر.",
+        "audio_file": "wav\\CARLOAN-Q045.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q043",
+        "question": "كم تبلغ عمولة إعادة الهيكلة لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير.",
+        "audio_file": "wav\\CARLOAN-Q043.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-001",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q138",
+        "question": "Which entities are classified as \"approved companies\" for the purposes of the auto loan with salary transfer?",
+        "expected_answer": "It includes all jobs at approved companies and UN-affiliated organizations.",
+        "audio_file": "wav\\CARLOAN-Q138.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q124",
+        "question": "What additional documents are required from professionals with salary transfer?",
+        "expected_answer": "Professionals must provide a copy of a valid occupational license (or one not expired for more than 3 months), a copy of the commercial register, a certified copy of syndicate membership if any, and a 6-month bank statement for both the customer's personal account and the establishment/company account.",
+        "audio_file": "wav\\CARLOAN-Q124.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q018",
+        "question": "What is the minimum auto loan amount without salary transfer?",
+        "expected_answer": "The minimum loan amount is 7,500 JOD.",
+        "audio_file": "wav\\CARLOAN-Q018.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q102",
+        "question": "What are the conditions for the debtor's life insurance for an auto loan with salary transfer?",
+        "expected_answer": "The customer must be aged 65 or below, and the loan amount must be less than 100,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q102.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q080",
+        "question": "What is the allowed debt burden ratio when there is both a debtor and a guarantor?",
+        "expected_answer": "The allowed debt burden ratio when there is a debtor and a guarantor is 70%.",
+        "audio_file": "wav\\CARLOAN-Q080.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q066",
+        "question": "What is the minimum net salary for self-employed individuals with salary transfer?",
+        "expected_answer": "The minimum net salary for self-employed individuals is 1,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q066.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q148",
+        "question": "What is the minimum length of service for United Nations employees to obtain an auto loan?",
+        "expected_answer": "The minimum length of service is not less than a year, and the customer must be subscribed to a provident fund or similar.",
+        "audio_file": "wav\\CARLOAN-Q148.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q136",
+        "question": "What is the minimum length of service for security and military apparatus personnel to obtain an auto loan?",
+        "expected_answer": "The minimum length of service is 3 months, with product criteria applying to the job. This category includes security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence.",
+        "audio_file": "wav\\CARLOAN-Q136.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q160",
+        "question": "What is the additional feature related to covering the monthly installments under the Abu Khader campaign?",
+        "expected_answer": "Abu Khader Automotive Group bears the monthly loan installments, paid in advance to the account, from the granting date until 1/1/2027 - that is, from the first monthly installment up to the installments due until that date.",
+        "audio_file": "wav\\CARLOAN-Q160.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q074",
+        "question": "What is the minimum net salary for other banks' employees?",
+        "expected_answer": "The minimum net salary is 1,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q074.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-002",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q036",
+        "question": "What are the technical inspection requirements for used cars when financing?",
+        "expected_answer": "An inspection letter rated (3 Good) is required from the bank's approved inspection centers, showing the car's value and condition.",
+        "audio_file": "wav\\CARLOAN-Q036.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q140",
+        "question": "Which entities are classified as \"unapproved companies\" for the purposes of the auto loan with salary transfer?",
+        "expected_answer": "It includes private sector teachers and all jobs at unapproved companies, in addition to hotels, international bodies and organizations, and the sales sector.",
+        "audio_file": "wav\\CARLOAN-Q140.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q088",
+        "question": "What is the granting commission for an auto loan with salary transfer?",
+        "expected_answer": "The granting commission is 1%.",
+        "audio_file": "wav\\CARLOAN-Q088.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q092",
+        "question": "What is the maximum age of a financed car with salary transfer?",
+        "expected_answer": "The financed car's age must not exceed 14 years.",
+        "audio_file": "wav\\CARLOAN-Q092.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q106",
+        "question": "Which non-Jordanian nationalities are eligible for an auto loan with the same treatment as Jordanians?",
+        "expected_answer": "Iraqi and Palestinian residents are granted the loan and treated the same as Jordanian customers.",
+        "audio_file": "wav\\CARLOAN-Q106.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q144",
+        "question": "What is the minimum length of service for Social Security retirees to obtain an auto loan?",
+        "expected_answer": "Application is possible immediately upon retirement, without requiring any additional length of service.",
+        "audio_file": "wav\\CARLOAN-Q144.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q048",
+        "question": "What is the early settlement commission for an auto loan?",
+        "expected_answer": "The early settlement commission is 1% if more than a year remains until the end of the loan, and 0% if less than a year remains.",
+        "audio_file": "wav\\CARLOAN-Q048.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q012",
+        "question": "What is the minimum income for salaried employees to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum income for salaried employees is 450 JOD.",
+        "audio_file": "wav\\CARLOAN-Q012.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q002",
+        "question": "What is the age eligibility range for salaried employees to obtain an auto loan?",
+        "expected_answer": "Salaried employees must be between 22 and 65 years old at the time of granting, and their age must not exceed 75 years at the maturity of the last installment.",
+        "audio_file": "wav\\CARLOAN-Q002.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q062",
+        "question": "Which approved showrooms offer an 80% financing ratio without salary transfer?",
+        "expected_answer": "The approved showrooms for an 80% financing ratio are: Al-Sharif, Al-Qalam, Nahar Baghdad, Boursa Classic Car, Prestige, Al-Raed, Raymond Hanania, Sayarati, Karkar, Shadi Freij, Al-Rae', Auto House, Al-Tariq Al-Abyad, Royal, Imad Al-Mughaira, Barakat Al-Awamleh, Laith Jreisat, Malek Bani Omar, Al-Jilawi, Shuwaibith, Al-Balloura, Abu Ayman Al-Qimma, Al-Bustanji, Istanbouli, Moataz Jreisat, Smart City, Al-Obaidi, Abu Heikal, Al-Hadaf, Muqbil, Sayyartak, Al-Saqr, Al-Khubara', Al-Iqab, Al-Yaqout, Amigos, Al-Assaf, Al-Hadaeq, Number One, Al-Amin, Automall, Mohammad Gharib, Byblos, Al-Asriyya Auto Trade, Al-Alama Al-Dhahabiyya, Kakouri, Autocar, Nader Ghaith, 7th Gate, Ali Khreisat, Ghassan Al-Obaidi, Qteishat, Future Cars Co., Bilal Abu Al-Sheeh, Laith & Qusai, Al-Bakhit, Al-Deek, Adwan Al-Saleh, Mohammad Al-Assaf, Al-Jidi, Basman, Jawharat Al-Bakhit, Al-Husseini, Haidar, Al-Oteiwi, Abu Naser, and Razan.",
+        "audio_file": "wav\\CARLOAN-Q062.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-003",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q076",
+        "question": "What is the allowed debt burden for salaries less than or equal to 2,500 JOD with salary transfer?",
+        "expected_answer": "55% for the loan only, plus 5% for the credit card for incomes below 2,500 JOD.",
+        "audio_file": "wav\\CARLOAN-Q076.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q064",
+        "question": "What is the minimum net salary for expatriates to obtain an auto loan with salary transfer?",
+        "expected_answer": "The minimum net salary for expatriates is 2,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q064.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q006",
+        "question": "What is the minimum length of service for employees subscribed to Social Security to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum length of service is 6 months for employees subscribed to Social Security.",
+        "audio_file": "wav\\CARLOAN-Q006.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q068",
+        "question": "What is the minimum net salary for all sectors when salaries are not transferred?",
+        "expected_answer": "The minimum net salary is 600 JOD.",
+        "audio_file": "wav\\CARLOAN-Q068.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q026",
+        "question": "What is the allowed Debt Burden Ratio (DBR) for an auto loan without salary transfer?",
+        "expected_answer": "The allowed DBR is 50%, rising to 65% in case the customer holds a credit card.",
+        "audio_file": "wav\\CARLOAN-Q026.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q164",
+        "question": "What is the installment deduction mechanism under the Abu Khader campaign?",
+        "expected_answer": "An authorization letter is obtained from Abu Khader Group to deduct the total installments from their account with the bank. The amount is held in a sub-insurance account for the customer, and a periodic monthly transfer order is activated for the installment amount from the insurance account to the repayment account.",
+        "audio_file": "wav\\CARLOAN-Q164.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q030",
+        "question": "What car-related documents are required after approval of the auto loan?",
+        "expected_answer": "An inspection and valuation letter is required for used cars, or a dealership quotation for new cars, along with car registration bearing the seller's name. After approval, the car registration must be marked with the mortgage, along with a stamped mortgage letter and a comprehensive insurance policy in favor of the bank.",
+        "audio_file": "wav\\CARLOAN-Q030.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q050",
+        "question": "What are the conditions for automatic life insurance approval for an auto loan without salary transfer?",
+        "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 or younger, provided the loan amount is less than or equal to 100,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q050.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q082",
+        "question": "What is the general loan period for an auto loan with salary transfer?",
+        "expected_answer": "The loan period in general ranges from 12 to 96 months.",
+        "audio_file": "wav\\CARLOAN-Q082.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q042",
+        "question": "How is the payment order for the financed car value issued?",
+        "expected_answer": "The payment order is issued exclusively in the name of the dealer (seller of the car), or transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account.",
+        "audio_file": "wav\\CARLOAN-Q042.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-004",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q014",
+        "question": "What is the minimum income for professionals and self-employed individuals to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum income for professionals and self-employed individuals is 1,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q014.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q110",
+        "question": "What additional repayment methods are available for dealership cars and cars with dealership warranty?",
+        "expected_answer": "Quarterly, semi-annual, or annual payments can be provided, subject to submitting proof of ability to pay on the due date of the installment, and the financing period must not exceed 4 years.",
+        "audio_file": "wav\\CARLOAN-Q110.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q090",
+        "question": "What is the restructuring commission for an auto loan with salary transfer?",
+        "expected_answer": "The restructuring commission is 5 JOD.",
+        "audio_file": "wav\\CARLOAN-Q090.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q044",
+        "question": "What is the restructuring commission for an auto loan without salary transfer?",
+        "expected_answer": "The restructuring commission is 5 JOD.",
+        "audio_file": "wav\\CARLOAN-Q044.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q084",
+        "question": "What are the minimum and maximum auto loan amounts with salary transfer?",
+        "expected_answer": "The minimum loan amount is 7,500 JOD, and the maximum is 100,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q084.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q166",
+        "question": "What is the end date of the Abu Khader Automotive Group auto loans campaign?",
+        "expected_answer": "The campaign continues until 31/12/2026, with all other product conditions remaining as they are.",
+        "audio_file": "wav\\CARLOAN-Q166.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q152",
+        "question": "Can hybrid and electric cars be financed under the public sector program?",
+        "expected_answer": "Yes, the program includes financing new or used cars, including hybrid and electric cars, for personal or family use.",
+        "audio_file": "wav\\CARLOAN-Q152.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q040",
+        "question": "What guarantees are required for an auto loan?",
+        "expected_answer": "A mortgage is placed on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank, and a copy of the car registration bearing the debtor's name, along with the mortgage letter, must be kept in the customer's file.",
+        "audio_file": "wav\\CARLOAN-Q040.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q118",
+        "question": "What salary transfer pledge is required from public sector employees?",
+        "expected_answer": "Public sector employees provide a salary transfer pledge according to their approved format, except for security and military apparatuses, for whom a salary slip indicating the salary transfer to the bank is sufficient.",
+        "audio_file": "wav\\CARLOAN-Q118.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q122",
+        "question": "When is a Social Security statement required with salary transfer?",
+        "expected_answer": "A Social Security statement is required for customers with less than a year of employment at their company, excluding public sector employees.",
+        "audio_file": "wav\\CARLOAN-Q122.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-005",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q098",
+        "question": "What is the maximum number of cars and total financing amount for a single customer with salary transfer?",
+        "expected_answer": "A customer may be financed up to a maximum of 200,000 JOD depending on the commitment ratio, and up to a maximum of 3 active car loans at the same time.",
+        "audio_file": "wav\\CARLOAN-Q098.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q142",
+        "question": "What is the minimum length of service for confirmed employees of approved companies?",
+        "expected_answer": "The minimum length of service for confirmed employees of approved companies is 3 months.",
+        "audio_file": "wav\\CARLOAN-Q142.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q112",
+        "question": "What salary proof documents are required with salary transfer?",
+        "expected_answer": "An original salary certificate or salary slip for the last three months is required; in case of any incentives, a salary slip for the last 6 months is requested, and the slips must be stamped or on the employer's letterhead.",
+        "audio_file": "wav\\CARLOAN-Q112.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q120",
+        "question": "What salary transfer pledge is required from sectors other than the public sector?",
+        "expected_answer": "A formal salary transfer pledge is provided, according to the bank's approved format.",
+        "audio_file": "wav\\CARLOAN-Q120.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q096",
+        "question": "Are salary transfer and Social Security subscription required to obtain the loan?",
+        "expected_answer": "Yes, salary transfer and Social Security subscription are required, except for professionals.",
+        "audio_file": "wav\\CARLOAN-Q096.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q154",
+        "question": "What is the financing ratio under the Abu Khader Automotive Group auto loans campaign with salary transfer?",
+        "expected_answer": "The financing ratio is up to 100% with salary transfer.",
+        "audio_file": "wav\\CARLOAN-Q154.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q108",
+        "question": "What type of car registration is eligible for financing with salary transfer?",
+        "expected_answer": "Only private registration cars are eligible for financing.",
+        "audio_file": "wav\\CARLOAN-Q108.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q038",
+        "question": "How is the inspection handled for pre-owned cars purchased from car dealerships?",
+        "expected_answer": "A quotation provided by the dealership is sufficient for new cars; for pre-owned cars not older than 3 years, this applies provided they are from the same dealership. Otherwise, the car is inspected and valued by approved valuers.",
+        "audio_file": "wav\\CARLOAN-Q038.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q056",
+        "question": "What is the financing mechanism for Chinese cars without salary transfer?",
+        "expected_answer": "All Chinese cars that have an approved official agent in Jordan are financed under the same conditions as other cars.",
+        "audio_file": "wav\\CARLOAN-Q056.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q128",
+        "question": "How are cars of Chinese origin bearing a non-Chinese global brand financed?",
+        "expected_answer": "They are financed under the same terms and features as non-Chinese cars, with examples including FORD, TOYOTA, and VW.",
+        "audio_file": "wav\\CARLOAN-Q128.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-006",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q022",
+        "question": "What is the minimum price of a financed car without salary transfer?",
+        "expected_answer": "The minimum car price is 10,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q022.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q100",
+        "question": "What are the vehicle insurance requirements for a financed car with salary transfer?",
+        "expected_answer": "Comprehensive car insurance is required for not less than the loan value, for the first year only.",
+        "audio_file": "wav\\CARLOAN-Q100.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q116",
+        "question": "When is a 6-month personal bank statement required when applying for a loan with salary transfer?",
+        "expected_answer": "A 6-month personal bank statement is required for customers who have no previous dealing with the bank; it must show the transferred salary and be certified according to standard procedures.",
+        "audio_file": "wav\\CARLOAN-Q116.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q078",
+        "question": "What is the allowed debt burden for salaries greater than 2,500 JOD with salary transfer?",
+        "expected_answer": "55% for the loan only, plus 10% for the credit card for incomes above 2,500 JOD.",
+        "audio_file": "wav\\CARLOAN-Q078.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q132",
+        "question": "What is the maximum age of used Chinese cars eligible for financing?",
+        "expected_answer": "Financing used Chinese cars is permitted provided their age does not exceed 3 years.",
+        "audio_file": "wav\\CARLOAN-Q132.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q020",
+        "question": "What is the maximum auto loan amount without salary transfer?",
+        "expected_answer": "The maximum loan amount is 150,000 JOD per single car, with a maximum of 3 cars totaling 200,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q020.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q010",
+        "question": "What is the minimum length of service for expatriates to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum length of service for expatriates is 2 years.",
+        "audio_file": "wav\\CARLOAN-Q010.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q134",
+        "question": "Who are classified as \"Professionals\" under the auto loan program, and what is their minimum length of service?",
+        "expected_answer": "Professionals include doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, and the minimum required length of service is 2 years.",
+        "audio_file": "wav\\CARLOAN-Q134.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q060",
+        "question": "What financing ratio is available when buying from the approved showrooms without salary transfer?",
+        "expected_answer": "The financing ratio from the listed approved showrooms is 80%.",
+        "audio_file": "wav\\CARLOAN-Q060.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q070",
+        "question": "What is the minimum net salary for all sectors when the salary is transferred?",
+        "expected_answer": "The minimum net salary is 450 JOD.",
+        "audio_file": "wav\\CARLOAN-Q070.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-007",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q024",
+        "question": "What are the minimum and maximum financing periods for an auto loan without salary transfer?",
+        "expected_answer": "The minimum financing period is 12 months, and the maximum is 8 years.",
+        "audio_file": "wav\\CARLOAN-Q024.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q034",
+        "question": "What are the technical inspection requirements for new cars imported through a dealership when financing?",
+        "expected_answer": "A quotation from the dealership is sufficient, without the need for an inspection or valuation.",
+        "audio_file": "wav\\CARLOAN-Q034.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q072",
+        "question": "What is the minimum net salary for Central Bank and Citi Bank employees?",
+        "expected_answer": "The minimum net salary is 450 JOD.",
+        "audio_file": "wav\\CARLOAN-Q072.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q114",
+        "question": "What additional document is required from contract employees with salary transfer?",
+        "expected_answer": "Contract employees are required to provide a copy of the employment contract.",
+        "audio_file": "wav\\CARLOAN-Q114.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q016",
+        "question": "What is the minimum income for expatriates to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum income for expatriates is 2,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q016.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q052",
+        "question": "What are the conditions for postponing auto loan installments?",
+        "expected_answer": "Only two postponements are allowed per year, provided the two installments are not postponed during the same half of the year, that 6 months have passed since the loan disbursement date, that the customer has no past due amounts (over 30 days) during the previous 6 months, and that the maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments.",
+        "audio_file": "wav\\CARLOAN-Q052.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q130",
+        "question": "How are cars bearing a Chinese brand financed when sold by showrooms other than the approved agent?",
+        "expected_answer": "They can be financed from any showroom provided there is an approved agent for them in Jordan and they are zero mileage, even if not sold by the same agent, provided the bank is supplied with an Inspection and Valuation report plus a CARSEER report.",
+        "audio_file": "wav\\CARLOAN-Q130.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q158",
+        "question": "What is the interest rate under the Abu Khader Automotive Group auto loans campaign?",
+        "expected_answer": "The interest rate is 7.25%.",
+        "audio_file": "wav\\CARLOAN-Q158.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q094",
+        "question": "What is the financing ratio with salary transfer compared to without it?",
+        "expected_answer": "The financing ratio is 100% with salary transfer, and 80% without transfer and for all other sectors.",
+        "audio_file": "wav\\CARLOAN-Q094.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q156",
+        "question": "What is the financing ratio under the Abu Khader Automotive Group auto loans campaign without salary transfer?",
+        "expected_answer": "The financing ratio is up to 80% without salary transfer.",
+        "audio_file": "wav\\CARLOAN-Q156.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-008",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q004",
+        "question": "What is the age eligibility range for professionals, self-employed individuals, and expatriates to obtain an auto loan?",
+        "expected_answer": "Professionals, self-employed individuals, and expatriates must be between 24 and 65 years old at the time of granting, and their age must not exceed 75 years at the maturity of the last installment.",
+        "audio_file": "wav\\CARLOAN-Q004.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q054",
+        "question": "What is the validity period of the approval for postponing installments for an auto loan without salary transfer?",
+        "expected_answer": "The approval validity for postponing installments is 45 days.",
+        "audio_file": "wav\\CARLOAN-Q054.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q028",
+        "question": "What are the basic documents required from the customer (identity and vehicle) to obtain an auto loan?",
+        "expected_answer": "The customer must provide valid proof of identity, and for non-Jordanians a valid residency document with a valid passport, in addition to vehicle registration, customs declaration, or a dealership quotation, a sales contract or quotation, and inspection and valuation for cars outside the dealership according to policy. These requirements apply whether or not the salary is transferred.",
+        "audio_file": "wav\\CARLOAN-Q028.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q086",
+        "question": "What is the minimum price of a financed car with salary transfer?",
+        "expected_answer": "The minimum car price is 10,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q086.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q104",
+        "question": "What are the life insurance fees based on the loan amount with salary transfer?",
+        "expected_answer": "The insurance fee is 75 JOD for loans less than 20,000 JOD, 150 JOD for loans from 20,000 to 50,000 JOD, and 250 JOD for loans greater than 50,000 JOD.",
+        "audio_file": "wav\\CARLOAN-Q104.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q032",
+        "question": "What are the technical inspection requirements for new cars when financing?",
+        "expected_answer": "A quotation from the dealer must be submitted for all cars; for zero-mileage cars, only a quotation is required without an inspection or valuation, provided a warranty letter from the dealership is supplied and the car's age does not exceed 3 years. If not imported through an official dealership, an inspection and valuation from approved valuers will suffice.",
+        "audio_file": "wav\\CARLOAN-Q032.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q150",
+        "question": "What is the minimum length of service at the same company for public sector employees under the salary transfer program?",
+        "expected_answer": "The minimum length of service is 3 months, with product criteria applying to the job.",
+        "audio_file": "wav\\CARLOAN-Q150.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q162",
+        "question": "Who bears the loan interest under the Abu Khader campaign?",
+        "expected_answer": "Either the dealership or the customer bears the interest on the loan period.",
+        "audio_file": "wav\\CARLOAN-Q162.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q126",
+        "question": "What is the basic requirement for financing Chinese cars with salary transfer?",
+        "expected_answer": "The Chinese car must have an approved exclusive agent.",
+        "audio_file": "wav\\CARLOAN-Q126.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q058",
+        "question": "Which Chinese dealerships are approved for auto financing?",
+        "expected_answer": "The approved Chinese dealerships are: Gargour Group (Skywell), Gargour Group (XPeng), Union Equipment Supply Company (Maxus), Saqr Saqr - Lebanese Nationality (IM Motors), Harlem Auto Trade (Jetour), Central Trade and Auto Co. (Chery), Acamas Auto Trade (Hongqi), Shaheen (MG), Shaheen (HONGQI), Nahj Al Manar Co. (GWM – HAVAL), Modern Company - Tahboub (NETA), Modern Company - Tahboub (BESTUNE), Mobility Solutions - Bustami & Saheb (BYD), Olayan (GAC), Chinese dealerships under Al-Obaidi Group & Future Cars (BYD), and Al Wasl Auto Trade (Geely).",
+        "audio_file": "wav\\CARLOAN-Q058.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "CarLoan-en-009",
+    "subtopic": "Loan/Car Loan",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q046",
+        "question": "What is the grace period for an auto loan without salary transfer?",
+        "expected_answer": "The grace period is up to 45 days if the contract is signed after the 15th of the month.",
+        "audio_file": "wav\\CARLOAN-Q046.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q146",
+        "question": "What is the minimum length of service for confirmed employees of unapproved companies?",
+        "expected_answer": "The minimum length of service is 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job.",
+        "audio_file": "wav\\CARLOAN-Q146.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q008",
+        "question": "What is the minimum length of service for professionals and self-employed individuals to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum length of service is 1 year for those working inside Greater Amman Municipality, and 2 years for those working outside Greater Amman Municipality.",
+        "audio_file": "wav\\CARLOAN-Q008.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q158",
+        "question": "What is the interest rate under the Abu Khader Automotive Group auto loans campaign?",
+        "expected_answer": "The interest rate is 7.25%.",
+        "audio_file": "wav\\CARLOAN-Q158.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q118",
+        "question": "What salary transfer pledge is required from public sector employees?",
+        "expected_answer": "Public sector employees provide a salary transfer pledge according to their approved format, except for security and military apparatuses, for whom a salary slip indicating the salary transfer to the bank is sufficient.",
+        "audio_file": "wav\\CARLOAN-Q118.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q156",
+        "question": "What is the financing ratio under the Abu Khader Automotive Group auto loans campaign without salary transfer?",
+        "expected_answer": "The financing ratio is up to 80% without salary transfer.",
+        "audio_file": "wav\\CARLOAN-Q156.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q054",
+        "question": "What is the validity period of the approval for postponing installments for an auto loan without salary transfer?",
+        "expected_answer": "The approval validity for postponing installments is 45 days.",
+        "audio_file": "wav\\CARLOAN-Q054.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q070",
+        "question": "What is the minimum net salary for all sectors when the salary is transferred?",
+        "expected_answer": "The minimum net salary is 450 JOD.",
+        "audio_file": "wav\\CARLOAN-Q070.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q040",
+        "question": "What guarantees are required for an auto loan?",
+        "expected_answer": "A mortgage is placed on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank, and a copy of the car registration bearing the debtor's name, along with the mortgage letter, must be kept in the customer's file.",
+        "audio_file": "wav\\CARLOAN-Q040.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q126",
+        "question": "What is the basic requirement for financing Chinese cars with salary transfer?",
+        "expected_answer": "The Chinese car must have an approved exclusive agent.",
+        "audio_file": "wav\\CARLOAN-Q126.wav"
+      }
+    ]
+  }
+]

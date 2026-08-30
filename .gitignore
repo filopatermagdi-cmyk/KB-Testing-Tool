@@ -1,0 +1,21 @@
+.env
+node_modules/
+dist/
+__pycache__/
+data/runs/
+data/eval-results-*.json
+data/eval-stats-*.json
+wav/
+
+# recorded artifacts from real calls (sensitive)
+data/captured-answers-*.json
+data/claude-export-*.json
+data/context-*.json
+data/negative-control-capture.json
+data/local-qwen-backup.json
+callrunner/.env
+data/preview/
+data/runs/
+
+# Knowledge base documents (never share / upload)
+*.docx

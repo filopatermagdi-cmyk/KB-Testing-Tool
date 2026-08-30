@@ -1,0 +1,950 @@
+[
+  {
+    "id": "Q001",
+    "pair_id": "P001",
+    "language": "ar",
+    "question": "ما هي خدمة تركيب لوحات العنوان الوطني؟",
+    "expected_answer": "الخدمة تتيح للعميل طلب تركيب لوحة تحمل تفاصيل عنوانه الوطني المختصر المسجل في سبل اونلاين.",
+    "source_chunks": [
+      "تتيح الخدمة للعميل طلب تركيب لوحة تحمل تفاصيل عنوانه الوطني المختصر المسجل في سبل اونلاين"
+    ],
+    "audio_file": "wav/Q001.wav"
+  },
+  {
+    "id": "Q002",
+    "pair_id": "P001",
+    "language": "en",
+    "question": "What is the National Address plate installation service?",
+    "expected_answer": "The service allows the customer to request the installation of a plate carrying the details of their registered short National Address via SPL online.",
+    "source_chunks": [
+      "تتيح الخدمة للعميل طلب تركيب لوحة تحمل تفاصيل عنوانه الوطني المختصر المسجل في سبل اونلاين"
+    ],
+    "audio_file": "wav/Q002.wav"
+  },
+  {
+    "id": "Q003",
+    "pair_id": "P002",
+    "language": "ar",
+    "question": "كم سعر اللوحة الواحدة لخدمة تركيب اللوحات؟",
+    "expected_answer": "الرسوم الحالية للوحة الواحدة هي 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، وتتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع وتعرض للعميل قبل الدفع.",
+    "source_chunks": [
+      "الرسوم الحالية للوحة الواحدة 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، تتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع و تعرض للعميل قبل الدفع"
+    ],
+    "audio_file": "wav/Q003.wav"
+  },
+  {
+    "id": "Q004",
+    "pair_id": "P002",
+    "language": "en",
+    "question": "How much does one plate cost for the plate installation service?",
+    "expected_answer": "The current fee for one plate is 138 Saudi Riyals, excluding value-added tax. Fees change according to the plate design in agreement with the manufacturer and are shown to the customer before payment.",
+    "source_chunks": [
+      "الرسوم الحالية للوحة الواحدة 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، تتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع و تعرض للعميل قبل الدفع"
+    ],
+    "audio_file": "wav/Q004.wav"
+  },
+  {
+    "id": "Q005",
+    "pair_id": "P003",
+    "language": "ar",
+    "question": "كم مدة حل البلاغات لخدمة تركيب اللوحات؟",
+    "expected_answer": "مدة حل البلاغات هي 72 ساعة عمل.",
+    "source_chunks": [
+      "مدة حل البلاغات 72 ساعة عمل"
+    ],
+    "audio_file": "wav/Q005.wav"
+  },
+  {
+    "id": "Q006",
+    "pair_id": "P003",
+    "language": "en",
+    "question": "How long does it take to resolve complaints for the plate installation service?",
+    "expected_answer": "The complaint resolution period is 72 working hours.",
+    "source_chunks": [
+      "مدة حل البلاغات 72 ساعة عمل"
+    ],
+    "audio_file": "wav/Q006.wav"
+  },
+  {
+    "id": "Q007",
+    "pair_id": "P004",
+    "language": "ar",
+    "question": "من الذي يقوم بتركيب اللوحة؟",
+    "expected_answer": "يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة تحت إشراف وتشغيل الشركة السعودية للخدمات البريدية واللوجستية (سبل).",
+    "source_chunks": [
+      "يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة تحت إشراف و تشغيل الشركة السعودية للخدمات البريدية و اللوجستية (سبل)"
+    ],
+    "audio_file": "wav/Q007.wav"
+  },
+  {
+    "id": "Q008",
+    "pair_id": "P004",
+    "language": "en",
+    "question": "Who installs the plate?",
+    "expected_answer": "The plate is installed by an external party contracted with licensed factories under the supervision and operation of the Saudi Postal and Logistics Services Company (SPL).",
+    "source_chunks": [
+      "يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة تحت إشراف و تشغيل الشركة السعودية للخدمات البريدية و اللوجستية (سبل)"
+    ],
+    "audio_file": "wav/Q008.wav"
+  },
+  {
+    "id": "Q009",
+    "pair_id": "P005",
+    "language": "ar",
+    "question": "من هم المستخدمون المؤهلون لخدمة تركيب اللوحات؟",
+    "expected_answer": "المستخدمون للخدمة هم الأفراد (المواطنين والمقيمين) المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس.",
+    "source_chunks": [
+      "المستخدمون للخدمة: الأفراد (الموطنين والمقيمين) المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس"
+    ],
+    "audio_file": "wav/Q009.wav"
+  },
+  {
+    "id": "Q010",
+    "pair_id": "P005",
+    "language": "en",
+    "question": "Who are the eligible users for the plate installation service?",
+    "expected_answer": "The service users are individuals (citizens and residents) registered in the National Address service and residing in housing units of type villa or duplex.",
+    "source_chunks": [
+      "المستخدمون للخدمة: الأفراد (الموطنين والمقيمين) المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس"
+    ],
+    "audio_file": "wav/Q010.wav"
+  },
+  {
+    "id": "Q011",
+    "pair_id": "P006",
+    "language": "ar",
+    "question": "هل الخدمة متاحة لأصحاب الشقق وحسابات الأعمال والحسابات الحكومية؟",
+    "expected_answer": "لا، الخدمة غير متاحة لأصحاب الشقق وحسابات الأعمال والحسابات الحكومية.",
+    "source_chunks": [
+      "الخدمة غير متاحة لأصحاب الشقق وحسابات الأعمال و الحسابات الحكومية"
+    ],
+    "audio_file": "wav/Q011.wav"
+  },
+  {
+    "id": "Q012",
+    "pair_id": "P006",
+    "language": "en",
+    "question": "Is the service available to apartment owners, business accounts, and government accounts?",
+    "expected_answer": "No, the service is not available to apartment owners, business accounts, and government accounts.",
+    "source_chunks": [
+      "الخدمة غير متاحة لأصحاب الشقق وحسابات الأعمال و الحسابات الحكومية"
+    ],
+    "audio_file": "wav/Q012.wav"
+  },
+  {
+    "id": "Q013",
+    "pair_id": "P007",
+    "language": "ar",
+    "question": "في أي مدن تكون خدمة تركيب اللوحات متاحة حالياً؟",
+    "expected_answer": "الخدمة حالياً متاحة فقط في المدن التالية: الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت، عنك، القطيف.",
+    "source_chunks": [
+      "حاليا هي فقط متاحة في المدن التالية: ( الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت، عنك، القطيف)"
+    ],
+    "audio_file": "wav/Q013.wav"
+  },
+  {
+    "id": "Q014",
+    "pair_id": "P007",
+    "language": "en",
+    "question": "In which cities is the plate installation service currently available?",
+    "expected_answer": "The service is currently only available in the following cities: Riyadh, Dammam, Madinah, Jeddah, Khobar, Dhahran, Makkah, Hail, Jazan, Hafr Al-Batin, Najran, Unaizah, Buraidah, Abha, Khamis Mushait, Saihat, Tarout, Anak, and Qatif.",
+    "source_chunks": [
+      "حاليا هي فقط متاحة في المدن التالية: ( الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت، عنك، القطيف)"
+    ],
+    "audio_file": "wav/Q014.wav"
+  },
+  {
+    "id": "Q015",
+    "pair_id": "P008",
+    "language": "ar",
+    "question": "هل تتوفر اللوحات الذهبية حالياً؟",
+    "expected_answer": "لا، فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها وسيتم إشعاركم حال تم إعادتها.",
+    "source_chunks": [
+      "فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها وسيتم اشعاركم حال تم اعادتها"
+    ],
+    "audio_file": "wav/Q015.wav"
+  },
+  {
+    "id": "Q016",
+    "pair_id": "P008",
+    "language": "en",
+    "question": "Are golden plates currently available?",
+    "expected_answer": "No. Regarding golden plates, the implementing company has stopped producing them and you will be notified once they are brought back.",
+    "source_chunks": [
+      "فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها وسيتم اشعاركم حال تم اعادتها"
+    ],
+    "audio_file": "wav/Q016.wav"
+  },
+  {
+    "id": "Q017",
+    "pair_id": "P009",
+    "language": "ar",
+    "question": "لماذا لا يظهر طلب لوحة العنوان من خلال حساب العميل؟",
+    "expected_answer": "السبب هو أن نوع الوحدة في الاشتراك هي شقة وليست فيلا، وعليه يلزم أن يقوم العميل بتحديث نوع الوحدة ليتم ظهور طلب اللوحة.",
+    "source_chunks": [
+      "وفيما يخص عدم ظهور طلب لوحة العنوان من خلال حساب العميل وذلك بسبب ان نوع الوحدة في الاشتراك هي شقة وليست فيلا، وعليه يلزم بأن يقوم العميل بتحديث نوع الوحدة ليتم ظهور طلب اللوحة"
+    ],
+    "audio_file": "wav/Q017.wav"
+  },
+  {
+    "id": "Q018",
+    "pair_id": "P009",
+    "language": "en",
+    "question": "Why does the plate request not appear through the customer's account?",
+    "expected_answer": "Because the unit type on the subscription is an apartment and not a villa; the customer must update the unit type for the plate request to appear.",
+    "source_chunks": [
+      "وفيما يخص عدم ظهور طلب لوحة العنوان من خلال حساب العميل وذلك بسبب ان نوع الوحدة في الاشتراك هي شقة وليست فيلا، وعليه يلزم بأن يقوم العميل بتحديث نوع الوحدة ليتم ظهور طلب اللوحة"
+    ],
+    "audio_file": "wav/Q018.wav"
+  },
+  {
+    "id": "Q019",
+    "pair_id": "P010",
+    "language": "ar",
+    "question": "كم مدة تركيب لوحة العنوان خارج مدينة الرياض؟",
+    "expected_answer": "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل كحد أقصى.",
+    "source_chunks": [
+      "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل بحد اقصى"
+    ],
+    "audio_file": "wav/Q019.wav"
+  },
+  {
+    "id": "Q020",
+    "pair_id": "P010",
+    "language": "en",
+    "question": "How long does plate installation take outside Riyadh?",
+    "expected_answer": "The installation duration for a National Address plate outside Riyadh is 22 working days at most.",
+    "source_chunks": [
+      "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل بحد اقصى"
+    ],
+    "audio_file": "wav/Q020.wav"
+  },
+  {
+    "id": "Q021",
+    "pair_id": "P011",
+    "language": "ar",
+    "question": "كم مدة تركيب اللوحات في مدينة الرياض؟",
+    "expected_answer": "مدة تركيب اللوحات في مدينة الرياض هي 12 يوم عمل.",
+    "source_chunks": [
+      "مدة تركيب اللوحات بمدينة الرياض هي 12 يوم عمل"
+    ],
+    "audio_file": "wav/Q021.wav"
+  },
+  {
+    "id": "Q022",
+    "pair_id": "P011",
+    "language": "en",
+    "question": "How long does plate installation take in Riyadh?",
+    "expected_answer": "The installation duration for plates in Riyadh is 12 working days.",
+    "source_chunks": [
+      "مدة تركيب اللوحات بمدينة الرياض هي 12 يوم عمل"
+    ],
+    "audio_file": "wav/Q022.wav"
+  },
+  {
+    "id": "Q023",
+    "pair_id": "P012",
+    "language": "ar",
+    "question": "ما نوع اللوحة المتاح لجميع المدن؟",
+    "expected_answer": "نوع اللوحة هو استيل فضي لجميع المدن.",
+    "source_chunks": [
+      "نوع اللوحة: استيل فضي لجميع المدن"
+    ],
+    "audio_file": "wav/Q023.wav"
+  },
+  {
+    "id": "Q024",
+    "pair_id": "P012",
+    "language": "en",
+    "question": "What is the plate type available for all cities?",
+    "expected_answer": "The plate type is silver steel for all cities.",
+    "source_chunks": [
+      "نوع اللوحة: استيل فضي لجميع المدن"
+    ],
+    "audio_file": "wav/Q024.wav"
+  },
+  {
+    "id": "Q025",
+    "pair_id": "P013",
+    "language": "ar",
+    "question": "كيف يتم طلب خدمة تركيب اللوحات؟",
+    "expected_answer": "طريقة طلب الخدمة عبر الموقع (سبل) فقط، بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني، حيث ستتم إعادة توجيه المستخدم إلى صفحة تسجيل الدخول.",
+    "source_chunks": [
+      "طريقة طلب الخدمة: عبر الموقع (سبل) فقط، بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني، حيث ستتم إعادة توجيه المستخدم إلى صفحة تسجيل الدخول"
+    ],
+    "audio_file": "wav/Q025.wav"
+  },
+  {
+    "id": "Q026",
+    "pair_id": "P013",
+    "language": "en",
+    "question": "How do you request the plate installation service?",
+    "expected_answer": "The service is requested only through the SPL website. After logging in, go to the National Address page, where the user will be redirected to the login page.",
+    "source_chunks": [
+      "طريقة طلب الخدمة: عبر الموقع (سبل) فقط، بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني، حيث ستتم إعادة توجيه المستخدم إلى صفحة تسجيل الدخول"
+    ],
+    "audio_file": "wav/Q026.wav"
+  },
+  {
+    "id": "Q027",
+    "pair_id": "P014",
+    "language": "ar",
+    "question": "كيف يتم اختيار العنوان عند طلب لوحة العنوان الوطني؟",
+    "expected_answer": "يتم من خلال حساب العميل عرض واختيار العناوين المرتبطة بالعميل عند طلب لوحة العنوان الوطني.",
+    "source_chunks": [
+      "يتم من خلال حساب العميل عرض واختيار العناوين المرتبطة بالعميل عند طلب لوحة العنوان الوطني"
+    ],
+    "audio_file": "wav/Q027.wav"
+  },
+  {
+    "id": "Q028",
+    "pair_id": "P014",
+    "language": "en",
+    "question": "How is the address selected when requesting a National Address plate?",
+    "expected_answer": "The customer's account displays the addresses linked to the customer to select from when requesting a National Address plate.",
+    "source_chunks": [
+      "يتم من خلال حساب العميل عرض واختيار العناوين المرتبطة بالعميل عند طلب لوحة العنوان الوطني"
+    ],
+    "audio_file": "wav/Q028.wav"
+  },
+  {
+    "id": "Q029",
+    "pair_id": "P015",
+    "language": "ar",
+    "question": "ماذا يختار العميل عند طلب اللوحة؟",
+    "expected_answer": "يختار العميل نوع اللوحة وعددها والتصميم المناسب.",
+    "source_chunks": [
+      "يختار العميل نوع اللوحة، عددها والتصميم المناسب"
+    ],
+    "audio_file": "wav/Q029.wav"
+  },
+  {
+    "id": "Q030",
+    "pair_id": "P015",
+    "language": "en",
+    "question": "What does the customer choose when requesting the plate?",
+    "expected_answer": "The customer chooses the plate type, its quantity, and the appropriate design.",
+    "source_chunks": [
+      "يختار العميل نوع اللوحة، عددها والتصميم المناسب"
+    ],
+    "audio_file": "wav/Q030.wav"
+  },
+  {
+    "id": "Q031",
+    "pair_id": "P016",
+    "language": "ar",
+    "question": "ماذا يفعل العميل عند اختيار العنوان وتأكيد رفع طلب اللوحة؟",
+    "expected_answer": "يتم الإقرار بصحة العنوان والبيانات والموافقة على الشروط والأحكام عند اختيار العنوان وتأكيد رفع طلب اللوحة.",
+    "source_chunks": [
+      "يتم الإقرار بصحة العنوان والبيانات والموافقة على الشروط والأحكام للعميل عند اختيار العنوان وتأكيد رفع طلب اللوحة"
+    ],
+    "audio_file": "wav/Q031.wav"
+  },
+  {
+    "id": "Q032",
+    "pair_id": "P016",
+    "language": "en",
+    "question": "What does the customer do when choosing the address and confirming the plate request?",
+    "expected_answer": "The customer acknowledges the correctness of the address and data and agrees to the terms and conditions when choosing the address and confirming the plate request.",
+    "source_chunks": [
+      "يتم الإقرار بصحة العنوان والبيانات والموافقة على الشروط والأحكام للعميل عند اختيار العنوان وتأكيد رفع طلب اللوحة"
+    ],
+    "audio_file": "wav/Q032.wav"
+  },
+  {
+    "id": "Q033",
+    "pair_id": "P017",
+    "language": "ar",
+    "question": "كيف يقوم العميل بإتمام الدفع؟",
+    "expected_answer": "يقوم العميل بإتمام الدفع عبر وسائل الدفع المتاحة.",
+    "source_chunks": [
+      "يقوم العميل بإتمام الدفع عبر وسائل الدفع المتاحة"
+    ],
+    "audio_file": "wav/Q033.wav"
+  },
+  {
+    "id": "Q034",
+    "pair_id": "P017",
+    "language": "en",
+    "question": "How does the customer complete the payment?",
+    "expected_answer": "The customer completes the payment through the available payment methods.",
+    "source_chunks": [
+      "يقوم العميل بإتمام الدفع عبر وسائل الدفع المتاحة"
+    ],
+    "audio_file": "wav/Q034.wav"
+  },
+  {
+    "id": "Q035",
+    "pair_id": "P018",
+    "language": "ar",
+    "question": "ماذا يحدث بعد إتمام الدفع؟",
+    "expected_answer": "ترسل رسالة نصية للعميل لإشعاره بإتمام الدفع ورقم الطلب وقنوات الدعم.",
+    "source_chunks": [
+      "ترسل رسالة نصية للعميل لإشعاره بإتمام الدفع ورقم الطلب وقنوات الدعم"
+    ],
+    "audio_file": "wav/Q035.wav"
+  },
+  {
+    "id": "Q036",
+    "pair_id": "P018",
+    "language": "en",
+    "question": "What happens after the payment is completed?",
+    "expected_answer": "A text message is sent to the customer to notify them of the payment completion, the request number, and support channels.",
+    "source_chunks": [
+      "ترسل رسالة نصية للعميل لإشعاره بإتمام الدفع ورقم الطلب وقنوات الدعم"
+    ],
+    "audio_file": "wav/Q036.wav"
+  },
+  {
+    "id": "Q037",
+    "pair_id": "P019",
+    "language": "ar",
+    "question": "ماذا يحدث بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة؟",
+    "expected_answer": "بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة من قبل الشركة المصنعة، يتم إشعار العميل عبر رسالة نصية بالانتهاء من تنفيذ الطلب وترسل استبانة لتقييم الخدمة.",
+    "source_chunks": [
+      "بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة من قبل الشركة المصنعة، يتم اشعار العميل عبر رسالة نصية بالإنتهاء من تنفيذ الطلب و ترسل استبانة لتقييم الخدمة"
+    ],
+    "audio_file": "wav/Q037.wav"
+  },
+  {
+    "id": "Q038",
+    "pair_id": "P019",
+    "language": "en",
+    "question": "What happens after the request is executed and the plate is installed?",
+    "expected_answer": "After the request is executed and the plate installed by the manufacturing company, the customer is notified via a text message of completion, and a service evaluation survey is sent.",
+    "source_chunks": [
+      "بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة من قبل الشركة المصنعة، يتم اشعار العميل عبر رسالة نصية بالإنتهاء من تنفيذ الطلب و ترسل استبانة لتقييم الخدمة"
+    ],
+    "audio_file": "wav/Q038.wav"
+  },
+  {
+    "id": "Q039",
+    "pair_id": "P020",
+    "language": "ar",
+    "question": "كيف يمكن للعميل استعراض طلباته وتفاصيلها؟",
+    "expected_answer": "يستطيع العميل استعراض طلباته وتفاصيلها من خلال صفحة (طلباتي).",
+    "source_chunks": [
+      "يستطيع العميل استعراض طلباته وتفاصيلها من خلال صفحة (طلباتي)"
+    ],
+    "audio_file": "wav/Q039.wav"
+  },
+  {
+    "id": "Q040",
+    "pair_id": "P020",
+    "language": "en",
+    "question": "How can the customer review their requests and their details?",
+    "expected_answer": "The customer can review their requests and details through the My Requests page.",
+    "source_chunks": [
+      "يستطيع العميل استعراض طلباته وتفاصيلها من خلال صفحة (طلباتي)"
+    ],
+    "audio_file": "wav/Q040.wav"
+  },
+  {
+    "id": "Q041",
+    "pair_id": "P021",
+    "language": "ar",
+    "question": "كيف يمكن للعميل رفع شكوى على طلب معين؟",
+    "expected_answer": "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة (طلباتي) أو من خلال صفحة خدمة العملاء.",
+    "source_chunks": [
+      "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة (طلباتي) أو من خلال صفحة خدمة العملاء"
+    ],
+    "audio_file": "wav/Q041.wav"
+  },
+  {
+    "id": "Q042",
+    "pair_id": "P021",
+    "language": "en",
+    "question": "How can the customer file a complaint on a specific request?",
+    "expected_answer": "The customer can file a complaint on a specific request through the My Requests page or the customer service page.",
+    "source_chunks": [
+      "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة (طلباتي) أو من خلال صفحة خدمة العملاء"
+    ],
+    "audio_file": "wav/Q042.wav"
+  },
+  {
+    "id": "Q043",
+    "pair_id": "P022",
+    "language": "ar",
+    "question": "كيف يمكن للعميل تحديث رقم جواله المرتبط بالحساب؟",
+    "expected_answer": "يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار (تحديث الرقم)، وستصل الرسائل النصية على الرقم المعروض.",
+    "source_chunks": [
+      "يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار (تحديث الرقم)، ستصل الرسائل النصية على الرقم المعروض"
+    ],
+    "audio_file": "wav/Q043.wav"
+  },
+  {
+    "id": "Q044",
+    "pair_id": "P022",
+    "language": "en",
+    "question": "How can the customer update the mobile number linked to their account?",
+    "expected_answer": "The customer can update the mobile number linked to the account via the Update Number option, and text messages will arrive on the displayed number.",
+    "source_chunks": [
+      "يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار (تحديث الرقم)، ستصل الرسائل النصية على الرقم المعروض"
+    ],
+    "audio_file": "wav/Q044.wav"
+  },
+  {
+    "id": "Q045",
+    "pair_id": "P023",
+    "language": "ar",
+    "question": "كيف يمكن للعميل استعراض فواتيره المتعلقة بالخدمة؟",
+    "expected_answer": "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة (فواتيري).",
+    "source_chunks": [
+      "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة (فواتيري)"
+    ],
+    "audio_file": "wav/Q045.wav"
+  },
+  {
+    "id": "Q046",
+    "pair_id": "P023",
+    "language": "en",
+    "question": "How can the customer review their invoices related to the service?",
+    "expected_answer": "The customer can review their service invoices through the My Invoices page.",
+    "source_chunks": [
+      "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة (فواتيري)"
+    ],
+    "audio_file": "wav/Q046.wav"
+  },
+  {
+    "id": "Q047",
+    "pair_id": "P024",
+    "language": "ar",
+    "question": "هل يمكن للعميل تحميل ملف مواصفات ومقاسات اللوح؟",
+    "expected_answer": "نعم، يمكن للعميل استعراض وتحميل ملف (مواصفات ومقاسات اللوح) في حال رغب في تصنيع اللوحة عبر مزود آخر، وذلك عبر اختيار (أرغب في تصنيع اللوحة من مزود آخر).",
+    "source_chunks": [
+      "يمكن للعميل استعراض و تحميل ملف (مواصفات و مقاسات اللوح) في حال رغب في تصنيع اللوحة عبر مزود آخر، وذلك عبر اختيار (أرغب في تصنيع اللوحة من مزود آخر)"
+    ],
+    "audio_file": "wav/Q047.wav"
+  },
+  {
+    "id": "Q048",
+    "pair_id": "P024",
+    "language": "en",
+    "question": "Can the customer download the plate specifications and dimensions file?",
+    "expected_answer": "Yes. The customer can view and download the Plate Specifications and Dimensions file if they want the plate manufactured through another provider, by choosing the option to manufacture the plate through another provider.",
+    "source_chunks": [
+      "يمكن للعميل استعراض و تحميل ملف (مواصفات و مقاسات اللوح) في حال رغب في تصنيع اللوحة عبر مزود آخر، وذلك عبر اختيار (أرغب في تصنيع اللوحة من مزود آخر)"
+    ],
+    "audio_file": "wav/Q048.wav"
+  },
+  {
+    "id": "Q049",
+    "pair_id": "P025",
+    "language": "ar",
+    "question": "ما الشرط الأساسي لإنشاء طلب تركيب لوحة؟",
+    "expected_answer": "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجلاً في العنوان الوطني.",
+    "source_chunks": [
+      "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجل في العنوان الوطني"
+    ],
+    "audio_file": "wav/Q049.wav"
+  },
+  {
+    "id": "Q050",
+    "pair_id": "P025",
+    "language": "en",
+    "question": "What is the basic condition to create a plate installation request?",
+    "expected_answer": "The customer cannot create a request unless they are registered in the National Address.",
+    "source_chunks": [
+      "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجل في العنوان الوطني"
+    ],
+    "audio_file": "wav/Q050.wav"
+  },
+  {
+    "id": "Q051",
+    "pair_id": "P026",
+    "language": "ar",
+    "question": "هل يستطيع العميل اختيار أكثر من تصميم عند طلب أكثر من لوحة؟",
+    "expected_answer": "لا، لا يستطيع العميل اختيار أكثر من تصميم في حال اختار أكثر من لوحة واحدة.",
+    "source_chunks": [
+      "لا يستطيع العميل اختيار أكثر من تصميم في حال اختار أكثر من لوحة واحدة"
+    ],
+    "audio_file": "wav/Q051.wav"
+  },
+  {
+    "id": "Q052",
+    "pair_id": "P026",
+    "language": "en",
+    "question": "Can the customer choose more than one design when requesting more than one plate?",
+    "expected_answer": "No. The customer cannot choose more than one design if they chose more than one plate.",
+    "source_chunks": [
+      "لا يستطيع العميل اختيار أكثر من تصميم في حال اختار أكثر من لوحة واحدة"
+    ],
+    "audio_file": "wav/Q052.wav"
+  },
+  {
+    "id": "Q053",
+    "pair_id": "P027",
+    "language": "ar",
+    "question": "ما الحد الأقصى للوحات في الطلب الواحد؟",
+    "expected_answer": "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات.",
+    "source_chunks": [
+      "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات"
+    ],
+    "audio_file": "wav/Q053.wav"
+  },
+  {
+    "id": "Q054",
+    "pair_id": "P027",
+    "language": "en",
+    "question": "What is the maximum number of plates in a single request?",
+    "expected_answer": "The maximum number of plates in one request is 3 plates.",
+    "source_chunks": [
+      "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات"
+    ],
+    "audio_file": "wav/Q054.wav"
+  },
+  {
+    "id": "Q055",
+    "pair_id": "P028",
+    "language": "ar",
+    "question": "هل يمكن للعميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة؟",
+    "expected_answer": "لا، لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة.",
+    "source_chunks": [
+      "لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة"
+    ],
+    "audio_file": "wav/Q055.wav"
+  },
+  {
+    "id": "Q056",
+    "pair_id": "P028",
+    "language": "en",
+    "question": "Can the customer create a new request if they have an ongoing request being processed?",
+    "expected_answer": "No. The customer cannot create a new request if they have an ongoing request under processing.",
+    "source_chunks": [
+      "لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة"
+    ],
+    "audio_file": "wav/Q056.wav"
+  },
+  {
+    "id": "Q057",
+    "pair_id": "P029",
+    "language": "ar",
+    "question": "هل يمكن للعميل طلب لوحة إذا كانت منطقته خارج المناطق المغطاة؟",
+    "expected_answer": "لا، لا يستطيع العميل طلب لوحة في حال كانت منطقته خارج المناطق المغطاة وسيتم تنبيه العميل بذلك.",
+    "source_chunks": [
+      "لا يستطيع العميل طلب لوحة في حال كانت منطقته خارج المناطق المغطاة وسيتم تنبيه العميل بذلك"
+    ],
+    "audio_file": "wav/Q057.wav"
+  },
+  {
+    "id": "Q058",
+    "pair_id": "P029",
+    "language": "en",
+    "question": "Can the customer request a plate if their area is outside the covered areas?",
+    "expected_answer": "No. The customer cannot request a plate if their area is outside the covered areas and will be alerted about that.",
+    "source_chunks": [
+      "لا يستطيع العميل طلب لوحة في حال كانت منطقته خارج المناطق المغطاة وسيتم تنبيه العميل بذلك"
+    ],
+    "audio_file": "wav/Q058.wav"
+  },
+  {
+    "id": "Q059",
+    "pair_id": "P030",
+    "language": "ar",
+    "question": "هل يتم تركيب اللوحات على الشقق ومن يتحمل مسؤولية التحقق من صحة العنوان؟",
+    "expected_answer": "لا يتم تركيب اللوحات على الشقق، ويتحمل العميل مسؤولية التحقق من صحة عنوانه المسجل.",
+    "source_chunks": [
+      "لا يتم تركيب اللوحات على الشقق، ويتحمل العميل مسؤولية التحقق من صحة عنوانه المسجل"
+    ],
+    "audio_file": "wav/Q059.wav"
+  },
+  {
+    "id": "Q060",
+    "pair_id": "P030",
+    "language": "en",
+    "question": "Are plates installed on apartments and who is responsible for verifying the correctness of the address?",
+    "expected_answer": "Plates are not installed on apartments, and the customer bears the responsibility of verifying the correctness of their registered address.",
+    "source_chunks": [
+      "لا يتم تركيب اللوحات على الشقق، ويتحمل العميل مسؤولية التحقق من صحة عنوانه المسجل"
+    ],
+    "audio_file": "wav/Q060.wav"
+  },
+  {
+    "id": "Q061",
+    "pair_id": "P031",
+    "language": "ar",
+    "question": "من يتحمل مسؤولية توفير التصاريح اللازمة لدخول فريق التركيب؟",
+    "expected_answer": "يجب على العميل توفير التصاريح اللازمة لدخول فريق التركيب عند اللزوم مثل بعض المجمعات السكنية، ويتحمل العميل مسؤولية إصدار التصاريح اللازمة إذا كانت منطقته تستلزم ذلك.",
+    "source_chunks": [
+      "يجب على العميل توفير التصاريح اللازمة لدخول فريق التركيب عند اللزوم (مثل بعض المجمعات السكنية)",
+      "في حال كان العميل يسكن في منطقة تستلزم إصدار تصريح دخول لفريق التركيب فإن العميل يتحمل مسؤولية إصدار التصاريح اللازمة"
+    ],
+    "audio_file": "wav/Q061.wav"
+  },
+  {
+    "id": "Q062",
+    "pair_id": "P031",
+    "language": "en",
+    "question": "Who bears the responsibility for providing the permits required for the installation team to enter?",
+    "expected_answer": "The customer must provide the necessary permits for the installation team to enter when needed, such as in some residential compounds, and the customer bears the responsibility for issuing the required permits if their area requires it.",
+    "source_chunks": [
+      "يجب على العميل توفير التصاريح اللازمة لدخول فريق التركيب عند اللزوم (مثل بعض المجمعات السكنية)",
+      "في حال كان العميل يسكن في منطقة تستلزم إصدار تصريح دخول لفريق التركيب فإن العميل يتحمل مسؤولية إصدار التصاريح اللازمة"
+    ],
+    "audio_file": "wav/Q062.wav"
+  },
+  {
+    "id": "Q063",
+    "pair_id": "P032",
+    "language": "ar",
+    "question": "هل يتم تعويض العميل في حال تأخر تنفيذ الطلب؟",
+    "expected_answer": "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة ويعرض للعميل أثناء اختيار اللوحة، وسيتم تعويض العميل في حال كان التأخير من طرف فريق التركيب.",
+    "source_chunks": [
+      "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة ويعرض للعميل أثناء اختيار اللوحة، وسيتم تعويض العميل في حال كان التأخير من طرف فريق التركيب"
+    ],
+    "audio_file": "wav/Q063.wav"
+  },
+  {
+    "id": "Q064",
+    "pair_id": "P032",
+    "language": "en",
+    "question": "Is the customer compensated if the request execution is delayed?",
+    "expected_answer": "The maximum execution period varies by plate type and is shown to the customer while choosing the plate. The customer will be compensated if the delay was caused by the installation team.",
+    "source_chunks": [
+      "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة ويعرض للعميل أثناء اختيار اللوحة، وسيتم تعويض العميل في حال كان التأخير من طرف فريق التركيب"
+    ],
+    "audio_file": "wav/Q064.wav"
+  },
+  {
+    "id": "Q065",
+    "pair_id": "P033",
+    "language": "ar",
+    "question": "متى تلتزم الشركة بإعادة المبلغ المدفوع للعميل؟",
+    "expected_answer": "تلتزم الشركة السعودية للخدمات البريدية واللوجستية بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة للموقع بسبب عدم أهلية الموقع للتركيب خلال 14 يوم عمل.",
+    "source_chunks": [
+      "تلتزم الشركة السعودية للخدمات البريدية و اللوجستية بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة للموقع بسبب عدم أهلية الموقع للتركيب خلال 14 يوم عمل"
+    ],
+    "audio_file": "wav/Q065.wav"
+  },
+  {
+    "id": "Q066",
+    "pair_id": "P033",
+    "language": "en",
+    "question": "When is the company committed to refunding the paid amount to the customer?",
+    "expected_answer": "The Saudi Postal and Logistics Services Company is committed to refunding the paid amount if the plate cannot be installed due to the site not being eligible, within 14 working days.",
+    "source_chunks": [
+      "تلتزم الشركة السعودية للخدمات البريدية و اللوجستية بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة للموقع بسبب عدم أهلية الموقع للتركيب خلال 14 يوم عمل"
+    ],
+    "audio_file": "wav/Q066.wav"
+  },
+  {
+    "id": "Q067",
+    "pair_id": "P034",
+    "language": "ar",
+    "question": "ماذا يحدث في حال تركيب اللوحة بشكل خاطئ أو كانت جودتها غير مطابقة للمواصفات؟",
+    "expected_answer": "في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+    "source_chunks": [
+      "في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي"
+    ],
+    "audio_file": "wav/Q067.wav"
+  },
+  {
+    "id": "Q068",
+    "pair_id": "P034",
+    "language": "en",
+    "question": "What happens if the plate is installed incorrectly or its quality does not match the specifications?",
+    "expected_answer": "If the plate is installed incorrectly or the installed plate's quality does not match the approved specifications, the manufacturing company is obligated to replace it for the customer within 7 working days at no cost.",
+    "source_chunks": [
+      "في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي"
+    ],
+    "audio_file": "wav/Q068.wav"
+  },
+  {
+    "id": "Q069",
+    "pair_id": "P035",
+    "language": "ar",
+    "question": "ما هي الفروقات والمميزات بين اللوحات؟",
+    "expected_answer": "تختلف اللوحات في تصاميمها والمواد المصنعة لها حسب العقد مع الشركة المصنعة، وستظهر للعميل النهائي صورة اللوحة وتفاصيلها.",
+    "source_chunks": [
+      "تختلف اللوحات في تصاميمها و المواد المصنعة لها حسب العقد مع الشركة المصنعة. ستظهر للعميل النهائي صورة اللوحة و تفاصيلها"
+    ],
+    "audio_file": "wav/Q069.wav"
+  },
+  {
+    "id": "Q070",
+    "pair_id": "P035",
+    "language": "en",
+    "question": "What are the differences and features between the plates?",
+    "expected_answer": "Plates differ in their designs and manufacturing materials depending on the contract with the manufacturing company. The end customer will see the plate image and its details.",
+    "source_chunks": [
+      "تختلف اللوحات في تصاميمها و المواد المصنعة لها حسب العقد مع الشركة المصنعة. ستظهر للعميل النهائي صورة اللوحة و تفاصيلها"
+    ],
+    "audio_file": "wav/Q070.wav"
+  },
+  {
+    "id": "Q071",
+    "pair_id": "P036",
+    "language": "ar",
+    "question": "هل يمكن الدفع من خلال الرصيد؟",
+    "expected_answer": "يمكن الدفع للعميل بنفس وسائل الدفع المتاحة حالياً في موقع سبل.",
+    "source_chunks": [
+      "يمكن الدفع للعميل بنفس وسائل الدفع المتاحة حاليا في موقع سبل"
+    ],
+    "audio_file": "wav/Q071.wav"
+  },
+  {
+    "id": "Q072",
+    "pair_id": "P036",
+    "language": "en",
+    "question": "Can payment be made through the balance?",
+    "expected_answer": "The customer can pay using the same payment methods currently available on the SPL website.",
+    "source_chunks": [
+      "يمكن الدفع للعميل بنفس وسائل الدفع المتاحة حاليا في موقع سبل"
+    ],
+    "audio_file": "wav/Q072.wav"
+  },
+  {
+    "id": "Q073",
+    "pair_id": "P037",
+    "language": "ar",
+    "question": "كيف يمكن التحقق من حالة طلب العميل وكيفية البحث عنه؟",
+    "expected_answer": "يمكن التحقق من حالة طلب العميل عبر البحث عن رقم الطلب الذي يظهر للعميل في صفحة (طلباتي)، ومن ثم البحث في نظام CRM: الذهاب لخدمة العملاء واختيار طلبات تركيب العنوان الوطني، وستظهر قائمة طلبات تركيب لوحات العنوان ويمكن البحث برقم الطلب لمعرفة حالته.",
+    "source_chunks": [
+      "يمكن التحقق من حالة طلب العميل عبر البحث عن رقم الطلب الذي يظهر للعميل في صفحة (طلباتي) و من ثم البحث في نظام CRM: الذهاب لخدمة العملاء و اختيار طلبات تركيب العنوان الوطني، ستظهر قائمة طلبات تركيب لوحات العنوان ويمكن البحث برقم الطلب لمعرفة حالته"
+    ],
+    "audio_file": "wav/Q073.wav"
+  },
+  {
+    "id": "Q074",
+    "pair_id": "P037",
+    "language": "en",
+    "question": "How can the status of a customer's request be verified and how can it be searched?",
+    "expected_answer": "The customer's request status can be verified by searching for the request number shown in the My Requests page, then searching in the CRM system: go to customer service and choose National Address Installation Requests. A list of plate installation requests will appear and can be searched by request number to find its status.",
+    "source_chunks": [
+      "يمكن التحقق من حالة طلب العميل عبر البحث عن رقم الطلب الذي يظهر للعميل في صفحة (طلباتي) و من ثم البحث في نظام CRM: الذهاب لخدمة العملاء و اختيار طلبات تركيب العنوان الوطني، ستظهر قائمة طلبات تركيب لوحات العنوان ويمكن البحث برقم الطلب لمعرفة حالته"
+    ],
+    "audio_file": "wav/Q074.wav"
+  },
+  {
+    "id": "Q075",
+    "pair_id": "P038",
+    "language": "ar",
+    "question": "عند تغيير رقم الجوال بالطلب هل سينعكس على العنوان الوطني أم يقتصر على الطلب نفسه؟",
+    "expected_answer": "نعم، سينعكس على العنوان الوطني وسينقل العميل لصفحة بياناته الشخصية للتغيير.",
+    "source_chunks": [
+      "عند تغيير رقم الجوال بالطلب هل سينعكس بالعنوان الوطني أم فقط يقتصر على الطلب نفسه؟ نعم، وسينقل العميل لصفحة بياناته الشخصية للتغيير"
+    ],
+    "audio_file": "wav/Q075.wav"
+  },
+  {
+    "id": "Q076",
+    "pair_id": "P038",
+    "language": "en",
+    "question": "When the mobile number on the request is changed, does it reflect on the National Address or only on the request itself?",
+    "expected_answer": "Yes, it will reflect on the National Address and the customer will be taken to their personal data page to make the change.",
+    "source_chunks": [
+      "عند تغيير رقم الجوال بالطلب هل سينعكس بالعنوان الوطني أم فقط يقتصر على الطلب نفسه؟ نعم، وسينقل العميل لصفحة بياناته الشخصية للتغيير"
+    ],
+    "audio_file": "wav/Q076.wav"
+  },
+  {
+    "id": "Q077",
+    "pair_id": "P039",
+    "language": "ar",
+    "question": "كيف ستكون الجدولة لتواصل الفريق لتركيب اللوحة بعد توفير التصريح؟",
+    "expected_answer": "فرق التركيب هي فرق تركيب خارجية تتواصل مع العميل لتنسيق التركيب والحصول على التصريح من العميل.",
+    "source_chunks": [
+      "فرق التركيب هي فرق تركيب خارجية تتواصل مع العميل لتنسيق التركيب والحصول على التصريح من العميل"
+    ],
+    "audio_file": "wav/Q077.wav"
+  },
+  {
+    "id": "Q078",
+    "pair_id": "P039",
+    "language": "en",
+    "question": "How will the scheduling be for the team to contact the customer to install the plate after the permit is provided?",
+    "expected_answer": "The installation teams are external teams that contact the customer to coordinate the installation and obtain the permit from the customer.",
+    "source_chunks": [
+      "فرق التركيب هي فرق تركيب خارجية تتواصل مع العميل لتنسيق التركيب والحصول على التصريح من العميل"
+    ],
+    "audio_file": "wav/Q078.wav"
+  },
+  {
+    "id": "Q079",
+    "pair_id": "P040",
+    "language": "ar",
+    "question": "هل يمكن للعميل تصميم لوحة والتعامل مع مصنع آخر مباشرة؟",
+    "expected_answer": "نعم، بإمكان العميل أن يقوم بتصنيع وتصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع وتركيب اللوحات.",
+    "source_chunks": [
+      "بإمكان العميل أن يقوم بتصنيع و تصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع و تركيب اللوحات"
+    ],
+    "audio_file": "wav/Q079.wav"
+  },
+  {
+    "id": "Q080",
+    "pair_id": "P040",
+    "language": "en",
+    "question": "Can the customer design a plate and deal directly with another factory?",
+    "expected_answer": "Yes. The customer can manufacture and design the plate themselves or deal with other factories, provided they comply with the approved specifications for manufacturing and installing plates.",
+    "source_chunks": [
+      "بإمكان العميل أن يقوم بتصنيع و تصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع و تركيب اللوحات"
+    ],
+    "audio_file": "wav/Q080.wav"
+  },
+  {
+    "id": "Q081",
+    "pair_id": "P041",
+    "language": "ar",
+    "question": "كيف يتم التحقق من عدم أهلية الموقع للتركيب؟",
+    "expected_answer": "التحقق من أهلية الموقع هي مسؤولية فريق نظم المعلومات الجغرافية، وفي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر.",
+    "source_chunks": [
+      "التحقق من أهلية الموقع هي مسؤولية فريق نظم المعلومات الجغرافية ففي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر"
+    ],
+    "audio_file": "wav/Q081.wav"
+  },
+  {
+    "id": "Q082",
+    "pair_id": "P041",
+    "language": "en",
+    "question": "How is the verification of a site's ineligibility for installation done?",
+    "expected_answer": "Verifying site eligibility is the responsibility of the GIS team. If the customer files a complaint about site ineligibility, the GIS team is the one authorized to verify the matter.",
+    "source_chunks": [
+      "التحقق من أهلية الموقع هي مسؤولية فريق نظم المعلومات الجغرافية ففي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر"
+    ],
+    "audio_file": "wav/Q082.wav"
+  },
+  {
+    "id": "Q083",
+    "pair_id": "P042",
+    "language": "ar",
+    "question": "في حال وجود ملاحظات أو اعتراض على جودة اللوحة ويرغب العميل بتبديلها، كيف ستكون الآلية؟",
+    "expected_answer": "يرفع العميل شكوى عبر الموقع على الطلب المحدد وستصل الشكوى للشركة المصنعة. وفي حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+    "source_chunks": [
+      "يرفع العميل شكوى عبر الموقع على الطلب المحدد و ستصل الشكوى للشركة المصنعة. في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي"
+    ],
+    "audio_file": "wav/Q083.wav"
+  },
+  {
+    "id": "Q084",
+    "pair_id": "P042",
+    "language": "en",
+    "question": "If the customer has notes or objections about the plate quality and wants it replaced, what is the mechanism?",
+    "expected_answer": "The customer files a complaint through the website on the specific request and it reaches the manufacturing company. If the plate was installed incorrectly or its quality does not match the approved specifications, the manufacturing company must replace it within 7 working days at no cost.",
+    "source_chunks": [
+      "يرفع العميل شكوى عبر الموقع على الطلب المحدد و ستصل الشكوى للشركة المصنعة. في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي"
+    ],
+    "audio_file": "wav/Q084.wav"
+  },
+  {
+    "id": "Q085",
+    "pair_id": "P043",
+    "language": "ar",
+    "question": "كم مهلة حل البلاغات والشكاوى المتعلقة بالخدمة؟",
+    "expected_answer": "معالجة الشكاوى المتعلقة بخدمة تركيب لوحة هي مسؤولية فريق نظم المعلومات الجغرافية، والحد الأقصى لمعالجة الشكاوى والبلاغات هو 72 ساعة.",
+    "source_chunks": [
+      "معالجة الشكاوى المتعلقة بخدمة تركيب لوحة هي مسؤولية فريق نظم المعلومات الجغرافية، والحد الأقصى لمعالجة الشكاوى و البلاغات هو 72 ساعة"
+    ],
+    "audio_file": "wav/Q085.wav"
+  },
+  {
+    "id": "Q086",
+    "pair_id": "P043",
+    "language": "en",
+    "question": "How long is the period for resolving complaints related to the service?",
+    "expected_answer": "Handling complaints related to the plate installation service is the responsibility of the GIS team, and the maximum period for handling complaints is 72 hours.",
+    "source_chunks": [
+      "معالجة الشكاوى المتعلقة بخدمة تركيب لوحة هي مسؤولية فريق نظم المعلومات الجغرافية، والحد الأقصى لمعالجة الشكاوى و البلاغات هو 72 ساعة"
+    ],
+    "audio_file": "wav/Q086.wav"
+  }
+]

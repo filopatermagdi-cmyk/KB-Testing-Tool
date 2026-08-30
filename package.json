@@ -1,0 +1,33 @@
+{
+  "name": "zilla-kb-tool",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automated Knowledge Base regression testing for Zilla. Phase 1: KB parsing + question generation.",
+  "type": "module",
+  "scripts": {
+    "extract-chunks": "python3 src/question-generator/extract_chunks.py spl_kb.docx data/chunks.json",
+    "generate-questions": "tsx src/question-generator/generate.ts",
+    "validate-questions": "tsx src/question-generator/validate.ts",
+    "generate-audio": "tsx src/tts/generate_audio.ts",
+    "build-sessions": "tsx src/session-runner/build_sessions.ts",
+    "run-sessions": "tsx src/session-runner/run_sessions.ts",
+    "run-sessions-ws": "tsx src/session-runner/run_sessions_ws.ts",
+    "get-token": "tsx src/session-runner/get-token.ts",
+    "capture-answers": "tsx src/capture/capture_answers.ts",
+    "agents": "tsx src/agents/agents.ts",
+    "clean": "tsx src/clean.ts",
+    "evaluate": "python3 -X utf8 -u src/evaluator/evaluate.py",
+    "ui": "tsx src/ui/server.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.21.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/ws": "^8.18.1",
+    "playwright": "^1.48.0",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}

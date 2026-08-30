@@ -1,0 +1,730 @@
+[
+  {
+    "id": "chunk_003",
+    "text": "الحد الادنى للدخل (بدون تحويل راتب): للرواتب بشكل (450) دينار، للمهنيين وأصحاب الأعمال الحرة (1,000) دينار، المغتربين (2,000) دينار."
+  },
+  {
+    "id": "chunk_043",
+    "text": "مستندات السيارة (مع تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك."
+  },
+  {
+    "id": "chunk_012_en",
+    "text": "(Technical Inspection) Car Valuation (without salary transfer): New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. For new cars from the dealership, a quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+  },
+  {
+    "id": "chunk_014",
+    "text": "أمر الدفع قيمة السيارة (بدون تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض."
+  },
+  {
+    "id": "chunk_014_en",
+    "text": "Payment Order for Car Value (without salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account."
+  },
+  {
+    "id": "chunk_005",
+    "text": "الحد الاعلى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (150,000) دينار للسيارة الواحدة وبعدد سيارات لا يتجاوز 3 سيارات في مجموع اجمالي (200,000) دينار."
+  },
+  {
+    "id": "chunk_041",
+    "text": "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+  },
+  {
+    "id": "chunk_008",
+    "text": "الحد الاعلى لمدة التمويل (بدون تحويل راتب): (8) سنوات."
+  },
+  {
+    "id": "chunk_034",
+    "text": "أمر الدفع قيمة السيارة (مع تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض."
+  },
+  {
+    "id": "chunk_007",
+    "text": "الحد الادنى لمدة التمويل (بدون تحويل راتب): (12) شهر."
+  },
+  {
+    "id": "chunk_029_en",
+    "text": "Financing Ratio (with salary transfer): 100% with salary transfer, and 80% without transfer and all other sectors. Salary Transfer: Yes, except for professionals. Customer Subscribed to Social Security (Yes/No): Yes, except for professionals."
+  },
+  {
+    "id": "chunk_024",
+    "text": "عبء الدين (مع تحويل راتب): للرواتب اقل او تساوي من 2,500 دينار: 55% للقرض فقط بالإضافة الى 5% للبطاقة لاصحاب الدخل اقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة الى 10% للبطاقة لاصحاب الدخل اعلى من 2500 دينار. عبء الدين مديون وكفيل: 70%."
+  },
+  {
+    "id": "chunk_050_en",
+    "text": "Additional Features (Abu Khader campaign): Monthly loan installments are borne from the granting date until 1/1/2027 by Abu Khader Automotive Group, paid in advance to the account. The dealership bears on behalf of the customer from one monthly installment up to the installments due until 1/1/2027."
+  },
+  {
+    "id": "chunk_029",
+    "text": "نسبة التمويل (مع تحويل راتب): 100% عند تحويل الراتب و80% بدون تحويل و جميع القطاعات الأخرى. تحويل راتب: نعم الا للمهنين. خضوع العميل بالضمان الاجتماعي (نعم/لا): نعم الا للمهنين."
+  },
+  {
+    "id": "chunk_003_en",
+    "text": "Minimum Income (without salary transfer): Salaried Employees: 450 JOD. Professionals and Self-Employed: 1,000 JOD. Expatriates: 2,000 JOD."
+  },
+  {
+    "id": "chunk_021",
+    "text": "نسبة التمويل 80% من المعارض المعتمدة التالية: معرض الشريف /معرض القلم /معرض نهار بغداد /معرض بورصة السيارات كلاسيك كار/ معرض بريستيج/ معرض الرائد /معرض ريمون حنانيا / معرض سيارتي /معرض كركر/معرض شادي فريج/معرض الرائع/ معرض Auto house /الطريق الابيض /معرض رويال /معرض عماد المغيرة / معرض بركات العواملة/ معرض ليث جريسات/ معرض مالك بني عمر/ معرض الجيلاوي/ معرض شعيبث /معرض البلورة/ معرض ابو ايمن القمة/ معرض البستنجي معرض استانبولي/معرض معتز جريسات /معرض المدينة الذكية /معارض العبيدي / معرض ابو هيكل/ معرض الهدف/ معرض مقبل/ معرض سيارتك/ معرض الصقر/معرض الخبراء/معرض العقاب /معرض الياقوت/ معرض اميغوز/ معرض العساف /معرض الحدائق/ معرض نمبر ون/ معرض الامين/معرض اوتومول/معرض محمد غريب/ معرض بيبلوسالعصرية لتجارة السيارات/ معرض العلامة الذهيبة /معرض كاكوري/ معرض اوتوكارمعرض نادر غيث/ معرض بوابة السابع/ معرض علي خريسات/ معرض غسان العبيديمعرض قطيشات/ معرض شركة سيارات المستقبل/ معرض بلال ابو الشيح /معرض ليث و قصيمعرض البخيت/ معرض الديك/ معرض عدوان الصالح /معرض محمد العسافمعرض الجدي/معرض بسمان/ معرض جوهرة البخيت/ معرض الحسينيمعرض حيدر /معرض العطيوي/ معرض ابو ناصر/ معرض رزان."
+  },
+  {
+    "id": "chunk_027_en",
+    "text": "Granting Commission (with salary transfer): 1%. Restructuring Commission: 5 JOD."
+  },
+  {
+    "id": "chunk_023_en",
+    "text": "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+  },
+  {
+    "id": "chunk_045",
+    "text": "الجزء 2: المهنيين والأعمال الحرة والمغتربين: الأطباء والمهندسين و والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين و حاملوا الشهادات المالية الذين لديهم أعمال خاصة بهم. الحد الادنى لمدة الخدمة: سنتان."
+  },
+  {
+    "id": "chunk_048_en",
+    "text": "Part 5: With Salary Transfer -- Public Sector: Providing the necessary financing for customers from the target segments to own new or used cars, including hybrid and electric cars, for personal or family use in line with their needs and desires, according to the criteria and conditions set out in the proposed program. Minimum Length of Service in the same company: (3) months * Product criteria apply to the job."
+  },
+  {
+    "id": "chunk_025",
+    "text": "مدة القرض (مع تحويل راتب): بشكل عام: 12 – 96 شهر."
+  },
+  {
+    "id": "chunk_045_en",
+    "text": "Part 2: Professionals, Self-Employed, and Expatriates: Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Minimum Length of Service: 2 years."
+  },
+  {
+    "id": "chunk_018_en",
+    "text": "Postponement of Installments (without salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments. Approval validity is 45 days."
+  },
+  {
+    "id": "chunk_037",
+    "text": "السيارات التي يتم تمويلها (مع تحويل راتب): السيارات ذات التسجيل الخصوصي فقط."
+  },
+  {
+    "id": "chunk_047",
+    "text": "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+  },
+  {
+    "id": "chunk_049",
+    "text": "الجزء 6: حملة قروض سيارات مجموعة أبو خضر للسيارات: 1. البرنامج مع تحويل راتب نسبة التمويل لغاية 100%. 2. البرنامج بدون تحويل راتب نسبة التمويل لغاية 80%. سعر الفائدة 7.25%."
+  },
+  {
+    "id": "chunk_051_en",
+    "text": "Loan Interest (Abu Khader campaign): The dealership or the customer bears the interest on the loan period."
+  },
+  {
+    "id": "chunk_021_en",
+    "text": "Financing Ratio 80% from the following approved showrooms: Al-Sharif Showroom / Al-Qalam Showroom / Nahar Baghdad Showroom / Boursa Classic Car Showroom / Prestige Showroom / Al-Raed Showroom / Raymond Hanania Showroom / Sayarati Showroom / Karkar Showroom / Shadi Freij Showroom / Al-Rae' Showroom / Auto House Showroom / Al-Tariq Al-Abyad / Royal Showroom / Imad Al-Mughaira Showroom / Barakat Al-Awamleh Showroom / Laith Jreisat Showroom / Malek Bani Omar Showroom / Al-Jilawi Showroom / Shuwaibith Showroom / Al-Balloura Showroom / Abu Ayman Al-Qimma Showroom / Al-Bustanji Showroom / Istanbouli Showroom / Moataz Jreisat Showroom / Smart City Showroom / Al-Obaidi Showrooms / Abu Heikal Showroom / Al-Hadaf Showroom / Muqbil Showroom / Sayyartak Showroom / Al-Saqr Showroom / Al-Khubara' Showroom / Al-Iqab Showroom / Al-Yaqout Showroom / Amigos Showroom / Al-Assaf Showroom / Al-Hadaeq Showroom / Number One Showroom / Al-Amin Showroom / Automall Showroom / Mohammad Gharib Showroom / Byblos Showroom / Al-Asriyya Auto Trade / Al-Alama Al-Dhahabiyya Showroom / Kakouri Showroom / Autocar Showroom / Nader Ghaith Showroom / 7th Gate Showroom / Ali Khreisat Showroom / Ghassan Al-Obaidi Showroom / Qteishat Showroom / Future Cars Co. Showroom / Bilal Abu Al-Sheeh Showroom / Laith & Qusai Showroom / Al-Bakhit Showroom / Al-Deek Showroom / Adwan Al-Saleh Showroom / Mohammad Al-Assaf Showroom / Al-Jidi Showroom / Basman Showroom / Jawharat Al-Bakhit Showroom / Al-Husseini Showroom / Haidar Showroom / Al-Oteiwi Showroom / Abu Naser Showroom / Razan Showroom."
+  },
+  {
+    "id": "chunk_011_en",
+    "text": "Documents Required for the Car (without salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank."
+  },
+  {
+    "id": "chunk_001",
+    "text": "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+  },
+  {
+    "id": "chunk_010",
+    "text": "المستندات المطلوبة للعميل (بدون تحويل راتب): إثبات الشخصية سارية المفعول. وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارات خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+  },
+  {
+    "id": "chunk_022",
+    "text": "لفئة 2: مع تحويل راتب - الجزء 1: قرض سيارة مع تحويل راتب بشكل عام - عمر العميل: العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+  },
+  {
+    "id": "chunk_033",
+    "text": "تأمين المركبة (مع تحويل راتب): تأمين السيارة شامل بما لا يقل عن قيمة القرض للسنة الأولى فقط."
+  },
+  {
+    "id": "chunk_042",
+    "text": "المهنيين (مع تحويل راتب): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة او الشركة."
+  },
+  {
+    "id": "chunk_053_en",
+    "text": "Campaign Duration (Abu Khader campaign): Until 31/12/2026. All other product conditions remain as they are."
+  },
+  {
+    "id": "chunk_037_en",
+    "text": "Financed Cars (with salary transfer): Private registration cars only."
+  },
+  {
+    "id": "chunk_034_en",
+    "text": "Payment Order for Car Value (with salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account."
+  },
+  {
+    "id": "chunk_002",
+    "text": "الحد الادنى لمدة الخدمة لجميع القطاعات (بدون تحويل راتب): ستة أشهر للموظفين المشتركين في الضمان الاجتماعي. أصحاب المهن والأعمال الحرة: داخل أمانة عمان سنة، وخارج أمانة عمان سنتين. المغتربين: سنتين."
+  },
+  {
+    "id": "chunk_052",
+    "text": "الية الخصم (حملة أبو خضر): يتم الحصول على كتاب تفويض من مجموعة أبو خضر لخصم مجموع الأقساط من حسابهم لدينا. يتم حجز المبلغ المقيد على حساب مجموعة أبو خضر لدينا في حساب تامينات فرعي لحساب العميل. يتم تفعيل امر تحويل دوري بقيمة القسط شهريا من حساب التامينات الى حاسب السداد."
+  },
+  {
+    "id": "chunk_030_en",
+    "text": "Financing Terms - Auto Loans in General (with salary transfer) - (Technical Inspection) Car Valuation: New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. New Cars from the Dealership: A quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+  },
+  {
+    "id": "chunk_007_en",
+    "text": "Minimum Financing Period (without salary transfer): 12 months."
+  },
+  {
+    "id": "chunk_018",
+    "text": "تأجيل الدفعات (بدون تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط. صلاحية الموافقة 45 يوم."
+  },
+  {
+    "id": "chunk_027",
+    "text": "عمولة المنح (مع تحويل راتب): 1%. عمولة إعادة هيكلة: 5 دنانير."
+  },
+  {
+    "id": "chunk_012",
+    "text": "(الفحص الفني) تخمين السيارة (بدون تحويل راتب): السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+  },
+  {
+    "id": "chunk_041_en",
+    "text": "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+  },
+  {
+    "id": "chunk_046",
+    "text": "الجزء 3: الاجهزة الامنية و العسكرية: الأجهزة الأمنية والعسكرية قوات الدرك والأمن العام القوات المسلحة وسلاح الجو المخابرات العامة. الحد الادنى لمدة الخدمة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+  },
+  {
+    "id": "chunk_048",
+    "text": "الجزء 5: مع تحويل رواتب – قطاع عام: توفير التمويل اللازم للعملاء من الشرائح المستهدفة لامتلاك السيارات الجديدة أو المستعملة بما فيها السيارات الهايبرد و الكهرباء، للاستعمال الشخصي أو العائلي بما يتناسب مع احتياجاتهم ورغباتهم، وفقا للمعايير والشروط الواردة بالبرنامج المقترح. الحد الادنى لمدة الخدمة بنفس الشركة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Maximum Loan Amount for all financing ratios (without salary transfer): 150,000 JOD per single car, for a maximum of 3 cars totaling 200,000 JOD."
+  },
+  {
+    "id": "chunk_044",
+    "text": "شروط تمويل السيارات الصينية (مع تحويل راتب): جميع السيارات الصينية التي لها وكيل حصري معتمد. يتم تمويل سيارات المنشأ الصيني وتحمل علامة تجارية عالمية غير صينية على سبيل المثال FORD, TOYOTA, VW بنفس شروط و ميزات السيارات غير الصينية. يتم تمويل السيارات التي تحمل علامة تجارية صينية من جميع المعارض شريطة وجود وكيل معتمد لها بالأردن وعداد صفر و حتى ان لم تكن مباعة من نفس الوكيل شريطة تزويدنا (فحص وتخمين + CARSEER). تمويل السيارات الصينية المستعملة شريطة ان لا يزيد عمرها 3 سنوات."
+  },
+  {
+    "id": "chunk_011",
+    "text": "المستندات المطلوبة للسيارة (بدون تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). عن رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك."
+  },
+  {
+    "id": "chunk_043_en",
+    "text": "Car Documents (with salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank."
+  },
+  {
+    "id": "chunk_022_en",
+    "text": "Category 2: With Salary Transfer - Part 1: Auto Loan with Salary Transfer in general - Customer Age: Age at granting for salaried employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+  },
+  {
+    "id": "chunk_023",
+    "text": "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+  },
+  {
+    "id": "chunk_042_en",
+    "text": "Professionals (with salary transfer): Copy of a valid occupational license or one that has not been expired for more than 3 months. Copy of the commercial register. Certified copy of syndicate membership, if any. Bank statement for 6 months for the customer's personal account and the establishment/company account."
+  },
+  {
+    "id": "chunk_044_en",
+    "text": "Terms for Financing Chinese Cars (with salary transfer): All Chinese cars that have an approved exclusive agent. Cars of Chinese origin bearing a non-Chinese global brand (e.g., FORD, TOYOTA, VW) are financed under the same terms and features as non-Chinese cars. Cars bearing a Chinese brand from all showrooms are financed, provided they have an approved agent in Jordan, are zero mileage, and even if they were not sold by the same agent, provided we are supplied with (Inspection and Valuation + CARSEER). Financing used Chinese cars is permitted provided their age does not exceed 3 years."
+  },
+  {
+    "id": "chunk_046_en",
+    "text": "Part 3: Security and Military Apparatuses: Security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence. Minimum Length of Service: (3) months * Product criteria apply to the job."
+  },
+  {
+    "id": "chunk_051",
+    "text": "فائدة القرض (حملة أبو خضر): تتحمل الوكالة الفائدة على مدة القرض او العميل."
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Documents Required from the Customer (without salary transfer): Valid proof of identity. Valid residency document (for non-Jordanians) in addition to a valid passport. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+  },
+  {
+    "id": "chunk_030",
+    "text": "شروط التمويل قرض السيارات بشكل عام (مع تحويل راتب) - (الفحص الفني) تخمين السيارة: السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+  },
+  {
+    "id": "chunk_053",
+    "text": "مدة الحملة لغاية 31/12/2026 (حملة أبو خضر)، مع بقاء كافة شروط المنتج كما هي."
+  },
+  {
+    "id": "chunk_047_en",
+    "text": "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+  },
+  {
+    "id": "chunk_033_en",
+    "text": "Vehicle Insurance (with salary transfer): Comprehensive car insurance for not less than the loan value for the first year only."
+  },
+  {
+    "id": "chunk_024_en",
+    "text": "Debt Burden (with salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, plus 5% for the card for incomes below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, plus 10% for the card for incomes above 2,500 JOD. Debt Burden (Debtor and Guarantor): 70%."
+  },
+  {
+    "id": "chunk_052_en",
+    "text": "Deduction Mechanism (Abu Khader campaign): An authorization letter is obtained from Abu Khader Group to deduct the total installments from their account with us. The amount credited to Abu Khader Group's account with us is held in a sub-insurance account for the customer. A periodic transfer order is activated for the monthly installment amount from the insurance account to the repayment account."
+  },
+  {
+    "id": "chunk_008_en",
+    "text": "Maximum Financing Period (without salary transfer): 8 years."
+  },
+  {
+    "id": "chunk_025_en",
+    "text": "Loan Period (with salary transfer): In general: 12 – 96 months."
+  },
+  {
+    "id": "chunk_049_en",
+    "text": "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%. Interest Rate: 7.25%"
+  },
+  {
+    "id": "chunk_050",
+    "text": "مزايا إضافية (حملة أبو خضر): يتم تحمل الأقساط الشهرية للقرض من تاريخ المنح الى غاية تاريخ 1/1/2027 من قبل مجموعة أبو خضر للسيارات بشكل مقدم بالحساب. تتحمل الوكالة عن العميل من قسط شهري واحد و حتى الأقساط المستحقة لغاية 1/1/2027."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "Minimum Length of Service for all sectors (without salary transfer): 6 months for employees subscribed to Social Security. Professionals and Self-Employed: 1 year inside Greater Amman Municipality, and 2 years outside Greater Amman Municipality. Expatriates: 2 years."
+  },
+  {
+    "id": "chunk_043",
+    "text": "كشف الضمان الاجتماعي للعملاء الذين مدة عملهم أقل من سنة للشركات باستثناء موظفي القطاع العام."
+  },
+  {
+    "id": "chunk_028",
+    "text": "معايير المنح لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تمويل عمولة التسديد المبكر لدى البنك الآخر. يتم تسديد قيمة القرض مباشرة للبنك المقرض. باقي قيمة القرض تحول لحساب العميل بعد ورود تعهد تحويل الراتب من مكان عمل العميل وبراءة ذمة من البنك السابق. يتم صرف المبلغ المتبقي من القرض بعد سداد التزام البنك الآخر وقبل ورود أول راتب شريطة الحصول على براءة ذمة أصولية وتعهد تحويل راتب أصولي والتأكد من صحة الكتاب من الشركة عن طريق الفرع."
+  },
+  {
+    "id": "chunk_034",
+    "text": "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+  },
+  {
+    "id": "chunk_007",
+    "text": "مدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة (مع تحويل راتب): مدة الخدمة لا تقل عن سنة وأن يكون العميل مشتركاً بصندوق الادخار أو ما شابه ذلك."
+  },
+  {
+    "id": "chunk_024",
+    "text": "تفاصيل نسبة التمويل - بناء (مع تحويل راتب): لغاية 100%."
+  },
+  {
+    "id": "chunk_071",
+    "text": "أوراق العقار (من غير تحويل راتب): عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء من مخمن معتمد. إثبات دفع الدفعة المقدمة لعملاء قروض البناء الجاهز. تخمين عقاري معتمد. يتم إيداع 80% من فرق التمويل بحساب العميل لدينا."
+  },
+  {
+    "id": "chunk_076_en",
+    "text": "Early Settlement Commission: 1% if more than a year remains until the end of the loan. 0% if less than a year remains until the end of the loan."
+  },
+  {
+    "id": "chunk_038",
+    "text": "شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور، وفي حال وجود أي حوافز يتم طلب قسيمة راتب لآخر 6 شهور (يجب أن تكون القسائم مختومة أو مروسة جهة العمل)."
+  },
+  {
+    "id": "chunk_062",
+    "text": "عبء الدين كمدين وكفيل (من غير تحويل راتب): 70%."
+  },
+  {
+    "id": "chunk_062_en",
+    "text": "Debt burden as a debtor and guarantor (without salary transfer): 70%."
+  },
+  {
+    "id": "chunk_055",
+    "text": "عمولة منح (من غير تحويل راتب): 1%."
+  },
+  {
+    "id": "chunk_015_en",
+    "text": "Can the loan ceiling be raised (with salary transfer, Category 1): Yes."
+  },
+  {
+    "id": "chunk_035_en",
+    "text": "Private Sector: Lawyers cannot be financed. Non-administrative commercial market employees cannot be financed. Financing company employees cannot be financed."
+  },
+  {
+    "id": "chunk_047",
+    "text": "في حال شراء الالتزامات للأجهزة الأمنية والعسكرية عدا المخابرات والتقاعد المدني والعسكري والضمان الاجتماعي، يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلينا بعد سداد التزاماته لدى البنك الآخر المحول إليه الراتب."
+  },
+  {
+    "id": "chunk_015",
+    "text": "هل يمكن رفع سقف القرض (مع تحويل راتب، الفئة الأولى): نعم."
+  },
+  {
+    "id": "chunk_001",
+    "text": "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "chunk_011_en",
+    "text": "Minimum loan period (with salary transfer, Category 1): 12 months."
+  },
+  {
+    "id": "chunk_019",
+    "text": "نسبة التمويل (مع تحويل راتب، الفئة الأولى): من 30% إلى 100%."
+  },
+  {
+    "id": "chunk_071_en",
+    "text": "Property Papers (without salary transfer): Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal. 80% of the financing difference is deposited in the customer's account with us."
+  },
+  {
+    "id": "chunk_034_en",
+    "text": "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+  },
+  {
+    "id": "chunk_002",
+    "text": "الحد الأدنى لصافي الراتب/الدخل (مع تحويل راتب): 450 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار. في حال الأجهزة الأمنية والعسكرية: 1,000 دينار مع عبء دين يقل عن 35%، و1,500 دينار مع عبء دين يقل عن 55%."
+  },
+  {
+    "id": "chunk_052",
+    "text": "الفئة 2: قرض سكني من غير تحويل راتب. العمر المطلوب: (24 إلى 65) سنة عند المنح و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "chunk_058_en",
+    "text": "Maximum loan period (without salary transfer): For lands: 96 months. For apartments: 300 months."
+  },
+  {
+    "id": "chunk_030_en",
+    "text": "Financing according to jobs - Public Sector: Third-category employees are excluded, except for those whose service period exceeds 3 years. Municipality employees and day laborers cannot be financed. Joint Services Councils employees cannot be financed."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "chunk_007_en",
+    "text": "Length of service, UN and affiliated international organizations employees (with salary transfer): Length of service is not less than one year and the customer must be a participant in a provident fund or similar."
+  },
+  {
+    "id": "chunk_058",
+    "text": "الحد الأقصى لمدة القرض (من غير تحويل راتب): للأراضي: 96 شهر. للشقق: 300 شهر."
+  },
+  {
+    "id": "chunk_076",
+    "text": "عمولة السداد المبكر: 1% في حال بقي أكثر من سنة على انتهاء القرض. 0% في حال تبقى أقل من سنة على انتهاء القرض."
+  },
+  {
+    "id": "chunk_011",
+    "text": "الحد الأدنى لمدة القرض (مع تحويل راتب، الفئة الأولى): 12 شهر."
+  },
+  {
+    "id": "chunk_043_en",
+    "text": "Social Security statement for customers whose employment period is less than a year for companies, excluding public sector employees."
+  },
+  {
+    "id": "chunk_028_en",
+    "text": "Granting criteria for buying loans from other banks: According to the applicable program. Financing the early settlement commission at the other bank. The loan value is paid directly to the lending bank. The remaining loan value is transferred to the customer's account after receiving a salary transfer commitment from the customer's workplace and a clearance certificate from the previous bank. The remaining loan amount is disbursed after settling the other bank's obligation and before the arrival of the first salary, provided obtaining a formal clearance certificate, a formal salary transfer commitment, and verifying the authenticity of the letter from the company through the branch."
+  },
+  {
+    "id": "chunk_055_en",
+    "text": "Granting commission (without salary transfer): 1%"
+  },
+  {
+    "id": "chunk_038_en",
+    "text": "Original salary certificate/payslip for the last three months, and in case of any incentives, a payslip for the last 6 months is requested (the payslip must be stamped or on the employer's letterhead)."
+  },
+  {
+    "id": "chunk_030",
+    "text": "تمويل حسب الوظائف - القطاع العام: موظفي الفئة الثالثة مستثنون ماعدا الذين تزيد مدة خدمتهم عن 3 سنوات. لا يمكن تمويل موظفي البلديات، عمال المياومة. لا يمكن تمويل موظفي مجالس الخدمات المشتركة."
+  },
+  {
+    "id": "chunk_019_en",
+    "text": "Financing ratio (with salary transfer, Category 1): from 30% to 100%."
+  },
+  {
+    "id": "chunk_035",
+    "text": "القطاع الخاص: لا يمكن تمويل المحامين. لا يمكن تمويل موظفي الأسواق التجارية الغير إداريين. لا يمكن تمويل موظفي شركات التمويل."
+  },
+  {
+    "id": "chunk_047_en",
+    "text": "In case of buying obligations for Security and Military Apparatuses, except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary is transferred."
+  },
+  {
+    "id": "chunk_024_en",
+    "text": "Financing ratio details - Construction (with salary transfer): Up to 100%."
+  },
+  {
+    "id": "chunk_052_en",
+    "text": "Category 2: Housing loan without salary transfer. Required Age: (24 to 65) years at the time of granting and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "chunk_067",
+    "text": "تفاصيل نسبة التمويل - شراء أراضي (من غير تحويل راتب): 60% حد أعلى."
+  },
+  {
+    "id": "chunk_067_en",
+    "text": "Financing ratio details - Buying lands (without salary transfer): 60% maximum limit."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "Minimum net salary/income (with salary transfer): 450 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD. In the case of Security and Military Apparatuses: 1,000 JOD with a debt burden of less than 35%, and 1,500 JOD with a debt burden of less than 55%."
+  },
+  {
+    "id": "chunk_005",
+    "text": "قيد مبلغ القرض مباشرةً في الحساب."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Instant Loan: An instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch."
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Can I apply for and obtain the loan on public holidays? Yes, you can apply at any time."
+  },
+  {
+    "id": "chunk_001",
+    "text": "القرض الفوري: قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، وتتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، ودون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع."
+  },
+  {
+    "id": "chunk_010",
+    "text": "هل يمكن التقديم والحصول على القرض أيام العطل الرسمية؟ نعم، يمكن التقديم في أي وقت."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Crediting the loan amount directly into the account."
+  },
+  {
+    "id": "chunk_003",
+    "text": "ما هي أنواع القروض العقارية/السكنية؟ قروض سكنية \\ عقارية مع تحويل راتب. قروض سكنية \\ عقارية مع غير تحويل راتب. قروض متناقصة مقابل رهن عقاري."
+  },
+  {
+    "id": "chunk_002",
+    "text": "ما هي أنواع القروض الشخصية؟ قرض شخصي. قرض شخصي لرواتب الأقل من 450 دينار. القرض الفوري مقابل بطاقة ائتمانية. قرض المكافآت الشخصي. قرض شخصي مقابل تأمينات. قرض شخصي مقابل رهن عقاري."
+  },
+  {
+    "id": "chunk_004",
+    "text": "ما هي أنواع قروض السيارات؟ مع تحويل راتب. بدون تحويل راتب."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "What are the types of loans provided by Bank al Etihad? Personal loans. Real estate / housing loans. Auto loans. Instant loans."
+  },
+  {
+    "id": "chunk_003_en",
+    "text": "What are the types of real estate/housing loans? Housing / real estate loans with salary transfer. Housing / real estate loans without salary transfer. Declining loans against a real estate mortgage."
+  },
+  {
+    "id": "chunk_004_en",
+    "text": "What are the types of auto loans? With salary transfer. Without salary transfer."
+  },
+  {
+    "id": "chunk_001",
+    "text": "ما هي أنواع القروض التي يوفرها بنك الاتحاد؟ قروض شخصية. قروض عقارية \\ سكنية. قروض سيارات. قروض فورية."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "What are the types of personal loans? Personal loan. Personal loan for salaries less than 450 JOD. Instant loan against a credit card. Personal rewards loan. Personal loan against cash collaterals. Personal loan against a real estate mortgage."
+  },
+  {
+    "id": "chunk_093_en",
+    "text": "Non-Employed Customers (Self-Employed): Minimum Loan Amount 2,000 JOD. Maximum Loan Amount 75,000 JOD (for customers with a good credit history), or 35,000 JOD (for customers without a credit history). Debt Burden Ratio (DBR) 40%. Minimum Service Period Two years."
+  },
+  {
+    "id": "chunk_005",
+    "text": "عبء الدين كمدين وكفيل: 70%."
+  },
+  {
+    "id": "chunk_103",
+    "text": "قرض شخصي مقابل رهن عقاري - الإفراط بالمديونية: 95%."
+  },
+  {
+    "id": "chunk_098_en",
+    "text": "Collateral value (Cash Collateral): 100%."
+  },
+  {
+    "id": "chunk_025",
+    "text": "يتم رفع سقف القرض شريطة: أن يكون ملتزم بالسداد ولا توجد عليه أي مستحقة أكثر من 30 يوم على نظام كريف لآخر 12 شهر."
+  },
+  {
+    "id": "chunk_055",
+    "text": "مدة الخدمة (القطاع الخاص): 3 شهور ومثبت للشركات المعتمدة. 3 شهور ومثبت للشركات غير المعتمدة شريطة وجود خبرات سابقة لا تقل عن سنة وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية. موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+  },
+  {
+    "id": "chunk_015_en",
+    "text": "Loan amount for freelance businesses without commercial registers: 2,000 – 25,000 JOD."
+  },
+  {
+    "id": "chunk_083_en",
+    "text": "Will I lose my previously earned cashback if I am late paying an installment? No, the previously earned cashback amount will remain in your vault, but you won't be able to earn more cashback until you return to paying installments on time."
+  },
+  {
+    "id": "chunk_035_en",
+    "text": "Additional Conditions: Exception from obtaining a conditional salary transfer commitment from the following entities: Security Apparatuses, University of Jordan, Prince Hamza Hospital, Royal Jordanian Air Force, and Social Security beneficiaries. It is sufficient to obtain an authorization from the customer to settle their indebtedness, receive the clearance certificate from the branch employee, and deliver it to the employer."
+  },
+  {
+    "id": "chunk_078",
+    "text": "هل سيصلني إشعار عندما يصل مبلغ الاسترداد النقدي لخزنة القروض؟ نعم، سوف تتلقى إشعاراً عبر التطبيق كل شهر عندما يصبح مبلغ الاسترداد النقدي في خزنتك متاحاً للسحب."
+  },
+  {
+    "id": "chunk_069",
+    "text": "ما هو قرض المكافآت الشخصي؟ قرض المكافآت الشخصي هو قرض شخصي يمنحك استرداد نقدي طالما حافظت على سداد أقساطك في وقتها. وبعد 6 شهور من الالتزام بالسداد على الوقت، يتم زيادة نسبة الاسترداد النقدي."
+  },
+  {
+    "id": "chunk_047",
+    "text": "الجزء 3: الأعمال الحرة بدون سجلات تجارية. أصحاب الأعمال الحرة بدون سجلات تجارية (المغنيين، المؤثرون على مواقع التواصل الاجتماعي، التقنيين، المستشارين)."
+  },
+  {
+    "id": "chunk_015",
+    "text": "مبلغ القرض للأعمال الحرة بدون سجلات تجارية: 2,000 – 25,000 دينار."
+  },
+  {
+    "id": "chunk_040",
+    "text": "متقاعدين الضمان الاجتماعي المبكر، العميل الذكر: يجب أن لا يقل العمر عن 50 سنة."
+  },
+  {
+    "id": "chunk_073",
+    "text": "أين يمكنني رؤية الاسترداد النقدي وكيف يمكنني سحبه؟ ستجد مبلغ الاسترداد النقدي في خزنة القروض على تطبيقنا، ويمكنك سحبه من الخزنة الموجودة في صفحة المكافآت. كل ما عليك فعله هو تحويله لحسابك."
+  },
+  {
+    "id": "chunk_001",
+    "text": "لفئة 1: معلومات القرض الشخصي بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65) و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "chunk_060",
+    "text": "مبلغ القرض بالدينار (رواتب أقل من 450): 2,000 – 10,000 دينار."
+  },
+  {
+    "id": "chunk_073_en",
+    "text": "Where can I see the cashback and how can I withdraw it? You will find the cashback amount in the loan vault on our app, and you can withdraw it from the vault on the rewards page. All you have to do is transfer it to your account."
+  },
+  {
+    "id": "chunk_010",
+    "text": "عمولة المنح: 1%."
+  },
+  {
+    "id": "chunk_020_en",
+    "text": "Buying loans from other banks: The minimum loan value is 2,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 500 JOD."
+  },
+  {
+    "id": "chunk_065_en",
+    "text": "Category 7: Personal Rewards Loan. The Personal Rewards Loan is designed to reward customers for their commitment to regularly paying installments by offering progressive reductions on loan margins. These rewards are granted as monthly cashback directly into their loan vault."
+  },
+  {
+    "id": "chunk_078_en",
+    "text": "Will I receive a notification when the cashback amount reaches the loan vault? Yes, you will receive an app notification every month when the cashback amount in your vault becomes available for withdrawal."
+  },
+  {
+    "id": "chunk_093",
+    "text": "العملاء غير الموظفين (أصحاب الأعمال الحرة): الحد الأدنى لمبلغ القرض 2,000 دينار أردني. الحد الأقصى لمبلغ القرض 75,000 دينار أردني (للعملاء الذين لديهم سجل ائتماني جيد)، أو 35,000 دينار أردني (للعملاء الذين ليس لديهم سجل ائتماني). نسبة عبء الدين (DBR) 40%. الحد الأدنى لفترة الخدمة سنتان."
+  },
+  {
+    "id": "chunk_103_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Over-indebtedness: 95%."
+  },
+  {
+    "id": "chunk_052",
+    "text": "خضوع العميل بالضمان الاجتماعي (القطاع العام): نعم. تعهد تحويل راتب: نعم."
+  },
+  {
+    "id": "chunk_030_en",
+    "text": "Ceiling Increase Conditions: 1) Minimum net salary of 450 JOD according to the product. 2) Adding the wife's guarantee for married individuals, and mother or sister's guarantee for unmarried individuals. 3) Requires the passage of one year since the original grant or one year since every last loan increase."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Category 1: General Personal Loan Information. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "chunk_088",
+    "text": "ماذا يحدث إذا قام العميل برفع سقف رصيد القرض المكافآت الشخصي؟ إذا قام العميل برفع سقف رصيد قرض المكافآت الشخصي، فسيتم إعادة تعيين الرصيد إلى المبلغ الجديد للقرض ويبدأ من (MOB = 0). وسيتم حساب الاسترداد النقدي بناءً على رصيد القرض بعد الزيادة."
+  },
+  {
+    "id": "chunk_040_en",
+    "text": "Early Social Security retirees (Male): Age must not be less than 50 years."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Debt burden as debtor and guarantor: 70%."
+  },
+  {
+    "id": "chunk_098",
+    "text": "قيمة التأمينات (تأمينات نقدية): 100%."
+  },
+  {
+    "id": "chunk_044",
+    "text": "الجزء 2: للمهنيين، أطباء الأسنان. الأطباء والمهندسين والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين وحاملو الشهادات المالية الذين لديهم أعمال خاصة بهم. أصحاب الأعمال الحرة. الأطباء أصحاب العيادات."
+  },
+  {
+    "id": "chunk_055_en",
+    "text": "Length of service (Private Sector): 3 months and confirmed for approved companies. 3 months and confirmed for unapproved companies, provided there is previous experience of not less than a year and no interruption in Social Security for more than a month between the last job and the current job. UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+  },
+  {
+    "id": "chunk_044_en",
+    "text": "Part 2: For Professionals, Dentists. Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Self-employed. Doctors owning clinics."
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Granting commission: 1%."
+  },
+  {
+    "id": "chunk_030",
+    "text": "شروط رفع السقف: 1) الحد الأدنى لصافي الراتب 450 دينار حسب المنتج. 2) إضافة كفالة الزوجة للمتزوجين، والغير متزوجين كفالة الأم أو الشقيقة. 3) يشترط مرور سنة على المنح الأصلي أو مرور سنة عن كل آخر زيادة للقرض."
+  },
+  {
+    "id": "chunk_083",
+    "text": "هل سأفقد الاسترداد النقدي الذي اكتسبته مسبقاً إذا تأخرت في دفع قسط من أقساطي؟ لا، سيبقى مبلغ الاسترداد النقدي الذي اكتسبته مسبقاً في خزنتك، ولكن لن تتمكن من اكتساب المزيد من الاسترداد النقدي إلى أن تعود لدفع الأقساط في وقتها."
+  },
+  {
+    "id": "chunk_035",
+    "text": "شروط إضافية: استثناء الحصول على تعهد تحويل الراتب المشروط من الجهات التالية: الأجهزة الأمنية، الجامعة الأردنية، مستشفى الأمير حمزة، سلاح الجو الملكي الأردني، والضمان الاجتماعي للمستفيدين، والاكتفاء بالحصول على تفويض من العميل بسداد مديونيته واستلام براءة الذمة من موظف الفرع وتسليمها لجهة العمل."
+  },
+  {
+    "id": "chunk_069_en",
+    "text": "What is the Personal Rewards Loan? It is a personal loan that gives you cashback as long as you maintain paying your installments on time. After 6 months of commitment to timely repayment, the cashback percentage increases."
+  },
+  {
+    "id": "chunk_047_en",
+    "text": "Part 3: Freelance Businesses without Commercial Registers. Freelancers without commercial registers (influencers on social media, technicians, consultants)."
+  },
+  {
+    "id": "chunk_052_en",
+    "text": "Customer subject to Social Security (Yes/No) (Public Sector): Yes. Salary transfer commitment: Yes."
+  },
+  {
+    "id": "chunk_020",
+    "text": "شراء قروض من بنوك أخرى: الحد الأدنى لقيمة القرض 2,000 دينار على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزامات عن 500 دينار."
+  },
+  {
+    "id": "chunk_025_en",
+    "text": "Raising the loan ceiling is subject to: Being committed to repayment with no dues exceeding 30 days on the CRIF system for the last 12 months."
+  },
+  {
+    "id": "chunk_088_en",
+    "text": "What happens if the customer raises the Personal Rewards Loan balance ceiling? If the customer raises the balance ceiling, the balance will reset to the new loan amount and start from (MOB = 0). The cashback will be calculated based on the loan balance after the increase."
+  },
+  {
+    "id": "chunk_060_en",
+    "text": "Loan amount in JOD (Salaries less than 450 JOD): 2,000 – 10,000 JOD."
+  },
+  {
+    "id": "chunk_065",
+    "text": "لفئة 7: قرض المكافآت الشخصي. قرض المكافآت الشخصي مصمم لمكافأة العملاء على التزامهم بسداد الأقساط بشكل منتظم، من خلال تقديم تخفيضات تدريجية على هوامش القرض. ويتم منح هذه المكافآت على شكل استرداد نقدي شهري يصل مباشرة إلى خزنة القرض الخاصة بهم."
+  },
+  {
+    "id": "chunk_005",
+    "text": "تحويل الراتب: غير مشترط."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "The Instant Loan Against a Credit Card is offered through the app, and the amount is transferred to the account within a short period. A credit card is issued against the loan, provided without a commission for the first year, after which there is an annual renewal commission that varies according to the card category. It cannot be rescheduled or restructured."
+  },
+  {
+    "id": "chunk_017_en",
+    "text": "Life insurance commission: According to the card's insurance commission (0.1% on the utilized balance, with a minimum of one JOD)."
+  },
+  {
+    "id": "chunk_009",
+    "text": "الحد الأدنى لعمر العميل عند المنح: 22-65 سنة."
+  },
+  {
+    "id": "chunk_017",
+    "text": "عمولة التأمين على الحياة: حسب عمولة التأمين للبطاقة (0.1% على الرصيد المستغل بحد أدنى دينار)."
+  },
+  {
+    "id": "chunk_001",
+    "text": "القرض الفوري مقابل بطاقة ائتمانية يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويتم إصدار بطاقة ائتمانية مقابل القرض، وتُصدر لأول سنة بدون عمولة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته."
+  },
+  {
+    "id": "chunk_009_en",
+    "text": "Customer's age at granting: 22-65 years."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Salary transfer: Not required."
+  },
+  {
+    "id": "chunk_013",
+    "text": "رفع سقف القرض: لا يمكن رفع السقف."
+  },
+  {
+    "id": "chunk_013_en",
+    "text": "Raising the ceiling: The ceiling cannot be raised."
+  }
+]

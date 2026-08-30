@@ -1,0 +1,802 @@
+[
+  {
+    "id": "LOANSQA-P001_chunk_001",
+    "text": "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+  },
+  {
+    "id": "LOANSQA-P001_chunk_001_en",
+    "text": "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+  },
+  {
+    "id": "LOANSQA-P002_chunk_003",
+    "text": "الحد الادنى للدخل (بدون تحويل راتب): للرواتب بشكل (450) دينار، للمهنيين وأصحاب الأعمال الحرة (1,000) دينار، المغتربين (2,000) دينار."
+  },
+  {
+    "id": "LOANSQA-P002_chunk_003_en",
+    "text": "Minimum Income (without salary transfer): Salaried Employees: 450 JOD. Professionals and Self-Employed: 1,000 JOD. Expatriates: 2,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P003_chunk_005",
+    "text": "الحد الاعلى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (150,000) دينار للسيارة الواحدة وبعدد سيارات لا يتجاوز 3 سيارات في مجموع اجمالي (200,000) دينار."
+  },
+  {
+    "id": "LOANSQA-P003_chunk_005_en",
+    "text": "Maximum Loan Amount for all financing ratios (without salary transfer): 150,000 JOD per single car, for a maximum of 3 cars totaling 200,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P004_chunk_008",
+    "text": "الحد الاعلى لمدة التمويل (بدون تحويل راتب): (8) سنوات."
+  },
+  {
+    "id": "LOANSQA-P004_chunk_008_en",
+    "text": "Maximum Financing Period (without salary transfer): 8 years."
+  },
+  {
+    "id": "LOANSQA-P005_chunk_009",
+    "text": "عبء الدين (بدون تحويل راتب): (50%) و(65%) في حال وجود بطاقة ائتمانية."
+  },
+  {
+    "id": "LOANSQA-P005_chunk_009_en",
+    "text": "Debt Burden Ratio (DBR) (without salary transfer): 50%, and 65% in case of holding a credit card."
+  },
+  {
+    "id": "LOANSQA-P006_chunk_013",
+    "text": "الضمانات (بدون تحويل راتب): رهن السيارة بقيمة تساوي 100% من قيمة القرض. يجب تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهن السيارة من الدرجة الأولى لصالح البنك وحده."
+  },
+  {
+    "id": "LOANSQA-P006_chunk_013_en",
+    "text": "Guarantees (without salary transfer): Mortgage on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank."
+  },
+  {
+    "id": "LOANSQA-P007_chunk_016",
+    "text": "عمولة السداد المبكر (بدون تحويل راتب): (1%) في حال بقي أكثر من سنة على انتهاء القرض و(0%) في حال تبقى أقل من سنة على انتهاء القرض."
+  },
+  {
+    "id": "LOANSQA-P007_chunk_016_en",
+    "text": "Early Settlement Commission (without salary transfer): (1%) if more than a year remains until the end of the loan, and (0%) if less than a year remains until the end of the loan."
+  },
+  {
+    "id": "LOANSQA-P008_chunk_017",
+    "text": "التأمين على الحياة (بدون تحويل راتب): الموافقة التلقائية ضمن بوليصة التأمين الجماعية شريطة: العملاء اللذين أعمارهم 65 سنة فاقل. مبلغ القرض اقل او يساوي من 100,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P008_chunk_017_en",
+    "text": "Life Insurance (without salary transfer): Automatic approval under the group insurance policy provided that: Customers are aged 65 or younger. The loan amount is less than or equal to 100,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P009_chunk_018",
+    "text": "تأجيل الدفعات (بدون تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة."
+  },
+  {
+    "id": "LOANSQA-P009_chunk_018_en",
+    "text": "Postponement of Installments (without salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year."
+  },
+  {
+    "id": "LOANSQA-P010_chunk_020",
+    "text": "الوكالات الصينية المعتمدة: مجموعة غرغور (Skywell). مجموعة غرغور (XPeng). شركة الاتحاد لتزويد المعدات (Maxus). صقر صقر لبناني الجنسية (IM Motors). شركة هارلم لتجارة السيارات (Jetour). الشركة المركزية للتجارة والمركبات (Chery)."
+  },
+  {
+    "id": "LOANSQA-P010_chunk_020_en",
+    "text": "Approved Chinese Dealerships: Gargour Group (Skywell). Gargour Group (XPeng). Union Equipment Supply Company (Maxus). Saqr Saqr - Lebanese Nationality (IM Motors). Harlem Auto Trade (Jetour). Central Trade and Auto Co. (Chery)."
+  },
+  {
+    "id": "LOANSQA-P011_chunk_021",
+    "text": "نسبة التمويل 80% من المعارض المعتمدة التالية: معرض الشريف /معرض القلم /معرض نهار بغداد..."
+  },
+  {
+    "id": "LOANSQA-P011_chunk_021_en",
+    "text": "Financing Ratio 80% from the following approved showrooms: Al-Sharif Showroom / Al-Qalam Showroom / Nahar Baghdad Showroom..."
+  },
+  {
+    "id": "LOANSQA-P012_chunk_023",
+    "text": "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+  },
+  {
+    "id": "LOANSQA-P012_chunk_023_en",
+    "text": "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P013_chunk_023",
+    "text": "الراتب الصافي (مع تحويل راتب): ... موظفين البنوك الأخرى (1000) دينار."
+  },
+  {
+    "id": "LOANSQA-P013_chunk_023_en",
+    "text": "Net Salary (with salary transfer): ... Other banks' employees: 1,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P014_chunk_028",
+    "text": "عمر السيارة (مع تحويل راتب): لا يزيد عن 14 سنة."
+  },
+  {
+    "id": "LOANSQA-P014_chunk_028_en",
+    "text": "Car Age (with salary transfer): Not exceeding 14 years."
+  },
+  {
+    "id": "LOANSQA-P015_chunk_031",
+    "text": "عدد السيارات الممولة (مع تحويل راتب): امكانية تمويل العميل بحد اقصى 200,000 دينار وبحسب نسبة الالتزام وبحد اقصى 3 سيارات قروض قائمة."
+  },
+  {
+    "id": "LOANSQA-P015_chunk_031_en",
+    "text": "Number of Financed Cars (with salary transfer): Possibility of financing the customer up to a maximum of 200,000 JOD depending on the commitment ratio, and a maximum of 3 active car loans."
+  },
+  {
+    "id": "LOANSQA-P016_chunk_035",
+    "text": "رسوم التأمين (مع تحويل راتب): تأمين على حياة المدين: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض اقل من 100,000 دينار. حسب مبلغ القرض: اقل من 20,000 دينار: 75 دينار. من 20,000 - 50,000 دينار: 150 دينار. أكبر من 50,000 دينار: 250 دينار."
+  },
+  {
+    "id": "LOANSQA-P016_chunk_035_en",
+    "text": "Insurance Fees (with salary transfer): Life insurance for the debtor: Customers aged 65 and below. Loan amount is less than 100,000 JOD. Based on the loan amount: Less than 20,000 JOD: 75 JOD. 20,000 - 50,000 JOD: 150 JOD. Greater than 50,000 JOD: 250 JOD."
+  },
+  {
+    "id": "LOANSQA-P017_chunk_036",
+    "text": "المقيمين الغير أردنيين (مع تحويل راتب): يتم منح الجنسيات التالية: العراقية والفلسطينيين على ان يتم معاملتهم نفس معاملة الأردنيين."
+  },
+  {
+    "id": "LOANSQA-P017_chunk_036_en",
+    "text": "Non-Jordanian Residents (with salary transfer) - The following nationalities are granted: Iraqis and Palestinians, provided they are treated the same as Jordanians."
+  },
+  {
+    "id": "LOANSQA-P018_chunk_040",
+    "text": "عمولة السداد المبكر (مع تحويل راتب): في حال بقي أكثر من سنة على انتهاء القرض 1%. في حال تبقى اقل من سنة على انتهاء القرض 0%."
+  },
+  {
+    "id": "LOANSQA-P018_chunk_040_en",
+    "text": "Early Settlement Commission (with salary transfer): If more than one year remains until the end of the loan: 1%. If less than one year remains until the end of the loan: 0%."
+  },
+  {
+    "id": "LOANSQA-P019_chunk_041",
+    "text": "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية)."
+  },
+  {
+    "id": "LOANSQA-P019_chunk_041_en",
+    "text": "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID)."
+  },
+  {
+    "id": "LOANSQA-P020_chunk_045",
+    "text": "الجزء 2: المهنيين والأعمال الحرة والمغتربين: الأطباء والمهندسين و والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين و حاملوا الشهادات المالية الذين لديهم أعمال خاصة بهم. الحد الادنى لمدة الخدمة: سنتان."
+  },
+  {
+    "id": "LOANSQA-P020_chunk_045_en",
+    "text": "Part 2: Professionals, Self-Employed, and Expatriates: Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Minimum Length of Service: 2 years."
+  },
+  {
+    "id": "LOANSQA-P021_chunk_046",
+    "text": "الجزء 3: الاجهزة الامنية و العسكرية: الأجهزة الأمنية والعسكرية قوات الدرك والأمن العام القوات المسلحة وسلاح الجو المخابرات العامة. الحد الادنى لمدة الخدمة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+  },
+  {
+    "id": "LOANSQA-P021_chunk_046_en",
+    "text": "Part 3: Security and Military Apparatuses: Security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence. Minimum Length of Service: (3) months * Product criteria apply to the job."
+  },
+  {
+    "id": "LOANSQA-P022_chunk_047",
+    "text": "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN."
+  },
+  {
+    "id": "LOANSQA-P022_chunk_047_en",
+    "text": "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations."
+  },
+  {
+    "id": "LOANSQA-P023_chunk_049",
+    "text": "الجزء 6: حملة قروض سيارات مجموعة أبو خضر للسيارات: 1. البرنامج مع تحويل راتب نسبة التمويل لغاية 100%. 2. البرنامج بدون تحويل راتب نسبة التمويل لغاية 80%."
+  },
+  {
+    "id": "LOANSQA-P023_chunk_049_en",
+    "text": "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%."
+  },
+  {
+    "id": "LOANSQA-P024_chunk_051",
+    "text": "فائدة القرض (حملة أبو خضر): تتحمل الوكالة الفائدة على مدة القرض او العميل."
+  },
+  {
+    "id": "LOANSQA-P024_chunk_051_en",
+    "text": "Loan Interest (Abu Khader campaign): The dealership or the customer bears the interest on the loan period."
+  },
+  {
+    "id": "LOANSQA-P025_chunk_053",
+    "text": "مدة الحملة لغاية 31/12/2026 (حملة أبو خضر)، مع بقاء كافة شروط المنتج كما هي."
+  },
+  {
+    "id": "LOANSQA-P025_chunk_053_en",
+    "text": "Campaign Duration (Abu Khader campaign): Until 31/12/2026. All other product conditions remain as they are."
+  },
+  {
+    "id": "LOANSQA-P026_chunk_001",
+    "text": "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "LOANSQA-P026_chunk_001_en",
+    "text": "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "LOANSQA-P027_chunk_002",
+    "text": "الحد الأدنى لصافي الراتب/الدخل (مع تحويل راتب): 450 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار. في حال الأجهزة الأمنية والعسكرية: 1,000 دينار مع عبء دين يقل عن 35%، و1,500 دينار مع عبء دين يقل عن 55%."
+  },
+  {
+    "id": "LOANSQA-P027_chunk_002_en",
+    "text": "Minimum net salary/income (with salary transfer): 450 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD. In the case of Security and Military Apparatuses: 1,000 JOD with a debt burden of less than 35%, and 1,500 JOD with a debt burden of less than 55%."
+  },
+  {
+    "id": "LOANSQA-P028_chunk_004",
+    "text": "مدة الخدمة للقطاع العام (مع تحويل راتب): 3 أشهر أو مثبت، باستثناء المدرسين للقطاع العام المثبتين والخاضعين للضمان، والمتقاعدين عند تقاعدهم مباشرة."
+  },
+  {
+    "id": "LOANSQA-P028_chunk_004_en",
+    "text": "Length of service, Public Sector (with salary transfer): 3 months or confirmed, excluding confirmed public sector teachers subject to Social Security, and retirees immediately upon retirement."
+  },
+  {
+    "id": "LOANSQA-P029_chunk_012",
+    "text": "الحد الأقصى لمدة القرض (مع تحويل راتب، الفئة الأولى): للأراضي: 96 شهر. للشقق: إذا التمويل أعلى من 80% تكون المدة 300 شهر، إذا التمويل لغاية 80% تكون المدة 360 شهر."
+  },
+  {
+    "id": "LOANSQA-P029_chunk_012_en",
+    "text": "Maximum loan period (with salary transfer, Category 1): For lands: 96 months. For apartments: If the financing is higher than 80%, the period is up to 300 months; if the financing is up to 80%, the period is 360 months."
+  },
+  {
+    "id": "LOANSQA-P030_chunk_014",
+    "text": "الحد الأقصى لمبلغ القرض (مع تحويل راتب، الفئة الأولى): 1,000,000."
+  },
+  {
+    "id": "LOANSQA-P030_chunk_014_en",
+    "text": "Maximum loan amount (with salary transfer, Category 1): 1,000,000."
+  },
+  {
+    "id": "LOANSQA-P031_chunk_016",
+    "text": "عبء الدين كمدين وكفيل (مع تحويل راتب، الفئة الأولى): 70%."
+  },
+  {
+    "id": "LOANSQA-P031_chunk_016_en",
+    "text": "Debt burden as a debtor and guarantor (with salary transfer, Category 1): 70%."
+  },
+  {
+    "id": "LOANSQA-P032_chunk_017",
+    "text": "عمر البناء (مع تحويل راتب، الفئة الأولى): أن لا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يظهر التخمين أنه بحالة جيدة، وبخلاف ذلك يتم الاعتماد على تخمين الأرض فقط."
+  },
+  {
+    "id": "LOANSQA-P032_chunk_017_en",
+    "text": "Property age (with salary transfer, Category 1): The age of the building must not exceed 20 years upon requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only."
+  },
+  {
+    "id": "LOANSQA-P033_chunk_019",
+    "text": "نسبة التمويل (مع تحويل راتب، الفئة الأولى): من 30% إلى 100%."
+  },
+  {
+    "id": "LOANSQA-P033_chunk_019_en",
+    "text": "Financing ratio (with salary transfer, Category 1): from 30% to 100%."
+  },
+  {
+    "id": "LOANSQA-P034_chunk_020",
+    "text": "تفاصيل نسبة التمويل - شراء شقق جاهزة (مع تحويل راتب): لغاية 100% حسب الشروط، وللمهنيين وأصحاب الأعمال الحرة والمغتربين 80%."
+  },
+  {
+    "id": "LOANSQA-P034_chunk_020_en",
+    "text": "Financing ratio details - Buying ready apartments (with salary transfer): Up to 100% according to conditions, and 80% for professionals, self-employed, and expatriates."
+  },
+  {
+    "id": "LOANSQA-P035_chunk_023",
+    "text": "تفاصيل نسبة التمويل - عقار لغاية الإجازة (مع تحويل راتب): 70% باستثناء أيلة لغاية 100%."
+  },
+  {
+    "id": "LOANSQA-P035_chunk_023_en",
+    "text": "Financing ratio details - Vacation property (with salary transfer): 70% except for Ayla up to 100%."
+  },
+  {
+    "id": "LOANSQA-P036_chunk_025",
+    "text": "شراء قروض عقارية/سكنية من بنوك أخرى - الحد الأدنى لقيمة القرض 15,000، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 1,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P036_chunk_025_en",
+    "text": "Buying Mortgage/housing loans from other banks - The minimum loan value is 15,000, provided that the remaining amount for the customer after paying obligations is not less than 1,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P037_chunk_029",
+    "text": "الوثائق المطلوبة لشراء قروض من بنوك أخرى: ... كشف حساب من البنك الآخر، وحسب مدة التزام وبحد أقصى 6 أشهر. ... يتم تقديم ميزة cash out بمقدار 10% من قيمة القرض ..."
+  },
+  {
+    "id": "LOANSQA-P037_chunk_029_en",
+    "text": "Required documents for buying loans from other banks: ... Account statement from the other bank, according to the commitment period and for a maximum of 6 months. ... A cash-out feature of 10% of the loan value is provided ..."
+  },
+  {
+    "id": "LOANSQA-P038_chunk_030",
+    "text": "تمويل حسب الوظائف - القطاع العام: ... لا يمكن تمويل موظفي البلديات، عمال المياومة."
+  },
+  {
+    "id": "LOANSQA-P038_chunk_030_en",
+    "text": "Financing according to jobs - Public Sector: ... Municipality employees and day laborers cannot be financed."
+  },
+  {
+    "id": "LOANSQA-P039_chunk_032",
+    "text": "يمنع منح قروض لمن هم دون رتبة وكيل حتى وإن تم تحويل الراتب إلينا باستثناء قروض رفع السقف."
+  },
+  {
+    "id": "LOANSQA-P039_chunk_032_en",
+    "text": "Loans are prohibited for those below the rank of Warrant Officer (Wakil), even if the salary is transferred to us, except for loan ceiling increase loans."
+  },
+  {
+    "id": "LOANSQA-P040_chunk_034",
+    "text": "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى."
+  },
+  {
+    "id": "LOANSQA-P040_chunk_034_en",
+    "text": "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit."
+  },
+  {
+    "id": "LOANSQA-P041_chunk_035",
+    "text": "القطاع الخاص: لا يمكن تمويل المحامين."
+  },
+  {
+    "id": "LOANSQA-P041_chunk_035_en",
+    "text": "Private Sector: Lawyers cannot be financed."
+  },
+  {
+    "id": "LOANSQA-P042_chunk_051",
+    "text": "أوراق العقار: عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء مبين به مراحل البناء من مخمن معتمد. إثبات دفع العميل الدفعة المقدمة لعملاء قروض تمويل البناء الجاهز. تخمين عقاري معتمد."
+  },
+  {
+    "id": "LOANSQA-P042_chunk_051_en",
+    "text": "Property Papers: Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal."
+  },
+  {
+    "id": "LOANSQA-P043_chunk_052",
+    "text": "الفئة 2: قرض سكني من غير تحويل راتب. العمر المطلوب: (24 إلى 65) سنة عند المنح و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "LOANSQA-P043_chunk_052_en",
+    "text": "Category 2: Housing loan without salary transfer. Required Age: (24 to 65) years at the time of granting and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "LOANSQA-P044_chunk_060",
+    "text": "الحد الأقصى لمبلغ القرض (من غير تحويل راتب): 300,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P044_chunk_060_en",
+    "text": "Maximum loan amount (without salary transfer): 300,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P045_chunk_067",
+    "text": "تفاصيل نسبة التمويل - شراء أراضي (من غير تحويل راتب): 60% حد أعلى."
+  },
+  {
+    "id": "LOANSQA-P045_chunk_067_en",
+    "text": "Financing ratio details - Buying lands (without salary transfer): 60% maximum limit."
+  },
+  {
+    "id": "LOANSQA-P046_chunk_073",
+    "text": "أنواع الممتلكات التي لا يمكن تمويلها: الممتلكات ذات الاستعمال المقيد قانونياً، كالأراضي الزراعية. شراء الأراضي لغايات الاستثمار. أية ممتلكات تخضع لقيود على إعادة بيعها أو تحد من قيمتها. الممتلكات التجارية، والممتلكات الصناعية، والممتلكات الأخرى دون الاستخدام السكني. التأكد من العلاقة التجارية بين البائع والمشتري (يمنع تمويل الشراء من أقارب من الدرجة الأولى)."
+  },
+  {
+    "id": "LOANSQA-P046_chunk_073_en",
+    "text": "Types of properties that cannot be financed: Properties with legally restricted use, for example, lands designated for agricultural purposes. Buying lands for investment purposes. Any properties subject to restrictions on resale or that limit their value. Commercial properties, industrial properties, and other properties without residential use. Ensuring the commercial relationship between the seller and buyer (financing purchases from first-degree relatives is prohibited)."
+  },
+  {
+    "id": "LOANSQA-P047_chunk_074",
+    "text": "شروط الاعفاء من عمولة المنح وتحمل البنك مصاريف الرهن: مبلغ القرض 40,000 فما فوق. أن لا تقل مدة القرض عن 10 سنوات. التزام العميل مع البنك 5 سنوات. عملاء الرواتب شريطة تحويل الراتب."
+  },
+  {
+    "id": "LOANSQA-P047_chunk_074_en",
+    "text": "Conditions for exemption from granting commission and the bank bearing mortgage expenses: Loan amount of 40,000 and above. The loan period is not less than 10 years. The customer's commitment with the bank for 5 years. Salary customers provided salary transfer."
+  },
+  {
+    "id": "LOANSQA-P048_chunk_078",
+    "text": "الإجراءات: تمويل 60% في حال رهن شقة. المدة (12-96) شهر، الاقتراض (25,000 - 150,000) دينار أردني، عبء الدين 55%."
+  },
+  {
+    "id": "LOANSQA-P048_chunk_078_en",
+    "text": "Procedures: 60% financing in case of an apartment mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+  },
+  {
+    "id": "LOANSQA-P049_chunk_080",
+    "text": "متطلبات القرض المتناقص مقابل رهن عقار: تخمين عقاري، بحسب سياسة التخمين العقاري."
+  },
+  {
+    "id": "LOANSQA-P049_chunk_080_en",
+    "text": "Requirements: Property appraisal, according to the property appraisal policy."
+  },
+  {
+    "id": "LOANSQA-P050_chunk_001",
+    "text": "لفئة 1: معلومات القرض الشخصي بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65) و(75) سنة عند تسديد آخر قسط."
+  },
+  {
+    "id": "LOANSQA-P050_chunk_001_en",
+    "text": "Category 1: General Personal Loan Information. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+  },
+  {
+    "id": "LOANSQA-P051_chunk_004",
+    "text": "في حال القطاع الأمني أو العسكري أو راتب أقل من 450 دينار يكون عبء الدين 35%."
+  },
+  {
+    "id": "LOANSQA-P051_chunk_004_en",
+    "text": "In the case of the Security or Military sector, or a salary less than 450 JOD, the debt burden is 35%."
+  },
+  {
+    "id": "LOANSQA-P052_chunk_006",
+    "text": "الحد الأدنى لصافي الدخل بشكل عام: 450 دينار."
+  },
+  {
+    "id": "LOANSQA-P052_chunk_006_en",
+    "text": "Minimum net income in general: 450 JOD."
+  },
+  {
+    "id": "LOANSQA-P053_chunk_008",
+    "text": "الحد الأدنى لصافي الدخل في حال المهنيين وأطباء الأسنان والأطباء أصحاب العيادات: 2,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P053_chunk_008_en",
+    "text": "Minimum net income in the case of professionals, dentists, and doctors with clinics: 2,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P054_chunk_011",
+    "text": "مبلغ القرض بشكل عام: 2,000 – 110,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P054_chunk_011_en",
+    "text": "Loan amount in general: 2,000 – 110,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P055_chunk_016",
+    "text": "مدة القرض بشكل عام: 12 – 96 شهر."
+  },
+  {
+    "id": "LOANSQA-P055_chunk_016_en",
+    "text": "Loan period in general: 12 – 96 months."
+  },
+  {
+    "id": "LOANSQA-P056_chunk_020",
+    "text": "شراء قروض من بنوك أخرى: الحد الأدنى لقيمة القرض 2,000 دينار على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزامات عن 500 دينار."
+  },
+  {
+    "id": "LOANSQA-P056_chunk_020_en",
+    "text": "Buying loans from other banks: The minimum loan value is 2,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 500 JOD."
+  },
+  {
+    "id": "LOANSQA-P057_chunk_023",
+    "text": "رسوم التأمين - تأمين على حياة المدين: الموافقة التلقائية ضمن بوليصة التأمين الجماعية: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض أقل من 100,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P057_chunk_023_en",
+    "text": "Insurance fees - Life insurance for the debtor: Automatic approval within the group insurance policy. Customers aged 65 years and below. Loan amount is less than 100,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P058_chunk_026",
+    "text": "يتم رفع سقف القرض شريطة: الاعتذار حصراً في حال وجود قضايا آخر 3 سنوات كمدين أو كفيل للزوج/الزوجة، باستثناء قضايا القتل العمد والمخدرات والاختلاس وقضايا الشرف، أو ظهور القضية بعد تاريخ المنح الأصلي."
+  },
+  {
+    "id": "LOANSQA-P058_chunk_026_en",
+    "text": "Raising the loan ceiling is subject to: Exclusive rejection in case of lawsuits in the last 3 years as a debtor or guarantor for the husband/wife, excluding premeditated murder, drugs, embezzlement, and honor crimes. Or if the lawsuit appears after the original granting date."
+  },
+  {
+    "id": "LOANSQA-P059_chunk_027",
+    "text": "شروط التمويل الإضافي (زيادة الرصيد): الحد الأدنى لقيمة الزيادة على رصيد القرض الحالي: 500 دينار. ... قروض رفع السقف وإعادة الجدولة يتم قبول الراتب صافي 450 دينار لجميع القطاعات أو 350 دينار للمهنيين وأصحاب الأعمال الحرة."
+  },
+  {
+    "id": "LOANSQA-P059_chunk_027_en",
+    "text": "Additional financing conditions (Top-up): Minimum increase amount on the current loan balance: 500 JOD. ... For ceiling increase and rescheduling loans, a net salary of 450 JOD is accepted for all sectors, or 350 JOD for professionals and self-employed."
+  },
+  {
+    "id": "LOANSQA-P060_chunk_028",
+    "text": "لفئة 2: قرض شخصي (القطاع الأمني والعسكري). الأجهزة الأمنية والعسكرية: قوات الدرك، والأمن العام، والقوات المسلحة، وسلاح الجو، والمخابرات العامة، والدفاع المدني."
+  },
+  {
+    "id": "LOANSQA-P060_chunk_028_en",
+    "text": "Category 2: Personal Loan (Security & Military Sector). Security and Military Apparatuses: Gendarmerie, Public Security, Armed Forces, Air Force, General Intelligence, and Civil Defense."
+  },
+  {
+    "id": "LOANSQA-P061_chunk_029",
+    "text": "مدة الخدمة: الحد الأدنى 36 شهر. الملازم وأعلى: 24 شهر. الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر."
+  },
+  {
+    "id": "LOANSQA-P061_chunk_029_en",
+    "text": "Length of Service: Minimum 36 months. Lieutenant and above: 24 months. Gendarmerie, Army, and Public Security university degree holders only: 6 months."
+  },
+  {
+    "id": "LOANSQA-P062_chunk_031",
+    "text": "عملاء الاقتطاع: يتم قبول قيمة الاقتطاع قيمة القسط + 50 دينار. المخابرات يتم قبول قيمة القسط + 20 دينار."
+  },
+  {
+    "id": "LOANSQA-P062_chunk_031_en",
+    "text": "Deduction Customers: The accepted deduction value is the installment value + 50 JOD. Intelligence: The accepted value is the installment + 20 JOD."
+  },
+  {
+    "id": "LOANSQA-P063_chunk_035",
+    "text": "شروط إضافية: استثناء الحصول على تعهد تحويل الراتب المشروط من الجهات التالية: الأجهزة الأمنية، الجامعة الأردنية، مستشفى الأمير حمزة، سلاح الجو الملكي الأردني، والضمان الاجتماعي للمستفيدين."
+  },
+  {
+    "id": "LOANSQA-P063_chunk_035_en",
+    "text": "Additional Conditions: Exception from obtaining a conditional salary transfer commitment from the following entities: Security Apparatuses, University of Jordan, Prince Hamza Hospital, Royal Jordanian Air Force, and Social Security beneficiaries."
+  },
+  {
+    "id": "LOANSQA-P064_chunk_038",
+    "text": "يجب أن لا يتجاوز عمر العميل الذكر عن 60 سنة في نهاية القرض (باستثناء المتقاعدين)."
+  },
+  {
+    "id": "LOANSQA-P064_chunk_038_en",
+    "text": "The male customer's age must not exceed 60 years at the end of the loan (excluding retirees)."
+  },
+  {
+    "id": "LOANSQA-P065_chunk_040",
+    "text": "متقاعدين الضمان الاجتماعي المبكر، العميل الذكر: يجب أن لا يقل العمر عن 50 سنة."
+  },
+  {
+    "id": "LOANSQA-P065_chunk_040_en",
+    "text": "Early Social Security retirees (Male): Age must not be less than 50 years."
+  },
+  {
+    "id": "LOANSQA-P066_chunk_041",
+    "text": "متقاعدين الضمان الاجتماعي المبكر، العميل الأنثى: يجب أن لا يقل العمر عن 45 سنة."
+  },
+  {
+    "id": "LOANSQA-P066_chunk_041_en",
+    "text": "Early Social Security retirees (Female): Age must not be less than 45 years."
+  },
+  {
+    "id": "LOANSQA-P067_chunk_044",
+    "text": "الجزء 2: للمهنيين، أطباء الأسنان. الأطباء والمهندسين و والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين وحاملو الشهادات المالية الذين لديهم أعمال خاصة بهم. أصحاب الأعمال الحرة. الأطباء أصحاب العيادات."
+  },
+  {
+    "id": "LOANSQA-P067_chunk_044_en",
+    "text": "Part 2: For Professionals, Dentists. Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Self-employed. Doctors owning clinics."
+  },
+  {
+    "id": "LOANSQA-P068_chunk_045",
+    "text": "المتطلبات والمعايير (الجزء 2): ... صلاحية الموافقة: تنتهي صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية بعد مضي 45 يوم (شهر ونصف)."
+  },
+  {
+    "id": "LOANSQA-P068_chunk_045_en",
+    "text": "Requirements and Criteria (Part 2): ... Approval validity: The credit approval for the personal loan program expires after 45 days (a month and a half)."
+  },
+  {
+    "id": "LOANSQA-P069_chunk_047",
+    "text": "الجزء 3: الأعمال الحرة بدون سجلات تجارية. أصحاب الأعمال الحرة بدون سجلات تجارية (المغنيين، المؤثرون على مواقع التواصل الاجتماعي، التقنيين، المستشارين)."
+  },
+  {
+    "id": "LOANSQA-P069_chunk_047_en",
+    "text": "Part 3: Freelance Businesses without Commercial Registers. Freelancers without commercial registers (influencers on social media, technicians, consultants)."
+  },
+  {
+    "id": "LOANSQA-P070_chunk_049",
+    "text": "لفئة 4: القطاع العام. الوزارات والمؤسسات الحكومية، المؤسسات شبه الحكومية والمؤسسات غير الربحية التي تدار من خلال الحكومة أو أي من أذرعها."
+  },
+  {
+    "id": "LOANSQA-P070_chunk_049_en",
+    "text": "Category 4: Public Sector. Ministries and governmental institutions, semi-governmental institutions, and non-profit organizations managed through the government or any of its arms."
+  },
+  {
+    "id": "LOANSQA-P071_chunk_054",
+    "text": "لفئة 5: القطاع الخاص. شركات معتمدة وغير معتمدة والمبيعات، موظفي الأمم المتحدة (UN)، موظفي فنادق 5 نجوم."
+  },
+  {
+    "id": "LOANSQA-P071_chunk_054_en",
+    "text": "Category 5: Private Sector. Companies - approved and unapproved, sales, UN employees, 5-star hotel employees."
+  },
+  {
+    "id": "LOANSQA-P072_chunk_058",
+    "text": "لفئة 6: القرض الشخصي رواتب أقل من 450 دينار. ... موظفي الأمم المتحدة والهيئات الدولية التابعة لها: لا تقل مدة الخدمة عن سنة وأن يكون العميل مشترك بصندوق الادخار أو ما شابه ذلك."
+  },
+  {
+    "id": "LOANSQA-P072_chunk_058_en",
+    "text": "Category 6: Personal Loan - Salaries less than 450 JOD. ... UN and affiliated international organizations employees: Length of service is not less than 1 year and the customer must be a participant in a provident fund or similar."
+  },
+  {
+    "id": "LOANSQA-P073_chunk_065",
+    "text": "لفئة 7: قرض المكافآت الشخصي. قرض المكافآت الشخصي مصمم لمكافأة العملاء على التزامهم بسداد الأقساط بشكل منتظم، من خلال تقديم تخفيضات تدريجية على هوامش القرض. ويتم منح هذه المكافآت على شكل استرداد نقدي شهري يصل مباشرة إلى خزنة القرض الخاصة بهم."
+  },
+  {
+    "id": "LOANSQA-P073_chunk_065_en",
+    "text": "Category 7: Personal Rewards Loan. The Personal Rewards Loan is designed to reward customers for their commitment to regularly paying installments by offering progressive reductions on loan margins. These rewards are granted as monthly cashback directly into their loan vault."
+  },
+  {
+    "id": "LOANSQA-P074_chunk_072",
+    "text": "هل تتغير نسبة الاسترداد النقدي الذي أحصل عليه؟ نعم، إذا قمت بسداد أقساطك في الوقت المحدد لمدة 6 أشهر متتالية، فإن نسبة الاسترداد النقدي تزيد. وستزداد النسبة كل 6 أشهر على مدار سنتين طالما التزمت بالدفع في الوقت المحدد."
+  },
+  {
+    "id": "LOANSQA-P074_chunk_072_en",
+    "text": "Does the cashback percentage I get change? Yes, if you pay your installments on time for 6 consecutive months, the cashback percentage increases. The percentage will increase every 6 months over two years as long as you commit to paying on time."
+  },
+  {
+    "id": "LOANSQA-P075_chunk_080",
+    "text": "ماذا لو تأخرت في سداد أكثر من قسط خلال مدة القرض؟ إذا تأخرت في سداد قسط لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، سيتم استبعادك نهائياً من البرنامج وستتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض."
+  },
+  {
+    "id": "LOANSQA-P075_chunk_080_en",
+    "text": "What if I am late on more than one installment during the loan period? If you are late paying an installment by 30 days or more twice during the loan period, you will be permanently disqualified from the program and will stop receiving any cashback or further interest rate reductions until the end of the loan's life."
+  },
+  {
+    "id": "LOANSQA-P076_chunk_092",
+    "text": "العملاء الموظفين – مع تحويل الراتب: الحد الأدنى لمبلغ القرض 2,000 دينار أردني. الحد الأقصى لمبلغ القرض 110,000 دينار أردني. نسبة عبء الدين (DBR) 50% أو 55% (تعتمد على فئة التوظيف). الحد الأدنى لفترة الخدمة حسب فئة التوظيف."
+  },
+  {
+    "id": "LOANSQA-P076_chunk_092_en",
+    "text": "Employed Customers – With Salary Transfer: Minimum Loan Amount 2,000 JOD. Maximum Loan Amount 110,000 JOD. Debt Burden Ratio (DBR) 50% or 55% (Depends on employment category). Minimum Service Period According to employment category."
+  },
+  {
+    "id": "LOANSQA-P077_chunk_095",
+    "text": "مبلغ التمويل (تأمينات نقدية): 5,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P077_chunk_095_en",
+    "text": "Financing amount (Cash Collateral): 5,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P078_chunk_109",
+    "text": "قرض شخصي مقابل رهن عقاري - نسبة التمويل: 50% من قيمة التخمين في حال أرض أو 60% من قيمة التخمين في حال شقة."
+  },
+  {
+    "id": "LOANSQA-P078_chunk_109_en",
+    "text": "Personal Loan Against Real Estate Mortgage - Financing ratio: 50% of the appraisal value for land, or 60% of the appraisal value for an apartment."
+  },
+  {
+    "id": "LOANSQA-P079_chunk_001",
+    "text": "القرض الفوري مقابل بطاقة ائتمانية يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويتم إصدار بطاقة ائتمانية مقابل القرض، وتُصدر لأول سنة بدون عمولة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته."
+  },
+  {
+    "id": "LOANSQA-P079_chunk_001_en",
+    "text": "The Instant Loan Against a Credit Card is offered through the app, and the amount is transferred to the account within a short period. A credit card is issued against the loan, provided without a commission for the first year, after which there is an annual renewal commission that varies according to the card category. It cannot be rescheduled or restructured."
+  },
+  {
+    "id": "LOANSQA-P080_chunk_003",
+    "text": "الراتب الأدنى: 450 دينار."
+  },
+  {
+    "id": "LOANSQA-P080_chunk_003_en",
+    "text": "Minimum salary: 450 JOD."
+  },
+  {
+    "id": "LOANSQA-P081_chunk_006",
+    "text": "الحد الأدنى لمبلغ القرض: 1,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P081_chunk_006_en",
+    "text": "Minimum loan amount: 1,000 JOD."
+  },
+  {
+    "id": "LOANSQA-P082_chunk_008",
+    "text": "مدة القرض: 12 شهر إلى 96 شهر."
+  },
+  {
+    "id": "LOANSQA-P082_chunk_008_en",
+    "text": "Loan period: 12 months to 96 months."
+  },
+  {
+    "id": "LOANSQA-P083_chunk_011",
+    "text": "عبء الدين: 50%."
+  },
+  {
+    "id": "LOANSQA-P083_chunk_011_en",
+    "text": "Debt burden: 50%."
+  },
+  {
+    "id": "LOANSQA-P084_chunk_014",
+    "text": "سعر الفائدة: 10%."
+  },
+  {
+    "id": "LOANSQA-P084_chunk_014_en",
+    "text": "Interest rate: 10%."
+  },
+  {
+    "id": "LOANSQA-P085_chunk_019",
+    "text": "سقف البطاقة: مبلغ القرض هو عبارة عن 90% من سقف البطاقة."
+  },
+  {
+    "id": "LOANSQA-P085_chunk_019_en",
+    "text": "Card ceiling: The loan amount represents 90% of the card ceiling."
+  },
+  {
+    "id": "LOANSQA-P086_chunk_020",
+    "text": "فائدة التأخير: في حال تأخر العميل بسداد قسطين متتاليين يتم احتساب فائدة 1.5% شهرياً على الرصيد المتبقي المستغل."
+  },
+  {
+    "id": "LOANSQA-P086_chunk_020_en",
+    "text": "Late interest: If the customer is late in paying two consecutive installments, a monthly interest of 1.5% is calculated on the remaining utilized balance."
+  },
+  {
+    "id": "LOANSQA-P087_chunk_001",
+    "text": "القرض الفوري: قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، وتتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، ودون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع."
+  },
+  {
+    "id": "LOANSQA-P087_chunk_001_en",
+    "text": "Instant Loan: An instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch."
+  },
+  {
+    "id": "LOANSQA-P088_chunk_003",
+    "text": "سهولة وسرعة الحصول على القرض دون الحاجة إلى زيارة أي فرع."
+  },
+  {
+    "id": "LOANSQA-P088_chunk_003_en",
+    "text": "Ease and speed of obtaining the loan without the need to visit any branch."
+  },
+  {
+    "id": "LOANSQA-P089_chunk_005",
+    "text": "قيد مبلغ القرض مباشرةً في الحساب."
+  },
+  {
+    "id": "LOANSQA-P089_chunk_005_en",
+    "text": "Crediting the loan amount directly into the account."
+  },
+  {
+    "id": "LOANSQA-P090_chunk_007",
+    "text": "بعد أخذ القرض يختفي هذا الخيار للعميل (لا يمكنه أخذ قرض فوري آخر)."
+  },
+  {
+    "id": "LOANSQA-P090_chunk_007_en",
+    "text": "After taking the loan, this option disappears for the customer (they cannot take another instant loan)."
+  },
+  {
+    "id": "LOANSQA-P091_chunk_008",
+    "text": "يمكن للعميل اختيار اليوم الذي يريد السداد به (مثلاً كل 14 من الشهر)."
+  },
+  {
+    "id": "LOANSQA-P091_chunk_008_en",
+    "text": "The customer can choose the day they want to pay (e.g., every 14th of the month)."
+  },
+  {
+    "id": "LOANSQA-P092_chunk_009",
+    "text": "كم هي عدد المرات التي يمكن بها الحصول على قرض فوري؟ مرة واحدة."
+  },
+  {
+    "id": "LOANSQA-P092_chunk_009_en",
+    "text": "How many times can an instant loan be obtained? Once."
+  },
+  {
+    "id": "LOANSQA-P093_chunk_012",
+    "text": "هل يمكن لجميع العملاء الحصول على قرض فوري؟ لا، لأنه يتم اختيار العملاء بناءً على إجراءات محددة وتكون قد تمت الموافقة على قرض العميل بشكل مسبق."
+  },
+  {
+    "id": "LOANSQA-P093_chunk_012_en",
+    "text": "Can all customers get an instant loan? No, because customers are selected based on specific procedures and the customer's loan has been pre-approved."
+  },
+  {
+    "id": "LOANSQA-P094_chunk_013",
+    "text": "في حال الرغبة في الحصول على مبلغ أعلى؟ يجب زيارة الفرع وتقديم الطلب حسب السياسة الائتمانية."
+  },
+  {
+    "id": "LOANSQA-P094_chunk_013_en",
+    "text": "What if I want to obtain a higher amount? You must visit the branch and submit an application according to the credit policy."
+  },
+  {
+    "id": "LOANSQA-P095_chunk_014",
+    "text": "ما هي عمولة المنح؟ 1% من قيمة القرض وللسنة الأولى فقط. يتم خصم العمولة أيضاً في حال طلب زيادة على رصيد القرض."
+  },
+  {
+    "id": "LOANSQA-P095_chunk_014_en",
+    "text": "What is the granting commission? 1% of the loan value for the first year only. The commission is also deducted in case of requesting an increase on the loan balance."
+  },
+  {
+    "id": "LOANSQA-P096_chunk_001",
+    "text": "ما هي أنواع القروض التي يوفرها بنك الاتحاد؟ قروض شخصية. قروض عقارية \\ سكنية. قروض سيارات. قروض فورية."
+  },
+  {
+    "id": "LOANSQA-P096_chunk_001_en",
+    "text": "What are the types of loans provided by Bank al Etihad? Personal loans. Real estate / housing loans. Auto loans. Instant loans."
+  },
+  {
+    "id": "LOANSQA-P097_chunk_002",
+    "text": "ما هي أنواع القروض الشخصية؟ قرض شخصي. قرض شخصي لرواتب الأقل من 450 دينار. القرض الفوري مقابل بطاقة ائتمانية. قرض المكافآت الشخصي. قرض شخصي مقابل تأمينات. قرض شخصي مقابل رهن عقاري."
+  },
+  {
+    "id": "LOANSQA-P097_chunk_002_en",
+    "text": "What are the types of personal loans? Personal loan. Personal loan for salaries less than 450 JOD. Instant loan against a credit card. Personal rewards loan. Personal loan against cash collaterals. Personal loan against a real estate mortgage."
+  },
+  {
+    "id": "LOANSQA-P098_chunk_003",
+    "text": "ما هي أنواع القروض العقارية/السكنية؟ قروض سكنية \\ عقارية مع تحويل راتب. قروض سكنية \\ عقارية مع غير تحويل راتب. قروض متناقصة مقابل رهن عقاري."
+  },
+  {
+    "id": "LOANSQA-P098_chunk_003_en",
+    "text": "What are the types of real estate/housing loans? Housing / real estate loans with salary transfer. Housing / real estate loans without salary transfer. Declining loans against a real estate mortgage."
+  },
+  {
+    "id": "LOANSQA-P099_chunk_004",
+    "text": "ما هي أنواع قروض السيارات؟ مع تحويل راتب. بدون تحويل راتب."
+  },
+  {
+    "id": "LOANSQA-P099_chunk_004_en",
+    "text": "What are the types of auto loans? With salary transfer. Without salary transfer."
+  },
+  {
+    "id": "LOANSQA-P100_chunk_009",
+    "text": "الحد الأدنى لصافي الدخل في حال الأعمال الحرة من غير سجلات: 1,000 دينار."
+  },
+  {
+    "id": "LOANSQA-P100_chunk_009_en",
+    "text": "Minimum net income in the case of freelancers without commercial registers: 1,000 JOD."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "interruption_seconds": 1.5,
+
+  "human_channel": 0,
+  "ai_channel": 1,
+
+  "frame_ms": 20.0,
+
+  "noise_floor_percentile": 20.0,
+  "margin_db": 8.0,
+
+  "speech_hangover_ms": 150.0,
+  "overlap_merge_gap_ms": 120.0,
+
+  "recordings_dir": "tmp/recordings",
+  "report_csv": "tmp/interruption_report.csv",
+  "copy_flagged_to": null
+}

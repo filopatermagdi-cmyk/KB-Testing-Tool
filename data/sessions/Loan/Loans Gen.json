@@ -1,0 +1,1562 @@
+[
+  {
+    "session_id": "LoansGen-ar-001",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q097",
+        "question": "ما هي المتطلبات الخاصة بالقرض المتناقص مقابل رهن عقار؟",
+        "expected_answer": "يُطلب تخمين عقاري، بحسب سياسة التخمين العقاري المعتمدة لدى البنك.",
+        "audio_file": "wav/LOANSQA-Q097.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q173",
+        "question": "ما هو القرض الفوري؟",
+        "expected_answer": "قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، يتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ في حسابه فوراً، دون تعبئة نماذج أو توقيع طلبات أو الانتظار في الفرع.",
+        "audio_file": "wav/LOANSQA-Q173.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q065",
+        "question": "ما هو المدى العام لنسبة تمويل القرض السكني مع تحويل راتب؟",
+        "expected_answer": "تتراوح نسبة التمويل بشكل عام بين 30% و100%.",
+        "audio_file": "wav/LOANSQA-Q065.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q107",
+        "question": "ما هو مبلغ القرض الشخصي بشكل عام؟",
+        "expected_answer": "يتراوح بين 2,000 و110,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q107.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q075",
+        "question": "هل يمكن لموظفي البلديات أو عمال المياومة الحصول على قرض سكني؟",
+        "expected_answer": "لا، لا يمكن تمويل موظفي البلديات أو عمال المياومة.",
+        "audio_file": "wav/LOANSQA-Q075.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q003",
+        "question": "ما هو الحد الأدنى للدخل لأصحاب الأعمال الحرة للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للدخل لأصحاب الأعمال الحرة والمهنيين هو 1,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q003.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q063",
+        "question": "ما هو الحد الأقصى لعمر البناء المؤهل لقرض سكني، وماذا يحدث إن تجاوزه؟",
+        "expected_answer": "يجب ألا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يُظهر التخمين أنه بحالة جيدة؛ وإلا يتم الاعتماد على تخمين الأرض فقط.",
+        "audio_file": "wav/LOANSQA-Q063.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q143",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة للحصول على قرض شخصي لرواتب أقل من 450 دينار؟",
+        "expected_answer": "لا تقل مدة الخدمة عن سنة، بشرط أن يكون العميل مشتركاً في صندوق ادخار أو ما شابهه.",
+        "audio_file": "wav/LOANSQA-Q143.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q045",
+        "question": "ما هي نسب التمويل المتاحة ضمن حملة قروض سيارات مجموعة أبو خضر؟",
+        "expected_answer": "تصل نسبة التمويل إلى 100% مع تحويل الراتب، وإلى 80% بدون تحويل الراتب.",
+        "audio_file": "wav/LOANSQA-Q045.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q191",
+        "question": "ما هي أنواع القروض التي يقدمها بنك الاتحاد؟",
+        "expected_answer": "يقدم بنك الاتحاد أربعة أنواع رئيسية من القروض: القروض الشخصية، والقروض العقارية/السكنية، وقروض السيارات، والقروض الفورية.",
+        "audio_file": "wav/LOANSQA-Q191.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-002",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q051",
+        "question": "ما هو الحد العمري المطلوب للمهنيين وأصحاب الأعمال الحرة للحصول على قرض سكني مع تحويل راتب؟",
+        "expected_answer": "يتراوح العمر المطلوب عند المنح للمهنيين وأصحاب الأعمال الحرة بين 26 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+        "audio_file": "wav/LOANSQA-Q051.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q041",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض سيارة بتحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة.",
+        "audio_file": "wav/LOANSQA-Q041.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q011",
+        "question": "ما هي الضمانات المطلوبة لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "رهن السيارة بقيمة تساوي 100% من قيمة القرض، مع تسجيلها وترخيصها لدى دائرة ترخيص المركبات ورهنها من الدرجة الأولى لصالح البنك وحده.",
+        "audio_file": "wav/LOANSQA-Q011.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q069",
+        "question": "ما هي نسبة التمويل لعقار في منطقة إجازة مع تحويل راتب؟",
+        "expected_answer": "70%، باستثناء منطقة أيلة التي تصل نسبة تمويلها إلى 100%.",
+        "audio_file": "wav/LOANSQA-Q069.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q169",
+        "question": "كيف يُحدَّد مبلغ القرض الفوري مقابل بطاقة ائتمانية بالنسبة لسقف البطاقة؟",
+        "expected_answer": "مبلغ القرض يمثل 90% من سقف البطاقة.",
+        "audio_file": "wav/LOANSQA-Q169.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q043",
+        "question": "ما هي الجهات المصنفة ضمن \"الشركات المعتمدة\" لأغراض قرض السيارة بتحويل الراتب؟",
+        "expected_answer": "تشمل جميع الوظائف في الشركات المعتمدة والمنظمات التابعة للأمم المتحدة (UN).",
+        "audio_file": "wav/LOANSQA-Q043.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q057",
+        "question": "ما هو الحد الأقصى لمدة قرض شراء الشقق مع تحويل راتب إذا تجاوزت نسبة التمويل 80%؟",
+        "expected_answer": "يكون الحد الأقصى لمدة القرض 300 شهر.",
+        "audio_file": "wav/LOANSQA-Q057.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q189",
+        "question": "كم تبلغ عمولة المنح للقرض الفوري؟",
+        "expected_answer": "1% من قيمة القرض، وذلك للسنة الأولى فقط. وتُخصم العمولة أيضاً في حال طلب زيادة على رصيد القرض.",
+        "audio_file": "wav/LOANSQA-Q189.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q077",
+        "question": "هل يمكن منح قرض سكني لمن هم دون رتبة وكيل في الأجهزة الأمنية والعسكرية؟",
+        "expected_answer": "يُمنع منح قروض لمن هم دون رتبة وكيل حتى وإن تم تحويل الراتب إلى البنك، باستثناء قروض رفع سقف القرض.",
+        "audio_file": "wav/LOANSQA-Q077.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q081",
+        "question": "هل يمكن للمحامين الحصول على قرض سكني؟",
+        "expected_answer": "لا، لا يمكن تمويل المحامين.",
+        "audio_file": "wav/LOANSQA-Q081.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-003",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q037",
+        "question": "ما هي المستندات الأساسية المطلوبة من العميل غير الأردني للحصول على قرض سيارة بتحويل راتب؟",
+        "expected_answer": "صورة عن وثيقة إقامة سارية المفعول بالإضافة إلى جواز سفر ساري المفعول، ووثيقة إثبات شخصية سارية المفعول (الهوية المدنية).",
+        "audio_file": "wav/LOANSQA-Q037.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q033",
+        "question": "ما هي الجنسيات غير الأردنية المؤهلة للحصول على قرض سيارة بنفس معاملة الأردنيين؟",
+        "expected_answer": "المقيمون من الجنسيتين العراقية والفلسطينية، بشرط معاملتهم نفس معاملة العملاء الأردنيين.",
+        "audio_file": "wav/LOANSQA-Q033.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q199",
+        "question": "ما هو الحد الأدنى لصافي الدخل لأصحاب الأعمال الحرة بدون سجلات تجارية للحصول على قرض شخصي؟",
+        "expected_answer": "1,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q199.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q089",
+        "question": "ما هي نسبة التمويل عند شراء أراضٍ من غير تحويل راتب؟",
+        "expected_answer": "الحد الأعلى لنسبة التمويل 60%.",
+        "audio_file": "wav/LOANSQA-Q089.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q177",
+        "question": "كيف يتم قيد مبلغ القرض الفوري؟",
+        "expected_answer": "يتم قيد مبلغ القرض مباشرةً في حساب العميل.",
+        "audio_file": "wav/LOANSQA-Q177.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q083",
+        "question": "ما هي أوراق العقار المطلوبة للحصول على قرض سكني؟",
+        "expected_answer": "عقد البيع المبدئي، وأوراق العقار (سند التسجيل، مخطط الأراضي، مخطط الموقع، إذن الأشغال، رخصة البناء)، وتقرير كلفة البناء لقروض البناء من مخمن معتمد، وإثبات دفع الدفعة المقدمة لقروض البناء الجاهز، وتخمين عقاري معتمد.",
+        "audio_file": "wav/LOANSQA-Q083.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q093",
+        "question": "ما هي شروط الإعفاء من عمولة المنح وتحمّل البنك مصاريف الرهن للقرض السكني؟",
+        "expected_answer": "مبلغ القرض 40,000 دينار فما فوق، وألا تقل مدة القرض عن 10 سنوات، والتزام العميل مع البنك 5 سنوات، وأن يكون من عملاء الرواتب بشرط تحويل الراتب.",
+        "audio_file": "wav/LOANSQA-Q093.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q117",
+        "question": "ما هي شروط التمويل الإضافي (زيادة الرصيد) على القرض الشخصي؟",
+        "expected_answer": "الحد الأدنى لقيمة الزيادة على رصيد القرض الحالي 500 دينار، وفي قروض رفع السقف وإعادة الجدولة يُقبل راتب صافٍ 450 دينار لجميع القطاعات أو 350 دينار للمهنيين وأصحاب الأعمال الحرة.",
+        "audio_file": "wav/LOANSQA-Q117.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q155",
+        "question": "ما هي نسبة التمويل للقرض الشخصي مقابل رهن عقاري؟",
+        "expected_answer": "50% من قيمة التخمين في حال كان الرهن أرضاً، أو 60% من قيمة التخمين في حال كان الرهن شقة.",
+        "audio_file": "wav/LOANSQA-Q155.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q133",
+        "question": "من يشمل تصنيف \"المهنيين وأطباء الأسنان\" ضمن فئات القرض الشخصي؟",
+        "expected_answer": "الأطباء والمهندسون والصيادلة والمحاسبون والمدققون القانونيون والمستشارون وحاملو الشهادات المالية الذين لديهم أعمال خاصة بهم، وأصحاب الأعمال الحرة، والأطباء أصحاب العيادات.",
+        "audio_file": "wav/LOANSQA-Q133.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-004",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q125",
+        "question": "ما هي الجهات المستثناة من تعهد تحويل الراتب المشروط للقرض الشخصي؟",
+        "expected_answer": "الأجهزة الأمنية، والجامعة الأردنية، ومستشفى الأمير حمزة، وسلاح الجو الملكي الأردني، والضمان الاجتماعي للمستفيدين — حيث يُكتفى بتفويض من العميل بسداد مديونيته واستلام براءة الذمة من موظف الفرع.",
+        "audio_file": "wav/LOANSQA-Q125.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q049",
+        "question": "متى تنتهي حملة قروض سيارات مجموعة أبو خضر؟",
+        "expected_answer": "تستمر الحملة لغاية 31/12/2026، مع بقاء جميع شروط المنتج الأساسية كما هي.",
+        "audio_file": "wav/LOANSQA-Q049.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q073",
+        "question": "ما هي الوثائق التي يطلبها بنك الاتحاد من العميل عند شراء التزام عقاري قائم لدى بنك آخر؟",
+        "expected_answer": "شهادة التزامات حديثة لا تزيد عن 30 يوماً، وكشف حساب من البنك الآخر بحد أقصى 6 أشهر، وتعهد تحويل راتب مشروط لحين استلام براءة الذمة، وبراءة الذمة من البنك الآخر بعد التسديد مع تعهد تحويل راتب أصولي. كما يقدَّم للعميل ميزة Cash Out بمقدار 10% من قيمة القرض.",
+        "audio_file": "wav/LOANSQA-Q073.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q061",
+        "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل لقرض سكني مع تحويل راتب؟",
+        "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 70%.",
+        "audio_file": "wav/LOANSQA-Q061.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q025",
+        "question": "ما هو الحد الأدنى لصافي الراتب الذي يشترطه بنك الاتحاد لعميل يعمل موظفاً في بنك آخر، للحصول على قرض سيارة بتحويل راتب؟",
+        "expected_answer": "الحد الأدنى لصافي الراتب هو 1,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q025.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q139",
+        "question": "ما هي الجهات المشمولة بفئة القطاع العام للقرض الشخصي؟",
+        "expected_answer": "الوزارات والمؤسسات الحكومية، والمؤسسات شبه الحكومية، والمؤسسات غير الربحية التي تُدار من خلال الحكومة أو أي من أذرعها.",
+        "audio_file": "wav/LOANSQA-Q139.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q153",
+        "question": "كم يبلغ مبلغ التمويل للقرض الشخصي مقابل تأمينات نقدية؟",
+        "expected_answer": "5,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q153.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q159",
+        "question": "ما هو الحد الأدنى للراتب المطلوب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "450 دينار.",
+        "audio_file": "wav/LOANSQA-Q159.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q055",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي القطاع العام للحصول على قرض سكني بتحويل راتب؟",
+        "expected_answer": "3 أشهر أو أن يكون الموظف مثبتاً، باستثناء المدرسين المثبتين الخاضعين للضمان الاجتماعي، والمتقاعدين الذين يمكنهم التقديم فور التقاعد مباشرة.",
+        "audio_file": "wav/LOANSQA-Q055.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q179",
+        "question": "ماذا يحدث لخيار القرض الفوري بعد أن يأخذه العميل؟",
+        "expected_answer": "يختفي خيار القرض الفوري للعميل بعد أخذه، ولا يمكنه أخذ قرض فوري آخر.",
+        "audio_file": "wav/LOANSQA-Q179.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-005",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q019",
+        "question": "من هي الوكالات الصينية المعتمدة لتمويل السيارات لدى بنك الاتحاد؟",
+        "expected_answer": "من ضمنها: مجموعة غرغور (Skywell وXPeng)، شركة الاتحاد لتزويد المعدات (Maxus)، شركة هارلم لتجارة السيارات (Jetour)، والشركة المركزية للتجارة والمركبات (Chery)، إلى جانب وكلاء معتمدين آخرين لعلامات صينية أخرى.",
+        "audio_file": "wav/LOANSQA-Q019.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q001",
+        "question": "ما هو الحد العمري لأصحاب الرواتب للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "يتراوح العمر عند المنح بين 22 و65 سنة، ولا يتجاوز عمر العميل عند سداد آخر قسط 75 سنة.",
+        "audio_file": "wav/LOANSQA-Q001.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q023",
+        "question": "ما هو الحد الأدنى لصافي الراتب الذي يشترطه بنك الاتحاد لموظفي البنك المركزي والسيتي بانك للحصول على قرض سيارة بتحويل راتب؟",
+        "expected_answer": "الحد الأدنى لصافي الراتب هو 450 دينار.",
+        "audio_file": "wav/LOANSQA-Q023.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q181",
+        "question": "هل يمكن للعميل اختيار يوم سداد القرض الفوري؟",
+        "expected_answer": "نعم، يمكن للعميل اختيار اليوم الذي يريد السداد به، مثلاً كل 14 من الشهر.",
+        "audio_file": "wav/LOANSQA-Q181.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q105",
+        "question": "ما هو الحد الأدنى لصافي الدخل للمهنيين وأطباء الأسنان وأصحاب العيادات للحصول على قرض شخصي؟",
+        "expected_answer": "2,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q105.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q161",
+        "question": "ما هو الحد الأدنى لمبلغ القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "1,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q161.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q135",
+        "question": "ما هي مدة صلاحية الموافقة الائتمانية لبرنامج القروض الشخصية للمهنيين؟",
+        "expected_answer": "تنتهي صلاحية الموافقة الائتمانية بعد مضي 45 يوماً (شهر ونصف).",
+        "audio_file": "wav/LOANSQA-Q135.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q021",
+        "question": "ما هي نسبة التمويل المتاحة عند شراء سيارة من أحد المعارض المعتمدة لدى بنك الاتحاد بدون تحويل راتب؟",
+        "expected_answer": "تصل نسبة التمويل إلى 80% عند الشراء من المعارض المعتمدة المدرجة لدى البنك.",
+        "audio_file": "wav/LOANSQA-Q021.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q171",
+        "question": "ماذا يحدث إذا تأخر عميل القرض الفوري مقابل بطاقة ائتمانية في سداد قسطين متتاليين؟",
+        "expected_answer": "يتم احتساب فائدة تأخير نسبتها 1.5% شهرياً على الرصيد المتبقي المستغل.",
+        "audio_file": "wav/LOANSQA-Q171.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q137",
+        "question": "من يشمل تصنيف \"الأعمال الحرة بدون سجلات تجارية\" ضمن فئات القرض الشخصي؟",
+        "expected_answer": "أصحاب الأعمال الحرة بدون سجلات تجارية، مثل المغنيين، والمؤثرين على مواقع التواصل الاجتماعي، والتقنيين، والمستشارين.",
+        "audio_file": "wav/LOANSQA-Q137.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-006",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q095",
+        "question": "ما هي شروط تمويل القرض المتناقص مقابل رهن شقة؟",
+        "expected_answer": "تصل نسبة التمويل إلى 60%، بمدة تتراوح بين 12 و96 شهراً، وبمبلغ اقتراض يتراوح بين 25,000 و150,000 دينار أردني، ونسبة عبء دين 55%.",
+        "audio_file": "wav/LOANSQA-Q095.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q007",
+        "question": "ما هو الحد الأقصى لمدة تمويل قرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأقصى لمدة التمويل 8 سنوات.",
+        "audio_file": "wav/LOANSQA-Q007.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q141",
+        "question": "ما هي الجهات المشمولة بفئة القطاع الخاص للقرض الشخصي؟",
+        "expected_answer": "الشركات المعتمدة وغير المعتمدة، وموظفو المبيعات، وموظفو الأمم المتحدة، وموظفو فنادق 5 نجوم.",
+        "audio_file": "wav/LOANSQA-Q141.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q103",
+        "question": "ما هو الحد الأدنى لصافي الدخل بشكل عام للحصول على قرض شخصي؟",
+        "expected_answer": "450 دينار.",
+        "audio_file": "wav/LOANSQA-Q103.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q047",
+        "question": "من يتحمل فائدة القرض ضمن حملة قروض سيارات مجموعة أبو خضر؟",
+        "expected_answer": "قد تتحمل الوكالة الفائدة على مدة القرض، أو قد يتحملها العميل.",
+        "audio_file": "wav/LOANSQA-Q047.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q131",
+        "question": "ما هو الحد الأدنى لعمر متقاعدات الضمان الاجتماعي المبكر الإناث للتأهل للقرض الشخصي (القطاع الأمني والعسكري)؟",
+        "expected_answer": "يجب ألا يقل عمر العميلة الأنثى المتقاعدة مبكراً عن الضمان الاجتماعي عن 45 سنة.",
+        "audio_file": "wav/LOANSQA-Q131.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q053",
+        "question": "ما هو الحد الأدنى لصافي الدخل للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض سكني بتحويل راتب؟",
+        "expected_answer": "1,000 دينار بشرط أن يقل عبء الدين عن 35%، أو 1,500 دينار بشرط أن يقل عبء الدين عن 55%.",
+        "audio_file": "wav/LOANSQA-Q053.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q193",
+        "question": "ما هي أنواع القروض الشخصية المتوفرة؟",
+        "expected_answer": "تشمل القروض الشخصية: القرض الشخصي، والقرض الشخصي لأصحاب الرواتب الأقل من 450 دينار، والقرض الفوري مقابل بطاقة ائتمانية، وقرض المكافآت الشخصي، والقرض الشخصي مقابل تأمينات، والقرض الشخصي مقابل رهن عقاري.",
+        "audio_file": "wav/LOANSQA-Q193.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q035",
+        "question": "كم تبلغ عمولة السداد المبكر لقرض سيارة بتحويل راتب؟",
+        "expected_answer": "1% إذا تبقّى أكثر من سنة على انتهاء القرض، و0% إذا تبقّى أقل من سنة.",
+        "audio_file": "wav/LOANSQA-Q035.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q157",
+        "question": "ما هو القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "قرض يُقدَّم من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويصدر مقابله بطاقة ائتمانية بدون عمولة لأول سنة، وبعدها عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته.",
+        "audio_file": "wav/LOANSQA-Q157.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-007",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q115",
+        "question": "ما هو شرط القضايا القانونية لرفع سقف القرض الشخصي؟",
+        "expected_answer": "يتم الرفض حصراً في حال وجود قضايا خلال آخر 3 سنوات كمدين أو كفيل للزوج أو الزوجة، باستثناء قضايا القتل العمد والمخدرات والاختلاس وقضايا الشرف، أو إذا ظهرت القضية بعد تاريخ المنح الأصلي.",
+        "audio_file": "wav/LOANSQA-Q115.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q197",
+        "question": "ما هي أنواع قروض السيارات المتوفرة؟",
+        "expected_answer": "تشمل قروض السيارات نوعين: مع تحويل راتب، وبدون تحويل راتب.",
+        "audio_file": "wav/LOANSQA-Q197.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q113",
+        "question": "متى تتم الموافقة التلقائية على التأمين على حياة المدين للقرض الشخصي؟",
+        "expected_answer": "تتم الموافقة التلقائية ضمن بوليصة التأمين الجماعية للعملاء الذين تبلغ أعمارهم 65 سنة فأقل، وبشرط أن يكون مبلغ القرض أقل من 100,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q113.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q185",
+        "question": "هل يمكن لجميع عملاء بنك الاتحاد الحصول على قرض فوري؟",
+        "expected_answer": "لا، يتم اختيار العملاء بناءً على إجراءات محددة، وتكون قد تمت الموافقة على قرض العميل بشكل مسبق.",
+        "audio_file": "wav/LOANSQA-Q185.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q129",
+        "question": "ما هو الحد الأدنى لعمر متقاعدي الضمان الاجتماعي المبكر الذكور للتأهل للقرض الشخصي (القطاع الأمني والعسكري)؟",
+        "expected_answer": "يجب ألا يقل عمر العميل الذكر المتقاعد مبكراً عن الضمان الاجتماعي عن 50 سنة.",
+        "audio_file": "wav/LOANSQA-Q129.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q087",
+        "question": "ما هو الحد الأقصى لمبلغ القرض السكني من غير تحويل راتب؟",
+        "expected_answer": "الحد الأقصى لمبلغ القرض 300,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q087.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q039",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للمهنيين وأصحاب الأعمال الحرة والمغتربين للحصول على قرض سيارة بتحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة سنتان.",
+        "audio_file": "wav/LOANSQA-Q039.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q127",
+        "question": "ما هو الحد الأقصى لعمر العميل الذكر في نهاية القرض الشخصي (القطاع الأمني والعسكري)، وما الاستثناء؟",
+        "expected_answer": "يجب ألا يتجاوز عمر العميل الذكر 60 سنة في نهاية القرض، باستثناء المتقاعدين.",
+        "audio_file": "wav/LOANSQA-Q127.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q187",
+        "question": "ماذا يجب على العميل فعله إذا رغب في الحصول على مبلغ أعلى من القرض الفوري المتاح له؟",
+        "expected_answer": "يجب عليه زيارة الفرع وتقديم الطلب حسب السياسة الائتمانية.",
+        "audio_file": "wav/LOANSQA-Q187.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q149",
+        "question": "ماذا يحدث إذا تأخر عميل قرض المكافآت الشخصي في سداد أكثر من قسط خلال مدة القرض؟",
+        "expected_answer": "إذا تأخر لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، يُستبعد نهائياً من البرنامج ويتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض.",
+        "audio_file": "wav/LOANSQA-Q149.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-008",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q009",
+        "question": "ما هي نسبة عبء الدين المسموح بها لقرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "50%، وترتفع إلى 65% في حال وجود بطاقة ائتمانية.",
+        "audio_file": "wav/LOANSQA-Q009.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q091",
+        "question": "ما هي أنواع الممتلكات التي لا يمكن تمويلها بقرض سكني؟",
+        "expected_answer": "الممتلكات ذات الاستعمال المقيد قانونياً (كالأراضي الزراعية)، والأراضي المشتراة لغايات الاستثمار، وأي ممتلكات تخضع لقيود على إعادة بيعها، والممتلكات التجارية والصناعية. كما يُمنع تمويل الشراء من أقارب من الدرجة الأولى.",
+        "audio_file": "wav/LOANSQA-Q091.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q085",
+        "question": "ما هو الحد العمري المطلوب للحصول على قرض سكني من غير تحويل راتب؟",
+        "expected_answer": "يتراوح العمر المطلوب عند المنح بين 24 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+        "audio_file": "wav/LOANSQA-Q085.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q165",
+        "question": "ما هي نسبة عبء الدين للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "50%.",
+        "audio_file": "wav/LOANSQA-Q165.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q071",
+        "question": "ما هو الحد الأدنى لقيمة القرض الذي يوافق عليه بنك الاتحاد عند شراء التزام عقاري قائم لدى بنك آخر؟",
+        "expected_answer": "الحد الأدنى لقيمة القرض 15,000 دينار، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 1,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q071.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q101",
+        "question": "ما هي نسبة عبء الدين للقرض الشخصي للعاملين في القطاع الأمني أو العسكري؟",
+        "expected_answer": "35%.",
+        "audio_file": "wav/LOANSQA-Q101.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q163",
+        "question": "ما هي مدة القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "تتراوح بين 12 و96 شهراً.",
+        "audio_file": "wav/LOANSQA-Q163.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q147",
+        "question": "هل تتغير نسبة الاسترداد النقدي في قرض المكافآت الشخصي بمرور الوقت؟",
+        "expected_answer": "نعم، إذا سدد العميل أقساطه في الوقت المحدد لمدة 6 أشهر متتالية تزداد النسبة، وتستمر الزيادة كل 6 أشهر على مدار سنتين طالما التزم العميل بالدفع في الوقت المحدد.",
+        "audio_file": "wav/LOANSQA-Q147.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q017",
+        "question": "كم مرة يُسمح للعميل بتأجيل أقساط قرض السيارة خلال العام؟",
+        "expected_answer": "يُسمح بتأجيل دفعتين فقط خلال العام، على ألا تقعا ضمن نفس النصف من السنة.",
+        "audio_file": "wav/LOANSQA-Q017.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q119",
+        "question": "ما هي الأجهزة الأمنية والعسكرية المشمولة بفئة القرض الشخصي الخاصة بها؟",
+        "expected_answer": "قوات الدرك، والأمن العام، والقوات المسلحة، وسلاح الجو، والمخابرات العامة، والدفاع المدني.",
+        "audio_file": "wav/LOANSQA-Q119.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-009",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q031",
+        "question": "كيف تُحسب رسوم التأمين على حياة المدين لقرض سيارة بتحويل راتب حسب مبلغ القرض؟",
+        "expected_answer": "75 ديناراً للقروض الأقل من 20,000 دينار، و150 ديناراً للقروض من 20,000 إلى 50,000 دينار، و250 ديناراً للقروض الأكبر من 50,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q031.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q167",
+        "question": "ما هو سعر الفائدة على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "10%.",
+        "audio_file": "wav/LOANSQA-Q167.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q183",
+        "question": "كم عدد المرات التي يمكن فيها الحصول على قرض فوري؟",
+        "expected_answer": "مرة واحدة فقط.",
+        "audio_file": "wav/LOANSQA-Q183.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q013",
+        "question": "كم تبلغ عمولة السداد المبكر لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "1% إذا تبقّى أكثر من سنة على انتهاء القرض، و0% إذا تبقّى أقل من سنة.",
+        "audio_file": "wav/LOANSQA-Q013.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q123",
+        "question": "ما هي قيمة الاقتطاع المقبولة لعملاء القطاع الأمني والعسكري في القرض الشخصي؟",
+        "expected_answer": "قيمة القسط زائد 50 دينار، وفي حال المخابرات قيمة القسط زائد 20 دينار.",
+        "audio_file": "wav/LOANSQA-Q123.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q121",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للحصول على قرض شخصي للقطاع الأمني والعسكري؟",
+        "expected_answer": "الحد الأدنى 36 شهراً، أما للملازم وأعلى فالحد الأدنى 24 شهراً، وحملة الشهادات الجامعية فقط في الدرك والجيش والأمن العام: 6 أشهر.",
+        "audio_file": "wav/LOANSQA-Q121.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q027",
+        "question": "ما هو الحد الأقصى لعمر السيارة الممولة عند تحويل الراتب؟",
+        "expected_answer": "لا يزيد عمر السيارة عن 14 سنة.",
+        "audio_file": "wav/LOANSQA-Q027.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q145",
+        "question": "ما هو قرض المكافآت الشخصي؟",
+        "expected_answer": "قرض شخصي مصمم لمكافأة العملاء على التزامهم بسداد الأقساط بشكل منتظم من خلال تخفيضات تدريجية على هوامش القرض، تُمنح كاسترداد نقدي شهري يصل مباشرة إلى خزنة القرض الخاصة بالعميل.",
+        "audio_file": "wav/LOANSQA-Q145.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q005",
+        "question": "ما هو الحد الأقصى لمبلغ قرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأقصى 150,000 دينار للسيارة الواحدة، وبحد أقصى 3 سيارات بمجموع إجمالي 200,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q005.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q067",
+        "question": "ما هي نسبة التمويل عند شراء شقق جاهزة للمهنيين وأصحاب الأعمال الحرة مع تحويل راتب؟",
+        "expected_answer": "تصل نسبة التمويل إلى 80% للمهنيين وأصحاب الأعمال الحرة والمغتربين (مقابل حتى 100% للفئات الأخرى حسب الشروط).",
+        "audio_file": "wav/LOANSQA-Q067.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-ar-010",
+    "subtopic": "Loan/Loans Gen",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q029",
+        "question": "ما هو الحد الأقصى لعدد قروض السيارات القائمة للعميل الواحد عند تحويل الراتب؟",
+        "expected_answer": "بحد أقصى 3 سيارات كقروض قائمة في آن واحد، وبمجموع تمويل لا يتجاوز 200,000 دينار حسب نسبة الالتزام.",
+        "audio_file": "wav/LOANSQA-Q029.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q111",
+        "question": "ما هو الحد الأدنى لقيمة القرض الذي يوافق عليه بنك الاتحاد عند شراء التزام قائم لدى بنك آخر ضمن القرض الشخصي؟",
+        "expected_answer": "الحد الأدنى لقيمة القرض 2,000 دينار، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 500 دينار.",
+        "audio_file": "wav/LOANSQA-Q111.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q059",
+        "question": "ما هو الحد الأقصى لمبلغ القرض السكني مع تحويل راتب (الفئة الأولى)؟",
+        "expected_answer": "الحد الأقصى لمبلغ القرض 1,000,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q059.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q015",
+        "question": "متى تتم الموافقة التلقائية على التأمين على الحياة لقرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "تتم الموافقة التلقائية ضمن بوليصة التأمين الجماعية للعملاء الذين تبلغ أعمارهم 65 سنة فأقل، وبشرط ألا يتجاوز مبلغ القرض 100,000 دينار.",
+        "audio_file": "wav/LOANSQA-Q015.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q099",
+        "question": "ما هو الحد العمري للمهنيين وأصحاب الأعمال الحرة للحصول على قرض شخصي؟",
+        "expected_answer": "يتراوح العمر عند المنح بين 26 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+        "audio_file": "wav/LOANSQA-Q099.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q175",
+        "question": "هل يحتاج العميل لزيارة فرع للحصول على القرض الفوري؟",
+        "expected_answer": "لا، يتميز القرض الفوري بسهولة وسرعة الحصول عليه دون الحاجة إلى زيارة أي فرع.",
+        "audio_file": "wav/LOANSQA-Q175.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q195",
+        "question": "ما هي أنواع القروض العقارية/السكنية المتوفرة؟",
+        "expected_answer": "تشمل القروض العقارية/السكنية: القروض السكنية/العقارية مع تحويل راتب، والقروض السكنية/العقارية بدون تحويل راتب، والقروض المتناقصة مقابل رهن عقاري.",
+        "audio_file": "wav/LOANSQA-Q195.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q151",
+        "question": "ما هي شروط قرض المكافآت الشخصي للعملاء الموظفين مع تحويل الراتب؟",
+        "expected_answer": "الحد الأدنى لمبلغ القرض 2,000 دينار أردني، والحد الأقصى 110,000 دينار أردني، ونسبة عبء الدين 50% أو 55% حسب فئة التوظيف، والحد الأدنى لفترة الخدمة يعتمد على فئة التوظيف.",
+        "audio_file": "wav/LOANSQA-Q151.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q109",
+        "question": "ما هي مدة القرض الشخصي بشكل عام؟",
+        "expected_answer": "تتراوح بين 12 و96 شهراً.",
+        "audio_file": "wav/LOANSQA-Q109.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q079",
+        "question": "ما هو الحد الأدنى والأقصى لمدة الخدمة في الأجهزة الأمنية والعسكرية للحصول على قرض سكني؟",
+        "expected_answer": "الحد الأدنى 3 سنوات (سنتان لرتبة الملازم فما فوق)، والحد الأقصى 25 سنة (بلا حد أعلى لرتبة رائد فأكثر).",
+        "audio_file": "wav/LOANSQA-Q079.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-001",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q108",
+        "question": "What is the personal loan amount in general?",
+        "expected_answer": "It ranges from 2,000 to 110,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q108.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q124",
+        "question": "What is the accepted deduction value for Security and Military sector customers on the personal loan?",
+        "expected_answer": "The installment value plus 50 JOD, and for Intelligence, the installment plus 20 JOD.",
+        "audio_file": "wav/LOANSQA-Q124.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q164",
+        "question": "What is the period of the Instant Loan Against a Credit Card?",
+        "expected_answer": "It ranges from 12 to 96 months.",
+        "audio_file": "wav/LOANSQA-Q164.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q188",
+        "question": "What should a customer do if they want to obtain a higher amount than the Instant Loan offered to them?",
+        "expected_answer": "The customer must visit the branch and submit an application according to the credit policy.",
+        "audio_file": "wav/LOANSQA-Q188.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q068",
+        "question": "What financing ratio applies to professionals and self-employed individuals buying ready apartments with salary transfer?",
+        "expected_answer": "The financing ratio is up to 80% for professionals, self-employed individuals, and expatriates (versus up to 100% for other categories per conditions).",
+        "audio_file": "wav/LOANSQA-Q068.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q120",
+        "question": "Which Security and Military Apparatuses are covered by their dedicated personal loan category?",
+        "expected_answer": "Gendarmerie, Public Security, Armed Forces, Air Force, General Intelligence, and Civil Defense.",
+        "audio_file": "wav/LOANSQA-Q120.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q192",
+        "question": "What types of loans does Bank al Etihad offer?",
+        "expected_answer": "Bank al Etihad offers four main types of loans: personal loans, real estate/housing loans, auto loans, and instant loans.",
+        "audio_file": "wav/LOANSQA-Q192.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q146",
+        "question": "What is the Personal Rewards Loan?",
+        "expected_answer": "A personal loan designed to reward customers for their commitment to regularly paying installments, through progressive reductions on loan margins, granted as monthly cashback directly into the customer's loan vault.",
+        "audio_file": "wav/LOANSQA-Q146.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q128",
+        "question": "What is the maximum age for a male customer at the end of the Personal Loan (Security & Military sector), and what is the exception?",
+        "expected_answer": "The male customer's age must not exceed 60 years at the end of the loan, excluding retirees.",
+        "audio_file": "wav/LOANSQA-Q128.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q116",
+        "question": "What is the legal-cases condition for raising the personal loan ceiling?",
+        "expected_answer": "Exclusive rejection applies only in case of lawsuits in the last 3 years as a debtor or guarantor for the husband/wife, excluding premeditated murder, drugs, embezzlement, and honor crimes, or if the lawsuit appears after the original granting date.",
+        "audio_file": "wav/LOANSQA-Q116.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-002",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q034",
+        "question": "Which non-Jordanian nationalities are eligible for an auto loan under the same treatment as Jordanians?",
+        "expected_answer": "Iraqi and Palestinian residents, provided they are treated the same as Jordanian customers.",
+        "audio_file": "wav/LOANSQA-Q034.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q008",
+        "question": "What is the maximum financing period for an auto loan without salary transfer?",
+        "expected_answer": "The maximum financing period is 8 years.",
+        "audio_file": "wav/LOANSQA-Q008.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q050",
+        "question": "When does the Abu Khader Automotive Group auto loans campaign end?",
+        "expected_answer": "The campaign continues until 31/12/2026, with all other product conditions remaining as they are.",
+        "audio_file": "wav/LOANSQA-Q050.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q154",
+        "question": "What is the financing amount for the Personal Loan Against Cash Collateral?",
+        "expected_answer": "5,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q154.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q140",
+        "question": "Which entities are covered by the Public Sector personal loan category?",
+        "expected_answer": "Ministries and governmental institutions, semi-governmental institutions, and non-profit organizations managed through the government or any of its arms.",
+        "audio_file": "wav/LOANSQA-Q140.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q106",
+        "question": "What is the minimum net income for professionals, dentists, and doctors with clinics to obtain a personal loan?",
+        "expected_answer": "2,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q106.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q112",
+        "question": "What is the minimum loan value Bank al Etihad approves when buying out an existing obligation held at another bank, under the personal loan?",
+        "expected_answer": "The minimum loan value is 2,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 500 JOD.",
+        "audio_file": "wav/LOANSQA-Q112.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q176",
+        "question": "Does the customer need to visit a branch to obtain the Instant Loan?",
+        "expected_answer": "No, the Instant Loan is characterized by ease and speed of obtaining it without the need to visit any branch.",
+        "audio_file": "wav/LOANSQA-Q176.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q018",
+        "question": "How many times per year can a customer postpone auto loan installments?",
+        "expected_answer": "Only two postponements are allowed per year, provided they don't fall within the same half of the year.",
+        "audio_file": "wav/LOANSQA-Q018.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q046",
+        "question": "What financing ratios are available under the Abu Khader Automotive Group auto loans campaign?",
+        "expected_answer": "The financing ratio is up to 100% with salary transfer, and up to 80% without salary transfer.",
+        "audio_file": "wav/LOANSQA-Q046.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-003",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q190",
+        "question": "What is the granting commission for the Instant Loan?",
+        "expected_answer": "1% of the loan value, for the first year only. The commission is also deducted in case of requesting an increase on the loan balance.",
+        "audio_file": "wav/LOANSQA-Q190.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q130",
+        "question": "What is the minimum age for male early Social Security retirees to qualify for the Personal Loan (Security & Military sector)?",
+        "expected_answer": "The male customer's age must not be less than 50 years for early Social Security retirement.",
+        "audio_file": "wav/LOANSQA-Q130.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q110",
+        "question": "What is the personal loan period in general?",
+        "expected_answer": "It ranges from 12 to 96 months.",
+        "audio_file": "wav/LOANSQA-Q110.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q006",
+        "question": "What is the maximum auto loan amount without salary transfer?",
+        "expected_answer": "The maximum is 150,000 JOD per single car, for a maximum of 3 cars totaling 200,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q006.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q032",
+        "question": "How is the debtor's life insurance fee calculated for an auto loan with salary transfer, based on the loan amount?",
+        "expected_answer": "75 JOD for loans under 20,000 JOD, 150 JOD for loans from 20,000 to 50,000 JOD, and 250 JOD for loans over 50,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q032.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q064",
+        "question": "What is the maximum building age eligible for a housing loan, and what happens if it's exceeded?",
+        "expected_answer": "The building's age must not exceed 20 years when requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only.",
+        "audio_file": "wav/LOANSQA-Q064.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q078",
+        "question": "Can a housing loan be granted to those below the rank of Warrant Officer (Wakil) in security and military apparatuses?",
+        "expected_answer": "Loans are prohibited for those below the rank of Warrant Officer (Wakil), even if the salary is transferred to the bank, except for loan ceiling increase loans.",
+        "audio_file": "wav/LOANSQA-Q078.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q074",
+        "question": "What documents does Bank al Etihad request from the customer when buying out an existing mortgage obligation held at another bank?",
+        "expected_answer": "A recent obligations certificate not exceeding 30 days, an account statement from the other bank for a maximum of 6 months, a conditional salary transfer commitment until receiving the clearance, and a clearance certificate from the other bank after payment along with a formal salary transfer commitment. A 10% cash-out feature of the loan value is also provided to the customer.",
+        "audio_file": "wav/LOANSQA-Q074.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q052",
+        "question": "What is the required age for professionals and self-employed individuals to obtain a housing loan with salary transfer?",
+        "expected_answer": "The required age at granting for professionals and self-employed individuals is between 26 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+        "audio_file": "wav/LOANSQA-Q052.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q054",
+        "question": "What is the minimum net income for Security and Military Apparatuses personnel to obtain a housing loan with salary transfer?",
+        "expected_answer": "1,000 JOD with a debt burden of less than 35%, or 1,500 JOD with a debt burden of less than 55%.",
+        "audio_file": "wav/LOANSQA-Q054.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-004",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q168",
+        "question": "What is the interest rate on the Instant Loan Against a Credit Card?",
+        "expected_answer": "10%.",
+        "audio_file": "wav/LOANSQA-Q168.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q036",
+        "question": "What is the early settlement commission for an auto loan with salary transfer?",
+        "expected_answer": "1% if more than a year remains until the end of the loan, and 0% if less than a year remains.",
+        "audio_file": "wav/LOANSQA-Q036.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q200",
+        "question": "What is the minimum net income for freelancers without commercial registers to obtain a personal loan?",
+        "expected_answer": "1,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q200.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q186",
+        "question": "Can all Bank al Etihad customers get an instant loan?",
+        "expected_answer": "No, customers are selected based on specific procedures, and the customer's loan has been pre-approved.",
+        "audio_file": "wav/LOANSQA-Q186.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q098",
+        "question": "What are the requirements for the declining loan against a property mortgage?",
+        "expected_answer": "A property appraisal is required, according to the bank's approved property appraisal policy.",
+        "audio_file": "wav/LOANSQA-Q098.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q142",
+        "question": "Which entities are covered by the Private Sector personal loan category?",
+        "expected_answer": "Approved and unapproved companies, sales employees, UN employees, and 5-star hotel employees.",
+        "audio_file": "wav/LOANSQA-Q142.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q184",
+        "question": "How many times can an instant loan be obtained?",
+        "expected_answer": "Only once.",
+        "audio_file": "wav/LOANSQA-Q184.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q096",
+        "question": "What are the financing terms for the declining loan against an apartment mortgage?",
+        "expected_answer": "The financing ratio is up to 60%, with a period of 12 to 96 months, borrowing of 25,000 to 150,000 JOD, and a debt burden of 55%.",
+        "audio_file": "wav/LOANSQA-Q096.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q030",
+        "question": "What is the maximum number of active auto loans a single customer can have with salary transfer?",
+        "expected_answer": "A maximum of 3 active car loans at the same time, with total financing up to 200,000 JOD depending on the commitment ratio.",
+        "audio_file": "wav/LOANSQA-Q030.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q198",
+        "question": "What types of auto loans are available?",
+        "expected_answer": "Auto loans include two types: with salary transfer, and without salary transfer.",
+        "audio_file": "wav/LOANSQA-Q198.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-005",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q016",
+        "question": "When is automatic life insurance approval granted for an auto loan without salary transfer?",
+        "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 or younger, provided the loan amount is 100,000 JOD or less.",
+        "audio_file": "wav/LOANSQA-Q016.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q048",
+        "question": "Who bears the loan interest under the Abu Khader Automotive Group campaign?",
+        "expected_answer": "Either the dealership or the customer bears the interest on the loan period.",
+        "audio_file": "wav/LOANSQA-Q048.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q070",
+        "question": "What is the financing ratio for vacation property with salary transfer?",
+        "expected_answer": "70%, except for Ayla, which has a financing ratio of up to 100%.",
+        "audio_file": "wav/LOANSQA-Q070.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q118",
+        "question": "What are the conditions for additional financing (Top-up) on the personal loan?",
+        "expected_answer": "The minimum increase amount on the current loan balance is 500 JOD, and for ceiling increase and rescheduling loans, a net salary of 450 JOD is accepted for all sectors, or 350 JOD for professionals and self-employed.",
+        "audio_file": "wav/LOANSQA-Q118.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q174",
+        "question": "What is the Instant Loan?",
+        "expected_answer": "An instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out forms, signing applications, or waiting at the branch.",
+        "audio_file": "wav/LOANSQA-Q174.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q132",
+        "question": "What is the minimum age for female early Social Security retirees to qualify for the Personal Loan (Security & Military sector)?",
+        "expected_answer": "The female customer's age must not be less than 45 years for early Social Security retirement.",
+        "audio_file": "wav/LOANSQA-Q132.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q158",
+        "question": "What is the Instant Loan Against a Credit Card?",
+        "expected_answer": "A loan offered through the app, where the amount is transferred to the account within a short period. A credit card is issued against it, without a commission for the first year, after which there is an annual renewal commission that varies by card category. It cannot be rescheduled or restructured.",
+        "audio_file": "wav/LOANSQA-Q158.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q178",
+        "question": "How is the Instant Loan amount credited?",
+        "expected_answer": "The loan amount is credited directly into the customer's account.",
+        "audio_file": "wav/LOANSQA-Q178.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q136",
+        "question": "What is the validity period of the credit approval for the personal loan program for professionals?",
+        "expected_answer": "The credit approval expires after 45 days (a month and a half).",
+        "audio_file": "wav/LOANSQA-Q136.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q040",
+        "question": "What is the minimum length of service for professionals, self-employed individuals, and expatriates to obtain an auto loan with salary transfer?",
+        "expected_answer": "The minimum length of service is two years.",
+        "audio_file": "wav/LOANSQA-Q040.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-006",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q080",
+        "question": "What is the minimum and maximum length of service in security and military apparatuses to obtain a housing loan?",
+        "expected_answer": "The minimum is 3 years (2 years for Lieutenant and above), and the maximum service limit is 25 years (no upper limit for Major and above).",
+        "audio_file": "wav/LOANSQA-Q080.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q062",
+        "question": "What is the debt burden ratio when there is a debtor and a guarantor for a housing loan with salary transfer?",
+        "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 70%.",
+        "audio_file": "wav/LOANSQA-Q062.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q134",
+        "question": "Who is included under the \"Professionals, Dentists\" classification among personal loan categories?",
+        "expected_answer": "Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, self-employed individuals, and doctors owning clinics.",
+        "audio_file": "wav/LOANSQA-Q134.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q082",
+        "question": "Can lawyers obtain a housing loan?",
+        "expected_answer": "No, lawyers cannot be financed.",
+        "audio_file": "wav/LOANSQA-Q082.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q114",
+        "question": "When is automatic life insurance approval for the debtor granted on the personal loan?",
+        "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 years and below, provided the loan amount is less than 100,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q114.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q090",
+        "question": "What is the financing ratio for buying lands without salary transfer?",
+        "expected_answer": "The maximum financing ratio is 60%.",
+        "audio_file": "wav/LOANSQA-Q090.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q122",
+        "question": "What is the minimum length of service to obtain a personal loan for the Security and Military sector?",
+        "expected_answer": "The minimum is 36 months; for Lieutenant and above it is 24 months; and for university degree holders only in the Gendarmerie, Army, and Public Security, it is 6 months.",
+        "audio_file": "wav/LOANSQA-Q122.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q026",
+        "question": "What minimum net salary does Bank al Etihad require from a customer employed at another bank, to obtain an auto loan with salary transfer?",
+        "expected_answer": "The minimum net salary is 1,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q026.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q044",
+        "question": "Which entities are classified as \"approved companies\" for the purposes of the auto loan with salary transfer?",
+        "expected_answer": "It includes all jobs at approved companies and UN-affiliated organizations.",
+        "audio_file": "wav/LOANSQA-Q044.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q144",
+        "question": "What is the minimum length of service for UN employees to obtain a personal loan for salaries less than 450 JOD?",
+        "expected_answer": "The length of service is not less than 1 year, and the customer must be a participant in a provident fund or similar.",
+        "audio_file": "wav/LOANSQA-Q144.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-007",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q024",
+        "question": "What minimum net salary does Bank al Etihad require from Central Bank and Citibank employees to obtain an auto loan with salary transfer?",
+        "expected_answer": "The minimum net salary is 450 JOD.",
+        "audio_file": "wav/LOANSQA-Q024.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q058",
+        "question": "What is the maximum period for an apartment-purchase housing loan with salary transfer if the financing ratio exceeds 80%?",
+        "expected_answer": "The maximum loan period is 300 months.",
+        "audio_file": "wav/LOANSQA-Q058.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q014",
+        "question": "What is the early settlement commission for an auto loan without salary transfer?",
+        "expected_answer": "1% if more than a year remains until the end of the loan, and 0% if less than a year remains.",
+        "audio_file": "wav/LOANSQA-Q014.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q076",
+        "question": "Can municipality employees or day laborers obtain a housing loan?",
+        "expected_answer": "No, municipality employees and day laborers cannot be financed.",
+        "audio_file": "wav/LOANSQA-Q076.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q162",
+        "question": "What is the minimum amount for the Instant Loan Against a Credit Card?",
+        "expected_answer": "1,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q162.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q086",
+        "question": "What is the required age to obtain a housing loan without salary transfer?",
+        "expected_answer": "The required age at granting ranges from 24 to 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+        "audio_file": "wav/LOANSQA-Q086.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q138",
+        "question": "Who is included under the \"Freelance Businesses without Commercial Registers\" classification among personal loan categories?",
+        "expected_answer": "Freelancers without commercial registers, such as social media influencers, technicians, and consultants.",
+        "audio_file": "wav/LOANSQA-Q138.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q088",
+        "question": "What is the maximum housing loan amount without salary transfer?",
+        "expected_answer": "The maximum loan amount is 300,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q088.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q156",
+        "question": "What is the financing ratio for the Personal Loan Against Real Estate Mortgage?",
+        "expected_answer": "50% of the appraisal value for land, or 60% of the appraisal value for an apartment.",
+        "audio_file": "wav/LOANSQA-Q156.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q100",
+        "question": "What is the age eligibility for professionals and self-employed individuals to obtain a personal loan?",
+        "expected_answer": "Age at granting ranges from 26 to 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+        "audio_file": "wav/LOANSQA-Q100.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-008",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q042",
+        "question": "What is the minimum length of service for Security and Military Apparatuses personnel to obtain an auto loan with salary transfer?",
+        "expected_answer": "The minimum length of service is 3 months, with product criteria applying to the job.",
+        "audio_file": "wav/LOANSQA-Q042.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q196",
+        "question": "What types of real estate/housing loans are available?",
+        "expected_answer": "Real estate/housing loans include: housing/real estate loans with salary transfer, housing/real estate loans without salary transfer, and declining loans against a real estate mortgage.",
+        "audio_file": "wav/LOANSQA-Q196.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q194",
+        "question": "What types of personal loans are available?",
+        "expected_answer": "Personal loans include: the personal loan, the personal loan for salaries less than 450 JOD, the instant loan against a credit card, the personal rewards loan, the personal loan against cash collaterals, and the personal loan against a real estate mortgage.",
+        "audio_file": "wav/LOANSQA-Q194.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q028",
+        "question": "What is the maximum age of a financed car with salary transfer?",
+        "expected_answer": "The car's age must not exceed 14 years.",
+        "audio_file": "wav/LOANSQA-Q028.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q072",
+        "question": "What is the minimum loan value Bank al Etihad approves when buying out an existing mortgage obligation held at another bank?",
+        "expected_answer": "The minimum loan value is 15,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 1,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q072.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q102",
+        "question": "What is the debt burden for a personal loan for those working in the Security or Military sector?",
+        "expected_answer": "35%.",
+        "audio_file": "wav/LOANSQA-Q102.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q066",
+        "question": "What is the general range of the financing ratio for a housing loan with salary transfer?",
+        "expected_answer": "The financing ratio generally ranges from 30% to 100%.",
+        "audio_file": "wav/LOANSQA-Q066.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q020",
+        "question": "Which Chinese dealerships are approved for auto financing at Bank al Etihad?",
+        "expected_answer": "They include: Gargour Group (Skywell and XPeng), Union Equipment Supply Company (Maxus), Harlem Auto Trade (Jetour), and Central Trade and Auto Co. (Chery), among other approved agents for additional Chinese brands.",
+        "audio_file": "wav/LOANSQA-Q020.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q092",
+        "question": "What types of properties cannot be financed with a housing loan?",
+        "expected_answer": "Properties with legally restricted use (such as agricultural lands), lands bought for investment purposes, any properties subject to resale restrictions, and commercial or industrial properties. Financing purchases from first-degree relatives is also prohibited.",
+        "audio_file": "wav/LOANSQA-Q092.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q010",
+        "question": "What is the allowed Debt Burden Ratio for an auto loan without salary transfer?",
+        "expected_answer": "50%, rising to 65% in case the customer holds a credit card.",
+        "audio_file": "wav/LOANSQA-Q010.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-009",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q182",
+        "question": "Can the customer choose the repayment day for the Instant Loan?",
+        "expected_answer": "Yes, the customer can choose the day they want to pay, for example every 14th of the month.",
+        "audio_file": "wav/LOANSQA-Q182.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q084",
+        "question": "What property papers are required to obtain a housing loan?",
+        "expected_answer": "The initial sale contract, property papers (registration deed, land plan, location map, occupancy permit, building permit), a construction cost report for construction loans from a certified appraiser, proof of paying the down payment for ready construction financing loans, and a certified property appraisal.",
+        "audio_file": "wav/LOANSQA-Q084.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q094",
+        "question": "What are the conditions for exemption from the granting commission and the bank bearing mortgage expenses for the housing loan?",
+        "expected_answer": "A loan amount of 40,000 JOD and above, a loan period of not less than 10 years, the customer's commitment with the bank for 5 years, and being a salary customer provided the salary is transferred.",
+        "audio_file": "wav/LOANSQA-Q094.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q038",
+        "question": "What basic documents are required from a non-Jordanian customer to obtain an auto loan with salary transfer?",
+        "expected_answer": "A copy of a valid residency document in addition to a valid passport, and a valid proof of identity document (civil ID).",
+        "audio_file": "wav/LOANSQA-Q038.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q150",
+        "question": "What happens if a Personal Rewards Loan customer is late on more than one installment during the loan period?",
+        "expected_answer": "If late by 30 days or more twice during the loan period, the customer is permanently disqualified from the program and stops receiving any cashback or further interest rate reductions until the end of the loan's life.",
+        "audio_file": "wav/LOANSQA-Q150.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q060",
+        "question": "What is the maximum housing loan amount with salary transfer (Category 1)?",
+        "expected_answer": "The maximum loan amount is 1,000,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q060.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q022",
+        "question": "What financing ratio is available when buying a car from one of Bank al Etihad's approved showrooms, without salary transfer?",
+        "expected_answer": "The financing ratio is up to 80% when buying from the bank's listed approved showrooms.",
+        "audio_file": "wav/LOANSQA-Q022.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q056",
+        "question": "What is the minimum length of service for public sector employees to obtain a housing loan with salary transfer?",
+        "expected_answer": "3 months or being confirmed, excluding confirmed public sector teachers subject to Social Security, and retirees who can apply immediately upon retirement.",
+        "audio_file": "wav/LOANSQA-Q056.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q166",
+        "question": "What is the debt burden for the Instant Loan Against a Credit Card?",
+        "expected_answer": "50%.",
+        "audio_file": "wav/LOANSQA-Q166.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q148",
+        "question": "Does the cashback percentage in the Personal Rewards Loan change over time?",
+        "expected_answer": "Yes, if the customer pays installments on time for 6 consecutive months the percentage increases, and it continues to increase every 6 months over two years as long as the customer commits to paying on time.",
+        "audio_file": "wav/LOANSQA-Q148.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGen-en-010",
+    "subtopic": "Loan/Loans Gen",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSQA-Q104",
+        "question": "What is the minimum net income in general to obtain a personal loan?",
+        "expected_answer": "450 JOD.",
+        "audio_file": "wav/LOANSQA-Q104.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSQA-Q172",
+        "question": "What happens if a customer of the Instant Loan Against a Credit Card is late paying two consecutive installments?",
+        "expected_answer": "A late interest of 1.5% monthly is calculated on the remaining utilized balance.",
+        "audio_file": "wav/LOANSQA-Q172.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSQA-Q170",
+        "question": "How is the amount of the Instant Loan Against a Credit Card determined relative to the card ceiling?",
+        "expected_answer": "The loan amount represents 90% of the card ceiling.",
+        "audio_file": "wav/LOANSQA-Q170.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "LOANSQA-Q152",
+        "question": "What are the terms of the Personal Rewards Loan for employed customers with salary transfer?",
+        "expected_answer": "The minimum loan amount is 2,000 JOD, the maximum is 110,000 JOD, the Debt Burden Ratio is 50% or 55% depending on the employment category, and the minimum service period depends on the employment category.",
+        "audio_file": "wav/LOANSQA-Q152.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSQA-Q126",
+        "question": "Which entities are exempt from the conditional salary transfer commitment for the personal loan?",
+        "expected_answer": "Security Apparatuses, the University of Jordan, Prince Hamza Hospital, the Royal Jordanian Air Force, and Social Security beneficiaries — for whom it is sufficient to obtain an authorization from the customer to settle their indebtedness and receive the clearance certificate from the branch employee.",
+        "audio_file": "wav/LOANSQA-Q126.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "LOANSQA-Q004",
+        "question": "What is the minimum income for self-employed individuals to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum income for professionals and self-employed individuals is 1,000 JOD.",
+        "audio_file": "wav/LOANSQA-Q004.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "LOANSQA-Q160",
+        "question": "What is the minimum salary required to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "450 JOD.",
+        "audio_file": "wav/LOANSQA-Q160.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSQA-Q180",
+        "question": "What happens to the Instant Loan option after the customer takes it?",
+        "expected_answer": "The Instant Loan option disappears for the customer after taking it, and they cannot take another instant loan.",
+        "audio_file": "wav/LOANSQA-Q180.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSQA-Q012",
+        "question": "What guarantees are required for an auto loan without salary transfer?",
+        "expected_answer": "A mortgage on the car equal to 100% of the loan value, with the car registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank.",
+        "audio_file": "wav/LOANSQA-Q012.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "LOANSQA-Q002",
+        "question": "What is the age eligibility for salaried employees to obtain an auto loan without salary transfer?",
+        "expected_answer": "Age at granting ranges from 22 to 65 years, and the customer's age must not exceed 75 years at the maturity of the last installment.",
+        "audio_file": "wav/LOANSQA-Q002.wav"
+      }
+    ]
+  }
+]

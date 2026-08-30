@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "topics": {
+    "Loan": {
+      "sub_topics": [
+        {
+          "sub_topic": "Car Loan",
+          "file": "questions/Loan/Car Loan.json",
+          "ar": 83,
+          "en": 83,
+          "total": 166
+        },
+        {
+          "sub_topic": "Housing Loan",
+          "file": "questions/Loan/Housing Loan.json",
+          "ar": 100,
+          "en": 100,
+          "total": 200
+        },
+        {
+          "sub_topic": "Instant Loan",
+          "file": "questions/Loan/Instant Loan.json",
+          "ar": 14,
+          "en": 14,
+          "total": 28
+        },
+        {
+          "sub_topic": "Loans Gen",
+          "file": "questions/Loan/Loans Gen.json",
+          "ar": 100,
+          "en": 100,
+          "total": 200
+        },
+        {
+          "sub_topic": "Loans General QA",
+          "file": "questions/Loan/Loans General QA.json",
+          "ar": 100,
+          "en": 100,
+          "total": 200
+        },
+        {
+          "sub_topic": "Loans Overview",
+          "file": "questions/Loan/Loans Overview.json",
+          "ar": 4,
+          "en": 4,
+          "total": 8
+        },
+        {
+          "sub_topic": "Personal Loan",
+          "file": "questions/Loan/Personal Loan.json",
+          "ar": 110,
+          "en": 110,
+          "total": 220
+        },
+        {
+          "sub_topic": "PLCC",
+          "file": "questions/Loan/PLCC.json",
+          "ar": 21,
+          "en": 21,
+          "total": 42
+        }
+      ],
+      "total": 1064
+    }
+  }
+}

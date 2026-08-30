@@ -1,0 +1,158 @@
+{
+  "chunks": [
+    {
+      "id": "chunk_001",
+      "text": "ما هي أنواع القروض التي يوفرها بنك الاتحاد؟ قروض شخصية. قروض عقارية \\ سكنية. قروض سيارات. قروض فورية."
+    },
+    {
+      "id": "chunk_002",
+      "text": "ما هي أنواع القروض الشخصية؟ قرض شخصي. قرض شخصي لرواتب الأقل من 450 دينار. القرض الفوري مقابل بطاقة ائتمانية. قرض المكافآت الشخصي. قرض شخصي مقابل تأمينات. قرض شخصي مقابل رهن عقاري."
+    },
+    {
+      "id": "chunk_003",
+      "text": "ما هي أنواع القروض العقارية/السكنية؟ قروض سكنية \\ عقارية مع تحويل راتب. قروض سكنية \\ عقارية مع غير تحويل راتب. قروض متناقصة مقابل رهن عقاري."
+    },
+    {
+      "id": "chunk_004",
+      "text": "ما هي أنواع قروض السيارات؟ مع تحويل راتب. بدون تحويل راتب."
+    },
+    {
+      "id": "chunk_001_en",
+      "text": "What are the types of loans provided by Bank al Etihad? Personal loans. Real estate / housing loans. Auto loans. Instant loans."
+    },
+    {
+      "id": "chunk_002_en",
+      "text": "What are the types of personal loans? Personal loan. Personal loan for salaries less than 450 JOD. Instant loan against a credit card. Personal rewards loan. Personal loan against cash collaterals. Personal loan against a real estate mortgage."
+    },
+    {
+      "id": "chunk_003_en",
+      "text": "What are the types of real estate/housing loans? Housing / real estate loans with salary transfer. Housing / real estate loans without salary transfer. Declining loans against a real estate mortgage."
+    },
+    {
+      "id": "chunk_004_en",
+      "text": "What are the types of auto loans? With salary transfer. Without salary transfer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "LOANSOVERVIEW-Q001",
+      "pair_id": "LOANSOVERVIEW-P001",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "ما هي أنواع القروض التي يقدمها بنك الاتحاد؟",
+      "expected_answer": "يقدم بنك الاتحاد أربعة أنواع رئيسية من القروض: القروض الشخصية، والقروض العقارية/السكنية، وقروض السيارات، والقروض الفورية.",
+      "source_chunks": [
+        "ما هي أنواع القروض التي يوفرها بنك الاتحاد؟ قروض شخصية. قروض عقارية \\ سكنية. قروض سيارات. قروض فورية."
+      ],
+      "chunk_ids": [
+        "chunk_001"
+      ]
+    },
+    {
+      "id": "LOANSOVERVIEW-Q002",
+      "pair_id": "LOANSOVERVIEW-P001",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "What types of loans does Bank al Etihad offer?",
+      "expected_answer": "Bank al Etihad offers four main types of loans: personal loans, real estate/housing loans, auto loans, and instant loans.",
+      "source_chunks": [
+        "What are the types of loans provided by Bank al Etihad? Personal loans. Real estate / housing loans. Auto loans. Instant loans."
+      ],
+      "chunk_ids": [
+        "chunk_001_en"
+      ]
+    },
+    {
+      "id": "LOANSOVERVIEW-Q003",
+      "pair_id": "LOANSOVERVIEW-P002",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "ما هي أنواع القروض الشخصية المتوفرة؟",
+      "expected_answer": "تشمل القروض الشخصية: القرض الشخصي، والقرض الشخصي لأصحاب الرواتب الأقل من 450 دينار، والقرض الفوري مقابل بطاقة ائتمانية، وقرض المكافآت الشخصي، والقرض الشخصي مقابل تأمينات، والقرض الشخصي مقابل رهن عقاري.",
+      "source_chunks": [
+        "ما هي أنواع القروض الشخصية؟ قرض شخصي. قرض شخصي لرواتب الأقل من 450 دينار. القرض الفوري مقابل بطاقة ائتمانية. قرض المكافآت الشخصي. قرض شخصي مقابل تأمينات. قرض شخصي مقابل رهن عقاري."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "LOANSOVERVIEW-Q004",
+      "pair_id": "LOANSOVERVIEW-P002",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "What types of personal loans are available?",
+      "expected_answer": "Personal loans include: the personal loan, the personal loan for salaries less than 450 JOD, the instant loan against a credit card, the personal rewards loan, the personal loan against cash collaterals, and the personal loan against a real estate mortgage.",
+      "source_chunks": [
+        "What are the types of personal loans? Personal loan. Personal loan for salaries less than 450 JOD. Instant loan against a credit card. Personal rewards loan. Personal loan against cash collaterals. Personal loan against a real estate mortgage."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "LOANSOVERVIEW-Q005",
+      "pair_id": "LOANSOVERVIEW-P003",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "ما هي أنواع القروض العقارية/السكنية المتوفرة؟",
+      "expected_answer": "تشمل القروض العقارية/السكنية: القروض السكنية/العقارية مع تحويل راتب، والقروض السكنية/العقارية بدون تحويل راتب، والقروض المتناقصة مقابل رهن عقاري.",
+      "source_chunks": [
+        "ما هي أنواع القروض العقارية/السكنية؟ قروض سكنية \\ عقارية مع تحويل راتب. قروض سكنية \\ عقارية مع غير تحويل راتب. قروض متناقصة مقابل رهن عقاري."
+      ],
+      "chunk_ids": [
+        "chunk_003"
+      ]
+    },
+    {
+      "id": "LOANSOVERVIEW-Q006",
+      "pair_id": "LOANSOVERVIEW-P003",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "What types of real estate/housing loans are available?",
+      "expected_answer": "Real estate/housing loans include: housing/real estate loans with salary transfer, housing/real estate loans without salary transfer, and declining loans against a real estate mortgage.",
+      "source_chunks": [
+        "What are the types of real estate/housing loans? Housing / real estate loans with salary transfer. Housing / real estate loans without salary transfer. Declining loans against a real estate mortgage."
+      ],
+      "chunk_ids": [
+        "chunk_003_en"
+      ]
+    },
+    {
+      "id": "LOANSOVERVIEW-Q007",
+      "pair_id": "LOANSOVERVIEW-P004",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "ما هي أنواع قروض السيارات المتوفرة؟",
+      "expected_answer": "تشمل قروض السيارات نوعين: مع تحويل راتب، وبدون تحويل راتب.",
+      "source_chunks": [
+        "ما هي أنواع قروض السيارات؟ مع تحويل راتب. بدون تحويل راتب."
+      ],
+      "chunk_ids": [
+        "chunk_004"
+      ]
+    },
+    {
+      "id": "LOANSOVERVIEW-Q008",
+      "pair_id": "LOANSOVERVIEW-P004",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Loans overview",
+      "question": "What types of auto loans are available?",
+      "expected_answer": "Auto loans include two types: with salary transfer, and without salary transfer.",
+      "source_chunks": [
+        "What are the types of auto loans? With salary transfer. Without salary transfer."
+      ],
+      "chunk_ids": [
+        "chunk_004_en"
+      ]
+    }
+  ]
+}

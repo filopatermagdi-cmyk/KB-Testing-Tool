@@ -1,0 +1,2972 @@
+{
+  "chunks": [
+    {
+      "id": "chunk_001",
+      "text": "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+    },
+    {
+      "id": "chunk_002",
+      "text": "الحد الادنى لمدة الخدمة لجميع القطاعات (بدون تحويل راتب): ستة أشهر للموظفين المشتركين في الضمان الاجتماعي. أصحاب المهن والأعمال الحرة: داخل أمانة عمان سنة، وخارج أمانة عمان سنتين. المغتربين: سنتين."
+    },
+    {
+      "id": "chunk_003",
+      "text": "الحد الادنى للدخل (بدون تحويل راتب): للرواتب بشكل (450) دينار، للمهنيين وأصحاب الأعمال الحرة (1,000) دينار، المغتربين (2,000) دينار."
+    },
+    {
+      "id": "chunk_004",
+      "text": "الحد الادنى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (7,500) دينار."
+    },
+    {
+      "id": "chunk_005",
+      "text": "الحد الاعلى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (150,000) دينار للسيارة الواحدة وبعدد سيارات لا يتجاوز 3 سيارات في مجموع اجمالي (200,000) دينار."
+    },
+    {
+      "id": "chunk_006",
+      "text": "الحد الادنى لسعر السيارة (بدون تحويل راتب): (10,000) دينار."
+    },
+    {
+      "id": "chunk_007",
+      "text": "الحد الادنى لمدة التمويل (بدون تحويل راتب): (12) شهر."
+    },
+    {
+      "id": "chunk_008",
+      "text": "الحد الاعلى لمدة التمويل (بدون تحويل راتب): (8) سنوات."
+    },
+    {
+      "id": "chunk_009",
+      "text": "عبء الدين (بدون تحويل راتب): (50%) و(65%) في حال وجود بطاقة ائتمانية."
+    },
+    {
+      "id": "chunk_010",
+      "text": "المستندات المطلوبة للعميل (بدون تحويل راتب): إثبات الشخصية سارية المفعول. وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارات خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+    },
+    {
+      "id": "chunk_011",
+      "text": "المستندات المطلوبة للسيارة (بدون تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). عن رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك."
+    },
+    {
+      "id": "chunk_012",
+      "text": "(الفحص الفني) تخمين السيارة (بدون تحويل راتب): السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+    },
+    {
+      "id": "chunk_013",
+      "text": "الضمانات (بدون تحويل راتب): رهن السيارة بقيمة تساوي 100% من قيمة القرض. يجب تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهن السيارة من الدرجة الأولى لصالح البنك وحده. يجب تقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين وكتاب الرهن وحفظها في ملف العميل."
+    },
+    {
+      "id": "chunk_014",
+      "text": "أمر الدفع قيمة السيارة (بدون تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض."
+    },
+    {
+      "id": "chunk_015",
+      "text": "عمولة إعادة الهيكلة (بدون تحويل راتب): 5 دنانير. فترة السماح: تصل لغاية 45 يوم في حال توقيع العقد بعد 15 الشهر."
+    },
+    {
+      "id": "chunk_016",
+      "text": "عمولة السداد المبكر (بدون تحويل راتب): (1%) في حال بقي أكثر من سنة على انتهاء القرض و(0%) في حال تبقى أقل من سنة على انتهاء القرض."
+    },
+    {
+      "id": "chunk_017",
+      "text": "التأمين على الحياة (بدون تحويل راتب): الموافقة التلقائية ضمن بوليصة التأمين الجماعية شريطة: العملاء اللذين أعمارهم 65 سنة فاقل. مبلغ القرض اقل او يساوي من 100,000 دينار."
+    },
+    {
+      "id": "chunk_018",
+      "text": "تأجيل الدفعات (بدون تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط. صلاحية الموافقة 45 يوم."
+    },
+    {
+      "id": "chunk_019",
+      "text": "آلية تمويل السيارات الصينية (بدون تحويل راتب): جميع السيارات الصينية التي لها وكيل رسمي معتمد بالأردن و بنفس الشروط لباقي السيارات."
+    },
+    {
+      "id": "chunk_020",
+      "text": "الوكالات الصينية المعتمدة: مجموعة غرغور (Skywell). مجموعة غرغور (XPeng). شركة الاتحاد لتزويد المعدات (Maxus). صقر صقر لبناني الجنسية (IM Motors). شركة هارلم لتجارة السيارات (Jetour). الشركة المركزية للتجارة والمركبات (Chery). شركة أكاماس لتجارة السيارات (Hongqi). شاهين (MG). شاهين (HOGQI). شركة نهج المنار (GWM – HAVAL). الشركة العصرية وكيلها طهبوب (NETA). الشركة العصرية وكيلها طهبوب (BESTUNE). حلول التنقل وكيلها بسطامي وصاحب (BYD). عليان (GAC). وكالات الصينية التابعة لمجموعة العبيدي و سيارات المستقبل (BYD). شركة الوصل لتجارة السيارات (Geely)."
+    },
+    {
+      "id": "chunk_021",
+      "text": "نسبة التمويل 80% من المعارض المعتمدة التالية: معرض الشريف /معرض القلم /معرض نهار بغداد /معرض بورصة السيارات كلاسيك كار/ معرض بريستيج/ معرض الرائد /معرض ريمون حنانيا / معرض سيارتي /معرض كركر/معرض شادي فريج/معرض الرائع/ معرض Auto house /الطريق الابيض /معرض رويال /معرض عماد المغيرة / معرض بركات العواملة/ معرض ليث جريسات/ معرض مالك بني عمر/ معرض الجيلاوي/ معرض شعيبث /معرض البلورة/ معرض ابو ايمن القمة/ معرض البستنجي معرض استانبولي/معرض معتز جريسات /معرض المدينة الذكية /معارض العبيدي / معرض ابو هيكل/ معرض الهدف/ معرض مقبل/ معرض سيارتك/ معرض الصقر/معرض الخبراء/معرض العقاب /معرض الياقوت/ معرض اميغوز/ معرض العساف /معرض الحدائق/ معرض نمبر ون/ معرض الامين/معرض اوتومول/معرض محمد غريب/ معرض بيبلوسالعصرية لتجارة السيارات/ معرض العلامة الذهيبة /معرض كاكوري/ معرض اوتوكارمعرض نادر غيث/ معرض بوابة السابع/ معرض علي خريسات/ معرض غسان العبيديمعرض قطيشات/ معرض شركة سيارات المستقبل/ معرض بلال ابو الشيح /معرض ليث و قصيمعرض البخيت/ معرض الديك/ معرض عدوان الصالح /معرض محمد العسافمعرض الجدي/معرض بسمان/ معرض جوهرة البخيت/ معرض الحسينيمعرض حيدر /معرض العطيوي/ معرض ابو ناصر/ معرض رزان."
+    },
+    {
+      "id": "chunk_022",
+      "text": "لفئة 2: مع تحويل راتب - الجزء 1: قرض سيارة مع تحويل راتب بشكل عام - عمر العميل: العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+    },
+    {
+      "id": "chunk_023",
+      "text": "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+    },
+    {
+      "id": "chunk_024",
+      "text": "عبء الدين (مع تحويل راتب): للرواتب اقل او تساوي من 2,500 دينار: 55% للقرض فقط بالإضافة الى 5% للبطاقة لاصحاب الدخل اقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة الى 10% للبطاقة لاصحاب الدخل اعلى من 2500 دينار. عبء الدين مديون وكفيل: 70%."
+    },
+    {
+      "id": "chunk_025",
+      "text": "مدة القرض (مع تحويل راتب): بشكل عام: 12 – 96 شهر."
+    },
+    {
+      "id": "chunk_026",
+      "text": "الحد الادنى لمبلغ القرض بالدينار (مع تحويل راتب): 7,500 دينار. الحد الأقصى لمبلغ القرض بالدينار: 100,000 دينار. الحد الأدنى لسعر السيارة: 10,000 دينار."
+    },
+    {
+      "id": "chunk_027",
+      "text": "عمولة المنح (مع تحويل راتب): 1%. عمولة إعادة هيكلة: 5 دنانير."
+    },
+    {
+      "id": "chunk_028",
+      "text": "عمر السيارة (مع تحويل راتب): لا يزيد عن 14 سنة."
+    },
+    {
+      "id": "chunk_029",
+      "text": "نسبة التمويل (مع تحويل راتب): 100% عند تحويل الراتب و80% بدون تحويل و جميع القطاعات الأخرى. تحويل راتب: نعم الا للمهنين. خضوع العميل بالضمان الاجتماعي (نعم/لا): نعم الا للمهنين."
+    },
+    {
+      "id": "chunk_030",
+      "text": "شروط التمويل قرض السيارات بشكل عام (مع تحويل راتب) - (الفحص الفني) تخمين السيارة: السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+    },
+    {
+      "id": "chunk_031",
+      "text": "عدد السيارات الممولة (مع تحويل راتب): امكانية تمويل العميل بحد اقصى 200,000 دينار وبحسب نسبة الالتزام وبحد اقصى 3 سيارات قروض قائمة."
+    },
+    {
+      "id": "chunk_032",
+      "text": "الضمانات (مع تحويل راتب): رهن السيارة بقيمة تساوي 100% من قيمة القرض. يجب تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهن السيارة من الدرجة الأولى لصالح البنك وحده. يجب تقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين وكتاب الرهن وحفظها في ملف العميل."
+    },
+    {
+      "id": "chunk_033",
+      "text": "تأمين المركبة (مع تحويل راتب): تأمين السيارة شامل بما لا يقل عن قيمة القرض للسنة الأولى فقط."
+    },
+    {
+      "id": "chunk_034",
+      "text": "أمر الدفع قيمة السيارة (مع تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض."
+    },
+    {
+      "id": "chunk_035",
+      "text": "رسوم التأمين (مع تحويل راتب): تأمين على حياة المدين: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض اقل من 100,000 دينار. حسب مبلغ القرض: اقل من 20,000 دينار: 75 دينار. من 20,000 - 50,000 دينار: 150 دينار. أكبر من 50,000 دينار: 250 دينار."
+    },
+    {
+      "id": "chunk_036",
+      "text": "المقيمين الغير أردنيين (مع تحويل راتب): يتم منح الجنسيات التالية: العراقية والفلسطينيين على ان يتم معاملتهم نفس معاملة الأردنيين."
+    },
+    {
+      "id": "chunk_037",
+      "text": "السيارات التي يتم تمويلها (مع تحويل راتب): السيارات ذات التسجيل الخصوصي فقط."
+    },
+    {
+      "id": "chunk_038",
+      "text": "مزايا إضافية (مع تحويل راتب): تقديم طرق السداد الإضافية التالية لجميع أنواع سيارات الوكالة والسيارات بكفالة الوكالة: دفعات ربع سنوية، نصف سنوية وسنوية. شريطة: 1. تقديم ما يثبت المقدرة على السداد في تاريخ استحقاق الدفعة. 2. مدة التمويل لغاية 4 سنوات فقط."
+    },
+    {
+      "id": "chunk_039",
+      "text": "تأجيل الدفعات (مع تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط."
+    },
+    {
+      "id": "chunk_040",
+      "text": "عمولة السداد المبكر (مع تحويل راتب): في حال بقي أكثر من سنة على انتهاء القرض 1%. في حال تبقى اقل من سنة على انتهاء القرض 0%."
+    },
+    {
+      "id": "chunk_041",
+      "text": "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+    },
+    {
+      "id": "chunk_042",
+      "text": "المهنيين (مع تحويل راتب): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة او الشركة."
+    },
+    {
+      "id": "chunk_043",
+      "text": "مستندات السيارة (مع تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك."
+    },
+    {
+      "id": "chunk_044",
+      "text": "شروط تمويل السيارات الصينية (مع تحويل راتب): جميع السيارات الصينية التي لها وكيل حصري معتمد. يتم تمويل سيارات المنشأ الصيني وتحمل علامة تجارية عالمية غير صينية على سبيل المثال FORD, TOYOTA, VW بنفس شروط و ميزات السيارات غير الصينية. يتم تمويل السيارات التي تحمل علامة تجارية صينية من جميع المعارض شريطة وجود وكيل معتمد لها بالأردن وعداد صفر و حتى ان لم تكن مباعة من نفس الوكيل شريطة تزويدنا (فحص وتخمين + CARSEER). تمويل السيارات الصينية المستعملة شريطة ان لا يزيد عمرها 3 سنوات."
+    },
+    {
+      "id": "chunk_045",
+      "text": "الجزء 2: المهنيين والأعمال الحرة والمغتربين: الأطباء والمهندسين و والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين و حاملوا الشهادات المالية الذين لديهم أعمال خاصة بهم. الحد الادنى لمدة الخدمة: سنتان."
+    },
+    {
+      "id": "chunk_046",
+      "text": "الجزء 3: الاجهزة الامنية و العسكرية: الأجهزة الأمنية والعسكرية قوات الدرك والأمن العام القوات المسلحة وسلاح الجو المخابرات العامة. الحد الادنى لمدة الخدمة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+    },
+    {
+      "id": "chunk_047",
+      "text": "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+    },
+    {
+      "id": "chunk_048",
+      "text": "الجزء 5: مع تحويل رواتب – قطاع عام: توفير التمويل اللازم للعملاء من الشرائح المستهدفة لامتلاك السيارات الجديدة أو المستعملة بما فيها السيارات الهايبرد و الكهرباء، للاستعمال الشخصي أو العائلي بما يتناسب مع احتياجاتهم ورغباتهم، وفقا للمعايير والشروط الواردة بالبرنامج المقترح. الحد الادنى لمدة الخدمة بنفس الشركة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+    },
+    {
+      "id": "chunk_049",
+      "text": "الجزء 6: حملة قروض سيارات مجموعة أبو خضر للسيارات: 1. البرنامج مع تحويل راتب نسبة التمويل لغاية 100%. 2. البرنامج بدون تحويل راتب نسبة التمويل لغاية 80%. سعر الفائدة 7.25%."
+    },
+    {
+      "id": "chunk_050",
+      "text": "مزايا إضافية (حملة أبو خضر): يتم تحمل الأقساط الشهرية للقرض من تاريخ المنح الى غاية تاريخ 1/1/2027 من قبل مجموعة أبو خضر للسيارات بشكل مقدم بالحساب. تتحمل الوكالة عن العميل من قسط شهري واحد و حتى الأقساط المستحقة لغاية 1/1/2027."
+    },
+    {
+      "id": "chunk_051",
+      "text": "فائدة القرض (حملة أبو خضر): تتحمل الوكالة الفائدة على مدة القرض او العميل."
+    },
+    {
+      "id": "chunk_052",
+      "text": "الية الخصم (حملة أبو خضر): يتم الحصول على كتاب تفويض من مجموعة أبو خضر لخصم مجموع الأقساط من حسابهم لدينا. يتم حجز المبلغ المقيد على حساب مجموعة أبو خضر لدينا في حساب تامينات فرعي لحساب العميل. يتم تفعيل امر تحويل دوري بقيمة القسط شهريا من حساب التامينات الى حاسب السداد."
+    },
+    {
+      "id": "chunk_053",
+      "text": "مدة الحملة لغاية 31/12/2026 (حملة أبو خضر)، مع بقاء كافة شروط المنتج كما هي."
+    },
+    {
+      "id": "chunk_001_en",
+      "text": "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+    },
+    {
+      "id": "chunk_002_en",
+      "text": "Minimum Length of Service for all sectors (without salary transfer): 6 months for employees subscribed to Social Security. Professionals and Self-Employed: 1 year inside Greater Amman Municipality, and 2 years outside Greater Amman Municipality. Expatriates: 2 years."
+    },
+    {
+      "id": "chunk_003_en",
+      "text": "Minimum Income (without salary transfer): Salaried Employees: 450 JOD. Professionals and Self-Employed: 1,000 JOD. Expatriates: 2,000 JOD."
+    },
+    {
+      "id": "chunk_004_en",
+      "text": "Minimum Loan Amount (without salary transfer): 7,500 JOD."
+    },
+    {
+      "id": "chunk_005_en",
+      "text": "Maximum Loan Amount for all financing ratios (without salary transfer): 150,000 JOD per single car, for a maximum of 3 cars totaling 200,000 JOD."
+    },
+    {
+      "id": "chunk_006_en",
+      "text": "Minimum Car Price (without salary transfer): 10,000 JOD."
+    },
+    {
+      "id": "chunk_007_en",
+      "text": "Minimum Financing Period (without salary transfer): 12 months."
+    },
+    {
+      "id": "chunk_008_en",
+      "text": "Maximum Financing Period (without salary transfer): 8 years."
+    },
+    {
+      "id": "chunk_009_en",
+      "text": "Debt Burden Ratio (DBR) (without salary transfer): 50%, and 65% in case of holding a credit card."
+    },
+    {
+      "id": "chunk_010_en",
+      "text": "Documents Required from the Customer (without salary transfer): Valid proof of identity. Valid residency document (for non-Jordanians) in addition to a valid passport. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+    },
+    {
+      "id": "chunk_011_en",
+      "text": "Documents Required for the Car (without salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank."
+    },
+    {
+      "id": "chunk_012_en",
+      "text": "(Technical Inspection) Car Valuation (without salary transfer): New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. For new cars from the dealership, a quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+    },
+    {
+      "id": "chunk_013_en",
+      "text": "Guarantees (without salary transfer): Mortgage on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank. A copy of the car registration must be provided after registering it in the debtor's name, along with the mortgage letter, to be kept in the customer's file."
+    },
+    {
+      "id": "chunk_014_en",
+      "text": "Payment Order for Car Value (without salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account."
+    },
+    {
+      "id": "chunk_015_en",
+      "text": "Restructuring Commission (without salary transfer): 5 JOD. Grace Period: Up to 45 days if the contract is signed after the 15th of the month."
+    },
+    {
+      "id": "chunk_016_en",
+      "text": "Early Settlement Commission (without salary transfer): (1%) if more than a year remains until the end of the loan, and (0%) if less than a year remains until the end of the loan."
+    },
+    {
+      "id": "chunk_017_en",
+      "text": "Life Insurance (without salary transfer): Automatic approval under the group insurance policy provided that: Customers are aged 65 or younger. The loan amount is less than or equal to 100,000 JOD."
+    },
+    {
+      "id": "chunk_018_en",
+      "text": "Postponement of Installments (without salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments. Approval validity is 45 days."
+    },
+    {
+      "id": "chunk_019_en",
+      "text": "Chinese Cars Financing Mechanism (without salary transfer): All Chinese cars that have an approved official agent in Jordan will follow the same conditions as other cars."
+    },
+    {
+      "id": "chunk_020_en",
+      "text": "Approved Chinese Dealerships: Gargour Group (Skywell). Gargour Group (XPeng). Union Equipment Supply Company (Maxus). Saqr Saqr - Lebanese Nationality (IM Motors). Harlem Auto Trade (Jetour). Central Trade and Auto Co. (Chery). Acamas Auto Trade (Hongqi). Shaheen (MG). Shaheen (HONGQI). Nahj Al Manar Co. (GWM – HAVAL). Modern Company - Tahboub (NETA). Modern Company - Tahboub (BESTUNE). Mobility Solutions - Bustami & Saheb (BYD). Olayan (GAC). Chinese dealerships under Al-Obaidi Group & Future Cars (BYD). Al Wasl Auto Trade (Geely)."
+    },
+    {
+      "id": "chunk_021_en",
+      "text": "Financing Ratio 80% from the following approved showrooms: Al-Sharif Showroom / Al-Qalam Showroom / Nahar Baghdad Showroom / Boursa Classic Car Showroom / Prestige Showroom / Al-Raed Showroom / Raymond Hanania Showroom / Sayarati Showroom / Karkar Showroom / Shadi Freij Showroom / Al-Rae' Showroom / Auto House Showroom / Al-Tariq Al-Abyad / Royal Showroom / Imad Al-Mughaira Showroom / Barakat Al-Awamleh Showroom / Laith Jreisat Showroom / Malek Bani Omar Showroom / Al-Jilawi Showroom / Shuwaibith Showroom / Al-Balloura Showroom / Abu Ayman Al-Qimma Showroom / Al-Bustanji Showroom / Istanbouli Showroom / Moataz Jreisat Showroom / Smart City Showroom / Al-Obaidi Showrooms / Abu Heikal Showroom / Al-Hadaf Showroom / Muqbil Showroom / Sayyartak Showroom / Al-Saqr Showroom / Al-Khubara' Showroom / Al-Iqab Showroom / Al-Yaqout Showroom / Amigos Showroom / Al-Assaf Showroom / Al-Hadaeq Showroom / Number One Showroom / Al-Amin Showroom / Automall Showroom / Mohammad Gharib Showroom / Byblos Showroom / Al-Asriyya Auto Trade / Al-Alama Al-Dhahabiyya Showroom / Kakouri Showroom / Autocar Showroom / Nader Ghaith Showroom / 7th Gate Showroom / Ali Khreisat Showroom / Ghassan Al-Obaidi Showroom / Qteishat Showroom / Future Cars Co. Showroom / Bilal Abu Al-Sheeh Showroom / Laith & Qusai Showroom / Al-Bakhit Showroom / Al-Deek Showroom / Adwan Al-Saleh Showroom / Mohammad Al-Assaf Showroom / Al-Jidi Showroom / Basman Showroom / Jawharat Al-Bakhit Showroom / Al-Husseini Showroom / Haidar Showroom / Al-Oteiwi Showroom / Abu Naser Showroom / Razan Showroom."
+    },
+    {
+      "id": "chunk_022_en",
+      "text": "Category 2: With Salary Transfer - Part 1: Auto Loan with Salary Transfer in general - Customer Age: Age at granting for salaried employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+    },
+    {
+      "id": "chunk_023_en",
+      "text": "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+    },
+    {
+      "id": "chunk_024_en",
+      "text": "Debt Burden (with salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, plus 5% for the card for incomes below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, plus 10% for the card for incomes above 2,500 JOD. Debt Burden (Debtor and Guarantor): 70%."
+    },
+    {
+      "id": "chunk_025_en",
+      "text": "Loan Period (with salary transfer): In general: 12 – 96 months."
+    },
+    {
+      "id": "chunk_026_en",
+      "text": "Minimum Loan Amount in JOD (with salary transfer): 7,500 JOD. Maximum Loan Amount in JOD: 100,000 JOD. Minimum Car Price: 10,000 JOD."
+    },
+    {
+      "id": "chunk_027_en",
+      "text": "Granting Commission (with salary transfer): 1%. Restructuring Commission: 5 JOD."
+    },
+    {
+      "id": "chunk_028_en",
+      "text": "Car Age (with salary transfer): Not exceeding 14 years."
+    },
+    {
+      "id": "chunk_029_en",
+      "text": "Financing Ratio (with salary transfer): 100% with salary transfer, and 80% without transfer and all other sectors. Salary Transfer: Yes, except for professionals. Customer Subscribed to Social Security (Yes/No): Yes, except for professionals."
+    },
+    {
+      "id": "chunk_030_en",
+      "text": "Financing Terms - Auto Loans in General (with salary transfer) - (Technical Inspection) Car Valuation: New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. New Cars from the Dealership: A quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+    },
+    {
+      "id": "chunk_031_en",
+      "text": "Number of Financed Cars (with salary transfer): Possibility of financing the customer up to a maximum of 200,000 JOD depending on the commitment ratio, and a maximum of 3 active car loans."
+    },
+    {
+      "id": "chunk_032_en",
+      "text": "Guarantees (with salary transfer): Mortgage on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank. A copy of the car registration must be provided after registering it in the debtor's name, along with the mortgage letter, to be kept in the customer's file."
+    },
+    {
+      "id": "chunk_033_en",
+      "text": "Vehicle Insurance (with salary transfer): Comprehensive car insurance for not less than the loan value for the first year only."
+    },
+    {
+      "id": "chunk_034_en",
+      "text": "Payment Order for Car Value (with salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account."
+    },
+    {
+      "id": "chunk_035_en",
+      "text": "Insurance Fees (with salary transfer): Life insurance for the debtor: Customers aged 65 and below. Loan amount is less than 100,000 JOD. Based on the loan amount: Less than 20,000 JOD: 75 JOD. 20,000 - 50,000 JOD: 150 JOD. Greater than 50,000 JOD: 250 JOD."
+    },
+    {
+      "id": "chunk_036_en",
+      "text": "Non-Jordanian Residents (with salary transfer) - The following nationalities are granted: Iraqis and Palestinians, provided they are treated the same as Jordanians."
+    },
+    {
+      "id": "chunk_037_en",
+      "text": "Financed Cars (with salary transfer): Private registration cars only."
+    },
+    {
+      "id": "chunk_038_en",
+      "text": "Additional Features (with salary transfer): Providing the following additional repayment methods for all types of dealership cars and cars with dealership warranty: Quarterly, semi-annual, and annual payments. Provided that: Proof of ability to pay on the due date of the installment is submitted. The financing period is up to 4 years only."
+    },
+    {
+      "id": "chunk_039_en",
+      "text": "Postponement of Installments (with salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments."
+    },
+    {
+      "id": "chunk_040_en",
+      "text": "Early Settlement Commission (with salary transfer): If more than one year remains until the end of the loan: 1%. If less than one year remains until the end of the loan: 0%."
+    },
+    {
+      "id": "chunk_041_en",
+      "text": "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+    },
+    {
+      "id": "chunk_042_en",
+      "text": "Professionals (with salary transfer): Copy of a valid occupational license or one that has not been expired for more than 3 months. Copy of the commercial register. Certified copy of syndicate membership, if any. Bank statement for 6 months for the customer's personal account and the establishment/company account."
+    },
+    {
+      "id": "chunk_043_en",
+      "text": "Car Documents (with salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank."
+    },
+    {
+      "id": "chunk_044_en",
+      "text": "Terms for Financing Chinese Cars (with salary transfer): All Chinese cars that have an approved exclusive agent. Cars of Chinese origin bearing a non-Chinese global brand (e.g., FORD, TOYOTA, VW) are financed under the same terms and features as non-Chinese cars. Cars bearing a Chinese brand from all showrooms are financed, provided they have an approved agent in Jordan, are zero mileage, and even if they were not sold by the same agent, provided we are supplied with (Inspection and Valuation + CARSEER). Financing used Chinese cars is permitted provided their age does not exceed 3 years."
+    },
+    {
+      "id": "chunk_045_en",
+      "text": "Part 2: Professionals, Self-Employed, and Expatriates: Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Minimum Length of Service: 2 years."
+    },
+    {
+      "id": "chunk_046_en",
+      "text": "Part 3: Security and Military Apparatuses: Security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence. Minimum Length of Service: (3) months * Product criteria apply to the job."
+    },
+    {
+      "id": "chunk_047_en",
+      "text": "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+    },
+    {
+      "id": "chunk_048_en",
+      "text": "Part 5: With Salary Transfer -- Public Sector: Providing the necessary financing for customers from the target segments to own new or used cars, including hybrid and electric cars, for personal or family use in line with their needs and desires, according to the criteria and conditions set out in the proposed program. Minimum Length of Service in the same company: (3) months * Product criteria apply to the job."
+    },
+    {
+      "id": "chunk_049_en",
+      "text": "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%. Interest Rate: 7.25%"
+    },
+    {
+      "id": "chunk_050_en",
+      "text": "Additional Features (Abu Khader campaign): Monthly loan installments are borne from the granting date until 1/1/2027 by Abu Khader Automotive Group, paid in advance to the account. The dealership bears on behalf of the customer from one monthly installment up to the installments due until 1/1/2027."
+    },
+    {
+      "id": "chunk_051_en",
+      "text": "Loan Interest (Abu Khader campaign): The dealership or the customer bears the interest on the loan period."
+    },
+    {
+      "id": "chunk_052_en",
+      "text": "Deduction Mechanism (Abu Khader campaign): An authorization letter is obtained from Abu Khader Group to deduct the total installments from their account with us. The amount credited to Abu Khader Group's account with us is held in a sub-insurance account for the customer. A periodic transfer order is activated for the monthly installment amount from the insurance account to the repayment account."
+    },
+    {
+      "id": "chunk_053_en",
+      "text": "Campaign Duration (Abu Khader campaign): Until 31/12/2026. All other product conditions remain as they are."
+    }
+  ],
+  "questions": [
+    {
+      "id": "CARLOAN-Q001",
+      "pair_id": "CARLOAN-P001",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد العمري لأصحاب الرواتب للحصول على قرض سيارة؟",
+      "expected_answer": "يتراوح عمر أصحاب الرواتب عند منح القرض بين 22 و65 سنة، على ألا يتجاوز عمر العميل عند سداد آخر قسط 75 سنة.",
+      "source_chunks": [
+        "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة.",
+        "لفئة 2: مع تحويل راتب - الجزء 1: قرض سيارة مع تحويل راتب بشكل عام - عمر العميل: العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+      ],
+      "chunk_ids": [
+        "chunk_001",
+        "chunk_022"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q002",
+      "pair_id": "CARLOAN-P001",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the age eligibility range for salaried employees to obtain an auto loan?",
+      "expected_answer": "Salaried employees must be between 22 and 65 years old at the time of granting, and their age must not exceed 75 years at the maturity of the last installment.",
+      "source_chunks": [
+        "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years.",
+        "Category 2: With Salary Transfer - Part 1: Auto Loan with Salary Transfer in general - Customer Age: Age at granting for salaried employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+      ],
+      "chunk_ids": [
+        "chunk_001_en",
+        "chunk_022_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q003",
+      "pair_id": "CARLOAN-P002",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد العمري لأصحاب المهن والأعمال الحرة والمغتربين للحصول على قرض سيارة؟",
+      "expected_answer": "يتراوح عمر أصحاب المهن والأعمال الحرة والمغتربين عند منح القرض بين 24 و65 سنة، على ألا يتجاوز عمر العميل عند سداد آخر قسط 75 سنة.",
+      "source_chunks": [
+        "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة.",
+        "لفئة 2: مع تحويل راتب - الجزء 1: قرض سيارة مع تحويل راتب بشكل عام - عمر العميل: العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+      ],
+      "chunk_ids": [
+        "chunk_001",
+        "chunk_022"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q004",
+      "pair_id": "CARLOAN-P002",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the age eligibility range for professionals, self-employed individuals, and expatriates to obtain an auto loan?",
+      "expected_answer": "Professionals, self-employed individuals, and expatriates must be between 24 and 65 years old at the time of granting, and their age must not exceed 75 years at the maturity of the last installment.",
+      "source_chunks": [
+        "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years.",
+        "Category 2: With Salary Transfer - Part 1: Auto Loan with Salary Transfer in general - Customer Age: Age at granting for salaried employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+      ],
+      "chunk_ids": [
+        "chunk_001_en",
+        "chunk_022_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q005",
+      "pair_id": "CARLOAN-P003",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة للموظفين المشتركين بالضمان الاجتماعي للحصول على قرض سيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة هو ستة أشهر للموظفين المشتركين في الضمان الاجتماعي.",
+      "source_chunks": [
+        "الحد الادنى لمدة الخدمة لجميع القطاعات (بدون تحويل راتب): ستة أشهر للموظفين المشتركين في الضمان الاجتماعي. أصحاب المهن والأعمال الحرة: داخل أمانة عمان سنة، وخارج أمانة عمان سنتين. المغتربين: سنتين."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q006",
+      "pair_id": "CARLOAN-P003",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for employees subscribed to Social Security to obtain an auto loan without salary transfer?",
+      "expected_answer": "The minimum length of service is 6 months for employees subscribed to Social Security.",
+      "source_chunks": [
+        "Minimum Length of Service for all sectors (without salary transfer): 6 months for employees subscribed to Social Security. Professionals and Self-Employed: 1 year inside Greater Amman Municipality, and 2 years outside Greater Amman Municipality. Expatriates: 2 years."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q007",
+      "pair_id": "CARLOAN-P004",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لأصحاب المهن والأعمال الحرة للحصول على قرض سيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة سنة واحدة لمن يعمل داخل أمانة عمان، وسنتان لمن يعمل خارج أمانة عمان.",
+      "source_chunks": [
+        "الحد الادنى لمدة الخدمة لجميع القطاعات (بدون تحويل راتب): ستة أشهر للموظفين المشتركين في الضمان الاجتماعي. أصحاب المهن والأعمال الحرة: داخل أمانة عمان سنة، وخارج أمانة عمان سنتين. المغتربين: سنتين."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q008",
+      "pair_id": "CARLOAN-P004",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for professionals and self-employed individuals to obtain an auto loan without salary transfer?",
+      "expected_answer": "The minimum length of service is 1 year for those working inside Greater Amman Municipality, and 2 years for those working outside Greater Amman Municipality.",
+      "source_chunks": [
+        "Minimum Length of Service for all sectors (without salary transfer): 6 months for employees subscribed to Social Security. Professionals and Self-Employed: 1 year inside Greater Amman Municipality, and 2 years outside Greater Amman Municipality. Expatriates: 2 years."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q009",
+      "pair_id": "CARLOAN-P005",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة للمغتربين للحصول على قرض سيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة للمغتربين سنتان.",
+      "source_chunks": [
+        "الحد الادنى لمدة الخدمة لجميع القطاعات (بدون تحويل راتب): ستة أشهر للموظفين المشتركين في الضمان الاجتماعي. أصحاب المهن والأعمال الحرة: داخل أمانة عمان سنة، وخارج أمانة عمان سنتين. المغتربين: سنتين."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q010",
+      "pair_id": "CARLOAN-P005",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for expatriates to obtain an auto loan without salary transfer?",
+      "expected_answer": "The minimum length of service for expatriates is 2 years.",
+      "source_chunks": [
+        "Minimum Length of Service for all sectors (without salary transfer): 6 months for employees subscribed to Social Security. Professionals and Self-Employed: 1 year inside Greater Amman Municipality, and 2 years outside Greater Amman Municipality. Expatriates: 2 years."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q011",
+      "pair_id": "CARLOAN-P006",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للدخل لأصحاب الرواتب للحصول على قرض سيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى للدخل لأصحاب الرواتب هو 450 دينار.",
+      "source_chunks": [
+        "الحد الادنى للدخل (بدون تحويل راتب): للرواتب بشكل (450) دينار، للمهنيين وأصحاب الأعمال الحرة (1,000) دينار، المغتربين (2,000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_003"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q012",
+      "pair_id": "CARLOAN-P006",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum income for salaried employees to obtain an auto loan without salary transfer?",
+      "expected_answer": "The minimum income for salaried employees is 450 JOD.",
+      "source_chunks": [
+        "Minimum Income (without salary transfer): Salaried Employees: 450 JOD. Professionals and Self-Employed: 1,000 JOD. Expatriates: 2,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_003_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q013",
+      "pair_id": "CARLOAN-P007",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للدخل للمهنيين وأصحاب الأعمال الحرة للحصول على قرض سيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى للدخل للمهنيين وأصحاب الأعمال الحرة هو 1,000 دينار.",
+      "source_chunks": [
+        "الحد الادنى للدخل (بدون تحويل راتب): للرواتب بشكل (450) دينار، للمهنيين وأصحاب الأعمال الحرة (1,000) دينار، المغتربين (2,000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_003"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q014",
+      "pair_id": "CARLOAN-P007",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum income for professionals and self-employed individuals to obtain an auto loan without salary transfer?",
+      "expected_answer": "The minimum income for professionals and self-employed individuals is 1,000 JOD.",
+      "source_chunks": [
+        "Minimum Income (without salary transfer): Salaried Employees: 450 JOD. Professionals and Self-Employed: 1,000 JOD. Expatriates: 2,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_003_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q015",
+      "pair_id": "CARLOAN-P008",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للدخل للمغتربين للحصول على قرض سيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى للدخل للمغتربين هو 2,000 دينار.",
+      "source_chunks": [
+        "الحد الادنى للدخل (بدون تحويل راتب): للرواتب بشكل (450) دينار، للمهنيين وأصحاب الأعمال الحرة (1,000) دينار، المغتربين (2,000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_003"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q016",
+      "pair_id": "CARLOAN-P008",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum income for expatriates to obtain an auto loan without salary transfer?",
+      "expected_answer": "The minimum income for expatriates is 2,000 JOD.",
+      "source_chunks": [
+        "Minimum Income (without salary transfer): Salaried Employees: 450 JOD. Professionals and Self-Employed: 1,000 JOD. Expatriates: 2,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_003_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q017",
+      "pair_id": "CARLOAN-P009",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمبلغ قرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمبلغ القرض هو 7,500 دينار.",
+      "source_chunks": [
+        "الحد الادنى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (7,500) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_004"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q018",
+      "pair_id": "CARLOAN-P009",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum auto loan amount without salary transfer?",
+      "expected_answer": "The minimum loan amount is 7,500 JOD.",
+      "source_chunks": [
+        "Minimum Loan Amount (without salary transfer): 7,500 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_004_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q019",
+      "pair_id": "CARLOAN-P010",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأعلى لمبلغ قرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأعلى لمبلغ القرض هو 150,000 دينار للسيارة الواحدة، وبحد أقصى 3 سيارات بمجموع إجمالي لا يتجاوز 200,000 دينار.",
+      "source_chunks": [
+        "الحد الاعلى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (150,000) دينار للسيارة الواحدة وبعدد سيارات لا يتجاوز 3 سيارات في مجموع اجمالي (200,000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_005"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q020",
+      "pair_id": "CARLOAN-P010",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the maximum auto loan amount without salary transfer?",
+      "expected_answer": "The maximum loan amount is 150,000 JOD per single car, with a maximum of 3 cars totaling 200,000 JOD.",
+      "source_chunks": [
+        "Maximum Loan Amount for all financing ratios (without salary transfer): 150,000 JOD per single car, for a maximum of 3 cars totaling 200,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_005_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q021",
+      "pair_id": "CARLOAN-P011",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لسعر السيارة الممولة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لسعر السيارة هو 10,000 دينار.",
+      "source_chunks": [
+        "الحد الادنى لسعر السيارة (بدون تحويل راتب): (10,000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_006"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q022",
+      "pair_id": "CARLOAN-P011",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum price of a financed car without salary transfer?",
+      "expected_answer": "The minimum car price is 10,000 JOD.",
+      "source_chunks": [
+        "Minimum Car Price (without salary transfer): 10,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_006_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q023",
+      "pair_id": "CARLOAN-P012",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي مدة التمويل الدنيا والعليا لقرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة التمويل 12 شهراً، والحد الأعلى 8 سنوات.",
+      "source_chunks": [
+        "الحد الادنى لمدة التمويل (بدون تحويل راتب): (12) شهر.",
+        "الحد الاعلى لمدة التمويل (بدون تحويل راتب): (8) سنوات."
+      ],
+      "chunk_ids": [
+        "chunk_007",
+        "chunk_008"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q024",
+      "pair_id": "CARLOAN-P012",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the minimum and maximum financing periods for an auto loan without salary transfer?",
+      "expected_answer": "The minimum financing period is 12 months, and the maximum is 8 years.",
+      "source_chunks": [
+        "Minimum Financing Period (without salary transfer): 12 months.",
+        "Maximum Financing Period (without salary transfer): 8 years."
+      ],
+      "chunk_ids": [
+        "chunk_007_en",
+        "chunk_008_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q025",
+      "pair_id": "CARLOAN-P013",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة عبء الدين المسموح بها لقرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "نسبة عبء الدين المسموح بها 50%، وترتفع إلى 65% في حال وجود بطاقة ائتمانية.",
+      "source_chunks": [
+        "عبء الدين (بدون تحويل راتب): (50%) و(65%) في حال وجود بطاقة ائتمانية."
+      ],
+      "chunk_ids": [
+        "chunk_009"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q026",
+      "pair_id": "CARLOAN-P013",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the allowed Debt Burden Ratio (DBR) for an auto loan without salary transfer?",
+      "expected_answer": "The allowed DBR is 50%, rising to 65% in case the customer holds a credit card.",
+      "source_chunks": [
+        "Debt Burden Ratio (DBR) (without salary transfer): 50%, and 65% in case of holding a credit card."
+      ],
+      "chunk_ids": [
+        "chunk_009_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q027",
+      "pair_id": "CARLOAN-P014",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي المستندات الأساسية المطلوبة من العميل (إثبات الهوية والمركبة) للحصول على قرض سيارة؟",
+      "expected_answer": "يُطلب من العميل تقديم إثبات شخصية ساري المفعول، ولغير الأردني وثيقة إقامة سارية مع جواز سفر ساري المفعول، بالإضافة إلى رخصة المركبة أو بيان جمركي أو عرض سعر من الوكالة، وعقد بيع أو عرض سعر، وفحص وتخمين للسيارة خارج الوكالة حسب السياسة المعتمدة. وتنطبق هذه المتطلبات سواء تم تحويل الراتب أم لا.",
+      "source_chunks": [
+        "المستندات المطلوبة للعميل (بدون تحويل راتب): إثبات الشخصية سارية المفعول. وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارات خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين).",
+        "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+      ],
+      "chunk_ids": [
+        "chunk_010",
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q028",
+      "pair_id": "CARLOAN-P014",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the basic documents required from the customer (identity and vehicle) to obtain an auto loan?",
+      "expected_answer": "The customer must provide valid proof of identity, and for non-Jordanians a valid residency document with a valid passport, in addition to vehicle registration, customs declaration, or a dealership quotation, a sales contract or quotation, and inspection and valuation for cars outside the dealership according to policy. These requirements apply whether or not the salary is transferred.",
+      "source_chunks": [
+        "Documents Required from the Customer (without salary transfer): Valid proof of identity. Valid residency document (for non-Jordanians) in addition to a valid passport. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation).",
+        "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+      ],
+      "chunk_ids": [
+        "chunk_010_en",
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q029",
+      "pair_id": "CARLOAN-P015",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي المستندات الخاصة بالسيارة المطلوبة بعد الموافقة على قرض السيارة؟",
+      "expected_answer": "يُطلب كتاب فحص وتخمين للسيارات المستعملة أو عرض سعر للسيارات الجديدة من الوكالة، ورخصة السيارة باسم البائع، وبعد الموافقة تُقدَّم رخصة السيارة مؤشرة بالرهن مع كتاب رهن مختوم وبوليصة تأمين شامل لصالح البنك.",
+      "source_chunks": [
+        "المستندات المطلوبة للسيارة (بدون تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). عن رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك.",
+        "مستندات السيارة (مع تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك."
+      ],
+      "chunk_ids": [
+        "chunk_011",
+        "chunk_043"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q030",
+      "pair_id": "CARLOAN-P015",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What car-related documents are required after approval of the auto loan?",
+      "expected_answer": "An inspection and valuation letter is required for used cars, or a dealership quotation for new cars, along with car registration bearing the seller's name. After approval, the car registration must be marked with the mortgage, along with a stamped mortgage letter and a comprehensive insurance policy in favor of the bank.",
+      "source_chunks": [
+        "Documents Required for the Car (without salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank.",
+        "Car Documents (with salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank."
+      ],
+      "chunk_ids": [
+        "chunk_011_en",
+        "chunk_043_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q031",
+      "pair_id": "CARLOAN-P016",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي متطلبات الفحص الفني للسيارات الجديدة عند التمويل؟",
+      "expected_answer": "يجب تقديم عرض سعر من التاجر لجميع السيارات؛ أما السيارات ذات العداد صفر فيُكتفى بعرض السعر فقط دون فحص وتخمين شريطة تقديم كتاب كفالة من الوكالة وألا يتجاوز عمر السيارة 3 سنوات، وإن لم تكن واردة عن طريق وكالة يُكتفى بفحص وتخمين من مخمنين معتمدين.",
+      "source_chunks": [
+        "(الفحص الفني) تخمين السيارة (بدون تحويل راتب): السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين.",
+        "شروط التمويل قرض السيارات بشكل عام (مع تحويل راتب) - (الفحص الفني) تخمين السيارة: السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+      ],
+      "chunk_ids": [
+        "chunk_012",
+        "chunk_030"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q032",
+      "pair_id": "CARLOAN-P016",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the technical inspection requirements for new cars when financing?",
+      "expected_answer": "A quotation from the dealer must be submitted for all cars; for zero-mileage cars, only a quotation is required without an inspection or valuation, provided a warranty letter from the dealership is supplied and the car's age does not exceed 3 years. If not imported through an official dealership, an inspection and valuation from approved valuers will suffice.",
+      "source_chunks": [
+        "(Technical Inspection) Car Valuation (without salary transfer): New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. For new cars from the dealership, a quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers.",
+        "Financing Terms - Auto Loans in General (with salary transfer) - (Technical Inspection) Car Valuation: New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. New Cars from the Dealership: A quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+      ],
+      "chunk_ids": [
+        "chunk_012_en",
+        "chunk_030_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q033",
+      "pair_id": "CARLOAN-P017",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي متطلبات الفحص الفني للسيارات الجديدة الواردة من الوكالة عند التمويل؟",
+      "expected_answer": "يُكتفى بعرض سعر من الوكالة دون الحاجة لفحص وتخمين.",
+      "source_chunks": [
+        "(الفحص الفني) تخمين السيارة (بدون تحويل راتب): السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين.",
+        "شروط التمويل قرض السيارات بشكل عام (مع تحويل راتب) - (الفحص الفني) تخمين السيارة: السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+      ],
+      "chunk_ids": [
+        "chunk_012",
+        "chunk_030"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q034",
+      "pair_id": "CARLOAN-P017",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the technical inspection requirements for new cars imported through a dealership when financing?",
+      "expected_answer": "A quotation from the dealership is sufficient, without the need for an inspection or valuation.",
+      "source_chunks": [
+        "(Technical Inspection) Car Valuation (without salary transfer): New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. For new cars from the dealership, a quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers.",
+        "Financing Terms - Auto Loans in General (with salary transfer) - (Technical Inspection) Car Valuation: New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. New Cars from the Dealership: A quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+      ],
+      "chunk_ids": [
+        "chunk_012_en",
+        "chunk_030_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q035",
+      "pair_id": "CARLOAN-P018",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي متطلبات الفحص الفني للسيارات المستعملة عند التمويل؟",
+      "expected_answer": "يُطلب كتاب فحص بدرجة (3 جيد) من مراكز الفحص المعتمدة لدى البنك يبيّن قيمة السيارة وحالتها.",
+      "source_chunks": [
+        "(الفحص الفني) تخمين السيارة (بدون تحويل راتب): السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين.",
+        "شروط التمويل قرض السيارات بشكل عام (مع تحويل راتب) - (الفحص الفني) تخمين السيارة: السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+      ],
+      "chunk_ids": [
+        "chunk_012",
+        "chunk_030"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q036",
+      "pair_id": "CARLOAN-P018",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the technical inspection requirements for used cars when financing?",
+      "expected_answer": "An inspection letter rated (3 Good) is required from the bank's approved inspection centers, showing the car's value and condition.",
+      "source_chunks": [
+        "(Technical Inspection) Car Valuation (without salary transfer): New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. For new cars from the dealership, a quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers.",
+        "Financing Terms - Auto Loans in General (with salary transfer) - (Technical Inspection) Car Valuation: New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. New Cars from the Dealership: A quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+      ],
+      "chunk_ids": [
+        "chunk_012_en",
+        "chunk_030_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q037",
+      "pair_id": "CARLOAN-P019",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كيف يتم التعامل مع فحص السيارات المستعملة (Pre-owned) المشتراة من وكالات السيارات؟",
+      "expected_answer": "يُكتفى بعرض السعر المقدم من الوكالة للسيارات الجديدة، وللسيارات المستعملة (Pre-owned) التي لا يزيد عمرها عن 3 سنوات شريطة شرائها من نفس الوكالة؛ وفي غير ذلك يتم فحصها وتخمينها من قبل مخمنين معتمدين.",
+      "source_chunks": [
+        "(الفحص الفني) تخمين السيارة (بدون تحويل راتب): السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين.",
+        "شروط التمويل قرض السيارات بشكل عام (مع تحويل راتب) - (الفحص الفني) تخمين السيارة: السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+      ],
+      "chunk_ids": [
+        "chunk_012",
+        "chunk_030"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q038",
+      "pair_id": "CARLOAN-P019",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "How is the inspection handled for pre-owned cars purchased from car dealerships?",
+      "expected_answer": "A quotation provided by the dealership is sufficient for new cars; for pre-owned cars not older than 3 years, this applies provided they are from the same dealership. Otherwise, the car is inspected and valued by approved valuers.",
+      "source_chunks": [
+        "(Technical Inspection) Car Valuation (without salary transfer): New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. For new cars from the dealership, a quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers.",
+        "Financing Terms - Auto Loans in General (with salary transfer) - (Technical Inspection) Car Valuation: New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. New Cars from the Dealership: A quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+      ],
+      "chunk_ids": [
+        "chunk_012_en",
+        "chunk_030_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q039",
+      "pair_id": "CARLOAN-P020",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي الضمانات المطلوبة لقرض السيارة؟",
+      "expected_answer": "يتم رهن السيارة بقيمة تساوي 100% من قيمة القرض، مع تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهنها من الدرجة الأولى لصالح البنك وحده، وتقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين مع كتاب الرهن لحفظها في ملف العميل.",
+      "source_chunks": [
+        "الضمانات (بدون تحويل راتب): رهن السيارة بقيمة تساوي 100% من قيمة القرض. يجب تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهن السيارة من الدرجة الأولى لصالح البنك وحده. يجب تقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين وكتاب الرهن وحفظها في ملف العميل.",
+        "الضمانات (مع تحويل راتب): رهن السيارة بقيمة تساوي 100% من قيمة القرض. يجب تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهن السيارة من الدرجة الأولى لصالح البنك وحده. يجب تقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين وكتاب الرهن وحفظها في ملف العميل."
+      ],
+      "chunk_ids": [
+        "chunk_013",
+        "chunk_032"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q040",
+      "pair_id": "CARLOAN-P020",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What guarantees are required for an auto loan?",
+      "expected_answer": "A mortgage is placed on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank, and a copy of the car registration bearing the debtor's name, along with the mortgage letter, must be kept in the customer's file.",
+      "source_chunks": [
+        "Guarantees (without salary transfer): Mortgage on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank. A copy of the car registration must be provided after registering it in the debtor's name, along with the mortgage letter, to be kept in the customer's file.",
+        "Guarantees (with salary transfer): Mortgage on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank. A copy of the car registration must be provided after registering it in the debtor's name, along with the mortgage letter, to be kept in the customer's file."
+      ],
+      "chunk_ids": [
+        "chunk_013_en",
+        "chunk_032_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q041",
+      "pair_id": "CARLOAN-P021",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كيف يتم صرف أمر الدفع بقيمة السيارة الممولة؟",
+      "expected_answer": "يصدر أمر الدفع باسم التاجر بائع السيارة فقط، أو يُحوَّل إلى حساب البائع إن كان عميلاً لدى بنك اتحاد، ولا يمكن بأي حال قيد قيمة القرض إلى حساب العميل المقترض.",
+      "source_chunks": [
+        "أمر الدفع قيمة السيارة (بدون تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض.",
+        "أمر الدفع قيمة السيارة (مع تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض."
+      ],
+      "chunk_ids": [
+        "chunk_014",
+        "chunk_034"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q042",
+      "pair_id": "CARLOAN-P021",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "How is the payment order for the financed car value issued?",
+      "expected_answer": "The payment order is issued exclusively in the name of the dealer (seller of the car), or transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account.",
+      "source_chunks": [
+        "Payment Order for Car Value (without salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account.",
+        "Payment Order for Car Value (with salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account."
+      ],
+      "chunk_ids": [
+        "chunk_014_en",
+        "chunk_034_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q043",
+      "pair_id": "CARLOAN-P022",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كم تبلغ عمولة إعادة الهيكلة لقرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير.",
+      "source_chunks": [
+        "عمولة إعادة الهيكلة (بدون تحويل راتب): 5 دنانير. فترة السماح: تصل لغاية 45 يوم في حال توقيع العقد بعد 15 الشهر."
+      ],
+      "chunk_ids": [
+        "chunk_015"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q044",
+      "pair_id": "CARLOAN-P022",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the restructuring commission for an auto loan without salary transfer?",
+      "expected_answer": "The restructuring commission is 5 JOD.",
+      "source_chunks": [
+        "Restructuring Commission (without salary transfer): 5 JOD. Grace Period: Up to 45 days if the contract is signed after the 15th of the month."
+      ],
+      "chunk_ids": [
+        "chunk_015_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q045",
+      "pair_id": "CARLOAN-P023",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي فترة السماح لقرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "تصل فترة السماح إلى 45 يوماً في حال توقيع العقد بعد اليوم 15 من الشهر.",
+      "source_chunks": [
+        "عمولة إعادة الهيكلة (بدون تحويل راتب): 5 دنانير. فترة السماح: تصل لغاية 45 يوم في حال توقيع العقد بعد 15 الشهر."
+      ],
+      "chunk_ids": [
+        "chunk_015"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q046",
+      "pair_id": "CARLOAN-P023",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the grace period for an auto loan without salary transfer?",
+      "expected_answer": "The grace period is up to 45 days if the contract is signed after the 15th of the month.",
+      "source_chunks": [
+        "Restructuring Commission (without salary transfer): 5 JOD. Grace Period: Up to 45 days if the contract is signed after the 15th of the month."
+      ],
+      "chunk_ids": [
+        "chunk_015_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q047",
+      "pair_id": "CARLOAN-P024",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كم تبلغ عمولة السداد المبكر لقرض السيارة؟",
+      "expected_answer": "تبلغ عمولة السداد المبكر 1% إذا تبقّى أكثر من سنة على انتهاء القرض، و0% إذا تبقّى أقل من سنة على انتهائه.",
+      "source_chunks": [
+        "عمولة السداد المبكر (بدون تحويل راتب): (1%) في حال بقي أكثر من سنة على انتهاء القرض و(0%) في حال تبقى أقل من سنة على انتهاء القرض.",
+        "عمولة السداد المبكر (مع تحويل راتب): في حال بقي أكثر من سنة على انتهاء القرض 1%. في حال تبقى اقل من سنة على انتهاء القرض 0%."
+      ],
+      "chunk_ids": [
+        "chunk_016",
+        "chunk_040"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q048",
+      "pair_id": "CARLOAN-P024",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the early settlement commission for an auto loan?",
+      "expected_answer": "The early settlement commission is 1% if more than a year remains until the end of the loan, and 0% if less than a year remains.",
+      "source_chunks": [
+        "Early Settlement Commission (without salary transfer): (1%) if more than a year remains until the end of the loan, and (0%) if less than a year remains until the end of the loan.",
+        "Early Settlement Commission (with salary transfer): If more than one year remains until the end of the loan: 1%. If less than one year remains until the end of the loan: 0%."
+      ],
+      "chunk_ids": [
+        "chunk_016_en",
+        "chunk_040_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q049",
+      "pair_id": "CARLOAN-P025",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي شروط الموافقة التلقائية على التأمين على الحياة لقرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "تتم الموافقة التلقائية ضمن بوليصة التأمين الجماعية للعملاء الذين تبلغ أعمارهم 65 سنة فأقل، وبشرط ألا يزيد مبلغ القرض عن 100,000 دينار أو يساويه.",
+      "source_chunks": [
+        "التأمين على الحياة (بدون تحويل راتب): الموافقة التلقائية ضمن بوليصة التأمين الجماعية شريطة: العملاء اللذين أعمارهم 65 سنة فاقل. مبلغ القرض اقل او يساوي من 100,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_017"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q050",
+      "pair_id": "CARLOAN-P025",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the conditions for automatic life insurance approval for an auto loan without salary transfer?",
+      "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 or younger, provided the loan amount is less than or equal to 100,000 JOD.",
+      "source_chunks": [
+        "Life Insurance (without salary transfer): Automatic approval under the group insurance policy provided that: Customers are aged 65 or younger. The loan amount is less than or equal to 100,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_017_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q051",
+      "pair_id": "CARLOAN-P026",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي شروط تأجيل دفعات قرض السيارة؟",
+      "expected_answer": "يُسمح بتأجيل دفعتين فقط خلال العام على ألا تقعا ضمن نفس النصف من السنة، وبشرط مرور 6 أشهر على تاريخ صرف القرض، والتزام العميل بالسداد دون مستحقات تتجاوز 30 يوماً خلال الأشهر الستة السابقة، وعدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. ولا يُسمح لعملاء الاقتطاعات بتأجيل الأقساط.",
+      "source_chunks": [
+        "تأجيل الدفعات (بدون تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط. صلاحية الموافقة 45 يوم.",
+        "تأجيل الدفعات (مع تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط."
+      ],
+      "chunk_ids": [
+        "chunk_018",
+        "chunk_039"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q052",
+      "pair_id": "CARLOAN-P026",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the conditions for postponing auto loan installments?",
+      "expected_answer": "Only two postponements are allowed per year, provided the two installments are not postponed during the same half of the year, that 6 months have passed since the loan disbursement date, that the customer has no past due amounts (over 30 days) during the previous 6 months, and that the maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments.",
+      "source_chunks": [
+        "Postponement of Installments (without salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments. Approval validity is 45 days.",
+        "Postponement of Installments (with salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments."
+      ],
+      "chunk_ids": [
+        "chunk_018_en",
+        "chunk_039_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q053",
+      "pair_id": "CARLOAN-P027",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي مدة صلاحية الموافقة على تأجيل الدفعات لقرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "صلاحية الموافقة على تأجيل الدفعات 45 يوماً.",
+      "source_chunks": [
+        "تأجيل الدفعات (بدون تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط. صلاحية الموافقة 45 يوم."
+      ],
+      "chunk_ids": [
+        "chunk_018"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q054",
+      "pair_id": "CARLOAN-P027",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the validity period of the approval for postponing installments for an auto loan without salary transfer?",
+      "expected_answer": "The approval validity for postponing installments is 45 days.",
+      "source_chunks": [
+        "Postponement of Installments (without salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments. Approval validity is 45 days."
+      ],
+      "chunk_ids": [
+        "chunk_018_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q055",
+      "pair_id": "CARLOAN-P028",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي آلية تمويل السيارات الصينية بدون تحويل راتب؟",
+      "expected_answer": "يتم تمويل جميع السيارات الصينية التي لها وكيل رسمي معتمد في الأردن، وذلك بنفس الشروط المطبقة على باقي السيارات.",
+      "source_chunks": [
+        "آلية تمويل السيارات الصينية (بدون تحويل راتب): جميع السيارات الصينية التي لها وكيل رسمي معتمد بالأردن و بنفس الشروط لباقي السيارات."
+      ],
+      "chunk_ids": [
+        "chunk_019"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q056",
+      "pair_id": "CARLOAN-P028",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the financing mechanism for Chinese cars without salary transfer?",
+      "expected_answer": "All Chinese cars that have an approved official agent in Jordan are financed under the same conditions as other cars.",
+      "source_chunks": [
+        "Chinese Cars Financing Mechanism (without salary transfer): All Chinese cars that have an approved official agent in Jordan will follow the same conditions as other cars."
+      ],
+      "chunk_ids": [
+        "chunk_019_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q057",
+      "pair_id": "CARLOAN-P029",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "من هي الوكالات الصينية المعتمدة لتمويل السيارات؟",
+      "expected_answer": "الوكالات الصينية المعتمدة هي: مجموعة غرغور (Skywell)، مجموعة غرغور (XPeng)، شركة الاتحاد لتزويد المعدات (Maxus)، صقر صقر لبناني الجنسية (IM Motors)، شركة هارلم لتجارة السيارات (Jetour)، الشركة المركزية للتجارة والمركبات (Chery)، شركة أكاماس لتجارة السيارات (Hongqi)، شاهين (MG)، شاهين (HOGQI)، شركة نهج المنار (GWM – HAVAL)، الشركة العصرية وكيلها طهبوب (NETA)، الشركة العصرية وكيلها طهبوب (BESTUNE)، حلول التنقل وكيلها بسطامي وصاحب (BYD)، عليان (GAC)، وكالات صينية تابعة لمجموعة العبيدي وسيارات المستقبل (BYD)، وشركة الوصل لتجارة السيارات (Geely).",
+      "source_chunks": [
+        "الوكالات الصينية المعتمدة: مجموعة غرغور (Skywell). مجموعة غرغور (XPeng). شركة الاتحاد لتزويد المعدات (Maxus). صقر صقر لبناني الجنسية (IM Motors). شركة هارلم لتجارة السيارات (Jetour). الشركة المركزية للتجارة والمركبات (Chery). شركة أكاماس لتجارة السيارات (Hongqi). شاهين (MG). شاهين (HOGQI). شركة نهج المنار (GWM – HAVAL). الشركة العصرية وكيلها طهبوب (NETA). الشركة العصرية وكيلها طهبوب (BESTUNE). حلول التنقل وكيلها بسطامي وصاحب (BYD). عليان (GAC). وكالات الصينية التابعة لمجموعة العبيدي و سيارات المستقبل (BYD). شركة الوصل لتجارة السيارات (Geely)."
+      ],
+      "chunk_ids": [
+        "chunk_020"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q058",
+      "pair_id": "CARLOAN-P029",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Which Chinese dealerships are approved for auto financing?",
+      "expected_answer": "The approved Chinese dealerships are: Gargour Group (Skywell), Gargour Group (XPeng), Union Equipment Supply Company (Maxus), Saqr Saqr - Lebanese Nationality (IM Motors), Harlem Auto Trade (Jetour), Central Trade and Auto Co. (Chery), Acamas Auto Trade (Hongqi), Shaheen (MG), Shaheen (HONGQI), Nahj Al Manar Co. (GWM – HAVAL), Modern Company - Tahboub (NETA), Modern Company - Tahboub (BESTUNE), Mobility Solutions - Bustami & Saheb (BYD), Olayan (GAC), Chinese dealerships under Al-Obaidi Group & Future Cars (BYD), and Al Wasl Auto Trade (Geely).",
+      "source_chunks": [
+        "Approved Chinese Dealerships: Gargour Group (Skywell). Gargour Group (XPeng). Union Equipment Supply Company (Maxus). Saqr Saqr - Lebanese Nationality (IM Motors). Harlem Auto Trade (Jetour). Central Trade and Auto Co. (Chery). Acamas Auto Trade (Hongqi). Shaheen (MG). Shaheen (HONGQI). Nahj Al Manar Co. (GWM – HAVAL). Modern Company - Tahboub (NETA). Modern Company - Tahboub (BESTUNE). Mobility Solutions - Bustami & Saheb (BYD). Olayan (GAC). Chinese dealerships under Al-Obaidi Group & Future Cars (BYD). Al Wasl Auto Trade (Geely)."
+      ],
+      "chunk_ids": [
+        "chunk_020_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q059",
+      "pair_id": "CARLOAN-P030",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة التمويل المتاحة عند الشراء من المعارض المعتمدة بدون تحويل راتب؟",
+      "expected_answer": "نسبة التمويل من المعارض المعتمدة المدرجة في القائمة هي 80%.",
+      "source_chunks": [
+        "نسبة التمويل 80% من المعارض المعتمدة التالية: معرض الشريف /معرض القلم /معرض نهار بغداد /معرض بورصة السيارات كلاسيك كار/ معرض بريستيج/ معرض الرائد /معرض ريمون حنانيا / معرض سيارتي /معرض كركر/معرض شادي فريج/معرض الرائع/ معرض Auto house /الطريق الابيض /معرض رويال /معرض عماد المغيرة / معرض بركات العواملة/ معرض ليث جريسات/ معرض مالك بني عمر/ معرض الجيلاوي/ معرض شعيبث /معرض البلورة/ معرض ابو ايمن القمة/ معرض البستنجي معرض استانبولي/معرض معتز جريسات /معرض المدينة الذكية /معارض العبيدي / معرض ابو هيكل/ معرض الهدف/ معرض مقبل/ معرض سيارتك/ معرض الصقر/معرض الخبراء/معرض العقاب /معرض الياقوت/ معرض اميغوز/ معرض العساف /معرض الحدائق/ معرض نمبر ون/ معرض الامين/معرض اوتومول/معرض محمد غريب/ معرض بيبلوسالعصرية لتجارة السيارات/ معرض العلامة الذهيبة /معرض كاكوري/ معرض اوتوكارمعرض نادر غيث/ معرض بوابة السابع/ معرض علي خريسات/ معرض غسان العبيديمعرض قطيشات/ معرض شركة سيارات المستقبل/ معرض بلال ابو الشيح /معرض ليث و قصيمعرض البخيت/ معرض الديك/ معرض عدوان الصالح /معرض محمد العسافمعرض الجدي/معرض بسمان/ معرض جوهرة البخيت/ معرض الحسينيمعرض حيدر /معرض العطيوي/ معرض ابو ناصر/ معرض رزان."
+      ],
+      "chunk_ids": [
+        "chunk_021"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q060",
+      "pair_id": "CARLOAN-P030",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What financing ratio is available when buying from the approved showrooms without salary transfer?",
+      "expected_answer": "The financing ratio from the listed approved showrooms is 80%.",
+      "source_chunks": [
+        "Financing Ratio 80% from the following approved showrooms: Al-Sharif Showroom / Al-Qalam Showroom / Nahar Baghdad Showroom / Boursa Classic Car Showroom / Prestige Showroom / Al-Raed Showroom / Raymond Hanania Showroom / Sayarati Showroom / Karkar Showroom / Shadi Freij Showroom / Al-Rae' Showroom / Auto House Showroom / Al-Tariq Al-Abyad / Royal Showroom / Imad Al-Mughaira Showroom / Barakat Al-Awamleh Showroom / Laith Jreisat Showroom / Malek Bani Omar Showroom / Al-Jilawi Showroom / Shuwaibith Showroom / Al-Balloura Showroom / Abu Ayman Al-Qimma Showroom / Al-Bustanji Showroom / Istanbouli Showroom / Moataz Jreisat Showroom / Smart City Showroom / Al-Obaidi Showrooms / Abu Heikal Showroom / Al-Hadaf Showroom / Muqbil Showroom / Sayyartak Showroom / Al-Saqr Showroom / Al-Khubara' Showroom / Al-Iqab Showroom / Al-Yaqout Showroom / Amigos Showroom / Al-Assaf Showroom / Al-Hadaeq Showroom / Number One Showroom / Al-Amin Showroom / Automall Showroom / Mohammad Gharib Showroom / Byblos Showroom / Al-Asriyya Auto Trade / Al-Alama Al-Dhahabiyya Showroom / Kakouri Showroom / Autocar Showroom / Nader Ghaith Showroom / 7th Gate Showroom / Ali Khreisat Showroom / Ghassan Al-Obaidi Showroom / Qteishat Showroom / Future Cars Co. Showroom / Bilal Abu Al-Sheeh Showroom / Laith & Qusai Showroom / Al-Bakhit Showroom / Al-Deek Showroom / Adwan Al-Saleh Showroom / Mohammad Al-Assaf Showroom / Al-Jidi Showroom / Basman Showroom / Jawharat Al-Bakhit Showroom / Al-Husseini Showroom / Haidar Showroom / Al-Oteiwi Showroom / Abu Naser Showroom / Razan Showroom."
+      ],
+      "chunk_ids": [
+        "chunk_021_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q061",
+      "pair_id": "CARLOAN-P031",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي المعارض المعتمدة التي تمنح نسبة تمويل 80% بدون تحويل راتب؟",
+      "expected_answer": "المعارض المعتمدة لنسبة تمويل 80% هي: معرض الشريف، معرض القلم، معرض نهار بغداد، معرض بورصة السيارات كلاسيك كار، معرض بريستيج، معرض الرائد، معرض ريمون حنانيا، معرض سيارتي، معرض كركر، معرض شادي فريج، معرض الرائع، معرض Auto House، الطريق الأبيض، معرض رويال، معرض عماد المغيرة، معرض بركات العواملة، معرض ليث جريسات، معرض مالك بني عمر، معرض الجيلاوي، معرض شعيبث، معرض البلورة، معرض ابو ايمن القمة، معرض البستنجي، معرض استانبولي، معرض معتز جريسات، معرض المدينة الذكية، معارض العبيدي، معرض ابو هيكل، معرض الهدف، معرض مقبل، معرض سيارتك، معرض الصقر، معرض الخبراء، معرض العقاب، معرض الياقوت، معرض اميغوز، معرض العساف، معرض الحدائق، معرض نمبر ون، معرض الامين، معرض اوتومول، معرض محمد غريب، معرض بيبلوس، معرض العصرية لتجارة السيارات، معرض العلامة الذهيبة، معرض كاكوري، معرض اوتوكار، معرض نادر غيث، معرض بوابة السابع، معرض علي خريسات، معرض غسان العبيدي، معرض قطيشات، معرض شركة سيارات المستقبل، معرض بلال ابو الشيح، معرض ليث و قصي، معرض البخيت، معرض الديك، معرض عدوان الصالح، معرض محمد العساف، معرض الجدي، معرض بسمان، معرض جوهرة البخيت، معرض الحسيني، معرض حيدر، معرض العطيوي، معرض ابو ناصر، ومعرض رزان.",
+      "source_chunks": [
+        "نسبة التمويل 80% من المعارض المعتمدة التالية: معرض الشريف /معرض القلم /معرض نهار بغداد /معرض بورصة السيارات كلاسيك كار/ معرض بريستيج/ معرض الرائد /معرض ريمون حنانيا / معرض سيارتي /معرض كركر/معرض شادي فريج/معرض الرائع/ معرض Auto house /الطريق الابيض /معرض رويال /معرض عماد المغيرة / معرض بركات العواملة/ معرض ليث جريسات/ معرض مالك بني عمر/ معرض الجيلاوي/ معرض شعيبث /معرض البلورة/ معرض ابو ايمن القمة/ معرض البستنجي معرض استانبولي/معرض معتز جريسات /معرض المدينة الذكية /معارض العبيدي / معرض ابو هيكل/ معرض الهدف/ معرض مقبل/ معرض سيارتك/ معرض الصقر/معرض الخبراء/معرض العقاب /معرض الياقوت/ معرض اميغوز/ معرض العساف /معرض الحدائق/ معرض نمبر ون/ معرض الامين/معرض اوتومول/معرض محمد غريب/ معرض بيبلوسالعصرية لتجارة السيارات/ معرض العلامة الذهيبة /معرض كاكوري/ معرض اوتوكارمعرض نادر غيث/ معرض بوابة السابع/ معرض علي خريسات/ معرض غسان العبيديمعرض قطيشات/ معرض شركة سيارات المستقبل/ معرض بلال ابو الشيح /معرض ليث و قصيمعرض البخيت/ معرض الديك/ معرض عدوان الصالح /معرض محمد العسافمعرض الجدي/معرض بسمان/ معرض جوهرة البخيت/ معرض الحسينيمعرض حيدر /معرض العطيوي/ معرض ابو ناصر/ معرض رزان."
+      ],
+      "chunk_ids": [
+        "chunk_021"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q062",
+      "pair_id": "CARLOAN-P031",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Which approved showrooms offer an 80% financing ratio without salary transfer?",
+      "expected_answer": "The approved showrooms for an 80% financing ratio are: Al-Sharif, Al-Qalam, Nahar Baghdad, Boursa Classic Car, Prestige, Al-Raed, Raymond Hanania, Sayarati, Karkar, Shadi Freij, Al-Rae', Auto House, Al-Tariq Al-Abyad, Royal, Imad Al-Mughaira, Barakat Al-Awamleh, Laith Jreisat, Malek Bani Omar, Al-Jilawi, Shuwaibith, Al-Balloura, Abu Ayman Al-Qimma, Al-Bustanji, Istanbouli, Moataz Jreisat, Smart City, Al-Obaidi, Abu Heikal, Al-Hadaf, Muqbil, Sayyartak, Al-Saqr, Al-Khubara', Al-Iqab, Al-Yaqout, Amigos, Al-Assaf, Al-Hadaeq, Number One, Al-Amin, Automall, Mohammad Gharib, Byblos, Al-Asriyya Auto Trade, Al-Alama Al-Dhahabiyya, Kakouri, Autocar, Nader Ghaith, 7th Gate, Ali Khreisat, Ghassan Al-Obaidi, Qteishat, Future Cars Co., Bilal Abu Al-Sheeh, Laith & Qusai, Al-Bakhit, Al-Deek, Adwan Al-Saleh, Mohammad Al-Assaf, Al-Jidi, Basman, Jawharat Al-Bakhit, Al-Husseini, Haidar, Al-Oteiwi, Abu Naser, and Razan.",
+      "source_chunks": [
+        "Financing Ratio 80% from the following approved showrooms: Al-Sharif Showroom / Al-Qalam Showroom / Nahar Baghdad Showroom / Boursa Classic Car Showroom / Prestige Showroom / Al-Raed Showroom / Raymond Hanania Showroom / Sayarati Showroom / Karkar Showroom / Shadi Freij Showroom / Al-Rae' Showroom / Auto House Showroom / Al-Tariq Al-Abyad / Royal Showroom / Imad Al-Mughaira Showroom / Barakat Al-Awamleh Showroom / Laith Jreisat Showroom / Malek Bani Omar Showroom / Al-Jilawi Showroom / Shuwaibith Showroom / Al-Balloura Showroom / Abu Ayman Al-Qimma Showroom / Al-Bustanji Showroom / Istanbouli Showroom / Moataz Jreisat Showroom / Smart City Showroom / Al-Obaidi Showrooms / Abu Heikal Showroom / Al-Hadaf Showroom / Muqbil Showroom / Sayyartak Showroom / Al-Saqr Showroom / Al-Khubara' Showroom / Al-Iqab Showroom / Al-Yaqout Showroom / Amigos Showroom / Al-Assaf Showroom / Al-Hadaeq Showroom / Number One Showroom / Al-Amin Showroom / Automall Showroom / Mohammad Gharib Showroom / Byblos Showroom / Al-Asriyya Auto Trade / Al-Alama Al-Dhahabiyya Showroom / Kakouri Showroom / Autocar Showroom / Nader Ghaith Showroom / 7th Gate Showroom / Ali Khreisat Showroom / Ghassan Al-Obaidi Showroom / Qteishat Showroom / Future Cars Co. Showroom / Bilal Abu Al-Sheeh Showroom / Laith & Qusai Showroom / Al-Bakhit Showroom / Al-Deek Showroom / Adwan Al-Saleh Showroom / Mohammad Al-Assaf Showroom / Al-Jidi Showroom / Basman Showroom / Jawharat Al-Bakhit Showroom / Al-Husseini Showroom / Haidar Showroom / Al-Oteiwi Showroom / Abu Naser Showroom / Razan Showroom."
+      ],
+      "chunk_ids": [
+        "chunk_021_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q063",
+      "pair_id": "CARLOAN-P032",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للراتب الصافي للمغتربين للحصول على قرض سيارة مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى للراتب الصافي للمغتربين هو 2,000 دينار.",
+      "source_chunks": [
+        "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_023"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q064",
+      "pair_id": "CARLOAN-P032",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum net salary for expatriates to obtain an auto loan with salary transfer?",
+      "expected_answer": "The minimum net salary for expatriates is 2,000 JOD.",
+      "source_chunks": [
+        "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_023_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q065",
+      "pair_id": "CARLOAN-P033",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للراتب الصافي لأصحاب الأعمال الحرة مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى للراتب الصافي لأصحاب الأعمال الحرة هو 1,000 دينار.",
+      "source_chunks": [
+        "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_023"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q066",
+      "pair_id": "CARLOAN-P033",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum net salary for self-employed individuals with salary transfer?",
+      "expected_answer": "The minimum net salary for self-employed individuals is 1,000 JOD.",
+      "source_chunks": [
+        "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_023_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q067",
+      "pair_id": "CARLOAN-P034",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للراتب الصافي لجميع القطاعات في حال كانت الرواتب غير محولة؟",
+      "expected_answer": "الحد الأدنى للراتب الصافي هو 600 دينار.",
+      "source_chunks": [
+        "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_023"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q068",
+      "pair_id": "CARLOAN-P034",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum net salary for all sectors when salaries are not transferred?",
+      "expected_answer": "The minimum net salary is 600 JOD.",
+      "source_chunks": [
+        "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_023_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q069",
+      "pair_id": "CARLOAN-P035",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للراتب الصافي لجميع القطاعات في حال تحويل الراتب؟",
+      "expected_answer": "الحد الأدنى للراتب الصافي هو 450 دينار.",
+      "source_chunks": [
+        "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_023"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q070",
+      "pair_id": "CARLOAN-P035",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum net salary for all sectors when the salary is transferred?",
+      "expected_answer": "The minimum net salary is 450 JOD.",
+      "source_chunks": [
+        "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_023_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q071",
+      "pair_id": "CARLOAN-P036",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للراتب الصافي لموظفي البنك المركزي والسيتي بانك؟",
+      "expected_answer": "الحد الأدنى للراتب الصافي هو 450 دينار.",
+      "source_chunks": [
+        "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_023"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q072",
+      "pair_id": "CARLOAN-P036",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum net salary for Central Bank and Citi Bank employees?",
+      "expected_answer": "The minimum net salary is 450 JOD.",
+      "source_chunks": [
+        "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_023_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q073",
+      "pair_id": "CARLOAN-P037",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى للراتب الصافي لموظفي البنوك الأخرى؟",
+      "expected_answer": "الحد الأدنى للراتب الصافي هو 1,000 دينار.",
+      "source_chunks": [
+        "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+      ],
+      "chunk_ids": [
+        "chunk_023"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q074",
+      "pair_id": "CARLOAN-P037",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum net salary for other banks' employees?",
+      "expected_answer": "The minimum net salary is 1,000 JOD.",
+      "source_chunks": [
+        "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_023_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q075",
+      "pair_id": "CARLOAN-P038",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة عبء الدين المسموح بها للرواتب الأقل من أو تساوي 2,500 دينار عند تحويل الراتب؟",
+      "expected_answer": "55% للقرض فقط، بالإضافة إلى 5% للبطاقة الائتمانية لأصحاب الدخل الأقل من 2,500 دينار.",
+      "source_chunks": [
+        "عبء الدين (مع تحويل راتب): للرواتب اقل او تساوي من 2,500 دينار: 55% للقرض فقط بالإضافة الى 5% للبطاقة لاصحاب الدخل اقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة الى 10% للبطاقة لاصحاب الدخل اعلى من 2500 دينار. عبء الدين مديون وكفيل: 70%."
+      ],
+      "chunk_ids": [
+        "chunk_024"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q076",
+      "pair_id": "CARLOAN-P038",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the allowed debt burden for salaries less than or equal to 2,500 JOD with salary transfer?",
+      "expected_answer": "55% for the loan only, plus 5% for the credit card for incomes below 2,500 JOD.",
+      "source_chunks": [
+        "Debt Burden (with salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, plus 5% for the card for incomes below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, plus 10% for the card for incomes above 2,500 JOD. Debt Burden (Debtor and Guarantor): 70%."
+      ],
+      "chunk_ids": [
+        "chunk_024_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q077",
+      "pair_id": "CARLOAN-P039",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة عبء الدين المسموح بها للرواتب الأكبر من 2,500 دينار عند تحويل الراتب؟",
+      "expected_answer": "55% للقرض فقط، بالإضافة إلى 10% للبطاقة الائتمانية لأصحاب الدخل الأعلى من 2,500 دينار.",
+      "source_chunks": [
+        "عبء الدين (مع تحويل راتب): للرواتب اقل او تساوي من 2,500 دينار: 55% للقرض فقط بالإضافة الى 5% للبطاقة لاصحاب الدخل اقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة الى 10% للبطاقة لاصحاب الدخل اعلى من 2500 دينار. عبء الدين مديون وكفيل: 70%."
+      ],
+      "chunk_ids": [
+        "chunk_024"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q078",
+      "pair_id": "CARLOAN-P039",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the allowed debt burden for salaries greater than 2,500 JOD with salary transfer?",
+      "expected_answer": "55% for the loan only, plus 10% for the credit card for incomes above 2,500 JOD.",
+      "source_chunks": [
+        "Debt Burden (with salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, plus 5% for the card for incomes below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, plus 10% for the card for incomes above 2,500 JOD. Debt Burden (Debtor and Guarantor): 70%."
+      ],
+      "chunk_ids": [
+        "chunk_024_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q079",
+      "pair_id": "CARLOAN-P040",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة عبء الدين المسموح بها في حال وجود مدين وكفيل معاً؟",
+      "expected_answer": "نسبة عبء الدين المسموح بها في حال وجود مدين وكفيل هي 70%.",
+      "source_chunks": [
+        "عبء الدين (مع تحويل راتب): للرواتب اقل او تساوي من 2,500 دينار: 55% للقرض فقط بالإضافة الى 5% للبطاقة لاصحاب الدخل اقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة الى 10% للبطاقة لاصحاب الدخل اعلى من 2500 دينار. عبء الدين مديون وكفيل: 70%."
+      ],
+      "chunk_ids": [
+        "chunk_024"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q080",
+      "pair_id": "CARLOAN-P040",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the allowed debt burden ratio when there is both a debtor and a guarantor?",
+      "expected_answer": "The allowed debt burden ratio when there is a debtor and a guarantor is 70%.",
+      "source_chunks": [
+        "Debt Burden (with salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, plus 5% for the card for incomes below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, plus 10% for the card for incomes above 2,500 JOD. Debt Burden (Debtor and Guarantor): 70%."
+      ],
+      "chunk_ids": [
+        "chunk_024_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q081",
+      "pair_id": "CARLOAN-P041",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي مدة قرض السيارة بشكل عام عند تحويل الراتب؟",
+      "expected_answer": "تتراوح مدة القرض بشكل عام بين 12 و96 شهراً.",
+      "source_chunks": [
+        "مدة القرض (مع تحويل راتب): بشكل عام: 12 – 96 شهر."
+      ],
+      "chunk_ids": [
+        "chunk_025"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q082",
+      "pair_id": "CARLOAN-P041",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the general loan period for an auto loan with salary transfer?",
+      "expected_answer": "The loan period in general ranges from 12 to 96 months.",
+      "source_chunks": [
+        "Loan Period (with salary transfer): In general: 12 – 96 months."
+      ],
+      "chunk_ids": [
+        "chunk_025_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q083",
+      "pair_id": "CARLOAN-P042",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى والأعلى لمبلغ قرض السيارة عند تحويل الراتب؟",
+      "expected_answer": "الحد الأدنى لمبلغ القرض 7,500 دينار، والحد الأعلى 100,000 دينار.",
+      "source_chunks": [
+        "الحد الادنى لمبلغ القرض بالدينار (مع تحويل راتب): 7,500 دينار. الحد الأقصى لمبلغ القرض بالدينار: 100,000 دينار. الحد الأدنى لسعر السيارة: 10,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_026"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q084",
+      "pair_id": "CARLOAN-P042",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the minimum and maximum auto loan amounts with salary transfer?",
+      "expected_answer": "The minimum loan amount is 7,500 JOD, and the maximum is 100,000 JOD.",
+      "source_chunks": [
+        "Minimum Loan Amount in JOD (with salary transfer): 7,500 JOD. Maximum Loan Amount in JOD: 100,000 JOD. Minimum Car Price: 10,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_026_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q085",
+      "pair_id": "CARLOAN-P043",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لسعر السيارة الممولة عند تحويل الراتب؟",
+      "expected_answer": "الحد الأدنى لسعر السيارة هو 10,000 دينار.",
+      "source_chunks": [
+        "الحد الادنى لمبلغ القرض بالدينار (مع تحويل راتب): 7,500 دينار. الحد الأقصى لمبلغ القرض بالدينار: 100,000 دينار. الحد الأدنى لسعر السيارة: 10,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_026"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q086",
+      "pair_id": "CARLOAN-P043",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum price of a financed car with salary transfer?",
+      "expected_answer": "The minimum car price is 10,000 JOD.",
+      "source_chunks": [
+        "Minimum Loan Amount in JOD (with salary transfer): 7,500 JOD. Maximum Loan Amount in JOD: 100,000 JOD. Minimum Car Price: 10,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_026_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q087",
+      "pair_id": "CARLOAN-P044",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كم تبلغ عمولة المنح لقرض السيارة عند تحويل الراتب؟",
+      "expected_answer": "تبلغ عمولة المنح 1%.",
+      "source_chunks": [
+        "عمولة المنح (مع تحويل راتب): 1%. عمولة إعادة هيكلة: 5 دنانير."
+      ],
+      "chunk_ids": [
+        "chunk_027"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q088",
+      "pair_id": "CARLOAN-P044",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the granting commission for an auto loan with salary transfer?",
+      "expected_answer": "The granting commission is 1%.",
+      "source_chunks": [
+        "Granting Commission (with salary transfer): 1%. Restructuring Commission: 5 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_027_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q089",
+      "pair_id": "CARLOAN-P045",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كم تبلغ عمولة إعادة الهيكلة لقرض السيارة عند تحويل الراتب؟",
+      "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير.",
+      "source_chunks": [
+        "عمولة المنح (مع تحويل راتب): 1%. عمولة إعادة هيكلة: 5 دنانير."
+      ],
+      "chunk_ids": [
+        "chunk_027"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q090",
+      "pair_id": "CARLOAN-P045",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the restructuring commission for an auto loan with salary transfer?",
+      "expected_answer": "The restructuring commission is 5 JOD.",
+      "source_chunks": [
+        "Granting Commission (with salary transfer): 1%. Restructuring Commission: 5 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_027_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q091",
+      "pair_id": "CARLOAN-P046",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأقصى لعمر السيارة الممولة عند تحويل الراتب؟",
+      "expected_answer": "لا يزيد عمر السيارة الممولة عن 14 سنة.",
+      "source_chunks": [
+        "عمر السيارة (مع تحويل راتب): لا يزيد عن 14 سنة."
+      ],
+      "chunk_ids": [
+        "chunk_028"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q092",
+      "pair_id": "CARLOAN-P046",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the maximum age of a financed car with salary transfer?",
+      "expected_answer": "The financed car's age must not exceed 14 years.",
+      "source_chunks": [
+        "Car Age (with salary transfer): Not exceeding 14 years."
+      ],
+      "chunk_ids": [
+        "chunk_028_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q093",
+      "pair_id": "CARLOAN-P047",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة التمويل عند تحويل الراتب مقارنة بعدم تحويله؟",
+      "expected_answer": "تبلغ نسبة التمويل 100% عند تحويل الراتب، و80% بدون تحويل الراتب ولجميع القطاعات الأخرى.",
+      "source_chunks": [
+        "نسبة التمويل (مع تحويل راتب): 100% عند تحويل الراتب و80% بدون تحويل و جميع القطاعات الأخرى. تحويل راتب: نعم الا للمهنين. خضوع العميل بالضمان الاجتماعي (نعم/لا): نعم الا للمهنين."
+      ],
+      "chunk_ids": [
+        "chunk_029"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q094",
+      "pair_id": "CARLOAN-P047",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the financing ratio with salary transfer compared to without it?",
+      "expected_answer": "The financing ratio is 100% with salary transfer, and 80% without transfer and for all other sectors.",
+      "source_chunks": [
+        "Financing Ratio (with salary transfer): 100% with salary transfer, and 80% without transfer and all other sectors. Salary Transfer: Yes, except for professionals. Customer Subscribed to Social Security (Yes/No): Yes, except for professionals."
+      ],
+      "chunk_ids": [
+        "chunk_029_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q095",
+      "pair_id": "CARLOAN-P048",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "هل يُشترط تحويل الراتب وخضوع العميل للضمان الاجتماعي للحصول على القرض؟",
+      "expected_answer": "نعم، يُشترط تحويل الراتب والخضوع للضمان الاجتماعي، باستثناء المهنيين.",
+      "source_chunks": [
+        "نسبة التمويل (مع تحويل راتب): 100% عند تحويل الراتب و80% بدون تحويل و جميع القطاعات الأخرى. تحويل راتب: نعم الا للمهنين. خضوع العميل بالضمان الاجتماعي (نعم/لا): نعم الا للمهنين."
+      ],
+      "chunk_ids": [
+        "chunk_029"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q096",
+      "pair_id": "CARLOAN-P048",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Are salary transfer and Social Security subscription required to obtain the loan?",
+      "expected_answer": "Yes, salary transfer and Social Security subscription are required, except for professionals.",
+      "source_chunks": [
+        "Financing Ratio (with salary transfer): 100% with salary transfer, and 80% without transfer and all other sectors. Salary Transfer: Yes, except for professionals. Customer Subscribed to Social Security (Yes/No): Yes, except for professionals."
+      ],
+      "chunk_ids": [
+        "chunk_029_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q097",
+      "pair_id": "CARLOAN-P049",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأقصى لعدد السيارات وقيمة التمويل الإجمالية للعميل الواحد عند تحويل الراتب؟",
+      "expected_answer": "يمكن تمويل العميل بحد أقصى 200,000 دينار وبحسب نسبة الالتزام، وبحد أقصى 3 سيارات كقروض قائمة في آنٍ واحد.",
+      "source_chunks": [
+        "عدد السيارات الممولة (مع تحويل راتب): امكانية تمويل العميل بحد اقصى 200,000 دينار وبحسب نسبة الالتزام وبحد اقصى 3 سيارات قروض قائمة."
+      ],
+      "chunk_ids": [
+        "chunk_031"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q098",
+      "pair_id": "CARLOAN-P049",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the maximum number of cars and total financing amount for a single customer with salary transfer?",
+      "expected_answer": "A customer may be financed up to a maximum of 200,000 JOD depending on the commitment ratio, and up to a maximum of 3 active car loans at the same time.",
+      "source_chunks": [
+        "Number of Financed Cars (with salary transfer): Possibility of financing the customer up to a maximum of 200,000 JOD depending on the commitment ratio, and a maximum of 3 active car loans."
+      ],
+      "chunk_ids": [
+        "chunk_031_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q099",
+      "pair_id": "CARLOAN-P050",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي متطلبات تأمين المركبة الممولة عند تحويل الراتب؟",
+      "expected_answer": "يشترط تأمين شامل للسيارة بما لا يقل عن قيمة القرض، وذلك للسنة الأولى فقط.",
+      "source_chunks": [
+        "تأمين المركبة (مع تحويل راتب): تأمين السيارة شامل بما لا يقل عن قيمة القرض للسنة الأولى فقط."
+      ],
+      "chunk_ids": [
+        "chunk_033"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q100",
+      "pair_id": "CARLOAN-P050",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the vehicle insurance requirements for a financed car with salary transfer?",
+      "expected_answer": "Comprehensive car insurance is required for not less than the loan value, for the first year only.",
+      "source_chunks": [
+        "Vehicle Insurance (with salary transfer): Comprehensive car insurance for not less than the loan value for the first year only."
+      ],
+      "chunk_ids": [
+        "chunk_033_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q101",
+      "pair_id": "CARLOAN-P051",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي شروط التأمين على حياة المدين لقرض السيارة عند تحويل الراتب؟",
+      "expected_answer": "يشترط أن يكون عمر العميل 65 سنة فأقل، وأن يكون مبلغ القرض أقل من 100,000 دينار.",
+      "source_chunks": [
+        "رسوم التأمين (مع تحويل راتب): تأمين على حياة المدين: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض اقل من 100,000 دينار. حسب مبلغ القرض: اقل من 20,000 دينار: 75 دينار. من 20,000 - 50,000 دينار: 150 دينار. أكبر من 50,000 دينار: 250 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_035"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q102",
+      "pair_id": "CARLOAN-P051",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the conditions for the debtor's life insurance for an auto loan with salary transfer?",
+      "expected_answer": "The customer must be aged 65 or below, and the loan amount must be less than 100,000 JOD.",
+      "source_chunks": [
+        "Insurance Fees (with salary transfer): Life insurance for the debtor: Customers aged 65 and below. Loan amount is less than 100,000 JOD. Based on the loan amount: Less than 20,000 JOD: 75 JOD. 20,000 - 50,000 JOD: 150 JOD. Greater than 50,000 JOD: 250 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_035_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q103",
+      "pair_id": "CARLOAN-P052",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي رسوم التأمين على الحياة حسب مبلغ القرض عند تحويل الراتب؟",
+      "expected_answer": "تبلغ رسوم التأمين 75 ديناراً للقروض الأقل من 20,000 دينار، و150 ديناراً للقروض من 20,000 إلى 50,000 دينار، و250 ديناراً للقروض الأكبر من 50,000 دينار.",
+      "source_chunks": [
+        "رسوم التأمين (مع تحويل راتب): تأمين على حياة المدين: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض اقل من 100,000 دينار. حسب مبلغ القرض: اقل من 20,000 دينار: 75 دينار. من 20,000 - 50,000 دينار: 150 دينار. أكبر من 50,000 دينار: 250 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_035"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q104",
+      "pair_id": "CARLOAN-P052",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What are the life insurance fees based on the loan amount with salary transfer?",
+      "expected_answer": "The insurance fee is 75 JOD for loans less than 20,000 JOD, 150 JOD for loans from 20,000 to 50,000 JOD, and 250 JOD for loans greater than 50,000 JOD.",
+      "source_chunks": [
+        "Insurance Fees (with salary transfer): Life insurance for the debtor: Customers aged 65 and below. Loan amount is less than 100,000 JOD. Based on the loan amount: Less than 20,000 JOD: 75 JOD. 20,000 - 50,000 JOD: 150 JOD. Greater than 50,000 JOD: 250 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_035_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q105",
+      "pair_id": "CARLOAN-P053",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي الجنسيات غير الأردنية المؤهلة للحصول على قرض سيارة بنفس معاملة الأردنيين؟",
+      "expected_answer": "يُمنح القرض للمقيمين من الجنسيتين العراقية والفلسطينية بنفس معاملة العملاء الأردنيين.",
+      "source_chunks": [
+        "المقيمين الغير أردنيين (مع تحويل راتب): يتم منح الجنسيات التالية: العراقية والفلسطينيين على ان يتم معاملتهم نفس معاملة الأردنيين."
+      ],
+      "chunk_ids": [
+        "chunk_036"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q106",
+      "pair_id": "CARLOAN-P053",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Which non-Jordanian nationalities are eligible for an auto loan with the same treatment as Jordanians?",
+      "expected_answer": "Iraqi and Palestinian residents are granted the loan and treated the same as Jordanian customers.",
+      "source_chunks": [
+        "Non-Jordanian Residents (with salary transfer) - The following nationalities are granted: Iraqis and Palestinians, provided they are treated the same as Jordanians."
+      ],
+      "chunk_ids": [
+        "chunk_036_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q107",
+      "pair_id": "CARLOAN-P054",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو نوع تسجيل السيارات التي يمكن تمويلها عند تحويل الراتب؟",
+      "expected_answer": "يتم تمويل السيارات ذات التسجيل الخصوصي فقط.",
+      "source_chunks": [
+        "السيارات التي يتم تمويلها (مع تحويل راتب): السيارات ذات التسجيل الخصوصي فقط."
+      ],
+      "chunk_ids": [
+        "chunk_037"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q108",
+      "pair_id": "CARLOAN-P054",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What type of car registration is eligible for financing with salary transfer?",
+      "expected_answer": "Only private registration cars are eligible for financing.",
+      "source_chunks": [
+        "Financed Cars (with salary transfer): Private registration cars only."
+      ],
+      "chunk_ids": [
+        "chunk_037_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q109",
+      "pair_id": "CARLOAN-P055",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي طرق السداد الإضافية المتاحة لسيارات الوكالة والسيارات بكفالة الوكالة؟",
+      "expected_answer": "يمكن تقديم دفعات ربع سنوية أو نصف سنوية أو سنوية، بشرط تقديم ما يثبت المقدرة على السداد عند تاريخ استحقاق الدفعة وألا تتجاوز مدة التمويل 4 سنوات.",
+      "source_chunks": [
+        "مزايا إضافية (مع تحويل راتب): تقديم طرق السداد الإضافية التالية لجميع أنواع سيارات الوكالة والسيارات بكفالة الوكالة: دفعات ربع سنوية، نصف سنوية وسنوية. شريطة: 1. تقديم ما يثبت المقدرة على السداد في تاريخ استحقاق الدفعة. 2. مدة التمويل لغاية 4 سنوات فقط."
+      ],
+      "chunk_ids": [
+        "chunk_038"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q110",
+      "pair_id": "CARLOAN-P055",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What additional repayment methods are available for dealership cars and cars with dealership warranty?",
+      "expected_answer": "Quarterly, semi-annual, or annual payments can be provided, subject to submitting proof of ability to pay on the due date of the installment, and the financing period must not exceed 4 years.",
+      "source_chunks": [
+        "Additional Features (with salary transfer): Providing the following additional repayment methods for all types of dealership cars and cars with dealership warranty: Quarterly, semi-annual, and annual payments. Provided that: Proof of ability to pay on the due date of the installment is submitted. The financing period is up to 4 years only."
+      ],
+      "chunk_ids": [
+        "chunk_038_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q111",
+      "pair_id": "CARLOAN-P056",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي مستندات إثبات الراتب المطلوبة عند تحويل الراتب؟",
+      "expected_answer": "تُطلب شهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وفي حال وجود حوافز تُطلب قسيمة راتب لآخر 6 أشهر، على أن تكون القسائم مختومة أو مروسة من جهة العمل.",
+      "source_chunks": [
+        "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+      ],
+      "chunk_ids": [
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q112",
+      "pair_id": "CARLOAN-P056",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What salary proof documents are required with salary transfer?",
+      "expected_answer": "An original salary certificate or salary slip for the last three months is required; in case of any incentives, a salary slip for the last 6 months is requested, and the slips must be stamped or on the employer's letterhead.",
+      "source_chunks": [
+        "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+      ],
+      "chunk_ids": [
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q113",
+      "pair_id": "CARLOAN-P057",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو المستند الإضافي المطلوب من موظفي العقود عند تحويل الراتب؟",
+      "expected_answer": "يُطلب من موظفي العقود تقديم صورة عن عقد العمل.",
+      "source_chunks": [
+        "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+      ],
+      "chunk_ids": [
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q114",
+      "pair_id": "CARLOAN-P057",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What additional document is required from contract employees with salary transfer?",
+      "expected_answer": "Contract employees are required to provide a copy of the employment contract.",
+      "source_chunks": [
+        "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+      ],
+      "chunk_ids": [
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q115",
+      "pair_id": "CARLOAN-P058",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "متى يُطلب كشف حساب شخصي لمدة 6 أشهر عند تقديم طلب قرض بتحويل الراتب؟",
+      "expected_answer": "يُطلب كشف حساب شخصي لمدة 6 أشهر لمن ليس له تعامل سابق مع البنك، ويجب أن يُظهر الراتب المحول وأن يكون مصادقاً عليه حسب الأصول.",
+      "source_chunks": [
+        "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+      ],
+      "chunk_ids": [
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q116",
+      "pair_id": "CARLOAN-P058",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "When is a 6-month personal bank statement required when applying for a loan with salary transfer?",
+      "expected_answer": "A 6-month personal bank statement is required for customers who have no previous dealing with the bank; it must show the transferred salary and be certified according to standard procedures.",
+      "source_chunks": [
+        "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+      ],
+      "chunk_ids": [
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q117",
+      "pair_id": "CARLOAN-P059",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو تعهد تحويل الراتب المطلوب من موظفي القطاع العام؟",
+      "expected_answer": "يقدم موظفو القطاع العام تعهد تحويل راتب وفق الصيغة المعتمدة لديهم، باستثناء الأجهزة الأمنية والعسكرية التي تقدم بدلاً منه قسيمة راتب تفيد بتحويل الراتب إلى البنك.",
+      "source_chunks": [
+        "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+      ],
+      "chunk_ids": [
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q118",
+      "pair_id": "CARLOAN-P059",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What salary transfer pledge is required from public sector employees?",
+      "expected_answer": "Public sector employees provide a salary transfer pledge according to their approved format, except for security and military apparatuses, for whom a salary slip indicating the salary transfer to the bank is sufficient.",
+      "source_chunks": [
+        "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+      ],
+      "chunk_ids": [
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q119",
+      "pair_id": "CARLOAN-P060",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو تعهد تحويل الراتب المطلوب من باقي القطاعات غير العام؟",
+      "expected_answer": "يُقدَّم تعهد تحويل راتب أصولي وفق الصيغة المعتمدة لدى البنك.",
+      "source_chunks": [
+        "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+      ],
+      "chunk_ids": [
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q120",
+      "pair_id": "CARLOAN-P060",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What salary transfer pledge is required from sectors other than the public sector?",
+      "expected_answer": "A formal salary transfer pledge is provided, according to the bank's approved format.",
+      "source_chunks": [
+        "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+      ],
+      "chunk_ids": [
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q121",
+      "pair_id": "CARLOAN-P061",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "متى يُطلب كشف الضمان الاجتماعي عند تحويل الراتب؟",
+      "expected_answer": "يُطلب كشف الضمان الاجتماعي لمن تقل مدة عمله لدى الشركة عن سنة واحدة، باستثناء موظفي القطاع العام.",
+      "source_chunks": [
+        "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+      ],
+      "chunk_ids": [
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q122",
+      "pair_id": "CARLOAN-P061",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "When is a Social Security statement required with salary transfer?",
+      "expected_answer": "A Social Security statement is required for customers with less than a year of employment at their company, excluding public sector employees.",
+      "source_chunks": [
+        "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+      ],
+      "chunk_ids": [
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q123",
+      "pair_id": "CARLOAN-P062",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي المستندات الإضافية المطلوبة من المهنيين عند تحويل الراتب؟",
+      "expected_answer": "يُطلب من المهنيين صورة عن رخصة مهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 أشهر، وصورة عن السجل التجاري، وصورة طبق الأصل عن عضوية النقابة إن وجدت، وكشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة.",
+      "source_chunks": [
+        "المهنيين (مع تحويل راتب): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة او الشركة."
+      ],
+      "chunk_ids": [
+        "chunk_042"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q124",
+      "pair_id": "CARLOAN-P062",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What additional documents are required from professionals with salary transfer?",
+      "expected_answer": "Professionals must provide a copy of a valid occupational license (or one not expired for more than 3 months), a copy of the commercial register, a certified copy of syndicate membership if any, and a 6-month bank statement for both the customer's personal account and the establishment/company account.",
+      "source_chunks": [
+        "Professionals (with salary transfer): Copy of a valid occupational license or one that has not been expired for more than 3 months. Copy of the commercial register. Certified copy of syndicate membership, if any. Bank statement for 6 months for the customer's personal account and the establishment/company account."
+      ],
+      "chunk_ids": [
+        "chunk_042_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q125",
+      "pair_id": "CARLOAN-P063",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الشرط الأساسي لتمويل السيارات الصينية عند تحويل الراتب؟",
+      "expected_answer": "يشترط أن يكون للسيارة الصينية وكيل حصري معتمد.",
+      "source_chunks": [
+        "شروط تمويل السيارات الصينية (مع تحويل راتب): جميع السيارات الصينية التي لها وكيل حصري معتمد. يتم تمويل سيارات المنشأ الصيني وتحمل علامة تجارية عالمية غير صينية على سبيل المثال FORD, TOYOTA, VW بنفس شروط و ميزات السيارات غير الصينية. يتم تمويل السيارات التي تحمل علامة تجارية صينية من جميع المعارض شريطة وجود وكيل معتمد لها بالأردن وعداد صفر و حتى ان لم تكن مباعة من نفس الوكيل شريطة تزويدنا (فحص وتخمين + CARSEER). تمويل السيارات الصينية المستعملة شريطة ان لا يزيد عمرها 3 سنوات."
+      ],
+      "chunk_ids": [
+        "chunk_044"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q126",
+      "pair_id": "CARLOAN-P063",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the basic requirement for financing Chinese cars with salary transfer?",
+      "expected_answer": "The Chinese car must have an approved exclusive agent.",
+      "source_chunks": [
+        "Terms for Financing Chinese Cars (with salary transfer): All Chinese cars that have an approved exclusive agent. Cars of Chinese origin bearing a non-Chinese global brand (e.g., FORD, TOYOTA, VW) are financed under the same terms and features as non-Chinese cars. Cars bearing a Chinese brand from all showrooms are financed, provided they have an approved agent in Jordan, are zero mileage, and even if they were not sold by the same agent, provided we are supplied with (Inspection and Valuation + CARSEER). Financing used Chinese cars is permitted provided their age does not exceed 3 years."
+      ],
+      "chunk_ids": [
+        "chunk_044_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q127",
+      "pair_id": "CARLOAN-P064",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كيف يتم تمويل السيارات المصنّعة في الصين ولكن تحمل علامة تجارية عالمية غير صينية؟",
+      "expected_answer": "يتم تمويلها بنفس شروط وميزات السيارات غير الصينية، ومن الأمثلة عليها FORD وTOYOTA وVW.",
+      "source_chunks": [
+        "شروط تمويل السيارات الصينية (مع تحويل راتب): جميع السيارات الصينية التي لها وكيل حصري معتمد. يتم تمويل سيارات المنشأ الصيني وتحمل علامة تجارية عالمية غير صينية على سبيل المثال FORD, TOYOTA, VW بنفس شروط و ميزات السيارات غير الصينية. يتم تمويل السيارات التي تحمل علامة تجارية صينية من جميع المعارض شريطة وجود وكيل معتمد لها بالأردن وعداد صفر و حتى ان لم تكن مباعة من نفس الوكيل شريطة تزويدنا (فحص وتخمين + CARSEER). تمويل السيارات الصينية المستعملة شريطة ان لا يزيد عمرها 3 سنوات."
+      ],
+      "chunk_ids": [
+        "chunk_044"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q128",
+      "pair_id": "CARLOAN-P064",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "How are cars of Chinese origin bearing a non-Chinese global brand financed?",
+      "expected_answer": "They are financed under the same terms and features as non-Chinese cars, with examples including FORD, TOYOTA, and VW.",
+      "source_chunks": [
+        "Terms for Financing Chinese Cars (with salary transfer): All Chinese cars that have an approved exclusive agent. Cars of Chinese origin bearing a non-Chinese global brand (e.g., FORD, TOYOTA, VW) are financed under the same terms and features as non-Chinese cars. Cars bearing a Chinese brand from all showrooms are financed, provided they have an approved agent in Jordan, are zero mileage, and even if they were not sold by the same agent, provided we are supplied with (Inspection and Valuation + CARSEER). Financing used Chinese cars is permitted provided their age does not exceed 3 years."
+      ],
+      "chunk_ids": [
+        "chunk_044_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q129",
+      "pair_id": "CARLOAN-P065",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كيف يتم تمويل السيارات ذات العلامة التجارية الصينية من أي معرض غير الوكيل نفسه؟",
+      "expected_answer": "يمكن تمويلها من أي معرض بشرط وجود وكيل معتمد لها في الأردن وأن تكون بعداد صفر، حتى لو لم تكن مباعة من نفس الوكيل، شريطة تزويد البنك بتقرير فحص وتخمين وتقرير CARSEER.",
+      "source_chunks": [
+        "شروط تمويل السيارات الصينية (مع تحويل راتب): جميع السيارات الصينية التي لها وكيل حصري معتمد. يتم تمويل سيارات المنشأ الصيني وتحمل علامة تجارية عالمية غير صينية على سبيل المثال FORD, TOYOTA, VW بنفس شروط و ميزات السيارات غير الصينية. يتم تمويل السيارات التي تحمل علامة تجارية صينية من جميع المعارض شريطة وجود وكيل معتمد لها بالأردن وعداد صفر و حتى ان لم تكن مباعة من نفس الوكيل شريطة تزويدنا (فحص وتخمين + CARSEER). تمويل السيارات الصينية المستعملة شريطة ان لا يزيد عمرها 3 سنوات."
+      ],
+      "chunk_ids": [
+        "chunk_044"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q130",
+      "pair_id": "CARLOAN-P065",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "How are cars bearing a Chinese brand financed when sold by showrooms other than the approved agent?",
+      "expected_answer": "They can be financed from any showroom provided there is an approved agent for them in Jordan and they are zero mileage, even if not sold by the same agent, provided the bank is supplied with an Inspection and Valuation report plus a CARSEER report.",
+      "source_chunks": [
+        "Terms for Financing Chinese Cars (with salary transfer): All Chinese cars that have an approved exclusive agent. Cars of Chinese origin bearing a non-Chinese global brand (e.g., FORD, TOYOTA, VW) are financed under the same terms and features as non-Chinese cars. Cars bearing a Chinese brand from all showrooms are financed, provided they have an approved agent in Jordan, are zero mileage, and even if they were not sold by the same agent, provided we are supplied with (Inspection and Valuation + CARSEER). Financing used Chinese cars is permitted provided their age does not exceed 3 years."
+      ],
+      "chunk_ids": [
+        "chunk_044_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q131",
+      "pair_id": "CARLOAN-P066",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأقصى لعمر السيارات الصينية المستعملة الممكن تمويلها؟",
+      "expected_answer": "لا يزيد عمر السيارة الصينية المستعملة الممكن تمويلها عن 3 سنوات.",
+      "source_chunks": [
+        "شروط تمويل السيارات الصينية (مع تحويل راتب): جميع السيارات الصينية التي لها وكيل حصري معتمد. يتم تمويل سيارات المنشأ الصيني وتحمل علامة تجارية عالمية غير صينية على سبيل المثال FORD, TOYOTA, VW بنفس شروط و ميزات السيارات غير الصينية. يتم تمويل السيارات التي تحمل علامة تجارية صينية من جميع المعارض شريطة وجود وكيل معتمد لها بالأردن وعداد صفر و حتى ان لم تكن مباعة من نفس الوكيل شريطة تزويدنا (فحص وتخمين + CARSEER). تمويل السيارات الصينية المستعملة شريطة ان لا يزيد عمرها 3 سنوات."
+      ],
+      "chunk_ids": [
+        "chunk_044"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q132",
+      "pair_id": "CARLOAN-P066",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the maximum age of used Chinese cars eligible for financing?",
+      "expected_answer": "Financing used Chinese cars is permitted provided their age does not exceed 3 years.",
+      "source_chunks": [
+        "Terms for Financing Chinese Cars (with salary transfer): All Chinese cars that have an approved exclusive agent. Cars of Chinese origin bearing a non-Chinese global brand (e.g., FORD, TOYOTA, VW) are financed under the same terms and features as non-Chinese cars. Cars bearing a Chinese brand from all showrooms are financed, provided they have an approved agent in Jordan, are zero mileage, and even if they were not sold by the same agent, provided we are supplied with (Inspection and Valuation + CARSEER). Financing used Chinese cars is permitted provided their age does not exceed 3 years."
+      ],
+      "chunk_ids": [
+        "chunk_044_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q133",
+      "pair_id": "CARLOAN-P067",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "من هم \"المهنيون\" ضمن برنامج قرض السيارة، وما الحد الأدنى لمدة خدمتهم؟",
+      "expected_answer": "يشمل المهنيون الأطباء والمهندسين والصيادلة والمحاسبين والمدققين القانونيين والمستشارين وحاملي الشهادات المالية الذين لديهم أعمال خاصة بهم، والحد الأدنى لمدة الخدمة المطلوبة هو سنتان.",
+      "source_chunks": [
+        "الجزء 2: المهنيين والأعمال الحرة والمغتربين: الأطباء والمهندسين و والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين و حاملوا الشهادات المالية الذين لديهم أعمال خاصة بهم. الحد الادنى لمدة الخدمة: سنتان."
+      ],
+      "chunk_ids": [
+        "chunk_045"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q134",
+      "pair_id": "CARLOAN-P067",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Who are classified as \"Professionals\" under the auto loan program, and what is their minimum length of service?",
+      "expected_answer": "Professionals include doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, and the minimum required length of service is 2 years.",
+      "source_chunks": [
+        "Part 2: Professionals, Self-Employed, and Expatriates: Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Minimum Length of Service: 2 years."
+      ],
+      "chunk_ids": [
+        "chunk_045_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q135",
+      "pair_id": "CARLOAN-P068",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض سيارة؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة. وتشمل هذه الفئة الأجهزة الأمنية والعسكرية وقوات الدرك والأمن العام والقوات المسلحة وسلاح الجو والمخابرات العامة.",
+      "source_chunks": [
+        "الجزء 3: الاجهزة الامنية و العسكرية: الأجهزة الأمنية والعسكرية قوات الدرك والأمن العام القوات المسلحة وسلاح الجو المخابرات العامة. الحد الادنى لمدة الخدمة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+      ],
+      "chunk_ids": [
+        "chunk_046"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q136",
+      "pair_id": "CARLOAN-P068",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for security and military apparatus personnel to obtain an auto loan?",
+      "expected_answer": "The minimum length of service is 3 months, with product criteria applying to the job. This category includes security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence.",
+      "source_chunks": [
+        "Part 3: Security and Military Apparatuses: Security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence. Minimum Length of Service: (3) months * Product criteria apply to the job."
+      ],
+      "chunk_ids": [
+        "chunk_046_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q137",
+      "pair_id": "CARLOAN-P069",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي الجهات المصنفة ضمن \"الشركات المعتمدة\" لأغراض قرض السيارة بتحويل الراتب؟",
+      "expected_answer": "تشمل جميع الوظائف في الشركات المعتمدة والمنظمات التابعة للأمم المتحدة (UN).",
+      "source_chunks": [
+        "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+      ],
+      "chunk_ids": [
+        "chunk_047"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q138",
+      "pair_id": "CARLOAN-P069",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Which entities are classified as \"approved companies\" for the purposes of the auto loan with salary transfer?",
+      "expected_answer": "It includes all jobs at approved companies and UN-affiliated organizations.",
+      "source_chunks": [
+        "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+      ],
+      "chunk_ids": [
+        "chunk_047_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q139",
+      "pair_id": "CARLOAN-P070",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي الجهات المصنفة ضمن \"الشركات غير المعتمدة\" لأغراض قرض السيارة بتحويل الراتب؟",
+      "expected_answer": "تشمل المدرّسين في القطاع الخاص وجميع الوظائف في الشركات غير المعتمدة، بالإضافة إلى الفنادق والهيئات والمنظمات الدولية وقطاع المبيعات.",
+      "source_chunks": [
+        "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+      ],
+      "chunk_ids": [
+        "chunk_047"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q140",
+      "pair_id": "CARLOAN-P070",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Which entities are classified as \"unapproved companies\" for the purposes of the auto loan with salary transfer?",
+      "expected_answer": "It includes private sector teachers and all jobs at unapproved companies, in addition to hotels, international bodies and organizations, and the sales sector.",
+      "source_chunks": [
+        "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+      ],
+      "chunk_ids": [
+        "chunk_047_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q141",
+      "pair_id": "CARLOAN-P071",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات المعتمدة المثبتين؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة لموظفي الشركات المعتمدة المثبتين هو 3 أشهر.",
+      "source_chunks": [
+        "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+      ],
+      "chunk_ids": [
+        "chunk_047"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q142",
+      "pair_id": "CARLOAN-P071",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for confirmed employees of approved companies?",
+      "expected_answer": "The minimum length of service for confirmed employees of approved companies is 3 months.",
+      "source_chunks": [
+        "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+      ],
+      "chunk_ids": [
+        "chunk_047_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q143",
+      "pair_id": "CARLOAN-P072",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي للحصول على قرض سيارة؟",
+      "expected_answer": "يمكن التقديم فور التقاعد مباشرة دون اشتراط مدة خدمة إضافية.",
+      "source_chunks": [
+        "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+      ],
+      "chunk_ids": [
+        "chunk_047"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q144",
+      "pair_id": "CARLOAN-P072",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for Social Security retirees to obtain an auto loan?",
+      "expected_answer": "Application is possible immediately upon retirement, without requiring any additional length of service.",
+      "source_chunks": [
+        "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+      ],
+      "chunk_ids": [
+        "chunk_047_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q145",
+      "pair_id": "CARLOAN-P073",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات غير المعتمدة المثبتين؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، بشرط وجود خبرة سابقة لا تقل عن سنة وعدم وجود انقطاع في الضمان الاجتماعي لأكثر من شهر بين الوظيفة السابقة والحالية.",
+      "source_chunks": [
+        "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+      ],
+      "chunk_ids": [
+        "chunk_047"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q146",
+      "pair_id": "CARLOAN-P073",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for confirmed employees of unapproved companies?",
+      "expected_answer": "The minimum length of service is 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job.",
+      "source_chunks": [
+        "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+      ],
+      "chunk_ids": [
+        "chunk_047_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q147",
+      "pair_id": "CARLOAN-P074",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة للحصول على قرض سيارة؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق الادخار أو ما شابهه.",
+      "source_chunks": [
+        "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+      ],
+      "chunk_ids": [
+        "chunk_047"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q148",
+      "pair_id": "CARLOAN-P074",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service for United Nations employees to obtain an auto loan?",
+      "expected_answer": "The minimum length of service is not less than a year, and the customer must be subscribed to a provident fund or similar.",
+      "source_chunks": [
+        "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+      ],
+      "chunk_ids": [
+        "chunk_047_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q149",
+      "pair_id": "CARLOAN-P075",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة بنفس الشركة لموظفي القطاع العام ضمن برنامج تحويل الرواتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة.",
+      "source_chunks": [
+        "الجزء 5: مع تحويل رواتب – قطاع عام: توفير التمويل اللازم للعملاء من الشرائح المستهدفة لامتلاك السيارات الجديدة أو المستعملة بما فيها السيارات الهايبرد و الكهرباء، للاستعمال الشخصي أو العائلي بما يتناسب مع احتياجاتهم ورغباتهم، وفقا للمعايير والشروط الواردة بالبرنامج المقترح. الحد الادنى لمدة الخدمة بنفس الشركة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+      ],
+      "chunk_ids": [
+        "chunk_048"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q150",
+      "pair_id": "CARLOAN-P075",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the minimum length of service at the same company for public sector employees under the salary transfer program?",
+      "expected_answer": "The minimum length of service is 3 months, with product criteria applying to the job.",
+      "source_chunks": [
+        "Part 5: With Salary Transfer -- Public Sector: Providing the necessary financing for customers from the target segments to own new or used cars, including hybrid and electric cars, for personal or family use in line with their needs and desires, according to the criteria and conditions set out in the proposed program. Minimum Length of Service in the same company: (3) months * Product criteria apply to the job."
+      ],
+      "chunk_ids": [
+        "chunk_048_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q151",
+      "pair_id": "CARLOAN-P076",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "هل يمكن تمويل السيارات الهايبرد والكهربائية ضمن برنامج القطاع العام؟",
+      "expected_answer": "نعم، يشمل البرنامج تمويل السيارات الجديدة أو المستعملة بما في ذلك السيارات الهايبرد والكهربائية للاستخدام الشخصي أو العائلي.",
+      "source_chunks": [
+        "الجزء 5: مع تحويل رواتب – قطاع عام: توفير التمويل اللازم للعملاء من الشرائح المستهدفة لامتلاك السيارات الجديدة أو المستعملة بما فيها السيارات الهايبرد و الكهرباء، للاستعمال الشخصي أو العائلي بما يتناسب مع احتياجاتهم ورغباتهم، وفقا للمعايير والشروط الواردة بالبرنامج المقترح. الحد الادنى لمدة الخدمة بنفس الشركة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+      ],
+      "chunk_ids": [
+        "chunk_048"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q152",
+      "pair_id": "CARLOAN-P076",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Can hybrid and electric cars be financed under the public sector program?",
+      "expected_answer": "Yes, the program includes financing new or used cars, including hybrid and electric cars, for personal or family use.",
+      "source_chunks": [
+        "Part 5: With Salary Transfer -- Public Sector: Providing the necessary financing for customers from the target segments to own new or used cars, including hybrid and electric cars, for personal or family use in line with their needs and desires, according to the criteria and conditions set out in the proposed program. Minimum Length of Service in the same company: (3) months * Product criteria apply to the job."
+      ],
+      "chunk_ids": [
+        "chunk_048_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q153",
+      "pair_id": "CARLOAN-P077",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة التمويل ضمن حملة قروض سيارات مجموعة أبو خضر مع تحويل الراتب؟",
+      "expected_answer": "تصل نسبة التمويل إلى 100% عند تحويل الراتب.",
+      "source_chunks": [
+        "الجزء 6: حملة قروض سيارات مجموعة أبو خضر للسيارات: 1. البرنامج مع تحويل راتب نسبة التمويل لغاية 100%. 2. البرنامج بدون تحويل راتب نسبة التمويل لغاية 80%. سعر الفائدة 7.25%."
+      ],
+      "chunk_ids": [
+        "chunk_049"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q154",
+      "pair_id": "CARLOAN-P077",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the financing ratio under the Abu Khader Automotive Group auto loans campaign with salary transfer?",
+      "expected_answer": "The financing ratio is up to 100% with salary transfer.",
+      "source_chunks": [
+        "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%. Interest Rate: 7.25%"
+      ],
+      "chunk_ids": [
+        "chunk_049_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q155",
+      "pair_id": "CARLOAN-P078",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي نسبة التمويل ضمن حملة قروض سيارات مجموعة أبو خضر بدون تحويل الراتب؟",
+      "expected_answer": "تصل نسبة التمويل إلى 80% بدون تحويل الراتب.",
+      "source_chunks": [
+        "الجزء 6: حملة قروض سيارات مجموعة أبو خضر للسيارات: 1. البرنامج مع تحويل راتب نسبة التمويل لغاية 100%. 2. البرنامج بدون تحويل راتب نسبة التمويل لغاية 80%. سعر الفائدة 7.25%."
+      ],
+      "chunk_ids": [
+        "chunk_049"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q156",
+      "pair_id": "CARLOAN-P078",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the financing ratio under the Abu Khader Automotive Group auto loans campaign without salary transfer?",
+      "expected_answer": "The financing ratio is up to 80% without salary transfer.",
+      "source_chunks": [
+        "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%. Interest Rate: 7.25%"
+      ],
+      "chunk_ids": [
+        "chunk_049_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q157",
+      "pair_id": "CARLOAN-P079",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "كم يبلغ سعر الفائدة ضمن حملة قروض سيارات مجموعة أبو خضر؟",
+      "expected_answer": "يبلغ سعر الفائدة 7.25%.",
+      "source_chunks": [
+        "الجزء 6: حملة قروض سيارات مجموعة أبو خضر للسيارات: 1. البرنامج مع تحويل راتب نسبة التمويل لغاية 100%. 2. البرنامج بدون تحويل راتب نسبة التمويل لغاية 80%. سعر الفائدة 7.25%."
+      ],
+      "chunk_ids": [
+        "chunk_049"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q158",
+      "pair_id": "CARLOAN-P079",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the interest rate under the Abu Khader Automotive Group auto loans campaign?",
+      "expected_answer": "The interest rate is 7.25%.",
+      "source_chunks": [
+        "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%. Interest Rate: 7.25%"
+      ],
+      "chunk_ids": [
+        "chunk_049_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q159",
+      "pair_id": "CARLOAN-P080",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي الميزة الإضافية الخاصة بتحمّل الأقساط الشهرية ضمن حملة أبو خضر؟",
+      "expected_answer": "تتحمل مجموعة أبو خضر للسيارات الأقساط الشهرية للقرض بشكل مقدم بالحساب من تاريخ المنح ولغاية 1/1/2027، أي من القسط الشهري الأول وحتى الأقساط المستحقة حتى ذلك التاريخ.",
+      "source_chunks": [
+        "مزايا إضافية (حملة أبو خضر): يتم تحمل الأقساط الشهرية للقرض من تاريخ المنح الى غاية تاريخ 1/1/2027 من قبل مجموعة أبو خضر للسيارات بشكل مقدم بالحساب. تتحمل الوكالة عن العميل من قسط شهري واحد و حتى الأقساط المستحقة لغاية 1/1/2027."
+      ],
+      "chunk_ids": [
+        "chunk_050"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q160",
+      "pair_id": "CARLOAN-P080",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the additional feature related to covering the monthly installments under the Abu Khader campaign?",
+      "expected_answer": "Abu Khader Automotive Group bears the monthly loan installments, paid in advance to the account, from the granting date until 1/1/2027 - that is, from the first monthly installment up to the installments due until that date.",
+      "source_chunks": [
+        "Additional Features (Abu Khader campaign): Monthly loan installments are borne from the granting date until 1/1/2027 by Abu Khader Automotive Group, paid in advance to the account. The dealership bears on behalf of the customer from one monthly installment up to the installments due until 1/1/2027."
+      ],
+      "chunk_ids": [
+        "chunk_050_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q161",
+      "pair_id": "CARLOAN-P081",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "من يتحمل فائدة القرض ضمن حملة أبو خضر؟",
+      "expected_answer": "قد تتحمل الوكالة الفائدة على مدة القرض، أو قد يتحملها العميل.",
+      "source_chunks": [
+        "فائدة القرض (حملة أبو خضر): تتحمل الوكالة الفائدة على مدة القرض او العميل."
+      ],
+      "chunk_ids": [
+        "chunk_051"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q162",
+      "pair_id": "CARLOAN-P081",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "Who bears the loan interest under the Abu Khader campaign?",
+      "expected_answer": "Either the dealership or the customer bears the interest on the loan period.",
+      "source_chunks": [
+        "Loan Interest (Abu Khader campaign): The dealership or the customer bears the interest on the loan period."
+      ],
+      "chunk_ids": [
+        "chunk_051_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q163",
+      "pair_id": "CARLOAN-P082",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هي آلية خصم الأقساط ضمن حملة أبو خضر؟",
+      "expected_answer": "يُحصل على كتاب تفويض من مجموعة أبو خضر لخصم مجموع الأقساط من حسابهم لدى البنك، ويُحجز المبلغ في حساب تأمينات فرعي خاص بالعميل، ثم يُفعَّل أمر تحويل دوري شهري بقيمة القسط من حساب التأمينات إلى حساب السداد.",
+      "source_chunks": [
+        "الية الخصم (حملة أبو خضر): يتم الحصول على كتاب تفويض من مجموعة أبو خضر لخصم مجموع الأقساط من حسابهم لدينا. يتم حجز المبلغ المقيد على حساب مجموعة أبو خضر لدينا في حساب تامينات فرعي لحساب العميل. يتم تفعيل امر تحويل دوري بقيمة القسط شهريا من حساب التامينات الى حاسب السداد."
+      ],
+      "chunk_ids": [
+        "chunk_052"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q164",
+      "pair_id": "CARLOAN-P082",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the installment deduction mechanism under the Abu Khader campaign?",
+      "expected_answer": "An authorization letter is obtained from Abu Khader Group to deduct the total installments from their account with the bank. The amount is held in a sub-insurance account for the customer, and a periodic monthly transfer order is activated for the installment amount from the insurance account to the repayment account.",
+      "source_chunks": [
+        "Deduction Mechanism (Abu Khader campaign): An authorization letter is obtained from Abu Khader Group to deduct the total installments from their account with us. The amount credited to Abu Khader Group's account with us is held in a sub-insurance account for the customer. A periodic transfer order is activated for the monthly installment amount from the insurance account to the repayment account."
+      ],
+      "chunk_ids": [
+        "chunk_052_en"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q165",
+      "pair_id": "CARLOAN-P083",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "ما هو تاريخ انتهاء حملة قروض سيارات مجموعة أبو خضر؟",
+      "expected_answer": "تستمر الحملة لغاية 31/12/2026، مع بقاء جميع شروط المنتج الأساسية كما هي.",
+      "source_chunks": [
+        "مدة الحملة لغاية 31/12/2026 (حملة أبو خضر)، مع بقاء كافة شروط المنتج كما هي."
+      ],
+      "chunk_ids": [
+        "chunk_053"
+      ]
+    },
+    {
+      "id": "CARLOAN-Q166",
+      "pair_id": "CARLOAN-P083",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Car Loan",
+      "question": "What is the end date of the Abu Khader Automotive Group auto loans campaign?",
+      "expected_answer": "The campaign continues until 31/12/2026, with all other product conditions remaining as they are.",
+      "source_chunks": [
+        "Campaign Duration (Abu Khader campaign): Until 31/12/2026. All other product conditions remain as they are."
+      ],
+      "chunk_ids": [
+        "chunk_053_en"
+      ]
+    }
+  ]
+}

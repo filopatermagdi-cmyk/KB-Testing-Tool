@@ -1,0 +1,470 @@
+[
+  {
+    "session_id": "PLCC-ar-001",
+    "subtopic": "Loan/PLCC",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q025",
+        "question": "هل يمكن رفع سقف القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "لا، لا يمكن رفع سقف هذا القرض.",
+        "audio_file": "wav\\PLCC-Q025.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PLCC-Q001",
+        "question": "ما هو القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "هو قرض يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويصدر مقابله بطاقة ائتمانية بدون عمولة لأول سنة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته.",
+        "audio_file": "wav\\PLCC-Q001.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q017",
+        "question": "ما هو الحد الأدنى لعمر العميل عند منح القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى لعمر العميل عند المنح يتراوح بين 22 و65 سنة.",
+        "audio_file": "wav\\PLCC-Q017.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PLCC-Q011",
+        "question": "ما هو الحد الأدنى لمبلغ القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى لمبلغ القرض هو 1,000 دينار.",
+        "audio_file": "wav\\PLCC-Q011.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PLCC-Q041",
+        "question": "ما هي مواعيد اقتطاع دفعات القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "إذا تم تنفيذ القرض في اليوم 15 من الشهر أو قبله، تكون الدفعة في نفس الشهر. أما إذا تم تنفيذ القرض بعد اليوم 15 من الشهر، تكون الدفعة في الشهر التالي.",
+        "audio_file": "wav\\PLCC-Q041.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q037",
+        "question": "كيف يُحدد مبلغ القرض بالنسبة لسقف البطاقة؟",
+        "expected_answer": "مبلغ القرض يمثل 90% من سقف البطاقة.",
+        "audio_file": "wav\\PLCC-Q037.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PLCC-Q039",
+        "question": "ماذا يحدث إذا تأخر العميل في سداد قسطين متتاليين من القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "يتم احتساب فائدة تأخير نسبتها 1.5% شهرياً على الرصيد المتبقي المستغل.",
+        "audio_file": "wav\\PLCC-Q039.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PLCC-Q005",
+        "question": "ما هو الحد الأدنى للراتب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى للراتب هو 450 دينار.",
+        "audio_file": "wav\\PLCC-Q005.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PLCC-Q019",
+        "question": "ما هو الحد الأعلى لعمر العميل عند انتهاء القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأعلى لعمر العميل عند انتهاء القرض هو 75 سنة.",
+        "audio_file": "wav\\PLCC-Q019.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PLCC-Q033",
+        "question": "كيف تُحسب عمولة التأمين على الحياة للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "تُحسب عمولة التأمين على الحياة حسب عمولة التأمين الخاصة بالبطاقة، وهي 0.1% على الرصيد المستغل بحد أدنى دينار واحد.",
+        "audio_file": "wav\\PLCC-Q033.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "PLCC-ar-002",
+    "subtopic": "Loan/PLCC",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q031",
+        "question": "هل يمكن السداد المبكر الجزئي للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "لا يوجد سداد جزئي، ولكن يمكن سداد القرض بشكل كامل بعمولة سداد نسبتها 1% على أصل المبلغ.",
+        "audio_file": "wav\\PLCC-Q031.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PLCC-Q035",
+        "question": "كيف يتم تقديم طلبات القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "يتم تمرير الطلبات مباشرة من خلال التطبيق.",
+        "audio_file": "wav\\PLCC-Q035.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q003",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة في العمل الحالي هو 3 شهور للشركات المعتمدة، و6 شهور للشركات غير المعتمدة، مع وجود 12 اشتراك ضمان اجتماعي خلال آخر سنة.",
+        "audio_file": "wav\\PLCC-Q003.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PLCC-Q009",
+        "question": "هل يشترط تحويل الراتب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "لا، لا يُشترط تحويل الراتب.",
+        "audio_file": "wav\\PLCC-Q009.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PLCC-Q007",
+        "question": "هل يشترط أن تكون جهة العمل معتمدة للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "لا، لا يُشترط أن تكون جهة العمل معتمدة.",
+        "audio_file": "wav\\PLCC-Q007.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q013",
+        "question": "ما هو الحد الأقصى لمبلغ القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأقصى لمبلغ القرض هو 25,000 دينار.",
+        "audio_file": "wav\\PLCC-Q013.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PLCC-Q029",
+        "question": "كم تبلغ عمولة المنح للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "تبلغ عمولة المنح 1%.",
+        "audio_file": "wav\\PLCC-Q029.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PLCC-Q023",
+        "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 50%.",
+        "audio_file": "wav\\PLCC-Q023.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PLCC-Q027",
+        "question": "ما هو سعر الفائدة على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "سعر الفائدة 10%.",
+        "audio_file": "wav\\PLCC-Q027.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PLCC-Q015",
+        "question": "ما هي مدة القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "تتراوح مدة القرض بين 12 و96 شهراً.",
+        "audio_file": "wav\\PLCC-Q015.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "PLCC-ar-003",
+    "subtopic": "Loan/PLCC",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q021",
+        "question": "ما هي نسبة عبء الدين للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "نسبة عبء الدين 50%.",
+        "audio_file": "wav\\PLCC-Q021.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PLCC-Q003",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة في العمل الحالي هو 3 شهور للشركات المعتمدة، و6 شهور للشركات غير المعتمدة، مع وجود 12 اشتراك ضمان اجتماعي خلال آخر سنة.",
+        "audio_file": "wav\\PLCC-Q003.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q017",
+        "question": "ما هو الحد الأدنى لعمر العميل عند منح القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى لعمر العميل عند المنح يتراوح بين 22 و65 سنة.",
+        "audio_file": "wav\\PLCC-Q017.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PLCC-Q019",
+        "question": "ما هو الحد الأعلى لعمر العميل عند انتهاء القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأعلى لعمر العميل عند انتهاء القرض هو 75 سنة.",
+        "audio_file": "wav\\PLCC-Q019.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PLCC-Q005",
+        "question": "ما هو الحد الأدنى للراتب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى للراتب هو 450 دينار.",
+        "audio_file": "wav\\PLCC-Q005.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q001",
+        "question": "ما هو القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "هو قرض يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويصدر مقابله بطاقة ائتمانية بدون عمولة لأول سنة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته.",
+        "audio_file": "wav\\PLCC-Q001.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PLCC-Q023",
+        "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 50%.",
+        "audio_file": "wav\\PLCC-Q023.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PLCC-Q037",
+        "question": "كيف يُحدد مبلغ القرض بالنسبة لسقف البطاقة؟",
+        "expected_answer": "مبلغ القرض يمثل 90% من سقف البطاقة.",
+        "audio_file": "wav\\PLCC-Q037.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PLCC-Q009",
+        "question": "هل يشترط تحويل الراتب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "لا، لا يُشترط تحويل الراتب.",
+        "audio_file": "wav\\PLCC-Q009.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PLCC-Q039",
+        "question": "ماذا يحدث إذا تأخر العميل في سداد قسطين متتاليين من القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "يتم احتساب فائدة تأخير نسبتها 1.5% شهرياً على الرصيد المتبقي المستغل.",
+        "audio_file": "wav\\PLCC-Q039.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "PLCC-en-001",
+    "subtopic": "Loan/PLCC",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q014",
+        "question": "What is the maximum amount for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The maximum loan amount is 25,000 JOD.",
+        "audio_file": "wav\\PLCC-Q014.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PLCC-Q032",
+        "question": "Is partial early settlement possible for the Instant Loan Against a Credit Card?",
+        "expected_answer": "There is no partial settlement; the loan can be fully settled with a settlement commission of 1% on the principal amount.",
+        "audio_file": "wav\\PLCC-Q032.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q016",
+        "question": "What is the period of the Instant Loan Against a Credit Card?",
+        "expected_answer": "The loan period ranges from 12 to 96 months.",
+        "audio_file": "wav\\PLCC-Q016.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PLCC-Q036",
+        "question": "How are applications for the Instant Loan Against a Credit Card submitted?",
+        "expected_answer": "Applications are processed directly through the app.",
+        "audio_file": "wav\\PLCC-Q036.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PLCC-Q004",
+        "question": "What is the minimum length of service to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "The minimum service period in the current job is 3 months for approved companies, and 6 months for unapproved companies, with 12 Social Security contributions for the last year.",
+        "audio_file": "wav\\PLCC-Q004.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q022",
+        "question": "What is the debt burden for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The debt burden is 50%.",
+        "audio_file": "wav\\PLCC-Q022.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PLCC-Q034",
+        "question": "How is the life insurance commission calculated for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The life insurance commission is calculated according to the card's insurance commission, which is 0.1% on the utilized balance, with a minimum of one JOD.",
+        "audio_file": "wav\\PLCC-Q034.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PLCC-Q042",
+        "question": "What are the installment deduction dates for the Instant Loan Against a Credit Card?",
+        "expected_answer": "If the loan is executed on the 15th of the month or earlier, the payment will be in the same month. If the loan is executed after the 15th of the month, the payment will be in the following month.",
+        "audio_file": "wav\\PLCC-Q042.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PLCC-Q018",
+        "question": "What is the customer's age requirement at granting for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The customer's age at granting ranges from 22 to 65 years.",
+        "audio_file": "wav\\PLCC-Q018.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PLCC-Q012",
+        "question": "What is the minimum amount for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The minimum loan amount is 1,000 JOD.",
+        "audio_file": "wav\\PLCC-Q012.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "PLCC-en-002",
+    "subtopic": "Loan/PLCC",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q026",
+        "question": "Can the ceiling of the Instant Loan Against a Credit Card be raised?",
+        "expected_answer": "No, the ceiling of this loan cannot be raised.",
+        "audio_file": "wav\\PLCC-Q026.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PLCC-Q040",
+        "question": "What happens if the customer is late in paying two consecutive installments of the Instant Loan Against a Credit Card?",
+        "expected_answer": "A late interest of 1.5% monthly is calculated on the remaining utilized balance.",
+        "audio_file": "wav\\PLCC-Q040.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q008",
+        "question": "Is it required that the employer be an approved company to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "No, an approved employer is not required.",
+        "audio_file": "wav\\PLCC-Q008.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PLCC-Q010",
+        "question": "Is salary transfer required to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "No, salary transfer is not required.",
+        "audio_file": "wav\\PLCC-Q010.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PLCC-Q030",
+        "question": "What is the granting commission for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The granting commission is 1%.",
+        "audio_file": "wav\\PLCC-Q030.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q024",
+        "question": "What is the debt burden ratio when there is a debtor and a guarantor for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 50%.",
+        "audio_file": "wav\\PLCC-Q024.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PLCC-Q028",
+        "question": "What is the interest rate on the Instant Loan Against a Credit Card?",
+        "expected_answer": "The interest rate is 10%.",
+        "audio_file": "wav\\PLCC-Q028.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PLCC-Q002",
+        "question": "What is the Instant Loan Against a Credit Card?",
+        "expected_answer": "It is a loan offered through the app, where the amount is transferred to the account within a short period. A credit card is issued against it, provided without a commission for the first year, after which there is an annual renewal commission that varies according to the card category. It cannot be rescheduled or restructured.",
+        "audio_file": "wav\\PLCC-Q002.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PLCC-Q038",
+        "question": "How is the loan amount determined relative to the card ceiling?",
+        "expected_answer": "The loan amount represents 90% of the card ceiling.",
+        "audio_file": "wav\\PLCC-Q038.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PLCC-Q020",
+        "question": "What is the maximum customer age at the end of the Instant Loan Against a Credit Card?",
+        "expected_answer": "The maximum customer age at the end of the loan is 75 years.",
+        "audio_file": "wav\\PLCC-Q020.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "PLCC-en-003",
+    "subtopic": "Loan/PLCC",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q006",
+        "question": "What is the minimum salary to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "The minimum salary is 450 JOD.",
+        "audio_file": "wav\\PLCC-Q006.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PLCC-Q026",
+        "question": "Can the ceiling of the Instant Loan Against a Credit Card be raised?",
+        "expected_answer": "No, the ceiling of this loan cannot be raised.",
+        "audio_file": "wav\\PLCC-Q026.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q020",
+        "question": "What is the maximum customer age at the end of the Instant Loan Against a Credit Card?",
+        "expected_answer": "The maximum customer age at the end of the loan is 75 years.",
+        "audio_file": "wav\\PLCC-Q020.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PLCC-Q010",
+        "question": "Is salary transfer required to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "No, salary transfer is not required.",
+        "audio_file": "wav\\PLCC-Q010.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PLCC-Q012",
+        "question": "What is the minimum amount for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The minimum loan amount is 1,000 JOD.",
+        "audio_file": "wav\\PLCC-Q012.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q004",
+        "question": "What is the minimum length of service to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "The minimum service period in the current job is 3 months for approved companies, and 6 months for unapproved companies, with 12 Social Security contributions for the last year.",
+        "audio_file": "wav\\PLCC-Q004.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PLCC-Q042",
+        "question": "What are the installment deduction dates for the Instant Loan Against a Credit Card?",
+        "expected_answer": "If the loan is executed on the 15th of the month or earlier, the payment will be in the same month. If the loan is executed after the 15th of the month, the payment will be in the following month.",
+        "audio_file": "wav\\PLCC-Q042.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PLCC-Q038",
+        "question": "How is the loan amount determined relative to the card ceiling?",
+        "expected_answer": "The loan amount represents 90% of the card ceiling.",
+        "audio_file": "wav\\PLCC-Q038.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PLCC-Q014",
+        "question": "What is the maximum amount for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The maximum loan amount is 25,000 JOD.",
+        "audio_file": "wav\\PLCC-Q014.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PLCC-Q040",
+        "question": "What happens if the customer is late in paying two consecutive installments of the Instant Loan Against a Credit Card?",
+        "expected_answer": "A late interest of 1.5% monthly is calculated on the remaining utilized balance.",
+        "audio_file": "wav\\PLCC-Q040.wav"
+      }
+    ]
+  }
+]

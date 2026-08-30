@@ -1,0 +1,1542 @@
+[
+  {
+    "session_id": "S001_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q061",
+        "question": "من يتحمل مسؤولية توفير التصاريح اللازمة لدخول فريق التركيب؟",
+        "expected_answer": "يجب على العميل توفير التصاريح اللازمة لدخول فريق التركيب عند اللزوم مثل بعض المجمعات السكنية، ويتحمل العميل مسؤولية إصدار التصاريح اللازمة إذا كانت منطقته تستلزم ذلك.",
+        "audio_file": "wav/Q061.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q027",
+        "question": "كيف يتم اختيار العنوان عند طلب لوحة العنوان الوطني؟",
+        "expected_answer": "يتم من خلال حساب العميل عرض واختيار العناوين المرتبطة بالعميل عند طلب لوحة العنوان الوطني.",
+        "audio_file": "wav/Q027.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q021",
+        "question": "كم مدة تركيب اللوحات في مدينة الرياض؟",
+        "expected_answer": "مدة تركيب اللوحات في مدينة الرياض هي 12 يوم عمل.",
+        "audio_file": "wav/Q021.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q003",
+        "question": "كم سعر اللوحة الواحدة لخدمة تركيب اللوحات؟",
+        "expected_answer": "الرسوم الحالية للوحة الواحدة هي 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، وتتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع وتعرض للعميل قبل الدفع.",
+        "audio_file": "wav/Q003.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q041",
+        "question": "كيف يمكن للعميل رفع شكوى على طلب معين؟",
+        "expected_answer": "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة (طلباتي) أو من خلال صفحة خدمة العملاء.",
+        "audio_file": "wav/Q041.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q071",
+        "question": "هل يمكن الدفع من خلال الرصيد؟",
+        "expected_answer": "يمكن الدفع للعميل بنفس وسائل الدفع المتاحة حالياً في موقع سبل.",
+        "audio_file": "wav/Q071.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q063",
+        "question": "هل يتم تعويض العميل في حال تأخر تنفيذ الطلب؟",
+        "expected_answer": "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة ويعرض للعميل أثناء اختيار اللوحة، وسيتم تعويض العميل في حال كان التأخير من طرف فريق التركيب.",
+        "audio_file": "wav/Q063.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q059",
+        "question": "هل يتم تركيب اللوحات على الشقق ومن يتحمل مسؤولية التحقق من صحة العنوان؟",
+        "expected_answer": "لا يتم تركيب اللوحات على الشقق، ويتحمل العميل مسؤولية التحقق من صحة عنوانه المسجل.",
+        "audio_file": "wav/Q059.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q035",
+        "question": "ماذا يحدث بعد إتمام الدفع؟",
+        "expected_answer": "ترسل رسالة نصية للعميل لإشعاره بإتمام الدفع ورقم الطلب وقنوات الدعم.",
+        "audio_file": "wav/Q035.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q001",
+        "question": "ما هي خدمة تركيب لوحات العنوان الوطني؟",
+        "expected_answer": "الخدمة تتيح للعميل طلب تركيب لوحة تحمل تفاصيل عنوانه الوطني المختصر المسجل في سبل اونلاين.",
+        "audio_file": "wav/Q001.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S002_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q083",
+        "question": "في حال وجود ملاحظات أو اعتراض على جودة اللوحة ويرغب العميل بتبديلها، كيف ستكون الآلية؟",
+        "expected_answer": "يرفع العميل شكوى عبر الموقع على الطلب المحدد وستصل الشكوى للشركة المصنعة. وفي حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+        "audio_file": "wav/Q083.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q049",
+        "question": "ما الشرط الأساسي لإنشاء طلب تركيب لوحة؟",
+        "expected_answer": "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجلاً في العنوان الوطني.",
+        "audio_file": "wav/Q049.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q075",
+        "question": "عند تغيير رقم الجوال بالطلب هل سينعكس على العنوان الوطني أم يقتصر على الطلب نفسه؟",
+        "expected_answer": "نعم، سينعكس على العنوان الوطني وسينقل العميل لصفحة بياناته الشخصية للتغيير.",
+        "audio_file": "wav/Q075.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q043",
+        "question": "كيف يمكن للعميل تحديث رقم جواله المرتبط بالحساب؟",
+        "expected_answer": "يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار (تحديث الرقم)، وستصل الرسائل النصية على الرقم المعروض.",
+        "audio_file": "wav/Q043.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q047",
+        "question": "هل يمكن للعميل تحميل ملف مواصفات ومقاسات اللوح؟",
+        "expected_answer": "نعم، يمكن للعميل استعراض وتحميل ملف (مواصفات ومقاسات اللوح) في حال رغب في تصنيع اللوحة عبر مزود آخر، وذلك عبر اختيار (أرغب في تصنيع اللوحة من مزود آخر).",
+        "audio_file": "wav/Q047.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q005",
+        "question": "كم مدة حل البلاغات لخدمة تركيب اللوحات؟",
+        "expected_answer": "مدة حل البلاغات هي 72 ساعة عمل.",
+        "audio_file": "wav/Q005.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q081",
+        "question": "كيف يتم التحقق من عدم أهلية الموقع للتركيب؟",
+        "expected_answer": "التحقق من أهلية الموقع هي مسؤولية فريق نظم المعلومات الجغرافية، وفي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر.",
+        "audio_file": "wav/Q081.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q077",
+        "question": "كيف ستكون الجدولة لتواصل الفريق لتركيب اللوحة بعد توفير التصريح؟",
+        "expected_answer": "فرق التركيب هي فرق تركيب خارجية تتواصل مع العميل لتنسيق التركيب والحصول على التصريح من العميل.",
+        "audio_file": "wav/Q077.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q073",
+        "question": "كيف يمكن التحقق من حالة طلب العميل وكيفية البحث عنه؟",
+        "expected_answer": "يمكن التحقق من حالة طلب العميل عبر البحث عن رقم الطلب الذي يظهر للعميل في صفحة (طلباتي)، ومن ثم البحث في نظام CRM: الذهاب لخدمة العملاء واختيار طلبات تركيب العنوان الوطني، وستظهر قائمة طلبات تركيب لوحات العنوان ويمكن البحث برقم الطلب لمعرفة حالته.",
+        "audio_file": "wav/Q073.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q037",
+        "question": "ماذا يحدث بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة؟",
+        "expected_answer": "بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة من قبل الشركة المصنعة، يتم إشعار العميل عبر رسالة نصية بالانتهاء من تنفيذ الطلب وترسل استبانة لتقييم الخدمة.",
+        "audio_file": "wav/Q037.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S003_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q057",
+        "question": "هل يمكن للعميل طلب لوحة إذا كانت منطقته خارج المناطق المغطاة؟",
+        "expected_answer": "لا، لا يستطيع العميل طلب لوحة في حال كانت منطقته خارج المناطق المغطاة وسيتم تنبيه العميل بذلك.",
+        "audio_file": "wav/Q057.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q079",
+        "question": "هل يمكن للعميل تصميم لوحة والتعامل مع مصنع آخر مباشرة؟",
+        "expected_answer": "نعم، بإمكان العميل أن يقوم بتصنيع وتصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع وتركيب اللوحات.",
+        "audio_file": "wav/Q079.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q029",
+        "question": "ماذا يختار العميل عند طلب اللوحة؟",
+        "expected_answer": "يختار العميل نوع اللوحة وعددها والتصميم المناسب.",
+        "audio_file": "wav/Q029.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q039",
+        "question": "كيف يمكن للعميل استعراض طلباته وتفاصيلها؟",
+        "expected_answer": "يستطيع العميل استعراض طلباته وتفاصيلها من خلال صفحة (طلباتي).",
+        "audio_file": "wav/Q039.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q009",
+        "question": "من هم المستخدمون المؤهلون لخدمة تركيب اللوحات؟",
+        "expected_answer": "المستخدمون للخدمة هم الأفراد (المواطنين والمقيمين) المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس.",
+        "audio_file": "wav/Q009.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q011",
+        "question": "هل الخدمة متاحة لأصحاب الشقق وحسابات الأعمال والحسابات الحكومية؟",
+        "expected_answer": "لا، الخدمة غير متاحة لأصحاب الشقق وحسابات الأعمال والحسابات الحكومية.",
+        "audio_file": "wav/Q011.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q007",
+        "question": "من الذي يقوم بتركيب اللوحة؟",
+        "expected_answer": "يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة تحت إشراف وتشغيل الشركة السعودية للخدمات البريدية واللوجستية (سبل).",
+        "audio_file": "wav/Q007.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q085",
+        "question": "كم مهلة حل البلاغات والشكاوى المتعلقة بالخدمة؟",
+        "expected_answer": "معالجة الشكاوى المتعلقة بخدمة تركيب لوحة هي مسؤولية فريق نظم المعلومات الجغرافية، والحد الأقصى لمعالجة الشكاوى والبلاغات هو 72 ساعة.",
+        "audio_file": "wav/Q085.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q013",
+        "question": "في أي مدن تكون خدمة تركيب اللوحات متاحة حالياً؟",
+        "expected_answer": "الخدمة حالياً متاحة فقط في المدن التالية: الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت، عنك، القطيف.",
+        "audio_file": "wav/Q013.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q025",
+        "question": "كيف يتم طلب خدمة تركيب اللوحات؟",
+        "expected_answer": "طريقة طلب الخدمة عبر الموقع (سبل) فقط، بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني، حيث ستتم إعادة توجيه المستخدم إلى صفحة تسجيل الدخول.",
+        "audio_file": "wav/Q025.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S004_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q017",
+        "question": "لماذا لا يظهر طلب لوحة العنوان من خلال حساب العميل؟",
+        "expected_answer": "السبب هو أن نوع الوحدة في الاشتراك هي شقة وليست فيلا، وعليه يلزم أن يقوم العميل بتحديث نوع الوحدة ليتم ظهور طلب اللوحة.",
+        "audio_file": "wav/Q017.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q019",
+        "question": "كم مدة تركيب لوحة العنوان خارج مدينة الرياض؟",
+        "expected_answer": "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل كحد أقصى.",
+        "audio_file": "wav/Q019.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q031",
+        "question": "ماذا يفعل العميل عند اختيار العنوان وتأكيد رفع طلب اللوحة؟",
+        "expected_answer": "يتم الإقرار بصحة العنوان والبيانات والموافقة على الشروط والأحكام عند اختيار العنوان وتأكيد رفع طلب اللوحة.",
+        "audio_file": "wav/Q031.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q033",
+        "question": "كيف يقوم العميل بإتمام الدفع؟",
+        "expected_answer": "يقوم العميل بإتمام الدفع عبر وسائل الدفع المتاحة.",
+        "audio_file": "wav/Q033.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q065",
+        "question": "متى تلتزم الشركة بإعادة المبلغ المدفوع للعميل؟",
+        "expected_answer": "تلتزم الشركة السعودية للخدمات البريدية واللوجستية بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة للموقع بسبب عدم أهلية الموقع للتركيب خلال 14 يوم عمل.",
+        "audio_file": "wav/Q065.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q053",
+        "question": "ما الحد الأقصى للوحات في الطلب الواحد؟",
+        "expected_answer": "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات.",
+        "audio_file": "wav/Q053.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q069",
+        "question": "ما هي الفروقات والمميزات بين اللوحات؟",
+        "expected_answer": "تختلف اللوحات في تصاميمها والمواد المصنعة لها حسب العقد مع الشركة المصنعة، وستظهر للعميل النهائي صورة اللوحة وتفاصيلها.",
+        "audio_file": "wav/Q069.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q045",
+        "question": "كيف يمكن للعميل استعراض فواتيره المتعلقة بالخدمة؟",
+        "expected_answer": "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة (فواتيري).",
+        "audio_file": "wav/Q045.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q051",
+        "question": "هل يستطيع العميل اختيار أكثر من تصميم عند طلب أكثر من لوحة؟",
+        "expected_answer": "لا، لا يستطيع العميل اختيار أكثر من تصميم في حال اختار أكثر من لوحة واحدة.",
+        "audio_file": "wav/Q051.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q023",
+        "question": "ما نوع اللوحة المتاح لجميع المدن؟",
+        "expected_answer": "نوع اللوحة هو استيل فضي لجميع المدن.",
+        "audio_file": "wav/Q023.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S005_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q055",
+        "question": "هل يمكن للعميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة؟",
+        "expected_answer": "لا، لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة.",
+        "audio_file": "wav/Q055.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q067",
+        "question": "ماذا يحدث في حال تركيب اللوحة بشكل خاطئ أو كانت جودتها غير مطابقة للمواصفات؟",
+        "expected_answer": "في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+        "audio_file": "wav/Q067.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q015",
+        "question": "هل تتوفر اللوحات الذهبية حالياً؟",
+        "expected_answer": "لا، فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها وسيتم إشعاركم حال تم إعادتها.",
+        "audio_file": "wav/Q015.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q041",
+        "question": "كيف يمكن للعميل رفع شكوى على طلب معين؟",
+        "expected_answer": "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة (طلباتي) أو من خلال صفحة خدمة العملاء.",
+        "audio_file": "wav/Q041.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q051",
+        "question": "هل يستطيع العميل اختيار أكثر من تصميم عند طلب أكثر من لوحة؟",
+        "expected_answer": "لا، لا يستطيع العميل اختيار أكثر من تصميم في حال اختار أكثر من لوحة واحدة.",
+        "audio_file": "wav/Q051.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q005",
+        "question": "كم مدة حل البلاغات لخدمة تركيب اللوحات؟",
+        "expected_answer": "مدة حل البلاغات هي 72 ساعة عمل.",
+        "audio_file": "wav/Q005.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q061",
+        "question": "من يتحمل مسؤولية توفير التصاريح اللازمة لدخول فريق التركيب؟",
+        "expected_answer": "يجب على العميل توفير التصاريح اللازمة لدخول فريق التركيب عند اللزوم مثل بعض المجمعات السكنية، ويتحمل العميل مسؤولية إصدار التصاريح اللازمة إذا كانت منطقته تستلزم ذلك.",
+        "audio_file": "wav/Q061.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q017",
+        "question": "لماذا لا يظهر طلب لوحة العنوان من خلال حساب العميل؟",
+        "expected_answer": "السبب هو أن نوع الوحدة في الاشتراك هي شقة وليست فيلا، وعليه يلزم أن يقوم العميل بتحديث نوع الوحدة ليتم ظهور طلب اللوحة.",
+        "audio_file": "wav/Q017.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q039",
+        "question": "كيف يمكن للعميل استعراض طلباته وتفاصيلها؟",
+        "expected_answer": "يستطيع العميل استعراض طلباته وتفاصيلها من خلال صفحة (طلباتي).",
+        "audio_file": "wav/Q039.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q045",
+        "question": "كيف يمكن للعميل استعراض فواتيره المتعلقة بالخدمة؟",
+        "expected_answer": "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة (فواتيري).",
+        "audio_file": "wav/Q045.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S006_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q079",
+        "question": "هل يمكن للعميل تصميم لوحة والتعامل مع مصنع آخر مباشرة؟",
+        "expected_answer": "نعم، بإمكان العميل أن يقوم بتصنيع وتصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع وتركيب اللوحات.",
+        "audio_file": "wav/Q079.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q065",
+        "question": "متى تلتزم الشركة بإعادة المبلغ المدفوع للعميل؟",
+        "expected_answer": "تلتزم الشركة السعودية للخدمات البريدية واللوجستية بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة للموقع بسبب عدم أهلية الموقع للتركيب خلال 14 يوم عمل.",
+        "audio_file": "wav/Q065.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q033",
+        "question": "كيف يقوم العميل بإتمام الدفع؟",
+        "expected_answer": "يقوم العميل بإتمام الدفع عبر وسائل الدفع المتاحة.",
+        "audio_file": "wav/Q033.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q057",
+        "question": "هل يمكن للعميل طلب لوحة إذا كانت منطقته خارج المناطق المغطاة؟",
+        "expected_answer": "لا، لا يستطيع العميل طلب لوحة في حال كانت منطقته خارج المناطق المغطاة وسيتم تنبيه العميل بذلك.",
+        "audio_file": "wav/Q057.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q077",
+        "question": "كيف ستكون الجدولة لتواصل الفريق لتركيب اللوحة بعد توفير التصريح؟",
+        "expected_answer": "فرق التركيب هي فرق تركيب خارجية تتواصل مع العميل لتنسيق التركيب والحصول على التصريح من العميل.",
+        "audio_file": "wav/Q077.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q031",
+        "question": "ماذا يفعل العميل عند اختيار العنوان وتأكيد رفع طلب اللوحة؟",
+        "expected_answer": "يتم الإقرار بصحة العنوان والبيانات والموافقة على الشروط والأحكام عند اختيار العنوان وتأكيد رفع طلب اللوحة.",
+        "audio_file": "wav/Q031.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q063",
+        "question": "هل يتم تعويض العميل في حال تأخر تنفيذ الطلب؟",
+        "expected_answer": "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة ويعرض للعميل أثناء اختيار اللوحة، وسيتم تعويض العميل في حال كان التأخير من طرف فريق التركيب.",
+        "audio_file": "wav/Q063.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q043",
+        "question": "كيف يمكن للعميل تحديث رقم جواله المرتبط بالحساب؟",
+        "expected_answer": "يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار (تحديث الرقم)، وستصل الرسائل النصية على الرقم المعروض.",
+        "audio_file": "wav/Q043.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q019",
+        "question": "كم مدة تركيب لوحة العنوان خارج مدينة الرياض؟",
+        "expected_answer": "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل كحد أقصى.",
+        "audio_file": "wav/Q019.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q011",
+        "question": "هل الخدمة متاحة لأصحاب الشقق وحسابات الأعمال والحسابات الحكومية؟",
+        "expected_answer": "لا، الخدمة غير متاحة لأصحاب الشقق وحسابات الأعمال والحسابات الحكومية.",
+        "audio_file": "wav/Q011.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S007_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q047",
+        "question": "هل يمكن للعميل تحميل ملف مواصفات ومقاسات اللوح؟",
+        "expected_answer": "نعم، يمكن للعميل استعراض وتحميل ملف (مواصفات ومقاسات اللوح) في حال رغب في تصنيع اللوحة عبر مزود آخر، وذلك عبر اختيار (أرغب في تصنيع اللوحة من مزود آخر).",
+        "audio_file": "wav/Q047.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q025",
+        "question": "كيف يتم طلب خدمة تركيب اللوحات؟",
+        "expected_answer": "طريقة طلب الخدمة عبر الموقع (سبل) فقط، بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني، حيث ستتم إعادة توجيه المستخدم إلى صفحة تسجيل الدخول.",
+        "audio_file": "wav/Q025.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q055",
+        "question": "هل يمكن للعميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة؟",
+        "expected_answer": "لا، لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة.",
+        "audio_file": "wav/Q055.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q049",
+        "question": "ما الشرط الأساسي لإنشاء طلب تركيب لوحة؟",
+        "expected_answer": "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجلاً في العنوان الوطني.",
+        "audio_file": "wav/Q049.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q067",
+        "question": "ماذا يحدث في حال تركيب اللوحة بشكل خاطئ أو كانت جودتها غير مطابقة للمواصفات؟",
+        "expected_answer": "في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+        "audio_file": "wav/Q067.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q075",
+        "question": "عند تغيير رقم الجوال بالطلب هل سينعكس على العنوان الوطني أم يقتصر على الطلب نفسه؟",
+        "expected_answer": "نعم، سينعكس على العنوان الوطني وسينقل العميل لصفحة بياناته الشخصية للتغيير.",
+        "audio_file": "wav/Q075.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q029",
+        "question": "ماذا يختار العميل عند طلب اللوحة؟",
+        "expected_answer": "يختار العميل نوع اللوحة وعددها والتصميم المناسب.",
+        "audio_file": "wav/Q029.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q071",
+        "question": "هل يمكن الدفع من خلال الرصيد؟",
+        "expected_answer": "يمكن الدفع للعميل بنفس وسائل الدفع المتاحة حالياً في موقع سبل.",
+        "audio_file": "wav/Q071.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q007",
+        "question": "من الذي يقوم بتركيب اللوحة؟",
+        "expected_answer": "يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة تحت إشراف وتشغيل الشركة السعودية للخدمات البريدية واللوجستية (سبل).",
+        "audio_file": "wav/Q007.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q009",
+        "question": "من هم المستخدمون المؤهلون لخدمة تركيب اللوحات؟",
+        "expected_answer": "المستخدمون للخدمة هم الأفراد (المواطنين والمقيمين) المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس.",
+        "audio_file": "wav/Q009.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S008_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q059",
+        "question": "هل يتم تركيب اللوحات على الشقق ومن يتحمل مسؤولية التحقق من صحة العنوان؟",
+        "expected_answer": "لا يتم تركيب اللوحات على الشقق، ويتحمل العميل مسؤولية التحقق من صحة عنوانه المسجل.",
+        "audio_file": "wav/Q059.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q003",
+        "question": "كم سعر اللوحة الواحدة لخدمة تركيب اللوحات؟",
+        "expected_answer": "الرسوم الحالية للوحة الواحدة هي 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، وتتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع وتعرض للعميل قبل الدفع.",
+        "audio_file": "wav/Q003.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q023",
+        "question": "ما نوع اللوحة المتاح لجميع المدن؟",
+        "expected_answer": "نوع اللوحة هو استيل فضي لجميع المدن.",
+        "audio_file": "wav/Q023.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q073",
+        "question": "كيف يمكن التحقق من حالة طلب العميل وكيفية البحث عنه؟",
+        "expected_answer": "يمكن التحقق من حالة طلب العميل عبر البحث عن رقم الطلب الذي يظهر للعميل في صفحة (طلباتي)، ومن ثم البحث في نظام CRM: الذهاب لخدمة العملاء واختيار طلبات تركيب العنوان الوطني، وستظهر قائمة طلبات تركيب لوحات العنوان ويمكن البحث برقم الطلب لمعرفة حالته.",
+        "audio_file": "wav/Q073.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q037",
+        "question": "ماذا يحدث بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة؟",
+        "expected_answer": "بعد الانتهاء من تنفيذ الطلب وتركيب اللوحة من قبل الشركة المصنعة، يتم إشعار العميل عبر رسالة نصية بالانتهاء من تنفيذ الطلب وترسل استبانة لتقييم الخدمة.",
+        "audio_file": "wav/Q037.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q027",
+        "question": "كيف يتم اختيار العنوان عند طلب لوحة العنوان الوطني؟",
+        "expected_answer": "يتم من خلال حساب العميل عرض واختيار العناوين المرتبطة بالعميل عند طلب لوحة العنوان الوطني.",
+        "audio_file": "wav/Q027.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q085",
+        "question": "كم مهلة حل البلاغات والشكاوى المتعلقة بالخدمة؟",
+        "expected_answer": "معالجة الشكاوى المتعلقة بخدمة تركيب لوحة هي مسؤولية فريق نظم المعلومات الجغرافية، والحد الأقصى لمعالجة الشكاوى والبلاغات هو 72 ساعة.",
+        "audio_file": "wav/Q085.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q013",
+        "question": "في أي مدن تكون خدمة تركيب اللوحات متاحة حالياً؟",
+        "expected_answer": "الخدمة حالياً متاحة فقط في المدن التالية: الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت، عنك، القطيف.",
+        "audio_file": "wav/Q013.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q015",
+        "question": "هل تتوفر اللوحات الذهبية حالياً؟",
+        "expected_answer": "لا، فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها وسيتم إشعاركم حال تم إعادتها.",
+        "audio_file": "wav/Q015.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q069",
+        "question": "ما هي الفروقات والمميزات بين اللوحات؟",
+        "expected_answer": "تختلف اللوحات في تصاميمها والمواد المصنعة لها حسب العقد مع الشركة المصنعة، وستظهر للعميل النهائي صورة اللوحة وتفاصيلها.",
+        "audio_file": "wav/Q069.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S009_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q083",
+        "question": "في حال وجود ملاحظات أو اعتراض على جودة اللوحة ويرغب العميل بتبديلها، كيف ستكون الآلية؟",
+        "expected_answer": "يرفع العميل شكوى عبر الموقع على الطلب المحدد وستصل الشكوى للشركة المصنعة. وفي حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+        "audio_file": "wav/Q083.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q035",
+        "question": "ماذا يحدث بعد إتمام الدفع؟",
+        "expected_answer": "ترسل رسالة نصية للعميل لإشعاره بإتمام الدفع ورقم الطلب وقنوات الدعم.",
+        "audio_file": "wav/Q035.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q021",
+        "question": "كم مدة تركيب اللوحات في مدينة الرياض؟",
+        "expected_answer": "مدة تركيب اللوحات في مدينة الرياض هي 12 يوم عمل.",
+        "audio_file": "wav/Q021.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q081",
+        "question": "كيف يتم التحقق من عدم أهلية الموقع للتركيب؟",
+        "expected_answer": "التحقق من أهلية الموقع هي مسؤولية فريق نظم المعلومات الجغرافية، وفي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر.",
+        "audio_file": "wav/Q081.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q053",
+        "question": "ما الحد الأقصى للوحات في الطلب الواحد؟",
+        "expected_answer": "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات.",
+        "audio_file": "wav/Q053.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q001",
+        "question": "ما هي خدمة تركيب لوحات العنوان الوطني؟",
+        "expected_answer": "الخدمة تتيح للعميل طلب تركيب لوحة تحمل تفاصيل عنوانه الوطني المختصر المسجل في سبل اونلاين.",
+        "audio_file": "wav/Q001.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q083",
+        "question": "في حال وجود ملاحظات أو اعتراض على جودة اللوحة ويرغب العميل بتبديلها، كيف ستكون الآلية؟",
+        "expected_answer": "يرفع العميل شكوى عبر الموقع على الطلب المحدد وستصل الشكوى للشركة المصنعة. وفي حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+        "audio_file": "wav/Q083.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q069",
+        "question": "ما هي الفروقات والمميزات بين اللوحات؟",
+        "expected_answer": "تختلف اللوحات في تصاميمها والمواد المصنعة لها حسب العقد مع الشركة المصنعة، وستظهر للعميل النهائي صورة اللوحة وتفاصيلها.",
+        "audio_file": "wav/Q069.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q075",
+        "question": "عند تغيير رقم الجوال بالطلب هل سينعكس على العنوان الوطني أم يقتصر على الطلب نفسه؟",
+        "expected_answer": "نعم، سينعكس على العنوان الوطني وسينقل العميل لصفحة بياناته الشخصية للتغيير.",
+        "audio_file": "wav/Q075.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q045",
+        "question": "كيف يمكن للعميل استعراض فواتيره المتعلقة بالخدمة؟",
+        "expected_answer": "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة (فواتيري).",
+        "audio_file": "wav/Q045.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S010_ar",
+    "language": "ar",
+    "agent_id": "4c13308d-e4ca-4fb7-8eab-974fb6a96684",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q039",
+        "question": "كيف يمكن للعميل استعراض طلباته وتفاصيلها؟",
+        "expected_answer": "يستطيع العميل استعراض طلباته وتفاصيلها من خلال صفحة (طلباتي).",
+        "audio_file": "wav/Q039.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q049",
+        "question": "ما الشرط الأساسي لإنشاء طلب تركيب لوحة؟",
+        "expected_answer": "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجلاً في العنوان الوطني.",
+        "audio_file": "wav/Q049.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q021",
+        "question": "كم مدة تركيب اللوحات في مدينة الرياض؟",
+        "expected_answer": "مدة تركيب اللوحات في مدينة الرياض هي 12 يوم عمل.",
+        "audio_file": "wav/Q021.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q079",
+        "question": "هل يمكن للعميل تصميم لوحة والتعامل مع مصنع آخر مباشرة؟",
+        "expected_answer": "نعم، بإمكان العميل أن يقوم بتصنيع وتصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع وتركيب اللوحات.",
+        "audio_file": "wav/Q079.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q081",
+        "question": "كيف يتم التحقق من عدم أهلية الموقع للتركيب؟",
+        "expected_answer": "التحقق من أهلية الموقع هي مسؤولية فريق نظم المعلومات الجغرافية، وفي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر.",
+        "audio_file": "wav/Q081.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q025",
+        "question": "كيف يتم طلب خدمة تركيب اللوحات؟",
+        "expected_answer": "طريقة طلب الخدمة عبر الموقع (سبل) فقط، بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني، حيث ستتم إعادة توجيه المستخدم إلى صفحة تسجيل الدخول.",
+        "audio_file": "wav/Q025.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q005",
+        "question": "كم مدة حل البلاغات لخدمة تركيب اللوحات؟",
+        "expected_answer": "مدة حل البلاغات هي 72 ساعة عمل.",
+        "audio_file": "wav/Q005.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q003",
+        "question": "كم سعر اللوحة الواحدة لخدمة تركيب اللوحات؟",
+        "expected_answer": "الرسوم الحالية للوحة الواحدة هي 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، وتتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع وتعرض للعميل قبل الدفع.",
+        "audio_file": "wav/Q003.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q013",
+        "question": "في أي مدن تكون خدمة تركيب اللوحات متاحة حالياً؟",
+        "expected_answer": "الخدمة حالياً متاحة فقط في المدن التالية: الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت، عنك، القطيف.",
+        "audio_file": "wav/Q013.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q009",
+        "question": "من هم المستخدمون المؤهلون لخدمة تركيب اللوحات؟",
+        "expected_answer": "المستخدمون للخدمة هم الأفراد (المواطنين والمقيمين) المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس.",
+        "audio_file": "wav/Q009.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S001_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q064",
+        "question": "Is the customer compensated if the request execution is delayed?",
+        "expected_answer": "The maximum execution period varies by plate type and is shown to the customer while choosing the plate. The customer will be compensated if the delay was caused by the installation team.",
+        "audio_file": "wav/Q064.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q016",
+        "question": "Are golden plates currently available?",
+        "expected_answer": "No. Regarding golden plates, the implementing company has stopped producing them and you will be notified once they are brought back.",
+        "audio_file": "wav/Q016.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q084",
+        "question": "If the customer has notes or objections about the plate quality and wants it replaced, what is the mechanism?",
+        "expected_answer": "The customer files a complaint through the website on the specific request and it reaches the manufacturing company. If the plate was installed incorrectly or its quality does not match the approved specifications, the manufacturing company must replace it within 7 working days at no cost.",
+        "audio_file": "wav/Q084.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q036",
+        "question": "What happens after the payment is completed?",
+        "expected_answer": "A text message is sent to the customer to notify them of the payment completion, the request number, and support channels.",
+        "audio_file": "wav/Q036.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q062",
+        "question": "Who bears the responsibility for providing the permits required for the installation team to enter?",
+        "expected_answer": "The customer must provide the necessary permits for the installation team to enter when needed, such as in some residential compounds, and the customer bears the responsibility for issuing the required permits if their area requires it.",
+        "audio_file": "wav/Q062.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q014",
+        "question": "In which cities is the plate installation service currently available?",
+        "expected_answer": "The service is currently only available in the following cities: Riyadh, Dammam, Madinah, Jeddah, Khobar, Dhahran, Makkah, Hail, Jazan, Hafr Al-Batin, Najran, Unaizah, Buraidah, Abha, Khamis Mushait, Saihat, Tarout, Anak, and Qatif.",
+        "audio_file": "wav/Q014.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q004",
+        "question": "How much does one plate cost for the plate installation service?",
+        "expected_answer": "The current fee for one plate is 138 Saudi Riyals, excluding value-added tax. Fees change according to the plate design in agreement with the manufacturer and are shown to the customer before payment.",
+        "audio_file": "wav/Q004.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q060",
+        "question": "Are plates installed on apartments and who is responsible for verifying the correctness of the address?",
+        "expected_answer": "Plates are not installed on apartments, and the customer bears the responsibility of verifying the correctness of their registered address.",
+        "audio_file": "wav/Q060.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q006",
+        "question": "How long does it take to resolve complaints for the plate installation service?",
+        "expected_answer": "The complaint resolution period is 72 working hours.",
+        "audio_file": "wav/Q006.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q070",
+        "question": "What are the differences and features between the plates?",
+        "expected_answer": "Plates differ in their designs and manufacturing materials depending on the contract with the manufacturing company. The end customer will see the plate image and its details.",
+        "audio_file": "wav/Q070.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S002_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q010",
+        "question": "Who are the eligible users for the plate installation service?",
+        "expected_answer": "The service users are individuals (citizens and residents) registered in the National Address service and residing in housing units of type villa or duplex.",
+        "audio_file": "wav/Q010.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q074",
+        "question": "How can the status of a customer's request be verified and how can it be searched?",
+        "expected_answer": "The customer's request status can be verified by searching for the request number shown in the My Requests page, then searching in the CRM system: go to customer service and choose National Address Installation Requests. A list of plate installation requests will appear and can be searched by request number to find its status.",
+        "audio_file": "wav/Q074.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q058",
+        "question": "Can the customer request a plate if their area is outside the covered areas?",
+        "expected_answer": "No. The customer cannot request a plate if their area is outside the covered areas and will be alerted about that.",
+        "audio_file": "wav/Q058.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q076",
+        "question": "When the mobile number on the request is changed, does it reflect on the National Address or only on the request itself?",
+        "expected_answer": "Yes, it will reflect on the National Address and the customer will be taken to their personal data page to make the change.",
+        "audio_file": "wav/Q076.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q008",
+        "question": "Who installs the plate?",
+        "expected_answer": "The plate is installed by an external party contracted with licensed factories under the supervision and operation of the Saudi Postal and Logistics Services Company (SPL).",
+        "audio_file": "wav/Q008.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q018",
+        "question": "Why does the plate request not appear through the customer's account?",
+        "expected_answer": "Because the unit type on the subscription is an apartment and not a villa; the customer must update the unit type for the plate request to appear.",
+        "audio_file": "wav/Q018.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q050",
+        "question": "What is the basic condition to create a plate installation request?",
+        "expected_answer": "The customer cannot create a request unless they are registered in the National Address.",
+        "audio_file": "wav/Q050.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q056",
+        "question": "Can the customer create a new request if they have an ongoing request being processed?",
+        "expected_answer": "No. The customer cannot create a new request if they have an ongoing request under processing.",
+        "audio_file": "wav/Q056.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q080",
+        "question": "Can the customer design a plate and deal directly with another factory?",
+        "expected_answer": "Yes. The customer can manufacture and design the plate themselves or deal with other factories, provided they comply with the approved specifications for manufacturing and installing plates.",
+        "audio_file": "wav/Q080.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q048",
+        "question": "Can the customer download the plate specifications and dimensions file?",
+        "expected_answer": "Yes. The customer can view and download the Plate Specifications and Dimensions file if they want the plate manufactured through another provider, by choosing the option to manufacture the plate through another provider.",
+        "audio_file": "wav/Q048.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S003_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q020",
+        "question": "How long does plate installation take outside Riyadh?",
+        "expected_answer": "The installation duration for a National Address plate outside Riyadh is 22 working days at most.",
+        "audio_file": "wav/Q020.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q066",
+        "question": "When is the company committed to refunding the paid amount to the customer?",
+        "expected_answer": "The Saudi Postal and Logistics Services Company is committed to refunding the paid amount if the plate cannot be installed due to the site not being eligible, within 14 working days.",
+        "audio_file": "wav/Q066.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q028",
+        "question": "How is the address selected when requesting a National Address plate?",
+        "expected_answer": "The customer's account displays the addresses linked to the customer to select from when requesting a National Address plate.",
+        "audio_file": "wav/Q028.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q046",
+        "question": "How can the customer review their invoices related to the service?",
+        "expected_answer": "The customer can review their service invoices through the My Invoices page.",
+        "audio_file": "wav/Q046.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q078",
+        "question": "How will the scheduling be for the team to contact the customer to install the plate after the permit is provided?",
+        "expected_answer": "The installation teams are external teams that contact the customer to coordinate the installation and obtain the permit from the customer.",
+        "audio_file": "wav/Q078.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q002",
+        "question": "What is the National Address plate installation service?",
+        "expected_answer": "The service allows the customer to request the installation of a plate carrying the details of their registered short National Address via SPL online.",
+        "audio_file": "wav/Q002.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q054",
+        "question": "What is the maximum number of plates in a single request?",
+        "expected_answer": "The maximum number of plates in one request is 3 plates.",
+        "audio_file": "wav/Q054.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q024",
+        "question": "What is the plate type available for all cities?",
+        "expected_answer": "The plate type is silver steel for all cities.",
+        "audio_file": "wav/Q024.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q068",
+        "question": "What happens if the plate is installed incorrectly or its quality does not match the specifications?",
+        "expected_answer": "If the plate is installed incorrectly or the installed plate's quality does not match the approved specifications, the manufacturing company is obligated to replace it for the customer within 7 working days at no cost.",
+        "audio_file": "wav/Q068.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q030",
+        "question": "What does the customer choose when requesting the plate?",
+        "expected_answer": "The customer chooses the plate type, its quantity, and the appropriate design.",
+        "audio_file": "wav/Q030.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S004_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q026",
+        "question": "How do you request the plate installation service?",
+        "expected_answer": "The service is requested only through the SPL website. After logging in, go to the National Address page, where the user will be redirected to the login page.",
+        "audio_file": "wav/Q026.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q012",
+        "question": "Is the service available to apartment owners, business accounts, and government accounts?",
+        "expected_answer": "No, the service is not available to apartment owners, business accounts, and government accounts.",
+        "audio_file": "wav/Q012.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q086",
+        "question": "How long is the period for resolving complaints related to the service?",
+        "expected_answer": "Handling complaints related to the plate installation service is the responsibility of the GIS team, and the maximum period for handling complaints is 72 hours.",
+        "audio_file": "wav/Q086.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q034",
+        "question": "How does the customer complete the payment?",
+        "expected_answer": "The customer completes the payment through the available payment methods.",
+        "audio_file": "wav/Q034.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q082",
+        "question": "How is the verification of a site's ineligibility for installation done?",
+        "expected_answer": "Verifying site eligibility is the responsibility of the GIS team. If the customer files a complaint about site ineligibility, the GIS team is the one authorized to verify the matter.",
+        "audio_file": "wav/Q082.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q022",
+        "question": "How long does plate installation take in Riyadh?",
+        "expected_answer": "The installation duration for plates in Riyadh is 12 working days.",
+        "audio_file": "wav/Q022.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q040",
+        "question": "How can the customer review their requests and their details?",
+        "expected_answer": "The customer can review their requests and details through the My Requests page.",
+        "audio_file": "wav/Q040.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q038",
+        "question": "What happens after the request is executed and the plate is installed?",
+        "expected_answer": "After the request is executed and the plate installed by the manufacturing company, the customer is notified via a text message of completion, and a service evaluation survey is sent.",
+        "audio_file": "wav/Q038.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q044",
+        "question": "How can the customer update the mobile number linked to their account?",
+        "expected_answer": "The customer can update the mobile number linked to the account via the Update Number option, and text messages will arrive on the displayed number.",
+        "audio_file": "wav/Q044.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q032",
+        "question": "What does the customer do when choosing the address and confirming the plate request?",
+        "expected_answer": "The customer acknowledges the correctness of the address and data and agrees to the terms and conditions when choosing the address and confirming the plate request.",
+        "audio_file": "wav/Q032.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S005_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q072",
+        "question": "Can payment be made through the balance?",
+        "expected_answer": "The customer can pay using the same payment methods currently available on the SPL website.",
+        "audio_file": "wav/Q072.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q052",
+        "question": "Can the customer choose more than one design when requesting more than one plate?",
+        "expected_answer": "No. The customer cannot choose more than one design if they chose more than one plate.",
+        "audio_file": "wav/Q052.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q042",
+        "question": "How can the customer file a complaint on a specific request?",
+        "expected_answer": "The customer can file a complaint on a specific request through the My Requests page or the customer service page.",
+        "audio_file": "wav/Q042.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q038",
+        "question": "What happens after the request is executed and the plate is installed?",
+        "expected_answer": "After the request is executed and the plate installed by the manufacturing company, the customer is notified via a text message of completion, and a service evaluation survey is sent.",
+        "audio_file": "wav/Q038.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q040",
+        "question": "How can the customer review their requests and their details?",
+        "expected_answer": "The customer can review their requests and details through the My Requests page.",
+        "audio_file": "wav/Q040.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q058",
+        "question": "Can the customer request a plate if their area is outside the covered areas?",
+        "expected_answer": "No. The customer cannot request a plate if their area is outside the covered areas and will be alerted about that.",
+        "audio_file": "wav/Q058.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q010",
+        "question": "Who are the eligible users for the plate installation service?",
+        "expected_answer": "The service users are individuals (citizens and residents) registered in the National Address service and residing in housing units of type villa or duplex.",
+        "audio_file": "wav/Q010.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q046",
+        "question": "How can the customer review their invoices related to the service?",
+        "expected_answer": "The customer can review their service invoices through the My Invoices page.",
+        "audio_file": "wav/Q046.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q080",
+        "question": "Can the customer design a plate and deal directly with another factory?",
+        "expected_answer": "Yes. The customer can manufacture and design the plate themselves or deal with other factories, provided they comply with the approved specifications for manufacturing and installing plates.",
+        "audio_file": "wav/Q080.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q002",
+        "question": "What is the National Address plate installation service?",
+        "expected_answer": "The service allows the customer to request the installation of a plate carrying the details of their registered short National Address via SPL online.",
+        "audio_file": "wav/Q002.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S006_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q064",
+        "question": "Is the customer compensated if the request execution is delayed?",
+        "expected_answer": "The maximum execution period varies by plate type and is shown to the customer while choosing the plate. The customer will be compensated if the delay was caused by the installation team.",
+        "audio_file": "wav/Q064.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q006",
+        "question": "How long does it take to resolve complaints for the plate installation service?",
+        "expected_answer": "The complaint resolution period is 72 working hours.",
+        "audio_file": "wav/Q006.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q012",
+        "question": "Is the service available to apartment owners, business accounts, and government accounts?",
+        "expected_answer": "No, the service is not available to apartment owners, business accounts, and government accounts.",
+        "audio_file": "wav/Q012.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q028",
+        "question": "How is the address selected when requesting a National Address plate?",
+        "expected_answer": "The customer's account displays the addresses linked to the customer to select from when requesting a National Address plate.",
+        "audio_file": "wav/Q028.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q074",
+        "question": "How can the status of a customer's request be verified and how can it be searched?",
+        "expected_answer": "The customer's request status can be verified by searching for the request number shown in the My Requests page, then searching in the CRM system: go to customer service and choose National Address Installation Requests. A list of plate installation requests will appear and can be searched by request number to find its status.",
+        "audio_file": "wav/Q074.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q034",
+        "question": "How does the customer complete the payment?",
+        "expected_answer": "The customer completes the payment through the available payment methods.",
+        "audio_file": "wav/Q034.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q026",
+        "question": "How do you request the plate installation service?",
+        "expected_answer": "The service is requested only through the SPL website. After logging in, go to the National Address page, where the user will be redirected to the login page.",
+        "audio_file": "wav/Q026.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q008",
+        "question": "Who installs the plate?",
+        "expected_answer": "The plate is installed by an external party contracted with licensed factories under the supervision and operation of the Saudi Postal and Logistics Services Company (SPL).",
+        "audio_file": "wav/Q008.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q084",
+        "question": "If the customer has notes or objections about the plate quality and wants it replaced, what is the mechanism?",
+        "expected_answer": "The customer files a complaint through the website on the specific request and it reaches the manufacturing company. If the plate was installed incorrectly or its quality does not match the approved specifications, the manufacturing company must replace it within 7 working days at no cost.",
+        "audio_file": "wav/Q084.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q056",
+        "question": "Can the customer create a new request if they have an ongoing request being processed?",
+        "expected_answer": "No. The customer cannot create a new request if they have an ongoing request under processing.",
+        "audio_file": "wav/Q056.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S007_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q054",
+        "question": "What is the maximum number of plates in a single request?",
+        "expected_answer": "The maximum number of plates in one request is 3 plates.",
+        "audio_file": "wav/Q054.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q020",
+        "question": "How long does plate installation take outside Riyadh?",
+        "expected_answer": "The installation duration for a National Address plate outside Riyadh is 22 working days at most.",
+        "audio_file": "wav/Q020.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q036",
+        "question": "What happens after the payment is completed?",
+        "expected_answer": "A text message is sent to the customer to notify them of the payment completion, the request number, and support channels.",
+        "audio_file": "wav/Q036.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q042",
+        "question": "How can the customer file a complaint on a specific request?",
+        "expected_answer": "The customer can file a complaint on a specific request through the My Requests page or the customer service page.",
+        "audio_file": "wav/Q042.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q082",
+        "question": "How is the verification of a site's ineligibility for installation done?",
+        "expected_answer": "Verifying site eligibility is the responsibility of the GIS team. If the customer files a complaint about site ineligibility, the GIS team is the one authorized to verify the matter.",
+        "audio_file": "wav/Q082.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q030",
+        "question": "What does the customer choose when requesting the plate?",
+        "expected_answer": "The customer chooses the plate type, its quantity, and the appropriate design.",
+        "audio_file": "wav/Q030.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q022",
+        "question": "How long does plate installation take in Riyadh?",
+        "expected_answer": "The installation duration for plates in Riyadh is 12 working days.",
+        "audio_file": "wav/Q022.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q032",
+        "question": "What does the customer do when choosing the address and confirming the plate request?",
+        "expected_answer": "The customer acknowledges the correctness of the address and data and agrees to the terms and conditions when choosing the address and confirming the plate request.",
+        "audio_file": "wav/Q032.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q024",
+        "question": "What is the plate type available for all cities?",
+        "expected_answer": "The plate type is silver steel for all cities.",
+        "audio_file": "wav/Q024.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q070",
+        "question": "What are the differences and features between the plates?",
+        "expected_answer": "Plates differ in their designs and manufacturing materials depending on the contract with the manufacturing company. The end customer will see the plate image and its details.",
+        "audio_file": "wav/Q070.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S008_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q004",
+        "question": "How much does one plate cost for the plate installation service?",
+        "expected_answer": "The current fee for one plate is 138 Saudi Riyals, excluding value-added tax. Fees change according to the plate design in agreement with the manufacturer and are shown to the customer before payment.",
+        "audio_file": "wav/Q004.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q072",
+        "question": "Can payment be made through the balance?",
+        "expected_answer": "The customer can pay using the same payment methods currently available on the SPL website.",
+        "audio_file": "wav/Q072.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q086",
+        "question": "How long is the period for resolving complaints related to the service?",
+        "expected_answer": "Handling complaints related to the plate installation service is the responsibility of the GIS team, and the maximum period for handling complaints is 72 hours.",
+        "audio_file": "wav/Q086.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q066",
+        "question": "When is the company committed to refunding the paid amount to the customer?",
+        "expected_answer": "The Saudi Postal and Logistics Services Company is committed to refunding the paid amount if the plate cannot be installed due to the site not being eligible, within 14 working days.",
+        "audio_file": "wav/Q066.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q062",
+        "question": "Who bears the responsibility for providing the permits required for the installation team to enter?",
+        "expected_answer": "The customer must provide the necessary permits for the installation team to enter when needed, such as in some residential compounds, and the customer bears the responsibility for issuing the required permits if their area requires it.",
+        "audio_file": "wav/Q062.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q014",
+        "question": "In which cities is the plate installation service currently available?",
+        "expected_answer": "The service is currently only available in the following cities: Riyadh, Dammam, Madinah, Jeddah, Khobar, Dhahran, Makkah, Hail, Jazan, Hafr Al-Batin, Najran, Unaizah, Buraidah, Abha, Khamis Mushait, Saihat, Tarout, Anak, and Qatif.",
+        "audio_file": "wav/Q014.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q018",
+        "question": "Why does the plate request not appear through the customer's account?",
+        "expected_answer": "Because the unit type on the subscription is an apartment and not a villa; the customer must update the unit type for the plate request to appear.",
+        "audio_file": "wav/Q018.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q050",
+        "question": "What is the basic condition to create a plate installation request?",
+        "expected_answer": "The customer cannot create a request unless they are registered in the National Address.",
+        "audio_file": "wav/Q050.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q078",
+        "question": "How will the scheduling be for the team to contact the customer to install the plate after the permit is provided?",
+        "expected_answer": "The installation teams are external teams that contact the customer to coordinate the installation and obtain the permit from the customer.",
+        "audio_file": "wav/Q078.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q076",
+        "question": "When the mobile number on the request is changed, does it reflect on the National Address or only on the request itself?",
+        "expected_answer": "Yes, it will reflect on the National Address and the customer will be taken to their personal data page to make the change.",
+        "audio_file": "wav/Q076.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S009_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q060",
+        "question": "Are plates installed on apartments and who is responsible for verifying the correctness of the address?",
+        "expected_answer": "Plates are not installed on apartments, and the customer bears the responsibility of verifying the correctness of their registered address.",
+        "audio_file": "wav/Q060.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q044",
+        "question": "How can the customer update the mobile number linked to their account?",
+        "expected_answer": "The customer can update the mobile number linked to the account via the Update Number option, and text messages will arrive on the displayed number.",
+        "audio_file": "wav/Q044.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q048",
+        "question": "Can the customer download the plate specifications and dimensions file?",
+        "expected_answer": "Yes. The customer can view and download the Plate Specifications and Dimensions file if they want the plate manufactured through another provider, by choosing the option to manufacture the plate through another provider.",
+        "audio_file": "wav/Q048.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q068",
+        "question": "What happens if the plate is installed incorrectly or its quality does not match the specifications?",
+        "expected_answer": "If the plate is installed incorrectly or the installed plate's quality does not match the approved specifications, the manufacturing company is obligated to replace it for the customer within 7 working days at no cost.",
+        "audio_file": "wav/Q068.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q052",
+        "question": "Can the customer choose more than one design when requesting more than one plate?",
+        "expected_answer": "No. The customer cannot choose more than one design if they chose more than one plate.",
+        "audio_file": "wav/Q052.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q016",
+        "question": "Are golden plates currently available?",
+        "expected_answer": "No. Regarding golden plates, the implementing company has stopped producing them and you will be notified once they are brought back.",
+        "audio_file": "wav/Q016.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q084",
+        "question": "If the customer has notes or objections about the plate quality and wants it replaced, what is the mechanism?",
+        "expected_answer": "The customer files a complaint through the website on the specific request and it reaches the manufacturing company. If the plate was installed incorrectly or its quality does not match the approved specifications, the manufacturing company must replace it within 7 working days at no cost.",
+        "audio_file": "wav/Q084.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q052",
+        "question": "Can the customer choose more than one design when requesting more than one plate?",
+        "expected_answer": "No. The customer cannot choose more than one design if they chose more than one plate.",
+        "audio_file": "wav/Q052.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q054",
+        "question": "What is the maximum number of plates in a single request?",
+        "expected_answer": "The maximum number of plates in one request is 3 plates.",
+        "audio_file": "wav/Q054.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q014",
+        "question": "In which cities is the plate installation service currently available?",
+        "expected_answer": "The service is currently only available in the following cities: Riyadh, Dammam, Madinah, Jeddah, Khobar, Dhahran, Makkah, Hail, Jazan, Hafr Al-Batin, Najran, Unaizah, Buraidah, Abha, Khamis Mushait, Saihat, Tarout, Anak, and Qatif.",
+        "audio_file": "wav/Q014.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "S010_en",
+    "language": "en",
+    "agent_id": "4fde5907-8884-4d7e-bd0e-8b4d21266465",
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "Q002",
+        "question": "What is the National Address plate installation service?",
+        "expected_answer": "The service allows the customer to request the installation of a plate carrying the details of their registered short National Address via SPL online.",
+        "audio_file": "wav/Q002.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "Q066",
+        "question": "When is the company committed to refunding the paid amount to the customer?",
+        "expected_answer": "The Saudi Postal and Logistics Services Company is committed to refunding the paid amount if the plate cannot be installed due to the site not being eligible, within 14 working days.",
+        "audio_file": "wav/Q066.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "Q060",
+        "question": "Are plates installed on apartments and who is responsible for verifying the correctness of the address?",
+        "expected_answer": "Plates are not installed on apartments, and the customer bears the responsibility of verifying the correctness of their registered address.",
+        "audio_file": "wav/Q060.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "Q074",
+        "question": "How can the status of a customer's request be verified and how can it be searched?",
+        "expected_answer": "The customer's request status can be verified by searching for the request number shown in the My Requests page, then searching in the CRM system: go to customer service and choose National Address Installation Requests. A list of plate installation requests will appear and can be searched by request number to find its status.",
+        "audio_file": "wav/Q074.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "Q046",
+        "question": "How can the customer review their invoices related to the service?",
+        "expected_answer": "The customer can review their service invoices through the My Invoices page.",
+        "audio_file": "wav/Q046.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "Q050",
+        "question": "What is the basic condition to create a plate installation request?",
+        "expected_answer": "The customer cannot create a request unless they are registered in the National Address.",
+        "audio_file": "wav/Q050.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "Q070",
+        "question": "What are the differences and features between the plates?",
+        "expected_answer": "Plates differ in their designs and manufacturing materials depending on the contract with the manufacturing company. The end customer will see the plate image and its details.",
+        "audio_file": "wav/Q070.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "Q064",
+        "question": "Is the customer compensated if the request execution is delayed?",
+        "expected_answer": "The maximum execution period varies by plate type and is shown to the customer while choosing the plate. The customer will be compensated if the delay was caused by the installation team.",
+        "audio_file": "wav/Q064.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "Q028",
+        "question": "How is the address selected when requesting a National Address plate?",
+        "expected_answer": "The customer's account displays the addresses linked to the customer to select from when requesting a National Address plate.",
+        "audio_file": "wav/Q028.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "Q056",
+        "question": "Can the customer create a new request if they have an ongoing request being processed?",
+        "expected_answer": "No. The customer cannot create a new request if they have an ongoing request under processing.",
+        "audio_file": "wav/Q056.wav"
+      }
+    ]
+  }
+]

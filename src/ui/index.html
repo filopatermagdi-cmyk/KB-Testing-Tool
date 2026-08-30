@@ -1,0 +1,1031 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Zilla KB Tool — Dashboard</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --card: #161b22;
+    --card-hover: #1c2129;
+    --accent: #58a6ff;
+    --accent-dark: #388bfd;
+    --accent-glow: rgba(88,166,255,.15);
+    --accent-light: #1a2332;
+    --text: #c9d1d9;
+    --muted: #8b949e;
+    --border: #21262d;
+    --border-light: #30363d;
+    --good: #3fb950;
+    --good-bg: #0d2117;
+    --bad: #f85149;
+    --bad-bg: #2d1214;
+    --surface: #0d1117;
+    --input-bg: #0d1117;
+    --input-border: #30363d;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+  }
+  header {
+    background: linear-gradient(135deg, #161b22 0%, #0d1117 100%);
+    border-bottom: 1px solid var(--border);
+    color: #fff;
+    padding: 16px 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header h1 { margin: 0; font-size: 20px; font-weight: 600; letter-spacing: .3px; color: #f0f6fc; }
+  header .sub { font-size: 12px; color: var(--muted); }
+  .badge { background: var(--accent-glow); color: var(--accent); padding: 4px 10px; border-radius: 20px; font-size: 12px; border: 1px solid var(--border); }
+  main { padding: 22px 28px; max-width: 1400px; margin: 0 auto; }
+  section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px 20px; margin-bottom: 20px; }
+  h2 { font-size: 15px; margin: 0 0 14px; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 12px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 12px; transition: border-color .2s, box-shadow .2s; }
+  .card:hover { border-color: var(--accent); box-shadow: 0 0 12px var(--accent-glow); }
+  .card .k { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .5px; }
+  .card .v { font-size: 20px; font-weight: 700; color: var(--accent); margin-top: 4px; }
+  .card .v small { font-size: 12px; font-weight: 400; color: var(--muted); }
+
+  /* ---- phase rows ---- */
+  .phase-row { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px dashed var(--border); }
+  .phase-row:last-child { border-bottom: none; }
+  .phase-row .cb { width: 18px; height: 18px; accent-color: var(--accent); }
+  .phase-row .lbl { width: 220px; font-size: 13px; font-weight: 600; }
+  .phase-row .args { flex: 1; }
+  .phase-row .args input { width: 100%; padding: 6px 10px; border: 1px solid var(--input-border); border-radius: 8px; font-size: 12px; font-family: Consolas, monospace; background: var(--input-bg); color: var(--text); }
+  .phase-row .args input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-glow); }
+  button {
+    background: var(--accent-dark); color: #fff; border: none; padding: 8px 14px; border-radius: 8px;
+    font-size: 13px; cursor: pointer; font-weight: 600; transition: background .2s, box-shadow .2s;
+  }
+  button:hover { background: var(--accent); box-shadow: 0 0 10px var(--accent-glow); }
+  button.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+  button.secondary:hover { background: var(--card-hover); border-color: var(--accent); box-shadow: 0 0 8px var(--accent-glow); }
+  button:disabled { opacity: .4; cursor: not-allowed; box-shadow: none; }
+  .phase-actions { display: flex; gap: 10px; margin-top: 12px; align-items: center; flex-wrap: wrap; }
+  .phase-actions .note { font-size: 12px; color: var(--muted); }
+
+  /* ---- output console ---- */
+  pre#output {
+    background: #0d1117; color: #c9d1d9; padding: 14px; border-radius: 10px; overflow: auto;
+    max-height: 380px; font-size: 12px; line-height: 1.5; font-family: Consolas, monospace;
+    white-space: pre-wrap; word-break: break-word; border: 1px solid var(--border);
+  }
+
+  /* ---- config table ---- */
+  table.env { width: 100%; border-collapse: collapse; font-size: 13px; }
+  table.env th, table.env td { text-align: left; padding: 7px 10px; border-bottom: 1px solid var(--border); }
+  table.env th { font-size: 11px; text-transform: uppercase; color: var(--muted); }
+  table.env input[type=text] { width: 100%; padding: 5px 8px; border: 1px solid var(--input-border); border-radius: 6px; font-family: Consolas, monospace; font-size: 12px; background: var(--input-bg); color: var(--text); }
+  table.env input[type=text]:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-glow); }
+  table.env tr:hover td { background: var(--card-hover); }
+  table.env tr.env-group td { background: var(--surface); font-size: 12px; letter-spacing: .4px; border-top: 2px solid var(--border); }
+  table.env tr.env-group td b { color: var(--accent); }
+  .i { position: relative; display: inline-flex; width: 18px; height: 18px; border-radius: 50%; background: var(--accent-light); color: var(--accent); font-size: 11px; align-items: center; justify-content: center; cursor: help; font-weight: 700; border: 1px solid var(--border); }
+  .i .tip {
+    display: none; position: absolute; left: 26px; top: -6px; z-index: 50; width: 280px; background: #1c2129; color: var(--text);
+    padding: 10px 12px; border-radius: 8px; font-size: 12px; font-weight: 400; line-height: 1.5; box-shadow: 0 4px 14px rgba(0,0,0,.5); border: 1px solid var(--border);
+  }
+  .i:hover .tip { display: block; }
+  .secret input { background: #1a1512; border-color: #5a3a1a !important; }
+  .env-actions { display: flex; gap: 10px; margin-top: 12px; }
+
+  /* ---- calls ---- */
+  .session-card { border: 1px solid var(--border); border-radius: 12px; margin-bottom: 16px; overflow: hidden; background: var(--card); }
+  .session-head { background: var(--surface); padding: 10px 16px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+  .session-head .sid { font-weight: 700; font-size: 14px; }
+  .lang-badge { background: var(--accent-light); border: 1px solid var(--border); padding: 2px 8px; border-radius: 12px; font-size: 11px; font-weight: 700; text-transform: uppercase; color: var(--accent); }
+  .pill { font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 10px; }
+  .pill.pass { background: var(--good-bg); color: var(--good); }
+  .pill.fail { background: var(--bad-bg); color: var(--bad); }
+  .pill.muted { background: var(--surface); color: var(--muted); }
+  .session-head a { font-size: 12px; color: var(--accent); text-decoration: none; }
+  .session-head a:hover { text-decoration: underline; }
+  .conv { padding: 14px 16px; display: flex; flex-direction: column; gap: 10px; }
+  .bubble { max-width: 78%; padding: 9px 13px; border-radius: 14px; font-size: 13px; line-height: 1.5; white-space: pre-wrap; word-break: break-word; }
+  .bubble.cust { align-self: flex-start; background: var(--accent-light); border-bottom-left-radius: 4px; color: var(--text); }
+  .bubble.agent { align-self: flex-end; background: var(--surface); border-bottom-right-radius: 4px; border: 1px solid var(--border); color: var(--text); }
+  .bubble.agent.no-reply { border-color: #e74c3c; background: #2a1a1a; }
+  .bubble .who { font-size: 10px; font-weight: 700; color: var(--muted); text-transform: uppercase; margin-bottom: 3px; }
+  .typing { align-self: flex-end; display: inline-flex; gap: 4px; padding: 9px 13px; background: var(--surface); border-radius: 14px; border: 1px solid var(--border); }
+  .typing span { width: 6px; height: 6px; border-radius: 50%; background: var(--muted); animation: blink 1.1s infinite; }
+  .typing span:nth-child(2) { animation-delay: .2s; }
+  .typing span:nth-child(3) { animation-delay: .4s; }
+  @keyframes blink { 0%, 80%, 100% { opacity: .25; } 40% { opacity: 1; } }
+  .turn-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; font-size: 11px; color: var(--muted); align-self: flex-end; }
+  .metric { font-weight: 700; padding: 2px 8px; border-radius: 10px; font-size: 11px; }
+  .metric .sc { font-weight: 400; }
+  .metric.pass { background: var(--good-bg); color: var(--good); }
+  .metric.fail { background: var(--bad-bg); color: var(--bad); }
+  .metric.na { background: var(--surface); color: var(--muted); }
+  .reasons { margin-top: 5px; font-size: 11px; line-height: 1.45; }
+  .reasons .r { color: var(--muted); padding-left: 8px; border-left: 2px solid var(--border); margin-top: 3px;
+                display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; cursor: help; }
+  .reasons .r b { color: var(--accent); }
+
+  .import-card { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-top: 8px; }
+  .import-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; }
+  .import-row:last-child { margin-bottom: 0; }
+  .import-row label { width: 170px; font-size: 13px; font-weight: 600; color: var(--text); flex-shrink: 0; }
+  .import-row input[type="text"] { flex: 1; padding: 6px 10px; border: 1px solid var(--input-border); border-radius: 8px; font-size: 13px; font-family: Consolas, monospace; background: var(--input-bg); color: var(--text); }
+  .import-row input[type="text"]:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-glow); }
+  .import-row input[type="file"] { flex: 1; font-size: 13px; color: var(--muted); }
+  .import-row input[type="file"]::file-selector-button { background: var(--accent-dark); color: #fff; border: none; padding: 5px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; margin-right: 10px; }
+  .import-row input[type="file"]::file-selector-button:hover { background: var(--accent); }
+  .import-row button { padding: 8px 16px; background: var(--accent-dark); color: #fff; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; font-size: 13px; white-space: nowrap; }
+  .import-row button:hover { background: var(--accent); box-shadow: 0 0 10px var(--accent-glow); }
+
+  .empty { color: var(--muted); font-size: 13px; padding: 10px 0; }
+  .eval-banner { font-size: 12px; color: var(--muted); margin-top: 8px; }
+  .sr-mode { padding: 6px 14px; border-radius: 8px; font-size: 12px; font-weight: 700; background: var(--surface); color: var(--muted); border: 1px solid var(--border); cursor: pointer; transition: all .2s; opacity: 0.5; }
+  .sr-mode:hover { border-color: var(--accent); color: var(--text); opacity: 0.8; }
+  .sr-mode.active { background: var(--accent-dark); color: #fff; border-color: var(--accent-dark); opacity: 1; box-shadow: 0 0 10px var(--accent-glow); }
+
+  /* ---- calls tabs ---- */
+  .calls-tabs { display: flex; gap: 8px; align-items: center; margin-bottom: 12px; }
+  .calls-tabs .tab { padding: 6px 20px; border-radius: 8px; font-weight: 700; font-size: 12px; background: var(--surface); color: var(--muted); border: 1px solid var(--border); cursor: pointer; transition: all .2s; }
+  .calls-tabs .tab:hover { border-color: var(--accent); color: var(--text); }
+  .calls-tabs .tab.active { background: var(--accent-dark); color: #fff; border-color: var(--accent-dark); }
+  .session-row {
+    display: flex; align-items: center; gap: 12px; padding: 10px 14px;
+    border: 1px solid var(--border); border-radius: 10px; margin-bottom: 8px;
+    background: var(--card); cursor: pointer; flex-wrap: wrap; transition: border-color .2s, box-shadow .2s;
+  }
+  .session-row:hover { border-color: var(--accent); box-shadow: 0 0 10px var(--accent-glow); }
+  .session-row .chev { color: var(--muted); transition: transform .2s; font-size: 11px; }
+  .session-row.open .chev { transform: rotate(90deg); }
+  .session-conv { display: none; padding: 0 6px 10px; }
+  .session-row.open + .session-conv { display: block; }
+  select { background: var(--input-bg); color: var(--text); border: 1px solid var(--input-border); border-radius: 8px; padding: 6px 8px; font-size: 12px; }
+  select:focus { outline: none; border-color: var(--accent); }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Zilla KB Tool</h1>
+    <div class="sub">KB regression testing dashboard — configure, run, watch the calls, see the scores</div>
+  </div>
+  <div class="badge" id="head-badge">loading…</div>
+</header>
+
+<main>
+  <section id="status-sec">
+    <h2>Status</h2>
+    <div class="cards" id="cards"></div>
+  </section>
+
+  <section id="agents-sec">
+    <h2>Agents (Zilla)</h2>
+    <div class="phase-actions">
+      <button id="btn-load-agents">↻ Load agents</button>
+      <label style="font-size:12px;font-weight:700">AR agent: <select id="agent-ar" style="padding:6px;border:1px solid var(--border);border-radius:8px;font-size:12px;max-width:320px"></select></label>
+      <label style="font-size:12px;font-weight:700">EN agent: <select id="agent-en" style="padding:6px;border:1px solid var(--border);border-radius:8px;font-size:12px;max-width:320px"></select></label>
+      <button id="btn-save-agents" class="secondary">💾 Save to .env</button>
+      <span id="agents-status" class="note"></span>
+    </div>
+    <div class="note" style="margin-top:8px">Pick a name in the dropdowns and hit Save - or type the name in <b>ZILLA_AGENT_AR / ZILLA_AGENT_EN</b> in .env and run <b>npm run agents</b> to auto-resolve it to the id.</div>
+  </section>
+
+  <section id="phases-sec">
+    <h2>Phases</h2>
+    <div id="phase-rows"></div>
+    <div class="phase-actions">
+      <button id="btn-run-selected">▶ Run selected in order</button>
+      <button id="btn-clear-output" class="secondary">Clear output</button>
+      <button id="btn-stop" class="secondary" disabled>⏹ Stop run</button>
+      <span class="note">Tick the phases and Run selected in order - or run any phase on its own. Commands read their config from .env; extra args go in the input box.</span>
+    </div>
+    <div class="phase-actions" style="border-top:1px dashed var(--border); padding-top:12px;">
+      <b style="font-size:13px">Clean / reset: keep outputs before phase</b>
+      <select id="clean-from" style="padding:6px;border:1px solid var(--border);border-radius:8px;font-size:12px">
+        <option value="1">1 (delete everything)</option>
+        <option value="2">2 (keep chunks)</option>
+        <option value="3">3 (keep chunks + questions)</option>
+        <option value="4">4 (keep chunks + questions)</option>
+        <option value="5" selected>5 (keep questions + wav)</option>
+        <option value="6">6 (keep sessions)</option>
+        <option value="7">7 (keep runs)</option>
+        <option value="8">8 (keep captured)</option>
+      </select>
+      <button id="btn-clean-preview" class="secondary">🔍 Preview</button>
+      <button id="btn-clean-delete">🗑 Delete</button>
+      <span id="clean-status" class="note"></span>
+    </div>
+    <h2 style="margin-top:18px">Output</h2>
+    <pre id="output"></pre>
+  </section>
+
+  <section id="import-sec">
+    <h2>Import Claude Output</h2>
+    <div class="import-card">
+      <div class="import-row">
+        <label>Topic (KB folder name)</label>
+        <input type="text" id="import-topic" placeholder="Loan" />
+      </div>
+      <div class="import-row">
+        <label>Sub-topic (document name)</label>
+        <input type="text" id="import-subtopic" placeholder="Car Loan" />
+      </div>
+      <div class="import-row">
+        <label>JSON file</label>
+        <input type="file" id="import-file" accept=".json" />
+      </div>
+      <div class="import-row">
+        <button id="btn-import">📥 Validate & Import</button>
+        <span id="import-status" class="note"></span>
+      </div>
+    </div>
+  </section>
+
+  <section id="build-sec">
+    <h2>Build Sessions</h2>
+    <div class="import-card">
+      <div class="import-row">
+        <label>Topic</label>
+        <select id="bs-topic"></select>
+      </div>
+      <div class="import-row">
+        <label>Sub-topic</label>
+        <select id="bs-subtopic"></select>
+      </div>
+      <div class="import-row">
+        <label>Questions/session</label>
+        <input type="number" id="bs-size" value="10" min="1" style="width:60px" title="Questions per session" />
+        <label style="width:auto;margin-left:16px">AR sessions</label>
+        <input type="number" id="bs-ar-sessions" value="0" min="0" style="width:60px" title="Cap Arabic sessions (0 = all)" />
+        <label style="width:auto;margin-left:16px">EN sessions</label>
+        <input type="number" id="bs-en-sessions" value="0" min="0" style="width:60px" title="Cap English sessions (0 = all)" />
+      </div>
+      <div class="import-row">
+        <label>Seed</label>
+        <input type="text" id="bs-seed" placeholder="(empty = random)" style="width:140px" title="Fixed question order - same seed + same data = same sessions" />
+        <span class="note">RANDOM_SEED from .env used when this is empty.</span>
+      </div>
+      <div class="import-row">
+        <span id="bs-info" class="note" style="flex:1"></span>
+      </div>
+      <div class="import-row">
+        <button id="bs-build">🔨 Build Sessions</button>
+        <span id="bs-status" class="note"></span>
+      </div>
+    </div>
+    <h2 style="margin-top:18px">Build Sessions Output</h2>
+    <pre id="bs-output"></pre>
+  </section>
+
+  <section id="session-runner-sec">
+    <h2>Session Runner</h2>
+    <div class="import-card">
+      <div class="import-row">
+        <label>Run via</label>
+        <div style="display:flex;gap:8px;align-items:center;">
+          <button id="sr-mode-ws" class="sr-mode" data-mode="ws">🔌 Direct WebSocket</button>
+          <button id="sr-mode-ui" class="sr-mode active" data-mode="ui">🌐 Browser (CallRunner)</button>
+        </div>
+      </div>
+      <div class="import-row">
+        <label>Topic</label>
+        <select id="sr-topic"></select>
+      </div>
+      <div class="import-row">
+        <label>Sub-topic</label>
+        <select id="sr-subtopic"></select>
+      </div>
+      <div class="import-row">
+        <label>Language</label>
+        <select id="sr-lang">
+          <option value="all">All (ar + en)</option>
+          <option value="ar">Arabic only</option>
+          <option value="en">English only</option>
+        </select>
+      </div>
+      <div class="import-row">
+        <label>AR total</label>
+        <input type="number" id="sr-total-ar" value="0" min="0" style="width:60px" title="Total Arabic calls (0 = all)" />
+        <label style="width:auto;margin-left:8px">AR conc</label>
+        <input type="number" id="sr-concurrent-ar" value="3" min="1" style="width:60px" title="Arabic concurrency per batch" />
+        <label style="width:auto;margin-left:16px">EN total</label>
+        <input type="number" id="sr-total-en" value="0" min="0" style="width:60px" title="Total English calls (0 = all)" />
+        <label style="width:auto;margin-left:8px">EN conc</label>
+        <input type="number" id="sr-concurrent-en" value="3" min="1" style="width:60px" title="English concurrency per batch" />
+      </div>
+      <div class="import-row">
+        <label>Auto-refresh token</label>
+        <input type="checkbox" id="sr-auto-token" checked style="width:18px;height:18px;accent-color:var(--accent)" />
+        <span class="note">Login & refresh WS_TOKEN before running (needs ZILLA_EMAIL + ZILLA_PASSWORD in .env)</span>
+      </div>
+      <div class="import-row">
+        <span id="sr-info" class="note" style="flex:1"></span>
+      </div>
+      <div class="import-row">
+        <button id="sr-run">▶ Run Sessions</button>
+        <button id="sr-stop" class="secondary" disabled>⏹ Stop</button>
+        <span id="sr-status" class="note"></span>
+      </div>
+    </div>
+    <h2 style="margin-top:18px">Session Runner Output</h2>
+    <pre id="sr-output"></pre>
+  </section>
+
+  <section id="calls-sec">
+    <h2>Calls</h2>
+    <div class="calls-tabs">
+      <button class="tab active" data-lang="ar">AR</button>
+      <button class="tab" data-lang="en">EN</button>
+      <span id="calls-meta" class="note"></span>
+    </div>
+    <div id="calls"></div>
+  </section>
+
+  <section id="config-sec">
+    <h2>Config (.env)</h2>
+    <div style="overflow:auto; max-height: 560px;">
+      <table class="env" id="env-table">
+        <thead><tr><th>Key</th><th>Value</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="env-actions">
+      <button id="btn-save-env">💾 Save .env</button>
+      <button id="btn-reload-env" class="secondary">Reload</button>
+      <span id="env-status" class="note"></span>
+    </div>
+  </section>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+const PHASES = [
+  { id: "extractChunks", label: "1. Extract KB chunks", script: "extract-chunks", hint: "spl_kb.docx data/chunks.json", on: false },
+  { id: "generateQuestions", label: "2. Generate questions", script: "generate-questions", hint: "", on: false },
+  { id: "validateQuestions", label: "3. Validate questions", script: "validate-questions", hint: "", on: true },
+  { id: "generateAudio", label: "4. Generate audio (TTS)", script: "generate-audio", hint: "", on: true },
+  { id: "buildSessions", label: "5. Build sessions", script: "build-sessions", hint: "", on: true },
+  { id: "runSessions", label: "6. Run sessions (live calls)", script: "run-sessions", hint: "--concurrency 2", on: true },
+  { id: "captureAnswers", label: "7. Capture answers", script: "capture-answers", hint: "", on: true },
+  { id: "evaluate", label: "8. Evaluate (DeepEval)", script: "evaluate", hint: "--sample 5", on: true },
+];
+
+/* ---------- phases ---------- */
+function renderPhases() {
+  const box = $("phase-rows");
+  box.innerHTML = "";
+  for (const p of PHASES) {
+    const row = document.createElement("div");
+    row.className = "phase-row";
+    row.innerHTML = `
+      <input class="cb" type="checkbox" ${p.on ? "checked" : ""} data-id="${p.id}" />
+      <span class="lbl">${p.label}</span>
+      <span class="args"><input type="text" placeholder="${p.hint}" data-args="${p.id}" /></span>
+      <button data-run="${p.id}">Run</button>`;
+    box.appendChild(row);
+  }
+  box.addEventListener("click", (e) => {
+    const btn = e.target.closest("button[data-run]");
+    if (btn) runPhase(btn.dataset.run, argsFor(btn.dataset.run));
+  });
+}
+function argsFor(id) {
+  const inp = document.querySelector(`input[data-args="${id}"]`);
+  return inp && inp.value.trim() ? inp.value.trim().split(/\s+/) : [];
+}
+function selectedPhases() {
+  return [...document.querySelectorAll(".cb:checked")].map((c) => c.dataset.id);
+}
+async function runPhase(id, args) {
+  const out = $("output");
+  out.textContent = "";
+  $("btn-run-selected").disabled = true;
+  $("btn-stop").disabled = false;
+  const phases = document.querySelectorAll("button[data-run]");
+  phases.forEach((b) => (b.disabled = b.dataset.run === id));
+  try {
+    const res = await fetch("/api/run", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ phase: id, args }),
+    });
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      out.textContent += dec.decode(value, { stream: true });
+      out.scrollTop = out.scrollHeight;
+    }
+  } catch (err) {
+    out.textContent += "\n[fetch error] " + err.message + "\n";
+  }
+  phases.forEach((b) => (b.disabled = false));
+  $("btn-run-selected").disabled = false;
+  $("btn-stop").disabled = true;
+  loadStatus();
+  if (id === "runSessions" || id === "captureAnswers" || id === "evaluate" || id === "clean") loadCalls();
+}
+async function runSelected() {
+  const seq = selectedPhases();
+  if (!seq.length) return;
+  for (const id of seq) {
+    $("output").textContent = "";
+    await runPhase(id, argsFor(id));
+  }
+}
+
+/* ---------- config ---------- */
+let envDocs = {};
+let envValues = {};
+let envGroups = [];
+async function loadEnv() {
+  const r = await (await fetch("/api/env")).json();
+  envDocs = r.docs || {};
+  envValues = r.values || {};
+  envGroups = r.groups || [];
+  const tbody = $("env-table").querySelector("tbody");
+  tbody.innerHTML = "";
+  const known = new Set();
+  for (const g of envGroups) {
+    const present = g.keys.filter((k) => k in envValues).sort();
+    if (!present.length) continue;
+    for (const k of present) known.add(k);
+    const hr = document.createElement("tr");
+    hr.className = "env-group";
+    hr.innerHTML = `<td colspan="3"><b>${esc(g.header)}</b></td>`;
+    tbody.appendChild(hr);
+    for (const k of present) tbody.appendChild(envRow(k));
+  }
+  const other = Object.keys(envValues).filter((k) => !known.has(k)).sort();
+  if (other.length) {
+    const hr = document.createElement("tr");
+    hr.className = "env-group";
+    hr.innerHTML = `<td colspan="3"><b>Other</b></td>`;
+    tbody.appendChild(hr);
+    for (const k of other) tbody.appendChild(envRow(k));
+  }
+}
+function envRow(k) {
+  const isSecret = /(KEY|PASSWORD|SECRET|TOKEN)/i.test(k);
+  const tr = document.createElement("tr");
+  if (isSecret) tr.className = "secret";
+  tr.innerHTML = `
+    <td><b>${k}</b></td>
+    <td><input type="text" data-key="${k}" value="${esc(envValues[k])}" /></td>
+    <td>${envDocs[k] ? `<span class="i">i<span class="tip">${esc(envDocs[k])}</span></span>` : ""}</td>`;
+  return tr;
+}
+function esc(s) {
+  return String(s).replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+async function saveEnv() {
+  const values = {};
+  document.querySelectorAll("input[data-key]").forEach((inp) => (values[inp.dataset.key] = inp.value));
+  const r = await fetch("/api/env", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ values }) });
+  const ok = (await r.json()).ok;
+  $("env-status").textContent = ok ? "✓ saved" : "✗ failed";
+  setTimeout(() => ($("env-status").textContent = ""), 2500);
+}
+
+/* ---------- agents ---------- */
+async function loadAgents() {
+  $("btn-load-agents").disabled = true;
+  $("agents-status").textContent = "logging in & listing agents…";
+  try {
+    const r = await (await fetch("/api/agents")).json();
+    if (r.error) { $("agents-status").textContent = "✗ " + r.error; return; }
+    const list = r.agents || [];
+    fillAgentSelect($("agent-ar"), list, envValues.ZILLA_AGENT_ID_AR || "");
+    fillAgentSelect($("agent-en"), list, envValues.ZILLA_AGENT_ID_EN || "");
+    $("agents-status").textContent = `${list.length} agents · updated .env: ${r.updated ? "yes ✓" : "no"}`;
+  } catch (err) {
+    $("agents-status").textContent = "✗ " + err.message;
+  } finally {
+    $("btn-load-agents").disabled = false;
+  }
+}
+function fillAgentSelect(sel, list, currentId) {
+  sel.innerHTML = "";
+  const opts = [{ id: "", name: "(none)", language: "" }].concat(list);
+  for (const a of opts) {
+    const o = document.createElement("option");
+    o.value = a.id;
+    const lang = a.language ? ` [${a.language}]` : "";
+    o.textContent = a.name ? `${a.name}${lang} · ${a.id}` : a.id;
+    if (a.id === currentId) o.selected = true;
+    sel.appendChild(o);
+  }
+}
+function seedAgentSelects() {
+  if (!$("agent-ar").options.length) {
+    const cur = envValues.ZILLA_AGENT_ID_AR || "";
+    fillAgentSelect($("agent-ar"), [], cur);
+  }
+  if (!$("agent-en").options.length) {
+    const cur = envValues.ZILLA_AGENT_ID_EN || "";
+    fillAgentSelect($("agent-en"), [], cur);
+  }
+}
+async function saveAgents() {
+  const ar = $("agent-ar").value;
+  const en = $("agent-en").value;
+  if (!ar && !en) {
+    $("agents-status").textContent = "✗ pick an agent in the dropdowns first (Load agents), then Save.";
+    setTimeout(() => ($("agents-status").textContent = ""), 4000);
+    return;
+  }
+  try {
+    const values = { ZILLA_AGENT_ID_AR: ar, ZILLA_AGENT_ID_EN: en };
+    const r = await fetch("/api/env", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ values }) });
+    const ok = (await r.json()).ok;
+    if (!ok) throw new Error("server rejected save");
+    $("agents-status").textContent = "✓ saved AR=" + (ar || "—") + " EN=" + (en || "—");
+    setTimeout(() => ($("agents-status").textContent = ""), 3500);
+    loadEnv();
+  } catch (err) {
+    $("agents-status").textContent = "✗ " + err.message;
+  }
+}
+
+/* ---------- status ---------- */
+async function loadStatus() {
+  const s = await (await fetch("/api/status")).json();
+  const cards = $("cards");
+  cards.innerHTML = "";
+  const items = [
+    ["Questions", s.questions == null ? "—" : s.questions, langText(s.questionsByLang)],
+    ["Audio (wav)", s.wav],
+    ["Sessions", s.sessions == null ? "—" : s.sessions, langText(s.sessionsByLang)],
+    ["Last run", s.run ? `${s.run.passed}/${s.run.sessions} pass · ${(s.run.wallMs / 1000).toFixed(0)}s` : "—"],
+    ["Captured", s.captured ? `${s.captured.answered}/${s.captured.totalTurns} · avg ${s.captured.avgLatencyMs}ms` : "—"],
+    ["Eval (DeepEval)", s.eval ? s.eval.model : "not run yet", s.eval ? evalSummary(s.eval.summary) : ""],
+  ];
+  for (const [k, v, sub] of items) {
+    const c = document.createElement("div");
+    c.className = "card";
+    c.innerHTML = `<div class="k">${k}</div><div class="v">${v}${sub ? ` <small>${sub}</small>` : ""}</div>`;
+    cards.appendChild(c);
+  }
+  $("head-badge").textContent = `questions ${s.questions ?? 0} · sessions ${s.sessions ?? 0} · last run ${s.run ? s.run.passed + "/" + s.run.sessions + " pass" : "—"}`;
+}
+function langText(obj) {
+  if (!obj) return "";
+  return Object.entries(obj).map(([l, n]) => `${l}:${n}`).join(" · ");
+}
+function fileShort(f) { return f ? f.replace(/^.*-/, "").replace(".json", "") : ""; }
+function evalSummary(summary) {
+  if (!summary || !summary.overall) return "";
+  const o = summary.overall;
+  const parts = [];
+  if (o.relevancy) parts.push(`rel ${o.relevancy.pass_rate}%`);
+  if (o.faithfulness) parts.push(`faith ${o.faithfulness.pass_rate}%`);
+  if (o.correctness) parts.push(`corr ${o.correctness.pass_rate}%`);
+  return parts.join(" · ") + ` · ${o.records} scored`;
+}
+
+/* ---------- calls ---------- */
+let callsData = { sessions: [] };
+let callsLang = "ar";
+let openSessionId = null;
+
+async function loadCalls() {
+  const data = await (await fetch("/api/calls")).json();
+  callsData = data;
+  const meta = $("calls-meta");
+  const box = $("calls");
+  box.innerHTML = "";
+  if (!data.run) {
+    meta.textContent = "";
+    box.innerHTML = '<div class="empty">No run yet — run the sessions phase first.</div>';
+    return;
+  }
+  document.querySelectorAll(".calls-tabs .tab").forEach((b) =>
+    b.classList.toggle("active", b.dataset.lang === callsLang)
+  );
+  const byLang = groupByLang(data.sessions);
+  const list = byLang[callsLang] || [];
+  meta.textContent = `Run ${data.run.file} · ${data.run.passed}/${data.run.sessions} pass · captured ${data.capturedFile || "—"} · eval ${data.evalFile || "—"} · ${list.length} session(s)`;
+  renderSessionList(list);
+}
+
+function groupByLang(sessions) {
+  const out = { ar: [], en: [] };
+  for (const s of sessions) {
+    const l = (s.language || "").toLowerCase() === "ar" ? "ar" : "en";
+    out[l].push(s);
+  }
+  return out;
+}
+
+function renderSessionList(sessions) {
+  const box = $("calls");
+  box.innerHTML = "";
+  if (!sessions.length) {
+    box.innerHTML = '<div class="empty">No calls for this language.</div>';
+    return;
+  }
+  for (const s of sessions) {
+    const row = document.createElement("div");
+    row.className = "session-row" + (openSessionId === s.session_id ? " open" : "");
+    const avgMs = s.latencyMs && s.latencyMs.avg != null ? s.latencyMs.avg : "—";
+    const link = s.callUrl ? `<a href="${s.call_url || s.callUrl}" target="_blank" onclick="event.stopPropagation()">open call ↗</a>` : "";
+    // session-level metric averages across its turns
+    const acc = {};
+    for (const t of s.turns || [])
+      for (const [k, m] of Object.entries(t.metrics || {}))
+        if (m && m.score != null) (acc[k] ??= []).push(m.score);
+    const avgPills = Object.entries(acc)
+      .map(([k, arr]) => {
+        const a = arr.reduce((x, y) => x + y, 0) / arr.length;
+        return `<span class="metric ${a >= 0.5 ? "pass" : "fail"}">avg ${k} <span class="sc">${a.toFixed(2)}</span></span>`;
+      })
+      .join(" ");
+    row.innerHTML = `
+      <span class="chev">▶</span>
+      <span class="sid">${s.session_id}</span>
+      <span class="pill ${s.passed ? "pass" : "fail"}">${s.passed ? "PASS" : "FAIL"}</span>
+      ${avgPills}
+      <span class="pill muted">${s.replies || 0}/${s.turns || 0} replies</span>
+      <span class="pill muted">avg ${avgMs}ms</span>
+      <span class="pill muted">transcript ${s.transcriptMatch || "?"}</span>
+      ${link}`;
+    const conv = document.createElement("div");
+    conv.className = "session-conv";
+    row.addEventListener("click", async () => {
+      if (openSessionId === s.session_id) {
+        openSessionId = null;
+        row.classList.remove("open");
+        conv.innerHTML = "";
+        return;
+      }
+      openSessionId = s.session_id;
+      row.classList.add("open");
+      conv.innerHTML = "";
+      await animateSession(s, conv);
+    });
+    box.appendChild(row);
+    box.appendChild(conv);
+  }
+}
+
+function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
+async function animateSession(s, conv) {
+  if (!s.turns || !s.turns.length) {
+    conv.innerHTML = '<div class="empty">no captured turns</div>';
+    return;
+  }
+  for (const t of s.turns) {
+    const qBubble = document.createElement("div");
+    qBubble.className = "bubble cust";
+    qBubble.innerHTML = `<div class="who">Customer · ${t.question_id}</div>${esc(t.question)}`;
+    conv.appendChild(qBubble);
+    await sleep(650);
+
+    const typing = document.createElement("div");
+    typing.className = "typing";
+    typing.innerHTML = "<span></span><span></span><span></span>";
+    conv.appendChild(typing);
+    await sleep(900 + Math.random() * 700);
+
+    typing.remove();
+    const aBubble = document.createElement("div");
+    aBubble.className = "bubble agent" + (t.responded === false ? " no-reply" : "");
+    const answerText = t.responded === false
+      ? `<span style="color:#e74c3c;font-weight:600;">NO REPLY</span> — Ziila did not answer this question`
+      : esc(t.zilla_answer || "(no answer)");
+    aBubble.innerHTML = `<div class="who">Zilla agent</div>${answerText}`;
+    conv.appendChild(aBubble);
+
+    const meta = document.createElement("div");
+    meta.className = "turn-meta";
+    let chips = "";
+    if (t.latency_ms != null) chips += `<span class="pill muted">⏱ ${t.latency_ms}ms</span>`;
+    if (t.call_url) chips += `<a href="${t.call_url}" target="_blank">open call ↗</a>`;
+    if (t.metrics) {
+      for (const [name, m] of Object.entries(t.metrics)) {
+        const cls = m.pass ? "pass" : m.score == null ? "na" : "fail";
+        chips += `<span class="metric ${cls}" title="${esc(m.reason || "")}">${name} <span class="sc">${m.score == null ? "—" : m.score.toFixed(2)}</span>${m.pass ? " ✓" : " ✗"}</span>`;
+      }
+    } else if (t.evalError) {
+      chips += `<span class="metric na" title="${esc(t.evalError)}">eval error</span>`;
+    } else {
+      chips += `<span class="metric na">eval not run</span>`;
+    }
+    meta.innerHTML = chips;
+    conv.appendChild(meta);
+    if (t.metrics) {
+      const rs = Object.entries(t.metrics)
+        .filter(([, m]) => m && m.reason)
+        .map(([k, m]) => `<div class="r" title="${esc(m.reason)}"><b>${k}:</b> ${esc(m.reason)}</div>`)
+        .join("");
+      if (rs) {
+        const rbox = document.createElement("div");
+        rbox.className = "reasons";
+        rbox.innerHTML = rs;
+        conv.appendChild(rbox);
+      }
+    }
+    await sleep(350);
+  }
+}
+
+/* ---------- init ---------- */
+$("btn-run-selected").addEventListener("click", runSelected);
+$("btn-clear-output").addEventListener("click", () => ($("output").textContent = ""));
+$("btn-stop").addEventListener("click", async () => {
+  try {
+    const r = await fetch("/api/stop", { method: "POST" });
+    const j = await r.json();
+    $("output").textContent += `\n[stop requested — ${j.stopped} process(es) killed]\n`;
+  } catch (e) {
+    $("output").textContent += "\n[stop failed] " + e.message + "\n";
+  }
+});
+$("btn-save-env").addEventListener("click", saveEnv);
+$("btn-reload-env").addEventListener("click", loadEnv);
+$("btn-load-agents").addEventListener("click", loadAgents);
+$("btn-save-agents").addEventListener("click", saveAgents);
+document.querySelectorAll(".calls-tabs .tab").forEach((b) =>
+  b.addEventListener("click", () => {
+    callsLang = b.dataset.lang;
+    openSessionId = null;
+    loadCalls();
+  })
+);
+$("btn-clean-preview").addEventListener("click", () => {
+  runPhase("clean", ["--dry", "--from", $("clean-from").value]);
+});
+$("btn-clean-delete").addEventListener("click", () => {
+  const n = $("clean-from").value;
+  if (!confirm(`Delete outputs of phases ${n}..8? This cannot be undone.`)) return;
+  runPhase("clean", ["--from", n]);
+});
+$("btn-import").addEventListener("click", async () => {
+  const topic = $("import-topic").value.trim();
+  const sub_topic = $("import-subtopic").value.trim();
+  const file = $("import-file").files[0];
+  const status = $("import-status");
+  if (!topic || !sub_topic || !file) { status.textContent = "Fill topic + sub_topic + pick a JSON file"; status.style.color = "#e74c3c"; return; }
+  status.textContent = "Reading file...";
+  status.style.color = "var(--muted)";
+  try {
+    const text = await file.text();
+    const json = JSON.parse(text);
+    const payload = { topic, sub_topic };
+    if (Array.isArray(json)) { payload.data = json; }
+    else { payload.questions = json.questions || json; payload.chunks = json.chunks || []; }
+    status.textContent = "Validating & importing...";
+    const res = await fetch("/api/import", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
+    const r = await res.json();
+    if (r.error) { status.textContent = "❌ " + r.error + (r.issues?.length ? " — " + r.issues.slice(0, 3).join("; ") : ""); status.style.color = "#e74c3c"; return; }
+    status.textContent = `✅ Imported ${r.questions} questions + ${r.chunks} chunks → ${topic}/${sub_topic}`;
+    status.style.color = "#27ae60";
+  } catch (e) { status.textContent = "❌ " + e.message; status.style.color = "#e74c3c"; }
+});
+/* ---------- session runner ---------- */
+let sessionFiles = {};
+let srRunning = false;
+let srMode = "ws"; // "ws" or "ui"
+
+async function loadSessionFiles() {
+  try {
+    const r = await (await fetch("/api/session-files")).json();
+    sessionFiles = r.topics || {};
+    const topicSel = $("sr-topic");
+    topicSel.innerHTML = '<option value="">(select topic)</option>';
+    for (const topic of Object.keys(sessionFiles)) {
+      const o = document.createElement("option");
+      o.value = topic;
+      o.textContent = topic;
+      topicSel.appendChild(o);
+    }
+    updateSrSubtopics();
+  } catch (e) {
+    console.error("loadSessionFiles:", e);
+  }
+}
+
+function updateSrSubtopics() {
+  const topic = $("sr-topic").value;
+  const subSel = $("sr-subtopic");
+  subSel.innerHTML = '<option value="">(select sub-topic)</option>';
+  if (!topic || !sessionFiles[topic]) return;
+  for (const f of sessionFiles[topic]) {
+    const o = document.createElement("option");
+    o.value = f.file;
+    o.textContent = `${f.name} — ${f.totalSessions} sessions (${f.arSessions} ar + ${f.enSessions} en), ${f.totalQuestions} questions`;
+    subSel.appendChild(o);
+  }
+  updateSrInfo();
+}
+
+function updateSrInfo() {
+  const file = $("sr-subtopic").value;
+  const lang = $("sr-lang").value;
+  const concAr = parseInt($("sr-concurrent-ar").value) || 1;
+  const concEn = parseInt($("sr-concurrent-en").value) || 1;
+  const info = $("sr-info");
+  if (!file) { info.textContent = "Select a sub-topic to see details."; return; }
+  const topic = $("sr-topic").value;
+  const f = sessionFiles[topic]?.find((x) => x.file === file);
+  if (!f) return;
+  const totalAr = parseInt($("sr-total-ar").value) || 0;
+  const totalEn = parseInt($("sr-total-en").value) || 0;
+  let arCount = totalAr > 0 ? Math.min(totalAr, f.arSessions) : f.arSessions;
+  let enCount = totalEn > 0 ? Math.min(totalEn, f.enSessions) : f.enSessions;
+  if (lang === "ar") { enCount = 0; }
+  else if (lang === "en") { arCount = 0; }
+  const total = arCount + enCount;
+  const batches = Math.max(Math.ceil(arCount / concAr), Math.ceil(enCount / concEn));
+  const modeLabel = srMode === "ws" ? "Direct WebSocket" : "Browser (CallRunner)";
+  info.textContent = `${modeLabel} — ${total} calls (AR:${arCount} conc:${concAr} + EN:${enCount} conc:${concEn}) — ~${batches} batch(es) — ~${total * 10} questions`;
+}
+
+async function runSessionRunner() {
+  const file = $("sr-subtopic").value;
+  if (!file) { $("sr-status").textContent = "Pick a sub-topic first"; return; }
+  srRunning = true;
+  $("sr-run").disabled = true;
+  $("sr-stop").disabled = false;
+  $("sr-status").textContent = "Starting...";
+  $("sr-output").textContent = "";
+  try {
+    const res = await fetch("/api/run-sessions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        file,
+        lang: $("sr-lang").value,
+        totalAr: $("sr-total-ar").value,
+        totalEn: $("sr-total-en").value,
+        concurrentAr: $("sr-concurrent-ar").value,
+        concurrentEn: $("sr-concurrent-en").value,
+        mode: srMode,
+        autoToken: $("sr-auto-token").checked,
+      }),
+    });
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      $("sr-output").textContent += dec.decode(value, { stream: true });
+      $("sr-output").scrollTop = $("sr-output").scrollHeight;
+    }
+    $("sr-status").textContent = "Done ✓";
+    loadStatus();
+    loadCalls();
+  } catch (err) {
+    $("sr-status").textContent = "Error: " + err.message;
+  } finally {
+    srRunning = false;
+    $("sr-run").disabled = false;
+    $("sr-stop").disabled = true;
+  }
+}
+
+async function stopSessionRunner() {
+  try {
+    const r = await fetch("/api/stop", { method: "POST" });
+    const j = await r.json();
+    $("sr-output").textContent += `\n[stop — ${j.stopped} process(es) killed]\n`;
+    $("sr-status").textContent = "Stopped";
+  } catch (e) {
+    $("sr-status").textContent = "Stop failed: " + e.message;
+  }
+}
+
+document.querySelectorAll(".sr-mode").forEach((btn) => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".sr-mode").forEach((b) => b.classList.remove("active"));
+    btn.classList.add("active");
+    srMode = btn.dataset.mode;
+    updateSrInfo();
+  });
+});
+$("sr-topic").addEventListener("change", updateSrSubtopics);
+$("sr-subtopic").addEventListener("change", updateSrInfo);
+$("sr-lang").addEventListener("change", updateSrInfo);
+$("sr-total-ar").addEventListener("input", updateSrInfo);
+$("sr-total-en").addEventListener("input", updateSrInfo);
+$("sr-concurrent-ar").addEventListener("input", updateSrInfo);
+$("sr-concurrent-en").addEventListener("input", updateSrInfo);
+$("sr-run").addEventListener("click", runSessionRunner);
+$("sr-stop").addEventListener("click", stopSessionRunner);
+
+// --- Build Sessions panel ----------------------------------------------------
+let questionFiles = {};
+
+async function loadQuestionFiles() {
+  try {
+    const r = await (await fetch("/api/question-files")).json();
+    questionFiles = r.topics || {};
+    const topicSel = $("bs-topic");
+    topicSel.innerHTML = '<option value="">(select topic)</option>';
+    for (const topic of Object.keys(questionFiles)) {
+      const o = document.createElement("option");
+      o.value = topic;
+      o.textContent = `${topic} — ${questionFiles[topic].reduce((a, f) => a + f.totalQuestions, 0)} questions`;
+      topicSel.appendChild(o);
+    }
+    updateBsSubtopics();
+  } catch (e) {
+    console.error("loadQuestionFiles:", e);
+  }
+}
+
+function updateBsSubtopics() {
+  const topic = $("bs-topic").value;
+  const subSel = $("bs-subtopic");
+  subSel.innerHTML = '<option value="">(all sub-topics)</option>';
+  if (topic && questionFiles[topic]) {
+    for (const f of questionFiles[topic]) {
+      const o = document.createElement("option");
+      o.value = f.name;
+      o.textContent = `${f.name} — ${f.totalQuestions} questions (${f.arQuestions} ar + ${f.enQuestions} en)`;
+      subSel.appendChild(o);
+    }
+  }
+  updateBsInfo();
+}
+
+function updateBsInfo() {
+  const topic = $("bs-topic").value;
+  const info = $("bs-info");
+  if (!topic) { info.textContent = "Select a topic to estimate sessions."; return; }
+  const subtopic = $("bs-subtopic").value;
+  const size = parseInt($("bs-size").value) || 10;
+  let ar = 0, en = 0;
+  const files = subtopic
+    ? (questionFiles[topic] || []).filter((f) => f.name === subtopic)
+    : (questionFiles[topic] || []);
+  for (const f of files) { ar += f.arQuestions; en += f.enQuestions; }
+  const arCap = parseInt($("bs-ar-sessions").value) || 0;
+  const enCap = parseInt($("bs-en-sessions").value) || 0;
+  const estAr = arCap > 0 ? Math.min(arCap, Math.ceil(ar / size)) : Math.ceil(ar / size);
+  const estEn = enCap > 0 ? Math.min(enCap, Math.ceil(en / size)) : Math.ceil(en / size);
+  info.textContent = `Source: ${files.length} sub-topic(s), ${ar} ar + ${en} en questions @ ${size}/session → ~${estAr} ar + ${estEn} en sessions (${estAr + estEn} total)`;
+}
+
+async function runBuildSessions() {
+  const topic = $("bs-topic").value;
+  if (!topic) { $("bs-status").textContent = "Pick a topic first"; return; }
+  $("bs-build").disabled = true;
+  $("bs-status").textContent = "Building...";
+  $("bs-output").textContent = "";
+  try {
+    const res = await fetch("/api/build-sessions", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        topic,
+        subtopic: $("bs-subtopic").value,
+        size: $("bs-size").value,
+        arSessions: $("bs-ar-sessions").value,
+        enSessions: $("bs-en-sessions").value,
+        seed: $("bs-seed").value,
+      }),
+    });
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      $("bs-output").textContent += dec.decode(value, { stream: true });
+      $("bs-output").scrollTop = $("bs-output").scrollHeight;
+    }
+    $("bs-status").textContent = "Done ✓";
+    await loadSessionFiles(); // refresh Session Runner dropdowns with the new files
+  } catch (err) {
+    $("bs-status").textContent = "Error: " + err.message;
+  } finally {
+    $("bs-build").disabled = false;
+  }
+}
+
+$("bs-topic").addEventListener("change", updateBsSubtopics);
+$("bs-subtopic").addEventListener("change", updateBsInfo);
+$("bs-size").addEventListener("input", updateBsInfo);
+$("bs-ar-sessions").addEventListener("input", updateBsInfo);
+$("bs-en-sessions").addEventListener("input", updateBsInfo);
+$("bs-build").addEventListener("click", runBuildSessions);
+loadQuestionFiles();
+
+renderPhases();
+loadEnv();
+seedAgentSelects();
+loadStatus();
+loadCalls();
+loadAgents();
+loadSessionFiles();
+</script>
+</body>
+</html>

@@ -1,0 +1,426 @@
+[
+  {
+    "id": "chunk_001",
+    "text": "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+  },
+  {
+    "id": "chunk_002",
+    "text": "الحد الادنى لمدة الخدمة لجميع القطاعات (بدون تحويل راتب): ستة أشهر للموظفين المشتركين في الضمان الاجتماعي. أصحاب المهن والأعمال الحرة: داخل أمانة عمان سنة، وخارج أمانة عمان سنتين. المغتربين: سنتين."
+  },
+  {
+    "id": "chunk_003",
+    "text": "الحد الادنى للدخل (بدون تحويل راتب): للرواتب بشكل (450) دينار، للمهنيين وأصحاب الأعمال الحرة (1,000) دينار، المغتربين (2,000) دينار."
+  },
+  {
+    "id": "chunk_004",
+    "text": "الحد الادنى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (7,500) دينار."
+  },
+  {
+    "id": "chunk_005",
+    "text": "الحد الاعلى لمبلغ القرض لجميع نسب التمويل (بدون تحويل راتب): (150,000) دينار للسيارة الواحدة وبعدد سيارات لا يتجاوز 3 سيارات في مجموع اجمالي (200,000) دينار."
+  },
+  {
+    "id": "chunk_006",
+    "text": "الحد الادنى لسعر السيارة (بدون تحويل راتب): (10,000) دينار."
+  },
+  {
+    "id": "chunk_007",
+    "text": "الحد الادنى لمدة التمويل (بدون تحويل راتب): (12) شهر."
+  },
+  {
+    "id": "chunk_008",
+    "text": "الحد الاعلى لمدة التمويل (بدون تحويل راتب): (8) سنوات."
+  },
+  {
+    "id": "chunk_009",
+    "text": "عبء الدين (بدون تحويل راتب): (50%) و(65%) في حال وجود بطاقة ائتمانية."
+  },
+  {
+    "id": "chunk_010",
+    "text": "المستندات المطلوبة للعميل (بدون تحويل راتب): إثبات الشخصية سارية المفعول. وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارات خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+  },
+  {
+    "id": "chunk_011",
+    "text": "المستندات المطلوبة للسيارة (بدون تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). عن رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك."
+  },
+  {
+    "id": "chunk_012",
+    "text": "(الفحص الفني) تخمين السيارة (بدون تحويل راتب): السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+  },
+  {
+    "id": "chunk_013",
+    "text": "الضمانات (بدون تحويل راتب): رهن السيارة بقيمة تساوي 100% من قيمة القرض. يجب تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهن السيارة من الدرجة الأولى لصالح البنك وحده. يجب تقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين وكتاب الرهن وحفظها في ملف العميل."
+  },
+  {
+    "id": "chunk_014",
+    "text": "أمر الدفع قيمة السيارة (بدون تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض."
+  },
+  {
+    "id": "chunk_015",
+    "text": "عمولة إعادة الهيكلة (بدون تحويل راتب): 5 دنانير. فترة السماح: تصل لغاية 45 يوم في حال توقيع العقد بعد 15 الشهر."
+  },
+  {
+    "id": "chunk_016",
+    "text": "عمولة السداد المبكر (بدون تحويل راتب): (1%) في حال بقي أكثر من سنة على انتهاء القرض و(0%) في حال تبقى أقل من سنة على انتهاء القرض."
+  },
+  {
+    "id": "chunk_017",
+    "text": "التأمين على الحياة (بدون تحويل راتب): الموافقة التلقائية ضمن بوليصة التأمين الجماعية شريطة: العملاء اللذين أعمارهم 65 سنة فاقل. مبلغ القرض اقل او يساوي من 100,000 دينار."
+  },
+  {
+    "id": "chunk_018",
+    "text": "تأجيل الدفعات (بدون تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط. صلاحية الموافقة 45 يوم."
+  },
+  {
+    "id": "chunk_019",
+    "text": "آلية تمويل السيارات الصينية (بدون تحويل راتب): جميع السيارات الصينية التي لها وكيل رسمي معتمد بالأردن و بنفس الشروط لباقي السيارات."
+  },
+  {
+    "id": "chunk_020",
+    "text": "الوكالات الصينية المعتمدة: مجموعة غرغور (Skywell). مجموعة غرغور (XPeng). شركة الاتحاد لتزويد المعدات (Maxus). صقر صقر لبناني الجنسية (IM Motors). شركة هارلم لتجارة السيارات (Jetour). الشركة المركزية للتجارة والمركبات (Chery). شركة أكاماس لتجارة السيارات (Hongqi). شاهين (MG). شاهين (HOGQI). شركة نهج المنار (GWM – HAVAL). الشركة العصرية وكيلها طهبوب (NETA). الشركة العصرية وكيلها طهبوب (BESTUNE). حلول التنقل وكيلها بسطامي وصاحب (BYD). عليان (GAC). وكالات الصينية التابعة لمجموعة العبيدي و سيارات المستقبل (BYD). شركة الوصل لتجارة السيارات (Geely)."
+  },
+  {
+    "id": "chunk_021",
+    "text": "نسبة التمويل 80% من المعارض المعتمدة التالية: معرض الشريف /معرض القلم /معرض نهار بغداد /معرض بورصة السيارات كلاسيك كار/ معرض بريستيج/ معرض الرائد /معرض ريمون حنانيا / معرض سيارتي /معرض كركر/معرض شادي فريج/معرض الرائع/ معرض Auto house /الطريق الابيض /معرض رويال /معرض عماد المغيرة / معرض بركات العواملة/ معرض ليث جريسات/ معرض مالك بني عمر/ معرض الجيلاوي/ معرض شعيبث /معرض البلورة/ معرض ابو ايمن القمة/ معرض البستنجي معرض استانبولي/معرض معتز جريسات /معرض المدينة الذكية /معارض العبيدي / معرض ابو هيكل/ معرض الهدف/ معرض مقبل/ معرض سيارتك/ معرض الصقر/معرض الخبراء/معرض العقاب /معرض الياقوت/ معرض اميغوز/ معرض العساف /معرض الحدائق/ معرض نمبر ون/ معرض الامين/معرض اوتومول/معرض محمد غريب/ معرض بيبلوسالعصرية لتجارة السيارات/ معرض العلامة الذهيبة /معرض كاكوري/ معرض اوتوكارمعرض نادر غيث/ معرض بوابة السابع/ معرض علي خريسات/ معرض غسان العبيديمعرض قطيشات/ معرض شركة سيارات المستقبل/ معرض بلال ابو الشيح /معرض ليث و قصيمعرض البخيت/ معرض الديك/ معرض عدوان الصالح /معرض محمد العسافمعرض الجدي/معرض بسمان/ معرض جوهرة البخيت/ معرض الحسينيمعرض حيدر /معرض العطيوي/ معرض ابو ناصر/ معرض رزان."
+  },
+  {
+    "id": "chunk_022",
+    "text": "لفئة 2: مع تحويل راتب - الجزء 1: قرض سيارة مع تحويل راتب بشكل عام - عمر العميل: العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة. أصحاب المهن، الأعمال الحرة، والمغتربون: العمر عند المنح: من 24 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+  },
+  {
+    "id": "chunk_023",
+    "text": "الراتب الصافي (مع تحويل راتب): المغتربين (2000) دينار. أصحاب الأعمال الحرة (1000) دينار. جميع القطاعات، رواتب غير محولة (600) دينار. جميع القطاعات، رواتب محولة (450) دينار. موظفين البنك المركزي و ال سيتي بانك (450) دينار. موظفين البنوك الأخرى (1000) دينار."
+  },
+  {
+    "id": "chunk_024",
+    "text": "عبء الدين (مع تحويل راتب): للرواتب اقل او تساوي من 2,500 دينار: 55% للقرض فقط بالإضافة الى 5% للبطاقة لاصحاب الدخل اقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة الى 10% للبطاقة لاصحاب الدخل اعلى من 2500 دينار. عبء الدين مديون وكفيل: 70%."
+  },
+  {
+    "id": "chunk_025",
+    "text": "مدة القرض (مع تحويل راتب): بشكل عام: 12 – 96 شهر."
+  },
+  {
+    "id": "chunk_026",
+    "text": "الحد الادنى لمبلغ القرض بالدينار (مع تحويل راتب): 7,500 دينار. الحد الأقصى لمبلغ القرض بالدينار: 100,000 دينار. الحد الأدنى لسعر السيارة: 10,000 دينار."
+  },
+  {
+    "id": "chunk_027",
+    "text": "عمولة المنح (مع تحويل راتب): 1%. عمولة إعادة هيكلة: 5 دنانير."
+  },
+  {
+    "id": "chunk_028",
+    "text": "عمر السيارة (مع تحويل راتب): لا يزيد عن 14 سنة."
+  },
+  {
+    "id": "chunk_029",
+    "text": "نسبة التمويل (مع تحويل راتب): 100% عند تحويل الراتب و80% بدون تحويل و جميع القطاعات الأخرى. تحويل راتب: نعم الا للمهنين. خضوع العميل بالضمان الاجتماعي (نعم/لا): نعم الا للمهنين."
+  },
+  {
+    "id": "chunk_030",
+    "text": "شروط التمويل قرض السيارات بشكل عام (مع تحويل راتب) - (الفحص الفني) تخمين السيارة: السيارات الجديدة: يجب تقديم عرض سعر من التاجر لجميع السيارات (السيارات عداد صفر يطلب عرض سعر فقط وليس فحص تخمين شريطة تزويدنا بكتاب كفالة من الوكالة وعمر السيارة لا يتجاوز 3 سنوات) وفي حال لم تكن وارد وكالة الاكتفاء بفحص وتخمين من المخمنين المعتمدين. السيارات الجديدة من الوكالة: الاكتفاء بعرض سعر من الوكالة. السيارات المستعملة: كتاب فحص (3 جيد) من مراكز الفحص المعتمدة للبنك يبين قيمة السيارة وحالتها. وكالات السيارات: سيتم الاكتفاء بعرض السعر المقدم من الوكالة للسيارات الجديدة و في حال كانت مستعملة (Pre-owned) لا يزيد عمرها عن 3 سنوات شريطة ان تكون من نفس الوكالة، وغير ذلك يتم فحص و تخمين السيارة من المخمنين المعتمدين."
+  },
+  {
+    "id": "chunk_031",
+    "text": "عدد السيارات الممولة (مع تحويل راتب): امكانية تمويل العميل بحد اقصى 200,000 دينار وبحسب نسبة الالتزام وبحد اقصى 3 سيارات قروض قائمة."
+  },
+  {
+    "id": "chunk_032",
+    "text": "الضمانات (مع تحويل راتب): رهن السيارة بقيمة تساوي 100% من قيمة القرض. يجب تسجيل وترخيص السيارة لدى دائرة ترخيص المركبات ورهن السيارة من الدرجة الأولى لصالح البنك وحده. يجب تقديم صورة عن رخصة السيارة بعد تسجيلها باسم المدين وكتاب الرهن وحفظها في ملف العميل."
+  },
+  {
+    "id": "chunk_033",
+    "text": "تأمين المركبة (مع تحويل راتب): تأمين السيارة شامل بما لا يقل عن قيمة القرض للسنة الأولى فقط."
+  },
+  {
+    "id": "chunk_034",
+    "text": "أمر الدفع قيمة السيارة (مع تحويل راتب): أمر الدفع بقيمة القرض سيتم إصداره باسم التاجر بائع السيارة فقط، أو سيتم تحويله الى حساب البائع في حال كان عميل بنك اتحاد. في جميع الأحوال لا يمكن قيد قيمة القرض إلى حساب العميل المقترض."
+  },
+  {
+    "id": "chunk_035",
+    "text": "رسوم التأمين (مع تحويل راتب): تأمين على حياة المدين: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض اقل من 100,000 دينار. حسب مبلغ القرض: اقل من 20,000 دينار: 75 دينار. من 20,000 - 50,000 دينار: 150 دينار. أكبر من 50,000 دينار: 250 دينار."
+  },
+  {
+    "id": "chunk_036",
+    "text": "المقيمين الغير أردنيين (مع تحويل راتب): يتم منح الجنسيات التالية: العراقية والفلسطينيين على ان يتم معاملتهم نفس معاملة الأردنيين."
+  },
+  {
+    "id": "chunk_037",
+    "text": "السيارات التي يتم تمويلها (مع تحويل راتب): السيارات ذات التسجيل الخصوصي فقط."
+  },
+  {
+    "id": "chunk_038",
+    "text": "مزايا إضافية (مع تحويل راتب): تقديم طرق السداد الإضافية التالية لجميع أنواع سيارات الوكالة والسيارات بكفالة الوكالة: دفعات ربع سنوية، نصف سنوية وسنوية. شريطة: 1. تقديم ما يثبت المقدرة على السداد في تاريخ استحقاق الدفعة. 2. مدة التمويل لغاية 4 سنوات فقط."
+  },
+  {
+    "id": "chunk_039",
+    "text": "تأجيل الدفعات (مع تحويل راتب): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط."
+  },
+  {
+    "id": "chunk_040",
+    "text": "عمولة السداد المبكر (مع تحويل راتب): في حال بقي أكثر من سنة على انتهاء القرض 1%. في حال تبقى اقل من سنة على انتهاء القرض 0%."
+  },
+  {
+    "id": "chunk_041",
+    "text": "المستندات المطلوبة (مع تحويل راتب): صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول. وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية). شهادة راتب/قسيمة راتب أصلية لأخر ثلاث شهور وفي حال وجود أي حوافز يتم طلب قسيمة راتب لأخر 6 شهور (يجب ان تكون القسائم مختومة او مروسة جهة العمل). صورة عن عقد العمل لموظفي العقود. كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول. القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الاجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب الينا. تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك. كشف الضمان الاجتماعي للعملاء اللذين مدة عملهم اقل من سنة للشركات باستثناء موظفي القطاع العام. رخصة المركبة او بيان جمركي او عرض سعر من الوكالة. عقد بيع او عرض سعر. فحص و تخمين للسيارة خارج الوكالة (يتم الاعتماد على السياسة من ناحية طلب الفحص و التخمين)."
+  },
+  {
+    "id": "chunk_042",
+    "text": "المهنيين (مع تحويل راتب): صورة عن رخصة المهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 شهور. صورة عن السجل التجاري. صورة طبق الأصل عن عضوية النقابة إن وجدت. كشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة او الشركة."
+  },
+  {
+    "id": "chunk_043",
+    "text": "مستندات السيارة (مع تحويل راتب): كتاب فحص وتخمين السيارة للسيارات المستعملة أو عرض سعر للسيارات الجديدة (الوكالة). رخصة السيارة تحمل اسم البائع. بعد الموافقة: رخصة السيارة مؤشر عليها بالرهن وكتاب رهن مختوم وبوليصة تامين شامل للسيارة ولصالح البنك."
+  },
+  {
+    "id": "chunk_044",
+    "text": "شروط تمويل السيارات الصينية (مع تحويل راتب): جميع السيارات الصينية التي لها وكيل حصري معتمد. يتم تمويل سيارات المنشأ الصيني وتحمل علامة تجارية عالمية غير صينية على سبيل المثال FORD, TOYOTA, VW بنفس شروط و ميزات السيارات غير الصينية. يتم تمويل السيارات التي تحمل علامة تجارية صينية من جميع المعارض شريطة وجود وكيل معتمد لها بالأردن وعداد صفر و حتى ان لم تكن مباعة من نفس الوكيل شريطة تزويدنا (فحص وتخمين + CARSEER). تمويل السيارات الصينية المستعملة شريطة ان لا يزيد عمرها 3 سنوات."
+  },
+  {
+    "id": "chunk_045",
+    "text": "الجزء 2: المهنيين والأعمال الحرة والمغتربين: الأطباء والمهندسين و والصيادلة، والمحاسبين، والمدققين القانونيين، والمستشارين و حاملوا الشهادات المالية الذين لديهم أعمال خاصة بهم. الحد الادنى لمدة الخدمة: سنتان."
+  },
+  {
+    "id": "chunk_046",
+    "text": "الجزء 3: الاجهزة الامنية و العسكرية: الأجهزة الأمنية والعسكرية قوات الدرك والأمن العام القوات المسلحة وسلاح الجو المخابرات العامة. الحد الادنى لمدة الخدمة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+  },
+  {
+    "id": "chunk_047",
+    "text": "الجزء 4: الشركات المعتمدة والغير معتمدة: تحويل راتب /جميع الوظائف للشركات المعتمدة + المنظمات التابعة UN. المدرسين في القطاع الخاص و جميع الوظائف للشركات غير المعتمدة + الفنادق + الهيئات والمنظمات الدولية + المبيعات. الحد الادنى لمدة الخدمة شركات المعتمدة مثبت: 3 شهور. الحد الادنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي: فور التقاعد مباشرة. الحد الادنى لمدة الخدمة شركات الغير معتمدة مثبت: 3 شهور بشريطة وجود خبرات سابقة لا تقل عن سنة و عدم وجود انقطاع بالضمان الاجتماعي اكثر من شهر بين اخر وظيفة و الوظيفة الحالية. الحد الادنى لمدة الخدمة للامم المتحدة: لا تقل عن سنة و ان يكون العميل مشترك في صندوق الادخار او ما شابه ذلك."
+  },
+  {
+    "id": "chunk_048",
+    "text": "الجزء 5: مع تحويل رواتب – قطاع عام: توفير التمويل اللازم للعملاء من الشرائح المستهدفة لامتلاك السيارات الجديدة أو المستعملة بما فيها السيارات الهايبرد و الكهرباء، للاستعمال الشخصي أو العائلي بما يتناسب مع احتياجاتهم ورغباتهم، وفقا للمعايير والشروط الواردة بالبرنامج المقترح. الحد الادنى لمدة الخدمة بنفس الشركة: (3) شهور، ينطبق معايير المنتج على الوظيفة."
+  },
+  {
+    "id": "chunk_049",
+    "text": "الجزء 6: حملة قروض سيارات مجموعة أبو خضر للسيارات: 1. البرنامج مع تحويل راتب نسبة التمويل لغاية 100%. 2. البرنامج بدون تحويل راتب نسبة التمويل لغاية 80%. سعر الفائدة 7.25%."
+  },
+  {
+    "id": "chunk_050",
+    "text": "مزايا إضافية (حملة أبو خضر): يتم تحمل الأقساط الشهرية للقرض من تاريخ المنح الى غاية تاريخ 1/1/2027 من قبل مجموعة أبو خضر للسيارات بشكل مقدم بالحساب. تتحمل الوكالة عن العميل من قسط شهري واحد و حتى الأقساط المستحقة لغاية 1/1/2027."
+  },
+  {
+    "id": "chunk_051",
+    "text": "فائدة القرض (حملة أبو خضر): تتحمل الوكالة الفائدة على مدة القرض او العميل."
+  },
+  {
+    "id": "chunk_052",
+    "text": "الية الخصم (حملة أبو خضر): يتم الحصول على كتاب تفويض من مجموعة أبو خضر لخصم مجموع الأقساط من حسابهم لدينا. يتم حجز المبلغ المقيد على حساب مجموعة أبو خضر لدينا في حساب تامينات فرعي لحساب العميل. يتم تفعيل امر تحويل دوري بقيمة القسط شهريا من حساب التامينات الى حاسب السداد."
+  },
+  {
+    "id": "chunk_053",
+    "text": "مدة الحملة لغاية 31/12/2026 (حملة أبو خضر)، مع بقاء كافة شروط المنتج كما هي."
+  },
+  {
+    "id": "chunk_001_en",
+    "text": "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+  },
+  {
+    "id": "chunk_002_en",
+    "text": "Minimum Length of Service for all sectors (without salary transfer): 6 months for employees subscribed to Social Security. Professionals and Self-Employed: 1 year inside Greater Amman Municipality, and 2 years outside Greater Amman Municipality. Expatriates: 2 years."
+  },
+  {
+    "id": "chunk_003_en",
+    "text": "Minimum Income (without salary transfer): Salaried Employees: 450 JOD. Professionals and Self-Employed: 1,000 JOD. Expatriates: 2,000 JOD."
+  },
+  {
+    "id": "chunk_004_en",
+    "text": "Minimum Loan Amount (without salary transfer): 7,500 JOD."
+  },
+  {
+    "id": "chunk_005_en",
+    "text": "Maximum Loan Amount for all financing ratios (without salary transfer): 150,000 JOD per single car, for a maximum of 3 cars totaling 200,000 JOD."
+  },
+  {
+    "id": "chunk_006_en",
+    "text": "Minimum Car Price (without salary transfer): 10,000 JOD."
+  },
+  {
+    "id": "chunk_007_en",
+    "text": "Minimum Financing Period (without salary transfer): 12 months."
+  },
+  {
+    "id": "chunk_008_en",
+    "text": "Maximum Financing Period (without salary transfer): 8 years."
+  },
+  {
+    "id": "chunk_009_en",
+    "text": "Debt Burden Ratio (DBR) (without salary transfer): 50%, and 65% in case of holding a credit card."
+  },
+  {
+    "id": "chunk_010_en",
+    "text": "Documents Required from the Customer (without salary transfer): Valid proof of identity. Valid residency document (for non-Jordanians) in addition to a valid passport. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+  },
+  {
+    "id": "chunk_011_en",
+    "text": "Documents Required for the Car (without salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank."
+  },
+  {
+    "id": "chunk_012_en",
+    "text": "(Technical Inspection) Car Valuation (without salary transfer): New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. For new cars from the dealership, a quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+  },
+  {
+    "id": "chunk_013_en",
+    "text": "Guarantees (without salary transfer): Mortgage on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank. A copy of the car registration must be provided after registering it in the debtor's name, along with the mortgage letter, to be kept in the customer's file."
+  },
+  {
+    "id": "chunk_014_en",
+    "text": "Payment Order for Car Value (without salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account."
+  },
+  {
+    "id": "chunk_015_en",
+    "text": "Restructuring Commission (without salary transfer): 5 JOD. Grace Period: Up to 45 days if the contract is signed after the 15th of the month."
+  },
+  {
+    "id": "chunk_016_en",
+    "text": "Early Settlement Commission (without salary transfer): (1%) if more than a year remains until the end of the loan, and (0%) if less than a year remains until the end of the loan."
+  },
+  {
+    "id": "chunk_017_en",
+    "text": "Life Insurance (without salary transfer): Automatic approval under the group insurance policy provided that: Customers are aged 65 or younger. The loan amount is less than or equal to 100,000 JOD."
+  },
+  {
+    "id": "chunk_018_en",
+    "text": "Postponement of Installments (without salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments. Approval validity is 45 days."
+  },
+  {
+    "id": "chunk_019_en",
+    "text": "Chinese Cars Financing Mechanism (without salary transfer): All Chinese cars that have an approved official agent in Jordan will follow the same conditions as other cars."
+  },
+  {
+    "id": "chunk_020_en",
+    "text": "Approved Chinese Dealerships: Gargour Group (Skywell). Gargour Group (XPeng). Union Equipment Supply Company (Maxus). Saqr Saqr - Lebanese Nationality (IM Motors). Harlem Auto Trade (Jetour). Central Trade and Auto Co. (Chery). Acamas Auto Trade (Hongqi). Shaheen (MG). Shaheen (HONGQI). Nahj Al Manar Co. (GWM – HAVAL). Modern Company - Tahboub (NETA). Modern Company - Tahboub (BESTUNE). Mobility Solutions - Bustami & Saheb (BYD). Olayan (GAC). Chinese dealerships under Al-Obaidi Group & Future Cars (BYD). Al Wasl Auto Trade (Geely)."
+  },
+  {
+    "id": "chunk_021_en",
+    "text": "Financing Ratio 80% from the following approved showrooms: Al-Sharif Showroom / Al-Qalam Showroom / Nahar Baghdad Showroom / Boursa Classic Car Showroom / Prestige Showroom / Al-Raed Showroom / Raymond Hanania Showroom / Sayarati Showroom / Karkar Showroom / Shadi Freij Showroom / Al-Rae' Showroom / Auto House Showroom / Al-Tariq Al-Abyad / Royal Showroom / Imad Al-Mughaira Showroom / Barakat Al-Awamleh Showroom / Laith Jreisat Showroom / Malek Bani Omar Showroom / Al-Jilawi Showroom / Shuwaibith Showroom / Al-Balloura Showroom / Abu Ayman Al-Qimma Showroom / Al-Bustanji Showroom / Istanbouli Showroom / Moataz Jreisat Showroom / Smart City Showroom / Al-Obaidi Showrooms / Abu Heikal Showroom / Al-Hadaf Showroom / Muqbil Showroom / Sayyartak Showroom / Al-Saqr Showroom / Al-Khubara' Showroom / Al-Iqab Showroom / Al-Yaqout Showroom / Amigos Showroom / Al-Assaf Showroom / Al-Hadaeq Showroom / Number One Showroom / Al-Amin Showroom / Automall Showroom / Mohammad Gharib Showroom / Byblos Showroom / Al-Asriyya Auto Trade / Al-Alama Al-Dhahabiyya Showroom / Kakouri Showroom / Autocar Showroom / Nader Ghaith Showroom / 7th Gate Showroom / Ali Khreisat Showroom / Ghassan Al-Obaidi Showroom / Qteishat Showroom / Future Cars Co. Showroom / Bilal Abu Al-Sheeh Showroom / Laith & Qusai Showroom / Al-Bakhit Showroom / Al-Deek Showroom / Adwan Al-Saleh Showroom / Mohammad Al-Assaf Showroom / Al-Jidi Showroom / Basman Showroom / Jawharat Al-Bakhit Showroom / Al-Husseini Showroom / Haidar Showroom / Al-Oteiwi Showroom / Abu Naser Showroom / Razan Showroom."
+  },
+  {
+    "id": "chunk_022_en",
+    "text": "Category 2: With Salary Transfer - Part 1: Auto Loan with Salary Transfer in general - Customer Age: Age at granting for salaried employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years. Professionals, Self-Employed, and Expatriates: Age at granting: From 24 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+  },
+  {
+    "id": "chunk_023_en",
+    "text": "Net Salary (with salary transfer): Expatriates: 2,000 JOD. Self-Employed: 1,000 JOD. All sectors, un-transferred salaries: 600 JOD. All sectors, transferred salaries: 450 JOD. Central Bank and Citi Bank employees: 450 JOD. Other banks' employees: 1,000 JOD."
+  },
+  {
+    "id": "chunk_024_en",
+    "text": "Debt Burden (with salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, plus 5% for the card for incomes below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, plus 10% for the card for incomes above 2,500 JOD. Debt Burden (Debtor and Guarantor): 70%."
+  },
+  {
+    "id": "chunk_025_en",
+    "text": "Loan Period (with salary transfer): In general: 12 – 96 months."
+  },
+  {
+    "id": "chunk_026_en",
+    "text": "Minimum Loan Amount in JOD (with salary transfer): 7,500 JOD. Maximum Loan Amount in JOD: 100,000 JOD. Minimum Car Price: 10,000 JOD."
+  },
+  {
+    "id": "chunk_027_en",
+    "text": "Granting Commission (with salary transfer): 1%. Restructuring Commission: 5 JOD."
+  },
+  {
+    "id": "chunk_028_en",
+    "text": "Car Age (with salary transfer): Not exceeding 14 years."
+  },
+  {
+    "id": "chunk_029_en",
+    "text": "Financing Ratio (with salary transfer): 100% with salary transfer, and 80% without transfer and all other sectors. Salary Transfer: Yes, except for professionals. Customer Subscribed to Social Security (Yes/No): Yes, except for professionals."
+  },
+  {
+    "id": "chunk_030_en",
+    "text": "Financing Terms - Auto Loans in General (with salary transfer) - (Technical Inspection) Car Valuation: New Cars: A quotation from the dealer must be submitted for all cars (For zero-mileage cars, only a quotation is required without an inspection/valuation, provided we are supplied with a warranty letter from the dealership and the car's age does not exceed 3 years). If not imported through an official dealership, an inspection and valuation from approved valuers will suffice. New Cars from the Dealership: A quotation from the dealership is sufficient. Used Cars: An inspection letter (3 Good) from the bank's approved inspection centers showing the car's value and condition. Car Dealerships: A quotation provided by the dealership is sufficient for new cars. If pre-owned, it must not be older than 3 years, provided it is from the same dealership; otherwise, the car is inspected and valued by approved valuers."
+  },
+  {
+    "id": "chunk_031_en",
+    "text": "Number of Financed Cars (with salary transfer): Possibility of financing the customer up to a maximum of 200,000 JOD depending on the commitment ratio, and a maximum of 3 active car loans."
+  },
+  {
+    "id": "chunk_032_en",
+    "text": "Guarantees (with salary transfer): Mortgage on the car equal to 100% of the loan value. The car must be registered and licensed at the Drivers and Vehicles License Department, with a first-degree mortgage exclusively in favor of the bank. A copy of the car registration must be provided after registering it in the debtor's name, along with the mortgage letter, to be kept in the customer's file."
+  },
+  {
+    "id": "chunk_033_en",
+    "text": "Vehicle Insurance (with salary transfer): Comprehensive car insurance for not less than the loan value for the first year only."
+  },
+  {
+    "id": "chunk_034_en",
+    "text": "Payment Order for Car Value (with salary transfer): The payment order for the loan amount will be issued exclusively in the name of the dealer (seller of the car), or it will be transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account."
+  },
+  {
+    "id": "chunk_035_en",
+    "text": "Insurance Fees (with salary transfer): Life insurance for the debtor: Customers aged 65 and below. Loan amount is less than 100,000 JOD. Based on the loan amount: Less than 20,000 JOD: 75 JOD. 20,000 - 50,000 JOD: 150 JOD. Greater than 50,000 JOD: 250 JOD."
+  },
+  {
+    "id": "chunk_036_en",
+    "text": "Non-Jordanian Residents (with salary transfer) - The following nationalities are granted: Iraqis and Palestinians, provided they are treated the same as Jordanians."
+  },
+  {
+    "id": "chunk_037_en",
+    "text": "Financed Cars (with salary transfer): Private registration cars only."
+  },
+  {
+    "id": "chunk_038_en",
+    "text": "Additional Features (with salary transfer): Providing the following additional repayment methods for all types of dealership cars and cars with dealership warranty: Quarterly, semi-annual, and annual payments. Provided that: Proof of ability to pay on the due date of the installment is submitted. The financing period is up to 4 years only."
+  },
+  {
+    "id": "chunk_039_en",
+    "text": "Postponement of Installments (with salary transfer): Only two postponements are allowed per year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment with no past due amounts (over 30 days) during the previous 6 months. The maximum age limit for the customer at the maturity of the last installment is not exceeded. Salary deduction customers are not allowed to postpone installments."
+  },
+  {
+    "id": "chunk_040_en",
+    "text": "Early Settlement Commission (with salary transfer): If more than one year remains until the end of the loan: 1%. If less than one year remains until the end of the loan: 0%."
+  },
+  {
+    "id": "chunk_041_en",
+    "text": "Required Documents (with salary transfer): Copy of valid residency document (for non-Jordanians) in addition to a valid passport. Valid proof of identity document (civil ID). Original salary certificate/salary slip for the last three months. In case of any incentives, a salary slip for the last 6 months is requested (slips must be stamped or on the employer's letterhead). Copy of the employment contract for contract employees. Personal bank statement for 6 months for customers who have no previous dealing with the bank (showing the transferred salary), certified according to standard procedures. Public sector: Salary transfer pledge according to their approved format, except for security and military apparatuses (a salary slip indicating the salary transfer to us is sufficient). Formal salary transfer pledge, according to the bank's approved format. Social Security statement for customers with less than a year of employment for companies, excluding public sector employees. Vehicle registration, customs declaration, or a quotation from the dealership. Sales contract or quotation. Inspection and valuation for cars outside the dealership (Policy will be relied upon regarding the requirement for inspection and valuation)."
+  },
+  {
+    "id": "chunk_042_en",
+    "text": "Professionals (with salary transfer): Copy of a valid occupational license or one that has not been expired for more than 3 months. Copy of the commercial register. Certified copy of syndicate membership, if any. Bank statement for 6 months for the customer's personal account and the establishment/company account."
+  },
+  {
+    "id": "chunk_043_en",
+    "text": "Car Documents (with salary transfer): Car inspection and valuation letter for used cars, or a quotation for new cars (dealership). Car registration bearing the seller's name. After approval: Car registration marked with the mortgage, a stamped mortgage letter, and a comprehensive insurance policy for the car in favor of the bank."
+  },
+  {
+    "id": "chunk_044_en",
+    "text": "Terms for Financing Chinese Cars (with salary transfer): All Chinese cars that have an approved exclusive agent. Cars of Chinese origin bearing a non-Chinese global brand (e.g., FORD, TOYOTA, VW) are financed under the same terms and features as non-Chinese cars. Cars bearing a Chinese brand from all showrooms are financed, provided they have an approved agent in Jordan, are zero mileage, and even if they were not sold by the same agent, provided we are supplied with (Inspection and Valuation + CARSEER). Financing used Chinese cars is permitted provided their age does not exceed 3 years."
+  },
+  {
+    "id": "chunk_045_en",
+    "text": "Part 2: Professionals, Self-Employed, and Expatriates: Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Minimum Length of Service: 2 years."
+  },
+  {
+    "id": "chunk_046_en",
+    "text": "Part 3: Security and Military Apparatuses: Security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence. Minimum Length of Service: (3) months * Product criteria apply to the job."
+  },
+  {
+    "id": "chunk_047_en",
+    "text": "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations. Private sector teachers, and all jobs for unapproved companies + Hotels + International bodies and organizations + Sales. Minimum Length of Service for confirmed approved companies: 3 months. Minimum Length of Service for Social Security Retirees: Immediately upon retirement. Minimum Length of Service for confirmed unapproved companies: 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job. Minimum Length of Service for the United Nations: Not less than a year, and the customer must be subscribed to a provident fund or similar."
+  },
+  {
+    "id": "chunk_048_en",
+    "text": "Part 5: With Salary Transfer -- Public Sector: Providing the necessary financing for customers from the target segments to own new or used cars, including hybrid and electric cars, for personal or family use in line with their needs and desires, according to the criteria and conditions set out in the proposed program. Minimum Length of Service in the same company: (3) months * Product criteria apply to the job."
+  },
+  {
+    "id": "chunk_049_en",
+    "text": "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%. Interest Rate: 7.25%"
+  },
+  {
+    "id": "chunk_050_en",
+    "text": "Additional Features (Abu Khader campaign): Monthly loan installments are borne from the granting date until 1/1/2027 by Abu Khader Automotive Group, paid in advance to the account. The dealership bears on behalf of the customer from one monthly installment up to the installments due until 1/1/2027."
+  },
+  {
+    "id": "chunk_051_en",
+    "text": "Loan Interest (Abu Khader campaign): The dealership or the customer bears the interest on the loan period."
+  },
+  {
+    "id": "chunk_052_en",
+    "text": "Deduction Mechanism (Abu Khader campaign): An authorization letter is obtained from Abu Khader Group to deduct the total installments from their account with us. The amount credited to Abu Khader Group's account with us is held in a sub-insurance account for the customer. A periodic transfer order is activated for the monthly installment amount from the insurance account to the repayment account."
+  },
+  {
+    "id": "chunk_053_en",
+    "text": "Campaign Duration (Abu Khader campaign): Until 31/12/2026. All other product conditions remain as they are."
+  }
+]

@@ -1,0 +1,1562 @@
+[
+  {
+    "session_id": "LoansGeneralQA-ar-001",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q033",
+        "question": "كيف تُحسب عمولة التأمين على الحياة للقرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "تُحسب عمولة التأمين على الحياة حسب عمولة التأمين الخاصة بالبطاقة، وهي 0.1% على الرصيد المستغل بحد أدنى دينار واحد.",
+        "audio_file": "wav/PLCC-Q033.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "HOUSING-Q077",
+        "question": "هل يمكن تمويل موظفي مجالس الخدمات المشتركة؟",
+        "expected_answer": "لا يمكن تمويل موظفي مجالس الخدمات المشتركة.",
+        "audio_file": "wav/HOUSING-Q077.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q035",
+        "question": "ما هي متطلبات الفحص الفني للسيارات المستعملة عند التمويل؟",
+        "expected_answer": "يُطلب كتاب فحص بدرجة (3 جيد) من مراكز الفحص المعتمدة لدى البنك يبيّن قيمة السيارة وحالتها.",
+        "audio_file": "wav/CARLOAN-Q035.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PERSONALLOAN-Q201",
+        "question": "ما هي قيمة التأمينات المطلوبة للقرض الشخصي مقابل تأمينات نقدية؟",
+        "expected_answer": "قيمة التأمينات المطلوبة هي 100%.",
+        "audio_file": "wav/PERSONALLOAN-Q201.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "LOANSOVERVIEW-Q003",
+        "question": "ما هي أنواع القروض الشخصية المتوفرة؟",
+        "expected_answer": "تشمل القروض الشخصية: القرض الشخصي، والقرض الشخصي لأصحاب الرواتب الأقل من 450 دينار، والقرض الفوري مقابل بطاقة ائتمانية، وقرض المكافآت الشخصي، والقرض الشخصي مقابل تأمينات، والقرض الشخصي مقابل رهن عقاري.",
+        "audio_file": "wav/LOANSOVERVIEW-Q003.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q133",
+        "question": "من هم \"المهنيون\" ضمن برنامج قرض السيارة، وما الحد الأدنى لمدة خدمتهم؟",
+        "expected_answer": "يشمل المهنيون الأطباء والمهندسين والصيادلة والمحاسبين والمدققين القانونيين والمستشارين وحاملي الشهادات المالية الذين لديهم أعمال خاصة بهم، والحد الأدنى لمدة الخدمة المطلوبة هو سنتان.",
+        "audio_file": "wav/CARLOAN-Q133.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "INSTANTLOAN-Q019",
+        "question": "هل يمكن التقديم والحصول على القرض الفوري في أيام العطل الرسمية؟",
+        "expected_answer": "نعم، يمكن التقديم على القرض الفوري في أي وقت، بما في ذلك أيام العطل الرسمية.",
+        "audio_file": "wav/INSTANTLOAN-Q019.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "INSTANTLOAN-Q009",
+        "question": "كيف يتم قيد مبلغ القرض الفوري؟",
+        "expected_answer": "يتم قيد مبلغ القرض مباشرةً في حساب العميل.",
+        "audio_file": "wav/INSTANTLOAN-Q009.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "HOUSING-Q067",
+        "question": "متى يُصرف المبلغ المتبقي من قرض شراء الالتزامات من بنك آخر؟",
+        "expected_answer": "يُصرف المبلغ المتبقي بعد سداد التزام البنك الآخر وقبل ورود أول راتب، شريطة الحصول على براءة ذمة أصولية وتعهد تحويل راتب أصولي والتأكد من صحة الكتاب من الشركة عن طريق الفرع.",
+        "audio_file": "wav/HOUSING-Q067.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q077",
+        "question": "ما هي نسبة عبء الدين المسموح بها للرواتب الأكبر من 2,500 دينار عند تحويل الراتب؟",
+        "expected_answer": "55% للقرض فقط، بالإضافة إلى 10% للبطاقة الائتمانية لأصحاب الدخل الأعلى من 2,500 دينار.",
+        "audio_file": "wav/CARLOAN-Q077.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-002",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PERSONALLOAN-Q121",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة لها؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق ادخار أو ما شابهه.",
+        "audio_file": "wav/PERSONALLOAN-Q121.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PERSONALLOAN-Q041",
+        "question": "ما هو الحد الأدنى لقيمة قرض شراء التزامات من بنوك أخرى؟",
+        "expected_answer": "الحد الأدنى لقيمة القرض 2,000 دينار، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 500 دينار.",
+        "audio_file": "wav/PERSONALLOAN-Q041.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PERSONALLOAN-Q131",
+        "question": "ما هو مبلغ القرض الشخصي لرواتب أقل من 450 دينار؟",
+        "expected_answer": "يتراوح مبلغ القرض بين 2,000 و10,000 دينار.",
+        "audio_file": "wav/PERSONALLOAN-Q131.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "HOUSING-Q001",
+        "question": "ما هو الحد العمري المطلوب للحصول على قرض سكني مع تحويل راتب بشكل عام؟",
+        "expected_answer": "يتراوح العمر المطلوب عند المنح بين 22 و65 سنة بشكل عام، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+        "audio_file": "wav/HOUSING-Q001.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q093",
+        "question": "ما هي نسبة التمويل عند تحويل الراتب مقارنة بعدم تحويله؟",
+        "expected_answer": "تبلغ نسبة التمويل 100% عند تحويل الراتب، و80% بدون تحويل الراتب ولجميع القطاعات الأخرى.",
+        "audio_file": "wav/CARLOAN-Q093.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q001",
+        "question": "ما هو الحد العمري لأصحاب الرواتب للحصول على قرض سيارة؟",
+        "expected_answer": "يتراوح عمر أصحاب الرواتب عند منح القرض بين 22 و65 سنة، على ألا يتجاوز عمر العميل عند سداد آخر قسط 75 سنة.",
+        "audio_file": "wav/CARLOAN-Q001.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PERSONALLOAN-Q021",
+        "question": "كم تبلغ عمولة المنح للقرض الشخصي؟",
+        "expected_answer": "تبلغ عمولة المنح 1%.",
+        "audio_file": "wav/PERSONALLOAN-Q021.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q123",
+        "question": "ما هي المستندات الإضافية المطلوبة من المهنيين عند تحويل الراتب؟",
+        "expected_answer": "يُطلب من المهنيين صورة عن رخصة مهن سارية المفعول أو لم يمضِ على انتهائها أكثر من 3 أشهر، وصورة عن السجل التجاري، وصورة طبق الأصل عن عضوية النقابة إن وجدت، وكشف حساب لمدة 6 أشهر لحساب العميل الشخصي والمؤسسة أو الشركة.",
+        "audio_file": "wav/CARLOAN-Q123.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q069",
+        "question": "ما هو الحد الأدنى للراتب الصافي لجميع القطاعات في حال تحويل الراتب؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي هو 450 دينار.",
+        "audio_file": "wav/CARLOAN-Q069.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q033",
+        "question": "ما هي متطلبات الفحص الفني للسيارات الجديدة الواردة من الوكالة عند التمويل؟",
+        "expected_answer": "يُكتفى بعرض سعر من الوكالة دون الحاجة لفحص وتخمين.",
+        "audio_file": "wav/CARLOAN-Q033.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-003",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSOVERVIEW-Q007",
+        "question": "ما هي أنواع قروض السيارات المتوفرة؟",
+        "expected_answer": "تشمل قروض السيارات نوعين: مع تحويل راتب، وبدون تحويل راتب.",
+        "audio_file": "wav/LOANSOVERVIEW-Q007.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q053",
+        "question": "ما هي مدة صلاحية الموافقة على تأجيل الدفعات لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "صلاحية الموافقة على تأجيل الدفعات 45 يوماً.",
+        "audio_file": "wav/CARLOAN-Q053.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "HOUSING-Q153",
+        "question": "ما هو الحد الأقصى لمدة قرض شراء الشقق من غير تحويل راتب؟",
+        "expected_answer": "الحد الأقصى لمدة القرض 300 شهر.",
+        "audio_file": "wav/HOUSING-Q153.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q149",
+        "question": "ما هو الحد الأدنى لمدة الخدمة بنفس الشركة لموظفي القطاع العام ضمن برنامج تحويل الرواتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة.",
+        "audio_file": "wav/CARLOAN-Q149.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q113",
+        "question": "ما هو المستند الإضافي المطلوب من موظفي العقود عند تحويل الراتب؟",
+        "expected_answer": "يُطلب من موظفي العقود تقديم صورة عن عقد العمل.",
+        "audio_file": "wav/CARLOAN-Q113.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q025",
+        "question": "هل يمكن رفع سقف القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "لا، لا يمكن رفع سقف هذا القرض.",
+        "audio_file": "wav/PLCC-Q025.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q145",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات غير المعتمدة المثبتين؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، بشرط وجود خبرة سابقة لا تقل عن سنة وعدم وجود انقطاع في الضمان الاجتماعي لأكثر من شهر بين الوظيفة السابقة والحالية.",
+        "audio_file": "wav/CARLOAN-Q145.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q091",
+        "question": "من يشمل تصنيف \"المهنيين وأطباء الأسنان\" ضمن فئات القرض الشخصي؟",
+        "expected_answer": "يشمل هذا التصنيف الأطباء والمهندسين والصيادلة والمحاسبين والمدققين القانونيين والمستشارين وحاملي الشهادات المالية الذين لديهم أعمال خاصة بهم، وأصحاب الأعمال الحرة، والأطباء أصحاب العيادات.",
+        "audio_file": "wav/PERSONALLOAN-Q091.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q161",
+        "question": "من يتحمل فائدة القرض ضمن حملة أبو خضر؟",
+        "expected_answer": "قد تتحمل الوكالة الفائدة على مدة القرض، أو قد يتحملها العميل.",
+        "audio_file": "wav/CARLOAN-Q161.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PERSONALLOAN-Q141",
+        "question": "ما هو قرض المكافآت الشخصي؟",
+        "expected_answer": "قرض المكافآت الشخصي هو قرض شخصي يمنحك استرداداً نقدياً طالما حافظت على سداد أقساطك في وقتها. وبعد 6 شهور من الالتزام بالسداد على الوقت، تزداد نسبة الاسترداد النقدي.",
+        "audio_file": "wav/PERSONALLOAN-Q141.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-004",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q041",
+        "question": "كيف يتم صرف أمر الدفع بقيمة السيارة الممولة؟",
+        "expected_answer": "يصدر أمر الدفع باسم التاجر بائع السيارة فقط، أو يُحوَّل إلى حساب البائع إن كان عميلاً لدى بنك اتحاد، ولا يمكن بأي حال قيد قيمة القرض إلى حساب العميل المقترض.",
+        "audio_file": "wav/CARLOAN-Q041.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PLCC-Q009",
+        "question": "هل يشترط تحويل الراتب للحصول على القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "لا، لا يُشترط تحويل الراتب.",
+        "audio_file": "wav/PLCC-Q009.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q111",
+        "question": "ما هي مستندات إثبات الراتب المطلوبة عند تحويل الراتب؟",
+        "expected_answer": "تُطلب شهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وفي حال وجود حوافز تُطلب قسيمة راتب لآخر 6 أشهر، على أن تكون القسائم مختومة أو مروسة من جهة العمل.",
+        "audio_file": "wav/CARLOAN-Q111.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "HOUSING-Q171",
+        "question": "ما هي نسبة التمويل عند شراء أراضٍ من غير تحويل راتب؟",
+        "expected_answer": "الحد الأعلى لنسبة التمويل 60%.",
+        "audio_file": "wav/HOUSING-Q171.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q135",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض سيارة؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر، مع تطبيق معايير المنتج على الوظيفة. وتشمل هذه الفئة الأجهزة الأمنية والعسكرية وقوات الدرك والأمن العام والقوات المسلحة وسلاح الجو والمخابرات العامة.",
+        "audio_file": "wav/CARLOAN-Q135.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PERSONALLOAN-Q161",
+        "question": "هل يتلقى العميل إشعاراً عند وصول الاسترداد النقدي لخزنة القروض؟",
+        "expected_answer": "نعم، يتلقى العميل إشعاراً عبر التطبيق كل شهر عندما يصبح مبلغ الاسترداد النقدي في خزنته متاحاً للسحب.",
+        "audio_file": "wav/PERSONALLOAN-Q161.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "HOUSING-Q105",
+        "question": "ما هي مستندات إثبات الراتب المطلوبة لقرض سكني مع تحويل راتب؟",
+        "expected_answer": "تُطلب شهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وفي حال وجود حوافز تُطلب قسيمة راتب لآخر 6 أشهر، على أن تكون القسائم مختومة أو مروسة من جهة العمل.",
+        "audio_file": "wav/HOUSING-Q105.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q001",
+        "question": "ما هو الحد العمري المطلوب للحصول على قرض شخصي بشكل عام؟",
+        "expected_answer": "يتراوح العمر المطلوب عند المنح بين 22 و65 سنة بشكل عام، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+        "audio_file": "wav/PERSONALLOAN-Q001.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PERSONALLOAN-Q081",
+        "question": "ما هو الحد الأدنى لعمر متقاعدي الضمان الاجتماعي المبكر الذكور؟",
+        "expected_answer": "يجب ألا يقل عمر العميل الذكر المتقاعد مبكراً عن الضمان الاجتماعي عن 50 سنة.",
+        "audio_file": "wav/PERSONALLOAN-Q081.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PERSONALLOAN-Q011",
+        "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل للقرض الشخصي؟",
+        "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 70%.",
+        "audio_file": "wav/PERSONALLOAN-Q011.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-005",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q029",
+        "question": "ما هي المستندات الخاصة بالسيارة المطلوبة بعد الموافقة على قرض السيارة؟",
+        "expected_answer": "يُطلب كتاب فحص وتخمين للسيارات المستعملة أو عرض سعر للسيارات الجديدة من الوكالة، ورخصة السيارة باسم البائع، وبعد الموافقة تُقدَّم رخصة السيارة مؤشرة بالرهن مع كتاب رهن مختوم وبوليصة تأمين شامل لصالح البنك.",
+        "audio_file": "wav/CARLOAN-Q029.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q159",
+        "question": "ما هي الميزة الإضافية الخاصة بتحمّل الأقساط الشهرية ضمن حملة أبو خضر؟",
+        "expected_answer": "تتحمل مجموعة أبو خضر للسيارات الأقساط الشهرية للقرض بشكل مقدم بالحساب من تاريخ المنح ولغاية 1/1/2027، أي من القسط الشهري الأول وحتى الأقساط المستحقة حتى ذلك التاريخ.",
+        "audio_file": "wav/CARLOAN-Q159.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q087",
+        "question": "كم تبلغ عمولة المنح لقرض السيارة عند تحويل الراتب؟",
+        "expected_answer": "تبلغ عمولة المنح 1%.",
+        "audio_file": "wav/CARLOAN-Q087.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "HOUSING-Q095",
+        "question": "هل يمكن تمويل المحامين للحصول على قرض سكني؟",
+        "expected_answer": "لا يمكن تمويل المحامين.",
+        "audio_file": "wav/HOUSING-Q095.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "HOUSING-Q039",
+        "question": "هل يمكن رفع سقف قرض السكني مع تحويل راتب (الفئة الأولى)؟",
+        "expected_answer": "نعم، يمكن رفع سقف القرض.",
+        "audio_file": "wav/HOUSING-Q039.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PERSONALLOAN-Q111",
+        "question": "هل يخضع عملاء القطاع العام للضمان الاجتماعي وتحويل الراتب؟",
+        "expected_answer": "نعم، يخضع العميل للضمان الاجتماعي ويُطلب منه تعهد تحويل راتب.",
+        "audio_file": "wav/PERSONALLOAN-Q111.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PERSONALLOAN-Q181",
+        "question": "ماذا يحدث إذا رفع العميل سقف رصيد قرض المكافآت الشخصي؟",
+        "expected_answer": "إذا رفع العميل سقف رصيد قرض المكافآت الشخصي، يُعاد تعيين الرصيد إلى المبلغ الجديد للقرض ويبدأ من (MOB = 0)، ويتم حساب الاسترداد النقدي بناءً على رصيد القرض بعد الزيادة.",
+        "audio_file": "wav/PERSONALLOAN-Q181.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "HOUSING-Q029",
+        "question": "ما هو الحد الأدنى لمدة القرض السكني مع تحويل راتب (الفئة الأولى)؟",
+        "expected_answer": "الحد الأدنى لمدة القرض 12 شهراً.",
+        "audio_file": "wav/HOUSING-Q029.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q137",
+        "question": "ما هي الجهات المصنفة ضمن \"الشركات المعتمدة\" لأغراض قرض السيارة بتحويل الراتب؟",
+        "expected_answer": "تشمل جميع الوظائف في الشركات المعتمدة والمنظمات التابعة للأمم المتحدة (UN).",
+        "audio_file": "wav/CARLOAN-Q137.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "HOUSING-Q161",
+        "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل لقرض سكني من غير تحويل راتب؟",
+        "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 70%.",
+        "audio_file": "wav/HOUSING-Q161.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-006",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "HOUSING-Q057",
+        "question": "ما هي نسبة التمويل لقروض البناء مع تحويل راتب؟",
+        "expected_answer": "تصل نسبة التمويل إلى 100%.",
+        "audio_file": "wav/HOUSING-Q057.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "HOUSING-Q133",
+        "question": "ما هو الحد العمري المطلوب للحصول على قرض سكني من غير تحويل راتب؟",
+        "expected_answer": "يتراوح العمر المطلوب عند المنح بين 24 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+        "audio_file": "wav/HOUSING-Q133.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q061",
+        "question": "ما هي المعارض المعتمدة التي تمنح نسبة تمويل 80% بدون تحويل راتب؟",
+        "expected_answer": "المعارض المعتمدة لنسبة تمويل 80% هي: معرض الشريف، معرض القلم، معرض نهار بغداد، معرض بورصة السيارات كلاسيك كار، معرض بريستيج، معرض الرائد، معرض ريمون حنانيا، معرض سيارتي، معرض كركر، معرض شادي فريج، معرض الرائع، معرض Auto House، الطريق الأبيض، معرض رويال، معرض عماد المغيرة، معرض بركات العواملة، معرض ليث جريسات، معرض مالك بني عمر، معرض الجيلاوي، معرض شعيبث، معرض البلورة، معرض ابو ايمن القمة، معرض البستنجي، معرض استانبولي، معرض معتز جريسات، معرض المدينة الذكية، معارض العبيدي، معرض ابو هيكل، معرض الهدف، معرض مقبل، معرض سيارتك، معرض الصقر، معرض الخبراء، معرض العقاب، معرض الياقوت، معرض اميغوز، معرض العساف، معرض الحدائق، معرض نمبر ون، معرض الامين، معرض اوتومول، معرض محمد غريب، معرض بيبلوس، معرض العصرية لتجارة السيارات، معرض العلامة الذهيبة، معرض كاكوري، معرض اوتوكار، معرض نادر غيث، معرض بوابة السابع، معرض علي خريسات، معرض غسان العبيدي، معرض قطيشات، معرض شركة سيارات المستقبل، معرض بلال ابو الشيح، معرض ليث و قصي، معرض البخيت، معرض الديك، معرض عدوان الصالح، معرض محمد العساف، معرض الجدي، معرض بسمان، معرض جوهرة البخيت، معرض الحسيني، معرض حيدر، معرض العطيوي، معرض ابو ناصر، ومعرض رزان.",
+        "audio_file": "wav/CARLOAN-Q061.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q121",
+        "question": "متى يُطلب كشف الضمان الاجتماعي عند تحويل الراتب؟",
+        "expected_answer": "يُطلب كشف الضمان الاجتماعي لمن تقل مدة عمله لدى الشركة عن سنة واحدة، باستثناء موظفي القطاع العام.",
+        "audio_file": "wav/CARLOAN-Q121.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "HOUSING-Q019",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة للحصول على قرض سكني مع تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق ادخار أو ما شابه.",
+        "audio_file": "wav/HOUSING-Q019.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q163",
+        "question": "ما هي آلية خصم الأقساط ضمن حملة أبو خضر؟",
+        "expected_answer": "يُحصل على كتاب تفويض من مجموعة أبو خضر لخصم مجموع الأقساط من حسابهم لدى البنك، ويُحجز المبلغ في حساب تأمينات فرعي خاص بالعميل، ثم يُفعَّل أمر تحويل دوري شهري بقيمة القسط من حساب التأمينات إلى حساب السداد.",
+        "audio_file": "wav/CARLOAN-Q163.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q081",
+        "question": "ما هي مدة قرض السيارة بشكل عام عند تحويل الراتب؟",
+        "expected_answer": "تتراوح مدة القرض بشكل عام بين 12 و96 شهراً.",
+        "audio_file": "wav/CARLOAN-Q081.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSOVERVIEW-Q001",
+        "question": "ما هي أنواع القروض التي يقدمها بنك الاتحاد؟",
+        "expected_answer": "يقدم بنك الاتحاد أربعة أنواع رئيسية من القروض: القروض الشخصية، والقروض العقارية/السكنية، وقروض السيارات، والقروض الفورية.",
+        "audio_file": "wav/LOANSOVERVIEW-Q001.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "LOANSOVERVIEW-Q005",
+        "question": "ما هي أنواع القروض العقارية/السكنية المتوفرة؟",
+        "expected_answer": "تشمل القروض العقارية/السكنية: القروض السكنية/العقارية مع تحويل راتب، والقروض السكنية/العقارية بدون تحويل راتب، والقروض المتناقصة مقابل رهن عقاري.",
+        "audio_file": "wav/LOANSOVERVIEW-Q005.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q075",
+        "question": "ما هي نسبة عبء الدين المسموح بها للرواتب الأقل من أو تساوي 2,500 دينار عند تحويل الراتب؟",
+        "expected_answer": "55% للقرض فقط، بالإضافة إلى 5% للبطاقة الائتمانية لأصحاب الدخل الأقل من 2,500 دينار.",
+        "audio_file": "wav/CARLOAN-Q075.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-007",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q147",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة للحصول على قرض سيارة؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق الادخار أو ما شابهه.",
+        "audio_file": "wav/CARLOAN-Q147.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q143",
+        "question": "ما هو الحد الأدنى لمدة الخدمة للمتقاعدين من الضمان الاجتماعي للحصول على قرض سيارة؟",
+        "expected_answer": "يمكن التقديم فور التقاعد مباشرة دون اشتراط مدة خدمة إضافية.",
+        "audio_file": "wav/CARLOAN-Q143.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q023",
+        "question": "ما هي مدة التمويل الدنيا والعليا لقرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة التمويل 12 شهراً، والحد الأعلى 8 سنوات.",
+        "audio_file": "wav/CARLOAN-Q023.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PERSONALLOAN-Q031",
+        "question": "ما هو مبلغ القرض الشخصي لأصحاب الأعمال الحرة بدون سجلات تجارية؟",
+        "expected_answer": "يتراوح مبلغ القرض لأصحاب الأعمال الحرة بدون سجلات تجارية بين 2,000 و25,000 دينار.",
+        "audio_file": "wav/PERSONALLOAN-Q031.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q127",
+        "question": "كيف يتم تمويل السيارات المصنّعة في الصين ولكن تحمل علامة تجارية عالمية غير صينية؟",
+        "expected_answer": "يتم تمويلها بنفس شروط وميزات السيارات غير الصينية، ومن الأمثلة عليها FORD وTOYOTA وVW.",
+        "audio_file": "wav/CARLOAN-Q127.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q099",
+        "question": "ما هي متطلبات تأمين المركبة الممولة عند تحويل الراتب؟",
+        "expected_answer": "يشترط تأمين شامل للسيارة بما لا يقل عن قيمة القرض، وذلك للسنة الأولى فقط.",
+        "audio_file": "wav/CARLOAN-Q099.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "HOUSING-Q085",
+        "question": "ما هو الحد الأدنى والأقصى لمدة الخدمة العسكرية والأمنية للتمويل بشكل عام؟",
+        "expected_answer": "الحد الأدنى 3 سنوات، والحد الأقصى 25 سنة.",
+        "audio_file": "wav/HOUSING-Q085.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q139",
+        "question": "ما هي الجهات المصنفة ضمن \"الشركات غير المعتمدة\" لأغراض قرض السيارة بتحويل الراتب؟",
+        "expected_answer": "تشمل المدرّسين في القطاع الخاص وجميع الوظائف في الشركات غير المعتمدة، بالإضافة إلى الفنادق والهيئات والمنظمات الدولية وقطاع المبيعات.",
+        "audio_file": "wav/CARLOAN-Q139.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PERSONALLOAN-Q191",
+        "question": "ما هي شروط قرض المكافآت الشخصي للعملاء غير الموظفين (أصحاب الأعمال الحرة)؟",
+        "expected_answer": "الحد الأدنى لمبلغ القرض 2,000 دينار أردني، والحد الأقصى 75,000 دينار أردني للعملاء ذوي السجل الائتماني الجيد أو 35,000 دينار أردني لمن لا يملك سجلاً ائتمانياً، ونسبة عبء الدين 40%، والحد الأدنى لفترة الخدمة سنتان.",
+        "audio_file": "wav/PERSONALLOAN-Q191.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q071",
+        "question": "ما هو الحد الأدنى للراتب الصافي لموظفي البنك المركزي والسيتي بانك؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي هو 450 دينار.",
+        "audio_file": "wav/CARLOAN-Q071.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-008",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q015",
+        "question": "ما هو الحد الأدنى للدخل للمغتربين للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للدخل للمغتربين هو 2,000 دينار.",
+        "audio_file": "wav/CARLOAN-Q015.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PERSONALLOAN-Q071",
+        "question": "ما هي الجهات المستثناة من تعهد تحويل الراتب المشروط؟",
+        "expected_answer": "الجهات المستثناة هي: الأجهزة الأمنية، والجامعة الأردنية، ومستشفى الأمير حمزة، وسلاح الجو الملكي الأردني، والضمان الاجتماعي للمستفيدين، حيث يُكتفى بالحصول على تفويض من العميل بسداد مديونيته واستلام براءة الذمة من موظف الفرع وتسليمها لجهة العمل.",
+        "audio_file": "wav/PERSONALLOAN-Q071.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q017",
+        "question": "ما هو الحد الأدنى لعمر العميل عند منح القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "الحد الأدنى لعمر العميل عند المنح يتراوح بين 22 و65 سنة.",
+        "audio_file": "wav/PLCC-Q017.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q073",
+        "question": "ما هو الحد الأدنى للراتب الصافي لموظفي البنوك الأخرى؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي هو 1,000 دينار.",
+        "audio_file": "wav/CARLOAN-Q073.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PERSONALLOAN-Q151",
+        "question": "أين يمكن رؤية الاسترداد النقدي وكيف يمكن سحبه؟",
+        "expected_answer": "يمكن رؤية مبلغ الاسترداد النقدي في خزنة القروض على التطبيق، ويمكن سحبه من الخزنة الموجودة في صفحة المكافآت بتحويله إلى الحساب.",
+        "audio_file": "wav/PERSONALLOAN-Q151.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q095",
+        "question": "هل يُشترط تحويل الراتب وخضوع العميل للضمان الاجتماعي للحصول على القرض؟",
+        "expected_answer": "نعم، يُشترط تحويل الراتب والخضوع للضمان الاجتماعي، باستثناء المهنيين.",
+        "audio_file": "wav/CARLOAN-Q095.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q019",
+        "question": "ما هو الحد الأعلى لمبلغ قرض السيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأعلى لمبلغ القرض هو 150,000 دينار للسيارة الواحدة، وبحد أقصى 3 سيارات بمجموع إجمالي لا يتجاوز 200,000 دينار.",
+        "audio_file": "wav/CARLOAN-Q019.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "HOUSING-Q009",
+        "question": "ما هو الحد الأدنى لصافي الدخل للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض سكني مع تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لصافي الدخل للعاملين في الأجهزة الأمنية والعسكرية هو 1,000 دينار بشرط أن يقل عبء الدين عن 35%، أو 1,500 دينار بشرط أن يقل عبء الدين عن 55%.",
+        "audio_file": "wav/HOUSING-Q009.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q027",
+        "question": "ما هي المستندات الأساسية المطلوبة من العميل (إثبات الهوية والمركبة) للحصول على قرض سيارة؟",
+        "expected_answer": "يُطلب من العميل تقديم إثبات شخصية ساري المفعول، ولغير الأردني وثيقة إقامة سارية مع جواز سفر ساري المفعول، بالإضافة إلى رخصة المركبة أو بيان جمركي أو عرض سعر من الوكالة، وعقد بيع أو عرض سعر، وفحص وتخمين للسيارة خارج الوكالة حسب السياسة المعتمدة. وتنطبق هذه المتطلبات سواء تم تحويل الراتب أم لا.",
+        "audio_file": "wav/CARLOAN-Q027.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "INSTANTLOAN-Q001",
+        "question": "ما هو القرض الفوري؟",
+        "expected_answer": "هو قرض شخصي فوري لشريحة من العملاء بناءً على السياسات المتبعة للمنتج، يتيح للعميل الحصول عليه في أي وقت من خلال تطبيق بنك الاتحاد، ويتم إيداع المبلغ المطلوب في حسابه فوراً، دون تعبئة أي نماذج أو توقيع طلبات أو الانتظار في الفرع.",
+        "audio_file": "wav/INSTANTLOAN-Q001.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-009",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q155",
+        "question": "ما هي نسبة التمويل ضمن حملة قروض سيارات مجموعة أبو خضر بدون تحويل الراتب؟",
+        "expected_answer": "تصل نسبة التمويل إلى 80% بدون تحويل الراتب.",
+        "audio_file": "wav/CARLOAN-Q155.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q007",
+        "question": "ما هو الحد الأدنى لمدة الخدمة لأصحاب المهن والأعمال الحرة للحصول على قرض سيارة بدون تحويل راتب؟",
+        "expected_answer": "الحد الأدنى لمدة الخدمة سنة واحدة لمن يعمل داخل أمانة عمان، وسنتان لمن يعمل خارج أمانة عمان.",
+        "audio_file": "wav/CARLOAN-Q007.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PERSONALLOAN-Q211",
+        "question": "ما هي نسبة الإفراط بالمديونية للقرض الشخصي مقابل رهن عقاري؟",
+        "expected_answer": "نسبة الإفراط بالمديونية 95%.",
+        "audio_file": "wav/PERSONALLOAN-Q211.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "HOUSING-Q115",
+        "question": "متى يُطلب كشف الضمان الاجتماعي عند التقديم لقرض سكني مع تحويل راتب؟",
+        "expected_answer": "يُطلب كشف الضمان الاجتماعي لمن تقل مدة عمله لدى الشركة عن سنة، باستثناء موظفي القطاع العام.",
+        "audio_file": "wav/HOUSING-Q115.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "PERSONALLOAN-Q171",
+        "question": "هل يفقد العميل الاسترداد النقدي المكتسب مسبقاً إذا تأخر في سداد قسط؟",
+        "expected_answer": "لا، يبقى مبلغ الاسترداد النقدي المكتسب مسبقاً في خزنة العميل، ولكن لن يتمكن من اكتساب المزيد من الاسترداد النقدي إلى أن يعود لدفع الأقساط في وقتها.",
+        "audio_file": "wav/PERSONALLOAN-Q171.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q001",
+        "question": "ما هو القرض الفوري مقابل بطاقة ائتمانية؟",
+        "expected_answer": "هو قرض يتم تقديمه من خلال التطبيق ويتم تحويل المبلغ خلال فترة بسيطة إلى الحساب، ويصدر مقابله بطاقة ائتمانية بدون عمولة لأول سنة، وبعدها تكون عمولة تجديد سنوية تختلف حسب تصنيف البطاقة. ولا يمكن جدولته أو إعادة هيكلته.",
+        "audio_file": "wav/PLCC-Q001.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q119",
+        "question": "ما هو تعهد تحويل الراتب الأصولي المطلوب حسب الصيغة المعتمدة للبنك؟",
+        "expected_answer": "يُقدَّم تعهد تحويل راتب أصولي وفق الصيغة المعتمدة لدى البنك.",
+        "audio_file": "wav/CARLOAN-Q119.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "HOUSING-Q191",
+        "question": "كم تبلغ عمولة السداد المبكر لقرض السكني؟",
+        "expected_answer": "تبلغ عمولة السداد المبكر 1% إذا تبقّى أكثر من سن�� على انتهاء القرض، و0% إذا تبقّى أقل من سنة على انتهائه.",
+        "audio_file": "wav/HOUSING-Q191.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PERSONALLOAN-Q051",
+        "question": "ما هو شرط الالتزام بالسداد لرفع سقف القرض الشخصي؟",
+        "expected_answer": "يجب أن يكون العميل ملتزماً بالسداد ولا توجد عليه أي مستحقة تتجاوز 30 يوماً على نظام كريف لآخر 12 شهراً.",
+        "audio_file": "wav/PERSONALLOAN-Q051.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q107",
+        "question": "ما هو نوع تسجيل السيارات التي يمكن تمويلها عند تحويل الراتب؟",
+        "expected_answer": "يتم تمويل السيارات ذات التسجيل الخصوصي فقط.",
+        "audio_file": "wav/CARLOAN-Q107.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-ar-010",
+    "subtopic": "Loan/Loans General QA",
+    "language": "ar",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q165",
+        "question": "ما هو تاريخ انتهاء حملة قروض سيارات مجموعة أبو خضر؟",
+        "expected_answer": "تستمر الحملة لغاية 31/12/2026، مع بقاء جميع شروط المنتج الأساسية كما هي.",
+        "audio_file": "wav/CARLOAN-Q165.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PERSONALLOAN-Q061",
+        "question": "ما هي شروط رفع السقف للقرض الشخصي في القطاع الأمني والعسكري؟",
+        "expected_answer": "يشترط أن يكون الحد الأدنى لصافي الراتب 450 دينار حسب المنتج، وإضافة كفالة الزوجة للمتزوجين أو كفالة الأم أو الشقيقة للغير متزوجين، ومرور سنة على المنح الأصلي أو سنة على آخر زيادة للقرض.",
+        "audio_file": "wav/PERSONALLOAN-Q061.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "HOUSING-Q123",
+        "question": "ما هو الشرط الخاص بشراء التزامات الأجهزة الأمنية والعسكرية من بنك آخر؟",
+        "expected_answer": "باستثناء المخابرات والمتقاعدين المدنيين والعسكريين والضمان الاجتماعي، يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلى البنك بعد سداد التزاماته لدى البنك الآخر الذي كان الراتب محولاً إليه.",
+        "audio_file": "wav/HOUSING-Q123.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q117",
+        "question": "ما هو تعهد تحويل الراتب المطلوب من موظفي القطاع العام؟",
+        "expected_answer": "يقدم موظفو القطاع العام تعهد تحويل راتب وفق الصيغة المعتمدة لديهم، باستثناء الأجهزة الأمنية والعسكرية التي تقدم بدلاً منه قسيمة راتب تفيد بتحويل الراتب إلى البنك.",
+        "audio_file": "wav/CARLOAN-Q117.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "HOUSING-Q047",
+        "question": "ما هو المدى العام لنسبة التمويل لقرض السكني مع تحويل راتب؟",
+        "expected_answer": "تتراوح نسبة التمويل بشكل عام بين 30% و100%.",
+        "audio_file": "wav/HOUSING-Q047.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q079",
+        "question": "ما هي نسبة عبء الدين المسموح بها في حال وجود مدين وكفيل معاً؟",
+        "expected_answer": "نسبة عبء الدين المسموح بها في حال وجود مدين وكفيل هي 70%.",
+        "audio_file": "wav/CARLOAN-Q079.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "HOUSING-Q181",
+        "question": "ماذا يحدث لفرق التمويل في قرض سكني من غير تحويل راتب؟",
+        "expected_answer": "يتم إيداع 80% من فرق التمويل في حساب العميل لدى البنك.",
+        "audio_file": "wav/HOUSING-Q181.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q101",
+        "question": "من يشمل تصنيف \"الأعمال الحرة بدون سجلات تجارية\"؟",
+        "expected_answer": "يشمل هذا التصنيف أصحاب الأعمال الحرة بدون سجلات تجارية، مثل المغنيين، والمؤثرين على مواقع التواصل الاجتماعي، والتقنيين، والمستشارين.",
+        "audio_file": "wav/PERSONALLOAN-Q101.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q063",
+        "question": "ما هو الحد الأدنى للراتب الصافي للمغتربين للحصول على قرض سيارة مع تحويل راتب؟",
+        "expected_answer": "الحد الأدنى للراتب الصافي للمغتربين هو 2,000 دينار.",
+        "audio_file": "wav/CARLOAN-Q063.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "HOUSING-Q143",
+        "question": "كم تبلغ عمولة المنح لقرض سكني من غير تحويل راتب؟",
+        "expected_answer": "تبلغ عمولة المنح 1%.",
+        "audio_file": "wav/HOUSING-Q143.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-001",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "HOUSING-Q068",
+        "question": "When is the remaining amount of a loan for buying obligations from another bank disbursed?",
+        "expected_answer": "The remaining amount is disbursed after settling the other bank's obligation and before the arrival of the first salary, provided a formal clearance certificate and a formal salary transfer commitment are obtained, and the authenticity of the letter from the company is verified through the branch.",
+        "audio_file": "wav/HOUSING-Q068.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "HOUSING-Q002",
+        "question": "What is the required age to obtain a housing loan with salary transfer in general?",
+        "expected_answer": "The required age at granting is generally between 22 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+        "audio_file": "wav/HOUSING-Q002.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "HOUSING-Q106",
+        "question": "What salary proof documents are required for a housing loan with salary transfer?",
+        "expected_answer": "An original salary certificate or payslip for the last three months is required; in case of any incentives, a payslip for the last 6 months is requested, and the payslips must be stamped or on the employer's letterhead.",
+        "audio_file": "wav/HOUSING-Q106.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PLCC-Q034",
+        "question": "How is the life insurance commission calculated for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The life insurance commission is calculated according to the card's insurance commission, which is 0.1% on the utilized balance, with a minimum of one JOD.",
+        "audio_file": "wav/PLCC-Q034.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q134",
+        "question": "Who are classified as \"Professionals\" under the auto loan program, and what is their minimum length of service?",
+        "expected_answer": "Professionals include doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, and the minimum required length of service is 2 years.",
+        "audio_file": "wav/CARLOAN-Q134.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PERSONALLOAN-Q052",
+        "question": "What repayment commitment is required to raise the personal loan ceiling?",
+        "expected_answer": "The customer must be committed to repayment with no dues exceeding 30 days on the CRIF system for the last 12 months.",
+        "audio_file": "wav/PERSONALLOAN-Q052.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PERSONALLOAN-Q172",
+        "question": "Does the customer lose previously earned cashback if they are late paying an installment?",
+        "expected_answer": "No, the previously earned cashback amount remains in the customer's vault, but they will not be able to earn more cashback until they return to paying installments on time.",
+        "audio_file": "wav/PERSONALLOAN-Q172.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "LOANSOVERVIEW-Q008",
+        "question": "What types of auto loans are available?",
+        "expected_answer": "Auto loans include two types: with salary transfer, and without salary transfer.",
+        "audio_file": "wav/LOANSOVERVIEW-Q008.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q036",
+        "question": "What are the technical inspection requirements for used cars when financing?",
+        "expected_answer": "An inspection letter rated (3 Good) is required from the bank's approved inspection centers, showing the car's value and condition.",
+        "audio_file": "wav/CARLOAN-Q036.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q140",
+        "question": "Which entities are classified as \"unapproved companies\" for the purposes of the auto loan with salary transfer?",
+        "expected_answer": "It includes private sector teachers and all jobs at unapproved companies, in addition to hotels, international bodies and organizations, and the sales sector.",
+        "audio_file": "wav/CARLOAN-Q140.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-002",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "HOUSING-Q058",
+        "question": "What is the financing ratio for construction loans with salary transfer?",
+        "expected_answer": "The financing ratio is up to 100%.",
+        "audio_file": "wav/HOUSING-Q058.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "PERSONALLOAN-Q062",
+        "question": "What are the conditions for raising the ceiling of the personal loan in the Security and Military sector?",
+        "expected_answer": "The conditions are: a minimum net salary of 450 JOD according to the product, adding the wife's guarantee for married individuals or the mother's/sister's guarantee for unmarried individuals, and requiring the passage of one year since the original grant or since the last loan increase.",
+        "audio_file": "wav/PERSONALLOAN-Q062.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q030",
+        "question": "What car-related documents are required after approval of the auto loan?",
+        "expected_answer": "An inspection and valuation letter is required for used cars, or a dealership quotation for new cars, along with car registration bearing the seller's name. After approval, the car registration must be marked with the mortgage, along with a stamped mortgage letter and a comprehensive insurance policy in favor of the bank.",
+        "audio_file": "wav/CARLOAN-Q030.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PERSONALLOAN-Q202",
+        "question": "What is the required collateral value for the Personal Loan Against Cash Collateral?",
+        "expected_answer": "The required collateral value is 100%.",
+        "audio_file": "wav/PERSONALLOAN-Q202.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q160",
+        "question": "What is the additional feature related to covering the monthly installments under the Abu Khader campaign?",
+        "expected_answer": "Abu Khader Automotive Group bears the monthly loan installments, paid in advance to the account, from the granting date until 1/1/2027 - that is, from the first monthly installment up to the installments due until that date.",
+        "audio_file": "wav/CARLOAN-Q160.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PERSONALLOAN-Q042",
+        "question": "What is the minimum value of a loan for buying obligations from other banks?",
+        "expected_answer": "The minimum loan value is 2,000 JOD, provided that the remaining amount for the customer after paying obligations is not less than 500 JOD.",
+        "audio_file": "wav/PERSONALLOAN-Q042.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q020",
+        "question": "What is the maximum auto loan amount without salary transfer?",
+        "expected_answer": "The maximum loan amount is 150,000 JOD per single car, with a maximum of 3 cars totaling 200,000 JOD.",
+        "audio_file": "wav/CARLOAN-Q020.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q182",
+        "question": "What happens if the customer raises the Personal Rewards Loan balance ceiling?",
+        "expected_answer": "If the customer raises the balance ceiling, the balance resets to the new loan amount and starts from (MOB = 0), and the cashback is calculated based on the loan balance after the increase.",
+        "audio_file": "wav/PERSONALLOAN-Q182.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PERSONALLOAN-Q132",
+        "question": "What is the personal loan amount for salaries less than 450 JOD?",
+        "expected_answer": "The loan amount ranges from 2,000 to 10,000 JOD.",
+        "audio_file": "wav/PERSONALLOAN-Q132.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "HOUSING-Q040",
+        "question": "Can the ceiling of a housing loan with salary transfer (Category 1) be raised?",
+        "expected_answer": "Yes, the loan ceiling can be raised.",
+        "audio_file": "wav/HOUSING-Q040.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-003",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q070",
+        "question": "What is the minimum net salary for all sectors when the salary is transferred?",
+        "expected_answer": "The minimum net salary is 450 JOD.",
+        "audio_file": "wav/CARLOAN-Q070.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q156",
+        "question": "What is the financing ratio under the Abu Khader Automotive Group auto loans campaign without salary transfer?",
+        "expected_answer": "The financing ratio is up to 80% without salary transfer.",
+        "audio_file": "wav/CARLOAN-Q156.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PERSONALLOAN-Q072",
+        "question": "Which entities are exempt from the conditional salary transfer commitment?",
+        "expected_answer": "The exempt entities are: Security Apparatuses, the University of Jordan, Prince Hamza Hospital, the Royal Jordanian Air Force, and Social Security beneficiaries, for whom it is sufficient to obtain an authorization from the customer to settle their indebtedness, receive the clearance certificate from the branch employee, and deliver it to the employer.",
+        "audio_file": "wav/PERSONALLOAN-Q072.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "PERSONALLOAN-Q112",
+        "question": "Are Public Sector customers subject to Social Security and salary transfer?",
+        "expected_answer": "Yes, the customer is subject to Social Security and a salary transfer commitment is required.",
+        "audio_file": "wav/PERSONALLOAN-Q112.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "HOUSING-Q048",
+        "question": "What is the general range of the financing ratio for a housing loan with salary transfer?",
+        "expected_answer": "The financing ratio generally ranges from 30% to 100%.",
+        "audio_file": "wav/HOUSING-Q048.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "HOUSING-Q010",
+        "question": "What is the minimum net income for Security and Military Apparatuses personnel to obtain a housing loan with salary transfer?",
+        "expected_answer": "The minimum net income for Security and Military Apparatuses personnel is 1,000 JOD with a debt burden of less than 35%, or 1,500 JOD with a debt burden of less than 55%.",
+        "audio_file": "wav/HOUSING-Q010.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PERSONALLOAN-Q022",
+        "question": "What is the granting commission for the personal loan?",
+        "expected_answer": "The granting commission is 1%.",
+        "audio_file": "wav/PERSONALLOAN-Q022.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q092",
+        "question": "Who is included under the \"Professionals, Dentists\" classification among personal loan categories?",
+        "expected_answer": "This classification includes doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, self-employed individuals, and doctors owning clinics.",
+        "audio_file": "wav/PERSONALLOAN-Q092.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q164",
+        "question": "What is the installment deduction mechanism under the Abu Khader campaign?",
+        "expected_answer": "An authorization letter is obtained from Abu Khader Group to deduct the total installments from their account with the bank. The amount is held in a sub-insurance account for the customer, and a periodic monthly transfer order is activated for the installment amount from the insurance account to the repayment account.",
+        "audio_file": "wav/CARLOAN-Q164.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q148",
+        "question": "What is the minimum length of service for United Nations employees to obtain an auto loan?",
+        "expected_answer": "The minimum length of service is not less than a year, and the customer must be subscribed to a provident fund or similar.",
+        "audio_file": "wav/CARLOAN-Q148.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-004",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q002",
+        "question": "What is the Instant Loan Against a Credit Card?",
+        "expected_answer": "It is a loan offered through the app, where the amount is transferred to the account within a short period. A credit card is issued against it, provided without a commission for the first year, after which there is an annual renewal commission that varies according to the card category. It cannot be rescheduled or restructured.",
+        "audio_file": "wav/PLCC-Q002.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "HOUSING-Q172",
+        "question": "What is the financing ratio for buying lands without salary transfer?",
+        "expected_answer": "The maximum financing ratio is 60%.",
+        "audio_file": "wav/HOUSING-Q172.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "HOUSING-Q144",
+        "question": "What is the granting commission for a housing loan without salary transfer?",
+        "expected_answer": "The granting commission is 1%.",
+        "audio_file": "wav/HOUSING-Q144.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q028",
+        "question": "What are the basic documents required from the customer (identity and vehicle) to obtain an auto loan?",
+        "expected_answer": "The customer must provide valid proof of identity, and for non-Jordanians a valid residency document with a valid passport, in addition to vehicle registration, customs declaration, or a dealership quotation, a sales contract or quotation, and inspection and valuation for cars outside the dealership according to policy. These requirements apply whether or not the salary is transferred.",
+        "audio_file": "wav/CARLOAN-Q028.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q166",
+        "question": "What is the end date of the Abu Khader Automotive Group auto loans campaign?",
+        "expected_answer": "The campaign continues until 31/12/2026, with all other product conditions remaining as they are.",
+        "audio_file": "wav/CARLOAN-Q166.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PLCC-Q010",
+        "question": "Is salary transfer required to obtain the Instant Loan Against a Credit Card?",
+        "expected_answer": "No, salary transfer is not required.",
+        "audio_file": "wav/PLCC-Q010.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q034",
+        "question": "What are the technical inspection requirements for new cars imported through a dealership when financing?",
+        "expected_answer": "A quotation from the dealership is sufficient, without the need for an inspection or valuation.",
+        "audio_file": "wav/CARLOAN-Q034.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q042",
+        "question": "How is the payment order for the financed car value issued?",
+        "expected_answer": "The payment order is issued exclusively in the name of the dealer (seller of the car), or transferred to the seller's account if they are a Bank al Etihad customer. In all cases, the loan amount cannot be credited to the borrowing customer's account.",
+        "audio_file": "wav/CARLOAN-Q042.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q120",
+        "question": "What is the standard salary transfer pledge required, per the bank's approved format?",
+        "expected_answer": "A formal salary transfer pledge is provided, according to the bank's approved format.",
+        "audio_file": "wav/CARLOAN-Q120.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q162",
+        "question": "Who bears the loan interest under the Abu Khader campaign?",
+        "expected_answer": "Either the dealership or the customer bears the interest on the loan period.",
+        "audio_file": "wav/CARLOAN-Q162.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-005",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PLCC-Q018",
+        "question": "What is the customer's age requirement at granting for the Instant Loan Against a Credit Card?",
+        "expected_answer": "The customer's age at granting ranges from 22 to 65 years.",
+        "audio_file": "wav/PLCC-Q018.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "HOUSING-Q162",
+        "question": "What is the debt burden ratio when there is both a debtor and a guarantor for a housing loan without salary transfer?",
+        "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 70%.",
+        "audio_file": "wav/HOUSING-Q162.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "PLCC-Q026",
+        "question": "Can the ceiling of the Instant Loan Against a Credit Card be raised?",
+        "expected_answer": "No, the ceiling of this loan cannot be raised.",
+        "audio_file": "wav/PLCC-Q026.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q118",
+        "question": "What salary transfer pledge is required from public sector employees?",
+        "expected_answer": "Public sector employees provide a salary transfer pledge according to their approved format, except for security and military apparatuses, for whom a salary slip indicating the salary transfer to the bank is sufficient.",
+        "audio_file": "wav/CARLOAN-Q118.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q114",
+        "question": "What additional document is required from contract employees with salary transfer?",
+        "expected_answer": "Contract employees are required to provide a copy of the employment contract.",
+        "audio_file": "wav/CARLOAN-Q114.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q124",
+        "question": "What additional documents are required from professionals with salary transfer?",
+        "expected_answer": "Professionals must provide a copy of a valid occupational license (or one not expired for more than 3 months), a copy of the commercial register, a certified copy of syndicate membership if any, and a 6-month bank statement for both the customer's personal account and the establishment/company account.",
+        "audio_file": "wav/CARLOAN-Q124.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "HOUSING-Q078",
+        "question": "Can Joint Services Councils employees be financed?",
+        "expected_answer": "Joint Services Councils employees cannot be financed.",
+        "audio_file": "wav/HOUSING-Q078.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q002",
+        "question": "What is the required age to obtain a personal loan in general?",
+        "expected_answer": "The required age at granting is generally between 22 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+        "audio_file": "wav/PERSONALLOAN-Q002.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q002",
+        "question": "What is the age eligibility range for salaried employees to obtain an auto loan?",
+        "expected_answer": "Salaried employees must be between 22 and 65 years old at the time of granting, and their age must not exceed 75 years at the maturity of the last installment.",
+        "audio_file": "wav/CARLOAN-Q002.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "HOUSING-Q096",
+        "question": "Can lawyers be financed for a housing loan?",
+        "expected_answer": "Lawyers cannot be financed.",
+        "audio_file": "wav/HOUSING-Q096.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-006",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "PERSONALLOAN-Q192",
+        "question": "What are the terms of the Personal Rewards Loan for non-employed customers (self-employed)?",
+        "expected_answer": "The minimum loan amount is 2,000 JOD, the maximum is 75,000 JOD for customers with a good credit history, or 35,000 JOD for those without a credit history, the Debt Burden Ratio is 40%, and the minimum service period is two years.",
+        "audio_file": "wav/PERSONALLOAN-Q192.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "LOANSOVERVIEW-Q006",
+        "question": "What types of real estate/housing loans are available?",
+        "expected_answer": "Real estate/housing loans include: housing/real estate loans with salary transfer, housing/real estate loans without salary transfer, and declining loans against a real estate mortgage.",
+        "audio_file": "wav/LOANSOVERVIEW-Q006.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q108",
+        "question": "What type of car registration is eligible for financing with salary transfer?",
+        "expected_answer": "Only private registration cars are eligible for financing.",
+        "audio_file": "wav/CARLOAN-Q108.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q112",
+        "question": "What salary proof documents are required with salary transfer?",
+        "expected_answer": "An original salary certificate or salary slip for the last three months is required; in case of any incentives, a salary slip for the last 6 months is requested, and the slips must be stamped or on the employer's letterhead.",
+        "audio_file": "wav/CARLOAN-Q112.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "HOUSING-Q182",
+        "question": "What happens to the financing difference in a housing loan without salary transfer?",
+        "expected_answer": "80% of the financing difference is deposited in the customer's account with the bank.",
+        "audio_file": "wav/HOUSING-Q182.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q080",
+        "question": "What is the allowed debt burden ratio when there is both a debtor and a guarantor?",
+        "expected_answer": "The allowed debt burden ratio when there is a debtor and a guarantor is 70%.",
+        "audio_file": "wav/CARLOAN-Q080.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q136",
+        "question": "What is the minimum length of service for security and military apparatus personnel to obtain an auto loan?",
+        "expected_answer": "The minimum length of service is 3 months, with product criteria applying to the job. This category includes security and military apparatuses, Gendarmerie forces, Public Security, Armed Forces, Air Force, and General Intelligence.",
+        "audio_file": "wav/CARLOAN-Q136.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q162",
+        "question": "Does the customer receive a notification when the cashback amount reaches the loan vault?",
+        "expected_answer": "Yes, the customer receives an app notification every month when the cashback amount in their vault becomes available for withdrawal.",
+        "audio_file": "wav/PERSONALLOAN-Q162.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q054",
+        "question": "What is the validity period of the approval for postponing installments for an auto loan without salary transfer?",
+        "expected_answer": "The approval validity for postponing installments is 45 days.",
+        "audio_file": "wav/CARLOAN-Q054.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "HOUSING-Q134",
+        "question": "What is the required age to obtain a housing loan without salary transfer?",
+        "expected_answer": "The required age at granting ranges from 24 to 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+        "audio_file": "wav/HOUSING-Q134.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-007",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q144",
+        "question": "What is the minimum length of service for Social Security retirees to obtain an auto loan?",
+        "expected_answer": "Application is possible immediately upon retirement, without requiring any additional length of service.",
+        "audio_file": "wav/CARLOAN-Q144.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "HOUSING-Q154",
+        "question": "What is the maximum period for an apartment-purchase loan without salary transfer?",
+        "expected_answer": "The maximum loan period is 300 months.",
+        "audio_file": "wav/HOUSING-Q154.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "LOANSOVERVIEW-Q004",
+        "question": "What types of personal loans are available?",
+        "expected_answer": "Personal loans include: the personal loan, the personal loan for salaries less than 450 JOD, the instant loan against a credit card, the personal rewards loan, the personal loan against cash collaterals, and the personal loan against a real estate mortgage.",
+        "audio_file": "wav/LOANSOVERVIEW-Q004.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q016",
+        "question": "What is the minimum income for expatriates to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum income for expatriates is 2,000 JOD.",
+        "audio_file": "wav/CARLOAN-Q016.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q100",
+        "question": "What are the vehicle insurance requirements for a financed car with salary transfer?",
+        "expected_answer": "Comprehensive car insurance is required for not less than the loan value, for the first year only.",
+        "audio_file": "wav/CARLOAN-Q100.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PERSONALLOAN-Q142",
+        "question": "What is the Personal Rewards Loan?",
+        "expected_answer": "It is a personal loan that gives you cashback as long as you maintain paying your installments on time. After 6 months of commitment to timely repayment, the cashback percentage increases.",
+        "audio_file": "wav/PERSONALLOAN-Q142.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CARLOAN-Q094",
+        "question": "What is the financing ratio with salary transfer compared to without it?",
+        "expected_answer": "The financing ratio is 100% with salary transfer, and 80% without transfer and for all other sectors.",
+        "audio_file": "wav/CARLOAN-Q094.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "PERSONALLOAN-Q012",
+        "question": "What is the debt burden ratio when there is both a debtor and a guarantor for the personal loan?",
+        "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 70%.",
+        "audio_file": "wav/PERSONALLOAN-Q012.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PERSONALLOAN-Q122",
+        "question": "What is the minimum length of service for UN and affiliated international organizations employees?",
+        "expected_answer": "The minimum length of service is not less than one year, and the customer must be a participant in a provident fund or similar.",
+        "audio_file": "wav/PERSONALLOAN-Q122.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CARLOAN-Q024",
+        "question": "What are the minimum and maximum financing periods for an auto loan without salary transfer?",
+        "expected_answer": "The minimum financing period is 12 months, and the maximum is 8 years.",
+        "audio_file": "wav/CARLOAN-Q024.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-008",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q074",
+        "question": "What is the minimum net salary for other banks' employees?",
+        "expected_answer": "The minimum net salary is 1,000 JOD.",
+        "audio_file": "wav/CARLOAN-Q074.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q146",
+        "question": "What is the minimum length of service for confirmed employees of unapproved companies?",
+        "expected_answer": "The minimum length of service is 3 months, provided there is prior experience of not less than a year, and no gap in Social Security exceeding one month between the last job and the current job.",
+        "audio_file": "wav/CARLOAN-Q146.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q064",
+        "question": "What is the minimum net salary for expatriates to obtain an auto loan with salary transfer?",
+        "expected_answer": "The minimum net salary for expatriates is 2,000 JOD.",
+        "audio_file": "wav/CARLOAN-Q064.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CARLOAN-Q078",
+        "question": "What is the allowed debt burden for salaries greater than 2,500 JOD with salary transfer?",
+        "expected_answer": "55% for the loan only, plus 10% for the credit card for incomes above 2,500 JOD.",
+        "audio_file": "wav/CARLOAN-Q078.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "INSTANTLOAN-Q020",
+        "question": "Can a customer apply for and obtain the Instant Loan on public holidays?",
+        "expected_answer": "Yes, a customer can apply for the Instant Loan at any time, including public holidays.",
+        "audio_file": "wav/INSTANTLOAN-Q020.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PERSONALLOAN-Q102",
+        "question": "Who is included under the \"Freelance Businesses without Commercial Registers\" classification?",
+        "expected_answer": "This classification includes freelancers without commercial registers, such as social media influencers, technicians, and consultants.",
+        "audio_file": "wav/PERSONALLOAN-Q102.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "HOUSING-Q030",
+        "question": "What is the minimum period for a housing loan with salary transfer (Category 1)?",
+        "expected_answer": "The minimum loan period is 12 months.",
+        "audio_file": "wav/HOUSING-Q030.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "HOUSING-Q116",
+        "question": "When is a Social Security statement required when applying for a housing loan with salary transfer?",
+        "expected_answer": "A Social Security statement is required for customers whose employment period is less than a year at their company, excluding public sector employees.",
+        "audio_file": "wav/HOUSING-Q116.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q008",
+        "question": "What is the minimum length of service for professionals and self-employed individuals to obtain an auto loan without salary transfer?",
+        "expected_answer": "The minimum length of service is 1 year for those working inside Greater Amman Municipality, and 2 years for those working outside Greater Amman Municipality.",
+        "audio_file": "wav/CARLOAN-Q008.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "PERSONALLOAN-Q152",
+        "question": "Where can the cashback be seen and how can it be withdrawn?",
+        "expected_answer": "The cashback amount can be found in the loan vault on the app, and it can be withdrawn from the vault on the rewards page by transferring it to the account.",
+        "audio_file": "wav/PERSONALLOAN-Q152.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-009",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "LOANSOVERVIEW-Q002",
+        "question": "What types of loans does Bank al Etihad offer?",
+        "expected_answer": "Bank al Etihad offers four main types of loans: personal loans, real estate/housing loans, auto loans, and instant loans.",
+        "audio_file": "wav/LOANSOVERVIEW-Q002.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q062",
+        "question": "Which approved showrooms offer an 80% financing ratio without salary transfer?",
+        "expected_answer": "The approved showrooms for an 80% financing ratio are: Al-Sharif, Al-Qalam, Nahar Baghdad, Boursa Classic Car, Prestige, Al-Raed, Raymond Hanania, Sayarati, Karkar, Shadi Freij, Al-Rae', Auto House, Al-Tariq Al-Abyad, Royal, Imad Al-Mughaira, Barakat Al-Awamleh, Laith Jreisat, Malek Bani Omar, Al-Jilawi, Shuwaibith, Al-Balloura, Abu Ayman Al-Qimma, Al-Bustanji, Istanbouli, Moataz Jreisat, Smart City, Al-Obaidi, Abu Heikal, Al-Hadaf, Muqbil, Sayyartak, Al-Saqr, Al-Khubara', Al-Iqab, Al-Yaqout, Amigos, Al-Assaf, Al-Hadaeq, Number One, Al-Amin, Automall, Mohammad Gharib, Byblos, Al-Asriyya Auto Trade, Al-Alama Al-Dhahabiyya, Kakouri, Autocar, Nader Ghaith, 7th Gate, Ali Khreisat, Ghassan Al-Obaidi, Qteishat, Future Cars Co., Bilal Abu Al-Sheeh, Laith & Qusai, Al-Bakhit, Al-Deek, Adwan Al-Saleh, Mohammad Al-Assaf, Al-Jidi, Basman, Jawharat Al-Bakhit, Al-Husseini, Haidar, Al-Oteiwi, Abu Naser, and Razan.",
+        "audio_file": "wav/CARLOAN-Q062.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q138",
+        "question": "Which entities are classified as \"approved companies\" for the purposes of the auto loan with salary transfer?",
+        "expected_answer": "It includes all jobs at approved companies and UN-affiliated organizations.",
+        "audio_file": "wav/CARLOAN-Q138.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "INSTANTLOAN-Q002",
+        "question": "What is the Instant Loan?",
+        "expected_answer": "It is an instant personal loan for a segment of customers based on the followed product policies, allowing the customer to obtain it at any time through the Bank al Etihad app. The requested amount is deposited into their account immediately, without filling out any forms, signing applications, or waiting at the branch.",
+        "audio_file": "wav/INSTANTLOAN-Q002.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CARLOAN-Q122",
+        "question": "When is a Social Security statement required with salary transfer?",
+        "expected_answer": "A Social Security statement is required for customers with less than a year of employment at their company, excluding public sector employees.",
+        "audio_file": "wav/CARLOAN-Q122.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "PERSONALLOAN-Q032",
+        "question": "What is the personal loan amount for freelance businesses without commercial registers?",
+        "expected_answer": "The loan amount for freelance businesses without commercial registers ranges from 2,000 to 25,000 JOD.",
+        "audio_file": "wav/PERSONALLOAN-Q032.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "HOUSING-Q086",
+        "question": "What is the minimum and maximum length of service for Security and Military Apparatuses personnel in general for financing?",
+        "expected_answer": "The minimum is 3 years, and the maximum service limit is 25 years.",
+        "audio_file": "wav/HOUSING-Q086.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q088",
+        "question": "What is the granting commission for an auto loan with salary transfer?",
+        "expected_answer": "The granting commission is 1%.",
+        "audio_file": "wav/CARLOAN-Q088.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CARLOAN-Q128",
+        "question": "How are cars of Chinese origin bearing a non-Chinese global brand financed?",
+        "expected_answer": "They are financed under the same terms and features as non-Chinese cars, with examples including FORD, TOYOTA, and VW.",
+        "audio_file": "wav/CARLOAN-Q128.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "HOUSING-Q124",
+        "question": "What is the special condition for buying obligations of Security and Military Apparatuses from another bank?",
+        "expected_answer": "Except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary was transferred.",
+        "audio_file": "wav/HOUSING-Q124.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "LoansGeneralQA-en-010",
+    "subtopic": "Loan/Loans General QA",
+    "language": "en",
+    "turns": 10,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CARLOAN-Q076",
+        "question": "What is the allowed debt burden for salaries less than or equal to 2,500 JOD with salary transfer?",
+        "expected_answer": "55% for the loan only, plus 5% for the credit card for incomes below 2,500 JOD.",
+        "audio_file": "wav/CARLOAN-Q076.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CARLOAN-Q150",
+        "question": "What is the minimum length of service at the same company for public sector employees under the salary transfer program?",
+        "expected_answer": "The minimum length of service is 3 months, with product criteria applying to the job.",
+        "audio_file": "wav/CARLOAN-Q150.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CARLOAN-Q096",
+        "question": "Are salary transfer and Social Security subscription required to obtain the loan?",
+        "expected_answer": "Yes, salary transfer and Social Security subscription are required, except for professionals.",
+        "audio_file": "wav/CARLOAN-Q096.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "HOUSING-Q192",
+        "question": "What is the early settlement commission for the housing loan?",
+        "expected_answer": "The early settlement commission is 1% if more than a year remains until the end of the loan, and 0% if less than a year remains.",
+        "audio_file": "wav/HOUSING-Q192.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "INSTANTLOAN-Q010",
+        "question": "How is the Instant Loan amount credited?",
+        "expected_answer": "The loan amount is credited directly into the customer's account.",
+        "audio_file": "wav/INSTANTLOAN-Q010.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CARLOAN-Q082",
+        "question": "What is the general loan period for an auto loan with salary transfer?",
+        "expected_answer": "The loan period in general ranges from 12 to 96 months.",
+        "audio_file": "wav/CARLOAN-Q082.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "PERSONALLOAN-Q212",
+        "question": "What is the over-indebtedness ratio for the Personal Loan Against Real Estate Mortgage?",
+        "expected_answer": "The over-indebtedness ratio is 95%.",
+        "audio_file": "wav/PERSONALLOAN-Q212.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CARLOAN-Q072",
+        "question": "What is the minimum net salary for Central Bank and Citi Bank employees?",
+        "expected_answer": "The minimum net salary is 450 JOD.",
+        "audio_file": "wav/CARLOAN-Q072.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "PERSONALLOAN-Q082",
+        "question": "What is the minimum age for male early Social Security retirees?",
+        "expected_answer": "The male customer's age must not be less than 50 years for early Social Security retirement.",
+        "audio_file": "wav/PERSONALLOAN-Q082.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "HOUSING-Q020",
+        "question": "What is the minimum length of service for UN and affiliated international organizations employees to obtain a housing loan with salary transfer?",
+        "expected_answer": "The minimum length of service is not less than one year, and the customer must be a participant in a provident fund or similar.",
+        "audio_file": "wav/HOUSING-Q020.wav"
+      }
+    ]
+  }
+]

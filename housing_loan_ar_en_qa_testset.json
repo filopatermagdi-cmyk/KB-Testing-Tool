@@ -1,0 +1,3646 @@
+{
+  "chunks": [
+    {
+      "id": "chunk_001",
+      "text": "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+    },
+    {
+      "id": "chunk_002",
+      "text": "الحد الأدنى لصافي الراتب/الدخل (مع تحويل راتب): 450 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار. في حال الأجهزة الأمنية والعسكرية: 1,000 دينار مع عبء دين يقل عن 35%، و1,500 دينار مع عبء دين يقل عن 55%."
+    },
+    {
+      "id": "chunk_003",
+      "text": "مدة الخدمة (مع تحويل راتب) بشكل عام: 3 أشهر لسنتين."
+    },
+    {
+      "id": "chunk_004",
+      "text": "مدة الخدمة للقطاع العام (مع تحويل راتب): 3 أشهر أو مثبت، باستثناء المدرسين للقطاع العام المثبتين والخاضعين للضمان، والمتقاعدين عند تقاعدهم مباشرة."
+    },
+    {
+      "id": "chunk_005",
+      "text": "مدة الخدمة للشركات المعتمدة (مع تحويل راتب): 3 أشهر ومثبت."
+    },
+    {
+      "id": "chunk_006",
+      "text": "مدة الخدمة للشركات الغير معتمدة (مع تحويل راتب): 3 أشهر ومثبت، ووجود خبرات سابقة لا تقل عن سنة، وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية."
+    },
+    {
+      "id": "chunk_007",
+      "text": "مدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة (مع تحويل راتب): مدة الخدمة لا تقل عن سنة وأن يكون العميل مشتركاً بصندوق الادخار أو ما شابه ذلك."
+    },
+    {
+      "id": "chunk_008",
+      "text": "مدة الخدمة للأعمال الحرة/المهنيين/المغتربين (مع تحويل راتب): سنتين."
+    },
+    {
+      "id": "chunk_009",
+      "text": "عمولة منح (مع تحويل راتب، الفئة الأولى): 1%."
+    },
+    {
+      "id": "chunk_010",
+      "text": "عبء الدين (مع تحويل راتب، الفئة الأولى): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+    },
+    {
+      "id": "chunk_011",
+      "text": "الحد الأدنى لمدة القرض (مع تحويل راتب، الفئة الأولى): 12 شهر."
+    },
+    {
+      "id": "chunk_012",
+      "text": "الحد الأقصى لمدة القرض (مع تحويل راتب، الفئة الأولى): للأراضي: 96 شهر. للشقق: إذا التمويل أعلى من 80% تكون المدة 300 شهر، إذا التمويل لغاية 80% تكون المدة 360 شهر."
+    },
+    {
+      "id": "chunk_013",
+      "text": "الحد الأدنى لمبلغ القرض (مع تحويل راتب، الفئة الأولى): 15,000."
+    },
+    {
+      "id": "chunk_014",
+      "text": "الحد الأقصى لمبلغ القرض (مع تحويل راتب، الفئة الأولى): 1,000,000."
+    },
+    {
+      "id": "chunk_015",
+      "text": "هل يمكن رفع سقف القرض (مع تحويل راتب، الفئة الأولى): نعم."
+    },
+    {
+      "id": "chunk_016",
+      "text": "عبء الدين كمدين وكفيل (مع تحويل راتب، الفئة الأولى): 70%."
+    },
+    {
+      "id": "chunk_017",
+      "text": "عمر البناء (مع تحويل راتب، الفئة الأولى): أن لا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يظهر التخمين أنه بحالة جيدة، وبخلاف ذلك يتم الاعتماد على تخمين الأرض فقط."
+    },
+    {
+      "id": "chunk_018",
+      "text": "عمولة إعادة هيكلة (مع تحويل راتب، الفئة الأولى): 5 دنانير."
+    },
+    {
+      "id": "chunk_019",
+      "text": "نسبة التمويل (مع تحويل راتب، الفئة الأولى): من 30% إلى 100%."
+    },
+    {
+      "id": "chunk_020",
+      "text": "تفاصيل نسبة التمويل - شراء شقق جاهزة (مع تحويل راتب): لغاية 100% حسب الشروط، وللمهنيين وأصحاب الأعمال الحرة والمغتربين 80%."
+    },
+    {
+      "id": "chunk_021",
+      "text": "تفاصيل نسبة التمويل - شراء عقار إضافي (مع تحويل راتب): 80% حد أعلى."
+    },
+    {
+      "id": "chunk_022",
+      "text": "تفاصيل نسبة التمويل - شراء أراضي (مع تحويل راتب): 80% حد أعلى."
+    },
+    {
+      "id": "chunk_023",
+      "text": "تفاصيل نسبة التمويل - عقار لغاية الإجازة (مع تحويل راتب): 70% باستثناء أيلة لغاية 100%."
+    },
+    {
+      "id": "chunk_024",
+      "text": "تفاصيل نسبة التمويل - بناء (مع تحويل راتب): لغاية 100%."
+    },
+    {
+      "id": "chunk_025",
+      "text": "شراء قروض عقارية/سكنية من بنوك أخرى - الحد الأدنى لقيمة القرض 15,000، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 1,000 دينار."
+    },
+    {
+      "id": "chunk_026",
+      "text": "شراء قروض من بنوك أخرى - نسبة التمويل: حسب سياسة المنتج."
+    },
+    {
+      "id": "chunk_027",
+      "text": "شراء قروض من بنوك أخرى - ملتزم بالسداد ولا توجد أي مستحقة عليه عند تقديم الطلب."
+    },
+    {
+      "id": "chunk_028",
+      "text": "معايير المنح لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تمويل عمولة التسديد المبكر لدى البنك الآخر. يتم تسديد قيمة القرض مباشرة للبنك المقرض. باقي قيمة القرض تحول لحساب العميل بعد ورود تعهد تحويل الراتب من مكان عمل العميل وبراءة ذمة من البنك السابق. يتم صرف المبلغ المتبقي من القرض بعد سداد التزام البنك الآخر وقبل ورود أول راتب شريطة الحصول على براءة ذمة أصولية وتعهد تحويل راتب أصولي والتأكد من صحة الكتاب من الشركة عن طريق الفرع."
+    },
+    {
+      "id": "chunk_029",
+      "text": "الوثائق المطلوبة لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم). كشف حساب من البنك الآخر، وحسب مدة التزام وبحد أقصى 6 أشهر. تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الأخر. تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة الى تعهد تحويل أصولي. يتم تقديم ميزة cash out بمقدار 10% من قيمة القرض تكون جزء من رصيد القرض السكني المنوي منحه للعميل وبما لا يزيد عن 100% من نسبة التمويل وتودع في حساب العميل."
+    },
+    {
+      "id": "chunk_030",
+      "text": "تمويل حسب الوظائف - القطاع العام: موظفي الفئة الثالثة مستثنون ماعدا الذين تزيد مدة خدمتهم عن 3 سنوات. لا يمكن تمويل موظفي البلديات، عمال المياومة. لا يمكن تمويل موظفي مجالس الخدمات المشتركة."
+    },
+    {
+      "id": "chunk_031",
+      "text": "الأجهزة الأمنية والعسكرية: يمكن تمويل المستخدمين المدنيين لكافة الأجهزة الأمنية في حال كان يحمل رقم وظيفي مكون من 6 خانات وأن تكون الرتبة بدرجة."
+    },
+    {
+      "id": "chunk_032",
+      "text": "يمنع منح قروض لمن هم دون رتبة وكيل حتى وإن تم تحويل الراتب إلينا باستثناء قروض رفع السقف."
+    },
+    {
+      "id": "chunk_033",
+      "text": "يمنع منح قروض لمن هم دون رتبة وكيل إلا بتحويل اقتطاع وبمبالغ قروض محدودة والالتزام بالقسط المحدد بالقسيمة إن وجد."
+    },
+    {
+      "id": "chunk_034",
+      "text": "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+    },
+    {
+      "id": "chunk_035",
+      "text": "القطاع الخاص: لا يمكن تمويل المحامين. لا يمكن تمويل موظفي الأسواق التجارية الغير إداريين. لا يمكن تمويل موظفي شركات التمويل."
+    },
+    {
+      "id": "chunk_036",
+      "text": "المستندات المطلوبة: صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول. صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول."
+    },
+    {
+      "id": "chunk_037",
+      "text": "صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية/العسكرية، تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف)."
+    },
+    {
+      "id": "chunk_038",
+      "text": "شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور، وفي حال وجود أي حوافز يتم طلب قسيمة راتب لآخر 6 شهور (يجب أن تكون القسائم مختومة أو مروسة جهة العمل)."
+    },
+    {
+      "id": "chunk_039",
+      "text": "صورة عن عقد العمل لموظفي العقود."
+    },
+    {
+      "id": "chunk_040",
+      "text": "كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول."
+    },
+    {
+      "id": "chunk_041",
+      "text": "القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الأجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب إلينا."
+    },
+    {
+      "id": "chunk_042",
+      "text": "تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك."
+    },
+    {
+      "id": "chunk_043",
+      "text": "كشف الضمان الاجتماعي للعملاء الذين مدة عملهم أقل من سنة للشركات باستثناء موظفي القطاع العام."
+    },
+    {
+      "id": "chunk_044",
+      "text": "الوثائق المطلوبة في حال شراء الالتزامات: تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم) وحسب الأصول."
+    },
+    {
+      "id": "chunk_045",
+      "text": "الوثائق المطلوبة في حال شراء الالتزامات: كشف حساب من البنك الآخر وبحد أدنى 6 شهور."
+    },
+    {
+      "id": "chunk_046",
+      "text": "القطاع العام: تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الأخر."
+    },
+    {
+      "id": "chunk_047",
+      "text": "في حال شراء الالتزامات للأجهزة الأمنية والعسكرية عدا المخابرات والتقاعد المدني والعسكري والضمان الاجتماعي، يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلينا بعد سداد التزاماته لدى البنك الآخر المحول إليه الراتب."
+    },
+    {
+      "id": "chunk_048",
+      "text": "القطاع الخاص تعهد تحويل راتب مشروط وحسب الصيغة المعتمدة لدينا لحين استلام براءة الذمة من البنك الأخر."
+    },
+    {
+      "id": "chunk_049",
+      "text": "تزويدنا بما يفيد سداد السلف الداخلية أو أي جهات خارجية تم سداد التزامات العميل بها."
+    },
+    {
+      "id": "chunk_050",
+      "text": "تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة إلى تعهد تحويل راتب."
+    },
+    {
+      "id": "chunk_051",
+      "text": "أوراق العقار: عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء مبين به مراحل البناء من مخمن معتمد. إثبات دفع العميل الدفعة المقدمة لعملاء قروض تمويل البناء الجاهز. تخمين عقاري معتمد."
+    },
+    {
+      "id": "chunk_052",
+      "text": "الفئة 2: قرض سكني من غير تحويل راتب. العمر المطلوب: (24 إلى 65) سنة عند المنح و(75) سنة عند تسديد آخر قسط."
+    },
+    {
+      "id": "chunk_053",
+      "text": "الحد الأدنى لصافي الراتب/الدخل (من غير تحويل راتب): 600 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار."
+    },
+    {
+      "id": "chunk_054",
+      "text": "مدة الخدمة (من غير تحويل راتب): بشكل عام: سنة. الأعمال الحرة/المهنيين/المغتربين: سنتين."
+    },
+    {
+      "id": "chunk_055",
+      "text": "عمولة منح (من غير تحويل راتب): 1%."
+    },
+    {
+      "id": "chunk_056",
+      "text": "عبء الدين (من غير تحويل راتب): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+    },
+    {
+      "id": "chunk_057",
+      "text": "الحد الأدنى لمدة القرض (من غير تحويل راتب): 12 شهر."
+    },
+    {
+      "id": "chunk_058",
+      "text": "الحد الأقصى لمدة القرض (من غير تحويل راتب): للأراضي: 96 شهر. للشقق: 300 شهر."
+    },
+    {
+      "id": "chunk_059",
+      "text": "الحد الأدنى لمبلغ القرض (من غير تحويل راتب): 30,000 دينار."
+    },
+    {
+      "id": "chunk_060",
+      "text": "الحد الأقصى لمبلغ القرض (من غير تحويل راتب): 300,000 دينار."
+    },
+    {
+      "id": "chunk_061",
+      "text": "هل يمكن رفع سقف القرض (من غير تحويل راتب): نعم."
+    },
+    {
+      "id": "chunk_062",
+      "text": "عبء الدين كمدين وكفيل (من غير تحويل راتب): 70%."
+    },
+    {
+      "id": "chunk_063",
+      "text": "عمر البناء (من غير تحويل راتب): أن لا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يظهر التخمين أنه بحالة جيدة، وبخلاف ذلك يتم الاعتماد على تخمين الأرض فقط."
+    },
+    {
+      "id": "chunk_064",
+      "text": "عمولة إعادة هيكلة (من غير تحويل راتب): 5 دنانير."
+    },
+    {
+      "id": "chunk_065",
+      "text": "تفاصيل نسبة التمويل - شراء شقق جاهزة (من غير تحويل راتب): لغاية 70% حد أعلى."
+    },
+    {
+      "id": "chunk_066",
+      "text": "تفاصيل نسبة التمويل - شراء عقار إضافي (من غير تحويل راتب): 70% حد أعلى."
+    },
+    {
+      "id": "chunk_067",
+      "text": "تفاصيل نسبة التمويل - شراء أراضي (من غير تحويل راتب): 60% حد أعلى."
+    },
+    {
+      "id": "chunk_068",
+      "text": "تفاصيل نسبة التمويل - عقار لغاية الإجازة (من غير تحويل راتب): لا ينطبق."
+    },
+    {
+      "id": "chunk_069",
+      "text": "تفاصيل نسبة التمويل - بناء (من غير تحويل راتب): لا ينطبق."
+    },
+    {
+      "id": "chunk_070",
+      "text": "المستندات المطلوبة (من غير تحويل راتب): صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول. صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول."
+    },
+    {
+      "id": "chunk_071",
+      "text": "أوراق العقار (من غير تحويل راتب): عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء من مخمن معتمد. إثبات دفع الدفعة المقدمة لعملاء قروض البناء الجاهز. تخمين عقاري معتمد. يتم إيداع 80% من فرق التمويل بحساب العميل لدينا."
+    },
+    {
+      "id": "chunk_072",
+      "text": "تأجيل الدفعات (الفئة 3): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط."
+    },
+    {
+      "id": "chunk_073",
+      "text": "أنواع الممتلكات التي لا يمكن تمويلها: الممتلكات ذات الاستعمال المقيد قانونياً، كالأراضي الزراعية. شراء الأراضي لغايات الاستثمار. أية ممتلكات تخضع لقيود على إعادة بيعها أو تحد من قيمتها. الممتلكات التجارية، والممتلكات الصناعية، والممتلكات الأخرى دون الاستخدام السكني. التأكد من العلاقة التجارية بين البائع والمشتري (يمنع تمويل الشراء من أقارب من الدرجة الأولى)."
+    },
+    {
+      "id": "chunk_074",
+      "text": "شروط الاعفاء من عمولة المنح وتحمل البنك مصاريف الرهن: مبلغ القرض 40,000 فما فوق. أن لا تقل مدة القرض عن 10 سنوات. التزام العميل مع البنك 5 سنوات. عملاء الرواتب شريطة تحويل الراتب."
+    },
+    {
+      "id": "chunk_075",
+      "text": "التأمين على الحياة: تأمين على حياة المدين مجاناً."
+    },
+    {
+      "id": "chunk_076",
+      "text": "عمولة السداد المبكر: 1% في حال بقي أكثر من سنة على انتهاء القرض. 0% في حال تبقى أقل من سنة على انتهاء القرض."
+    },
+    {
+      "id": "chunk_077",
+      "text": "الفئة 4: قرض متناقص مقابل رهن عقار. هو قرض شخصي مقابل رهن عقاري (يجب على العميل أن يكون متطابقاً مع سياسة القرض الشخصي)."
+    },
+    {
+      "id": "chunk_078",
+      "text": "الإجراءات: تمويل 60% في حال رهن شقة. المدة (12-96) شهر، الاقتراض (25,000 - 150,000) دينار أردني، عبء الدين 55%."
+    },
+    {
+      "id": "chunk_079",
+      "text": "الإجراءات: تمويل 50% في حال رهن أراضي. المدة (12-96) شهر، الاقتراض (25,000 - 150,000) دينار أردني، عبء الدين 55%."
+    },
+    {
+      "id": "chunk_080",
+      "text": "متطلبات القرض المتناقص مقابل رهن عقار: تخمين عقاري، بحسب سياسة التخمين العقاري."
+    },
+    {
+      "id": "chunk_001_en",
+      "text": "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+    },
+    {
+      "id": "chunk_002_en",
+      "text": "Minimum net salary/income (with salary transfer): 450 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD. In the case of Security and Military Apparatuses: 1,000 JOD with a debt burden of less than 35%, and 1,500 JOD with a debt burden of less than 55%."
+    },
+    {
+      "id": "chunk_003_en",
+      "text": "Length of service (with salary transfer) in general: 3 months to two years."
+    },
+    {
+      "id": "chunk_004_en",
+      "text": "Length of service, Public Sector (with salary transfer): 3 months or confirmed, excluding confirmed public sector teachers subject to Social Security, and retirees immediately upon retirement."
+    },
+    {
+      "id": "chunk_005_en",
+      "text": "Length of service, Approved companies (with salary transfer): 3 months and confirmed."
+    },
+    {
+      "id": "chunk_006_en",
+      "text": "Length of service, Unapproved companies (with salary transfer): 3 months and confirmed, with previous experience of not less than one year, and no interruption in Social Security for more than a month between the last job and the current job."
+    },
+    {
+      "id": "chunk_007_en",
+      "text": "Length of service, UN and affiliated international organizations employees (with salary transfer): Length of service is not less than one year and the customer must be a participant in a provident fund or similar."
+    },
+    {
+      "id": "chunk_008_en",
+      "text": "Length of service, Self-employed/Professionals/Expatriates (with salary transfer): Two years."
+    },
+    {
+      "id": "chunk_009_en",
+      "text": "Granting commission (with salary transfer, Category 1): 1%"
+    },
+    {
+      "id": "chunk_010_en",
+      "text": "Debt burden (with salary transfer, Category 1): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+    },
+    {
+      "id": "chunk_011_en",
+      "text": "Minimum loan period (with salary transfer, Category 1): 12 months."
+    },
+    {
+      "id": "chunk_012_en",
+      "text": "Maximum loan period (with salary transfer, Category 1): For lands: 96 months. For apartments: If the financing is higher than 80%, the period is up to 300 months; if the financing is up to 80%, the period is 360 months."
+    },
+    {
+      "id": "chunk_013_en",
+      "text": "Minimum loan amount (with salary transfer, Category 1): 15,000."
+    },
+    {
+      "id": "chunk_014_en",
+      "text": "Maximum loan amount (with salary transfer, Category 1): 1,000,000."
+    },
+    {
+      "id": "chunk_015_en",
+      "text": "Can the loan ceiling be raised (with salary transfer, Category 1): Yes."
+    },
+    {
+      "id": "chunk_016_en",
+      "text": "Debt burden as a debtor and guarantor (with salary transfer, Category 1): 70%."
+    },
+    {
+      "id": "chunk_017_en",
+      "text": "Property age (with salary transfer, Category 1): The age of the building must not exceed 20 years upon requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only."
+    },
+    {
+      "id": "chunk_018_en",
+      "text": "Restructuring commission (with salary transfer, Category 1): 5 JOD."
+    },
+    {
+      "id": "chunk_019_en",
+      "text": "Financing ratio (with salary transfer, Category 1): from 30% to 100%."
+    },
+    {
+      "id": "chunk_020_en",
+      "text": "Financing ratio details - Buying ready apartments (with salary transfer): Up to 100% according to conditions, and 80% for professionals, self-employed, and expatriates."
+    },
+    {
+      "id": "chunk_021_en",
+      "text": "Financing ratio details - Buying additional property (with salary transfer): 80% maximum limit."
+    },
+    {
+      "id": "chunk_022_en",
+      "text": "Financing ratio details - Buying lands (with salary transfer): 80% maximum limit."
+    },
+    {
+      "id": "chunk_023_en",
+      "text": "Financing ratio details - Vacation property (with salary transfer): 70% except for Ayla up to 100%."
+    },
+    {
+      "id": "chunk_024_en",
+      "text": "Financing ratio details - Construction (with salary transfer): Up to 100%."
+    },
+    {
+      "id": "chunk_025_en",
+      "text": "Buying Mortgage/housing loans from other banks - The minimum loan value is 15,000, provided that the remaining amount for the customer after paying obligations is not less than 1,000 JOD."
+    },
+    {
+      "id": "chunk_026_en",
+      "text": "Buying loans from other banks - Financing ratio: According to product policy."
+    },
+    {
+      "id": "chunk_027_en",
+      "text": "Buying loans from other banks - Committed to repayment and there are no dues on them upon submitting the application."
+    },
+    {
+      "id": "chunk_028_en",
+      "text": "Granting criteria for buying loans from other banks: According to the applicable program. Financing the early settlement commission at the other bank. The loan value is paid directly to the lending bank. The remaining loan value is transferred to the customer's account after receiving a salary transfer commitment from the customer's workplace and a clearance certificate from the previous bank. The remaining loan amount is disbursed after settling the other bank's obligation and before the arrival of the first salary, provided obtaining a formal clearance certificate, a formal salary transfer commitment, and verifying the authenticity of the letter from the company through the branch."
+    },
+    {
+      "id": "chunk_029_en",
+      "text": "Required documents for buying loans from other banks: According to the applicable program. Providing the bank with a recent obligations certificate (not exceeding 30 days). Account statement from the other bank, according to the commitment period and for a maximum of 6 months. Conditional salary transfer commitment until receiving the clearance from the other bank. Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a formal transfer commitment. A cash-out feature of 10% of the loan value is provided, which will be part of the intended housing loan balance granted to the customer, not exceeding 100% of the financing ratio, and deposited into the customer's account."
+    },
+    {
+      "id": "chunk_030_en",
+      "text": "Financing according to jobs - Public Sector: Third-category employees are excluded, except for those whose service period exceeds 3 years. Municipality employees and day laborers cannot be financed. Joint Services Councils employees cannot be financed."
+    },
+    {
+      "id": "chunk_031_en",
+      "text": "Security and Military Apparatuses: Civilian employees of all security apparatuses can be financed if they carry a 6-digit job number and hold a ranked grade."
+    },
+    {
+      "id": "chunk_032_en",
+      "text": "Loans are prohibited for those below the rank of Warrant Officer (Wakil), even if the salary is transferred to us, except for loan ceiling increase loans."
+    },
+    {
+      "id": "chunk_033_en",
+      "text": "Loans are prohibited for those below the rank of Warrant Officer (Wakil) except by transferring a deduction, with limited loan amounts, and commitment to the specified installment on the payslip if any."
+    },
+    {
+      "id": "chunk_034_en",
+      "text": "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+    },
+    {
+      "id": "chunk_035_en",
+      "text": "Private Sector: Lawyers cannot be financed. Non-administrative commercial market employees cannot be financed. Financing company employees cannot be financed."
+    },
+    {
+      "id": "chunk_036_en",
+      "text": "Required Documents: A true copy of a valid identification document. (A copy of a valid residency document (for non-Jordanians) in addition to a valid passport)."
+    },
+    {
+      "id": "chunk_037_en",
+      "text": "A true copy of a valid identification document (Civil/Military ID, recording Intelligence ID information on the loan application and the employee's signature)."
+    },
+    {
+      "id": "chunk_038_en",
+      "text": "Original salary certificate/payslip for the last three months, and in case of any incentives, a payslip for the last 6 months is requested (the payslip must be stamped or on the employer's letterhead)."
+    },
+    {
+      "id": "chunk_039_en",
+      "text": "A copy of the employment contract for contract employees."
+    },
+    {
+      "id": "chunk_040_en",
+      "text": "A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary), duly certified."
+    },
+    {
+      "id": "chunk_041_en",
+      "text": "Public Sector: Salary transfer commitment according to their approved format, except for Security and Military apparatuses (a payslip stating the salary transfer to us)."
+    },
+    {
+      "id": "chunk_042_en",
+      "text": "A formal salary transfer commitment, according to the bank's approved format."
+    },
+    {
+      "id": "chunk_043_en",
+      "text": "Social Security statement for customers whose employment period is less than a year for companies, excluding public sector employees."
+    },
+    {
+      "id": "chunk_044_en",
+      "text": "Required documents in case of buying obligations: Providing the bank with a recent obligations certificate (not exceeding 30 days) and duly certified."
+    },
+    {
+      "id": "chunk_045_en",
+      "text": "Required documents in case of buying obligations: Account statement from the other bank for a minimum of 6 months."
+    },
+    {
+      "id": "chunk_046_en",
+      "text": "Public Sector: Conditional salary transfer commitment until receiving the clearance from the other bank."
+    },
+    {
+      "id": "chunk_047_en",
+      "text": "In case of buying obligations for Security and Military Apparatuses, except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary is transferred."
+    },
+    {
+      "id": "chunk_048_en",
+      "text": "Private Sector: Conditional salary transfer commitment according to our approved format until receiving the clearance from the other bank."
+    },
+    {
+      "id": "chunk_049_en",
+      "text": "Providing us with proof of payment of internal advances or any external parties where the customer's obligations were paid."
+    },
+    {
+      "id": "chunk_050_en",
+      "text": "Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a salary transfer commitment."
+    },
+    {
+      "id": "chunk_051_en",
+      "text": "Property Papers: Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal."
+    },
+    {
+      "id": "chunk_052_en",
+      "text": "Category 2: Housing loan without salary transfer. Required Age: (24 to 65) years at the time of granting and (75) years at the settlement of the last installment."
+    },
+    {
+      "id": "chunk_053_en",
+      "text": "Minimum net salary/income (without salary transfer): 600 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD."
+    },
+    {
+      "id": "chunk_054_en",
+      "text": "Length of service (without salary transfer): In general: One year. Self-employed/Professionals/Expatriates: Two years."
+    },
+    {
+      "id": "chunk_055_en",
+      "text": "Granting commission (without salary transfer): 1%"
+    },
+    {
+      "id": "chunk_056_en",
+      "text": "Debt burden (without salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+    },
+    {
+      "id": "chunk_057_en",
+      "text": "Minimum loan period (without salary transfer): 12 months."
+    },
+    {
+      "id": "chunk_058_en",
+      "text": "Maximum loan period (without salary transfer): For lands: 96 months. For apartments: 300 months."
+    },
+    {
+      "id": "chunk_059_en",
+      "text": "Minimum loan amount (without salary transfer): 30,000 JOD."
+    },
+    {
+      "id": "chunk_060_en",
+      "text": "Maximum loan amount (without salary transfer): 300,000 JOD."
+    },
+    {
+      "id": "chunk_061_en",
+      "text": "Can the loan ceiling be raised (without salary transfer): Yes."
+    },
+    {
+      "id": "chunk_062_en",
+      "text": "Debt burden as a debtor and guarantor (without salary transfer): 70%."
+    },
+    {
+      "id": "chunk_063_en",
+      "text": "Property age (without salary transfer): The age of the building must not exceed 20 years upon requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only."
+    },
+    {
+      "id": "chunk_064_en",
+      "text": "Restructuring commission (without salary transfer): 5 JOD."
+    },
+    {
+      "id": "chunk_065_en",
+      "text": "Financing ratio details - Buying ready apartments (without salary transfer): Up to 70% maximum limit."
+    },
+    {
+      "id": "chunk_066_en",
+      "text": "Financing ratio details - Buying additional property (without salary transfer): 70% maximum limit."
+    },
+    {
+      "id": "chunk_067_en",
+      "text": "Financing ratio details - Buying lands (without salary transfer): 60% maximum limit."
+    },
+    {
+      "id": "chunk_068_en",
+      "text": "Financing ratio details - Vacation property (without salary transfer): Not applicable."
+    },
+    {
+      "id": "chunk_069_en",
+      "text": "Financing ratio details - Construction (without salary transfer): Not applicable."
+    },
+    {
+      "id": "chunk_070_en",
+      "text": "Required Documents (without salary transfer): A true copy of a valid identification document. A copy of a valid residency document (for non-Jordanians) in addition to a valid passport."
+    },
+    {
+      "id": "chunk_071_en",
+      "text": "Property Papers (without salary transfer): Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal. 80% of the financing difference is deposited in the customer's account with us."
+    },
+    {
+      "id": "chunk_072_en",
+      "text": "Postponement of Installments (Category 3): Postponing only two installments is allowed during the year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment and there are no dues on them (more than 30 days) during the previous 6 months. Not exceeding the maximum age limit for the customer upon the due date of the last installment. Deduction customers are not allowed to postpone installments."
+    },
+    {
+      "id": "chunk_073_en",
+      "text": "Types of properties that cannot be financed: Properties with legally restricted use, for example, lands designated for agricultural purposes. Buying lands for investment purposes. Any properties subject to restrictions on resale or that limit their value. Commercial properties, industrial properties, and other properties without residential use. Ensuring the commercial relationship between the seller and buyer (financing purchases from first-degree relatives is prohibited)."
+    },
+    {
+      "id": "chunk_074_en",
+      "text": "Conditions for exemption from granting commission and the bank bearing mortgage expenses: Loan amount of 40,000 and above. The loan period is not less than 10 years. The customer's commitment with the bank for 5 years. Salary customers provided salary transfer."
+    },
+    {
+      "id": "chunk_075_en",
+      "text": "Life Insurance: Free life insurance for the debtor."
+    },
+    {
+      "id": "chunk_076_en",
+      "text": "Early Settlement Commission: 1% if more than a year remains until the end of the loan. 0% if less than a year remains until the end of the loan."
+    },
+    {
+      "id": "chunk_077_en",
+      "text": "Category 4: Declining loan against a property mortgage. It is a personal loan against a Property mortgage (the customer must comply with the personal loan policy)."
+    },
+    {
+      "id": "chunk_078_en",
+      "text": "Procedures: 60% financing in case of an apartment mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+    },
+    {
+      "id": "chunk_079_en",
+      "text": "Procedures: 50% financing in case of land mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+    },
+    {
+      "id": "chunk_080_en",
+      "text": "Requirements: Property appraisal, according to the property appraisal policy."
+    }
+  ],
+  "questions": [
+    {
+      "id": "HOUSING-Q001",
+      "pair_id": "HOUSING-P001",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد العمري المطلوب للحصول على قرض سكني مع تحويل راتب بشكل عام؟",
+      "expected_answer": "يتراوح العمر المطلوب عند المنح بين 22 و65 سنة بشكل عام، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+      "source_chunks": [
+        "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+      ],
+      "chunk_ids": [
+        "chunk_001"
+      ]
+    },
+    {
+      "id": "HOUSING-Q002",
+      "pair_id": "HOUSING-P001",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the required age to obtain a housing loan with salary transfer in general?",
+      "expected_answer": "The required age at granting is generally between 22 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+      "source_chunks": [
+        "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+      ],
+      "chunk_ids": [
+        "chunk_001_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q003",
+      "pair_id": "HOUSING-P002",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد العمري المطلوب للمهنيين وأصحاب الأعمال الحرة للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "يتراوح العمر المطلوب عند المنح للمهنيين وأصحاب الأعمال الحرة بين 26 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+      "source_chunks": [
+        "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+      ],
+      "chunk_ids": [
+        "chunk_001"
+      ]
+    },
+    {
+      "id": "HOUSING-Q004",
+      "pair_id": "HOUSING-P002",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the required age for professionals and self-employed individuals to obtain a housing loan with salary transfer?",
+      "expected_answer": "The required age at granting for professionals and self-employed individuals is between 26 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+      "source_chunks": [
+        "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+      ],
+      "chunk_ids": [
+        "chunk_001_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q005",
+      "pair_id": "HOUSING-P003",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لصافي الراتب/الدخل بشكل عام للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لصافي الراتب/الدخل بشكل عام هو 450 دينار.",
+      "source_chunks": [
+        "الحد الأدنى لصافي الراتب/الدخل (مع تحويل راتب): 450 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار. في حال الأجهزة الأمنية والعسكرية: 1,000 دينار مع عبء دين يقل عن 35%، و1,500 دينار مع عبء دين يقل عن 55%."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "HOUSING-Q006",
+      "pair_id": "HOUSING-P003",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum net salary/income in general to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum net salary/income in general is 450 JOD.",
+      "source_chunks": [
+        "Minimum net salary/income (with salary transfer): 450 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD. In the case of Security and Military Apparatuses: 1,000 JOD with a debt burden of less than 35%, and 1,500 JOD with a debt burden of less than 55%."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q007",
+      "pair_id": "HOUSING-P004",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لصافي الدخل لأصحاب الأعمال الحرة والمهنيين والمغتربين للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لصافي الدخل لأصحاب الأعمال الحرة والمهنيين والمغتربين هو 2,000 دينار.",
+      "source_chunks": [
+        "الحد الأدنى لصافي الراتب/الدخل (مع تحويل راتب): 450 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار. في حال الأجهزة الأمنية والعسكرية: 1,000 دينار مع عبء دين يقل عن 35%، و1,500 دينار مع عبء دين يقل عن 55%."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "HOUSING-Q008",
+      "pair_id": "HOUSING-P004",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum net income for self-employed individuals, professionals, and expatriates to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum net income for self-employed individuals, professionals, and expatriates is 2,000 JOD.",
+      "source_chunks": [
+        "Minimum net salary/income (with salary transfer): 450 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD. In the case of Security and Military Apparatuses: 1,000 JOD with a debt burden of less than 35%, and 1,500 JOD with a debt burden of less than 55%."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q009",
+      "pair_id": "HOUSING-P005",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لصافي الدخل للعاملين في الأجهزة الأمنية والعسكرية للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لصافي الدخل للعاملين في الأجهزة الأمنية والعسكرية هو 1,000 دينار بشرط أن يقل عبء الدين عن 35%، أو 1,500 دينار بشرط أن يقل عبء الدين عن 55%.",
+      "source_chunks": [
+        "الحد الأدنى لصافي الراتب/الدخل (مع تحويل راتب): 450 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار. في حال الأجهزة الأمنية والعسكرية: 1,000 دينار مع عبء دين يقل عن 35%، و1,500 دينار مع عبء دين يقل عن 55%."
+      ],
+      "chunk_ids": [
+        "chunk_002"
+      ]
+    },
+    {
+      "id": "HOUSING-Q010",
+      "pair_id": "HOUSING-P005",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum net income for Security and Military Apparatuses personnel to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum net income for Security and Military Apparatuses personnel is 1,000 JOD with a debt burden of less than 35%, or 1,500 JOD with a debt burden of less than 55%.",
+      "source_chunks": [
+        "Minimum net salary/income (with salary transfer): 450 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD. In the case of Security and Military Apparatuses: 1,000 JOD with a debt burden of less than 35%, and 1,500 JOD with a debt burden of less than 55%."
+      ],
+      "chunk_ids": [
+        "chunk_002_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q011",
+      "pair_id": "HOUSING-P006",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة بشكل عام للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة بشكل عام يتراوح بين 3 أشهر وسنتين.",
+      "source_chunks": [
+        "مدة الخدمة (مع تحويل راتب) بشكل عام: 3 أشهر لسنتين."
+      ],
+      "chunk_ids": [
+        "chunk_003"
+      ]
+    },
+    {
+      "id": "HOUSING-Q012",
+      "pair_id": "HOUSING-P006",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service in general to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum length of service in general ranges from 3 months to two years.",
+      "source_chunks": [
+        "Length of service (with salary transfer) in general: 3 months to two years."
+      ],
+      "chunk_ids": [
+        "chunk_003_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q013",
+      "pair_id": "HOUSING-P007",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي القطاع العام للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر أو أن يكون الموظف مثبتاً، باستثناء المدرسين المثبتين في القطاع العام الخاضعين للضمان الاجتماعي، والمتقاعدين الذين يمكنهم التقديم فور التقاعد مباشرة.",
+      "source_chunks": [
+        "مدة الخدمة للقطاع العام (مع تحويل راتب): 3 أشهر أو مثبت، باستثناء المدرسين للقطاع العام المثبتين والخاضعين للضمان، والمتقاعدين عند تقاعدهم مباشرة."
+      ],
+      "chunk_ids": [
+        "chunk_004"
+      ]
+    },
+    {
+      "id": "HOUSING-Q014",
+      "pair_id": "HOUSING-P007",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for public sector employees to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum length of service is 3 months or being confirmed, excluding confirmed public sector teachers subject to Social Security, and retirees who can apply immediately upon retirement.",
+      "source_chunks": [
+        "Length of service, Public Sector (with salary transfer): 3 months or confirmed, excluding confirmed public sector teachers subject to Social Security, and retirees immediately upon retirement."
+      ],
+      "chunk_ids": [
+        "chunk_004_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q015",
+      "pair_id": "HOUSING-P008",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات المعتمدة للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر مع كون الموظف مثبتاً.",
+      "source_chunks": [
+        "مدة الخدمة للشركات المعتمدة (مع تحويل راتب): 3 أشهر ومثبت."
+      ],
+      "chunk_ids": [
+        "chunk_005"
+      ]
+    },
+    {
+      "id": "HOUSING-Q016",
+      "pair_id": "HOUSING-P008",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for employees of approved companies to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum length of service is 3 months and the employee must be confirmed.",
+      "source_chunks": [
+        "Length of service, Approved companies (with salary transfer): 3 months and confirmed."
+      ],
+      "chunk_ids": [
+        "chunk_005_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q017",
+      "pair_id": "HOUSING-P009",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الشركات غير المعتمدة للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة 3 أشهر مع كون الموظف مثبتاً، بشرط وجود خبرة سابقة لا تقل عن سنة وعدم وجود انقطاع في الضمان الاجتماعي لأكثر من شهر بين الوظيفة السابقة والحالية.",
+      "source_chunks": [
+        "مدة الخدمة للشركات الغير معتمدة (مع تحويل راتب): 3 أشهر ومثبت، ووجود خبرات سابقة لا تقل عن سنة، وعدم وجود انقطاع بالضمان الاجتماعي أكثر من شهر بين آخر وظيفة والوظيفة الحالية."
+      ],
+      "chunk_ids": [
+        "chunk_006"
+      ]
+    },
+    {
+      "id": "HOUSING-Q018",
+      "pair_id": "HOUSING-P009",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for employees of unapproved companies to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum length of service is 3 months and the employee must be confirmed, provided there is prior experience of not less than a year and no interruption in Social Security exceeding one month between the last job and the current job.",
+      "source_chunks": [
+        "Length of service, Unapproved companies (with salary transfer): 3 months and confirmed, with previous experience of not less than one year, and no interruption in Social Security for more than a month between the last job and the current job."
+      ],
+      "chunk_ids": [
+        "chunk_006_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q019",
+      "pair_id": "HOUSING-P010",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة لا تقل عن سنة، بشرط أن يكون العميل مشتركاً في صندوق ادخار أو ما شابه.",
+      "source_chunks": [
+        "مدة الخدمة لموظفي الأمم المتحدة والهيئات الدولية التابعة (مع تحويل راتب): مدة الخدمة لا تقل عن سنة وأن يكون العميل مشتركاً بصندوق الادخار أو ما شابه ذلك."
+      ],
+      "chunk_ids": [
+        "chunk_007"
+      ]
+    },
+    {
+      "id": "HOUSING-Q020",
+      "pair_id": "HOUSING-P010",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for UN and affiliated international organizations employees to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum length of service is not less than one year, and the customer must be a participant in a provident fund or similar.",
+      "source_chunks": [
+        "Length of service, UN and affiliated international organizations employees (with salary transfer): Length of service is not less than one year and the customer must be a participant in a provident fund or similar."
+      ],
+      "chunk_ids": [
+        "chunk_007_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q021",
+      "pair_id": "HOUSING-P011",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لأصحاب الأعمال الحرة والمهنيين والمغتربين للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة سنتان.",
+      "source_chunks": [
+        "مدة الخدمة للأعمال الحرة/المهنيين/المغتربين (مع تحويل راتب): سنتين."
+      ],
+      "chunk_ids": [
+        "chunk_008"
+      ]
+    },
+    {
+      "id": "HOUSING-Q022",
+      "pair_id": "HOUSING-P011",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for self-employed individuals, professionals, and expatriates to obtain a housing loan with salary transfer?",
+      "expected_answer": "The minimum length of service is two years.",
+      "source_chunks": [
+        "Length of service, Self-employed/Professionals/Expatriates (with salary transfer): Two years."
+      ],
+      "chunk_ids": [
+        "chunk_008_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q023",
+      "pair_id": "HOUSING-P012",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "كم تبلغ عمولة المنح لقرض سكني مع تحويل راتب (الفئة الأولى)؟",
+      "expected_answer": "تبلغ عمولة المنح 1%.",
+      "source_chunks": [
+        "عمولة منح (مع تحويل راتب، الفئة الأولى): 1%."
+      ],
+      "chunk_ids": [
+        "chunk_009"
+      ]
+    },
+    {
+      "id": "HOUSING-Q024",
+      "pair_id": "HOUSING-P012",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the granting commission for a housing loan with salary transfer (Category 1)?",
+      "expected_answer": "The granting commission is 1%.",
+      "source_chunks": [
+        "Granting commission (with salary transfer, Category 1): 1%"
+      ],
+      "chunk_ids": [
+        "chunk_009_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q025",
+      "pair_id": "HOUSING-P013",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة عبء الدين للرواتب الأقل من أو تساوي 2,500 دينار لقرض سكني مع تحويل راتب؟",
+      "expected_answer": "55% للقرض فقط، بالإضافة إلى 5% للبطاقة لأصحاب الدخل الأقل من 2,500 دينار.",
+      "source_chunks": [
+        "عبء الدين (مع تحويل راتب، الفئة الأولى): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_010"
+      ]
+    },
+    {
+      "id": "HOUSING-Q026",
+      "pair_id": "HOUSING-P013",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the debt burden for salaries less than or equal to 2,500 JOD for a housing loan with salary transfer?",
+      "expected_answer": "55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD.",
+      "source_chunks": [
+        "Debt burden (with salary transfer, Category 1): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_010_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q027",
+      "pair_id": "HOUSING-P014",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة عبء الدين للرواتب الأكبر من 2,500 دينار لقرض سكني مع تحويل راتب؟",
+      "expected_answer": "55% للقرض فقط، بالإضافة إلى 10% للبطاقة لأصحاب الدخل الأعلى من 2,500 دينار.",
+      "source_chunks": [
+        "عبء الدين (مع تحويل راتب، الفئة الأولى): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_010"
+      ]
+    },
+    {
+      "id": "HOUSING-Q028",
+      "pair_id": "HOUSING-P014",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the debt burden for salaries greater than 2,500 JOD for a housing loan with salary transfer?",
+      "expected_answer": "55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD.",
+      "source_chunks": [
+        "Debt burden (with salary transfer, Category 1): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_010_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q029",
+      "pair_id": "HOUSING-P015",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة القرض السكني مع تحويل راتب (الفئة الأولى)؟",
+      "expected_answer": "الحد الأدنى لمدة القرض 12 شهراً.",
+      "source_chunks": [
+        "الحد الأدنى لمدة القرض (مع تحويل راتب، الفئة الأولى): 12 شهر."
+      ],
+      "chunk_ids": [
+        "chunk_011"
+      ]
+    },
+    {
+      "id": "HOUSING-Q030",
+      "pair_id": "HOUSING-P015",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum period for a housing loan with salary transfer (Category 1)?",
+      "expected_answer": "The minimum loan period is 12 months.",
+      "source_chunks": [
+        "Minimum loan period (with salary transfer, Category 1): 12 months."
+      ],
+      "chunk_ids": [
+        "chunk_011_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q031",
+      "pair_id": "HOUSING-P016",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لمدة قرض شراء الأراضي مع تحويل راتب؟",
+      "expected_answer": "الحد الأقصى لمدة القرض 96 شهراً.",
+      "source_chunks": [
+        "الحد الأقصى لمدة القرض (مع تحويل راتب، الفئة الأولى): للأراضي: 96 شهر. للشقق: إذا التمويل أعلى من 80% تكون المدة 300 شهر، إذا التمويل لغاية 80% تكون المدة 360 شهر."
+      ],
+      "chunk_ids": [
+        "chunk_012"
+      ]
+    },
+    {
+      "id": "HOUSING-Q032",
+      "pair_id": "HOUSING-P016",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum period for a land-purchase loan with salary transfer?",
+      "expected_answer": "The maximum loan period is 96 months.",
+      "source_chunks": [
+        "Maximum loan period (with salary transfer, Category 1): For lands: 96 months. For apartments: If the financing is higher than 80%, the period is up to 300 months; if the financing is up to 80%, the period is 360 months."
+      ],
+      "chunk_ids": [
+        "chunk_012_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q033",
+      "pair_id": "HOUSING-P017",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لمدة قرض شراء الشقق مع تحويل راتب؟",
+      "expected_answer": "إذا كانت نسبة التمويل أعلى من 80% فالحد الأقصى للمدة 300 شهر، وإذا كانت نسبة التمويل حتى 80% فالحد الأقصى للمدة 360 شهراً.",
+      "source_chunks": [
+        "الحد الأقصى لمدة القرض (مع تحويل راتب، الفئة الأولى): للأراضي: 96 شهر. للشقق: إذا التمويل أعلى من 80% تكون المدة 300 شهر، إذا التمويل لغاية 80% تكون المدة 360 شهر."
+      ],
+      "chunk_ids": [
+        "chunk_012"
+      ]
+    },
+    {
+      "id": "HOUSING-Q034",
+      "pair_id": "HOUSING-P017",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum period for an apartment-purchase loan with salary transfer?",
+      "expected_answer": "If the financing ratio is higher than 80%, the maximum period is 300 months; if the financing ratio is up to 80%, the maximum period is 360 months.",
+      "source_chunks": [
+        "Maximum loan period (with salary transfer, Category 1): For lands: 96 months. For apartments: If the financing is higher than 80%, the period is up to 300 months; if the financing is up to 80%, the period is 360 months."
+      ],
+      "chunk_ids": [
+        "chunk_012_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q035",
+      "pair_id": "HOUSING-P018",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمبلغ القرض السكني مع تحويل راتب (الفئة الأولى)؟",
+      "expected_answer": "الحد الأدنى لمبلغ القرض 15,000.",
+      "source_chunks": [
+        "الحد الأدنى لمبلغ القرض (مع تحويل راتب، الفئة الأولى): 15,000."
+      ],
+      "chunk_ids": [
+        "chunk_013"
+      ]
+    },
+    {
+      "id": "HOUSING-Q036",
+      "pair_id": "HOUSING-P018",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum amount for a housing loan with salary transfer (Category 1)?",
+      "expected_answer": "The minimum loan amount is 15,000.",
+      "source_chunks": [
+        "Minimum loan amount (with salary transfer, Category 1): 15,000."
+      ],
+      "chunk_ids": [
+        "chunk_013_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q037",
+      "pair_id": "HOUSING-P019",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لمبلغ القرض السكني مع تحويل راتب (الفئة الأولى)؟",
+      "expected_answer": "الحد الأقصى لمبلغ القرض 1,000,000.",
+      "source_chunks": [
+        "الحد الأقصى لمبلغ القرض (مع تحويل راتب، الفئة الأولى): 1,000,000."
+      ],
+      "chunk_ids": [
+        "chunk_014"
+      ]
+    },
+    {
+      "id": "HOUSING-Q038",
+      "pair_id": "HOUSING-P019",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum amount for a housing loan with salary transfer (Category 1)?",
+      "expected_answer": "The maximum loan amount is 1,000,000.",
+      "source_chunks": [
+        "Maximum loan amount (with salary transfer, Category 1): 1,000,000."
+      ],
+      "chunk_ids": [
+        "chunk_014_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q039",
+      "pair_id": "HOUSING-P020",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن رفع سقف قرض السكني مع تحويل راتب (الفئة الأولى)؟",
+      "expected_answer": "نعم، يمكن رفع سقف القرض.",
+      "source_chunks": [
+        "هل يمكن رفع سقف القرض (مع تحويل راتب، الفئة الأولى): نعم."
+      ],
+      "chunk_ids": [
+        "chunk_015"
+      ]
+    },
+    {
+      "id": "HOUSING-Q040",
+      "pair_id": "HOUSING-P020",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can the ceiling of a housing loan with salary transfer (Category 1) be raised?",
+      "expected_answer": "Yes, the loan ceiling can be raised.",
+      "source_chunks": [
+        "Can the loan ceiling be raised (with salary transfer, Category 1): Yes."
+      ],
+      "chunk_ids": [
+        "chunk_015_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q041",
+      "pair_id": "HOUSING-P021",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل لقرض سكني مع تحويل راتب؟",
+      "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 70%.",
+      "source_chunks": [
+        "عبء الدين كمدين وكفيل (مع تحويل راتب، الفئة الأولى): 70%."
+      ],
+      "chunk_ids": [
+        "chunk_016"
+      ]
+    },
+    {
+      "id": "HOUSING-Q042",
+      "pair_id": "HOUSING-P021",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the debt burden ratio when there is both a debtor and a guarantor for a housing loan with salary transfer?",
+      "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 70%.",
+      "source_chunks": [
+        "Debt burden as a debtor and guarantor (with salary transfer, Category 1): 70%."
+      ],
+      "chunk_ids": [
+        "chunk_016_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q043",
+      "pair_id": "HOUSING-P022",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لعمر البناء المؤهل للتمويل، وماذا يحدث إن تجاوزه؟",
+      "expected_answer": "يجب ألا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يُظهر التخمين أنه بحالة جيدة؛ وإن لم يكن كذلك يتم الاعتماد على تخمين الأرض فقط.",
+      "source_chunks": [
+        "عمر البناء (مع تحويل راتب، الفئة الأولى): أن لا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يظهر التخمين أنه بحالة جيدة، وبخلاف ذلك يتم الاعتماد على تخمين الأرض فقط."
+      ],
+      "chunk_ids": [
+        "chunk_017"
+      ]
+    },
+    {
+      "id": "HOUSING-Q044",
+      "pair_id": "HOUSING-P022",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum age of a building eligible for financing, and what happens if it exceeds that?",
+      "expected_answer": "The building's age must not exceed 20 years when requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only.",
+      "source_chunks": [
+        "Property age (with salary transfer, Category 1): The age of the building must not exceed 20 years upon requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only."
+      ],
+      "chunk_ids": [
+        "chunk_017_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q045",
+      "pair_id": "HOUSING-P023",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "كم تبلغ عمولة إعادة الهيكلة لقرض السكني مع تحويل راتب (الفئة الأولى)؟",
+      "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير.",
+      "source_chunks": [
+        "عمولة إعادة هيكلة (مع تحويل راتب، الفئة الأولى): 5 دنانير."
+      ],
+      "chunk_ids": [
+        "chunk_018"
+      ]
+    },
+    {
+      "id": "HOUSING-Q046",
+      "pair_id": "HOUSING-P023",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the restructuring commission for a housing loan with salary transfer (Category 1)?",
+      "expected_answer": "The restructuring commission is 5 JOD.",
+      "source_chunks": [
+        "Restructuring commission (with salary transfer, Category 1): 5 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_018_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q047",
+      "pair_id": "HOUSING-P024",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو المدى العام لنسبة التمويل لقرض السكني مع تحويل راتب؟",
+      "expected_answer": "تتراوح نسبة التمويل بشكل عام بين 30% و100%.",
+      "source_chunks": [
+        "نسبة التمويل (مع تحويل راتب، الفئة الأولى): من 30% إلى 100%."
+      ],
+      "chunk_ids": [
+        "chunk_019"
+      ]
+    },
+    {
+      "id": "HOUSING-Q048",
+      "pair_id": "HOUSING-P024",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the general range of the financing ratio for a housing loan with salary transfer?",
+      "expected_answer": "The financing ratio generally ranges from 30% to 100%.",
+      "source_chunks": [
+        "Financing ratio (with salary transfer, Category 1): from 30% to 100%."
+      ],
+      "chunk_ids": [
+        "chunk_019_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q049",
+      "pair_id": "HOUSING-P025",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل عند شراء شقق جاهزة مع تحويل راتب؟",
+      "expected_answer": "تصل نسبة التمويل إلى 100% حسب الشروط، وتصل إلى 80% للمهنيين وأصحاب الأعمال الحرة والمغتربين.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - شراء شقق جاهزة (مع تحويل راتب): لغاية 100% حسب الشروط، وللمهنيين وأصحاب الأعمال الحرة والمغتربين 80%."
+      ],
+      "chunk_ids": [
+        "chunk_020"
+      ]
+    },
+    {
+      "id": "HOUSING-Q050",
+      "pair_id": "HOUSING-P025",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for buying ready apartments with salary transfer?",
+      "expected_answer": "The financing ratio is up to 100% according to conditions, and up to 80% for professionals, self-employed individuals, and expatriates.",
+      "source_chunks": [
+        "Financing ratio details - Buying ready apartments (with salary transfer): Up to 100% according to conditions, and 80% for professionals, self-employed, and expatriates."
+      ],
+      "chunk_ids": [
+        "chunk_020_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q051",
+      "pair_id": "HOUSING-P026",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل عند شراء عقار إضافي مع تحويل راتب؟",
+      "expected_answer": "الحد الأعلى لنسبة التمويل 80%.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - شراء عقار إضافي (مع تحويل راتب): 80% حد أعلى."
+      ],
+      "chunk_ids": [
+        "chunk_021"
+      ]
+    },
+    {
+      "id": "HOUSING-Q052",
+      "pair_id": "HOUSING-P026",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for buying additional property with salary transfer?",
+      "expected_answer": "The maximum financing ratio is 80%.",
+      "source_chunks": [
+        "Financing ratio details - Buying additional property (with salary transfer): 80% maximum limit."
+      ],
+      "chunk_ids": [
+        "chunk_021_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q053",
+      "pair_id": "HOUSING-P027",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل عند شراء أراضٍ مع تحويل راتب؟",
+      "expected_answer": "الحد الأعلى لنسبة التمويل 80%.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - شراء أراضي (مع تحويل راتب): 80% حد أعلى."
+      ],
+      "chunk_ids": [
+        "chunk_022"
+      ]
+    },
+    {
+      "id": "HOUSING-Q054",
+      "pair_id": "HOUSING-P027",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for buying lands with salary transfer?",
+      "expected_answer": "The maximum financing ratio is 80%.",
+      "source_chunks": [
+        "Financing ratio details - Buying lands (with salary transfer): 80% maximum limit."
+      ],
+      "chunk_ids": [
+        "chunk_022_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q055",
+      "pair_id": "HOUSING-P028",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل للعقار في منطقة إجازة (Vacation property) مع تحويل راتب؟",
+      "expected_answer": "نسبة التمويل 70%، باستثناء منطقة أيلة (Ayla) التي تصل نسبة تمويلها إلى 100%.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - عقار لغاية الإجازة (مع تحويل راتب): 70% باستثناء أيلة لغاية 100%."
+      ],
+      "chunk_ids": [
+        "chunk_023"
+      ]
+    },
+    {
+      "id": "HOUSING-Q056",
+      "pair_id": "HOUSING-P028",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for vacation property with salary transfer?",
+      "expected_answer": "The financing ratio is 70%, except for Ayla, which has a financing ratio of up to 100%.",
+      "source_chunks": [
+        "Financing ratio details - Vacation property (with salary transfer): 70% except for Ayla up to 100%."
+      ],
+      "chunk_ids": [
+        "chunk_023_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q057",
+      "pair_id": "HOUSING-P029",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل لقروض البناء مع تحويل راتب؟",
+      "expected_answer": "تصل نسبة التمويل إلى 100%.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - بناء (مع تحويل راتب): لغاية 100%."
+      ],
+      "chunk_ids": [
+        "chunk_024"
+      ]
+    },
+    {
+      "id": "HOUSING-Q058",
+      "pair_id": "HOUSING-P029",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for construction loans with salary transfer?",
+      "expected_answer": "The financing ratio is up to 100%.",
+      "source_chunks": [
+        "Financing ratio details - Construction (with salary transfer): Up to 100%."
+      ],
+      "chunk_ids": [
+        "chunk_024_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q059",
+      "pair_id": "HOUSING-P030",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لقيمة قرض شراء الالتزامات العقارية من بنوك أخرى؟",
+      "expected_answer": "الحد الأدنى لقيمة القرض 15,000، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 1,000 دينار.",
+      "source_chunks": [
+        "شراء قروض عقارية/سكنية من بنوك أخرى - الحد الأدنى لقيمة القرض 15,000، على أن لا يقل المبلغ المتبقي للعميل بعد تسديد التزاماته عن 1,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_025"
+      ]
+    },
+    {
+      "id": "HOUSING-Q060",
+      "pair_id": "HOUSING-P030",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum value of a loan for buying mortgage/housing obligations from other banks?",
+      "expected_answer": "The minimum loan value is 15,000, provided that the remaining amount for the customer after paying obligations is not less than 1,000 JOD.",
+      "source_chunks": [
+        "Buying Mortgage/housing loans from other banks - The minimum loan value is 15,000, provided that the remaining amount for the customer after paying obligations is not less than 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_025_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q061",
+      "pair_id": "HOUSING-P031",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "كيف تُحدد نسبة التمويل لقرض شراء الالتزامات من بنوك أخرى؟",
+      "expected_answer": "تُحدد نسبة التمويل حسب سياسة المنتج.",
+      "source_chunks": [
+        "شراء قروض من بنوك أخرى - نسبة التمويل: حسب سياسة المنتج."
+      ],
+      "chunk_ids": [
+        "chunk_026"
+      ]
+    },
+    {
+      "id": "HOUSING-Q062",
+      "pair_id": "HOUSING-P031",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "How is the financing ratio determined for buying loans from other banks?",
+      "expected_answer": "The financing ratio is determined according to product policy.",
+      "source_chunks": [
+        "Buying loans from other banks - Financing ratio: According to product policy."
+      ],
+      "chunk_ids": [
+        "chunk_026_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q063",
+      "pair_id": "HOUSING-P032",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو شرط الالتزام بالسداد المطلوب عند تقديم طلب شراء التزامات من بنك آخر؟",
+      "expected_answer": "يجب أن يكون العميل ملتزماً بالسداد وألا توجد عليه أي مستحقات عند تقديم الطلب.",
+      "source_chunks": [
+        "شراء قروض من بنوك أخرى - ملتزم بالسداد ولا توجد أي مستحقة عليه عند تقديم الطلب."
+      ],
+      "chunk_ids": [
+        "chunk_027"
+      ]
+    },
+    {
+      "id": "HOUSING-Q064",
+      "pair_id": "HOUSING-P032",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What repayment commitment is required when submitting an application to buy obligations from another bank?",
+      "expected_answer": "The customer must be committed to repayment and have no dues upon submitting the application.",
+      "source_chunks": [
+        "Buying loans from other banks - Committed to repayment and there are no dues on them upon submitting the application."
+      ],
+      "chunk_ids": [
+        "chunk_027_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q065",
+      "pair_id": "HOUSING-P033",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي معايير منح قرض شراء الالتزامات من بنوك أخرى؟",
+      "expected_answer": "تُحدد معايير المنح حسب البرنامج المعمول به، وتشمل تمويل عمولة التسديد المبكر لدى البنك الآخر، وتسديد قيمة القرض مباشرة للبنك المُقرض، وتحويل باقي قيمة القرض لحساب العميل بعد ورود تعهد تحويل الراتب من مكان عمله وبراءة ذمة من البنك السابق.",
+      "source_chunks": [
+        "معايير المنح لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تمويل عمولة التسديد المبكر لدى البنك الآخر. يتم تسديد قيمة القرض مباشرة للبنك المقرض. باقي قيمة القرض تحول لحساب العميل بعد ورود تعهد تحويل الراتب من مكان عمل العميل وبراءة ذمة من البنك السابق. يتم صرف المبلغ المتبقي من القرض بعد سداد التزام البنك الآخر وقبل ورود أول راتب شريطة الحصول على براءة ذمة أصولية وتعهد تحويل راتب أصولي والتأكد من صحة الكتاب من الشركة عن طريق الفرع."
+      ],
+      "chunk_ids": [
+        "chunk_028"
+      ]
+    },
+    {
+      "id": "HOUSING-Q066",
+      "pair_id": "HOUSING-P033",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the granting criteria for buying loans from other banks?",
+      "expected_answer": "Granting criteria are according to the applicable program, and include financing the early settlement commission at the other bank, paying the loan value directly to the lending bank, and transferring the remaining loan value to the customer's account after receiving a salary transfer commitment from the customer's workplace and a clearance certificate from the previous bank.",
+      "source_chunks": [
+        "Granting criteria for buying loans from other banks: According to the applicable program. Financing the early settlement commission at the other bank. The loan value is paid directly to the lending bank. The remaining loan value is transferred to the customer's account after receiving a salary transfer commitment from the customer's workplace and a clearance certificate from the previous bank. The remaining loan amount is disbursed after settling the other bank's obligation and before the arrival of the first salary, provided obtaining a formal clearance certificate, a formal salary transfer commitment, and verifying the authenticity of the letter from the company through the branch."
+      ],
+      "chunk_ids": [
+        "chunk_028_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q067",
+      "pair_id": "HOUSING-P034",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "متى يُصرف المبلغ المتبقي من قرض شراء الالتزامات من بنك آخر؟",
+      "expected_answer": "يُصرف المبلغ المتبقي بعد سداد التزام البنك الآخر وقبل ورود أول راتب، شريطة الحصول على براءة ذمة أصولية وتعهد تحويل راتب أصولي والتأكد من صحة الكتاب من الشركة عن طريق الفرع.",
+      "source_chunks": [
+        "معايير المنح لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تمويل عمولة التسديد المبكر لدى البنك الآخر. يتم تسديد قيمة القرض مباشرة للبنك المقرض. باقي قيمة القرض تحول لحساب العميل بعد ورود تعهد تحويل الراتب من مكان عمل العميل وبراءة ذمة من البنك السابق. يتم صرف المبلغ المتبقي من القرض بعد سداد التزام البنك الآخر وقبل ورود أول راتب شريطة الحصول على براءة ذمة أصولية وتعهد تحويل راتب أصولي والتأكد من صحة الكتاب من الشركة عن طريق الفرع."
+      ],
+      "chunk_ids": [
+        "chunk_028"
+      ]
+    },
+    {
+      "id": "HOUSING-Q068",
+      "pair_id": "HOUSING-P034",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "When is the remaining amount of a loan for buying obligations from another bank disbursed?",
+      "expected_answer": "The remaining amount is disbursed after settling the other bank's obligation and before the arrival of the first salary, provided a formal clearance certificate and a formal salary transfer commitment are obtained, and the authenticity of the letter from the company is verified through the branch.",
+      "source_chunks": [
+        "Granting criteria for buying loans from other banks: According to the applicable program. Financing the early settlement commission at the other bank. The loan value is paid directly to the lending bank. The remaining loan value is transferred to the customer's account after receiving a salary transfer commitment from the customer's workplace and a clearance certificate from the previous bank. The remaining loan amount is disbursed after settling the other bank's obligation and before the arrival of the first salary, provided obtaining a formal clearance certificate, a formal salary transfer commitment, and verifying the authenticity of the letter from the company through the branch."
+      ],
+      "chunk_ids": [
+        "chunk_028_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q069",
+      "pair_id": "HOUSING-P035",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي الوثائق المطلوبة لشراء الالتزامات العقارية من بنك آخر؟",
+      "expected_answer": "تشمل الوثائق: شهادة التزامات حديثة من البنك لا تزيد عن 30 يوماً، وكشف حساب من البنك الآخر حسب مدة الالتزام وبحد أقصى 6 أشهر، وتعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الآخر، وبراءة ذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة إلى تعهد تحويل راتب أصولي.",
+      "source_chunks": [
+        "الوثائق المطلوبة لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم). كشف حساب من البنك الآخر، وحسب مدة التزام وبحد أقصى 6 أشهر. تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الأخر. تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة الى تعهد تحويل أصولي. يتم تقديم ميزة cash out بمقدار 10% من قيمة القرض تكون جزء من رصيد القرض السكني المنوي منحه للعميل وبما لا يزيد عن 100% من نسبة التمويل وتودع في حساب العميل."
+      ],
+      "chunk_ids": [
+        "chunk_029"
+      ]
+    },
+    {
+      "id": "HOUSING-Q070",
+      "pair_id": "HOUSING-P035",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What documents are required for buying mortgage/housing obligations from another bank?",
+      "expected_answer": "Documents include: a recent obligations certificate from the bank not exceeding 30 days, an account statement from the other bank according to the commitment period and for a maximum of 6 months, a conditional salary transfer commitment until receiving the clearance from the other bank, and a clearance certificate from the other bank after paying the purchased loan value, in addition to a formal salary transfer commitment.",
+      "source_chunks": [
+        "Required documents for buying loans from other banks: According to the applicable program. Providing the bank with a recent obligations certificate (not exceeding 30 days). Account statement from the other bank, according to the commitment period and for a maximum of 6 months. Conditional salary transfer commitment until receiving the clearance from the other bank. Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a formal transfer commitment. A cash-out feature of 10% of the loan value is provided, which will be part of the intended housing loan balance granted to the customer, not exceeding 100% of the financing ratio, and deposited into the customer's account."
+      ],
+      "chunk_ids": [
+        "chunk_029_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q071",
+      "pair_id": "HOUSING-P036",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي ميزة \"Cash Out\" المتاحة عند شراء الالتزامات من بنك آخر؟",
+      "expected_answer": "يمكن الحصول على ميزة Cash Out بمقدار 10% من قيمة القرض، تكون جزءاً من رصيد القرض السكني المنوي منحه للعميل، بما لا يزيد عن 100% من نسبة التمويل، وتُودع في حساب العميل.",
+      "source_chunks": [
+        "الوثائق المطلوبة لشراء قروض من بنوك أخرى: حسب البرنامج المعمول به. تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم). كشف حساب من البنك الآخر، وحسب مدة التزام وبحد أقصى 6 أشهر. تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الأخر. تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة الى تعهد تحويل أصولي. يتم تقديم ميزة cash out بمقدار 10% من قيمة القرض تكون جزء من رصيد القرض السكني المنوي منحه للعميل وبما لا يزيد عن 100% من نسبة التمويل وتودع في حساب العميل."
+      ],
+      "chunk_ids": [
+        "chunk_029"
+      ]
+    },
+    {
+      "id": "HOUSING-Q072",
+      "pair_id": "HOUSING-P036",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the \"Cash Out\" feature available when buying obligations from another bank?",
+      "expected_answer": "A cash-out feature of 10% of the loan value is available, which will be part of the intended housing loan balance granted to the customer, not exceeding 100% of the financing ratio, and deposited into the customer's account.",
+      "source_chunks": [
+        "Required documents for buying loans from other banks: According to the applicable program. Providing the bank with a recent obligations certificate (not exceeding 30 days). Account statement from the other bank, according to the commitment period and for a maximum of 6 months. Conditional salary transfer commitment until receiving the clearance from the other bank. Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a formal transfer commitment. A cash-out feature of 10% of the loan value is provided, which will be part of the intended housing loan balance granted to the customer, not exceeding 100% of the financing ratio, and deposited into the customer's account."
+      ],
+      "chunk_ids": [
+        "chunk_029_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q073",
+      "pair_id": "HOUSING-P037",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي القيود على تمويل موظفي القطاع العام من الفئة الثالثة؟",
+      "expected_answer": "يُستثنى موظفو الفئة الثالثة من التمويل، إلا من تزيد مدة خدمتهم عن 3 سنوات.",
+      "source_chunks": [
+        "تمويل حسب الوظائف - القطاع العام: موظفي الفئة الثالثة مستثنون ماعدا الذين تزيد مدة خدمتهم عن 3 سنوات. لا يمكن تمويل موظفي البلديات، عمال المياومة. لا يمكن تمويل موظفي مجالس الخدمات المشتركة."
+      ],
+      "chunk_ids": [
+        "chunk_030"
+      ]
+    },
+    {
+      "id": "HOUSING-Q074",
+      "pair_id": "HOUSING-P037",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the restrictions on financing third-category public sector employees?",
+      "expected_answer": "Third-category employees are excluded from financing, except for those whose service period exceeds 3 years.",
+      "source_chunks": [
+        "Financing according to jobs - Public Sector: Third-category employees are excluded, except for those whose service period exceeds 3 years. Municipality employees and day laborers cannot be financed. Joint Services Councils employees cannot be financed."
+      ],
+      "chunk_ids": [
+        "chunk_030_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q075",
+      "pair_id": "HOUSING-P038",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن تمويل موظفي البلديات وعمال المياومة؟",
+      "expected_answer": "لا يمكن تمويل موظفي البلديات وعمال المياومة.",
+      "source_chunks": [
+        "تمويل حسب الوظائف - القطاع العام: موظفي الفئة الثالثة مستثنون ماعدا الذين تزيد مدة خدمتهم عن 3 سنوات. لا يمكن تمويل موظفي البلديات، عمال المياومة. لا يمكن تمويل موظفي مجالس الخدمات المشتركة."
+      ],
+      "chunk_ids": [
+        "chunk_030"
+      ]
+    },
+    {
+      "id": "HOUSING-Q076",
+      "pair_id": "HOUSING-P038",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can municipality employees and day laborers be financed?",
+      "expected_answer": "Municipality employees and day laborers cannot be financed.",
+      "source_chunks": [
+        "Financing according to jobs - Public Sector: Third-category employees are excluded, except for those whose service period exceeds 3 years. Municipality employees and day laborers cannot be financed. Joint Services Councils employees cannot be financed."
+      ],
+      "chunk_ids": [
+        "chunk_030_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q077",
+      "pair_id": "HOUSING-P039",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن تمويل موظفي مجالس الخدمات المشتركة؟",
+      "expected_answer": "لا يمكن تمويل موظفي مجالس الخدمات المشتركة.",
+      "source_chunks": [
+        "تمويل حسب الوظائف - القطاع العام: موظفي الفئة الثالثة مستثنون ماعدا الذين تزيد مدة خدمتهم عن 3 سنوات. لا يمكن تمويل موظفي البلديات، عمال المياومة. لا يمكن تمويل موظفي مجالس الخدمات المشتركة."
+      ],
+      "chunk_ids": [
+        "chunk_030"
+      ]
+    },
+    {
+      "id": "HOUSING-Q078",
+      "pair_id": "HOUSING-P039",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can Joint Services Councils employees be financed?",
+      "expected_answer": "Joint Services Councils employees cannot be financed.",
+      "source_chunks": [
+        "Financing according to jobs - Public Sector: Third-category employees are excluded, except for those whose service period exceeds 3 years. Municipality employees and day laborers cannot be financed. Joint Services Councils employees cannot be financed."
+      ],
+      "chunk_ids": [
+        "chunk_030_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q079",
+      "pair_id": "HOUSING-P040",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو شرط تمويل المستخدمين المدنيين في الأجهزة الأمنية؟",
+      "expected_answer": "يمكن تمويل المستخدمين المدنيين لكافة الأجهزة الأمنية إذا كانوا يحملون رقماً وظيفياً مكوناً من 6 خانات وكانت رتبتهم بدرجة.",
+      "source_chunks": [
+        "الأجهزة الأمنية والعسكرية: يمكن تمويل المستخدمين المدنيين لكافة الأجهزة الأمنية في حال كان يحمل رقم وظيفي مكون من 6 خانات وأن تكون الرتبة بدرجة."
+      ],
+      "chunk_ids": [
+        "chunk_031"
+      ]
+    },
+    {
+      "id": "HOUSING-Q080",
+      "pair_id": "HOUSING-P040",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the condition for financing civilian employees in security apparatuses?",
+      "expected_answer": "Civilian employees of all security apparatuses can be financed if they carry a 6-digit job number and hold a ranked grade.",
+      "source_chunks": [
+        "Security and Military Apparatuses: Civilian employees of all security apparatuses can be financed if they carry a 6-digit job number and hold a ranked grade."
+      ],
+      "chunk_ids": [
+        "chunk_031_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q081",
+      "pair_id": "HOUSING-P041",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن منح قروض لمن هم دون رتبة وكيل في الأجهزة الأمنية والعسكرية؟",
+      "expected_answer": "يُمنع منح قروض لمن هم دون رتبة وكيل حتى وإن تم تحويل الراتب إلى البنك، باستثناء قروض رفع سقف القرض.",
+      "source_chunks": [
+        "يمنع منح قروض لمن هم دون رتبة وكيل حتى وإن تم تحويل الراتب إلينا باستثناء قروض رفع السقف."
+      ],
+      "chunk_ids": [
+        "chunk_032"
+      ]
+    },
+    {
+      "id": "HOUSING-Q082",
+      "pair_id": "HOUSING-P041",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can loans be granted to those below the rank of Warrant Officer (Wakil) in security and military apparatuses?",
+      "expected_answer": "Loans are prohibited for those below the rank of Warrant Officer (Wakil), even if the salary is transferred to us, except for loan ceiling increase loans.",
+      "source_chunks": [
+        "Loans are prohibited for those below the rank of Warrant Officer (Wakil), even if the salary is transferred to us, except for loan ceiling increase loans."
+      ],
+      "chunk_ids": [
+        "chunk_032_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q083",
+      "pair_id": "HOUSING-P042",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "كيف يمكن منح قرض لمن هم دون رتبة وكيل بشكل استثنائي؟",
+      "expected_answer": "يمكن منح قرض لمن هم دون رتبة وكيل فقط عن طريق تحويل الاقتطاع، بمبالغ قروض محدودة، والالتزام بالقسط المحدد في القسيمة إن وُجد.",
+      "source_chunks": [
+        "يمنع منح قروض لمن هم دون رتبة وكيل إلا بتحويل اقتطاع وبمبالغ قروض محدودة والالتزام بالقسط المحدد بالقسيمة إن وجد."
+      ],
+      "chunk_ids": [
+        "chunk_033"
+      ]
+    },
+    {
+      "id": "HOUSING-Q084",
+      "pair_id": "HOUSING-P042",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "How can a loan exceptionally be granted to those below the rank of Warrant Officer (Wakil)?",
+      "expected_answer": "A loan can be granted to those below the rank of Warrant Officer (Wakil) only by transferring a deduction, with limited loan amounts, and commitment to the specified installment on the payslip if any.",
+      "source_chunks": [
+        "Loans are prohibited for those below the rank of Warrant Officer (Wakil) except by transferring a deduction, with limited loan amounts, and commitment to the specified installment on the payslip if any."
+      ],
+      "chunk_ids": [
+        "chunk_033_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q085",
+      "pair_id": "HOUSING-P043",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى والأقصى لمدة الخدمة العسكرية والأمنية للتمويل بشكل عام؟",
+      "expected_answer": "الحد الأدنى 3 سنوات، والحد الأقصى 25 سنة.",
+      "source_chunks": [
+        "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+      ],
+      "chunk_ids": [
+        "chunk_034"
+      ]
+    },
+    {
+      "id": "HOUSING-Q086",
+      "pair_id": "HOUSING-P043",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum and maximum length of service for Security and Military Apparatuses personnel in general for financing?",
+      "expected_answer": "The minimum is 3 years, and the maximum service limit is 25 years.",
+      "source_chunks": [
+        "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+      ],
+      "chunk_ids": [
+        "chunk_034_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q087",
+      "pair_id": "HOUSING-P044",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لرتبة الملازم فما فوق؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة لرتبة الملازم فما فوق سنتان.",
+      "source_chunks": [
+        "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+      ],
+      "chunk_ids": [
+        "chunk_034"
+      ]
+    },
+    {
+      "id": "HOUSING-Q088",
+      "pair_id": "HOUSING-P044",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for the rank of Lieutenant and above?",
+      "expected_answer": "The minimum length of service for Lieutenant and above is 2 years.",
+      "source_chunks": [
+        "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+      ],
+      "chunk_ids": [
+        "chunk_034_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q089",
+      "pair_id": "HOUSING-P045",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يوجد حد أقصى لمدة الخدمة لرتبة رائد فما فوق؟",
+      "expected_answer": "لا يوجد حد أقصى لمدة الخدمة لرتبة رائد فما فوق.",
+      "source_chunks": [
+        "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+      ],
+      "chunk_ids": [
+        "chunk_034"
+      ]
+    },
+    {
+      "id": "HOUSING-Q090",
+      "pair_id": "HOUSING-P045",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Is there a maximum length of service for the rank of Major and above?",
+      "expected_answer": "There is no upper limit on the length of service for the rank of Major and above.",
+      "source_chunks": [
+        "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+      ],
+      "chunk_ids": [
+        "chunk_034_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q091",
+      "pair_id": "HOUSING-P046",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لحملة الشهادات الجامعية في الدرك والجيش والأمن العام؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة لحملة الشهادات الجامعية فقط في الدرك والجيش والأمن العام هو 6 أشهر.",
+      "source_chunks": [
+        "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+      ],
+      "chunk_ids": [
+        "chunk_034"
+      ]
+    },
+    {
+      "id": "HOUSING-Q092",
+      "pair_id": "HOUSING-P046",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for university degree holders in the Gendarmerie, Army, and Public Security?",
+      "expected_answer": "The minimum length of service for university degree holders only in the Gendarmerie, Army, and Public Security is 6 months.",
+      "source_chunks": [
+        "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+      ],
+      "chunk_ids": [
+        "chunk_034_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q093",
+      "pair_id": "HOUSING-P047",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يوجد استثناء لبند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام؟",
+      "expected_answer": "نعم، تم إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام من رتبة ملازم فما فوق، بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد.",
+      "source_chunks": [
+        "مدة الخدمة للأجهزة الأمنية والعسكرية: الحد الأدنى 3 سنوات، الملازم وأكثر: 2 سنة، الحد الأقصى للخدمة 25 سنة، ماعدا رتبة رائد فأكثر بدون حد أعلى، الدرك والجيش والأمن العام حملة الشهادات الجامعية فقط: 6 أشهر، إلغاء بند الحد الأقصى لمدة الخدمة عند المنح لضباط الأمن العام للرتب من ملازم فما فوق بناءً على كتاب مالية الأمن العام بخصوص تحويل الراتب بعد التقاعد."
+      ],
+      "chunk_ids": [
+        "chunk_034"
+      ]
+    },
+    {
+      "id": "HOUSING-Q094",
+      "pair_id": "HOUSING-P047",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Is there an exception to the maximum service period clause upon granting for Public Security officers?",
+      "expected_answer": "Yes, the maximum service period clause upon granting was cancelled for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement.",
+      "source_chunks": [
+        "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit. Gendarmerie, Army, and Public Security university degree holders only: 6 months. Cancellation of the maximum service period clause upon granting for Public Security officers from the rank of Lieutenant and above, based on the Public Security Finance letter regarding salary transfer after retirement."
+      ],
+      "chunk_ids": [
+        "chunk_034_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q095",
+      "pair_id": "HOUSING-P048",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن تمويل المحامين للحصول على قرض سكني؟",
+      "expected_answer": "لا يمكن تمويل المحامين.",
+      "source_chunks": [
+        "القطاع الخاص: لا يمكن تمويل المحامين. لا يمكن تمويل موظفي الأسواق التجارية الغير إداريين. لا يمكن تمويل موظفي شركات التمويل."
+      ],
+      "chunk_ids": [
+        "chunk_035"
+      ]
+    },
+    {
+      "id": "HOUSING-Q096",
+      "pair_id": "HOUSING-P048",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can lawyers be financed for a housing loan?",
+      "expected_answer": "Lawyers cannot be financed.",
+      "source_chunks": [
+        "Private Sector: Lawyers cannot be financed. Non-administrative commercial market employees cannot be financed. Financing company employees cannot be financed."
+      ],
+      "chunk_ids": [
+        "chunk_035_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q097",
+      "pair_id": "HOUSING-P049",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن تمويل موظفي الأسواق التجارية غير الإداريين؟",
+      "expected_answer": "لا يمكن تمويل موظفي الأسواق التجارية غير الإداريين.",
+      "source_chunks": [
+        "القطاع الخاص: لا يمكن تمويل المحامين. لا يمكن تمويل موظفي الأسواق التجارية الغير إداريين. لا يمكن تمويل موظفي شركات التمويل."
+      ],
+      "chunk_ids": [
+        "chunk_035"
+      ]
+    },
+    {
+      "id": "HOUSING-Q098",
+      "pair_id": "HOUSING-P049",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can non-administrative commercial market employees be financed?",
+      "expected_answer": "Non-administrative commercial market employees cannot be financed.",
+      "source_chunks": [
+        "Private Sector: Lawyers cannot be financed. Non-administrative commercial market employees cannot be financed. Financing company employees cannot be financed."
+      ],
+      "chunk_ids": [
+        "chunk_035_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q099",
+      "pair_id": "HOUSING-P050",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن تمويل موظفي شركات التمويل؟",
+      "expected_answer": "لا يمكن تمويل موظفي شركات التمويل.",
+      "source_chunks": [
+        "القطاع الخاص: لا يمكن تمويل المحامين. لا يمكن تمويل موظفي الأسواق التجارية الغير إداريين. لا يمكن تمويل موظفي شركات التمويل."
+      ],
+      "chunk_ids": [
+        "chunk_035"
+      ]
+    },
+    {
+      "id": "HOUSING-Q100",
+      "pair_id": "HOUSING-P050",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can financing company employees be financed?",
+      "expected_answer": "Financing company employees cannot be financed.",
+      "source_chunks": [
+        "Private Sector: Lawyers cannot be financed. Non-administrative commercial market employees cannot be financed. Financing company employees cannot be financed."
+      ],
+      "chunk_ids": [
+        "chunk_035_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q101",
+      "pair_id": "HOUSING-P051",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي مستندات إثبات الهوية الأساسية المطلوبة للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "يُطلب صورة طبق الأصل عن وثيقة إثبات شخصية سارية المفعول، ولغير الأردني صورة عن وثيقة إقامة سارية بالإضافة إلى جواز سفر ساري المفعول.",
+      "source_chunks": [
+        "المستندات المطلوبة: صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول. صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول."
+      ],
+      "chunk_ids": [
+        "chunk_036"
+      ]
+    },
+    {
+      "id": "HOUSING-Q102",
+      "pair_id": "HOUSING-P051",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the basic identification documents required to obtain a housing loan with salary transfer?",
+      "expected_answer": "A true copy of a valid identification document is required, and for non-Jordanians, a copy of a valid residency document in addition to a valid passport.",
+      "source_chunks": [
+        "Required Documents: A true copy of a valid identification document. (A copy of a valid residency document (for non-Jordanians) in addition to a valid passport)."
+      ],
+      "chunk_ids": [
+        "chunk_036_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q103",
+      "pair_id": "HOUSING-P052",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي المتطلبات الإضافية لإثبات الهوية العسكرية أو المدنية عند التقديم لقرض سكني؟",
+      "expected_answer": "يُطلب صورة طبق الأصل عن وثيقة إثبات شخصية سارية المفعول (الهوية المدنية أو العسكرية)، مع تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف.",
+      "source_chunks": [
+        "صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول (الهوية المدنية/العسكرية، تدوين معلومات هوية المخابرات على طلب القرض وتوقيع الموظف)."
+      ],
+      "chunk_ids": [
+        "chunk_037"
+      ]
+    },
+    {
+      "id": "HOUSING-Q104",
+      "pair_id": "HOUSING-P052",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What additional requirements apply to civil or military identification when applying for a housing loan?",
+      "expected_answer": "A true copy of a valid identification document (Civil/Military ID) is required, with Intelligence ID information recorded on the loan application and the employee's signature.",
+      "source_chunks": [
+        "A true copy of a valid identification document (Civil/Military ID, recording Intelligence ID information on the loan application and the employee's signature)."
+      ],
+      "chunk_ids": [
+        "chunk_037_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q105",
+      "pair_id": "HOUSING-P053",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي مستندات إثبات الراتب المطلوبة لقرض سكني مع تحويل راتب؟",
+      "expected_answer": "تُطلب شهادة راتب أو قسيمة راتب أصلية لآخر ثلاثة أشهر، وفي حال وجود حوافز تُطلب قسيمة راتب لآخر 6 أشهر، على أن تكون القسائم مختومة أو مروسة من جهة العمل.",
+      "source_chunks": [
+        "شهادة راتب/قسيمة راتب أصلية لآخر ثلاث شهور، وفي حال وجود أي حوافز يتم طلب قسيمة راتب لآخر 6 شهور (يجب أن تكون القسائم مختومة أو مروسة جهة العمل)."
+      ],
+      "chunk_ids": [
+        "chunk_038"
+      ]
+    },
+    {
+      "id": "HOUSING-Q106",
+      "pair_id": "HOUSING-P053",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What salary proof documents are required for a housing loan with salary transfer?",
+      "expected_answer": "An original salary certificate or payslip for the last three months is required; in case of any incentives, a payslip for the last 6 months is requested, and the payslips must be stamped or on the employer's letterhead.",
+      "source_chunks": [
+        "Original salary certificate/payslip for the last three months, and in case of any incentives, a payslip for the last 6 months is requested (the payslip must be stamped or on the employer's letterhead)."
+      ],
+      "chunk_ids": [
+        "chunk_038_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q107",
+      "pair_id": "HOUSING-P054",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو المستند الإضافي المطلوب من موظفي العقود لقرض سكني مع تحويل راتب؟",
+      "expected_answer": "يُطلب من موظفي العقود تقديم صورة عن عقد العمل.",
+      "source_chunks": [
+        "صورة عن عقد العمل لموظفي العقود."
+      ],
+      "chunk_ids": [
+        "chunk_039"
+      ]
+    },
+    {
+      "id": "HOUSING-Q108",
+      "pair_id": "HOUSING-P054",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What additional document is required from contract employees for a housing loan with salary transfer?",
+      "expected_answer": "Contract employees are required to provide a copy of the employment contract.",
+      "source_chunks": [
+        "A copy of the employment contract for contract employees."
+      ],
+      "chunk_ids": [
+        "chunk_039_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q109",
+      "pair_id": "HOUSING-P055",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "متى يُطلب كشف حساب شخصي لمدة 6 أشهر عند التقديم لقرض سكني مع تحويل راتب؟",
+      "expected_answer": "يُطلب كشف حساب شخصي لمدة 6 أشهر لمن ليس له تعامل سابق مع البنك، ويجب أن يُظهر الراتب المحول وأن يكون مصادقاً عليه حسب الأصول.",
+      "source_chunks": [
+        "كشف حساب شخصي لمدة 6 أشهر للعملاء الذين ليس لهم تعامل سابق مع البنك (يبين الراتب المحول) مصادق عليه حسب الأصول."
+      ],
+      "chunk_ids": [
+        "chunk_040"
+      ]
+    },
+    {
+      "id": "HOUSING-Q110",
+      "pair_id": "HOUSING-P055",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "When is a 6-month personal account statement required when applying for a housing loan with salary transfer?",
+      "expected_answer": "A 6-month personal account statement is required for customers who have no previous dealings with the bank; it must show the transferred salary and be duly certified.",
+      "source_chunks": [
+        "A personal account statement for 6 months for customers who have no previous dealings with the bank (showing the transferred salary), duly certified."
+      ],
+      "chunk_ids": [
+        "chunk_040_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q111",
+      "pair_id": "HOUSING-P056",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو تعهد تحويل الراتب المطلوب من موظفي القطاع العام لقرض سكني؟",
+      "expected_answer": "يقدم موظفو القطاع العام تعهد تحويل راتب وفق الصيغة المعتمدة لديهم، باستثناء الأجهزة الأمنية والعسكرية التي يكفيها تقديم قسيمة راتب تفيد بتحويل الراتب إلى البنك.",
+      "source_chunks": [
+        "القطاع العام تعهد تحويل راتب وحسب الصيغة المعتمدة لديهم باستثناء الأجهزة الأمنية والعسكرية قسيمة راتب تفيد بتحويل الراتب إلينا."
+      ],
+      "chunk_ids": [
+        "chunk_041"
+      ]
+    },
+    {
+      "id": "HOUSING-Q112",
+      "pair_id": "HOUSING-P056",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What salary transfer commitment is required from public sector employees for a housing loan?",
+      "expected_answer": "Public sector employees provide a salary transfer commitment according to their approved format, except for Security and Military apparatuses, for whom a payslip stating the salary transfer to us is sufficient.",
+      "source_chunks": [
+        "Public Sector: Salary transfer commitment according to their approved format, except for Security and Military apparatuses (a payslip stating the salary transfer to us)."
+      ],
+      "chunk_ids": [
+        "chunk_041_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q113",
+      "pair_id": "HOUSING-P057",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو تعهد تحويل الراتب المطلوب من باقي القطاعات لقرض سكني؟",
+      "expected_answer": "يُقدَّم تعهد تحويل راتب أصولي وفق الصيغة المعتمدة لدى البنك.",
+      "source_chunks": [
+        "تعهد تحويل راتب أصولي، وحسب الصيغة المعتمدة للبنك."
+      ],
+      "chunk_ids": [
+        "chunk_042"
+      ]
+    },
+    {
+      "id": "HOUSING-Q114",
+      "pair_id": "HOUSING-P057",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What salary transfer commitment is required from other sectors for a housing loan?",
+      "expected_answer": "A formal salary transfer commitment is provided, according to the bank's approved format.",
+      "source_chunks": [
+        "A formal salary transfer commitment, according to the bank's approved format."
+      ],
+      "chunk_ids": [
+        "chunk_042_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q115",
+      "pair_id": "HOUSING-P058",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "متى يُطلب كشف الضمان الاجتماعي عند التقديم لقرض سكني مع تحويل راتب؟",
+      "expected_answer": "يُطلب كشف الضمان الاجتماعي لمن تقل مدة عمله لدى الشركة عن سنة، باستثناء موظفي القطاع العام.",
+      "source_chunks": [
+        "كشف الضمان الاجتماعي للعملاء الذين مدة عملهم أقل من سنة للشركات باستثناء موظفي القطاع العام."
+      ],
+      "chunk_ids": [
+        "chunk_043"
+      ]
+    },
+    {
+      "id": "HOUSING-Q116",
+      "pair_id": "HOUSING-P058",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "When is a Social Security statement required when applying for a housing loan with salary transfer?",
+      "expected_answer": "A Social Security statement is required for customers whose employment period is less than a year at their company, excluding public sector employees.",
+      "source_chunks": [
+        "Social Security statement for customers whose employment period is less than a year for companies, excluding public sector employees."
+      ],
+      "chunk_ids": [
+        "chunk_043_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q117",
+      "pair_id": "HOUSING-P059",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو المستند المطلوب لإثبات الالتزامات الحالية عند شراء التزامات من بنك آخر؟",
+      "expected_answer": "يُطلب تزويد البنك بشهادة التزامات حديثة لا تزيد عن 30 يوماً وحسب الأصول.",
+      "source_chunks": [
+        "الوثائق المطلوبة في حال شراء الالتزامات: تزويد البنك بشهادة التزامات حديثة (لا تزيد عن 30 يوم) وحسب الأصول."
+      ],
+      "chunk_ids": [
+        "chunk_044"
+      ]
+    },
+    {
+      "id": "HOUSING-Q118",
+      "pair_id": "HOUSING-P059",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What document is required to prove current obligations when buying obligations from another bank?",
+      "expected_answer": "The bank must be provided with a recent obligations certificate not exceeding 30 days, duly certified.",
+      "source_chunks": [
+        "Required documents in case of buying obligations: Providing the bank with a recent obligations certificate (not exceeding 30 days) and duly certified."
+      ],
+      "chunk_ids": [
+        "chunk_044_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q119",
+      "pair_id": "HOUSING-P060",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي مدة كشف الحساب المطلوب من البنك الآخر ضمن مستندات شراء الالتزامات؟",
+      "expected_answer": "يُطلب كشف حساب من البنك الآخر لمدة لا تقل عن 6 أشهر.",
+      "source_chunks": [
+        "الوثائق المطلوبة في حال شراء الالتزامات: كشف حساب من البنك الآخر وبحد أدنى 6 شهور."
+      ],
+      "chunk_ids": [
+        "chunk_045"
+      ]
+    },
+    {
+      "id": "HOUSING-Q120",
+      "pair_id": "HOUSING-P060",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the required duration of the account statement from the other bank among the buying-obligations documents?",
+      "expected_answer": "An account statement from the other bank for a minimum of 6 months is required.",
+      "source_chunks": [
+        "Required documents in case of buying obligations: Account statement from the other bank for a minimum of 6 months."
+      ],
+      "chunk_ids": [
+        "chunk_045_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q121",
+      "pair_id": "HOUSING-P061",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو تعهد تحويل الراتب المطلوب من موظفي القطاع العام عند شراء التزامات من بنك آخر؟",
+      "expected_answer": "يُقدَّم تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الآخر.",
+      "source_chunks": [
+        "القطاع العام: تعهد تحويل راتب مشروط لحين استلام براءة الذمة من البنك الأخر."
+      ],
+      "chunk_ids": [
+        "chunk_046"
+      ]
+    },
+    {
+      "id": "HOUSING-Q122",
+      "pair_id": "HOUSING-P061",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What salary transfer commitment is required from public sector employees when buying obligations from another bank?",
+      "expected_answer": "A conditional salary transfer commitment is provided until receiving the clearance from the other bank.",
+      "source_chunks": [
+        "Public Sector: Conditional salary transfer commitment until receiving the clearance from the other bank."
+      ],
+      "chunk_ids": [
+        "chunk_046_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q123",
+      "pair_id": "HOUSING-P062",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الشرط الخاص بشراء التزامات الأجهزة الأمنية والعسكرية من بنك آخر؟",
+      "expected_answer": "باستثناء المخابرات والمتقاعدين المدنيين والعسكريين والضمان الاجتماعي، يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلى البنك بعد سداد التزاماته لدى البنك الآخر الذي كان الراتب محولاً إليه.",
+      "source_chunks": [
+        "في حال شراء الالتزامات للأجهزة الأمنية والعسكرية عدا المخابرات والتقاعد المدني والعسكري والضمان الاجتماعي، يتم استيفاء تعهد خطي من العميل بتحويل راتبه إلينا بعد سداد التزاماته لدى البنك الآخر المحول إليه الراتب."
+      ],
+      "chunk_ids": [
+        "chunk_047"
+      ]
+    },
+    {
+      "id": "HOUSING-Q124",
+      "pair_id": "HOUSING-P062",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the special condition for buying obligations of Security and Military Apparatuses from another bank?",
+      "expected_answer": "Except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary was transferred.",
+      "source_chunks": [
+        "In case of buying obligations for Security and Military Apparatuses, except for Intelligence, Civil and Military Retirement, and Social Security, a written commitment is obtained from the customer to transfer their salary to us after settling their obligations with the other bank to which the salary is transferred."
+      ],
+      "chunk_ids": [
+        "chunk_047_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q125",
+      "pair_id": "HOUSING-P063",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو تعهد تحويل الراتب المطلوب من موظفي القطاع الخاص عند شراء التزامات من بنك آخر؟",
+      "expected_answer": "يُقدَّم تعهد تحويل راتب مشروط وفق الصيغة المعتمدة لدى البنك، لحين استلام براءة الذمة من البنك الآخر.",
+      "source_chunks": [
+        "القطاع الخاص تعهد تحويل راتب مشروط وحسب الصيغة المعتمدة لدينا لحين استلام براءة الذمة من البنك الأخر."
+      ],
+      "chunk_ids": [
+        "chunk_048"
+      ]
+    },
+    {
+      "id": "HOUSING-Q126",
+      "pair_id": "HOUSING-P063",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What salary transfer commitment is required from private sector employees when buying obligations from another bank?",
+      "expected_answer": "A conditional salary transfer commitment is provided according to the bank's approved format, until receiving the clearance from the other bank.",
+      "source_chunks": [
+        "Private Sector: Conditional salary transfer commitment according to our approved format until receiving the clearance from the other bank."
+      ],
+      "chunk_ids": [
+        "chunk_048_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q127",
+      "pair_id": "HOUSING-P064",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو المستند المطلوب لإثبات سداد السلف أو الالتزامات الأخرى عند شراء التزامات من بنك آخر؟",
+      "expected_answer": "يُطلب تزويد البنك بما يفيد سداد السلف الداخلية أو أي جهات خارجية تم سداد التزامات العميل بها.",
+      "source_chunks": [
+        "تزويدنا بما يفيد سداد السلف الداخلية أو أي جهات خارجية تم سداد التزامات العميل بها."
+      ],
+      "chunk_ids": [
+        "chunk_049"
+      ]
+    },
+    {
+      "id": "HOUSING-Q128",
+      "pair_id": "HOUSING-P064",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What document is required to prove payment of advances or other obligations when buying obligations from another bank?",
+      "expected_answer": "The bank must be provided with proof of payment of internal advances or any external parties where the customer's obligations were paid.",
+      "source_chunks": [
+        "Providing us with proof of payment of internal advances or any external parties where the customer's obligations were paid."
+      ],
+      "chunk_ids": [
+        "chunk_049_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q129",
+      "pair_id": "HOUSING-P065",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو المستند النهائي المطلوب بعد تسديد قيمة القرض المشترى من بنك آخر؟",
+      "expected_answer": "يُطلب تزويد البنك ببراءة ذمة من البنك الآخر بعد تسديد قيمة القرض المشترى، بالإضافة إلى تعهد تحويل راتب.",
+      "source_chunks": [
+        "تزويدنا ببراءة الذمة من البنك الآخر بعد تسديد قيمة القرض المشترى بالإضافة إلى تعهد تحويل راتب."
+      ],
+      "chunk_ids": [
+        "chunk_050"
+      ]
+    },
+    {
+      "id": "HOUSING-Q130",
+      "pair_id": "HOUSING-P065",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the final document required after paying the value of the purchased loan from another bank?",
+      "expected_answer": "The bank must be provided with a clearance certificate from the other bank after paying the purchased loan value, in addition to a salary transfer commitment.",
+      "source_chunks": [
+        "Providing us with a clearance certificate from the other bank after paying the purchased loan value, in addition to a salary transfer commitment."
+      ],
+      "chunk_ids": [
+        "chunk_050_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q131",
+      "pair_id": "HOUSING-P066",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي أوراق العقار المطلوبة للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "تشمل أوراق العقار: عقد البيع المبدئي، وأوراق العقار (سند التسجيل، مخطط الأراضي، مخطط الموقع، إذن الأشغال، رخصة البناء)، وتقرير كلفة البناء لقروض البناء موضحاً به مراحل البناء من مخمن معتمد، وإثبات دفع العميل للدفعة المقدمة لعملاء قروض تمويل البناء الجاهز، وتخمين عقاري معتمد.",
+      "source_chunks": [
+        "أوراق العقار: عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء مبين به مراحل البناء من مخمن معتمد. إثبات دفع العميل الدفعة المقدمة لعملاء قروض تمويل البناء الجاهز. تخمين عقاري معتمد."
+      ],
+      "chunk_ids": [
+        "chunk_051"
+      ]
+    },
+    {
+      "id": "HOUSING-Q132",
+      "pair_id": "HOUSING-P066",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What property papers are required to obtain a housing loan with salary transfer?",
+      "expected_answer": "Property papers include: the initial sale contract, property papers (registration deed, land plan, location map, occupancy permit, building permit), a construction cost report for construction loans showing building stages from a certified appraiser, proof of the customer paying the down payment for ready construction financing loan customers, and a certified property appraisal.",
+      "source_chunks": [
+        "Property Papers: Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal."
+      ],
+      "chunk_ids": [
+        "chunk_051_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q133",
+      "pair_id": "HOUSING-P067",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد العمري المطلوب للحصول على قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "يتراوح العمر المطلوب عند المنح بين 24 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+      "source_chunks": [
+        "الفئة 2: قرض سكني من غير تحويل راتب. العمر المطلوب: (24 إلى 65) سنة عند المنح و(75) سنة عند تسديد آخر قسط."
+      ],
+      "chunk_ids": [
+        "chunk_052"
+      ]
+    },
+    {
+      "id": "HOUSING-Q134",
+      "pair_id": "HOUSING-P067",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the required age to obtain a housing loan without salary transfer?",
+      "expected_answer": "The required age at granting ranges from 24 to 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+      "source_chunks": [
+        "Category 2: Housing loan without salary transfer. Required Age: (24 to 65) years at the time of granting and (75) years at the settlement of the last installment."
+      ],
+      "chunk_ids": [
+        "chunk_052_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q135",
+      "pair_id": "HOUSING-P068",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لصافي الراتب/الدخل بشكل عام للحصول على قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لصافي الراتب/الدخل بشكل عام هو 600 دينار.",
+      "source_chunks": [
+        "الحد الأدنى لصافي الراتب/الدخل (من غير تحويل راتب): 600 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_053"
+      ]
+    },
+    {
+      "id": "HOUSING-Q136",
+      "pair_id": "HOUSING-P068",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum net salary/income in general to obtain a housing loan without salary transfer?",
+      "expected_answer": "The minimum net salary/income in general is 600 JOD.",
+      "source_chunks": [
+        "Minimum net salary/income (without salary transfer): 600 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_053_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q137",
+      "pair_id": "HOUSING-P069",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لصافي الدخل لأصحاب الأعمال الحرة والمهنيين والمغتربين للحصول على قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لصافي الدخل لأصحاب الأعمال الحرة والمهنيين والمغتربين هو 2,000 دينار.",
+      "source_chunks": [
+        "الحد الأدنى لصافي الراتب/الدخل (من غير تحويل راتب): 600 دينار بشكل عام. الأعمال الحرة/المهنيين/المغتربين: 2,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_053"
+      ]
+    },
+    {
+      "id": "HOUSING-Q138",
+      "pair_id": "HOUSING-P069",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum net income for self-employed individuals, professionals, and expatriates to obtain a housing loan without salary transfer?",
+      "expected_answer": "The minimum net income for self-employed individuals, professionals, and expatriates is 2,000 JOD.",
+      "source_chunks": [
+        "Minimum net salary/income (without salary transfer): 600 JOD in general. Self-employed/Professionals/Expatriates: 2,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_053_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q139",
+      "pair_id": "HOUSING-P070",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة بشكل عام للحصول على قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة بشكل عام سنة واحدة.",
+      "source_chunks": [
+        "مدة الخدمة (من غير تحويل راتب): بشكل عام: سنة. الأعمال الحرة/المهنيين/المغتربين: سنتين."
+      ],
+      "chunk_ids": [
+        "chunk_054"
+      ]
+    },
+    {
+      "id": "HOUSING-Q140",
+      "pair_id": "HOUSING-P070",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service in general to obtain a housing loan without salary transfer?",
+      "expected_answer": "The minimum length of service in general is one year.",
+      "source_chunks": [
+        "Length of service (without salary transfer): In general: One year. Self-employed/Professionals/Expatriates: Two years."
+      ],
+      "chunk_ids": [
+        "chunk_054_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q141",
+      "pair_id": "HOUSING-P071",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة الخدمة لأصحاب الأعمال الحرة والمهنيين والمغتربين للحصول على قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة الخدمة سنتان.",
+      "source_chunks": [
+        "مدة الخدمة (من غير تحويل راتب): بشكل عام: سنة. الأعمال الحرة/المهنيين/المغتربين: سنتين."
+      ],
+      "chunk_ids": [
+        "chunk_054"
+      ]
+    },
+    {
+      "id": "HOUSING-Q142",
+      "pair_id": "HOUSING-P071",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum length of service for self-employed individuals, professionals, and expatriates to obtain a housing loan without salary transfer?",
+      "expected_answer": "The minimum length of service is two years.",
+      "source_chunks": [
+        "Length of service (without salary transfer): In general: One year. Self-employed/Professionals/Expatriates: Two years."
+      ],
+      "chunk_ids": [
+        "chunk_054_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q143",
+      "pair_id": "HOUSING-P072",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "كم تبلغ عمولة المنح لقرض سكني من غير تحويل راتب؟",
+      "expected_answer": "تبلغ عمولة المنح 1%.",
+      "source_chunks": [
+        "عمولة منح (من غير تحويل راتب): 1%."
+      ],
+      "chunk_ids": [
+        "chunk_055"
+      ]
+    },
+    {
+      "id": "HOUSING-Q144",
+      "pair_id": "HOUSING-P072",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the granting commission for a housing loan without salary transfer?",
+      "expected_answer": "The granting commission is 1%.",
+      "source_chunks": [
+        "Granting commission (without salary transfer): 1%"
+      ],
+      "chunk_ids": [
+        "chunk_055_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q145",
+      "pair_id": "HOUSING-P073",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة عبء الدين للرواتب الأقل من أو تساوي 2,500 دينار لقرض سكني من غير تحويل راتب؟",
+      "expected_answer": "55% للقرض فقط، بالإضافة إلى 5% للبطاقة لأصحاب الدخل الأقل من 2,500 دينار.",
+      "source_chunks": [
+        "عبء الدين (من غير تحويل راتب): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_056"
+      ]
+    },
+    {
+      "id": "HOUSING-Q146",
+      "pair_id": "HOUSING-P073",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the debt burden for salaries less than or equal to 2,500 JOD for a housing loan without salary transfer?",
+      "expected_answer": "55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD.",
+      "source_chunks": [
+        "Debt burden (without salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_056_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q147",
+      "pair_id": "HOUSING-P074",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة عبء الدين للرواتب الأكبر من 2,500 دينار لقرض سكني من غير تحويل راتب؟",
+      "expected_answer": "55% للقرض فقط، بالإضافة إلى 10% للبطاقة لأصحاب الدخل الأعلى من 2,500 دينار.",
+      "source_chunks": [
+        "عبء الدين (من غير تحويل راتب): للرواتب أقل أو تساوي 2,500 دينار: 55% للقرض فقط بالإضافة إلى 5% للبطاقة لأصحاب الدخل أقل من 2500 دينار. للرواتب أكبر من 2,500 دينار: 55% للقرض فقط بالإضافة إلى 10% للبطاقة لأصحاب الدخل أعلى من 2500 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_056"
+      ]
+    },
+    {
+      "id": "HOUSING-Q148",
+      "pair_id": "HOUSING-P074",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the debt burden for salaries greater than 2,500 JOD for a housing loan without salary transfer?",
+      "expected_answer": "55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD.",
+      "source_chunks": [
+        "Debt burden (without salary transfer): For salaries less than or equal to 2,500 JOD: 55% for the loan only, in addition to 5% for the card for income earners below 2,500 JOD. For salaries greater than 2,500 JOD: 55% for the loan only, in addition to 10% for the card for income earners above 2,500 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_056_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q149",
+      "pair_id": "HOUSING-P075",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمدة القرض السكني من غير تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمدة القرض 12 شهراً.",
+      "source_chunks": [
+        "الحد الأدنى لمدة القرض (من غير تحويل راتب): 12 شهر."
+      ],
+      "chunk_ids": [
+        "chunk_057"
+      ]
+    },
+    {
+      "id": "HOUSING-Q150",
+      "pair_id": "HOUSING-P075",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum period for a housing loan without salary transfer?",
+      "expected_answer": "The minimum loan period is 12 months.",
+      "source_chunks": [
+        "Minimum loan period (without salary transfer): 12 months."
+      ],
+      "chunk_ids": [
+        "chunk_057_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q151",
+      "pair_id": "HOUSING-P076",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لمدة قرض شراء الأراضي من غير تحويل راتب؟",
+      "expected_answer": "الحد الأقصى لمدة القرض 96 شهراً.",
+      "source_chunks": [
+        "الحد الأقصى لمدة القرض (من غير تحويل راتب): للأراضي: 96 شهر. للشقق: 300 شهر."
+      ],
+      "chunk_ids": [
+        "chunk_058"
+      ]
+    },
+    {
+      "id": "HOUSING-Q152",
+      "pair_id": "HOUSING-P076",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum period for a land-purchase loan without salary transfer?",
+      "expected_answer": "The maximum loan period is 96 months.",
+      "source_chunks": [
+        "Maximum loan period (without salary transfer): For lands: 96 months. For apartments: 300 months."
+      ],
+      "chunk_ids": [
+        "chunk_058_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q153",
+      "pair_id": "HOUSING-P077",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لمدة قرض شراء الشقق من غير تحويل راتب؟",
+      "expected_answer": "الحد الأقصى لمدة القرض 300 شهر.",
+      "source_chunks": [
+        "الحد الأقصى لمدة القرض (من غير تحويل راتب): للأراضي: 96 شهر. للشقق: 300 شهر."
+      ],
+      "chunk_ids": [
+        "chunk_058"
+      ]
+    },
+    {
+      "id": "HOUSING-Q154",
+      "pair_id": "HOUSING-P077",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum period for an apartment-purchase loan without salary transfer?",
+      "expected_answer": "The maximum loan period is 300 months.",
+      "source_chunks": [
+        "Maximum loan period (without salary transfer): For lands: 96 months. For apartments: 300 months."
+      ],
+      "chunk_ids": [
+        "chunk_058_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q155",
+      "pair_id": "HOUSING-P078",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأدنى لمبلغ القرض السكني من غير تحويل راتب؟",
+      "expected_answer": "الحد الأدنى لمبلغ القرض 30,000 دينار.",
+      "source_chunks": [
+        "الحد الأدنى لمبلغ القرض (من غير تحويل راتب): 30,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_059"
+      ]
+    },
+    {
+      "id": "HOUSING-Q156",
+      "pair_id": "HOUSING-P078",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the minimum amount for a housing loan without salary transfer?",
+      "expected_answer": "The minimum loan amount is 30,000 JOD.",
+      "source_chunks": [
+        "Minimum loan amount (without salary transfer): 30,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_059_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q157",
+      "pair_id": "HOUSING-P079",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لمبلغ القرض السكني من غير تحويل راتب؟",
+      "expected_answer": "الحد الأقصى لمبلغ القرض 300,000 دينار.",
+      "source_chunks": [
+        "الحد الأقصى لمبلغ القرض (من غير تحويل راتب): 300,000 دينار."
+      ],
+      "chunk_ids": [
+        "chunk_060"
+      ]
+    },
+    {
+      "id": "HOUSING-Q158",
+      "pair_id": "HOUSING-P079",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum amount for a housing loan without salary transfer?",
+      "expected_answer": "The maximum loan amount is 300,000 JOD.",
+      "source_chunks": [
+        "Maximum loan amount (without salary transfer): 300,000 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_060_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q159",
+      "pair_id": "HOUSING-P080",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن رفع سقف القرض السكني من غير تحويل راتب؟",
+      "expected_answer": "نعم، يمكن رفع سقف القرض.",
+      "source_chunks": [
+        "هل يمكن رفع سقف القرض (من غير تحويل راتب): نعم."
+      ],
+      "chunk_ids": [
+        "chunk_061"
+      ]
+    },
+    {
+      "id": "HOUSING-Q160",
+      "pair_id": "HOUSING-P080",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can the ceiling of a housing loan without salary transfer be raised?",
+      "expected_answer": "Yes, the loan ceiling can be raised.",
+      "source_chunks": [
+        "Can the loan ceiling be raised (without salary transfer): Yes."
+      ],
+      "chunk_ids": [
+        "chunk_061_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q161",
+      "pair_id": "HOUSING-P081",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة عبء الدين في حال وجود مدين وكفيل لقرض سكني من غير تحويل راتب؟",
+      "expected_answer": "نسبة عبء الدين في حال وجود مدين وكفيل هي 70%.",
+      "source_chunks": [
+        "عبء الدين كمدين وكفيل (من غير تحويل راتب): 70%."
+      ],
+      "chunk_ids": [
+        "chunk_062"
+      ]
+    },
+    {
+      "id": "HOUSING-Q162",
+      "pair_id": "HOUSING-P081",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the debt burden ratio when there is both a debtor and a guarantor for a housing loan without salary transfer?",
+      "expected_answer": "The debt burden ratio when there is a debtor and a guarantor is 70%.",
+      "source_chunks": [
+        "Debt burden as a debtor and guarantor (without salary transfer): 70%."
+      ],
+      "chunk_ids": [
+        "chunk_062_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q163",
+      "pair_id": "HOUSING-P082",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو الحد الأقصى لعمر البناء المؤهل للتمويل لقرض سكني من غير تحويل راتب؟",
+      "expected_answer": "يجب ألا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يُظهر التخمين أنه بحالة جيدة؛ وإن لم يكن كذلك يتم الاعتماد على تخمين الأرض فقط.",
+      "source_chunks": [
+        "عمر البناء (من غير تحويل راتب): أن لا يزيد عمر البناء عن 20 سنة عند طلب القرض، وأن يظهر التخمين أنه بحالة جيدة، وبخلاف ذلك يتم الاعتماد على تخمين الأرض فقط."
+      ],
+      "chunk_ids": [
+        "chunk_063"
+      ]
+    },
+    {
+      "id": "HOUSING-Q164",
+      "pair_id": "HOUSING-P082",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the maximum building age eligible for financing for a housing loan without salary transfer?",
+      "expected_answer": "The building's age must not exceed 20 years when requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only.",
+      "source_chunks": [
+        "Property age (without salary transfer): The age of the building must not exceed 20 years upon requesting the loan, and the appraisal must show it is in good condition; otherwise, reliance will be on the land appraisal only."
+      ],
+      "chunk_ids": [
+        "chunk_063_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q165",
+      "pair_id": "HOUSING-P083",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "كم تبلغ عمولة إعادة الهيكلة لقرض سكني من غير تحويل راتب؟",
+      "expected_answer": "تبلغ عمولة إعادة الهيكلة 5 دنانير.",
+      "source_chunks": [
+        "عمولة إعادة هيكلة (من غير تحويل راتب): 5 دنانير."
+      ],
+      "chunk_ids": [
+        "chunk_064"
+      ]
+    },
+    {
+      "id": "HOUSING-Q166",
+      "pair_id": "HOUSING-P083",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the restructuring commission for a housing loan without salary transfer?",
+      "expected_answer": "The restructuring commission is 5 JOD.",
+      "source_chunks": [
+        "Restructuring commission (without salary transfer): 5 JOD."
+      ],
+      "chunk_ids": [
+        "chunk_064_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q167",
+      "pair_id": "HOUSING-P084",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل عند شراء شقق جاهزة من غير تحويل راتب؟",
+      "expected_answer": "الحد الأعلى لنسبة التمويل 70%.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - شراء شقق جاهزة (من غير تحويل راتب): لغاية 70% حد أعلى."
+      ],
+      "chunk_ids": [
+        "chunk_065"
+      ]
+    },
+    {
+      "id": "HOUSING-Q168",
+      "pair_id": "HOUSING-P084",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for buying ready apartments without salary transfer?",
+      "expected_answer": "The maximum financing ratio is 70%.",
+      "source_chunks": [
+        "Financing ratio details - Buying ready apartments (without salary transfer): Up to 70% maximum limit."
+      ],
+      "chunk_ids": [
+        "chunk_065_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q169",
+      "pair_id": "HOUSING-P085",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل عند شراء عقار إضافي من غير تحويل راتب؟",
+      "expected_answer": "الحد الأعلى لنسبة التمويل 70%.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - شراء عقار إضافي (من غير تحويل راتب): 70% حد أعلى."
+      ],
+      "chunk_ids": [
+        "chunk_066"
+      ]
+    },
+    {
+      "id": "HOUSING-Q170",
+      "pair_id": "HOUSING-P085",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for buying additional property without salary transfer?",
+      "expected_answer": "The maximum financing ratio is 70%.",
+      "source_chunks": [
+        "Financing ratio details - Buying additional property (without salary transfer): 70% maximum limit."
+      ],
+      "chunk_ids": [
+        "chunk_066_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q171",
+      "pair_id": "HOUSING-P086",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي نسبة التمويل عند شراء أراضٍ من غير تحويل راتب؟",
+      "expected_answer": "الحد الأعلى لنسبة التمويل 60%.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - شراء أراضي (من غير تحويل راتب): 60% حد أعلى."
+      ],
+      "chunk_ids": [
+        "chunk_067"
+      ]
+    },
+    {
+      "id": "HOUSING-Q172",
+      "pair_id": "HOUSING-P086",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the financing ratio for buying lands without salary transfer?",
+      "expected_answer": "The maximum financing ratio is 60%.",
+      "source_chunks": [
+        "Financing ratio details - Buying lands (without salary transfer): 60% maximum limit."
+      ],
+      "chunk_ids": [
+        "chunk_067_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q173",
+      "pair_id": "HOUSING-P087",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن تمويل عقار في منطقة إجازة من غير تحويل راتب؟",
+      "expected_answer": "لا، هذا النوع من التمويل لا ينطبق على قروض السكني من غير تحويل راتب.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - عقار لغاية الإجازة (من غير تحويل راتب): لا ينطبق."
+      ],
+      "chunk_ids": [
+        "chunk_068"
+      ]
+    },
+    {
+      "id": "HOUSING-Q174",
+      "pair_id": "HOUSING-P087",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can vacation property be financed without salary transfer?",
+      "expected_answer": "No, this type of financing is not applicable for housing loans without salary transfer.",
+      "source_chunks": [
+        "Financing ratio details - Vacation property (without salary transfer): Not applicable."
+      ],
+      "chunk_ids": [
+        "chunk_068_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q175",
+      "pair_id": "HOUSING-P088",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "هل يمكن تمويل قروض البناء من غير تحويل راتب؟",
+      "expected_answer": "لا، تمويل البناء لا ينطبق على قروض السكني من غير تحويل راتب.",
+      "source_chunks": [
+        "تفاصيل نسبة التمويل - بناء (من غير تحويل راتب): لا ينطبق."
+      ],
+      "chunk_ids": [
+        "chunk_069"
+      ]
+    },
+    {
+      "id": "HOUSING-Q176",
+      "pair_id": "HOUSING-P088",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "Can construction loans be financed without salary transfer?",
+      "expected_answer": "No, construction financing is not applicable for housing loans without salary transfer.",
+      "source_chunks": [
+        "Financing ratio details - Construction (without salary transfer): Not applicable."
+      ],
+      "chunk_ids": [
+        "chunk_069_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q177",
+      "pair_id": "HOUSING-P089",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي المستندات المطلوبة للحصول على قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "يُطلب صورة طبق الأصل عن وثيقة إثبات شخصية سارية المفعول، ولغير الأردني صورة عن وثيقة إقامة سارية بالإضافة إلى جواز سفر ساري المفعول.",
+      "source_chunks": [
+        "المستندات المطلوبة (من غير تحويل راتب): صورة طبق الأصل عن وثيقة إثبات الشخصية سارية المفعول. صورة عن وثيقة الإقامة سارية المفعول (لغير الأردني) بالإضافة إلى جواز السفر ساري المفعول."
+      ],
+      "chunk_ids": [
+        "chunk_070"
+      ]
+    },
+    {
+      "id": "HOUSING-Q178",
+      "pair_id": "HOUSING-P089",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What documents are required to obtain a housing loan without salary transfer?",
+      "expected_answer": "A true copy of a valid identification document is required, and for non-Jordanians, a copy of a valid residency document in addition to a valid passport.",
+      "source_chunks": [
+        "Required Documents (without salary transfer): A true copy of a valid identification document. A copy of a valid residency document (for non-Jordanians) in addition to a valid passport."
+      ],
+      "chunk_ids": [
+        "chunk_070_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q179",
+      "pair_id": "HOUSING-P090",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي أوراق العقار المطلوبة للحصول على قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "تشمل أوراق العقار: عقد البيع المبدئي، وأوراق العقار (سند التسجيل، مخطط الأراضي، مخطط الموقع، إذن الأشغال، رخصة البناء)، وتقرير كلفة البناء لقروض البناء من مخمن معتمد، وإثبات دفع الدفعة المقدمة لعملاء قروض البناء الجاهز، وتخمين عقاري معتمد.",
+      "source_chunks": [
+        "أوراق العقار (من غير تحويل راتب): عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء من مخمن معتمد. إثبات دفع الدفعة المقدمة لعملاء قروض البناء الجاهز. تخمين عقاري معتمد. يتم إيداع 80% من فرق التمويل بحساب العميل لدينا."
+      ],
+      "chunk_ids": [
+        "chunk_071"
+      ]
+    },
+    {
+      "id": "HOUSING-Q180",
+      "pair_id": "HOUSING-P090",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What property papers are required to obtain a housing loan without salary transfer?",
+      "expected_answer": "Property papers include: the initial sale contract, property papers (registration deed, land plan, location map, occupancy permit, building permit), a construction cost report for construction loans from a certified appraiser, proof of paying the down payment for ready construction financing loan customers, and a certified property appraisal.",
+      "source_chunks": [
+        "Property Papers (without salary transfer): Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal. 80% of the financing difference is deposited in the customer's account with us."
+      ],
+      "chunk_ids": [
+        "chunk_071_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q181",
+      "pair_id": "HOUSING-P091",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ماذا يحدث لفرق التمويل في قرض سكني من غير تحويل راتب؟",
+      "expected_answer": "يتم إيداع 80% من فرق التمويل في حساب العميل لدى البنك.",
+      "source_chunks": [
+        "أوراق العقار (من غير تحويل راتب): عقد البيع المبدئي. أوراق العقار (سند التسجيل، مخطط الأراضي، مخطط موقع، إذن الأشغال، رخصة البناء). تقرير كلفة البناء لقروض البناء من مخمن معتمد. إثبات دفع الدفعة المقدمة لعملاء قروض البناء الجاهز. تخمين عقاري معتمد. يتم إيداع 80% من فرق التمويل بحساب العميل لدينا."
+      ],
+      "chunk_ids": [
+        "chunk_071"
+      ]
+    },
+    {
+      "id": "HOUSING-Q182",
+      "pair_id": "HOUSING-P091",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What happens to the financing difference in a housing loan without salary transfer?",
+      "expected_answer": "80% of the financing difference is deposited in the customer's account with the bank.",
+      "source_chunks": [
+        "Property Papers (without salary transfer): Initial sale contract. Property papers (Registration deed, land plan, location map, occupancy permit, building permit). Construction cost report for construction loans showing building stages from a certified appraiser. Proof of the customer paying the down payment for ready construction financing loan customers. Certified property appraisal. 80% of the financing difference is deposited in the customer's account with us."
+      ],
+      "chunk_ids": [
+        "chunk_071_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q183",
+      "pair_id": "HOUSING-P092",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي شروط تأجيل دفعات القرض السكني؟",
+      "expected_answer": "يُسمح بتأجيل دفعتين فقط خلال العام على ألا تقعا ضمن نفس النصف من السنة، وبشرط مرور 6 أشهر على تاريخ صرف القرض، والتزام العميل بالسداد دون مستحقات تتجاوز 30 يوماً خلال الأشهر الستة السابقة، وعدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. ولا يُسمح لعملاء الاقتطاعات بتأجيل الأقساط.",
+      "source_chunks": [
+        "تأجيل الدفعات (الفئة 3): يسمح بتأجيل دفعتين فقط خلال العام على ألا يتم تأجيل دفعتين خلال نفس النصف من السنة: قد مضى 6 أشهر على تاريخ صرف القرض. العميل ملتزم بالسداد ولا توجد أي مستحقة عليه (أكثر من 30 يوم) خلال ال 6 أشهر السابقة. عدم تجاوز الحد الأعلى لعمر العميل عند استحقاق آخر قسط. لا يسمح لعملاء الاقتطاعات تأجيل الاقساط."
+      ],
+      "chunk_ids": [
+        "chunk_072"
+      ]
+    },
+    {
+      "id": "HOUSING-Q184",
+      "pair_id": "HOUSING-P092",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the conditions for postponing housing loan installments?",
+      "expected_answer": "Only two postponements are allowed during the year, provided they do not fall within the same half of the year, that 6 months have passed since the loan disbursement date, that the customer is committed to repayment with no dues exceeding 30 days during the previous 6 months, and that the maximum age limit for the customer at the due date of the last installment is not exceeded. Deduction customers are not allowed to postpone installments.",
+      "source_chunks": [
+        "Postponement of Installments (Category 3): Postponing only two installments is allowed during the year, provided that two installments are not postponed during the same half of the year: 6 months have passed since the loan disbursement date. The customer is committed to repayment and there are no dues on them (more than 30 days) during the previous 6 months. Not exceeding the maximum age limit for the customer upon the due date of the last installment. Deduction customers are not allowed to postpone installments."
+      ],
+      "chunk_ids": [
+        "chunk_072_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q185",
+      "pair_id": "HOUSING-P093",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي أنواع الممتلكات التي لا يمكن تمويلها بقرض سكني؟",
+      "expected_answer": "لا يمكن تمويل الممتلكات ذات الاستعمال المقيد قانونياً (كالأراضي الزراعية)، وشراء الأراضي لغايات الاستثمار، وأي ممتلكات تخضع لقيود على إعادة بيعها أو تحد من قيمتها، والممتلكات التجارية والصناعية وغيرها من الممتلكات دون استخدام سكني. كما يُمنع تمويل الشراء من أقارب من الدرجة الأولى.",
+      "source_chunks": [
+        "أنواع الممتلكات التي لا يمكن تمويلها: الممتلكات ذات الاستعمال المقيد قانونياً، كالأراضي الزراعية. شراء الأراضي لغايات الاستثمار. أية ممتلكات تخضع لقيود على إعادة بيعها أو تحد من قيمتها. الممتلكات التجارية، والممتلكات الصناعية، والممتلكات الأخرى دون الاستخدام السكني. التأكد من العلاقة التجارية بين البائع والمشتري (يمنع تمويل الشراء من أقارب من الدرجة الأولى)."
+      ],
+      "chunk_ids": [
+        "chunk_073"
+      ]
+    },
+    {
+      "id": "HOUSING-Q186",
+      "pair_id": "HOUSING-P093",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What types of properties cannot be financed with a housing loan?",
+      "expected_answer": "Properties with legally restricted use (such as agricultural lands) cannot be financed, nor can lands bought for investment purposes, any properties subject to restrictions on resale or that limit their value, or commercial and industrial properties and other properties without residential use. Financing purchases from first-degree relatives is also prohibited.",
+      "source_chunks": [
+        "Types of properties that cannot be financed: Properties with legally restricted use, for example, lands designated for agricultural purposes. Buying lands for investment purposes. Any properties subject to restrictions on resale or that limit their value. Commercial properties, industrial properties, and other properties without residential use. Ensuring the commercial relationship between the seller and buyer (financing purchases from first-degree relatives is prohibited)."
+      ],
+      "chunk_ids": [
+        "chunk_073_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q187",
+      "pair_id": "HOUSING-P094",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي شروط الإعفاء من عمولة المنح وتحمل البنك مصاريف الرهن؟",
+      "expected_answer": "يشترط أن يكون مبلغ القرض 40,000 فما فوق، وألا تقل مدة القرض عن 10 سنوات، وأن يلتزم العميل مع البنك لمدة 5 سنوات، وأن يكون من عملاء الرواتب بشرط تحويل الراتب.",
+      "source_chunks": [
+        "شروط الاعفاء من عمولة المنح وتحمل البنك مصاريف الرهن: مبلغ القرض 40,000 فما فوق. أن لا تقل مدة القرض عن 10 سنوات. التزام العميل مع البنك 5 سنوات. عملاء الرواتب شريطة تحويل الراتب."
+      ],
+      "chunk_ids": [
+        "chunk_074"
+      ]
+    },
+    {
+      "id": "HOUSING-Q188",
+      "pair_id": "HOUSING-P094",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the conditions for exemption from the granting commission and the bank bearing mortgage expenses?",
+      "expected_answer": "The conditions are: a loan amount of 40,000 and above, a loan period of not less than 10 years, the customer's commitment with the bank for 5 years, and being a salary customer provided the salary is transferred.",
+      "source_chunks": [
+        "Conditions for exemption from granting commission and the bank bearing mortgage expenses: Loan amount of 40,000 and above. The loan period is not less than 10 years. The customer's commitment with the bank for 5 years. Salary customers provided salary transfer."
+      ],
+      "chunk_ids": [
+        "chunk_074_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q189",
+      "pair_id": "HOUSING-P095",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي شروط التأمين على الحياة لقرض السكني؟",
+      "expected_answer": "يُقدَّم التأمين على حياة المدين مجاناً.",
+      "source_chunks": [
+        "التأمين على الحياة: تأمين على حياة المدين مجاناً."
+      ],
+      "chunk_ids": [
+        "chunk_075"
+      ]
+    },
+    {
+      "id": "HOUSING-Q190",
+      "pair_id": "HOUSING-P095",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the life insurance terms for the housing loan?",
+      "expected_answer": "Free life insurance is provided for the debtor.",
+      "source_chunks": [
+        "Life Insurance: Free life insurance for the debtor."
+      ],
+      "chunk_ids": [
+        "chunk_075_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q191",
+      "pair_id": "HOUSING-P096",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "كم تبلغ عمولة السداد المبكر لقرض السكني؟",
+      "expected_answer": "تبلغ عمولة السداد المبكر 1% إذا تبقّى أكثر من سنة على انتهاء القرض، و0% إذا تبقّى أقل من سنة على انتهائه.",
+      "source_chunks": [
+        "عمولة السداد المبكر: 1% في حال بقي أكثر من سنة على انتهاء القرض. 0% في حال تبقى أقل من سنة على انتهاء القرض."
+      ],
+      "chunk_ids": [
+        "chunk_076"
+      ]
+    },
+    {
+      "id": "HOUSING-Q192",
+      "pair_id": "HOUSING-P096",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the early settlement commission for the housing loan?",
+      "expected_answer": "The early settlement commission is 1% if more than a year remains until the end of the loan, and 0% if less than a year remains.",
+      "source_chunks": [
+        "Early Settlement Commission: 1% if more than a year remains until the end of the loan. 0% if less than a year remains until the end of the loan."
+      ],
+      "chunk_ids": [
+        "chunk_076_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q193",
+      "pair_id": "HOUSING-P097",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هو \"القرض المتناقص مقابل رهن عقار\"؟",
+      "expected_answer": "هو قرض شخصي مقابل رهن عقاري، ويجب على العميل أن يكون متطابقاً مع سياسة القرض الشخصي.",
+      "source_chunks": [
+        "الفئة 4: قرض متناقص مقابل رهن عقار. هو قرض شخصي مقابل رهن عقاري (يجب على العميل أن يكون متطابقاً مع سياسة القرض الشخصي)."
+      ],
+      "chunk_ids": [
+        "chunk_077"
+      ]
+    },
+    {
+      "id": "HOUSING-Q194",
+      "pair_id": "HOUSING-P097",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What is the \"declining loan against a property mortgage\"?",
+      "expected_answer": "It is a personal loan against a property mortgage, and the customer must comply with the personal loan policy.",
+      "source_chunks": [
+        "Category 4: Declining loan against a property mortgage. It is a personal loan against a Property mortgage (the customer must comply with the personal loan policy)."
+      ],
+      "chunk_ids": [
+        "chunk_077_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q195",
+      "pair_id": "HOUSING-P098",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي شروط تمويل القرض المتناقص مقابل رهن شقة؟",
+      "expected_answer": "تصل نسبة التمويل إلى 60% في حال رهن شقة، بمدة تتراوح بين 12 و96 شهراً، وبمبلغ اقتراض يتراوح بين 25,000 و150,000 دينار أردني، ونسبة عبء دين 55%.",
+      "source_chunks": [
+        "الإجراءات: تمويل 60% في حال رهن شقة. المدة (12-96) شهر، الاقتراض (25,000 - 150,000) دينار أردني، عبء الدين 55%."
+      ],
+      "chunk_ids": [
+        "chunk_078"
+      ]
+    },
+    {
+      "id": "HOUSING-Q196",
+      "pair_id": "HOUSING-P098",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the financing terms for the declining loan against an apartment mortgage?",
+      "expected_answer": "The financing ratio is up to 60% in case of an apartment mortgage, with a period of 12 to 96 months, borrowing of 25,000 to 150,000 JOD, and a debt burden of 55%.",
+      "source_chunks": [
+        "Procedures: 60% financing in case of an apartment mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+      ],
+      "chunk_ids": [
+        "chunk_078_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q197",
+      "pair_id": "HOUSING-P099",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي شروط تمويل القرض المتناقص مقابل رهن أرض؟",
+      "expected_answer": "تصل نسبة التمويل إلى 50% في حال رهن أرض، بمدة تتراوح بين 12 و96 شهراً، وبمبلغ اقتراض يتراوح بين 25,000 و150,000 دينار أردني، ونسبة عبء دين 55%.",
+      "source_chunks": [
+        "الإجراءات: تمويل 50% في حال رهن أراضي. المدة (12-96) شهر، الاقتراض (25,000 - 150,000) دينار أردني، عبء الدين 55%."
+      ],
+      "chunk_ids": [
+        "chunk_079"
+      ]
+    },
+    {
+      "id": "HOUSING-Q198",
+      "pair_id": "HOUSING-P099",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the financing terms for the declining loan against a land mortgage?",
+      "expected_answer": "The financing ratio is up to 50% in case of a land mortgage, with a period of 12 to 96 months, borrowing of 25,000 to 150,000 JOD, and a debt burden of 55%.",
+      "source_chunks": [
+        "Procedures: 50% financing in case of land mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+      ],
+      "chunk_ids": [
+        "chunk_079_en"
+      ]
+    },
+    {
+      "id": "HOUSING-Q199",
+      "pair_id": "HOUSING-P100",
+      "language": "ar",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "ما هي المتطلبات الخاصة بالقرض المتناقص مقابل رهن عقار؟",
+      "expected_answer": "يُطلب تخمين عقاري، بحسب سياسة التخمين العقاري المعتمدة.",
+      "source_chunks": [
+        "متطلبات القرض المتناقص مقابل رهن عقار: تخمين عقاري، بحسب سياسة التخمين العقاري."
+      ],
+      "chunk_ids": [
+        "chunk_080"
+      ]
+    },
+    {
+      "id": "HOUSING-Q200",
+      "pair_id": "HOUSING-P100",
+      "language": "en",
+      "topic": "Loan",
+      "sub_topic": "Housing Loan",
+      "question": "What are the requirements for the declining loan against a property mortgage?",
+      "expected_answer": "A property appraisal is required, according to the approved property appraisal policy.",
+      "source_chunks": [
+        "Requirements: Property appraisal, according to the property appraisal policy."
+      ],
+      "chunk_ids": [
+        "chunk_080_en"
+      ]
+    }
+  ]
+}
