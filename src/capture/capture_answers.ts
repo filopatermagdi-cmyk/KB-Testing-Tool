@@ -19,6 +19,7 @@
 import fs from "fs";
 import path from "path";
 import dotenv from "dotenv";
+import { alignAnswersToQuestions } from "../lib/transcript-pairing";
 
 dotenv.config();
 
@@ -67,7 +68,9 @@ interface CaptureRecord {
   zilla_answer: string | null;
   answered: boolean;
   source_chunks: string[];
+  source_file_ids: string[];
   latency_ms: number | null;
+  latency_first_audio_chunk_ms: number | null;
 }
 
 function arg(name: string, def = ""): string {
@@ -98,22 +101,6 @@ function latestSummary(sessionId: string): any {
     .sort()
     .pop();
   return f ? readJson(path.join(dir, f)) : null;
-}
-
-// Pair every customer utterance with the agent answer that follows it.
-// The opening agent greeting has no preceding customer turn, so it is skipped.
-function pairTurns(transcript: TranscriptEntry[]): Array<{ question: string; answer: string }> {
-  const pairs: Array<{ question: string; answer: string }> = [];
-  let pending: string | null = null;
-  for (const t of transcript) {
-    if (t.speaker === "customer") {
-      pending = t.text;
-    } else if (t.speaker === "agent" && pending !== null) {
-      pairs.push({ question: pending, answer: t.text });
-      pending = null;
-    }
-  }
-  return pairs;
 }
 
 // The runner stages clips as <NNN>_<questionId>.wav in the ACTUAL play order
@@ -148,7 +135,6 @@ function captureForSession(session: Session): CaptureRecord[] {
   }
 
   const transcript: TranscriptEntry[] = summary.liveTranscript || [];
-  const pairs = pairTurns(transcript);
   const checks: any[] = summary.checks || [];
   const appUrl = summary.env?.appUrl || "";
   const conversationId = summary.conversationId || "";
@@ -172,10 +158,49 @@ function captureForSession(session: Session): CaptureRecord[] {
     );
   }
 
+  // Align answers to questions by content instead of blindly zipping by
+  // position — see alignAnswersToQuestions(): STT splits one spoken question
+  // into several customer utterances (and may get double replies), which would
+  // otherwise shift every answer after the split.
+  const aligned = alignAnswersToQuestions(
+    transcript,
+    order || session.messages.map((mm) => mm.question_id),
+    (qid) => {
+      const s = byId.get(qid);
+      return { question: s?.question ?? "", expected_answer: s?.expected_answer ?? "" };
+    }
+  );
+
+  // Cumulative source file IDs: each turn sees all files loaded up to + including
+  // that turn. The judge needs to know not just the current turn's files but the
+  // full KB context Ziila had at that point (files loaded before aren't fetched
+  // again, so the cumulative set is what matters).
+  // Per-turn source file IDs: the files Zilla actually loaded/used for THAT
+  // question (what arrived in its relay frame for this turn), not a running
+  // accumulation. Turns with no relay frame (first question before any
+  // load_files, or a trailing turn) inherit the most recent known set, since
+  // the answer was produced from the same context.
+  const perTurnByIdx = new Map<number, string[]>();
+  for (const entry of summary.sourceFilesByTurn || []) {
+    perTurnByIdx.set(
+      entry.turn,
+      [...new Set([...(entry.fileIds || []), ...(entry.loadedFiles || [])])],
+    );
+  }
+  const sourceIdsForTurn = (turn: number): string[] => {
+    const direct = perTurnByIdx.get(turn);
+    if (direct && direct.length) return direct;
+    for (let t = turn - 1; t >= 1; t--) {
+      const prev = perTurnByIdx.get(t);
+      if (prev && prev.length) return prev;
+    }
+    return [];
+  };
+
   return session.messages.map((m, i) => {
-    const pair = pairs[i];
     const qid = order ? order[i] : m.question_id;
     const src = byId.get(qid);
+    const al = aligned[i];
     return {
       session_id: session.session_id,
       language: session.language,
@@ -186,10 +211,12 @@ function captureForSession(session: Session): CaptureRecord[] {
       question_id: qid,
       question: src?.question ?? m.question,
       expected_answer: src?.expected_answer ?? m.expected_answer,
-      zilla_answer: pair ? pair.answer : null,
-      answered: !!pair,
+      zilla_answer: al?.answer ?? null,
+      answered: !!al?.answer,
       source_chunks: src?.source_chunks || [],
+      source_file_ids: sourceIdsForTurn(i + 1),
       latency_ms: checks[i]?.latencyMs ?? null,
+      latency_first_audio_chunk_ms: checks[i]?.latencyMsToFirstAudioChunk ?? null,
     };
   });
 }
@@ -299,6 +326,8 @@ function main() {
   const unanswered = records.length - answered;
   const withLatency = records.filter((r) => r.latency_ms !== null);
   const avgLatency = withLatency.length > 0 ? Math.round(withLatency.reduce((s, r) => s + (r.latency_ms || 0), 0) / withLatency.length) : null;
+  const withChunkLatency = records.filter((r) => r.latency_first_audio_chunk_ms !== null);
+  const avgChunkLatency = withChunkLatency.length > 0 ? Math.round(withChunkLatency.reduce((s, r) => s + (r.latency_first_audio_chunk_ms || 0), 0) / withChunkLatency.length) : null;
 
   fs.writeFileSync(
     outPath,
@@ -311,6 +340,7 @@ function main() {
         answered,
         unanswered,
         avgLatencyMs: avgLatency,
+        avgLatencyFirstAudioChunkMs: avgChunkLatency,
         records,
       },
       null,

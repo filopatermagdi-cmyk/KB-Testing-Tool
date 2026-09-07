@@ -50,5 +50,8 @@ export function buildAttemptResult(evidence: AttemptEvidence): AttemptResult {
     artifacts: evidence.artifacts,
     transcript: evidence.artifacts?.transcript || null,
     recording: evidence.artifacts?.recording || null,
+    ...(evidence.sourceFilesByTurn ? { sourceFilesByTurn: evidence.sourceFilesByTurn } : {}),
+    ...(evidence.sourceFilesUsed ? { sourceFilesUsed: evidence.sourceFilesUsed } : {}),
+    ...(evidence.sourceFrameLog ? { sourceFrameLog: evidence.sourceFrameLog } : {}),
   };
 }

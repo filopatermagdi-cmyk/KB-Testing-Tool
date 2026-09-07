@@ -90,12 +90,12 @@ export const SETTLE_MS = parseInt(process.env.SETTLE_MS || '1500', 10);
 // may just be waiting for the real query).
 export const OPENING_REPLY_WAIT_MS = parseInt(process.env.OPENING_REPLY_WAIT_MS || '10000', 10);
 export const RETRIES = parseInt(process.env.RETRIES || '0', 10); // extra attempts on failure (0 = run each session exactly once)
-export const ATTEMPT_TIMEOUT_MS = parseInt(process.env.ATTEMPT_TIMEOUT_MS || '900000', 10); // wall-clock per attempt (15 min: 10 concurrent calls on a dev server can stretch a session)
+export const ATTEMPT_TIMEOUT_MS = parseInt(process.env.ATTEMPT_TIMEOUT_MS || '1200000', 10); // wall-clock per attempt (20 min: 10 concurrent calls + 60s-per-clip no-reply waits can stretch a session)
 export const INTERRUPTION_WAIT_S = parseInt(process.env.INTERRUPTION_WAIT_S || '20', 10); // poll for recording readiness
 export const ARTIFACT_WAIT_MS = parseInt(
-  process.env.ARTIFACT_WAIT_MS || process.env.TRANSCRIPT_WAIT_MS || '180000',
+  process.env.ARTIFACT_WAIT_MS || process.env.TRANSCRIPT_WAIT_MS || '900000',
   10,
-);
+); // backend STT transcript under 10-way concurrency took ~8-15 min to persist; 3 min was too short
 export const ARTIFACT_POLL_MS = parseInt(
   process.env.ARTIFACT_POLL_MS || process.env.TRANSCRIPT_POLL_MS || '3000',
   10,
@@ -110,7 +110,7 @@ export const TRANSCRIPT_MIN_TURNS = parseInt(process.env.TRANSCRIPT_MIN_TURNS ||
 export const CALL_MATCH_SKEW_MS = parseInt(process.env.CALL_MATCH_SKEW_MS || '15000', 10);
 export const ROUTE_PROBE_MS = parseInt(process.env.ROUTE_PROBE_MS || '30000', 10); // per-candidate wait for the call Start button (30s: dev servers can be slow to render the call page under load)
 export const POLL_MS = parseInt(process.env.POLL_MS || '200', 10); // DOM poll interval (reply / idle / barge-in)
-export const CONVERSATION_PAGE_SIZE = parseInt(process.env.CONVERSATION_PAGE_SIZE || '5', 10); // recent-conversations page size for call lookup
+export const CONVERSATION_PAGE_SIZE = parseInt(process.env.CONVERSATION_PAGE_SIZE || '50', 10); // recent-conversations page size for call lookup; must exceed the in-flight concurrency or a busy agent's own call falls off page 0 and lookup reports transcript-not-saved
 export const REPLY_MIN_LATENCY_MS = parseInt(process.env.REPLY_MIN_LATENCY_MS || '800', 10); // ignore "replies" faster than this (stale/streaming bleed, not a real answer)
 const VIDEO_ON_FAILURE = process.env.VIDEO_ON_FAILURE !== '0';
 export const VIDEO_ALWAYS = process.env.VIDEO_ALWAYS === '1'; // keep passing videos too (debug/demo)

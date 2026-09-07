@@ -1,0 +1,512 @@
+[
+  {
+    "id": "CONSIST-EN-Q001",
+    "pair_id": "LOANSQA-P061",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the minimum length of service to obtain a personal loan for the Security and Military sector?",
+    "expected_answer": "The minimum is 36 months; for Lieutenant and above it is 24 months; and for university degree holders only in the Gendarmerie, Army, and Public Security, it is 6 months.",
+    "source_chunks": [
+      "Length of Service: Minimum 36 months. Lieutenant and above: 24 months. Gendarmerie, Army, and Public Security university degree holders only: 6 months."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P061_chunk_029_en"
+    ],
+    "original_question_id": "LOANSQA-Q122",
+    "arabic_counterpart": "CONSIST-Q001"
+  },
+  {
+    "id": "CONSIST-EN-Q002",
+    "pair_id": "LOANSQA-P076",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What are the terms of the Personal Rewards Loan for employed customers with salary transfer?",
+    "expected_answer": "The minimum loan amount is 2,000 JOD, the maximum is 110,000 JOD, the Debt Burden Ratio is 50% or 55% depending on the employment category, and the minimum service period depends on the employment category.",
+    "source_chunks": [
+      "Employed Customers – With Salary Transfer: Minimum Loan Amount 2,000 JOD. Maximum Loan Amount 110,000 JOD. Debt Burden Ratio (DBR) 50% or 55% (Depends on employment category). Minimum Service Period According to employment category."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P076_chunk_092_en"
+    ],
+    "original_question_id": "LOANSQA-Q152",
+    "arabic_counterpart": "CONSIST-Q002"
+  },
+  {
+    "id": "CONSIST-EN-Q003",
+    "pair_id": "LOANSQA-P084",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the interest rate on the Instant Loan Against a Credit Card?",
+    "expected_answer": "10%.",
+    "source_chunks": [
+      "Interest rate: 10%."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P084_chunk_014_en"
+    ],
+    "original_question_id": "LOANSQA-Q168",
+    "arabic_counterpart": "CONSIST-Q003"
+  },
+  {
+    "id": "CONSIST-EN-Q004",
+    "pair_id": "LOANSQA-P016",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "How is the debtor's life insurance fee calculated for an auto loan with salary transfer, based on the loan amount?",
+    "expected_answer": "75 JOD for loans under 20,000 JOD, 150 JOD for loans from 20,000 to 50,000 JOD, and 250 JOD for loans over 50,000 JOD.",
+    "source_chunks": [
+      "Insurance Fees (with salary transfer): Life insurance for the debtor: Customers aged 65 and below. Loan amount is less than 100,000 JOD. Based on the loan amount: Less than 20,000 JOD: 75 JOD. 20,000 - 50,000 JOD: 150 JOD. Greater than 50,000 JOD: 250 JOD."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P016_chunk_035_en"
+    ],
+    "original_question_id": "LOANSQA-Q032",
+    "arabic_counterpart": "CONSIST-Q004"
+  },
+  {
+    "id": "CONSIST-EN-Q005",
+    "pair_id": "LOANSQA-P048",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What are the financing terms for the declining loan against an apartment mortgage?",
+    "expected_answer": "The financing ratio is up to 60%, with a period of 12 to 96 months, borrowing of 25,000 to 150,000 JOD, and a debt burden of 55%.",
+    "source_chunks": [
+      "Procedures: 60% financing in case of an apartment mortgage. Period (12-96) months, Borrowing (25,000 - 150,000) JOD, Debt burden 55%."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P048_chunk_078_en"
+    ],
+    "original_question_id": "LOANSQA-Q096",
+    "arabic_counterpart": "CONSIST-Q005"
+  },
+  {
+    "id": "CONSIST-EN-Q006",
+    "pair_id": "LOANSQA-P098",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What types of real estate/housing loans are available?",
+    "expected_answer": "Real estate/housing loans include: housing/real estate loans with salary transfer, housing/real estate loans without salary transfer, and declining loans against a real estate mortgage.",
+    "source_chunks": [
+      "What are the types of real estate/housing loans? Housing / real estate loans with salary transfer. Housing / real estate loans without salary transfer. Declining loans against a real estate mortgage."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P098_chunk_003_en"
+    ],
+    "original_question_id": "LOANSQA-Q196",
+    "arabic_counterpart": "CONSIST-Q006"
+  },
+  {
+    "id": "CONSIST-EN-Q007",
+    "pair_id": "LOANSQA-P026",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the required age for professionals and self-employed individuals to obtain a housing loan with salary transfer?",
+    "expected_answer": "The required age at granting for professionals and self-employed individuals is between 26 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+    "source_chunks": [
+      "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P026_chunk_001_en"
+    ],
+    "original_question_id": "LOANSQA-Q052",
+    "arabic_counterpart": "CONSIST-Q007"
+  },
+  {
+    "id": "CONSIST-EN-Q008",
+    "pair_id": "LOANSQA-P023",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What financing ratios are available under the Abu Khader Automotive Group auto loans campaign?",
+    "expected_answer": "The financing ratio is up to 100% with salary transfer, and up to 80% without salary transfer.",
+    "source_chunks": [
+      "Part 6: Abu Khader Automotive Group Auto Loans Campaign: Program with salary transfer: Financing ratio up to 100%. Program without salary transfer: Financing ratio up to 80%."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P023_chunk_049_en"
+    ],
+    "original_question_id": "LOANSQA-Q046",
+    "arabic_counterpart": "CONSIST-Q008"
+  },
+  {
+    "id": "CONSIST-EN-Q009",
+    "pair_id": "LOANSQA-P022",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "Which entities are classified as \"approved companies\" for the purposes of the auto loan with salary transfer?",
+    "expected_answer": "It includes all jobs at approved companies and UN-affiliated organizations.",
+    "source_chunks": [
+      "Part 4: Approved and Unapproved Companies: Salary transfer / All jobs for approved companies + UN-affiliated organizations."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P022_chunk_047_en"
+    ],
+    "original_question_id": "LOANSQA-Q044",
+    "arabic_counterpart": "CONSIST-Q009"
+  },
+  {
+    "id": "CONSIST-EN-Q010",
+    "pair_id": "LOANSQA-P100",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the minimum net income for freelancers without commercial registers to obtain a personal loan?",
+    "expected_answer": "1,000 JOD.",
+    "source_chunks": [
+      "Minimum net income in the case of freelancers without commercial registers: 1,000 JOD."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P100_chunk_009_en"
+    ],
+    "original_question_id": "LOANSQA-Q200",
+    "arabic_counterpart": "CONSIST-Q010"
+  },
+  {
+    "id": "CONSIST-EN-Q011",
+    "pair_id": "LOANSQA-P073",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the Personal Rewards Loan?",
+    "expected_answer": "A personal loan designed to reward customers for their commitment to regularly paying installments, through progressive reductions on loan margins, granted as monthly cashback directly into the customer's loan vault.",
+    "source_chunks": [
+      "Category 7: Personal Rewards Loan. The Personal Rewards Loan is designed to reward customers for their commitment to regularly paying installments by offering progressive reductions on loan margins. These rewards are granted as monthly cashback directly into their loan vault."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P073_chunk_065_en"
+    ],
+    "original_question_id": "LOANSQA-Q146",
+    "arabic_counterpart": "CONSIST-Q011"
+  },
+  {
+    "id": "CONSIST-EN-Q012",
+    "pair_id": "LOANSQA-P037",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What documents does Bank al Etihad request from the customer when buying out an existing mortgage obligation held at another bank?",
+    "expected_answer": "A recent obligations certificate not exceeding 30 days, an account statement from the other bank for a maximum of 6 months, a conditional salary transfer commitment until receiving the clearance, and a clearance certificate from the other bank after payment along with a formal salary transfer commitment. A 10% cash-out feature of the loan value is also provided to the customer.",
+    "source_chunks": [
+      "Required documents for buying loans from other banks: ... Account statement from the other bank, according to the commitment period and for a maximum of 6 months. ... A cash-out feature of 10% of the loan value is provided ..."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P037_chunk_029_en"
+    ],
+    "original_question_id": "LOANSQA-Q074",
+    "arabic_counterpart": "CONSIST-Q012"
+  },
+  {
+    "id": "CONSIST-EN-Q013",
+    "pair_id": "LOANSQA-P090",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What happens to the Instant Loan option after the customer takes it?",
+    "expected_answer": "The Instant Loan option disappears for the customer after taking it, and they cannot take another instant loan.",
+    "source_chunks": [
+      "After taking the loan, this option disappears for the customer (they cannot take another instant loan)."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P090_chunk_007_en"
+    ],
+    "original_question_id": "LOANSQA-Q180",
+    "arabic_counterpart": "CONSIST-Q013"
+  },
+  {
+    "id": "CONSIST-EN-Q014",
+    "pair_id": "LOANSQA-P081",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the minimum amount for the Instant Loan Against a Credit Card?",
+    "expected_answer": "1,000 JOD.",
+    "source_chunks": [
+      "Minimum loan amount: 1,000 JOD."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P081_chunk_006_en"
+    ],
+    "original_question_id": "LOANSQA-Q162",
+    "arabic_counterpart": "CONSIST-Q014"
+  },
+  {
+    "id": "CONSIST-EN-Q015",
+    "pair_id": "LOANSQA-P005",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the allowed Debt Burden Ratio for an auto loan without salary transfer?",
+    "expected_answer": "50%, rising to 65% in case the customer holds a credit card.",
+    "source_chunks": [
+      "Debt Burden Ratio (DBR) (without salary transfer): 50%, and 65% in case of holding a credit card."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P005_chunk_009_en"
+    ],
+    "original_question_id": "LOANSQA-Q010",
+    "arabic_counterpart": "CONSIST-Q015"
+  },
+  {
+    "id": "CONSIST-EN-Q016",
+    "pair_id": "LOANSQA-P041",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "Can lawyers obtain a housing loan?",
+    "expected_answer": "No, lawyers cannot be financed.",
+    "source_chunks": [
+      "Private Sector: Lawyers cannot be financed."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P041_chunk_035_en"
+    ],
+    "original_question_id": "LOANSQA-Q082",
+    "arabic_counterpart": "CONSIST-Q016"
+  },
+  {
+    "id": "CONSIST-EN-Q017",
+    "pair_id": "LOANSQA-P033",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the general range of the financing ratio for a housing loan with salary transfer?",
+    "expected_answer": "The financing ratio generally ranges from 30% to 100%.",
+    "source_chunks": [
+      "Financing ratio (with salary transfer, Category 1): from 30% to 100%."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P033_chunk_019_en"
+    ],
+    "original_question_id": "LOANSQA-Q066",
+    "arabic_counterpart": "CONSIST-Q017"
+  },
+  {
+    "id": "CONSIST-EN-Q018",
+    "pair_id": "LOANSQA-P062",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the accepted deduction value for Security and Military sector customers on the personal loan?",
+    "expected_answer": "The installment value plus 50 JOD, and for Intelligence, the installment plus 20 JOD.",
+    "source_chunks": [
+      "Deduction Customers: The accepted deduction value is the installment value + 50 JOD. Intelligence: The accepted value is the installment + 20 JOD."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P062_chunk_031_en"
+    ],
+    "original_question_id": "LOANSQA-Q124",
+    "arabic_counterpart": "CONSIST-Q018"
+  },
+  {
+    "id": "CONSIST-EN-Q019",
+    "pair_id": "LOANSQA-P049",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What are the requirements for the declining loan against a property mortgage?",
+    "expected_answer": "A property appraisal is required, according to the bank's approved property appraisal policy.",
+    "source_chunks": [
+      "Requirements: Property appraisal, according to the property appraisal policy."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P049_chunk_080_en"
+    ],
+    "original_question_id": "LOANSQA-Q098",
+    "arabic_counterpart": "CONSIST-Q019"
+  },
+  {
+    "id": "CONSIST-EN-Q020",
+    "pair_id": "LOANSQA-P008",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "When is automatic life insurance approval granted for an auto loan without salary transfer?",
+    "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 or younger, provided the loan amount is 100,000 JOD or less.",
+    "source_chunks": [
+      "Life Insurance (without salary transfer): Automatic approval under the group insurance policy provided that: Customers are aged 65 or younger. The loan amount is less than or equal to 100,000 JOD."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P008_chunk_017_en"
+    ],
+    "original_question_id": "LOANSQA-Q016",
+    "arabic_counterpart": "CONSIST-Q020"
+  },
+  {
+    "id": "CONSIST-EN-Q021",
+    "pair_id": "LOANSQA-P091",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "Can the customer choose the repayment day for the Instant Loan?",
+    "expected_answer": "Yes, the customer can choose the day they want to pay, for example every 14th of the month.",
+    "source_chunks": [
+      "The customer can choose the day they want to pay (e.g., every 14th of the month)."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P091_chunk_008_en"
+    ],
+    "original_question_id": "LOANSQA-Q182",
+    "arabic_counterpart": "CONSIST-Q021"
+  },
+  {
+    "id": "CONSIST-EN-Q022",
+    "pair_id": "LOANSQA-P040",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the minimum and maximum length of service in security and military apparatuses to obtain a housing loan?",
+    "expected_answer": "The minimum is 3 years (2 years for Lieutenant and above), and the maximum service limit is 25 years (no upper limit for Major and above).",
+    "source_chunks": [
+      "Length of service for Security and Military Apparatuses: Minimum 3 years. Lieutenant and above: 2 years. Maximum service limit 25 years. Except for the rank of Major and above with no upper limit."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P040_chunk_034_en"
+    ],
+    "original_question_id": "LOANSQA-Q080",
+    "arabic_counterpart": "CONSIST-Q022"
+  },
+  {
+    "id": "CONSIST-EN-Q023",
+    "pair_id": "LOANSQA-P092",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "How many times can an instant loan be obtained?",
+    "expected_answer": "Only once.",
+    "source_chunks": [
+      "How many times can an instant loan be obtained? Once."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P092_chunk_009_en"
+    ],
+    "original_question_id": "LOANSQA-Q184",
+    "arabic_counterpart": "CONSIST-Q023"
+  },
+  {
+    "id": "CONSIST-EN-Q024",
+    "pair_id": "LOANSQA-P086",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What happens if a customer of the Instant Loan Against a Credit Card is late paying two consecutive installments?",
+    "expected_answer": "A late interest of 1.5% monthly is calculated on the remaining utilized balance.",
+    "source_chunks": [
+      "Late interest: If the customer is late in paying two consecutive installments, a monthly interest of 1.5% is calculated on the remaining utilized balance."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P086_chunk_020_en"
+    ],
+    "original_question_id": "LOANSQA-Q172",
+    "arabic_counterpart": "CONSIST-Q024"
+  },
+  {
+    "id": "CONSIST-EN-Q025",
+    "pair_id": "LOANSQA-P067",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "Who is included under the \"Professionals, Dentists\" classification among personal loan categories?",
+    "expected_answer": "Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, self-employed individuals, and doctors owning clinics.",
+    "source_chunks": [
+      "Part 2: For Professionals, Dentists. Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses. Self-employed. Doctors owning clinics."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P067_chunk_044_en"
+    ],
+    "original_question_id": "LOANSQA-Q134",
+    "arabic_counterpart": "CONSIST-Q025"
+  },
+  {
+    "id": "CONSIST-EN-Q026",
+    "pair_id": "LOANSQA-P057",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "When is automatic life insurance approval for the debtor granted on the personal loan?",
+    "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 years and below, provided the loan amount is less than 100,000 JOD.",
+    "source_chunks": [
+      "Insurance fees - Life insurance for the debtor: Automatic approval within the group insurance policy. Customers aged 65 years and below. Loan amount is less than 100,000 JOD."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P057_chunk_023_en"
+    ],
+    "original_question_id": "LOANSQA-Q114",
+    "arabic_counterpart": "CONSIST-Q026"
+  },
+  {
+    "id": "CONSIST-EN-Q027",
+    "pair_id": "LOANSQA-P075",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What happens if a Personal Rewards Loan customer is late on more than one installment during the loan period?",
+    "expected_answer": "If late by 30 days or more twice during the loan period, the customer is permanently disqualified from the program and stops receiving any cashback or further interest rate reductions until the end of the loan's life.",
+    "source_chunks": [
+      "What if I am late on more than one installment during the loan period? If you are late paying an installment by 30 days or more twice during the loan period, you will be permanently disqualified from the program and will stop receiving any cashback or further interest rate reductions until the end of the loan's life."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P075_chunk_080_en"
+    ],
+    "original_question_id": "LOANSQA-Q150",
+    "arabic_counterpart": "CONSIST-Q027"
+  },
+  {
+    "id": "CONSIST-EN-Q028",
+    "pair_id": "LOANSQA-P051",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What is the debt burden for a personal loan for those working in the Security or Military sector?",
+    "expected_answer": "35%.",
+    "source_chunks": [
+      "In the case of the Security or Military sector, or a salary less than 450 JOD, the debt burden is 35%."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P051_chunk_004_en"
+    ],
+    "original_question_id": "LOANSQA-Q102",
+    "arabic_counterpart": "CONSIST-Q028"
+  },
+  {
+    "id": "CONSIST-EN-Q029",
+    "pair_id": "LOANSQA-P094",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "What should a customer do if they want to obtain a higher amount than the Instant Loan offered to them?",
+    "expected_answer": "The customer must visit the branch and submit an application according to the credit policy.",
+    "source_chunks": [
+      "What if I want to obtain a higher amount? You must visit the branch and submit an application according to the credit policy."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P094_chunk_013_en"
+    ],
+    "original_question_id": "LOANSQA-Q188",
+    "arabic_counterpart": "CONSIST-Q029"
+  },
+  {
+    "id": "CONSIST-EN-Q030",
+    "pair_id": "LOANSQA-P085",
+    "language": "en",
+    "topic": "Loan",
+    "sub_topic": "Consistency Retest",
+    "question": "How is the amount of the Instant Loan Against a Credit Card determined relative to the card ceiling?",
+    "expected_answer": "The loan amount represents 90% of the card ceiling.",
+    "source_chunks": [
+      "Card ceiling: The loan amount represents 90% of the card ceiling."
+    ],
+    "chunk_ids": [
+      "LOANSQA-P085_chunk_019_en"
+    ],
+    "original_question_id": "LOANSQA-Q170",
+    "arabic_counterpart": "CONSIST-Q030"
+  }
+]

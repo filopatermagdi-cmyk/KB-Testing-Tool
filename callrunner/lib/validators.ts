@@ -21,6 +21,7 @@ import {
   CALL_MATCH_SKEW_MS,
   ARTIFACT_WAIT_MS,
   ARTIFACT_POLL_MS,
+  log,
 } from './config';
 import {
   accessTokenFromCookies,
@@ -305,9 +306,45 @@ export async function waitForPersistedCallArtifacts(
   agentId: string,
   callStartedAt: string,
   liveTranscript: Turn[] = [],
+  knownConversationId: string | null = null,
 ): Promise<CallArtifacts> {
   const token = accessTokenFromCookies(await context.cookies());
   if (!token) throw new Error('no accessToken cookie before call artifact persistence check');
+
+  // The WS relay announced this call's conversation id in its first frame
+  // ({"type":"session","sessionId":...}) — that id IS the backend conversation id,
+  // so there is no need to identify the call by body similarity or risk grabbing a
+  // sibling's row. Fetch it directly. Give the backend a short grace to persist
+  // the transcript/recording, but ALWAYS return the conversationId so the run can
+  // link to the call even when the transcript has not landed yet.
+  if (knownConversationId) {
+    const graceMs = Math.min(ARTIFACT_WAIT_MS, 30000);
+    const deadline = Date.now() + graceMs;
+    let last = 'no backend transcript yet';
+    while (Date.now() <= deadline) {
+      try {
+        const row = await fetchConversation(context, token, knownConversationId);
+        const verdict = validatePersistedCallArtifacts(row || {});
+        if (verdict.saved) return verdict;
+        last = verdict.reason;
+      } catch (e: any) {
+        last = e.message;
+      }
+      await sleep(ARTIFACT_POLL_MS);
+    }
+    log(
+      `early conversation id ${knownConversationId} known; transcript not persisted within ${graceMs}ms grace: ${last}`,
+    );
+    return {
+      saved: false,
+      conversationId: knownConversationId,
+      status: null,
+      duration: null,
+      transcript: { saved: false, reason: last, conversationId: knownConversationId },
+      recording: { saved: false, hasRecordingUrl: false, reason: last, conversationId: knownConversationId },
+      reason: `call link ready (conversation ${knownConversationId}); STT transcript still persisting at the backend: ${last}`,
+    };
+  }
 
   const deadline = Date.now() + ARTIFACT_WAIT_MS;
   let last = 'no conversation rows returned';

@@ -618,10 +618,12 @@ def export_for_claude(records, report_path, out_path):
                 "turn": rec.get("turn"),
                 "conversation_id": rec.get("conversation_id"),
                 "latency_ms": rec.get("latency_ms"),
+                "latency_first_audio_chunk_ms": rec.get("latency_first_audio_chunk_ms"),
                 "question": rec.get("question"),
                 "expected_answer": rec.get("expected_answer"),
                 "zilla_answer": rec.get("zilla_answer"),
                 "source_chunks": rec.get("source_chunks") or [],
+                "source_file_ids": rec.get("source_file_ids") or [],
                 "deflection_detected": is_deflection(
                     rec.get("zilla_answer") or "", language=lang
                 ),
@@ -635,6 +637,9 @@ def export_for_claude(records, report_path, out_path):
             "Judge each record like the Groq judge (openai/gpt-oss-120b) would: "
             "score `relevancy` (is the Zilla answer on-topic for the question) "
             "and `faithfulness` (are its claims supported by `source_chunks`). "
+            "`source_file_ids` lists the KB file IDs loaded into Zilla's context "
+            "up to and including this question (cumulative) - the full retrieval "
+            "context the answer was generated from."
             "Follow our dialect rules: Zilla speaks colloquial Jordanian/Levantine "
             "Arabic; judge meaning, not MSA-vs-dialect wording. If "
             "`deflection_detected` is true, the response dodged the question "
@@ -796,6 +801,7 @@ def main():
                         "conversation_id": r["record"].get("conversation_id"),
                         "call_url": r["record"].get("call_url"),
                         "latency_ms": r["record"].get("latency_ms"),
+                        "latency_first_audio_chunk_ms": r["record"].get("latency_first_audio_chunk_ms"),
                         "metrics": r["metrics"],
                         "error": r["error"],
                     }

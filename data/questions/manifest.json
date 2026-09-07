@@ -1,6 +1,25 @@
 {
   "version": 1,
   "topics": {
+    "General": {
+      "sub_topics": [
+        {
+          "sub_topic": "AllTopics",
+          "file": "questions/General/AllTopics.json",
+          "ar": 220,
+          "en": 220,
+          "total": 440
+        },
+        {
+          "sub_topic": "real-client",
+          "file": "questions/General/real-client.json",
+          "ar": 100,
+          "en": 100,
+          "total": 200
+        }
+      ],
+      "total": 640
+    },
     "Loan": {
       "sub_topics": [
         {
@@ -9,6 +28,20 @@
           "ar": 83,
           "en": 83,
           "total": 166
+        },
+        {
+          "sub_topic": "Consistency",
+          "file": "questions/Loan/Consistency.json",
+          "ar": 30,
+          "en": 0,
+          "total": 30
+        },
+        {
+          "sub_topic": "ENconsistency",
+          "file": "questions/Loan/ENconsistency.json",
+          "ar": 0,
+          "en": 30,
+          "total": 30
         },
         {
           "sub_topic": "Housing Loan",
@@ -60,7 +93,7 @@
           "total": 42
         }
       ],
-      "total": 1064
+      "total": 1124
     }
   }
 }

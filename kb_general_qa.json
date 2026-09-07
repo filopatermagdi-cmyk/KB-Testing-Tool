@@ -1,0 +1,3806 @@
+{
+  "chunks": [
+    {
+      "id": "KBGEN-P001_chunk_001",
+      "text": "ساعات العمل الرسمية لأفرع البنك من الأحد إلى الخميس: من 8:30 صباحا حتى 3:00 مساء."
+    },
+    {
+      "id": "KBGEN-P001_chunk_001",
+      "text": "Official Working Hours for bank branches from Sunday to Thursday: 8:30 AM to 3:00 PM."
+    },
+    {
+      "id": "KBGEN-P002_chunk_002",
+      "text": "أفرع المولات: من السبت إلى الخميس من 10:00 صباحاً إلى 10:00 مساءً (استراحة من 3:00 مساءً إلى 4:00 مساءً)."
+    },
+    {
+      "id": "KBGEN-P002_chunk_002",
+      "text": "Mall Branches Working Hours: Saturday to Thursday: 10:00 AM to 10:00 PM (Break from 3:00 PM to 4:00 PM)."
+    },
+    {
+      "id": "KBGEN-P003_chunk_003",
+      "text": "الفئة 3: صرافات إيداع الشيكات - خدمة تمكن إيداع الشيكات على مدار الساعة بخطوات بسيطة وآمنة بدون مغلف عبر مجموعة مختارة من أجهزة الصراف الآلي."
+    },
+    {
+      "id": "KBGEN-P003_chunk_003",
+      "text": "Category 3: Check Deposit ATMs - A service that enables 24/7 check deposits with simple and secure steps without an envelope via selected ATMs."
+    },
+    {
+      "id": "KBGEN-P004_chunk_004",
+      "text": "الفئة 4: صرافات سحب الدولار - خدمة إجراء عمليات السحب النقدي بعملة الدولار الأمريكي لدى مجموعة مختارة من أجهزة الصراف الآلي."
+    },
+    {
+      "id": "KBGEN-P004_chunk_004",
+      "text": "Category 4: USD Withdrawal ATMs - A service for cash withdrawals in US Dollars at selected ATMs."
+    },
+    {
+      "id": "KBGEN-P005_chunk_005",
+      "text": "الجزء 3: أفرع بخدمة الأجهزة اللوحية لضعاف السمع - يتم توفير جهاز لوحي في الأفرع المذكورة أدناه لخدمة العملاء ذوي الإعاقة السمعية بلغة الإشارة عبر مكالمة فيديو مع شركة معتمدة."
+    },
+    {
+      "id": "KBGEN-P005_chunk_005",
+      "text": "Part 3: Branches with Tablet Services for the Hearing Impaired - A tablet device is provided in the branches listed below to serve hearing-impaired customers in sign language via a video call with a certified company."
+    },
+    {
+      "id": "KBGEN-P006_chunk_001",
+      "text": "أنواع الودائع: تتكون من الودائع لأجل وشهادات الإيداع."
+    },
+    {
+      "id": "KBGEN-P006_chunk_001",
+      "text": "Types of deposits: They consist of Term Deposits and Certificates of Deposit (CDs)."
+    },
+    {
+      "id": "KBGEN-P007_chunk_002",
+      "text": "الفرق بين الودائع لأجل وشهادات الإيداع: الودائع لأجل تسمح بالإضافة والتحويلات والسحب الجزئي (التصفية الجزئية)، أما شهادات الإيداع فلا تسمح بذلك ولا يمكن إلا تصفيتها بالكامل."
+    },
+    {
+      "id": "KBGEN-P007_chunk_002",
+      "text": "Difference between Term Deposits and CDs: Term deposits allow for additions (feeding), transfers, and partial withdrawals (partial liquidation). In contrast, Certificates of Deposit do not allow these actions and can only be fully liquidated."
+    },
+    {
+      "id": "KBGEN-P008_chunk_003",
+      "text": "الحد الأدنى للرصيد: يجب ألا تقل قيمة الوديعة عن 5,000 من العملة المربوطة بها."
+    },
+    {
+      "id": "KBGEN-P008_chunk_003",
+      "text": "Minimum balance: The deposit value must not be less than 5,000 of the pegged currency."
+    },
+    {
+      "id": "KBGEN-P009_chunk_004",
+      "text": "ضريبة الدخل: تُطبق ضريبة 5% لعملاء الأفراد و7% لعملاء الشركات على الفائدة المقيدة بتاريخ الاستحقاق، باستثناء العملاء المعفيين بقرار حكومي."
+    },
+    {
+      "id": "KBGEN-P009_chunk_004",
+      "text": "Income tax: A tax of 5% for individual customers and 7% for corporate customers is applied to the interest credited on the maturity date, excluding customers exempted by a government decree."
+    },
+    {
+      "id": "KBGEN-P010_chunk_005",
+      "text": "تنبيه الاستحقاق: قبل 5 أيام من تاريخ الاستحقاق."
+    },
+    {
+      "id": "KBGEN-P010_chunk_005",
+      "text": "Maturity alert: 5 days before the maturity date."
+    },
+    {
+      "id": "KBGEN-P011_chunk_006",
+      "text": "الحد الأدنى للرصيد (شهادة الإيداع): يجب ألا تقل قيمة الشهادة عن 3,000 من العملة المربوطة بها."
+    },
+    {
+      "id": "KBGEN-P011_chunk_006",
+      "text": "Minimum balance (Certificate of Deposit): The deposit value must not be less than 3,000 of the pegged currency."
+    },
+    {
+      "id": "KBGEN-P012_chunk_007",
+      "text": "زيادة مبلغ شهادة الإيداع: زيادة المبلغ الأساسي لشهادة إيداع قائمة أمر ممنوع، كما لا يمكن إجراء أي إيداعات أو تحويلات من أو إلى حساب الشهادة خلال مدتها."
+    },
+    {
+      "id": "KBGEN-P012_chunk_007",
+      "text": "Increasing the CD amount: Increasing the principal amount of an existing CD is prohibited. Additionally, no deposits or transfers can be made to or from the certificate account during its term."
+    },
+    {
+      "id": "KBGEN-P013_chunk_008",
+      "text": "كيفية تصفية شهادة الإيداع: التصفية الجزئية لشهادات الإيداع ممنوعة، ويجب تصفية كامل قيمة الشهادة إذا رغب العميل بذلك، ويمكن ذلك إما من خلال الفرع أو من خلال تطبيق البنك."
+    },
+    {
+      "id": "KBGEN-P013_chunk_008",
+      "text": "How to Break a Certificate of Deposit: Partial breaking of CDs is prohibited; the full value of the certificate must be broken if the customer wishes to break it. The CD can be broken either through the branch or via the bank's mobile app."
+    },
+    {
+      "id": "KBGEN-P014_chunk_009",
+      "text": "يُعتبر عدد أيام السنة 365 يوماً عند احتساب الفائدة."
+    },
+    {
+      "id": "KBGEN-P014_chunk_009",
+      "text": "The year is considered 365 days when calculating interest."
+    },
+    {
+      "id": "KBGEN-P015_chunk_001",
+      "text": "تم إتمام الاندماج القانوني بتاريخ 17 مايو 2026، كجزء من انتقال تدريجي يهدف لضمان تجربة سلسة ومتكاملة لعملائنا."
+    },
+    {
+      "id": "KBGEN-P015_chunk_001",
+      "text": "The legal merger was completed on May 17, 2026, as part of a gradual transition aimed at ensuring a seamless and integrated experience for our customers."
+    },
+    {
+      "id": "KBGEN-P016_chunk_002",
+      "text": "شبكة أكبر من الصرافات الآلية لخدمتك: يمكنك الآن استخدام أجهزة صراف بنك الاتحاد وبنك صفوى الإسلامي وInvestbank مجاناً للسحب النقدي والاستعلام عن الرصيد."
+    },
+    {
+      "id": "KBGEN-P016_chunk_002",
+      "text": "A Larger ATM Network to Serve You: You can now use the ATMs of Bank al Etihad, Safwa Islamic Bank, and INVESTBANK free of charge for cash withdrawals and balance inquiries."
+    },
+    {
+      "id": "KBGEN-P017_chunk_003",
+      "text": "إلغاء رسوم التحويلات: تم إلغاء الرسوم على جميع التحويلات الواردة والصادرة بين Investbank وبنك الاتحاد."
+    },
+    {
+      "id": "KBGEN-P017_chunk_003",
+      "text": "Waiver of Transfer Fees: Fees have been waived on all incoming and outgoing transfers between INVESTBANK and Bank al Etihad."
+    },
+    {
+      "id": "KBGEN-P018_chunk_004",
+      "text": "ستُفتح حسابات عملاء Investbank الجدد مباشرة على منصات بنك الاتحاد لضمان تجربة سلسة وتجنب الحاجة إلى نقل الحسابات لاحقاً."
+    },
+    {
+      "id": "KBGEN-P018_chunk_004",
+      "text": "Accounts for new INVESTBANK customers will be opened directly on Bank al Etihad platforms to ensure a seamless experience and avoid the need to transfer accounts later."
+    },
+    {
+      "id": "KBGEN-P019_chunk_005",
+      "text": "هل أحتاج لاتخاذ أي إجراء؟ لا يوجد إجراء مطلوب. استمرار التعامل مع البنك الحالي: في الوقت الحالي استمر بالتعامل مع بنكك الحالي كالمعتاد. لا شيء يتغير اليوم."
+    },
+    {
+      "id": "KBGEN-P019_chunk_005",
+      "text": "Do I need to take any action? No action is required. Full Service Continuity: For now, continue dealing with your current bank as usual. Nothing changes today."
+    },
+    {
+      "id": "KBGEN-P020_chunk_006",
+      "text": "ينطبق هذا الإجراء على جميع العملاء الجدد الذين تُفتح حساباتهم عبر قنوات Investbank، باستثناء عملاء Prime، الذين ستستمر حساباتهم بالفتح على منصة Investbank حتى إشعار آخر."
+    },
+    {
+      "id": "KBGEN-P020_chunk_006",
+      "text": "This applies to all new customers whose accounts are opened through INVESTBANK channels, with the exception of Prime customers, whose accounts will continue to be opened on the INVESTBANK platform until further notice."
+    },
+    {
+      "id": "KBGEN-P021_chunk_001",
+      "text": "الرتبة الأولى: البطاقات الائتمانية 3% والبطاقات الأخرى 2%."
+    },
+    {
+      "id": "KBGEN-P021_chunk_001",
+      "text": "Rank One: Credit Cards: 3% and Other Cards: 2%."
+    },
+    {
+      "id": "KBGEN-P022_chunk_002",
+      "text": "تحديد الرتبة: تُحتسب رتبة كل عميل تلقائياً بناءً على معاملاته المالية مع البنك خلال آخر 30 يوماً."
+    },
+    {
+      "id": "KBGEN-P022_chunk_002",
+      "text": "Rank determination: Each customer's rank is calculated automatically based on their financial transactions with the bank over the last 30 days."
+    },
+    {
+      "id": "KBGEN-P023_chunk_003",
+      "text": "هل يوجد سقف للاسترداد النقدي؟ نعم، يوجد سقف للاسترداد النقدي وهو فقط 200 دينار أردني شهرياً، بغض النظر عن قيم المعاملات التي تمت."
+    },
+    {
+      "id": "KBGEN-P023_chunk_003",
+      "text": "Is there a cap on the cashback? Yes, there is a cashback cap, which is only 200 Jordanian Dinars per month, regardless of the values of the transactions made."
+    },
+    {
+      "id": "KBGEN-P024_chunk_004",
+      "text": "معاملات لا تؤثر على البرنامج (الرتبة): تحويلات CliQ، ودفع الفواتير عبر المحفظة الإلكترونية، وتسديد المستحقات لدى بنوك أخرى."
+    },
+    {
+      "id": "KBGEN-P024_chunk_004",
+      "text": "Transactions that do not affect the program (the rank): CliQ transfers, e-wallet bill payments, and settling dues at other banks."
+    },
+    {
+      "id": "KBGEN-P025_chunk_005",
+      "text": "أي البطاقات مشمولة بالاسترداد النقدي؟ يمكنك الحصول على استرداد نقدي عند استخدام بطاقات الخصم المباشر والبطاقات الائتمانية والبطاقات متعددة العملات الصادرة من التطبيق المصرفي."
+    },
+    {
+      "id": "KBGEN-P025_chunk_005",
+      "text": "Which cards are included in the cashback? You can get cashback when using debit cards, credit cards, and multi-currency cards issued from the banking app."
+    },
+    {
+      "id": "KBGEN-P026_chunk_006",
+      "text": "المعاملة تمت لدى أحد التجار المستثناة من الاسترداد النقدي (مثل الدوائر الحكومية وما يتبعها كدائرة ضريبة الدخل والمبيعات، ومؤسسة الضمان الاجتماعي وغيرها)، حسب سياسة البرنامج."
+    },
+    {
+      "id": "KBGEN-P026_chunk_006",
+      "text": "The purchase was made at one of the merchants excluded from the cashback (such as government departments and what falls under them like the Income and Sales Tax Department, the Social Security Corporation, etc.), based on the program's policy."
+    },
+    {
+      "id": "KBGEN-P027_chunk_007",
+      "text": "كيف أتعرف على رتبتي؟ من خلال تطبيقنا المصرفي (تسجيل الدخول، والضغط على \"المكافآت\" من الشريط الموجود أعلى الصفحة الرئيسية، وستظهر رتبتك الحالية)."
+    },
+    {
+      "id": "KBGEN-P027_chunk_007",
+      "text": "How can I find out my rank? From our banking app (log in, tap on \"Rewards\" from the bar at the top of the home page, and your current rank will appear)."
+    },
+    {
+      "id": "KBGEN-P028_chunk_008",
+      "text": "في حال عدم التزام العميل بسداد أي مستحقات مترتبة عليه للبنك، بما فيها أقساط القروض، لن يتمكن العميل، في هذه الحالة وطوال فترة تعثره، من التمتع بالمزايا الممنوحة من خلال برنامج مكافآت الاتحاد، والمتمثلة في رفع الرتبة والحصول على الاسترداد النقدي، إلى حين سداد كافة الالتزامات والمبالغ المستحقة للبنك بالكامل."
+    },
+    {
+      "id": "KBGEN-P028_chunk_008",
+      "text": "In the event the customer fails to commit to paying any dues owed to the bank, including loan installments, the customer will not be able, in this case and throughout their default period, to enjoy the features granted through the Etihad Rewards program, which are upgrading in rank and getting cashback, until they pay all obligations and amounts owed to the bank in full."
+    },
+    {
+      "id": "KBGEN-P029_chunk_009",
+      "text": "يحق لأصحاب الحسابات غير الفعالة/الخاملة سحب المبالغ المتجمعة في خزنة الاسترداد النقدي الخاصة بهم فقط بعد تفعيل الحساب."
+    },
+    {
+      "id": "KBGEN-P029_chunk_009",
+      "text": "Owners of inactive/dormant accounts have the right to withdraw the amounts accumulated in their Cashback Vault only after activating the account."
+    },
+    {
+      "id": "KBGEN-P030_chunk_010",
+      "text": "يقر العميل بأن قيم مبالغ الاسترداد النقدي لا تُعتبر جزءاً من قيمة حساب العميل، ولا يمكن استخدامها كنقد إلا في حال قام العميل بتحويلها من خزنة الاسترداد النقدي المخصصة على التطبيق إلى حسابه المصرفي."
+    },
+    {
+      "id": "KBGEN-P030_chunk_010",
+      "text": "The customer acknowledges that the values of the cashback amounts are not considered part of the customer's account value and cannot be utilized as cash unless the customer transfers them from the designated Cashback Vault on the app to their bank account."
+    },
+    {
+      "id": "KBGEN-P031_chunk_001",
+      "text": "تدني الرصيد (جاري/توفير): 1 دينار شهرياً للرصيد الذي يقل عن 100 دينار أو ما يعادلها، ويُستثنى منها الحسابات المنشأة إلكترونياً (من خلال التطبيق)."
+    },
+    {
+      "id": "KBGEN-P031_chunk_001",
+      "text": "Low balance (Current/Savings): 1 JD monthly for a balance less than 100 JD or its equivalent, excluding accounts created electronically (via the app)."
+    },
+    {
+      "id": "KBGEN-P032_chunk_002",
+      "text": "منح القرض: 1% من قيمة القرض لمرة واحدة عند المنح."
+    },
+    {
+      "id": "KBGEN-P032_chunk_002",
+      "text": "Loan granting: 1% of the loan amount for one time upon granting."
+    },
+    {
+      "id": "KBGEN-P033_chunk_003",
+      "text": "التأخر في سداد القروض: 10 دنانير."
+    },
+    {
+      "id": "KBGEN-P033_chunk_003",
+      "text": "Late payment for loans: 10 JD."
+    },
+    {
+      "id": "KBGEN-P034_chunk_004",
+      "text": "السداد المبكر (أكثر من سنة): 1% من المبلغ المراد تسديده."
+    },
+    {
+      "id": "KBGEN-P034_chunk_004",
+      "text": "Early settlement (more than a year): 1% of the amount to be settled."
+    },
+    {
+      "id": "KBGEN-P035_chunk_005",
+      "text": "السداد المبكر (سنة أو أقل): مجاناً."
+    },
+    {
+      "id": "KBGEN-P035_chunk_005",
+      "text": "Early settlement (one year or less): Free."
+    },
+    {
+      "id": "KBGEN-P036_chunk_006",
+      "text": "تقرير كريف: 2 دينار عبر التطبيق المصرفي."
+    },
+    {
+      "id": "KBGEN-P036_chunk_006",
+      "text": "CRIF report: 2 JD via the banking app."
+    },
+    {
+      "id": "KBGEN-P037_chunk_007",
+      "text": "فتح حساب عاملات المنازل: 10 دنانير."
+    },
+    {
+      "id": "KBGEN-P037_chunk_007",
+      "text": "Opening an account for domestic workers: 10 JD."
+    },
+    {
+      "id": "KBGEN-P038_chunk_008",
+      "text": "الحسابات الجامدة: 2 دينار شهرياً وبحد أقصى 6 دنانير (يُحظر استيفاؤها من المتوفين)."
+    },
+    {
+      "id": "KBGEN-P038_chunk_008",
+      "text": "Dormant accounts: 2 JD monthly, maximum 6 JD (prohibited to be collected from deceased accounts)."
+    },
+    {
+      "id": "KBGEN-P039_chunk_009",
+      "text": "تعديل شروط التمويل للقروض: 5 دنانير. تأجيل قسط القرض: 5 دنانير."
+    },
+    {
+      "id": "KBGEN-P039_chunk_009",
+      "text": "Modifying financing terms for loans: 5 JD. Postponing a loan installment: 5 JD."
+    },
+    {
+      "id": "KBGEN-P040_chunk_001",
+      "text": "للرواتب الأقل من 1000: نسبة الفائدة 8.45%."
+    },
+    {
+      "id": "KBGEN-P040_chunk_001",
+      "text": "For salaries less than 1000: Interest rate 8.45%."
+    },
+    {
+      "id": "KBGEN-P041_chunk_002",
+      "text": "للرواتب التي تزيد عن 2000: نسبة الفائدة 7.75%."
+    },
+    {
+      "id": "KBGEN-P041_chunk_002",
+      "text": "For salaries exceeding 2000: Interest rate 7.75%."
+    },
+    {
+      "id": "KBGEN-P042_chunk_003",
+      "text": "الأطباء وأصحاب العيادات - قرض شخصي عادي: 8.15% مع عمولة منح 1%."
+    },
+    {
+      "id": "KBGEN-P042_chunk_003",
+      "text": "Doctors and Clinic Owners: Regular personal loan: 8.15% with a 1% granting commission."
+    },
+    {
+      "id": "KBGEN-P043_chunk_004",
+      "text": "شقة جاهزة - القطاع العام: تمويل 100%: 7.5% (في حال تحويل الراتب إلى البنك، ينخفض سعر الفائدة بمقدار 0.25%، على ألا يقل عن 7%)."
+    },
+    {
+      "id": "KBGEN-P043_chunk_004",
+      "text": "Ready apartment - Public Sector: 100% financing: 7.5% (In case of salary transfer to the bank, the interest rate is reduced by 0.25%, but it must not be less than 7%)."
+    },
+    {
+      "id": "KBGEN-P044_chunk_005",
+      "text": "القروض بدون تحويل راتب: نسبة الفائدة 9.61%."
+    },
+    {
+      "id": "KBGEN-P044_chunk_005",
+      "text": "Loans without salary transfer: Interest rate 9.61%."
+    },
+    {
+      "id": "KBGEN-P045_chunk_006",
+      "text": "قرض شخصي عبر بطاقة ائتمانية: بشكل عام 10%."
+    },
+    {
+      "id": "KBGEN-P045_chunk_006",
+      "text": "Personal loan via credit card: In general 10%."
+    },
+    {
+      "id": "KBGEN-P046_chunk_007",
+      "text": "قرض شخصي مقابل رهن عقاري: نسبة الفائدة 8.75%."
+    },
+    {
+      "id": "KBGEN-P046_chunk_007",
+      "text": "Personal loan against real estate mortgage: Interest rate 8.75%."
+    },
+    {
+      "id": "KBGEN-P047_chunk_008",
+      "text": "المبلغ من 3,000 إلى 10,000: 5.000% لثلاثة أشهر، و4.750% لستة أشهر، و4.750% لسنة."
+    },
+    {
+      "id": "KBGEN-P047_chunk_008",
+      "text": "The amount from 3,000 to 10,000: 5.000% for three months, and 4.750% for six months, and 4.750% for a year."
+    },
+    {
+      "id": "KBGEN-P048_chunk_009",
+      "text": "المبلغ من 5,000 إلى 50,000: 3.000% لشهر واحد، و3.125% لثلاثة أشهر، و3.375% لستة أشهر، و3.250% لسنة."
+    },
+    {
+      "id": "KBGEN-P048_chunk_009",
+      "text": "The amount from 5,000 to 50,000: 3.000% for one month, and 3.125% for three months, and 3.375% for six months, and 3.250% for a year."
+    },
+    {
+      "id": "KBGEN-P049_chunk_010",
+      "text": "شراء أراضٍ - القطاع العام، الأجهزة الأمنية والعسكرية، الوافدون، المستقلون والمهنيون، القطاع الخاص: 7.75%."
+    },
+    {
+      "id": "KBGEN-P049_chunk_010",
+      "text": "Buying lands - Public sector, Security and Military Apparatuses, Expats, Freelancers and Professionals, Private Sector: 7.75%."
+    },
+    {
+      "id": "KBGEN-P050_chunk_011",
+      "text": "القروض بتحويل راتب - سعر الفائدة للعملاء الموظفين يتراوح بين 7.61% و9.36%."
+    },
+    {
+      "id": "KBGEN-P050_chunk_011",
+      "text": "Loans with salary transfer - The interest rate for employed customers ranges between 7.61% and 9.36%."
+    },
+    {
+      "id": "KBGEN-P051_chunk_001",
+      "text": "صلاحية البطاقة البلاستيكية: 5 سنوات."
+    },
+    {
+      "id": "KBGEN-P051_chunk_001",
+      "text": "Plastic Card Validity: 5 years."
+    },
+    {
+      "id": "KBGEN-P052_chunk_002",
+      "text": "الحد الأعلى لإصدار البطاقات الفرعية/التابعة: 5 بطاقات فرعية مقابل كل بطاقة فيزا رئيسية."
+    },
+    {
+      "id": "KBGEN-P052_chunk_002",
+      "text": "Maximum Limit for Issuing Supplementary/Sub-cards: 5 supplementary cards for each primary Visa card."
+    },
+    {
+      "id": "KBGEN-P053_chunk_003",
+      "text": "تُمنح البطاقات الفرعية للأقارب من الدرجة الأولى فقط (بما يشمل الأشقاء: الأخ/الأخت)، ويتحمل صاحب البطاقة الرئيسية جميع الشروط والأحكام."
+    },
+    {
+      "id": "KBGEN-P053_chunk_003",
+      "text": "Supplementary cards are granted to first-degree relatives only (including siblings: brother/sister), and the primary cardholder assumes all terms and conditions."
+    },
+    {
+      "id": "KBGEN-P054_chunk_004",
+      "text": "تاريخ إصدار كشف البطاقة: 15 من كل شهر."
+    },
+    {
+      "id": "KBGEN-P054_chunk_004",
+      "text": "Statement Issuance Date: The 15th of every month."
+    },
+    {
+      "id": "KBGEN-P055_chunk_005",
+      "text": "حد البطاقات اللاتلامسية: الحد الأعلى للبطاقات اللاتلامسية 100 دينار للحركة الواحدة بسقف 300 دينار باليوم."
+    },
+    {
+      "id": "KBGEN-P055_chunk_005",
+      "text": "Contactless Card Limits: The maximum limit for contactless transactions is 100 JOD per transaction, with a daily ceiling of 300 JOD."
+    },
+    {
+      "id": "KBGEN-P056_chunk_006",
+      "text": "عمولة السحب النقدي: تُضاف عمولة 4% على السحب النقدي، أو بحد أدنى 10 دنانير."
+    },
+    {
+      "id": "KBGEN-P056_chunk_006",
+      "text": "Cash Withdrawal Commission: A 4% commission is added to the cash withdrawal, or a minimum of 10 JOD."
+    },
+    {
+      "id": "KBGEN-P057_chunk_007",
+      "text": "سعر الفائدة على السحوبات النقدية: 1.5% شهرياً و18% سنوياً."
+    },
+    {
+      "id": "KBGEN-P057_chunk_007",
+      "text": "Interest Rate for Cash Withdrawals: 1.5% monthly and 18% annually."
+    },
+    {
+      "id": "KBGEN-P058_chunk_008",
+      "text": "نسبة التسديد للبطاقة الائتمانية: 4% بحد أدنى 15 دينار أو 100%."
+    },
+    {
+      "id": "KBGEN-P058_chunk_008",
+      "text": "Credit Card Settlement Percentage: The settlement percentage for credit cards is 4% (with a minimum of 15 JOD) or 100%."
+    },
+    {
+      "id": "KBGEN-P059_chunk_009",
+      "text": "التسديد التلقائي للبطاقة الائتمانية: 28 من كل شهر."
+    },
+    {
+      "id": "KBGEN-P059_chunk_009",
+      "text": "Automatic Payment Date for Credit Cards: The 28th of every month."
+    },
+    {
+      "id": "KBGEN-P060_chunk_010",
+      "text": "الحد الأقصى لنسبة التجاوز من سقف البطاقة: 10%."
+    },
+    {
+      "id": "KBGEN-P060_chunk_010",
+      "text": "Maximum Over-Limit Percentage: 10%."
+    },
+    {
+      "id": "KBGEN-P061_chunk_001",
+      "text": "تحديد عدد الأسماء المستعارة بحيث لا تتجاوز خمسة أسماء مستعارة لكل عميل."
+    },
+    {
+      "id": "KBGEN-P061_chunk_001",
+      "text": "A maximum limit of 5 aliases per customer."
+    },
+    {
+      "id": "KBGEN-P062_chunk_002",
+      "text": "لا يمكن إنشاء اسم مستعار على الحسابات المشتركة."
+    },
+    {
+      "id": "KBGEN-P062_chunk_002",
+      "text": "An alias cannot be created on joint accounts."
+    },
+    {
+      "id": "KBGEN-P063_chunk_003",
+      "text": "عمولة الحوالة الصادرة دولياً بنفس اليوم: 0.001 من مبلغ الحوالة (بحد أدنى 10 دنانير وحد أقصى 70 دينار)."
+    },
+    {
+      "id": "KBGEN-P063_chunk_003",
+      "text": "Same-day international outward transfer commission: 0.001 of the transfer amount (Minimum 10 JOD, Maximum 70 JOD)."
+    },
+    {
+      "id": "KBGEN-P064_chunk_004",
+      "text": "البنك المحوِّل (بنك الاتحاد): البنك الذي ينفذ تعليمات طالب الحوالة بدفع مبلغ محدد لأمر المستفيد."
+    },
+    {
+      "id": "KBGEN-P064_chunk_004",
+      "text": "Transferring Bank (Bank al Etihad): The bank that executes the requester's instructions to pay a specific amount to the order of the beneficiary."
+    },
+    {
+      "id": "KBGEN-P065_chunk_005",
+      "text": "طلب إصدار الحوالة: الطلب الكتابي المقدم من طالب الحوالة، أو المُرسل عبر الفاكس (بشرط توقيع نموذج تفويض الفاكس مسبقاً)، أو المُستلم عبر البريد الإلكتروني (بشرط توقيع نموذج تفويض البريد الإلكتروني مسبقاً)، أو المُستلم عبر القنوات الرقمية (بنك الاتحاد أونلاين، بنك الاتحاد موبايل)."
+    },
+    {
+      "id": "KBGEN-P065_chunk_005",
+      "text": "Transfer Issuance Request: The written request submitted by the transfer requester, the request sent via fax (provided the customer has previously signed the fax mandate form), the request received via email (provided the customer has previously signed the email mandate form), or the request received through digital channels (Bank al Etihad Online, Bank al Etihad Mobile)."
+    },
+    {
+      "id": "KBGEN-P066_chunk_001",
+      "text": "سقف الحساب 700 دينار."
+    },
+    {
+      "id": "KBGEN-P066_chunk_001",
+      "text": "The Account Cap is 700 JDs."
+    },
+    {
+      "id": "KBGEN-P067_chunk_002",
+      "text": "يُمنع منح بطاقة إئتمانية (Credit Card) للحساب البنكي الأساسي."
+    },
+    {
+      "id": "KBGEN-P067_chunk_002",
+      "text": "Credit Cards cannot be issued for Basic Accounts."
+    },
+    {
+      "id": "KBGEN-P068_chunk_003",
+      "text": "الحد الأدنى للرصيد: 100 دينار أردني."
+    },
+    {
+      "id": "KBGEN-P068_chunk_003",
+      "text": "Minimum Balance Requirement: 100 JOD."
+    },
+    {
+      "id": "KBGEN-P069_chunk_004",
+      "text": "يتحول الحساب إلى خامل: بعد مرور سنتين من دون أي معاملة على الحساب."
+    },
+    {
+      "id": "KBGEN-P069_chunk_004",
+      "text": "The account changes to dormant: after two years without any transaction on the account."
+    },
+    {
+      "id": "KBGEN-P070_chunk_005",
+      "text": "الحساب الجاري بشكل عام لا يحصل العميل فيه على فائدة دائنة، ولا يُمنح أي فائدة على الحسابات الجارية."
+    },
+    {
+      "id": "KBGEN-P070_chunk_005",
+      "text": "The Current Account: in general the customer does not receive credit interest on such an account. No interest is given on current accounts."
+    },
+    {
+      "id": "KBGEN-P071_chunk_006",
+      "text": "يتحول الحساب إلى خامل: بعد مرور 12 شهراً من دون أي معاملة على الحساب."
+    },
+    {
+      "id": "KBGEN-P071_chunk_006",
+      "text": "The account becomes dormant: after 12 months without any transaction on the account."
+    },
+    {
+      "id": "KBGEN-P072_chunk_007",
+      "text": "الحد الأقصى لعدد الأشخاص المشتركين بالحساب المشترك هو 5 أشخاص."
+    },
+    {
+      "id": "KBGEN-P072_chunk_007",
+      "text": "The maximum number of joint account holders is five."
+    },
+    {
+      "id": "KBGEN-P073_chunk_008",
+      "text": "هل يتم فتح حسابات مشتركة لعملاء دون قرابة؟ لا يتوجب وجود صلة قرابة."
+    },
+    {
+      "id": "KBGEN-P073_chunk_008",
+      "text": "Can joint accounts be opened for customers without a family relationship? No family relationship is required."
+    },
+    {
+      "id": "KBGEN-P074_chunk_009",
+      "text": "تنتهي الوصاية/الولاية عند بلوغ العميل سن الرشد شريطة ألا يكون فاقداً للأهلية، أو بموجب قرار من المحكمة يفيد بإلغاء الوصاية وتعيين وصي آخر."
+    },
+    {
+      "id": "KBGEN-P074_chunk_009",
+      "text": "The guardianship shall be terminated when the customer reaches the age of majority, provided that he/she is not incompetent or according to a court's decision to terminate the guardianship and appoint another guardian."
+    },
+    {
+      "id": "KBGEN-P075_chunk_010",
+      "text": "حساب الراتب: نوع من أنواع الحسابات الجارية يُفتح للعملاء في حال تحويل رواتبهم للبنك، ولا يتم قيد أية فوائد دائنة على هذا النوع من الحسابات."
+    },
+    {
+      "id": "KBGEN-P075_chunk_010",
+      "text": "Salary Account: a type of current account that is opened to customers in the event that their salaries are transferred to the bank, and no credit interests are recorded on this type of account."
+    },
+    {
+      "id": "KBGEN-P076_chunk_011",
+      "text": "إعفاء من عمولة المنح ومصاريف الرهن للقروض السكنية أكثر من 40,000 دينار إذا كان راتبك أكثر من 350 دينار."
+    },
+    {
+      "id": "KBGEN-P076_chunk_011",
+      "text": "No grant commission and mortgage fees for housing loans more than 40,000 JOD if your net salary is more than 350 JOD."
+    },
+    {
+      "id": "KBGEN-P077_chunk_012",
+      "text": "لا يجوز فتح أي حساب للمواطنين السوريين، إلا في الحالتين التاليتين: 1) الحساب المطلوب فتحه هو حساب راتب. 2) العميل الراغب بفتح الحساب شريك في شركة قائمة لديها حساب لدى البنك، بشرط الحصول على موافقة دائرة مكافحة الجرائم المالية في الحالتين."
+    },
+    {
+      "id": "KBGEN-P077_chunk_012",
+      "text": "It shall not be permissible to open any account for Syrian individuals, except in the following two cases: 1) The account to be opened is a salary account. 2) The customer who wishes to open the account is a partner in an existing company that owns an account with the bank, provided that the approval of the Financial Crimes Control Department, in both cases, is obtained before opening the account."
+    },
+    {
+      "id": "KBGEN-P078_chunk_001",
+      "text": "عمولة إصدار تقرير كريف الائتماني للأفراد عن طريق التطبيق: 2 دينار."
+    },
+    {
+      "id": "KBGEN-P078_chunk_001",
+      "text": "Service fee is 2 JOD for retail customers through the mobile app."
+    },
+    {
+      "id": "KBGEN-P079_chunk_002",
+      "text": "تقرير كريف يبقى متاحاً للتنزيل لمدة 30 يوماً من تاريخ الطلب."
+    },
+    {
+      "id": "KBGEN-P079_chunk_002",
+      "text": "CRIF report is available for download for 30 days from the request date."
+    },
+    {
+      "id": "KBGEN-P080_chunk_003",
+      "text": "من خلال خيار القائمة: أسفل الشاشة، اختر \"إدارة الحسابات\". ثم اضغط على النقاط الثلاث بجانب الحساب ← \"معلومات الحساب\". سيظهر رقم الآيبان الخاص بك."
+    },
+    {
+      "id": "KBGEN-P080_chunk_003",
+      "text": "Through the menu option: at the bottom of the screen, select \"Manage Accounts.\" Then, click the three dots next to the account → \"Account Information.\" Your IBAN number will then be displayed."
+    },
+    {
+      "id": "KBGEN-P081_chunk_004",
+      "text": "خدمة سلفة الراتب تصل إلى 90% من الراتب، بسقف سلفة يصل إلى 1,000 دينار، حسب الراتب المحوّل."
+    },
+    {
+      "id": "KBGEN-P081_chunk_004",
+      "text": "Salary advance service of up to 90% of the salary. An advance cap of up to 1,000 JDs, depending on the transferred salary."
+    },
+    {
+      "id": "KBGEN-P082_chunk_005",
+      "text": "لا رسوم سنوية على خدمة سلفة الراتب، لكن يتم تطبيق فائدة على مبلغ السلفة."
+    },
+    {
+      "id": "KBGEN-P082_chunk_005",
+      "text": "No annual fee, however interest applies to the salary advance amount."
+    },
+    {
+      "id": "KBGEN-P083_chunk_006",
+      "text": "مدة السداد الشهري: 3 أشهر كحد أدنى وحتى 12 شهراً كحد أقصى."
+    },
+    {
+      "id": "KBGEN-P083_chunk_006",
+      "text": "Monthly repayment period of a minimum of 3 months and up to 12 months."
+    },
+    {
+      "id": "KBGEN-P084_chunk_007",
+      "text": "الحد الأدنى للمعاملة هو 30 دينار."
+    },
+    {
+      "id": "KBGEN-P084_chunk_007",
+      "text": "Minimum transaction is 30 JDs."
+    },
+    {
+      "id": "KBGEN-P085_chunk_008",
+      "text": "سعر الفائدة 1%."
+    },
+    {
+      "id": "KBGEN-P085_chunk_008",
+      "text": "Interest rate 1%."
+    },
+    {
+      "id": "KBGEN-P086_chunk_009",
+      "text": "البطاقات المشمولة بالبرنامج هي البطاقات الائتمانية الصادرة بعملة الدينار الأردني."
+    },
+    {
+      "id": "KBGEN-P086_chunk_009",
+      "text": "The cards included in the program are credit cards issued in the Jordanian dinar currency."
+    },
+    {
+      "id": "KBGEN-P087_chunk_010",
+      "text": "مجموعة واسعة من القسائم الإلكترونية، مثل: آيتيونز، جوجل بلاي، سوني بلايستيشن، إكس بوكس لايف، ستيم، وببجي."
+    },
+    {
+      "id": "KBGEN-P087_chunk_010",
+      "text": "From a wide range of e-vouchers, such as: iTunes, Google Play, Sony PlayStation, Xbox Live, Steam and PUBG."
+    },
+    {
+      "id": "KBGEN-P088_chunk_011",
+      "text": "عدد المتاجر الدولية: (الولايات المتحدة، بريطانيا، الإمارات، السعودية، المتجر العالمي، ومتجر أوروبا)."
+    },
+    {
+      "id": "KBGEN-P088_chunk_011",
+      "text": "Number of international stores: (USA, UK, UAE, Saudi Arabia, Global Store & Europe store)."
+    },
+    {
+      "id": "KBGEN-P089_chunk_012",
+      "text": "أوامر الدفع الثابت متعلقة بإصدار تحويلات مستقبلية لمرة واحدة أو سلسلة من التحويلات في مواعيد محددة بأجل معين أو على فترات دورية وبمبالغ محددة ما بين حسابات العميل أو لحساب عميل آخر داخل البنوك بعملة الدينار الأردني والعملات الأجنبية."
+    },
+    {
+      "id": "KBGEN-P089_chunk_012",
+      "text": "Payment Standing orders is related to the issuance of future transfers for one time or a series of transfers on specific dates with a specific period or at periodic intervals and in specified amounts between the client's accounts or to another client's account within banks in Jordanian Dinar / foreign currencies."
+    },
+    {
+      "id": "KBGEN-P090_chunk_013",
+      "text": "إمكانية إنشاء عدد غير محدود من أوامر الدفع الثابت."
+    },
+    {
+      "id": "KBGEN-P090_chunk_013",
+      "text": "Unlimited number of Payment orders."
+    },
+    {
+      "id": "LOANSQA-P001_chunk_001",
+      "text": "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+    },
+    {
+      "id": "LOANSQA-P001_chunk_001_en",
+      "text": "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+    },
+    {
+      "id": "LOANSQA-P013_chunk_023",
+      "text": "الراتب الصافي (مع تحويل راتب): ... موظفين البنوك الأخرى (1000) دينار."
+    },
+    {
+      "id": "LOANSQA-P013_chunk_023_en",
+      "text": "Net Salary (with salary transfer): ... Other banks' employees: 1,000 JOD."
+    },
+    {
+      "id": "LOANSQA-P026_chunk_001",
+      "text": "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+    },
+    {
+      "id": "LOANSQA-P026_chunk_001_en",
+      "text": "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+    },
+    {
+      "id": "LOANSQA-P038_chunk_030",
+      "text": "تمويل حسب الوظائف - القطاع العام: ... لا يمكن تمويل موظفي البلديات، عمال المياومة."
+    },
+    {
+      "id": "LOANSQA-P038_chunk_030_en",
+      "text": "Financing according to jobs - Public Sector: ... Municipality employees and day laborers cannot be financed."
+    },
+    {
+      "id": "LOANSQA-P057_chunk_023",
+      "text": "رسوم التأمين - تأمين على حياة المدين: الموافقة التلقائية ضمن بوليصة التأمين الجماعية: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض أقل من 100,000 دينار."
+    },
+    {
+      "id": "LOANSQA-P057_chunk_023_en",
+      "text": "Insurance fees - Life insurance for the debtor: Automatic approval within the group insurance policy. Customers aged 65 years and below. Loan amount is less than 100,000 JOD."
+    },
+    {
+      "id": "LOANSQA-P065_chunk_040",
+      "text": "متقاعدين الضمان الاجتماعي المبكر، العميل الذكر: يجب أن لا يقل العمر عن 50 سنة."
+    },
+    {
+      "id": "LOANSQA-P065_chunk_040_en",
+      "text": "Early Social Security retirees (Male): Age must not be less than 50 years."
+    },
+    {
+      "id": "LOANSQA-P075_chunk_080",
+      "text": "ماذا لو تأخرت في سداد أكثر من قسط خلال مدة القرض؟ إذا تأخرت في سداد قسط لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، سيتم استبعادك نهائياً من البرنامج وستتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض."
+    },
+    {
+      "id": "LOANSQA-P075_chunk_080_en",
+      "text": "What if I am late on more than one installment during the loan period? If you are late paying an installment by 30 days or more twice during the loan period, you will be permanently disqualified from the program and will stop receiving any cashback or further interest rate reductions until the end of the loan's life."
+    },
+    {
+      "id": "LOANSQA-P083_chunk_011",
+      "text": "عبء الدين: 50%."
+    },
+    {
+      "id": "LOANSQA-P083_chunk_011_en",
+      "text": "Debt burden: 50%."
+    },
+    {
+      "id": "LOANSQA-P092_chunk_009",
+      "text": "كم هي عدد المرات التي يمكن بها الحصول على قرض فوري؟ مرة واحدة."
+    },
+    {
+      "id": "LOANSQA-P092_chunk_009_en",
+      "text": "How many times can an instant loan be obtained? Once."
+    },
+    {
+      "id": "LOANSQA-P097_chunk_002",
+      "text": "ما هي أنواع القروض الشخصية؟ قرض شخصي. قرض شخصي لرواتب الأقل من 450 دينار. القرض الفوري مقابل بطاقة ائتمانية. قرض المكافآت الشخصي. قرض شخصي مقابل تأمينات. قرض شخصي مقابل رهن عقاري."
+    },
+    {
+      "id": "LOANSQA-P097_chunk_002_en",
+      "text": "What are the types of personal loans? Personal loan. Personal loan for salaries less than 450 JOD. Instant loan against a credit card. Personal rewards loan. Personal loan against cash collaterals. Personal loan against a real estate mortgage."
+    }
+  ],
+  "questions": [
+    {
+      "id": "KBGEN-Q001",
+      "pair_id": "KBGEN-P001",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي ساعات العمل الرسمية لأفرع بنك الاتحاد من الأحد إلى الخميس؟",
+      "expected_answer": "من الساعة 8:30 صباحاً حتى 3:00 مساءً.",
+      "source_chunks": [
+        "ساعات العمل الرسمية لأفرع البنك من الأحد إلى الخميس: من 8:30 صباحا حتى 3:00 مساء."
+      ],
+      "chunk_ids": [
+        "KBGEN-P001_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q002",
+      "pair_id": "KBGEN-P001",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What are the official working hours for Bank al Etihad branches from Sunday to Thursday?",
+      "expected_answer": "From 8:30 AM to 3:00 PM.",
+      "source_chunks": [
+        "Official Working Hours for bank branches from Sunday to Thursday: 8:30 AM to 3:00 PM."
+      ],
+      "chunk_ids": [
+        "KBGEN-P001_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q003",
+      "pair_id": "KBGEN-P002",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي ساعات عمل فروع بنك الاتحاد الموجودة داخل المولات من السبت إلى الخميس؟",
+      "expected_answer": "من الساعة 10:00 صباحاً حتى 10:00 مساءً، مع فترة استراحة من 3:00 إلى 4:00 مساءً.",
+      "source_chunks": [
+        "أفرع المولات: من السبت إلى الخميس من 10:00 صباحاً إلى 10:00 مساءً (استراحة من 3:00 مساءً إلى 4:00 مساءً)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P002_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q004",
+      "pair_id": "KBGEN-P002",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What are the working hours of Bank al Etihad's mall branches from Saturday to Thursday?",
+      "expected_answer": "From 10:00 AM to 10:00 PM, with a break from 3:00 PM to 4:00 PM.",
+      "source_chunks": [
+        "Mall Branches Working Hours: Saturday to Thursday: 10:00 AM to 10:00 PM (Break from 3:00 PM to 4:00 PM)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P002_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q005",
+      "pair_id": "KBGEN-P003",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي خدمة صرافات إيداع الشيكات في بنك الاتحاد؟",
+      "expected_answer": "خدمة تمكّن من إيداع الشيكات على مدار الساعة بخطوات بسيطة وآمنة بدون مغلف عبر مجموعة مختارة من أجهزة الصراف الآلي، وتتيح إيداع وقيد الشيكات خلال عدة ساعات عمل، بالإضافة إلى تحصيل شيكات البنوك المحلية الأخرى خلال جلسة المقاصة القادمة.",
+      "source_chunks": [
+        "الفئة 3: صرافات إيداع الشيكات - خدمة تمكن إيداع الشيكات على مدار الساعة بخطوات بسيطة وآمنة بدون مغلف عبر مجموعة مختارة من أجهزة الصراف الآلي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P003_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q006",
+      "pair_id": "KBGEN-P003",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is Bank al Etihad's Check Deposit ATM service?",
+      "expected_answer": "A service that enables 24/7 check deposits with simple and secure steps without an envelope via selected ATMs, allowing deposits and crediting of checks within several working hours, in addition to collecting checks from other local banks during the next clearing session.",
+      "source_chunks": [
+        "Category 3: Check Deposit ATMs - A service that enables 24/7 check deposits with simple and secure steps without an envelope via selected ATMs."
+      ],
+      "chunk_ids": [
+        "KBGEN-P003_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q007",
+      "pair_id": "KBGEN-P004",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يمكن سحب الدولار الأمريكي نقداً من أي صراف آلي تابع لبنك الاتحاد؟",
+      "expected_answer": "لا، السحب النقدي بعملة الدولار الأمريكي متاح فقط من مجموعة مختارة من أجهزة الصراف الآلي، وليس من جميعها.",
+      "source_chunks": [
+        "الفئة 4: صرافات سحب الدولار - خدمة إجراء عمليات السحب النقدي بعملة الدولار الأمريكي لدى مجموعة مختارة من أجهزة الصراف الآلي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P004_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q008",
+      "pair_id": "KBGEN-P004",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can US Dollars be withdrawn in cash from any Bank al Etihad ATM?",
+      "expected_answer": "No, USD cash withdrawal is only available at a selected group of ATMs, not all of them.",
+      "source_chunks": [
+        "Category 4: USD Withdrawal ATMs - A service for cash withdrawals in US Dollars at selected ATMs."
+      ],
+      "chunk_ids": [
+        "KBGEN-P004_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q009",
+      "pair_id": "KBGEN-P005",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي خدمة الأجهزة اللوحية (تابلت) في فروع بنك الاتحاد؟",
+      "expected_answer": "جهاز لوحي متاح في فروع مختارة لخدمة العملاء ذوي الإعاقة السمعية بلغة الإشارة عبر مكالمة فيديو مع شركة معتمدة.",
+      "source_chunks": [
+        "الجزء 3: أفرع بخدمة الأجهزة اللوحية لضعاف السمع - يتم توفير جهاز لوحي في الأفرع المذكورة أدناه لخدمة العملاء ذوي الإعاقة السمعية بلغة الإشارة عبر مكالمة فيديو مع شركة معتمدة."
+      ],
+      "chunk_ids": [
+        "KBGEN-P005_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q010",
+      "pair_id": "KBGEN-P005",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the tablet device service at Bank al Etihad branches?",
+      "expected_answer": "A tablet device provided at selected branches to serve hearing-impaired customers in sign language via a video call with a certified company.",
+      "source_chunks": [
+        "Part 3: Branches with Tablet Services for the Hearing Impaired - A tablet device is provided in the branches listed below to serve hearing-impaired customers in sign language via a video call with a certified company."
+      ],
+      "chunk_ids": [
+        "KBGEN-P005_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q011",
+      "pair_id": "KBGEN-P006",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هما نوعا الودائع المتوفرة لدى بنك الاتحاد؟",
+      "expected_answer": "الودائع لأجل وشهادات الإيداع.",
+      "source_chunks": [
+        "أنواع الودائع: تتكون من الودائع لأجل وشهادات الإيداع."
+      ],
+      "chunk_ids": [
+        "KBGEN-P006_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q012",
+      "pair_id": "KBGEN-P006",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What are the two types of deposits available at Bank al Etihad?",
+      "expected_answer": "Term Deposits and Certificates of Deposit (CDs).",
+      "source_chunks": [
+        "Types of deposits: They consist of Term Deposits and Certificates of Deposit (CDs)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P006_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q013",
+      "pair_id": "KBGEN-P007",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما الفرق بين الودائع لأجل وشهادات الإيداع؟",
+      "expected_answer": "الودائع لأجل تسمح بالإضافة والتحويل والسحب الجزئي، بينما شهادات الإيداع لا تسمح بذلك ولا يمكن تصفيتها إلا بالكامل.",
+      "source_chunks": [
+        "الفرق بين الودائع لأجل وشهادات الإيداع: الودائع لأجل تسمح بالإضافة والتحويلات والسحب الجزئي (التصفية الجزئية)، أما شهادات الإيداع فلا تسمح بذلك ولا يمكن إلا تصفيتها بالكامل."
+      ],
+      "chunk_ids": [
+        "KBGEN-P007_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q014",
+      "pair_id": "KBGEN-P007",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the difference between Term Deposits and Certificates of Deposit?",
+      "expected_answer": "Term deposits allow for additions, transfers, and partial withdrawals, while Certificates of Deposit do not allow these actions and can only be fully liquidated.",
+      "source_chunks": [
+        "Difference between Term Deposits and CDs: Term deposits allow for additions (feeding), transfers, and partial withdrawals (partial liquidation). In contrast, Certificates of Deposit do not allow these actions and can only be fully liquidated."
+      ],
+      "chunk_ids": [
+        "KBGEN-P007_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q015",
+      "pair_id": "KBGEN-P008",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأدنى لقيمة الوديعة لأجل لدى بنك الاتحاد؟",
+      "expected_answer": "5,000 من العملة المربوطة بها الوديعة.",
+      "source_chunks": [
+        "الحد الأدنى للرصيد: يجب ألا تقل قيمة الوديعة عن 5,000 من العملة المربوطة بها."
+      ],
+      "chunk_ids": [
+        "KBGEN-P008_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q016",
+      "pair_id": "KBGEN-P008",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the minimum value for a term deposit at Bank al Etihad?",
+      "expected_answer": "5,000 of the pegged currency.",
+      "source_chunks": [
+        "Minimum balance: The deposit value must not be less than 5,000 of the pegged currency."
+      ],
+      "chunk_ids": [
+        "KBGEN-P008_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q017",
+      "pair_id": "KBGEN-P009",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي نسبة الضريبة على فائدة الودائع لعملاء الأفراد مقابل عملاء الشركات؟",
+      "expected_answer": "5% لعملاء الأفراد و7% لعملاء الشركات، باستثناء العملاء المعفيين بقرار حكومي.",
+      "source_chunks": [
+        "ضريبة الدخل: تُطبق ضريبة 5% لعملاء الأفراد و7% لعملاء الشركات على الفائدة المقيدة بتاريخ الاستحقاق، باستثناء العملاء المعفيين بقرار حكومي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P009_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q018",
+      "pair_id": "KBGEN-P009",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the income tax rate on deposit interest for individual customers versus corporate customers?",
+      "expected_answer": "5% for individual customers and 7% for corporate customers, excluding customers exempted by a government decree.",
+      "source_chunks": [
+        "Income tax: A tax of 5% for individual customers and 7% for corporate customers is applied to the interest credited on the maturity date, excluding customers exempted by a government decree."
+      ],
+      "chunk_ids": [
+        "KBGEN-P009_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q019",
+      "pair_id": "KBGEN-P010",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "قبل كم يوم من تاريخ استحقاق الوديعة يصل تنبيه رسالة نصية للعميل؟",
+      "expected_answer": "قبل 5 أيام من تاريخ الاستحقاق.",
+      "source_chunks": [
+        "تنبيه الاستحقاق: قبل 5 أيام من تاريخ الاستحقاق."
+      ],
+      "chunk_ids": [
+        "KBGEN-P010_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q020",
+      "pair_id": "KBGEN-P010",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "How many days before a deposit's maturity date is the customer notified by SMS?",
+      "expected_answer": "5 days before the maturity date.",
+      "source_chunks": [
+        "Maturity alert: 5 days before the maturity date."
+      ],
+      "chunk_ids": [
+        "KBGEN-P010_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q021",
+      "pair_id": "KBGEN-P011",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأدنى لقيمة شهادة الإيداع لدى بنك الاتحاد؟",
+      "expected_answer": "3,000 من العملة المربوطة بها.",
+      "source_chunks": [
+        "الحد الأدنى للرصيد (شهادة الإيداع): يجب ألا تقل قيمة الشهادة عن 3,000 من العملة المربوطة بها."
+      ],
+      "chunk_ids": [
+        "KBGEN-P011_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q022",
+      "pair_id": "KBGEN-P011",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the minimum value for a Certificate of Deposit at Bank al Etihad?",
+      "expected_answer": "3,000 of the pegged currency.",
+      "source_chunks": [
+        "Minimum balance (Certificate of Deposit): The deposit value must not be less than 3,000 of the pegged currency."
+      ],
+      "chunk_ids": [
+        "KBGEN-P011_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q023",
+      "pair_id": "KBGEN-P012",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يمكن زيادة المبلغ الأساسي لشهادة إيداع قائمة؟",
+      "expected_answer": "لا، زيادة المبلغ الأساسي لشهادة إيداع قائمة ممنوعة، ولا يمكن أيضاً الإيداع أو التحويل من وإلى حساب الشهادة خلال مدتها.",
+      "source_chunks": [
+        "زيادة مبلغ شهادة الإيداع: زيادة المبلغ الأساسي لشهادة إيداع قائمة أمر ممنوع، كما لا يمكن إجراء أي إيداعات أو تحويلات من أو إلى حساب الشهادة خلال مدتها."
+      ],
+      "chunk_ids": [
+        "KBGEN-P012_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q024",
+      "pair_id": "KBGEN-P012",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can the principal amount of an existing Certificate of Deposit be increased?",
+      "expected_answer": "No, increasing the principal amount of an existing CD is prohibited, and no deposits or transfers can be made to or from the certificate account during its term.",
+      "source_chunks": [
+        "Increasing the CD amount: Increasing the principal amount of an existing CD is prohibited. Additionally, no deposits or transfers can be made to or from the certificate account during its term."
+      ],
+      "chunk_ids": [
+        "KBGEN-P012_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q025",
+      "pair_id": "KBGEN-P013",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يُسمح بالتصفية الجزئية لشهادة الإيداع؟",
+      "expected_answer": "لا، التصفية الجزئية لشهادات الإيداع ممنوعة، ويجب تصفية كامل قيمة الشهادة إذا رغب العميل بذلك، سواء من الفرع أو من خلال تطبيق البنك.",
+      "source_chunks": [
+        "كيفية تصفية شهادة الإيداع: التصفية الجزئية لشهادات الإيداع ممنوعة، ويجب تصفية كامل قيمة الشهادة إذا رغب العميل بذلك، ويمكن ذلك إما من خلال الفرع أو من خلال تطبيق البنك."
+      ],
+      "chunk_ids": [
+        "KBGEN-P013_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q026",
+      "pair_id": "KBGEN-P013",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Is partial liquidation of a Certificate of Deposit allowed?",
+      "expected_answer": "No, partial breaking of CDs is prohibited; the full value of the certificate must be broken if the customer wishes to break it, either through the branch or via the bank's mobile app.",
+      "source_chunks": [
+        "How to Break a Certificate of Deposit: Partial breaking of CDs is prohibited; the full value of the certificate must be broken if the customer wishes to break it. The CD can be broken either through the branch or via the bank's mobile app."
+      ],
+      "chunk_ids": [
+        "KBGEN-P013_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q027",
+      "pair_id": "KBGEN-P014",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم عدد الأيام المعتمدة في السنة عند احتساب فائدة الودائع لدى بنك الاتحاد؟",
+      "expected_answer": "365 يوماً.",
+      "source_chunks": [
+        "يُعتبر عدد أيام السنة 365 يوماً عند احتساب الفائدة."
+      ],
+      "chunk_ids": [
+        "KBGEN-P014_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q028",
+      "pair_id": "KBGEN-P014",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "How many days in a year are used when calculating deposit interest at Bank al Etihad?",
+      "expected_answer": "365 days.",
+      "source_chunks": [
+        "The year is considered 365 days when calculating interest."
+      ],
+      "chunk_ids": [
+        "KBGEN-P014_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q029",
+      "pair_id": "KBGEN-P015",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "متى تم إتمام الاندماج القانوني بين بنك الاتحاد وInvestbank؟",
+      "expected_answer": "تم إتمام الاندماج القانوني في 17 مايو 2026.",
+      "source_chunks": [
+        "تم إتمام الاندماج القانوني بتاريخ 17 مايو 2026، كجزء من انتقال تدريجي يهدف لضمان تجربة سلسة ومتكاملة لعملائنا."
+      ],
+      "chunk_ids": [
+        "KBGEN-P015_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q030",
+      "pair_id": "KBGEN-P015",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "When was the legal merger between Bank al Etihad and INVESTBANK completed?",
+      "expected_answer": "The legal merger was completed on May 17, 2026.",
+      "source_chunks": [
+        "The legal merger was completed on May 17, 2026, as part of a gradual transition aimed at ensuring a seamless and integrated experience for our customers."
+      ],
+      "chunk_ids": [
+        "KBGEN-P015_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q031",
+      "pair_id": "KBGEN-P016",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يستطيع عميل بنك الاتحاد استخدام أجهزة صراف Investbank بعد الاندماج؟",
+      "expected_answer": "نعم، يمكن استخدام أجهزة صراف بنك الاتحاد وبنك صفوى الإسلامي وInvestbank مجاناً للسحب النقدي والاستعلام عن الرصيد.",
+      "source_chunks": [
+        "شبكة أكبر من الصرافات الآلية لخدمتك: يمكنك الآن استخدام أجهزة صراف بنك الاتحاد وبنك صفوى الإسلامي وInvestbank مجاناً للسحب النقدي والاستعلام عن الرصيد."
+      ],
+      "chunk_ids": [
+        "KBGEN-P016_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q032",
+      "pair_id": "KBGEN-P016",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can a Bank al Etihad customer use INVESTBANK ATMs after the merger?",
+      "expected_answer": "Yes, customers can now use the ATMs of Bank al Etihad, Safwa Islamic Bank, and INVESTBANK free of charge for cash withdrawals and balance inquiries.",
+      "source_chunks": [
+        "A Larger ATM Network to Serve You: You can now use the ATMs of Bank al Etihad, Safwa Islamic Bank, and INVESTBANK free of charge for cash withdrawals and balance inquiries."
+      ],
+      "chunk_ids": [
+        "KBGEN-P016_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q033",
+      "pair_id": "KBGEN-P017",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل توجد رسوم على التحويلات بين بنك الاتحاد وInvestbank بعد الاندماج؟",
+      "expected_answer": "لا، تم إلغاء رسوم جميع التحويلات الواردة والصادرة بين Investbank وبنك الاتحاد.",
+      "source_chunks": [
+        "إلغاء رسوم التحويلات: تم إلغاء الرسوم على جميع التحويلات الواردة والصادرة بين Investbank وبنك الاتحاد."
+      ],
+      "chunk_ids": [
+        "KBGEN-P017_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q034",
+      "pair_id": "KBGEN-P017",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Are there fees on transfers between Bank al Etihad and INVESTBANK after the merger?",
+      "expected_answer": "No, fees have been waived on all incoming and outgoing transfers between INVESTBANK and Bank al Etihad.",
+      "source_chunks": [
+        "Waiver of Transfer Fees: Fees have been waived on all incoming and outgoing transfers between INVESTBANK and Bank al Etihad."
+      ],
+      "chunk_ids": [
+        "KBGEN-P017_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q035",
+      "pair_id": "KBGEN-P018",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "أين يتم فتح حسابات عملاء Investbank الجدد بعد الاندماج؟",
+      "expected_answer": "تُفتح مباشرة على منصات بنك الاتحاد، لضمان تجربة سلسة وتجنب الحاجة لنقل الحسابات لاحقاً.",
+      "source_chunks": [
+        "ستُفتح حسابات عملاء Investbank الجدد مباشرة على منصات بنك الاتحاد لضمان تجربة سلسة وتجنب الحاجة إلى نقل الحسابات لاحقاً."
+      ],
+      "chunk_ids": [
+        "KBGEN-P018_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q036",
+      "pair_id": "KBGEN-P018",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Where are the accounts of new INVESTBANK customers opened after the merger?",
+      "expected_answer": "They are opened directly on Bank al Etihad platforms to ensure a seamless experience and avoid the need to transfer accounts later.",
+      "source_chunks": [
+        "Accounts for new INVESTBANK customers will be opened directly on Bank al Etihad platforms to ensure a seamless experience and avoid the need to transfer accounts later."
+      ],
+      "chunk_ids": [
+        "KBGEN-P018_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q037",
+      "pair_id": "KBGEN-P019",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يحتاج عملاء Investbank الحاليين لاتخاذ أي إجراء بسبب الاندماج؟",
+      "expected_answer": "لا، لا يوجد إجراء مطلوب، ويستمر التعامل مع البنك الحالي كالمعتاد.",
+      "source_chunks": [
+        "هل أحتاج لاتخاذ أي إجراء؟ لا يوجد إجراء مطلوب. استمرار التعامل مع البنك الحالي: في الوقت الحالي استمر بالتعامل مع بنكك الحالي كالمعتاد. لا شيء يتغير اليوم."
+      ],
+      "chunk_ids": [
+        "KBGEN-P019_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q038",
+      "pair_id": "KBGEN-P019",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Do current INVESTBANK customers need to take any action because of the merger?",
+      "expected_answer": "No action is required; customers should continue dealing with their current bank as usual.",
+      "source_chunks": [
+        "Do I need to take any action? No action is required. Full Service Continuity: For now, continue dealing with your current bank as usual. Nothing changes today."
+      ],
+      "chunk_ids": [
+        "KBGEN-P019_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q039",
+      "pair_id": "KBGEN-P020",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل ستشمل حسابات Prime عند Investbank نفس إجراء فتح الحسابات المباشر على منصات بنك الاتحاد؟",
+      "expected_answer": "لا، حسابات عملاء Prime مستثناة، وستستمر فتحها على منصة Investbank حتى إشعار آخر.",
+      "source_chunks": [
+        "ينطبق هذا الإجراء على جميع العملاء الجدد الذين تُفتح حساباتهم عبر قنوات Investbank، باستثناء عملاء Prime، الذين ستستمر حساباتهم بالفتح على منصة Investbank حتى إشعار آخر."
+      ],
+      "chunk_ids": [
+        "KBGEN-P020_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q040",
+      "pair_id": "KBGEN-P020",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Will Prime accounts at INVESTBANK follow the same direct account-opening process on Bank al Etihad platforms?",
+      "expected_answer": "No, Prime customers are excluded, and their accounts will continue to be opened on the INVESTBANK platform until further notice.",
+      "source_chunks": [
+        "This applies to all new customers whose accounts are opened through INVESTBANK channels, with the exception of Prime customers, whose accounts will continue to be opened on the INVESTBANK platform until further notice."
+      ],
+      "chunk_ids": [
+        "KBGEN-P020_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q041",
+      "pair_id": "KBGEN-P021",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي نسبة الاسترداد النقدي على البطاقات الائتمانية للعميل من الرتبة الأولى؟",
+      "expected_answer": "3%.",
+      "source_chunks": [
+        "الرتبة الأولى: البطاقات الائتمانية 3% والبطاقات الأخرى 2%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P021_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q042",
+      "pair_id": "KBGEN-P021",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the cashback percentage on credit cards for a customer in Rank One?",
+      "expected_answer": "3%.",
+      "source_chunks": [
+        "Rank One: Credit Cards: 3% and Other Cards: 2%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P021_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q043",
+      "pair_id": "KBGEN-P022",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كيف يتم تحديد رتبة العميل في برنامج مكافآت الاتحاد؟",
+      "expected_answer": "تُحتسب رتبة العميل تلقائياً بناءً على معاملاته المالية مع البنك خلال آخر 30 يوماً.",
+      "source_chunks": [
+        "تحديد الرتبة: تُحتسب رتبة كل عميل تلقائياً بناءً على معاملاته المالية مع البنك خلال آخر 30 يوماً."
+      ],
+      "chunk_ids": [
+        "KBGEN-P022_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q044",
+      "pair_id": "KBGEN-P022",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "How is a customer's rank determined in the Etihad Rewards program?",
+      "expected_answer": "Each customer's rank is calculated automatically based on their financial transactions with the bank over the last 30 days.",
+      "source_chunks": [
+        "Rank determination: Each customer's rank is calculated automatically based on their financial transactions with the bank over the last 30 days."
+      ],
+      "chunk_ids": [
+        "KBGEN-P022_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q045",
+      "pair_id": "KBGEN-P023",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى للاسترداد النقدي الذي يمكن للعميل الحصول عليه شهرياً؟",
+      "expected_answer": "200 دينار أردني شهرياً، بغض النظر عن قيمة المعاملات التي تمت.",
+      "source_chunks": [
+        "هل يوجد سقف للاسترداد النقدي؟ نعم، يوجد سقف للاسترداد النقدي وهو فقط 200 دينار أردني شهرياً، بغض النظر عن قيم المعاملات التي تمت."
+      ],
+      "chunk_ids": [
+        "KBGEN-P023_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q046",
+      "pair_id": "KBGEN-P023",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum monthly cashback a customer can receive?",
+      "expected_answer": "200 Jordanian Dinars per month, regardless of the values of the transactions made.",
+      "source_chunks": [
+        "Is there a cap on the cashback? Yes, there is a cashback cap, which is only 200 Jordanian Dinars per month, regardless of the values of the transactions made."
+      ],
+      "chunk_ids": [
+        "KBGEN-P023_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q047",
+      "pair_id": "KBGEN-P024",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل تؤثر تحويلات CliQ على رتبة العميل في برنامج المكافآت؟",
+      "expected_answer": "لا، تحويلات CliQ لا تؤثر على رتبة العميل في البرنامج.",
+      "source_chunks": [
+        "معاملات لا تؤثر على البرنامج (الرتبة): تحويلات CliQ، ودفع الفواتير عبر المحفظة الإلكترونية، وتسديد المستحقات لدى بنوك أخرى."
+      ],
+      "chunk_ids": [
+        "KBGEN-P024_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q048",
+      "pair_id": "KBGEN-P024",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Do CliQ transfers affect a customer's rank in the rewards program?",
+      "expected_answer": "No, CliQ transfers do not affect the customer's rank in the program.",
+      "source_chunks": [
+        "Transactions that do not affect the program (the rank): CliQ transfers, e-wallet bill payments, and settling dues at other banks."
+      ],
+      "chunk_ids": [
+        "KBGEN-P024_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q049",
+      "pair_id": "KBGEN-P025",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "أي البطاقات مشمولة ببرنامج الاسترداد النقدي لدى بنك الاتحاد؟",
+      "expected_answer": "بطاقات الخصم المباشر، والبطاقات الائتمانية، والبطاقات متعددة العملات الصادرة من التطبيق المصرفي.",
+      "source_chunks": [
+        "أي البطاقات مشمولة بالاسترداد النقدي؟ يمكنك الحصول على استرداد نقدي عند استخدام بطاقات الخصم المباشر والبطاقات الائتمانية والبطاقات متعددة العملات الصادرة من التطبيق المصرفي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P025_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q050",
+      "pair_id": "KBGEN-P025",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Which cards are included in Bank al Etihad's cashback program?",
+      "expected_answer": "Debit cards, credit cards, and multi-currency cards issued from the banking app.",
+      "source_chunks": [
+        "Which cards are included in the cashback? You can get cashback when using debit cards, credit cards, and multi-currency cards issued from the banking app."
+      ],
+      "chunk_ids": [
+        "KBGEN-P025_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q051",
+      "pair_id": "KBGEN-P026",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل تُحتسب المدفوعات لجهات حكومية ضمن الاسترداد النقدي؟",
+      "expected_answer": "لا، المدفوعات لجهات حكومية مثل دائرة ضريبة الدخل والمبيعات والضمان الاجتماعي مستثناة من الاسترداد النقدي.",
+      "source_chunks": [
+        "المعاملة تمت لدى أحد التجار المستثناة من الاسترداد النقدي (مثل الدوائر الحكومية وما يتبعها كدائرة ضريبة الدخل والمبيعات، ومؤسسة الضمان الاجتماعي وغيرها)، حسب سياسة البرنامج."
+      ],
+      "chunk_ids": [
+        "KBGEN-P026_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q052",
+      "pair_id": "KBGEN-P026",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Are payments to government entities counted toward cashback?",
+      "expected_answer": "No, payments to government entities such as the Income and Sales Tax Department and the Social Security Corporation are excluded from cashback.",
+      "source_chunks": [
+        "The purchase was made at one of the merchants excluded from the cashback (such as government departments and what falls under them like the Income and Sales Tax Department, the Social Security Corporation, etc.), based on the program's policy."
+      ],
+      "chunk_ids": [
+        "KBGEN-P026_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q053",
+      "pair_id": "KBGEN-P027",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "من أين يمكن للعميل معرفة رتبته الحالية في برنامج مكافآت الاتحاد؟",
+      "expected_answer": "من خلال التطبيق المصرفي، بتسجيل الدخول والضغط على \"المكافآت\" من الشريط العلوي للصفحة الرئيسية.",
+      "source_chunks": [
+        "كيف أتعرف على رتبتي؟ من خلال تطبيقنا المصرفي (تسجيل الدخول، والضغط على \"المكافآت\" من الشريط الموجود أعلى الصفحة الرئيسية، وستظهر رتبتك الحالية)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P027_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q054",
+      "pair_id": "KBGEN-P027",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "How can a customer find out their current rank in the Etihad Rewards program?",
+      "expected_answer": "Through the banking app, by logging in and tapping \"Rewards\" from the bar at the top of the home page.",
+      "source_chunks": [
+        "How can I find out my rank? From our banking app (log in, tap on \"Rewards\" from the bar at the top of the home page, and your current rank will appear)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P027_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q055",
+      "pair_id": "KBGEN-P028",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ماذا يحدث لأهلية العميل في برنامج المكافآت إذا تأخر عن سداد التزاماته تجاه البنك؟",
+      "expected_answer": "لا يستطيع العميل الاستفادة من مزايا البرنامج (رفع الرتبة والحصول على الاسترداد النقدي) طوال فترة التعثر، حتى يسدد كامل التزاماته.",
+      "source_chunks": [
+        "في حال عدم التزام العميل بسداد أي مستحقات مترتبة عليه للبنك، بما فيها أقساط القروض، لن يتمكن العميل، في هذه الحالة وطوال فترة تعثره، من التمتع بالمزايا الممنوحة من خلال برنامج مكافآت الاتحاد، والمتمثلة في رفع الرتبة والحصول على الاسترداد النقدي، إلى حين سداد كافة الالتزامات والمبالغ المستحقة للبنك بالكامل."
+      ],
+      "chunk_ids": [
+        "KBGEN-P028_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q056",
+      "pair_id": "KBGEN-P028",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What happens to a customer's eligibility in the rewards program if they default on their obligations to the bank?",
+      "expected_answer": "The customer cannot enjoy the program's features (rank upgrade and cashback) throughout their default period, until they pay all obligations in full.",
+      "source_chunks": [
+        "In the event the customer fails to commit to paying any dues owed to the bank, including loan installments, the customer will not be able, in this case and throughout their default period, to enjoy the features granted through the Etihad Rewards program, which are upgrading in rank and getting cashback, until they pay all obligations and amounts owed to the bank in full."
+      ],
+      "chunk_ids": [
+        "KBGEN-P028_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q057",
+      "pair_id": "KBGEN-P029",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يحق لعميل صاحب حساب خامل سحب المبالغ المتجمعة في خزنة الاسترداد النقدي؟",
+      "expected_answer": "نعم، لكن فقط بعد تفعيل الحساب الخامل.",
+      "source_chunks": [
+        "يحق لأصحاب الحسابات غير الفعالة/الخاملة سحب المبالغ المتجمعة في خزنة الاسترداد النقدي الخاصة بهم فقط بعد تفعيل الحساب."
+      ],
+      "chunk_ids": [
+        "KBGEN-P029_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q058",
+      "pair_id": "KBGEN-P029",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can a customer with a dormant account withdraw the amounts accumulated in their cashback vault?",
+      "expected_answer": "Yes, but only after activating the dormant account.",
+      "source_chunks": [
+        "Owners of inactive/dormant accounts have the right to withdraw the amounts accumulated in their Cashback Vault only after activating the account."
+      ],
+      "chunk_ids": [
+        "KBGEN-P029_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q059",
+      "pair_id": "KBGEN-P030",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل تُعتبر قيمة الاسترداد النقدي المتجمعة في الخزنة جزءاً من رصيد حساب العميل؟",
+      "expected_answer": "لا، لا تُعتبر جزءاً من رصيد الحساب ولا يمكن استخدامها كنقد إلا بعد تحويلها من الخزنة إلى الحساب المصرفي.",
+      "source_chunks": [
+        "يقر العميل بأن قيم مبالغ الاسترداد النقدي لا تُعتبر جزءاً من قيمة حساب العميل، ولا يمكن استخدامها كنقد إلا في حال قام العميل بتحويلها من خزنة الاسترداد النقدي المخصصة على التطبيق إلى حسابه المصرفي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P030_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q060",
+      "pair_id": "KBGEN-P030",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Is the accumulated cashback value in the vault considered part of the customer's account balance?",
+      "expected_answer": "No, it is not considered part of the account balance and cannot be used as cash unless transferred from the vault to the bank account.",
+      "source_chunks": [
+        "The customer acknowledges that the values of the cashback amounts are not considered part of the customer's account value and cannot be utilized as cash unless the customer transfers them from the designated Cashback Vault on the app to their bank account."
+      ],
+      "chunk_ids": [
+        "KBGEN-P030_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q061",
+      "pair_id": "KBGEN-P031",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة تدني الرصيد على الحساب الجاري أو حساب التوفير لدى بنك الاتحاد؟",
+      "expected_answer": "دينار واحد شهرياً للرصيد الذي يقل عن 100 دينار، باستثناء الحسابات المفتوحة إلكترونياً عبر التطبيق.",
+      "source_chunks": [
+        "تدني الرصيد (جاري/توفير): 1 دينار شهرياً للرصيد الذي يقل عن 100 دينار أو ما يعادلها، ويُستثنى منها الحسابات المنشأة إلكترونياً (من خلال التطبيق)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P031_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q062",
+      "pair_id": "KBGEN-P031",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the low-balance fee on a current or savings account at Bank al Etihad?",
+      "expected_answer": "1 JOD monthly for a balance less than 100 JOD, excluding accounts created electronically via the app.",
+      "source_chunks": [
+        "Low balance (Current/Savings): 1 JD monthly for a balance less than 100 JD or its equivalent, excluding accounts created electronically (via the app)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P031_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q063",
+      "pair_id": "KBGEN-P032",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة منح القرض لدى بنك الاتحاد؟",
+      "expected_answer": "1% من قيمة القرض، لمرة واحدة عند المنح.",
+      "source_chunks": [
+        "منح القرض: 1% من قيمة القرض لمرة واحدة عند المنح."
+      ],
+      "chunk_ids": [
+        "KBGEN-P032_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q064",
+      "pair_id": "KBGEN-P032",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the loan granting commission at Bank al Etihad?",
+      "expected_answer": "1% of the loan amount, one time upon granting.",
+      "source_chunks": [
+        "Loan granting: 1% of the loan amount for one time upon granting."
+      ],
+      "chunk_ids": [
+        "KBGEN-P032_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q065",
+      "pair_id": "KBGEN-P033",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة تأخير سداد القروض لدى بنك الاتحاد؟",
+      "expected_answer": "10 دنانير.",
+      "source_chunks": [
+        "التأخر في سداد القروض: 10 دنانير."
+      ],
+      "chunk_ids": [
+        "KBGEN-P033_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q066",
+      "pair_id": "KBGEN-P033",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the late payment fee for loans at Bank al Etihad?",
+      "expected_answer": "10 JOD.",
+      "source_chunks": [
+        "Late payment for loans: 10 JD."
+      ],
+      "chunk_ids": [
+        "KBGEN-P033_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q067",
+      "pair_id": "KBGEN-P034",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة السداد المبكر للقرض إذا تبقّى أكثر من سنة على انتهائه؟",
+      "expected_answer": "1% من المبلغ المراد تسديده.",
+      "source_chunks": [
+        "السداد المبكر (أكثر من سنة): 1% من المبلغ المراد تسديده."
+      ],
+      "chunk_ids": [
+        "KBGEN-P034_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q068",
+      "pair_id": "KBGEN-P034",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the early settlement commission for a loan if more than a year remains until its end?",
+      "expected_answer": "1% of the amount to be settled.",
+      "source_chunks": [
+        "Early settlement (more than a year): 1% of the amount to be settled."
+      ],
+      "chunk_ids": [
+        "KBGEN-P034_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q069",
+      "pair_id": "KBGEN-P035",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يوجد رسوم على السداد المبكر للقرض إذا تبقّى سنة أو أقل على انتهائه؟",
+      "expected_answer": "لا، السداد المبكر مجاني في هذه الحالة.",
+      "source_chunks": [
+        "السداد المبكر (سنة أو أقل): مجاناً."
+      ],
+      "chunk_ids": [
+        "KBGEN-P035_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q070",
+      "pair_id": "KBGEN-P035",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Is there a fee for early loan settlement if a year or less remains until the loan ends?",
+      "expected_answer": "No, early settlement is free in this case.",
+      "source_chunks": [
+        "Early settlement (one year or less): Free."
+      ],
+      "chunk_ids": [
+        "KBGEN-P035_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q071",
+      "pair_id": "KBGEN-P036",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة تقرير كريف عبر التطبيق المصرفي؟",
+      "expected_answer": "دينارين.",
+      "source_chunks": [
+        "تقرير كريف: 2 دينار عبر التطبيق المصرفي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P036_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q072",
+      "pair_id": "KBGEN-P036",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the fee for a CRIF report via the banking app?",
+      "expected_answer": "2 JOD.",
+      "source_chunks": [
+        "CRIF report: 2 JD via the banking app."
+      ],
+      "chunk_ids": [
+        "KBGEN-P036_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q073",
+      "pair_id": "KBGEN-P037",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ رسوم فتح حساب لعاملات المنازل لدى بنك الاتحاد؟",
+      "expected_answer": "10 دنانير.",
+      "source_chunks": [
+        "فتح حساب عاملات المنازل: 10 دنانير."
+      ],
+      "chunk_ids": [
+        "KBGEN-P037_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q074",
+      "pair_id": "KBGEN-P037",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the fee for opening an account for domestic workers at Bank al Etihad?",
+      "expected_answer": "10 JOD.",
+      "source_chunks": [
+        "Opening an account for domestic workers: 10 JD."
+      ],
+      "chunk_ids": [
+        "KBGEN-P037_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q075",
+      "pair_id": "KBGEN-P038",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة الحسابات الجامدة شهرياً، وما هو الحد الأقصى لها؟",
+      "expected_answer": "دينارين شهرياً، بحد أقصى 6 دنانير، ويُحظر استيفاؤها من حسابات المتوفين.",
+      "source_chunks": [
+        "الحسابات الجامدة: 2 دينار شهرياً وبحد أقصى 6 دنانير (يُحظر استيفاؤها من المتوفين)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P038_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q076",
+      "pair_id": "KBGEN-P038",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the monthly fee for dormant accounts, and what is its maximum?",
+      "expected_answer": "2 JOD monthly, with a maximum of 6 JOD, and it is prohibited to be collected from deceased customers' accounts.",
+      "source_chunks": [
+        "Dormant accounts: 2 JD monthly, maximum 6 JD (prohibited to be collected from deceased accounts)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P038_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q077",
+      "pair_id": "KBGEN-P039",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة تعديل شروط التمويل أو تأجيل قسط القرض لدى بنك الاتحاد؟",
+      "expected_answer": "5 دنانير لكل منهما.",
+      "source_chunks": [
+        "تعديل شروط التمويل للقروض: 5 دنانير. تأجيل قسط القرض: 5 دنانير."
+      ],
+      "chunk_ids": [
+        "KBGEN-P039_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q078",
+      "pair_id": "KBGEN-P039",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the fee for modifying loan financing terms or postponing a loan installment at Bank al Etihad?",
+      "expected_answer": "5 JOD for each.",
+      "source_chunks": [
+        "Modifying financing terms for loans: 5 JD. Postponing a loan installment: 5 JD."
+      ],
+      "chunk_ids": [
+        "KBGEN-P039_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q079",
+      "pair_id": "KBGEN-P040",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على القرض الشخصي العادي للرواتب الأقل من 1000 دينار؟",
+      "expected_answer": "8.45%.",
+      "source_chunks": [
+        "للرواتب الأقل من 1000: نسبة الفائدة 8.45%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P040_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q080",
+      "pair_id": "KBGEN-P040",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a regular personal loan for salaries less than 1,000 JOD?",
+      "expected_answer": "8.45%.",
+      "source_chunks": [
+        "For salaries less than 1000: Interest rate 8.45%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P040_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q081",
+      "pair_id": "KBGEN-P041",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على القرض الشخصي العادي للرواتب التي تزيد عن 2000 دينار؟",
+      "expected_answer": "7.75%.",
+      "source_chunks": [
+        "للرواتب التي تزيد عن 2000: نسبة الفائدة 7.75%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P041_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q082",
+      "pair_id": "KBGEN-P041",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a regular personal loan for salaries exceeding 2,000 JOD?",
+      "expected_answer": "7.75%.",
+      "source_chunks": [
+        "For salaries exceeding 2000: Interest rate 7.75%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P041_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q083",
+      "pair_id": "KBGEN-P042",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على القرض الشخصي العادي للأطباء وأصحاب العيادات؟",
+      "expected_answer": "8.15% مع عمولة منح 1%.",
+      "source_chunks": [
+        "الأطباء وأصحاب العيادات - قرض شخصي عادي: 8.15% مع عمولة منح 1%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P042_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q084",
+      "pair_id": "KBGEN-P042",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a regular personal loan for doctors and clinic owners?",
+      "expected_answer": "8.15% with a 1% granting commission.",
+      "source_chunks": [
+        "Doctors and Clinic Owners: Regular personal loan: 8.15% with a 1% granting commission."
+      ],
+      "chunk_ids": [
+        "KBGEN-P042_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q085",
+      "pair_id": "KBGEN-P043",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على القرض السكني لشراء شقة جاهزة بنسبة تمويل 100% للقطاع العام؟",
+      "expected_answer": "7.5%، وينخفض إلى ما لا يقل عن 7% في حال تحويل الراتب إلى البنك.",
+      "source_chunks": [
+        "شقة جاهزة - القطاع العام: تمويل 100%: 7.5% (في حال تحويل الراتب إلى البنك، ينخفض سعر الفائدة بمقدار 0.25%، على ألا يقل عن 7%)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P043_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q086",
+      "pair_id": "KBGEN-P043",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a housing loan for a ready apartment at 100% financing for the public sector?",
+      "expected_answer": "7.5%, reduced by up to but not below 7% in case of salary transfer to the bank.",
+      "source_chunks": [
+        "Ready apartment - Public Sector: 100% financing: 7.5% (In case of salary transfer to the bank, the interest rate is reduced by 0.25%, but it must not be less than 7%)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P043_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q087",
+      "pair_id": "KBGEN-P044",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على قرض السيارة بدون تحويل راتب؟",
+      "expected_answer": "9.61%.",
+      "source_chunks": [
+        "القروض بدون تحويل راتب: نسبة الفائدة 9.61%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P044_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q088",
+      "pair_id": "KBGEN-P044",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on an auto loan without salary transfer?",
+      "expected_answer": "9.61%.",
+      "source_chunks": [
+        "Loans without salary transfer: Interest rate 9.61%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P044_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q089",
+      "pair_id": "KBGEN-P045",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على القرض الشخصي مقابل بطاقة ائتمانية؟",
+      "expected_answer": "10% بشكل عام.",
+      "source_chunks": [
+        "قرض شخصي عبر بطاقة ائتمانية: بشكل عام 10%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P045_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q090",
+      "pair_id": "KBGEN-P045",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on the personal loan via credit card?",
+      "expected_answer": "10% in general.",
+      "source_chunks": [
+        "Personal loan via credit card: In general 10%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P045_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q091",
+      "pair_id": "KBGEN-P046",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على القرض الشخصي مقابل رهن عقاري؟",
+      "expected_answer": "8.75%.",
+      "source_chunks": [
+        "قرض شخصي مقابل رهن عقاري: نسبة الفائدة 8.75%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P046_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q092",
+      "pair_id": "KBGEN-P046",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a personal loan against real estate mortgage?",
+      "expected_answer": "8.75%.",
+      "source_chunks": [
+        "Personal loan against real estate mortgage: Interest rate 8.75%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P046_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q093",
+      "pair_id": "KBGEN-P047",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على شهادة الإيداع بالدينار الأردني لمبلغ من 3,000 إلى 10,000 دينار لمدة سنة؟",
+      "expected_answer": "4.750%.",
+      "source_chunks": [
+        "المبلغ من 3,000 إلى 10,000: 5.000% لثلاثة أشهر، و4.750% لستة أشهر، و4.750% لسنة."
+      ],
+      "chunk_ids": [
+        "KBGEN-P047_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q094",
+      "pair_id": "KBGEN-P047",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a JOD Certificate of Deposit for an amount from 3,000 to 10,000 JOD for one year?",
+      "expected_answer": "4.750%.",
+      "source_chunks": [
+        "The amount from 3,000 to 10,000: 5.000% for three months, and 4.750% for six months, and 4.750% for a year."
+      ],
+      "chunk_ids": [
+        "KBGEN-P047_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q095",
+      "pair_id": "KBGEN-P048",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على الوديعة لأجل بالدينار الأردني لمبلغ من 5,000 إلى 50,000 دينار لمدة شهر واحد؟",
+      "expected_answer": "3.000%.",
+      "source_chunks": [
+        "المبلغ من 5,000 إلى 50,000: 3.000% لشهر واحد، و3.125% لثلاثة أشهر، و3.375% لستة أشهر، و3.250% لسنة."
+      ],
+      "chunk_ids": [
+        "KBGEN-P048_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q096",
+      "pair_id": "KBGEN-P048",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a JOD Fixed Deposit for an amount from 5,000 to 50,000 JOD for one month?",
+      "expected_answer": "3.000%.",
+      "source_chunks": [
+        "The amount from 5,000 to 50,000: 3.000% for one month, and 3.125% for three months, and 3.375% for six months, and 3.250% for a year."
+      ],
+      "chunk_ids": [
+        "KBGEN-P048_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q097",
+      "pair_id": "KBGEN-P049",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة على قرض شراء الأراضي بغض النظر عن القطاع الوظيفي للعميل؟",
+      "expected_answer": "7.75%.",
+      "source_chunks": [
+        "شراء أراضٍ - القطاع العام، الأجهزة الأمنية والعسكرية، الوافدون، المستقلون والمهنيون، القطاع الخاص: 7.75%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P049_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q098",
+      "pair_id": "KBGEN-P049",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate on a land-purchase loan regardless of the customer's employment sector?",
+      "expected_answer": "7.75%.",
+      "source_chunks": [
+        "Buying lands - Public sector, Security and Military Apparatuses, Expats, Freelancers and Professionals, Private Sector: 7.75%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P049_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q099",
+      "pair_id": "KBGEN-P050",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو نطاق سعر الفائدة على قرض السيارة بتحويل راتب للعملاء الموظفين؟",
+      "expected_answer": "يتراوح بين 7.61% و9.36%.",
+      "source_chunks": [
+        "القروض بتحويل راتب - سعر الفائدة للعملاء الموظفين يتراوح بين 7.61% و9.36%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P050_chunk_011"
+      ]
+    },
+    {
+      "id": "KBGEN-Q100",
+      "pair_id": "KBGEN-P050",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the interest rate range for an auto loan with salary transfer for employed customers?",
+      "expected_answer": "It ranges between 7.61% and 9.36%.",
+      "source_chunks": [
+        "Loans with salary transfer - The interest rate for employed customers ranges between 7.61% and 9.36%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P050_chunk_011"
+      ]
+    },
+    {
+      "id": "KBGEN-Q101",
+      "pair_id": "KBGEN-P051",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي مدة صلاحية البطاقة البلاستيكية الصادرة عن بنك الاتحاد؟",
+      "expected_answer": "5 سنوات.",
+      "source_chunks": [
+        "صلاحية البطاقة البلاستيكية: 5 سنوات."
+      ],
+      "chunk_ids": [
+        "KBGEN-P051_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q102",
+      "pair_id": "KBGEN-P051",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the validity period of a plastic card issued by Bank al Etihad?",
+      "expected_answer": "5 years.",
+      "source_chunks": [
+        "Plastic Card Validity: 5 years."
+      ],
+      "chunk_ids": [
+        "KBGEN-P051_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q103",
+      "pair_id": "KBGEN-P052",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى لعدد البطاقات الفرعية التي يمكن إصدارها مقابل بطاقة فيزا رئيسية واحدة؟",
+      "expected_answer": "5 بطاقات فرعية.",
+      "source_chunks": [
+        "الحد الأعلى لإصدار البطاقات الفرعية/التابعة: 5 بطاقات فرعية مقابل كل بطاقة فيزا رئيسية."
+      ],
+      "chunk_ids": [
+        "KBGEN-P052_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q104",
+      "pair_id": "KBGEN-P052",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum number of supplementary cards that can be issued against one primary Visa card?",
+      "expected_answer": "5 supplementary cards.",
+      "source_chunks": [
+        "Maximum Limit for Issuing Supplementary/Sub-cards: 5 supplementary cards for each primary Visa card."
+      ],
+      "chunk_ids": [
+        "KBGEN-P052_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q105",
+      "pair_id": "KBGEN-P053",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "لمن تُمنح البطاقات الفرعية عن البطاقة الائتمانية الرئيسية لدى بنك الاتحاد؟",
+      "expected_answer": "تُمنح فقط للأقارب من الدرجة الأولى، بما في ذلك الإخوة (الأخ/الأخت)، ويتحمل صاحب البطاقة الرئيسية جميع الشروط والأحكام.",
+      "source_chunks": [
+        "تُمنح البطاقات الفرعية للأقارب من الدرجة الأولى فقط (بما يشمل الأشقاء: الأخ/الأخت)، ويتحمل صاحب البطاقة الرئيسية جميع الشروط والأحكام."
+      ],
+      "chunk_ids": [
+        "KBGEN-P053_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q106",
+      "pair_id": "KBGEN-P053",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Who can receive supplementary cards linked to the primary credit card at Bank al Etihad?",
+      "expected_answer": "They are granted only to first-degree relatives, including siblings (brother/sister), and the primary cardholder assumes all terms and conditions.",
+      "source_chunks": [
+        "Supplementary cards are granted to first-degree relatives only (including siblings: brother/sister), and the primary cardholder assumes all terms and conditions."
+      ],
+      "chunk_ids": [
+        "KBGEN-P053_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q107",
+      "pair_id": "KBGEN-P054",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو تاريخ إصدار كشف حساب البطاقة الائتمانية الشهري لدى بنك الاتحاد؟",
+      "expected_answer": "يوم 15 من كل شهر.",
+      "source_chunks": [
+        "تاريخ إصدار كشف البطاقة: 15 من كل شهر."
+      ],
+      "chunk_ids": [
+        "KBGEN-P054_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q108",
+      "pair_id": "KBGEN-P054",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the monthly credit card statement issuance date at Bank al Etihad?",
+      "expected_answer": "The 15th of every month.",
+      "source_chunks": [
+        "Statement Issuance Date: The 15th of every month."
+      ],
+      "chunk_ids": [
+        "KBGEN-P054_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q109",
+      "pair_id": "KBGEN-P055",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى لمبلغ المعاملة الواحدة باستخدام البطاقة اللاتلامسية؟",
+      "expected_answer": "100 دينار للحركة الواحدة، بسقف يومي 300 دينار.",
+      "source_chunks": [
+        "حد البطاقات اللاتلامسية: الحد الأعلى للبطاقات اللاتلامسية 100 دينار للحركة الواحدة بسقف 300 دينار باليوم."
+      ],
+      "chunk_ids": [
+        "KBGEN-P055_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q110",
+      "pair_id": "KBGEN-P055",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum amount for a single contactless card transaction?",
+      "expected_answer": "100 JOD per transaction, with a daily ceiling of 300 JOD.",
+      "source_chunks": [
+        "Contactless Card Limits: The maximum limit for contactless transactions is 100 JOD per transaction, with a daily ceiling of 300 JOD."
+      ],
+      "chunk_ids": [
+        "KBGEN-P055_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q111",
+      "pair_id": "KBGEN-P056",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة السحب النقدي من الصراف الآلي باستخدام البطاقة الائتمانية لدى بنك الاتحاد؟",
+      "expected_answer": "4% من مبلغ السحب، أو 10 دنانير كحد أدنى.",
+      "source_chunks": [
+        "عمولة السحب النقدي: تُضاف عمولة 4% على السحب النقدي، أو بحد أدنى 10 دنانير."
+      ],
+      "chunk_ids": [
+        "KBGEN-P056_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q112",
+      "pair_id": "KBGEN-P056",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the ATM cash withdrawal commission using a Bank al Etihad credit card?",
+      "expected_answer": "A 4% commission on the withdrawal amount, or a minimum of 10 JOD.",
+      "source_chunks": [
+        "Cash Withdrawal Commission: A 4% commission is added to the cash withdrawal, or a minimum of 10 JOD."
+      ],
+      "chunk_ids": [
+        "KBGEN-P056_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q113",
+      "pair_id": "KBGEN-P057",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة الشهري والسنوي على السحوبات النقدية من البطاقة الائتمانية؟",
+      "expected_answer": "1.5% شهرياً و18% سنوياً.",
+      "source_chunks": [
+        "سعر الفائدة على السحوبات النقدية: 1.5% شهرياً و18% سنوياً."
+      ],
+      "chunk_ids": [
+        "KBGEN-P057_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q114",
+      "pair_id": "KBGEN-P057",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the monthly and annual interest rate on credit card cash withdrawals?",
+      "expected_answer": "1.5% monthly and 18% annually.",
+      "source_chunks": [
+        "Interest Rate for Cash Withdrawals: 1.5% monthly and 18% annually."
+      ],
+      "chunk_ids": [
+        "KBGEN-P057_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q115",
+      "pair_id": "KBGEN-P058",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي نسبة التسديد الأدنى المطلوبة للبطاقة الائتمانية لدى بنك الاتحاد؟",
+      "expected_answer": "4% من المبلغ المستحق بحد أدنى 15 ديناراً، أو سداد كامل المبلغ (100%).",
+      "source_chunks": [
+        "نسبة التسديد للبطاقة الائتمانية: 4% بحد أدنى 15 دينار أو 100%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P058_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q116",
+      "pair_id": "KBGEN-P058",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the minimum required settlement percentage for a Bank al Etihad credit card?",
+      "expected_answer": "4% of the due amount with a minimum of 15 JOD, or full settlement (100%).",
+      "source_chunks": [
+        "Credit Card Settlement Percentage: The settlement percentage for credit cards is 4% (with a minimum of 15 JOD) or 100%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P058_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q117",
+      "pair_id": "KBGEN-P059",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو تاريخ التسديد التلقائي الشهري للبطاقة الائتمانية لدى بنك الاتحاد؟",
+      "expected_answer": "يوم 28 من كل شهر.",
+      "source_chunks": [
+        "التسديد التلقائي للبطاقة الائتمانية: 28 من كل شهر."
+      ],
+      "chunk_ids": [
+        "KBGEN-P059_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q118",
+      "pair_id": "KBGEN-P059",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the monthly automatic payment date for the credit card at Bank al Etihad?",
+      "expected_answer": "The 28th of every month.",
+      "source_chunks": [
+        "Automatic Payment Date for Credit Cards: The 28th of every month."
+      ],
+      "chunk_ids": [
+        "KBGEN-P059_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q119",
+      "pair_id": "KBGEN-P060",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى لنسبة التجاوز المسموح بها فوق سقف البطاقة الائتمانية؟",
+      "expected_answer": "10%.",
+      "source_chunks": [
+        "الحد الأقصى لنسبة التجاوز من سقف البطاقة: 10%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P060_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q120",
+      "pair_id": "KBGEN-P060",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum over-limit percentage allowed on the credit card ceiling?",
+      "expected_answer": "10%.",
+      "source_chunks": [
+        "Maximum Over-Limit Percentage: 10%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P060_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q121",
+      "pair_id": "KBGEN-P061",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى لعدد الأسماء المستعارة (CliQ) التي يمكن للعميل إنشاؤها؟",
+      "expected_answer": "5 أسماء مستعارة كحد أقصى لكل عميل.",
+      "source_chunks": [
+        "تحديد عدد الأسماء المستعارة بحيث لا تتجاوز خمسة أسماء مستعارة لكل عميل."
+      ],
+      "chunk_ids": [
+        "KBGEN-P061_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q122",
+      "pair_id": "KBGEN-P061",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum number of CliQ aliases a customer can create?",
+      "expected_answer": "A maximum of 5 aliases per customer.",
+      "source_chunks": [
+        "A maximum limit of 5 aliases per customer."
+      ],
+      "chunk_ids": [
+        "KBGEN-P061_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q123",
+      "pair_id": "KBGEN-P062",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يمكن إنشاء اسم مستعار (CliQ) على حساب مشترك؟",
+      "expected_answer": "لا، لا يمكن إنشاء اسم مستعار على الحسابات المشتركة.",
+      "source_chunks": [
+        "لا يمكن إنشاء اسم مستعار على الحسابات المشتركة."
+      ],
+      "chunk_ids": [
+        "KBGEN-P062_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q124",
+      "pair_id": "KBGEN-P062",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can a CliQ alias be created on a joint account?",
+      "expected_answer": "No, an alias cannot be created on joint accounts.",
+      "source_chunks": [
+        "An alias cannot be created on joint accounts."
+      ],
+      "chunk_ids": [
+        "KBGEN-P062_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q125",
+      "pair_id": "KBGEN-P063",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة الحوالة الصادرة دولياً بنفس اليوم لدى بنك الاتحاد؟",
+      "expected_answer": "0.001 من مبلغ الحوالة، بحد أدنى 10 دنانير وحد أقصى 70 ديناراً.",
+      "source_chunks": [
+        "عمولة الحوالة الصادرة دولياً بنفس اليوم: 0.001 من مبلغ الحوالة (بحد أدنى 10 دنانير وحد أقصى 70 دينار)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P063_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q126",
+      "pair_id": "KBGEN-P063",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the fee for a same-day international outward transfer at Bank al Etihad?",
+      "expected_answer": "0.001 of the transfer amount, with a minimum of 10 JOD and a maximum of 70 JOD.",
+      "source_chunks": [
+        "Same-day international outward transfer commission: 0.001 of the transfer amount (Minimum 10 JOD, Maximum 70 JOD)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P063_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q127",
+      "pair_id": "KBGEN-P064",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "من هو \"البنك المُحوِّل\" في عملية الحوالة الصادرة؟",
+      "expected_answer": "هو البنك الذي ينفذ تعليمات طالب الحوالة بدفع مبلغ محدد لأمر المستفيد.",
+      "source_chunks": [
+        "البنك المحوِّل (بنك الاتحاد): البنك الذي ينفذ تعليمات طالب الحوالة بدفع مبلغ محدد لأمر المستفيد."
+      ],
+      "chunk_ids": [
+        "KBGEN-P064_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q128",
+      "pair_id": "KBGEN-P064",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Who is the \"Transferring Bank\" in an outward transfer transaction?",
+      "expected_answer": "The bank that executes the requester's instructions to pay a specific amount to the order of the beneficiary.",
+      "source_chunks": [
+        "Transferring Bank (Bank al Etihad): The bank that executes the requester's instructions to pay a specific amount to the order of the beneficiary."
+      ],
+      "chunk_ids": [
+        "KBGEN-P064_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q129",
+      "pair_id": "KBGEN-P065",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي القنوات المقبولة لتقديم طلب إصدار حوالة صادرة لدى بنك الاتحاد؟",
+      "expected_answer": "الطلب الكتابي المباشر، أو عبر الفاكس (بشرط توقيع نموذج تفويض الفاكس مسبقاً)، أو عبر البريد الإلكتروني (بشرط توقيع نموذج تفويض البريد الإلكتروني مسبقاً)، أو عبر القنوات الرقمية (بنك الاتحاد أونلاين أو تطبيق الجوال).",
+      "source_chunks": [
+        "طلب إصدار الحوالة: الطلب الكتابي المقدم من طالب الحوالة، أو المُرسل عبر الفاكس (بشرط توقيع نموذج تفويض الفاكس مسبقاً)، أو المُستلم عبر البريد الإلكتروني (بشرط توقيع نموذج تفويض البريد الإلكتروني مسبقاً)، أو المُستلم عبر القنوات الرقمية (بنك الاتحاد أونلاين، بنك الاتحاد موبايل)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P065_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q130",
+      "pair_id": "KBGEN-P065",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What channels are accepted for submitting an outward transfer issuance request at Bank al Etihad?",
+      "expected_answer": "A direct written request, via fax (provided the customer has previously signed the fax mandate form), via email (provided the customer has previously signed the email mandate form), or through digital channels (Bank al Etihad Online, Bank al Etihad Mobile).",
+      "source_chunks": [
+        "Transfer Issuance Request: The written request submitted by the transfer requester, the request sent via fax (provided the customer has previously signed the fax mandate form), the request received via email (provided the customer has previously signed the email mandate form), or the request received through digital channels (Bank al Etihad Online, Bank al Etihad Mobile)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P065_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q131",
+      "pair_id": "KBGEN-P066",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى لرصيد الحساب البنكي الأساسي لدى بنك الاتحاد؟",
+      "expected_answer": "700 دينار.",
+      "source_chunks": [
+        "سقف الحساب 700 دينار."
+      ],
+      "chunk_ids": [
+        "KBGEN-P066_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q132",
+      "pair_id": "KBGEN-P066",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum balance cap for the Basic Bank Account at Bank al Etihad?",
+      "expected_answer": "700 JOD.",
+      "source_chunks": [
+        "The Account Cap is 700 JDs."
+      ],
+      "chunk_ids": [
+        "KBGEN-P066_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q133",
+      "pair_id": "KBGEN-P067",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يمكن إصدار بطاقة ائتمانية على الحساب البنكي الأساسي؟",
+      "expected_answer": "لا، لا يمكن إصدار بطاقات ائتمانية للحسابات البنكية الأساسية.",
+      "source_chunks": [
+        "يُمنع منح بطاقة إئتمانية (Credit Card) للحساب البنكي الأساسي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P067_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q134",
+      "pair_id": "KBGEN-P067",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can a credit card be issued for the Basic Bank Account?",
+      "expected_answer": "No, credit cards cannot be issued for Basic Accounts.",
+      "source_chunks": [
+        "Credit Cards cannot be issued for Basic Accounts."
+      ],
+      "chunk_ids": [
+        "KBGEN-P067_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q135",
+      "pair_id": "KBGEN-P068",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأدنى للرصيد المطلوب لحساب التوفير لدى بنك الاتحاد؟",
+      "expected_answer": "100 دينار.",
+      "source_chunks": [
+        "الحد الأدنى للرصيد: 100 دينار أردني."
+      ],
+      "chunk_ids": [
+        "KBGEN-P068_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q136",
+      "pair_id": "KBGEN-P068",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the minimum balance requirement for a Savings Account at Bank al Etihad?",
+      "expected_answer": "100 JOD.",
+      "source_chunks": [
+        "Minimum Balance Requirement: 100 JOD."
+      ],
+      "chunk_ids": [
+        "KBGEN-P068_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q137",
+      "pair_id": "KBGEN-P069",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "بعد كم من الوقت يتحول حساب التوفير إلى حساب خامل عند عدم وجود حركة عليه؟",
+      "expected_answer": "بعد مرور سنتين من غير أي معاملة على الحساب.",
+      "source_chunks": [
+        "يتحول الحساب إلى خامل: بعد مرور سنتين من دون أي معاملة على الحساب."
+      ],
+      "chunk_ids": [
+        "KBGEN-P069_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q138",
+      "pair_id": "KBGEN-P069",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "After how long does a Savings Account become dormant with no transactions?",
+      "expected_answer": "After two years without any transaction on the account.",
+      "source_chunks": [
+        "The account changes to dormant: after two years without any transaction on the account."
+      ],
+      "chunk_ids": [
+        "KBGEN-P069_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q139",
+      "pair_id": "KBGEN-P070",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يحصل صاحب الحساب الجاري على فوائد دائنة؟",
+      "expected_answer": "لا، بشكل عام لا يحصل صاحب الحساب الجاري على أي فائدة دائنة.",
+      "source_chunks": [
+        "الحساب الجاري بشكل عام لا يحصل العميل فيه على فائدة دائنة، ولا يُمنح أي فائدة على الحسابات الجارية."
+      ],
+      "chunk_ids": [
+        "KBGEN-P070_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q140",
+      "pair_id": "KBGEN-P070",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Does a Current Account holder receive credit interest?",
+      "expected_answer": "No, in general the customer does not receive credit interest on a current account.",
+      "source_chunks": [
+        "The Current Account: in general the customer does not receive credit interest on such an account. No interest is given on current accounts."
+      ],
+      "chunk_ids": [
+        "KBGEN-P070_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q141",
+      "pair_id": "KBGEN-P071",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "بعد كم من الوقت يتحول الحساب الجاري إلى حساب خامل عند عدم وجود حركة عليه؟",
+      "expected_answer": "بعد مرور 12 شهراً من غير أي معاملة على الحساب.",
+      "source_chunks": [
+        "يتحول الحساب إلى خامل: بعد مرور 12 شهراً من دون أي معاملة على الحساب."
+      ],
+      "chunk_ids": [
+        "KBGEN-P071_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q142",
+      "pair_id": "KBGEN-P071",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "After how long does a Current Account become dormant with no transactions?",
+      "expected_answer": "After 12 months without any transaction on the account.",
+      "source_chunks": [
+        "The account becomes dormant: after 12 months without any transaction on the account."
+      ],
+      "chunk_ids": [
+        "KBGEN-P071_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q143",
+      "pair_id": "KBGEN-P072",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى لعدد الأشخاص المشتركين في الحساب المشترك لدى بنك الاتحاد؟",
+      "expected_answer": "5 أشخاص.",
+      "source_chunks": [
+        "الحد الأقصى لعدد الأشخاص المشتركين بالحساب المشترك هو 5 أشخاص."
+      ],
+      "chunk_ids": [
+        "KBGEN-P072_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q144",
+      "pair_id": "KBGEN-P072",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum number of holders on a Joint Account at Bank al Etihad?",
+      "expected_answer": "5 people.",
+      "source_chunks": [
+        "The maximum number of joint account holders is five."
+      ],
+      "chunk_ids": [
+        "KBGEN-P072_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q145",
+      "pair_id": "KBGEN-P073",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يُشترط وجود صلة قرابة بين الشركاء لفتح حساب مشترك؟",
+      "expected_answer": "لا، لا يُشترط وجود صلة قرابة بين الشركاء في الحساب المشترك.",
+      "source_chunks": [
+        "هل يتم فتح حسابات مشتركة لعملاء دون قرابة؟ لا يتوجب وجود صلة قرابة."
+      ],
+      "chunk_ids": [
+        "KBGEN-P073_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q146",
+      "pair_id": "KBGEN-P073",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Is a family relationship required between partners to open a Joint Account?",
+      "expected_answer": "No, a family relationship is not required between partners in a joint account.",
+      "source_chunks": [
+        "Can joint accounts be opened for customers without a family relationship? No family relationship is required."
+      ],
+      "chunk_ids": [
+        "KBGEN-P073_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q147",
+      "pair_id": "KBGEN-P074",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "متى تنتهي الوصاية أو الولاية على حساب القاصر لدى بنك الاتحاد؟",
+      "expected_answer": "تنتهي عند بلوغ العميل سن الرشد، شريطة ألا يكون فاقداً للأهلية، أو بموجب قرار من المحكمة بإلغاء الوصاية وتعيين وصي آخر.",
+      "source_chunks": [
+        "تنتهي الوصاية/الولاية عند بلوغ العميل سن الرشد شريطة ألا يكون فاقداً للأهلية، أو بموجب قرار من المحكمة يفيد بإلغاء الوصاية وتعيين وصي آخر."
+      ],
+      "chunk_ids": [
+        "KBGEN-P074_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q148",
+      "pair_id": "KBGEN-P074",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "When does guardianship over a Minor Account at Bank al Etihad end?",
+      "expected_answer": "It ends when the customer reaches the age of majority, provided they are not incompetent, or according to a court's decision to terminate the guardianship and appoint another guardian.",
+      "source_chunks": [
+        "The guardianship shall be terminated when the customer reaches the age of majority, provided that he/she is not incompetent or according to a court's decision to terminate the guardianship and appoint another guardian."
+      ],
+      "chunk_ids": [
+        "KBGEN-P074_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q149",
+      "pair_id": "KBGEN-P075",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يتم قيد فوائد دائنة على حساب الراتب لدى بنك الاتحاد؟",
+      "expected_answer": "لا، لا يتم قيد أي فوائد دائنة على حساب الراتب.",
+      "source_chunks": [
+        "حساب الراتب: نوع من أنواع الحسابات الجارية يُفتح للعملاء في حال تحويل رواتبهم للبنك، ولا يتم قيد أية فوائد دائنة على هذا النوع من الحسابات."
+      ],
+      "chunk_ids": [
+        "KBGEN-P075_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q150",
+      "pair_id": "KBGEN-P075",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Are credit interests recorded on a Salary Account at Bank al Etihad?",
+      "expected_answer": "No, no credit interests are recorded on this type of account.",
+      "source_chunks": [
+        "Salary Account: a type of current account that is opened to customers in the event that their salaries are transferred to the bank, and no credit interests are recorded on this type of account."
+      ],
+      "chunk_ids": [
+        "KBGEN-P075_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q151",
+      "pair_id": "KBGEN-P076",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي ميزة الإعفاء من عمولة المنح ومصاريف الرهن لأصحاب حساب الراتب؟",
+      "expected_answer": "الإعفاء ينطبق على القروض السكنية التي تزيد قيمتها عن 40,000 دينار، إذا كان راتب العميل أكثر من 350 دينار.",
+      "source_chunks": [
+        "إعفاء من عمولة المنح ومصاريف الرهن للقروض السكنية أكثر من 40,000 دينار إذا كان راتبك أكثر من 350 دينار."
+      ],
+      "chunk_ids": [
+        "KBGEN-P076_chunk_011"
+      ]
+    },
+    {
+      "id": "KBGEN-Q152",
+      "pair_id": "KBGEN-P076",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the granting-commission and mortgage-expense exemption benefit for Salary Account holders?",
+      "expected_answer": "The exemption applies to housing loans exceeding 40,000 JOD, if the customer's net salary is more than 350 JOD.",
+      "source_chunks": [
+        "No grant commission and mortgage fees for housing loans more than 40,000 JOD if your net salary is more than 350 JOD."
+      ],
+      "chunk_ids": [
+        "KBGEN-P076_chunk_011"
+      ]
+    },
+    {
+      "id": "KBGEN-Q153",
+      "pair_id": "KBGEN-P077",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يمكن فتح حساب لمواطن سوري لدى بنك الاتحاد؟",
+      "expected_answer": "بشكل عام لا، إلا في حالتين: أن يكون الحساب المطلوب فتحه حساب راتب، أو أن يكون العميل شريكاً في شركة قائمة لديها حساب في البنك، مع موافقة دائرة مكافحة الجرائم المالية.",
+      "source_chunks": [
+        "لا يجوز فتح أي حساب للمواطنين السوريين، إلا في الحالتين التاليتين: 1) الحساب المطلوب فتحه هو حساب راتب. 2) العميل الراغب بفتح الحساب شريك في شركة قائمة لديها حساب لدى البنك، بشرط الحصول على موافقة دائرة مكافحة الجرائم المالية في الحالتين."
+      ],
+      "chunk_ids": [
+        "KBGEN-P077_chunk_012"
+      ]
+    },
+    {
+      "id": "KBGEN-Q154",
+      "pair_id": "KBGEN-P077",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can an account be opened for a Syrian national at Bank al Etihad?",
+      "expected_answer": "Generally no, except in two cases: the account to be opened is a salary account, or the customer is a partner in an existing company that has an account with the bank, subject to the approval of the Financial Crimes Control Department.",
+      "source_chunks": [
+        "It shall not be permissible to open any account for Syrian individuals, except in the following two cases: 1) The account to be opened is a salary account. 2) The customer who wishes to open the account is a partner in an existing company that owns an account with the bank, provided that the approval of the Financial Crimes Control Department, in both cases, is obtained before opening the account."
+      ],
+      "chunk_ids": [
+        "KBGEN-P077_chunk_012"
+      ]
+    },
+    {
+      "id": "KBGEN-Q155",
+      "pair_id": "KBGEN-P078",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم تبلغ عمولة إصدار تقرير كريف الائتماني للأفراد عن طريق التطبيق؟",
+      "expected_answer": "دينارين.",
+      "source_chunks": [
+        "عمولة إصدار تقرير كريف الائتماني للأفراد عن طريق التطبيق: 2 دينار."
+      ],
+      "chunk_ids": [
+        "KBGEN-P078_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q156",
+      "pair_id": "KBGEN-P078",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the fee for issuing a CRIF credit report for individuals via the app?",
+      "expected_answer": "2 JOD.",
+      "source_chunks": [
+        "Service fee is 2 JOD for retail customers through the mobile app."
+      ],
+      "chunk_ids": [
+        "KBGEN-P078_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q157",
+      "pair_id": "KBGEN-P079",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم يوماً يبقى تقرير كريف متاحاً للتنزيل بعد إصداره؟",
+      "expected_answer": "30 يوماً من تاريخ الطلب.",
+      "source_chunks": [
+        "تقرير كريف يبقى متاحاً للتنزيل لمدة 30 يوماً من تاريخ الطلب."
+      ],
+      "chunk_ids": [
+        "KBGEN-P079_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q158",
+      "pair_id": "KBGEN-P079",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "How many days does a CRIF report remain available for download after being issued?",
+      "expected_answer": "30 days from the request date.",
+      "source_chunks": [
+        "CRIF report is available for download for 30 days from the request date."
+      ],
+      "chunk_ids": [
+        "KBGEN-P079_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q159",
+      "pair_id": "KBGEN-P080",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "من أين يمكن للعميل معرفة رقم الآيبان (IBAN) الخاص بحسابه عبر التطبيق؟",
+      "expected_answer": "من قائمة \"إدارة الحسابات\"، بالضغط على النقاط الثلاث بجانب الحساب ثم \"معلومات الحساب\".",
+      "source_chunks": [
+        "من خلال خيار القائمة: أسفل الشاشة، اختر \"إدارة الحسابات\". ثم اضغط على النقاط الثلاث بجانب الحساب ← \"معلومات الحساب\". سيظهر رقم الآيبان الخاص بك."
+      ],
+      "chunk_ids": [
+        "KBGEN-P080_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q160",
+      "pair_id": "KBGEN-P080",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Where can a customer find their IBAN number through the app?",
+      "expected_answer": "From the \"Manage Accounts\" menu, by tapping the three dots next to the account, then \"Account Information.\"",
+      "source_chunks": [
+        "Through the menu option: at the bottom of the screen, select \"Manage Accounts.\" Then, click the three dots next to the account → \"Account Information.\" Your IBAN number will then be displayed."
+      ],
+      "chunk_ids": [
+        "KBGEN-P080_chunk_003"
+      ]
+    },
+    {
+      "id": "KBGEN-Q161",
+      "pair_id": "KBGEN-P081",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأقصى لخدمة سلفة الراتب التي يقدمها بنك الاتحاد؟",
+      "expected_answer": "تصل السلفة إلى 90% من راتب العميل، بسقف أقصى 1,000 دينار حسب الراتب المحوّل.",
+      "source_chunks": [
+        "خدمة سلفة الراتب تصل إلى 90% من الراتب، بسقف سلفة يصل إلى 1,000 دينار، حسب الراتب المحوّل."
+      ],
+      "chunk_ids": [
+        "KBGEN-P081_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q162",
+      "pair_id": "KBGEN-P081",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the maximum for Bank al Etihad's Salary in Advance service?",
+      "expected_answer": "The advance reaches up to 90% of the customer's salary, with a cap of up to 1,000 JOD depending on the transferred salary.",
+      "source_chunks": [
+        "Salary advance service of up to 90% of the salary. An advance cap of up to 1,000 JDs, depending on the transferred salary."
+      ],
+      "chunk_ids": [
+        "KBGEN-P081_chunk_004"
+      ]
+    },
+    {
+      "id": "KBGEN-Q163",
+      "pair_id": "KBGEN-P082",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل تُفرض رسوم سنوية على خدمة سلفة الراتب؟",
+      "expected_answer": "لا يوجد رسوم سنوية، لكن تُطبّق فائدة على مبلغ السلفة.",
+      "source_chunks": [
+        "لا رسوم سنوية على خدمة سلفة الراتب، لكن يتم تطبيق فائدة على مبلغ السلفة."
+      ],
+      "chunk_ids": [
+        "KBGEN-P082_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q164",
+      "pair_id": "KBGEN-P082",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Is there an annual fee for the Salary in Advance service?",
+      "expected_answer": "No annual fee, however interest applies to the salary advance amount.",
+      "source_chunks": [
+        "No annual fee, however interest applies to the salary advance amount."
+      ],
+      "chunk_ids": [
+        "KBGEN-P082_chunk_005"
+      ]
+    },
+    {
+      "id": "KBGEN-Q165",
+      "pair_id": "KBGEN-P083",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي مدة التقسيط المتاحة ضمن خدمة \"ادفع لاحقاً\" (Pay Later) في تطبيق بنك الاتحاد؟",
+      "expected_answer": "من 3 أشهر كحد أدنى إلى 12 شهراً كحد أقصى.",
+      "source_chunks": [
+        "مدة السداد الشهري: 3 أشهر كحد أدنى وحتى 12 شهراً كحد أقصى."
+      ],
+      "chunk_ids": [
+        "KBGEN-P083_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q166",
+      "pair_id": "KBGEN-P083",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the installment period available under the \"Pay Later\" feature in the Bank al Etihad app?",
+      "expected_answer": "A minimum of 3 months and up to a maximum of 12 months.",
+      "source_chunks": [
+        "Monthly repayment period of a minimum of 3 months and up to 12 months."
+      ],
+      "chunk_ids": [
+        "KBGEN-P083_chunk_006"
+      ]
+    },
+    {
+      "id": "KBGEN-Q167",
+      "pair_id": "KBGEN-P084",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأدنى لقيمة المعاملة المؤهلة لخدمة \"ادفع لاحقاً\"؟",
+      "expected_answer": "30 ديناراً.",
+      "source_chunks": [
+        "الحد الأدنى للمعاملة هو 30 دينار."
+      ],
+      "chunk_ids": [
+        "KBGEN-P084_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q168",
+      "pair_id": "KBGEN-P084",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the minimum transaction value eligible for the \"Pay Later\" feature?",
+      "expected_answer": "30 JOD.",
+      "source_chunks": [
+        "Minimum transaction is 30 JDs."
+      ],
+      "chunk_ids": [
+        "KBGEN-P084_chunk_007"
+      ]
+    },
+    {
+      "id": "KBGEN-Q169",
+      "pair_id": "KBGEN-P085",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو سعر الفائدة الشهري على خدمة \"ادفع لاحقاً\" في تطبيق بنك الاتحاد؟",
+      "expected_answer": "1%.",
+      "source_chunks": [
+        "سعر الفائدة 1%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P085_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q170",
+      "pair_id": "KBGEN-P085",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the monthly interest rate on the \"Pay Later\" feature in the Bank al Etihad app?",
+      "expected_answer": "1%.",
+      "source_chunks": [
+        "Interest rate 1%."
+      ],
+      "chunk_ids": [
+        "KBGEN-P085_chunk_008"
+      ]
+    },
+    {
+      "id": "KBGEN-Q171",
+      "pair_id": "KBGEN-P086",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "أي بطاقات مؤهلة للاستفادة من خدمة \"ادفع لاحقاً\"؟",
+      "expected_answer": "البطاقات الائتمانية الصادرة بعملة الدينار الأردني فقط.",
+      "source_chunks": [
+        "البطاقات المشمولة بالبرنامج هي البطاقات الائتمانية الصادرة بعملة الدينار الأردني."
+      ],
+      "chunk_ids": [
+        "KBGEN-P086_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q172",
+      "pair_id": "KBGEN-P086",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Which cards are eligible for the \"Pay Later\" feature?",
+      "expected_answer": "Credit cards issued in the Jordanian Dinar currency only.",
+      "source_chunks": [
+        "The cards included in the program are credit cards issued in the Jordanian dinar currency."
+      ],
+      "chunk_ids": [
+        "KBGEN-P086_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q173",
+      "pair_id": "KBGEN-P087",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي أمثلة على القسائم الإلكترونية (E-vouchers) المتاحة للشراء عبر تطبيق بنك الاتحاد؟",
+      "expected_answer": "من أمثلتها: آيتيونز، جوجل بلاي، سوني بلايستيشن، إكس بوكس لايف، ستيم، وببجي.",
+      "source_chunks": [
+        "مجموعة واسعة من القسائم الإلكترونية، مثل: آيتيونز، جوجل بلاي، سوني بلايستيشن، إكس بوكس لايف، ستيم، وببجي."
+      ],
+      "chunk_ids": [
+        "KBGEN-P087_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q174",
+      "pair_id": "KBGEN-P087",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What are examples of e-vouchers available for purchase through the Bank al Etihad app?",
+      "expected_answer": "Examples include: iTunes, Google Play, Sony PlayStation, Xbox Live, Steam, and PUBG.",
+      "source_chunks": [
+        "From a wide range of e-vouchers, such as: iTunes, Google Play, Sony PlayStation, Xbox Live, Steam and PUBG."
+      ],
+      "chunk_ids": [
+        "KBGEN-P087_chunk_010"
+      ]
+    },
+    {
+      "id": "KBGEN-Q175",
+      "pair_id": "KBGEN-P088",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو عدد المتاجر الدولية المتاحة لشراء القسائم الإلكترونية عبر تطبيق بنك الاتحاد؟",
+      "expected_answer": "6 متاجر دولية: الولايات المتحدة، بريطانيا، الإمارات، السعودية، المتجر العالمي، ومتجر أوروبا.",
+      "source_chunks": [
+        "عدد المتاجر الدولية: (الولايات المتحدة، بريطانيا، الإمارات، السعودية، المتجر العالمي، ومتجر أوروبا)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P088_chunk_011"
+      ]
+    },
+    {
+      "id": "KBGEN-Q176",
+      "pair_id": "KBGEN-P088",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "How many international stores are available for purchasing e-vouchers through the Bank al Etihad app?",
+      "expected_answer": "6 international stores: USA, UK, UAE, Saudi Arabia, Global Store, and Europe store.",
+      "source_chunks": [
+        "Number of international stores: (USA, UK, UAE, Saudi Arabia, Global Store & Europe store)."
+      ],
+      "chunk_ids": [
+        "KBGEN-P088_chunk_011"
+      ]
+    },
+    {
+      "id": "KBGEN-Q177",
+      "pair_id": "KBGEN-P089",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي خدمة أوامر الدفع الثابت (Standing Order) في تطبيق بنك الاتحاد؟",
+      "expected_answer": "خدمة تتعلق بإصدار تحويلات مستقبلية لمرة واحدة أو سلسلة تحويلات في مواعيد محددة أو دورية وبمبالغ محددة، بين حسابات العميل أو لحساب عميل آخر داخل البنوك، بالدينار الأردني أو بالعملات الأجنبية.",
+      "source_chunks": [
+        "أوامر الدفع الثابت متعلقة بإصدار تحويلات مستقبلية لمرة واحدة أو سلسلة من التحويلات في مواعيد محددة بأجل معين أو على فترات دورية وبمبالغ محددة ما بين حسابات العميل أو لحساب عميل آخر داخل البنوك بعملة الدينار الأردني والعملات الأجنبية."
+      ],
+      "chunk_ids": [
+        "KBGEN-P089_chunk_012"
+      ]
+    },
+    {
+      "id": "KBGEN-Q178",
+      "pair_id": "KBGEN-P089",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the Standing Order service in the Bank al Etihad app?",
+      "expected_answer": "A service related to issuing future transfers for one time or a series of transfers on specific dates or periodic intervals and in specified amounts, between the customer's accounts or to another customer's account within banks, in Jordanian Dinar or foreign currencies.",
+      "source_chunks": [
+        "Payment Standing orders is related to the issuance of future transfers for one time or a series of transfers on specific dates with a specific period or at periodic intervals and in specified amounts between the client's accounts or to another client's account within banks in Jordanian Dinar / foreign currencies."
+      ],
+      "chunk_ids": [
+        "KBGEN-P089_chunk_012"
+      ]
+    },
+    {
+      "id": "KBGEN-Q179",
+      "pair_id": "KBGEN-P090",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يوجد حد أقصى لعدد أوامر الدفع الثابت التي يمكن للعميل إنشاؤها؟",
+      "expected_answer": "لا، يمكن للعميل إنشاء عدد غير محدود من أوامر الدفع الثابت.",
+      "source_chunks": [
+        "إمكانية إنشاء عدد غير محدود من أوامر الدفع الثابت."
+      ],
+      "chunk_ids": [
+        "KBGEN-P090_chunk_013"
+      ]
+    },
+    {
+      "id": "KBGEN-Q180",
+      "pair_id": "KBGEN-P090",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Is there a maximum number of Standing Orders a customer can create?",
+      "expected_answer": "No, the customer can create an unlimited number of Standing Orders.",
+      "source_chunks": [
+        "Unlimited number of Payment orders."
+      ],
+      "chunk_ids": [
+        "KBGEN-P090_chunk_013"
+      ]
+    },
+    {
+      "id": "KBGEN-Q181",
+      "pair_id": "KBGEN-P091",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد العمري لأصحاب الرواتب للحصول على قرض سيارة بدون تحويل راتب؟",
+      "expected_answer": "يتراوح العمر عند المنح بين 22 و65 سنة، ولا يتجاوز عمر العميل عند سداد آخر قسط 75 سنة.",
+      "source_chunks": [
+        "لفئة 1: قروض السيارات بدون تحويل راتب لجميع نسب التمويل. العمر عند المنح لأصحاب الرواتب: من 22 إلى 65 سنة، العمر عند سداد آخر قسط: ألا يتجاوز 75 سنة."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P001_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q182",
+      "pair_id": "KBGEN-P091",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the age eligibility for salaried employees to obtain an auto loan without salary transfer?",
+      "expected_answer": "Age at granting ranges from 22 to 65 years, and the customer's age must not exceed 75 years at the maturity of the last installment.",
+      "source_chunks": [
+        "Category 1: Auto Loans without Salary Transfer for all financing ratios. Age at Granting - Salaried Employees: From 22 to 65 years. Age at the maturity of the last installment: not to exceed 75 years."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P001_chunk_001_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q183",
+      "pair_id": "KBGEN-P092",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأدنى لصافي الراتب الذي يشترطه بنك الاتحاد لعميل يعمل موظفاً في بنك آخر، للحصول على قرض سيارة بتحويل راتب؟",
+      "expected_answer": "الحد الأدنى لصافي الراتب هو 1,000 دينار.",
+      "source_chunks": [
+        "الراتب الصافي (مع تحويل راتب): ... موظفين البنوك الأخرى (1000) دينار."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P013_chunk_023"
+      ]
+    },
+    {
+      "id": "KBGEN-Q184",
+      "pair_id": "KBGEN-P092",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What minimum net salary does Bank al Etihad require from a customer employed at another bank, to obtain an auto loan with salary transfer?",
+      "expected_answer": "The minimum net salary is 1,000 JOD.",
+      "source_chunks": [
+        "Net Salary (with salary transfer): ... Other banks' employees: 1,000 JOD."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P013_chunk_023_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q185",
+      "pair_id": "KBGEN-P093",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد العمري المطلوب للمهنيين وأصحاب الأعمال الحرة للحصول على قرض سكني مع تحويل راتب؟",
+      "expected_answer": "يتراوح العمر المطلوب عند المنح للمهنيين وأصحاب الأعمال الحرة بين 26 و65 سنة، ولا يتجاوز عمر العميل عند تسديد آخر قسط 75 سنة.",
+      "source_chunks": [
+        "لفئة 1: القرض السكني/عقاري مع تحويل راتب بشكل عام. العمر المطلوب: (22 الى 65) سنة عند المنح ولكن في حال المهنيين وأصحاب الأعمال الحرة (26 – 65)، و(75) سنة عند تسديد آخر قسط."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P026_chunk_001"
+      ]
+    },
+    {
+      "id": "KBGEN-Q186",
+      "pair_id": "KBGEN-P093",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the required age for professionals and self-employed individuals to obtain a housing loan with salary transfer?",
+      "expected_answer": "The required age at granting for professionals and self-employed individuals is between 26 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+      "source_chunks": [
+        "Category 1: Housing/Mortgage Loan with salary transfer in general. Required Age: (22 to 65) years at the time of granting, but for professionals and self-employed (26 – 65) years, and (75) years at the settlement of the last installment."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P026_chunk_001_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q187",
+      "pair_id": "KBGEN-P094",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "هل يمكن لموظفي البلديات أو عمال المياومة الحصول على قرض سكني؟",
+      "expected_answer": "لا، لا يمكن تمويل موظفي البلديات أو عمال المياومة.",
+      "source_chunks": [
+        "تمويل حسب الوظائف - القطاع العام: ... لا يمكن تمويل موظفي البلديات، عمال المياومة."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P038_chunk_030"
+      ]
+    },
+    {
+      "id": "KBGEN-Q188",
+      "pair_id": "KBGEN-P094",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "Can municipality employees or day laborers obtain a housing loan?",
+      "expected_answer": "No, municipality employees and day laborers cannot be financed.",
+      "source_chunks": [
+        "Financing according to jobs - Public Sector: ... Municipality employees and day laborers cannot be financed."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P038_chunk_030_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q189",
+      "pair_id": "KBGEN-P095",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "متى تتم الموافقة التلقائية على التأمين على حياة المدين للقرض الشخصي؟",
+      "expected_answer": "تتم الموافقة التلقائية ضمن بوليصة التأمين الجماعية للعملاء الذين تبلغ أعمارهم 65 سنة فأقل، وبشرط أن يكون مبلغ القرض أقل من 100,000 دينار.",
+      "source_chunks": [
+        "رسوم التأمين - تأمين على حياة المدين: الموافقة التلقائية ضمن بوليصة التأمين الجماعية: العملاء اللذين أعمارهم 65 سنة فأقل. مبلغ القرض أقل من 100,000 دينار."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P057_chunk_023"
+      ]
+    },
+    {
+      "id": "KBGEN-Q190",
+      "pair_id": "KBGEN-P095",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "When is automatic life insurance approval for the debtor granted on the personal loan?",
+      "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 years and below, provided the loan amount is less than 100,000 JOD.",
+      "source_chunks": [
+        "Insurance fees - Life insurance for the debtor: Automatic approval within the group insurance policy. Customers aged 65 years and below. Loan amount is less than 100,000 JOD."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P057_chunk_023_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q191",
+      "pair_id": "KBGEN-P096",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هو الحد الأدنى لعمر متقاعدي الضمان الاجتماعي المبكر الذكور للتأهل للقرض الشخصي (القطاع الأمني والعسكري)؟",
+      "expected_answer": "يجب ألا يقل عمر العميل الذكر المتقاعد مبكراً عن الضمان الاجتماعي عن 50 سنة.",
+      "source_chunks": [
+        "متقاعدين الضمان الاجتماعي المبكر، العميل الذكر: يجب أن لا يقل العمر عن 50 سنة."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P065_chunk_040"
+      ]
+    },
+    {
+      "id": "KBGEN-Q192",
+      "pair_id": "KBGEN-P096",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the minimum age for male early Social Security retirees to qualify for the Personal Loan (Security & Military sector)?",
+      "expected_answer": "The male customer's age must not be less than 50 years for early Social Security retirement.",
+      "source_chunks": [
+        "Early Social Security retirees (Male): Age must not be less than 50 years."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P065_chunk_040_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q193",
+      "pair_id": "KBGEN-P097",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ماذا يحدث إذا تأخر عميل قرض المكافآت الشخصي في سداد أكثر من قسط خلال مدة القرض؟",
+      "expected_answer": "إذا تأخر لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، يُستبعد نهائياً من البرنامج ويتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض.",
+      "source_chunks": [
+        "ماذا لو تأخرت في سداد أكثر من قسط خلال مدة القرض؟ إذا تأخرت في سداد قسط لمدة 30 يوماً أو أكثر مرتين خلال مدة القرض، سيتم استبعادك نهائياً من البرنامج وستتوقف عن الحصول على أي استرداد نقدي أو تخفيضات أخرى في سعر الفائدة حتى نهاية عمر القرض."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P075_chunk_080"
+      ]
+    },
+    {
+      "id": "KBGEN-Q194",
+      "pair_id": "KBGEN-P097",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What happens if a Personal Rewards Loan customer is late on more than one installment during the loan period?",
+      "expected_answer": "If late by 30 days or more twice during the loan period, the customer is permanently disqualified from the program and stops receiving any cashback or further interest rate reductions until the end of the loan's life.",
+      "source_chunks": [
+        "What if I am late on more than one installment during the loan period? If you are late paying an installment by 30 days or more twice during the loan period, you will be permanently disqualified from the program and will stop receiving any cashback or further interest rate reductions until the end of the loan's life."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P075_chunk_080_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q195",
+      "pair_id": "KBGEN-P098",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي نسبة عبء الدين للقرض الفوري مقابل بطاقة ائتمانية؟",
+      "expected_answer": "50%.",
+      "source_chunks": [
+        "عبء الدين: 50%."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P083_chunk_011"
+      ]
+    },
+    {
+      "id": "KBGEN-Q196",
+      "pair_id": "KBGEN-P098",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What is the debt burden for the Instant Loan Against a Credit Card?",
+      "expected_answer": "50%.",
+      "source_chunks": [
+        "Debt burden: 50%."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P083_chunk_011_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q197",
+      "pair_id": "KBGEN-P099",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "كم عدد المرات التي يمكن فيها الحصول على قرض فوري؟",
+      "expected_answer": "مرة واحدة فقط.",
+      "source_chunks": [
+        "كم هي عدد المرات التي يمكن بها الحصول على قرض فوري؟ مرة واحدة."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P092_chunk_009"
+      ]
+    },
+    {
+      "id": "KBGEN-Q198",
+      "pair_id": "KBGEN-P099",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "How many times can an instant loan be obtained?",
+      "expected_answer": "Only once.",
+      "source_chunks": [
+        "How many times can an instant loan be obtained? Once."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P092_chunk_009_en"
+      ]
+    },
+    {
+      "id": "KBGEN-Q199",
+      "pair_id": "KBGEN-P100",
+      "language": "ar",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "ما هي أنواع القروض الشخصية المتوفرة؟",
+      "expected_answer": "تشمل القروض الشخصية: القرض الشخصي، والقرض الشخصي لأصحاب الرواتب الأقل من 450 دينار، والقرض الفوري مقابل بطاقة ائتمانية، وقرض المكافآت الشخصي، والقرض الشخصي مقابل تأمينات، والقرض الشخصي مقابل رهن عقاري.",
+      "source_chunks": [
+        "ما هي أنواع القروض الشخصية؟ قرض شخصي. قرض شخصي لرواتب الأقل من 450 دينار. القرض الفوري مقابل بطاقة ائتمانية. قرض المكافآت الشخصي. قرض شخصي مقابل تأمينات. قرض شخصي مقابل رهن عقاري."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P097_chunk_002"
+      ]
+    },
+    {
+      "id": "KBGEN-Q200",
+      "pair_id": "KBGEN-P100",
+      "language": "en",
+      "topic": "KB General QA",
+      "sub_topic": "General",
+      "question": "What types of personal loans are available?",
+      "expected_answer": "Personal loans include: the personal loan, the personal loan for salaries less than 450 JOD, the instant loan against a credit card, the personal rewards loan, the personal loan against cash collaterals, and the personal loan against a real estate mortgage.",
+      "source_chunks": [
+        "What are the types of personal loans? Personal loan. Personal loan for salaries less than 450 JOD. Instant loan against a credit card. Personal rewards loan. Personal loan against cash collaterals. Personal loan against a real estate mortgage."
+      ],
+      "chunk_ids": [
+        "LOANSQA-P097_chunk_002_en"
+      ]
+    }
+  ]
+}

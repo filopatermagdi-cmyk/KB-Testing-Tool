@@ -1,0 +1,228 @@
+[
+  {
+    "session_id": "ENconsistency-en-001",
+    "subtopic": "Loan/ENconsistency",
+    "language": "en",
+    "turns": 15,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CONSIST-EN-Q009",
+        "question": "Which entities are classified as \"approved companies\" for the purposes of the auto loan with salary transfer?",
+        "expected_answer": "It includes all jobs at approved companies and UN-affiliated organizations.",
+        "audio_file": "wav/CONSIST-EN-Q009.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CONSIST-EN-Q017",
+        "question": "What is the general range of the financing ratio for a housing loan with salary transfer?",
+        "expected_answer": "The financing ratio generally ranges from 30% to 100%.",
+        "audio_file": "wav/CONSIST-EN-Q017.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CONSIST-EN-Q029",
+        "question": "What should a customer do if they want to obtain a higher amount than the Instant Loan offered to them?",
+        "expected_answer": "The customer must visit the branch and submit an application according to the credit policy.",
+        "audio_file": "wav/CONSIST-EN-Q029.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CONSIST-EN-Q018",
+        "question": "What is the accepted deduction value for Security and Military sector customers on the personal loan?",
+        "expected_answer": "The installment value plus 50 JOD, and for Intelligence, the installment plus 20 JOD.",
+        "audio_file": "wav/CONSIST-EN-Q018.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CONSIST-EN-Q013",
+        "question": "What happens to the Instant Loan option after the customer takes it?",
+        "expected_answer": "The Instant Loan option disappears for the customer after taking it, and they cannot take another instant loan.",
+        "audio_file": "wav/CONSIST-EN-Q013.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CONSIST-EN-Q006",
+        "question": "What types of real estate/housing loans are available?",
+        "expected_answer": "Real estate/housing loans include: housing/real estate loans with salary transfer, housing/real estate loans without salary transfer, and declining loans against a real estate mortgage.",
+        "audio_file": "wav/CONSIST-EN-Q006.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CONSIST-EN-Q010",
+        "question": "What is the minimum net income for freelancers without commercial registers to obtain a personal loan?",
+        "expected_answer": "1,000 JOD.",
+        "audio_file": "wav/CONSIST-EN-Q010.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CONSIST-EN-Q027",
+        "question": "What happens if a Personal Rewards Loan customer is late on more than one installment during the loan period?",
+        "expected_answer": "If late by 30 days or more twice during the loan period, the customer is permanently disqualified from the program and stops receiving any cashback or further interest rate reductions until the end of the loan's life.",
+        "audio_file": "wav/CONSIST-EN-Q027.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CONSIST-EN-Q003",
+        "question": "What is the interest rate on the Instant Loan Against a Credit Card?",
+        "expected_answer": "10%.",
+        "audio_file": "wav/CONSIST-EN-Q003.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CONSIST-EN-Q002",
+        "question": "What are the terms of the Personal Rewards Loan for employed customers with salary transfer?",
+        "expected_answer": "The minimum loan amount is 2,000 JOD, the maximum is 110,000 JOD, the Debt Burden Ratio is 50% or 55% depending on the employment category, and the minimum service period depends on the employment category.",
+        "audio_file": "wav/CONSIST-EN-Q002.wav"
+      },
+      {
+        "turn": 11,
+        "question_id": "CONSIST-EN-Q025",
+        "question": "Who is included under the \"Professionals, Dentists\" classification among personal loan categories?",
+        "expected_answer": "Doctors, engineers, pharmacists, accountants, legal auditors, consultants, and financial degree holders who have their own businesses, self-employed individuals, and doctors owning clinics.",
+        "audio_file": "wav/CONSIST-EN-Q025.wav"
+      },
+      {
+        "turn": 12,
+        "question_id": "CONSIST-EN-Q004",
+        "question": "How is the debtor's life insurance fee calculated for an auto loan with salary transfer, based on the loan amount?",
+        "expected_answer": "75 JOD for loans under 20,000 JOD, 150 JOD for loans from 20,000 to 50,000 JOD, and 250 JOD for loans over 50,000 JOD.",
+        "audio_file": "wav/CONSIST-EN-Q004.wav"
+      },
+      {
+        "turn": 13,
+        "question_id": "CONSIST-EN-Q019",
+        "question": "What are the requirements for the declining loan against a property mortgage?",
+        "expected_answer": "A property appraisal is required, according to the bank's approved property appraisal policy.",
+        "audio_file": "wav/CONSIST-EN-Q019.wav"
+      },
+      {
+        "turn": 14,
+        "question_id": "CONSIST-EN-Q014",
+        "question": "What is the minimum amount for the Instant Loan Against a Credit Card?",
+        "expected_answer": "1,000 JOD.",
+        "audio_file": "wav/CONSIST-EN-Q014.wav"
+      },
+      {
+        "turn": 15,
+        "question_id": "CONSIST-EN-Q021",
+        "question": "Can the customer choose the repayment day for the Instant Loan?",
+        "expected_answer": "Yes, the customer can choose the day they want to pay, for example every 14th of the month.",
+        "audio_file": "wav/CONSIST-EN-Q021.wav"
+      }
+    ]
+  },
+  {
+    "session_id": "ENconsistency-en-002",
+    "subtopic": "Loan/ENconsistency",
+    "language": "en",
+    "turns": 15,
+    "messages": [
+      {
+        "turn": 1,
+        "question_id": "CONSIST-EN-Q026",
+        "question": "When is automatic life insurance approval for the debtor granted on the personal loan?",
+        "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 years and below, provided the loan amount is less than 100,000 JOD.",
+        "audio_file": "wav/CONSIST-EN-Q026.wav"
+      },
+      {
+        "turn": 2,
+        "question_id": "CONSIST-EN-Q020",
+        "question": "When is automatic life insurance approval granted for an auto loan without salary transfer?",
+        "expected_answer": "Automatic approval under the group insurance policy applies to customers aged 65 or younger, provided the loan amount is 100,000 JOD or less.",
+        "audio_file": "wav/CONSIST-EN-Q020.wav"
+      },
+      {
+        "turn": 3,
+        "question_id": "CONSIST-EN-Q012",
+        "question": "What documents does Bank al Etihad request from the customer when buying out an existing mortgage obligation held at another bank?",
+        "expected_answer": "A recent obligations certificate not exceeding 30 days, an account statement from the other bank for a maximum of 6 months, a conditional salary transfer commitment until receiving the clearance, and a clearance certificate from the other bank after payment along with a formal salary transfer commitment. A 10% cash-out feature of the loan value is also provided to the customer.",
+        "audio_file": "wav/CONSIST-EN-Q012.wav"
+      },
+      {
+        "turn": 4,
+        "question_id": "CONSIST-EN-Q023",
+        "question": "How many times can an instant loan be obtained?",
+        "expected_answer": "Only once.",
+        "audio_file": "wav/CONSIST-EN-Q023.wav"
+      },
+      {
+        "turn": 5,
+        "question_id": "CONSIST-EN-Q008",
+        "question": "What financing ratios are available under the Abu Khader Automotive Group auto loans campaign?",
+        "expected_answer": "The financing ratio is up to 100% with salary transfer, and up to 80% without salary transfer.",
+        "audio_file": "wav/CONSIST-EN-Q008.wav"
+      },
+      {
+        "turn": 6,
+        "question_id": "CONSIST-EN-Q016",
+        "question": "Can lawyers obtain a housing loan?",
+        "expected_answer": "No, lawyers cannot be financed.",
+        "audio_file": "wav/CONSIST-EN-Q016.wav"
+      },
+      {
+        "turn": 7,
+        "question_id": "CONSIST-EN-Q001",
+        "question": "What is the minimum length of service to obtain a personal loan for the Security and Military sector?",
+        "expected_answer": "The minimum is 36 months; for Lieutenant and above it is 24 months; and for university degree holders only in the Gendarmerie, Army, and Public Security, it is 6 months.",
+        "audio_file": "wav/CONSIST-EN-Q001.wav"
+      },
+      {
+        "turn": 8,
+        "question_id": "CONSIST-EN-Q022",
+        "question": "What is the minimum and maximum length of service in security and military apparatuses to obtain a housing loan?",
+        "expected_answer": "The minimum is 3 years (2 years for Lieutenant and above), and the maximum service limit is 25 years (no upper limit for Major and above).",
+        "audio_file": "wav/CONSIST-EN-Q022.wav"
+      },
+      {
+        "turn": 9,
+        "question_id": "CONSIST-EN-Q015",
+        "question": "What is the allowed Debt Burden Ratio for an auto loan without salary transfer?",
+        "expected_answer": "50%, rising to 65% in case the customer holds a credit card.",
+        "audio_file": "wav/CONSIST-EN-Q015.wav"
+      },
+      {
+        "turn": 10,
+        "question_id": "CONSIST-EN-Q007",
+        "question": "What is the required age for professionals and self-employed individuals to obtain a housing loan with salary transfer?",
+        "expected_answer": "The required age at granting for professionals and self-employed individuals is between 26 and 65 years, and the customer's age must not exceed 75 years at the settlement of the last installment.",
+        "audio_file": "wav/CONSIST-EN-Q007.wav"
+      },
+      {
+        "turn": 11,
+        "question_id": "CONSIST-EN-Q005",
+        "question": "What are the financing terms for the declining loan against an apartment mortgage?",
+        "expected_answer": "The financing ratio is up to 60%, with a period of 12 to 96 months, borrowing of 25,000 to 150,000 JOD, and a debt burden of 55%.",
+        "audio_file": "wav/CONSIST-EN-Q005.wav"
+      },
+      {
+        "turn": 12,
+        "question_id": "CONSIST-EN-Q030",
+        "question": "How is the amount of the Instant Loan Against a Credit Card determined relative to the card ceiling?",
+        "expected_answer": "The loan amount represents 90% of the card ceiling.",
+        "audio_file": "wav/CONSIST-EN-Q030.wav"
+      },
+      {
+        "turn": 13,
+        "question_id": "CONSIST-EN-Q011",
+        "question": "What is the Personal Rewards Loan?",
+        "expected_answer": "A personal loan designed to reward customers for their commitment to regularly paying installments, through progressive reductions on loan margins, granted as monthly cashback directly into the customer's loan vault.",
+        "audio_file": "wav/CONSIST-EN-Q011.wav"
+      },
+      {
+        "turn": 14,
+        "question_id": "CONSIST-EN-Q028",
+        "question": "What is the debt burden for a personal loan for those working in the Security or Military sector?",
+        "expected_answer": "35%.",
+        "audio_file": "wav/CONSIST-EN-Q028.wav"
+      },
+      {
+        "turn": 15,
+        "question_id": "CONSIST-EN-Q024",
+        "question": "What happens if a customer of the Instant Loan Against a Credit Card is late paying two consecutive installments?",
+        "expected_answer": "A late interest of 1.5% monthly is calculated on the remaining utilized balance.",
+        "audio_file": "wav/CONSIST-EN-Q024.wav"
+      }
+    ]
+  }
+]

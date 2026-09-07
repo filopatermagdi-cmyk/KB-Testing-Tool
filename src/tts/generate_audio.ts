@@ -58,6 +58,17 @@ function collectAllQuestions(onlyFile?: string): Question[] {
   const topics = fs.readdirSync(QUESTIONS_DIR).filter(f => 
     fs.statSync(path.join(QUESTIONS_DIR, f)).isDirectory()
   );
+
+  // Support passing a full relative path like "questions/Loan/Car Loan.json"
+  // (covering any leading "data/" or "questions/" prefix) in addition to the
+  // legacy bare file name. The UI sends the full topic/file path.
+  let onlyAsSubPath: string | null = null;
+  if (onlyFile) {
+    const normalized = onlyFile.replace(/\\/g, "/").replace(/^\.?\//, "").toLowerCase();
+    const noDataPrefix = normalized.replace(/^data\//, "");
+    const noQPrefix = noDataPrefix.replace(/^questions\//, "");
+    if (noQPrefix.includes("/")) onlyAsSubPath = noQPrefix;
+  }
   
   for (const topic of topics) {
     const topicDir = path.join(QUESTIONS_DIR, topic);
@@ -66,7 +77,11 @@ function collectAllQuestions(onlyFile?: string): Question[] {
     for (const jsonFile of jsonFiles) {
       const filePath = path.join(topicDir, jsonFile);
 
-      if (onlyFile) {
+      if (onlyAsSubPath) {
+        // Full path given: match only the exact "<topic>/<file>.json".
+        const rel = `${topic}/${jsonFile}`.toLowerCase().replace(/\\/g, "/");
+        if (rel !== onlyAsSubPath) continue;
+      } else if (onlyFile) {
         // Windows filenames are case-insensitive, so compare everything
         // lowercased, tolerate stray quotes, and auto-append ".json" when the
         // user only typed the base name ("Loans Gen" -> "Loans Gen.json").

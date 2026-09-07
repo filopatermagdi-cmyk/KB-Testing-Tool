@@ -19,3 +19,6 @@ data/runs/
 
 # Knowledge base documents (never share / upload)
 *.docx
+
+# ad-hoc diagnostic probes (kept locally, not tracked)
+_probe_*.ts

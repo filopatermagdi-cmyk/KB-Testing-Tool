@@ -16,6 +16,7 @@ import fs from "node:fs";
 import path from "node:path";
 import http from "node:http";
 import { spawn } from "node:child_process";
+import { pairTranscript } from "../lib/transcript-pairing";
 
 const ROOT = process.cwd();
 const ENV_PATH = path.join(ROOT, ".env");
@@ -239,7 +240,7 @@ function status(): any {
       ? { file: path.basename(runFile!), sessions: run.sessions, passed: run.passed, failed: run.failed, wallMs: run.wallMs }
       : null,
     captured: cap
-      ? { file: path.basename(capFile!), totalTurns: cap.totalTurns, answered: cap.answered, unanswered: cap.unanswered, avgLatencyMs: cap.avgLatencyMs }
+      ? { file: path.basename(capFile!), totalTurns: cap.totalTurns, answered: cap.answered, unanswered: cap.unanswered, avgLatencyMs: cap.avgLatencyMs, avgLatencyFirstAudioChunkMs: cap.avgLatencyFirstAudioChunkMs }
       : null,
     eval: ev ? { file: path.basename(evFile!), summary: ev.summary, provider: ev.provider, model: ev.model } : null,
   };
@@ -260,45 +261,57 @@ function turnsFromSummary(sessionId: string): any[] {
     const callUrl = (appUrl && agentId && conversationId)
       ? `${appUrl}/en/agents/${agentId}/conversations/${conversationId}` : "";
 
-    // Walk transcript in order, zipping with checks:
-    // Each clip = one customer turn + (optional) agent reply.
-    // The transcript (authoritative WS stream) decides whether a reply exists —
-    // never the DOM poller's checks[].responded, which can race and miss
-    // answers that DID arrive.
+    // Per-turn source file IDs: files Zilla loaded/used for THAT question, not
+    // cumulative. Turns with no relay frame inherit the most recent known set.
+    const perTurnByIdx = new Map<number, string[]>();
+    for (const entry of summary.sourceFilesByTurn || []) {
+      perTurnByIdx.set(
+        entry.turn,
+        [...new Set([...(entry.fileIds || []), ...(entry.loadedFiles || [])])],
+      );
+    }
+    const sourceIdsForTurn = (turn: number): string[] => {
+      const direct = perTurnByIdx.get(turn);
+      if (direct && direct.length) return direct;
+      for (let t = turn - 1; t >= 1; t--) {
+        const prev = perTurnByIdx.get(t);
+        if (prev && prev.length) return prev;
+      }
+      return [];
+    };
+
+    // Pair the authoritative WS transcript's questions → answers (merging
+    // stray customer fragments and grading by the first later agent reply),
+    // then zip each pair with its clip check for the question id/latency.
+    // The transcript decides whether a reply exists — never the DOM poller's
+    // checks[].responded, which can race and miss answers that DID arrive.
+    const pairs = pairTranscript(transcript);
     const result: any[] = [];
-    let ci = 0; // check index
-    let i = 0;
-    // Skip leading agent greeting
-    if (transcript.length && transcript[0].speaker === "agent") i = 1;
-    while (ci < checks.length && i < transcript.length) {
+    for (let ci = 0; ci < checks.length; ci++) {
       const check = checks[ci];
       const clipName = check.clip || "";
       const qidMatch = clipName.match(/^\d+_(.+)\.wav$/);
       const questionId = qidMatch ? qidMatch[1] : "";
-      // Current turn should be customer (the question)
-      const customerText = transcript[i]?.text || "";
-      i++;
-      // If the next turn is an agent message, that is the reply to this question.
-      let agentText: string | null = null;
-      if (i < transcript.length && transcript[i]?.speaker === "agent" && String(transcript[i].text || "").trim()) {
-        agentText = transcript[i].text;
-        i++;
-      }
+      const pair = pairs[ci] || { question: { text: "" }, answer: null };
+      const agentText = pair.answer && String(pair.answer.text || "").trim()
+        ? pair.answer.text
+        : null;
       result.push({
         turn: ci + 1,
         question_id: questionId,
-        question: customerText,
+        question: pair.question?.text || "",
         expected_answer: "",
         zilla_answer: agentText,
         source_chunks: [],
+        source_file_ids: sourceIdsForTurn(ci + 1),
         latency_ms: check.latencyMs ?? null,
+        latency_first_audio_chunk_ms: check.latencyMsToFirstAudioChunk ?? null,
         conversation_id: conversationId,
         call_url: callUrl,
         responded: !!agentText,
         metrics: null,
         evalError: null,
       });
-      ci++;
     }
     return result;
   } catch { return []; }
@@ -331,7 +344,9 @@ function buildCalls(): any {
       expected_answer: r.expected_answer,
       zilla_answer: r.zilla_answer,
       source_chunks: r.source_chunks,
+      source_file_ids: r.source_file_ids || [],
       latency_ms: r.latency_ms,
+      latency_first_audio_chunk_ms: r.latency_first_audio_chunk_ms,
       conversation_id: r.conversation_id,
       call_url: r.call_url,
       responded: r.answered,
@@ -667,6 +682,19 @@ const server = http.createServer(async (req, res) => {
       if (seed) args.push("--seed", seed);
 
       runPhase("buildSessions", args, res);
+      return;
+    }
+    if (req.method === "POST" && url.pathname === "/api/generate-audio") {
+      const body = JSON.parse(await readBody(req));
+      const file = String(body.file || "").trim();
+      if (!file) {
+        res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" });
+        res.end("missing file");
+        return;
+      }
+      // Pass the full relative path (e.g. "questions/Loan/Car Loan.json") so the
+      // UI can pick any question file from a dropdown instead of typing a command.
+      runPhase("generateAudio", ["--only", file], res);
       return;
     }
     res.writeHead(404, { "Content-Type": "text/plain" });

@@ -64,7 +64,7 @@ const RUNS_DIR = process.env.RUNS_DIR ? path.resolve(process.env.RUNS_DIR) : pat
 
 const WS_URL = process.env.WS_URL || "";
 const WS_MODE = (process.env.WS_MODE || "text").toLowerCase();
-const WS_SETTLE_MS = intEnv("WS_SETTLE_MS", 1800);
+const WS_SETTLE_MS = intEnv("WS_SETTLE_MS", 5000);
 const WS_TURN_TIMEOUT_MS = intEnv("WS_TURN_TIMEOUT_MS", 20000);
 const WS_INTER_TURN_MS = intEnv("WS_INTER_TURN_MS", 400);
 // How long the turn must stay totally silent (no frames at all) BEFORE we
@@ -229,6 +229,9 @@ interface TurnOutcome {
   latencyMs: number | null;
   sessionIdFromServer: string | null;
   error: string | null;
+  fileIds?: string[];
+  loadedFiles?: string[];
+  playId?: string | null;
 }
 
 // Runs every turn of one session over a single WS connection. Resolves with
@@ -296,6 +299,12 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
     let firstFrameAt: number | null = null;
     let sentences: string[] = [];
     let sessionIdFromServer: string | null = null;
+    // Source provenance Ziila reports per turn (file_ids / loaded_files /
+    // play_id) — reset on every turn start, captured from whatever frames
+    // arrive while that turn is in flight.
+    let ctxFileIds: string[] = [];
+    let ctxLoadedFiles: string[] = [];
+    let ctxPlayId: string | null = null;
 
     const clearTimers = () => {
       if (settleTimer) clearTimeout(settleTimer);
@@ -378,7 +387,13 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
       } catch {
         return; // binary/audio frame we don't need in text mode
       }
-      if (msg.session_id) sessionIdFromServer = msg.session_id;
+      if (msg.session_id && !sessionIdFromServer) {
+        sessionIdFromServer = msg.session_id;
+        console.log(`[${session.session_id}] session confirmed: ${msg.session_id}`);
+      }
+      if (Array.isArray(msg.file_ids) && msg.file_ids.length) ctxFileIds = msg.file_ids;
+      if (Array.isArray(msg.loaded_files) && msg.loaded_files.length) ctxLoadedFiles = msg.loaded_files;
+      if (typeof msg.play_id === "string" && msg.play_id) ctxPlayId = msg.play_id;
       if (typeof msg.llm_message_sentence === "string") {
         if (firstFrameAt === null) firstFrameAt = Date.now();
         sentences.push(msg.llm_message_sentence);
@@ -442,6 +457,7 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
 
     async function runTurns(): Promise<void> {
       await drainWelcome();
+      let qIdx = 0;
       for (const m of session.messages) {
         if (fatalError && outcomes.length === 0) {
           // Auth/setup failed before we ever got a real turn out — bail the whole session.
@@ -460,9 +476,14 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
         }
         sentences = [];
         firstFrameAt = null;
+        ctxFileIds = [];
+        ctxLoadedFiles = [];
+        ctxPlayId = null;
         const turnError = fatalError;
         fatalError = null;
         sentAt = Date.now();
+        qIdx++;
+        console.log(`[${session.session_id}] Q${qIdx}/${session.messages.length} → ${m.question.slice(0, 80)}`);
         try {
           ws.send(JSON.stringify({ text: m.question }));
         } catch (e) {
@@ -489,14 +510,23 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
           await waitForSettle();
         }
         const answerText = sentences.join(" ").trim();
+        const latencyMs = firstFrameAt !== null ? firstFrameAt - sentAt : null;
+        const srcTag = ctxFileIds.length ? ` [src: ${ctxFileIds.join(", ")}]` : "";
+        console.log(
+          `[${session.session_id}]   ${answerText.length > 0 ? "✓" : "✗ no reply"}` +
+            `${latencyMs !== null ? ` after ${latencyMs}ms` : ""}${srcTag} → ${answerText.slice(0, 80) || "(empty)"}`
+        );
         outcomes.push({
           question_id: m.question_id,
           question: m.question,
           answerText,
           responded: answerText.length > 0,
-          latencyMs: firstFrameAt !== null ? firstFrameAt - sentAt : null,
+          latencyMs,
           sessionIdFromServer,
           error: answerText.length === 0 ? fatalError || turnError || "no reply" : null,
+          ...(ctxFileIds.length ? { fileIds: [...ctxFileIds] } : {}),
+          ...(ctxLoadedFiles.length ? { loadedFiles: [...ctxLoadedFiles] } : {}),
+          ...(ctxPlayId ? { playId: ctxPlayId } : {}),
         });
         if (ws.readyState !== WebSocket.OPEN) break;
         await new Promise((r) => setTimeout(r, WS_INTER_TURN_MS));
@@ -509,6 +539,7 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
     try {
       ws.send(JSON.stringify({ agentId, token }));
       ws.send(JSON.stringify({ type: "session", sessionId: session.session_id }));
+      console.log(`[${session.session_id}] ws open → handshake sent (agentId=${agentId || "<empty>"})`);
     } catch (e) {
       fatalError = `handshake send failed: ${(e as Error).message}`;
       settled = true;
@@ -600,6 +631,16 @@ async function runSession(session: Session): Promise<SessionResult> {
   const outDir = path.join(RUNS_DIR, session.session_id);
   fs.mkdirSync(outDir, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+  const sourceFilesByTurn = outcomes
+    .map((o, i) => ({
+      turn: i + 1,
+      question_id: o.question_id,
+      file_ids: o.fileIds || [],
+      loaded_files: o.loadedFiles || [],
+      play_id: o.playId || null,
+    }))
+    .filter((r) => r.file_ids.length || r.loaded_files.length || r.play_id);
+  const sourceFilesUsed = [...new Set(sourceFilesByTurn.flatMap((r) => r.file_ids))].sort();
   const summary = {
     passed,
     reason,
@@ -611,6 +652,8 @@ async function runSession(session: Session): Promise<SessionResult> {
     latency: { maxMs, avgMs },
     transcriptMatch: { result: "N/A", reason: "direct WebSocket run — no browser transcript to compare" },
     liveTranscript: buildTranscript(outcomes),
+    ...(sourceFilesUsed.length ? { sourceFilesUsed } : {}),
+    ...(sourceFilesByTurn.length ? { sourceFilesByTurn } : {}),
   };
   fs.writeFileSync(path.join(outDir, `summary-${stamp}.json`), JSON.stringify(summary, null, 2));
 

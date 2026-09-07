@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 import type { Browser, BrowserContext, Page, Locator } from 'playwright';
 import type { Turn } from './similarity';
-import type { Check, BargeIn, Ctl, CallArtifacts, AttemptResult, Scenario } from './types';
+import type { Check, BargeIn, Ctl, CallArtifacts, AttemptResult, Scenario, SourceFrame } from './types';
 import {
   CFG,
   SEL,
@@ -37,11 +37,19 @@ import { evaluateLatency, compareTranscripts, waitForPersistedCallArtifacts } fr
 import { buildAttemptResult, failedAttempt, pendingAttempt } from './results';
 
 type BrowserSession = { browser: Browser; context: BrowserContext; page: Page };
-type ActiveCall = { callStartedAt: string; endBtn: Locator; zillaMsgs: Locator };
+type ActiveCall = {
+  callStartedAt: string;
+  endBtn: Locator;
+  zillaMsgs: Locator;
+  conversationId: string | null;
+  sources: SourceFrame[];
+  audioFrames: { at: number; bytes: number }[];
+};
 type AttemptProgress = Pick<AttemptResult, 'agentId' | 'callStartedAt'>;
 type AgentSnapshot = { count: number; fingerprint: string };
 type ReplySignal = NonNullable<Check['responseSignal']>;
 type ReplyWaitResult = { responded: boolean; latencyMs: number | null; signal: ReplySignal };
+type AudioFrame = { at: number; bytes: number };
 
 function scenarioFromInput(input: Scenario | string[]): Scenario {
   return Array.isArray(input) ? { name: 'assets', clips: input } : input;
@@ -293,6 +301,8 @@ async function runTurns(
   zillaMsgs: Locator,
   playlist: string[],
   checks: Check[],
+  turnEndAt: number[],
+  audioFrames: AudioFrame[],
 ): Promise<void> {
   for (let i = 0; i < playlist.length; i++) {
     const name = path.basename(playlist[i]);
@@ -320,6 +330,7 @@ async function runTurns(
         clipMs,
         responseSignal: reply.responded ? reply.signal : 'opening-greeting',
       });
+      turnEndAt.push(Date.now());
       if (reply.responded) {
         log(`  ✓ zilla replied to opening (${reply.latencyMs}ms via ${reply.signal}, clip ${clipMs}ms)`);
         await waitZillaIdle(page, zillaMsgs); // let her finish before the next clip
@@ -343,6 +354,7 @@ async function runTurns(
       clipMs,
       responseSignal: reply.signal,
     });
+    turnEndAt.push(Date.now());
     if (reply.responded) {
       log(`  ✓ zilla replied (${reply.latencyMs}ms via ${reply.signal}, clip ${clipMs}ms)`);
       await waitZillaIdle(page, zillaMsgs);
@@ -440,6 +452,60 @@ async function startCall(
 ): Promise<ActiveCall> {
   const callStartedAt = new Date().toISOString();
   const endBtn = page.getByRole('button', { name: SEL.endCall });
+  // The relay announces the call's conversation id in its first frame
+  // ({"type":"session","sessionId":...}). The id doubles as the backend
+  // conversation id, so we can link the call immediately instead of waiting for
+  // the STT transcript to persist. Captured any time during the call; falls back
+  // to BE lookup (below) when the frame doesn't carry one.
+  let wsConversationId: string | null = null;
+  const sources: SourceFrame[] = [];
+  // DEBUG-AUDIO: observe every relay frame (JSON type + binary size) and log the
+  // first frames after each clip against DOM-reply timing, to find an "first audio
+  // chunk" signal earlier than the DOM text census. Temporary; remove after we fix
+  // the latency source. Gate on env so normal runs are not spammed.
+  const audioFrames: AudioFrame[] = [];
+  page.on('websocket', (ws) => {
+    ws.on('framereceived', (e: { payload: string | Buffer }) => {
+      const at = Date.now();
+      const payload = e.payload;
+      if (Buffer.isBuffer(payload)) {
+        audioFrames.push({ at, bytes: payload.length });
+        return;
+      }
+      const raw = typeof payload === 'string' ? payload : '';
+      if (!raw.startsWith('{')) return;
+      try {
+        const j = JSON.parse(raw);
+        // Zilla's voice arrives as JSON frames with a base64 PCM audio chunk.
+        // The first such chunk after a clip's END is the earliest audible-reply
+        // signal. Track it for the first-audio latency measurement.
+        if (typeof j?.chunk === 'string' && j.chunk.length > 4) {
+          const bytes = Math.floor((j.chunk.length / 4) * 3); // base64 length -> raw bytes
+          audioFrames.push({ at, bytes });
+        }
+        const id =
+          (j && j.type === 'session' && typeof j.sessionId === 'string' && j.sessionId) ||
+          (j && typeof j.session_id === 'string' && j.session_id);
+        if (id && !wsConversationId) {
+          wsConversationId = id;
+          log(`early conversation id from WS relay: ${id}`);
+        }
+        // Provenance: file_ids / loaded_files are the KB file/section ids Zilla
+        // grounded the running answer on; play_id identifies the playback turn.
+        const fileIds = Array.isArray(j?.file_ids) ? j.file_ids.filter((x: unknown) => typeof x === 'string') : [];
+        const loaded = Array.isArray(j?.loaded_files) ? j.loaded_files.filter((x: unknown) => typeof x === 'string') : [];
+        const playId = typeof j?.play_id === 'string' && j.play_id ? j.play_id : null;
+        if (fileIds.length || loaded.length || playId) {
+          sources.push({ at: Date.now(), fileIds, loadedFiles: loaded, playId });
+          log(
+            `source files from relay: [${fileIds.join(', ')}]${
+              playId ? ` (play ${playId.slice(0, 8)}…)` : ''
+            }`,
+          );
+        }
+      } catch {}
+    });
+  });
   // Some builds gate the live call behind an intro screen (InitiateCall) whose
   // Start button is identical to the real one. Detect that screen by its own
   // illustration (SEL.callIntro) — NOT by "a Start button exists", because the
@@ -474,7 +540,7 @@ async function startCall(
     throw e;
   }
   log('call started');
-  return { callStartedAt, endBtn, zillaMsgs: page.locator(SEL.zillaMsg) };
+  return { callStartedAt, endBtn, zillaMsgs: page.locator(SEL.zillaMsg), conversationId: wsConversationId, sources, audioFrames };
 }
 
 async function collectPersistedArtifacts(
@@ -483,6 +549,7 @@ async function collectPersistedArtifacts(
   callStartedAt: string,
   repliesPassed: boolean,
   liveTranscript: Turn[],
+  conversationId: string | null,
 ): Promise<CallArtifacts | null> {
   // Normally skip the artifact lookup when a reply was missed — CI fails fast and
   // retries anyway. But set TRACE_FAILED_CALLS=1 to still resolve the conversation
@@ -495,6 +562,7 @@ async function collectPersistedArtifacts(
     agentId,
     callStartedAt,
     liveTranscript,
+    conversationId,
   );
   if (artifacts.transcript.saved) {
     log(
@@ -520,6 +588,7 @@ async function runCallLifecycle(
   scenario: Scenario,
   checks: Check[],
   progress: AttemptProgress,
+  ctl: Ctl,
 ): Promise<AttemptResult> {
   await loginThroughUI(session.page);
   const agentId = await resolveAgentId(session.context);
@@ -530,10 +599,27 @@ async function runCallLifecycle(
 
   const activeCall = await startCall(session.page, session.context, startBtn);
   progress.callStartedAt = activeCall.callStartedAt;
-  await runTurns(session.page, activeCall.zillaMsgs, scenario.clips, checks);
+  const turnEndAt: number[] = [];
+  await runTurns(session.page, activeCall.zillaMsgs, scenario.clips, checks, turnEndAt, activeCall.audioFrames);
+  // Supplementary, non-judgemental latency: the first audio chunk Zilla's voice
+  // arrived at after each clip's END (measured from the relay WS audio chunks).
+  // Recorded alongside the DOM-based latencyMs; does NOT affect pass/fail or the
+  // latency verdict. Computed here after all turns so all chunks are available.
+  checks.forEach((c, i) => {
+    if (i < turnEndAt.length && c.latencyMs != null) {
+      const clipEnd = turnEndAt[i] - c.latencyMs;
+      const first = activeCall.audioFrames
+        .filter((f) => f.at >= clipEnd)
+        .sort((a, b) => a.at - b.at)[0];
+      c.latencyMsToFirstAudioChunk = first ? Math.round(first.at - clipEnd) : null;
+    }
+  });
+  ctl.partial = { ...ctl.partial, agentId, callStartedAt: activeCall.callStartedAt, checks: [...checks] };
   const bargeIn = await bargeInProbe(session.page, activeCall.zillaMsgs, scenario.clips);
   const liveTranscript = await scrapeLiveTranscript(session.page);
   if (liveTranscript.length) log(`live transcript: ${liveTranscript.length} message(s) captured`);
+  ctl.partial = { ...ctl.partial, liveTranscript };
+  ctl.partial = { ...ctl.partial, conversationId: activeCall.conversationId || undefined };
 
   await activeCall.endBtn.click().catch(() => {});
   const latency = evaluateLatency(checks);
@@ -544,11 +630,33 @@ async function runCallLifecycle(
     activeCall.callStartedAt,
     repliesPassed,
     liveTranscript,
+    activeCall.conversationId,
   );
+  ctl.partial = { ...ctl.partial, artifacts, conversationId: artifacts?.conversationId || undefined };
   const transcriptMatch = compareTranscripts(liveTranscript, artifacts?.transcript?.turns || []);
   if (transcriptMatch.result !== 'SKIPPED') {
     log(`transcript match: ${transcriptMatch.result} — ${transcriptMatch.reason}`);
   }
+
+  // Bucket the relay provenance frames into per-turn windows: turn i's sources
+  // are the frames that arrived between the previous reply-detection and this
+  // one (turn 1 starts at call start).
+  const callStartTs = Date.parse(activeCall.callStartedAt) || 0;
+  const sourceFilesByTurn = turnEndAt.map((end, i) => {
+    const start = i === 0 ? callStartTs : turnEndAt[i - 1];
+    const frames = activeCall.sources.filter((f) => f.at >= start && f.at <= end + SETTLE_MS);
+    return {
+      turn: i + 1,
+      fileIds: [...new Set(frames.flatMap((f) => f.fileIds))],
+      loadedFiles: [...new Set(frames.flatMap((f) => f.loadedFiles))],
+      playId: frames[frames.length - 1]?.playId || null,
+    };
+  });
+  const srcTurns = sourceFilesByTurn.filter(
+    (r) => r.fileIds.length || r.loadedFiles.length || r.playId,
+  );
+  const sourceFilesUsed = [...new Set(activeCall.sources.flatMap((f) => f.fileIds))].sort();
+  if (sourceFilesUsed.length) log(`source files used: [${sourceFilesUsed.join(', ')}]`);
 
   return buildAttemptResult({
     agentId,
@@ -560,6 +668,9 @@ async function runCallLifecycle(
     transcriptMatch,
     liveTranscript,
     artifacts,
+    ...(srcTurns.length ? { sourceFilesByTurn: srcTurns } : {}),
+    ...(sourceFilesUsed.length ? { sourceFilesUsed } : {}),
+    ...(activeCall.sources.length ? { sourceFrameLog: activeCall.sources } : {}),
   });
 }
 
@@ -579,7 +690,7 @@ async function attempt(
 
   try {
     session = await createBrowserSession(ctl);
-    result = await runCallLifecycle(session, scenario, checks, progress);
+    result = await runCallLifecycle(session, scenario, checks, progress, ctl);
   } catch (e: any) {
     result = failedAttempt(ctl.timedOut ? 'attempt-timeout' : e.message, checks, {
       ...result,
@@ -638,7 +749,12 @@ export function attemptWithTimeout(
       ctl.timedOut = true;
       log(`attempt exceeded ATTEMPT_TIMEOUT_MS=${ATTEMPT_TIMEOUT_MS} — aborting`);
       if (ctl.browser) await ctl.browser.close().catch(() => {});
-      resolve({ passed: false, reason: 'attempt-timeout', checks: [] });
+      resolve({
+        ...ctl.partial,
+        passed: false,
+        reason: 'attempt-timeout',
+        checks: ctl.partial?.checks ?? [],
+      });
     }, ATTEMPT_TIMEOUT_MS);
   });
   return Promise.race([work, timeout]);

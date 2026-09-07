@@ -34,6 +34,7 @@ import fs from "fs";
 import path from "path";
 import { spawn } from "child_process";
 import dotenv from "dotenv";
+import { pairTranscript } from "../lib/transcript-pairing";
 
 dotenv.config();
 
@@ -318,17 +319,7 @@ function readSummary(outDir: string): any {
 function transcriptAnsweredCount(s: any): number {
   const tr: any[] = s?.liveTranscript || s?.transcript?.turns || [];
   if (!Array.isArray(tr) || tr.length === 0) return -1;
-  let i = tr.length && String(tr[0]?.speaker).toLowerCase() === "agent" ? 1 : 0;
-  let answered = 0;
-  for (; i < tr.length; i++) {
-    if (String(tr[i]?.speaker).toLowerCase() !== "customer") continue;
-    const nxt = tr[i + 1];
-    if (nxt && String(nxt.speaker).toLowerCase() === "agent" && String(nxt.text || "").trim()) {
-      answered++;
-      i++;
-    }
-  }
-  return answered;
+  return pairTranscript(tr).filter((p) => p.answer).length;
 }
 
 function agentIdFor(session: Session): string {

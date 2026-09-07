@@ -282,6 +282,29 @@
     <pre id="bs-output"></pre>
   </section>
 
+  <section id="audio-sec">
+    <h2>Generate Audio (TTS)</h2>
+    <div class="import-card">
+      <div class="import-row">
+        <label>Topic</label>
+        <select id="au-topic"></select>
+      </div>
+      <div class="import-row">
+        <label>Questions file</label>
+        <select id="au-file"></select>
+      </div>
+      <div class="import-row">
+        <span id="au-info" class="note" style="flex:1"></span>
+      </div>
+      <div class="import-row">
+        <button id="au-generate">🎙 Generate Audio</button>
+        <span id="au-status" class="note"></span>
+      </div>
+    </div>
+    <h2 style="margin-top:18px">Generate Audio Output</h2>
+    <pre id="au-output"></pre>
+  </section>
+
   <section id="session-runner-sec">
     <h2>Session Runner</h2>
     <div class="import-card">
@@ -564,7 +587,7 @@ async function loadStatus() {
     ["Audio (wav)", s.wav],
     ["Sessions", s.sessions == null ? "—" : s.sessions, langText(s.sessionsByLang)],
     ["Last run", s.run ? `${s.run.passed}/${s.run.sessions} pass · ${(s.run.wallMs / 1000).toFixed(0)}s` : "—"],
-    ["Captured", s.captured ? `${s.captured.answered}/${s.captured.totalTurns} · avg ${s.captured.avgLatencyMs}ms` : "—"],
+    ["Captured", s.captured ? `${s.captured.answered}/${s.captured.totalTurns} · avg ${s.captured.avgLatencyMs}ms` : "—", s.captured && s.captured.avgLatencyFirstAudioChunkMs != null ? `avg 🎧 ${s.captured.avgLatencyFirstAudioChunkMs}ms (first audio)` : ""],
     ["Eval (DeepEval)", s.eval ? s.eval.model : "not run yet", s.eval ? evalSummary(s.eval.summary) : ""],
   ];
   for (const [k, v, sub] of items) {
@@ -708,6 +731,12 @@ async function animateSession(s, conv) {
     meta.className = "turn-meta";
     let chips = "";
     if (t.latency_ms != null) chips += `<span class="pill muted">⏱ ${t.latency_ms}ms</span>`;
+    if (t.latency_first_audio_chunk_ms != null) {
+      chips += `<span class="pill muted" title="Time from question end to the first audio chunk of Zilla's reply">🎧 ${t.latency_first_audio_chunk_ms}ms</span>`;
+    }
+    if (t.source_file_ids && t.source_file_ids.length) {
+      chips += `<span class="pill muted" title="KB files Ziila used for this question">📚 ${t.source_file_ids.join(", ")}</span>`;
+    }
     if (t.call_url) chips += `<a href="${t.call_url}" target="_blank">open call ↗</a>`;
     if (t.metrics) {
       for (const [name, m] of Object.entries(t.metrics)) {
@@ -937,6 +966,7 @@ async function loadQuestionFiles() {
       topicSel.appendChild(o);
     }
     updateBsSubtopics();
+    loadAudioTopics();
   } catch (e) {
     console.error("loadQuestionFiles:", e);
   }
@@ -1018,6 +1048,66 @@ $("bs-ar-sessions").addEventListener("input", updateBsInfo);
 $("bs-en-sessions").addEventListener("input", updateBsInfo);
 $("bs-build").addEventListener("click", runBuildSessions);
 loadQuestionFiles();
+
+// --- Generate Audio (TTS) panel ----------------------------------------------
+function loadAudioTopics() {
+  const topicSel = $("au-topic");
+  topicSel.innerHTML = '<option value="">(select topic)</option>';
+  for (const topic of Object.keys(questionFiles)) {
+    const o = document.createElement("option");
+    o.value = topic;
+    o.textContent = `${topic} — ${questionFiles[topic].reduce((a, f) => a + f.totalQuestions, 0)} questions`;
+    topicSel.appendChild(o);
+  }
+  updateAudioFiles();
+}
+
+function updateAudioFiles() {
+  const topic = $("au-topic").value;
+  const fileSel = $("au-file");
+  fileSel.innerHTML = '<option value="">(select file)</option>';
+  const info = $("au-info");
+  if (!topic) { info.textContent = "Select a topic, then a questions file to generate audio for."; return; }
+  const files = questionFiles[topic] || [];
+  for (const f of files) {
+    const o = document.createElement("option");
+    o.value = f.file; // "questions/<topic>/<file>.json"
+    o.textContent = `${f.name} — ${f.totalQuestions} questions (${f.arQuestions} ar + ${f.enQuestions} en)`;
+    fileSel.appendChild(o);
+  }
+  info.textContent = `${files.length} file(s) available.`;
+}
+
+async function runGenerateAudio() {
+  const file = $("au-file").value;
+  if (!file) { $("au-status").textContent = "Pick a questions file first"; return; }
+  $("au-generate").disabled = true;
+  $("au-status").textContent = "Generating...";
+  $("au-output").textContent = "";
+  try {
+    const res = await fetch("/api/generate-audio", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ file }),
+    });
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      $("au-output").textContent += dec.decode(value, { stream: true });
+      $("au-output").scrollTop = $("au-output").scrollHeight;
+    }
+    $("au-status").textContent = "Done ✓";
+  } catch (err) {
+    $("au-status").textContent = "Error: " + err.message;
+  } finally {
+    $("au-generate").disabled = false;
+  }
+}
+
+$("au-topic").addEventListener("change", updateAudioFiles);
+$("au-generate").addEventListener("click", runGenerateAudio);
 
 renderPhases();
 loadEnv();
