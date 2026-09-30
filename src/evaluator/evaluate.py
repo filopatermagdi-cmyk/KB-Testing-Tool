@@ -600,6 +600,17 @@ def stats_only(records):
     }
 
 
+ACK_RE = re.compile(r"^\s*(نعم|ايوه|أيوه|تمام|كمّل|اكمل|أكمل|تفضل|ماشي|التالي|نكمل|yes|ok|okay|yeah|continue|go on|yep)\s*[!.]*$", re.I)
+
+
+def turn_type(question):
+    """Classify a customer turn: a step confirmation (ack) vs a real question."""
+    q = (question or "").strip()
+    if not q or ACK_RE.match(q):
+        return "ack"
+    return "question"
+
+
 def export_for_claude(records, report_path, out_path):
     """Write every record exactly as run_one() would feed it to the LLM judge,
     WITHOUT calling any model. Fields mirror the LLMTestCase build in run_one():
@@ -616,6 +627,7 @@ def export_for_claude(records, report_path, out_path):
                 "question_id": rec.get("question_id"),
                 "language": lang,
                 "turn": rec.get("turn"),
+                "turn_type": turn_type(rec.get("question") or ""),
                 "conversation_id": rec.get("conversation_id"),
                 "latency_ms": rec.get("latency_ms"),
                 "latency_first_audio_chunk_ms": rec.get("latency_first_audio_chunk_ms"),
@@ -634,19 +646,46 @@ def export_for_claude(records, report_path, out_path):
         "exported_at": datetime.now(timezone.utc).isoformat(),
         "metrics_targets": list(DEFAULT_METRICS),
         "instructions": (
-            "Judge each record like the Groq judge (openai/gpt-oss-120b) would: "
-            "score `relevancy` (is the Zilla answer on-topic for the question) "
-            "and `faithfulness` (are its claims supported by `source_chunks`). "
-            "`source_file_ids` lists the KB file IDs loaded into Zilla's context "
-            "up to and including this question (cumulative) - the full retrieval "
-            "context the answer was generated from."
-            "Follow our dialect rules: Zilla speaks colloquial Jordanian/Levantine "
-            "Arabic; judge meaning, not MSA-vs-dialect wording. If "
-            "`deflection_detected` is true, the response dodged the question "
-            "(hedge/handoff) - verdict FAIL, scores 0. A response that ANSWERS "
-            "then offers follow-up is NOT a deflection. Output one result object "
-            "per record with: question_id, verdict (PASS/FAIL), relevancy, "
-            "faithfulness."
+            "You are judging a bank's AI voice assistant (Zilla) that answers "
+            "customers over live calls in colloquial Arabic / English. Each "
+            "`record` is one customer turn (`question`) paired with the "
+            "assistant's spoken reply (`zilla_answer`). `expected_answer` is "
+            "the reference answer; `source_chunks` are the KB passages the "
+            "reply should be grounded in.\n"
+            "\n"
+            "CONTEXT - MULTI-FLOW CALLS: a call follows a scripted flow of several "
+            "bank topics packed into one session. Many turns are STEP "
+            "CONFIRMATIONS (turn_type=\"ack\"): short acknowledgements from the "
+            "customer like \"نعم / تمام / كمّل / تفضل\" that just nudge the "
+            "assistant to continue the step-by-step guidance it is giving. For "
+            "an ack turn, do NOT judge the reply as an isolated answer to a "
+            "standalone question - judge whether Zilla's reply advances the "
+            "current bank flow coherently (usually the next step in the "
+            "expected_answer) and stays on-topic. `question_id` + `turn` show "
+            "the position inside the call, so you can read ack turns in the "
+            "context of the flow.\n"
+            "\n"
+            "SCORING - output exactly one result object per record:\n"
+            "  {\"question_id\": ..., \"turn\": ..., \"turn_type\": ...,\n"
+            "   \"verdict\": \"PASS\"|\"FAIL\", \"relevancy\": 0-1,\n"
+            "   \"faithfulness\": 0-1, \"note\": one-line reason}\n"
+            "  - relevancy: is zilla_answer on-topic for the question/current "
+            "flow and does it actually answer/advance it?\n"
+            "  - faithfulness: are the answer's claims supported by "
+            "source_chunks (no invented numbers/steps/limits)?\n"
+            "\n"
+            "RULES:\n"
+            "  - deflection_detected=true means the reply dodged the question "
+            "(hedge/handoff/no-permission); verdict FAIL and both scores 0.\n"
+            "  - A reply that ANSWERS then offers follow-up is NOT a deflection.\n"
+            "  - source_file_ids lists the KB files loaded into Zilla's context "
+            "up to and including this turn (cumulative).\n"
+            "  - Dialect: judge meaning, NOT MSA-vs-dialect wording.\n"
+            "  - For ack turns with empty source_chunks, an appropriate "
+            "\"continue\" reply scores relevancy/faithfulness 1 - it needs no "
+            "citation.\n"
+            "  - If a step-confirmation reply is OFF-flow (changes topic or "
+            "gives unrelated content), verdict FAIL with relevancy low.\n"
         ),
         "records": payloads,
     }

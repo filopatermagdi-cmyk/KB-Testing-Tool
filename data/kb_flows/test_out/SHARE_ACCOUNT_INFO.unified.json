@@ -1,0 +1,175 @@
+{
+  "flow_id": "SHARE_ACCOUNT_INFO",
+  "title": "Share Account Info",
+  "topic": "KnowledgeHub",
+  "chunks": [
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S01_en",
+      "text": "From the home screen, select the account whose details you want to share."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S02_en",
+      "text": "Tap the ⋯ (More) icon on the selected account. A menu of available options will appear."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S03_en",
+      "text": "Tap Share Account Information. Choose how you want to share your details, such as:\n- WhatsApp\n- SMS\n- Email\n- Copy to Clipboard"
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S04_en",
+      "text": "Select the recipient or sharing method."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-CLOSE_en",
+      "text": "Your account information, including your account number and IBAN, will be shared securely, and the process is complete."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S01",
+      "text": "تحتوي الشاشة الرئيسية على قائمة بجميع حساباتك. استمر بالسحب لأعلى حتى الوصول إلى الحساب الذي تريده."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S02",
+      "text": "عند الوصول للحساب الذي تريد مشاركة معلوماته، اضغط على ايقونة\"...\" الموجودة في الصندوق الذي يحتوي معلومات الحساب. ستظهر لك قائمة بها عدة خيارات."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S03",
+      "text": "اضغط على ايقونة مشاركة معلومات الحساب. ستظهر لك قائمة بوسائل التواصل ومنها واتساب ورسالة قصيرة وبريد الكتروني ويمكنك أيضا نسخها على الهاتف."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-S04",
+      "text": "اختر الجهة التي تريد مشاركة الحساب معها."
+    },
+    {
+      "id": "CHK-SHARE_ACCOUNT_INFO-CLOSE",
+      "text": "بهذا تكون قد أتممت عملية مشاركة معلومات حسابك بنجاح."
+    }
+  ],
+  "flows": [
+    {
+      "id": "SHARE_ACCOUNT_INFO-INC-EN",
+      "flow_id": "SHARE_ACCOUNT_INFO",
+      "pair_id": "SHARE_ACCOUNT_INFO-INC",
+      "mode": "incremental",
+      "language": "en",
+      "topic": "KnowledgeHub",
+      "sub_topic": "Share Account Info",
+      "question": "How can I share my account or IBAN details through the app?",
+      "steps": [
+        {
+          "step_n": 1,
+          "stimulus": "How can I share my account or IBAN details through the app?",
+          "expected_answer": "From the home screen, select the account whose details you want to share.",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S01_en"
+          ]
+        },
+        {
+          "step_n": 2,
+          "stimulus": "yes",
+          "expected_answer": "Tap the ⋯ (More) icon on the selected account. A menu of available options will appear.",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S02_en"
+          ]
+        },
+        {
+          "step_n": 3,
+          "stimulus": "ok",
+          "expected_answer": "Tap Share Account Information. Choose how you want to share your details, such as:\n- WhatsApp\n- SMS\n- Email\n- Copy to Clipboard",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S03_en"
+          ]
+        },
+        {
+          "step_n": 4,
+          "stimulus": "continue",
+          "expected_answer": "Select the recipient or sharing method. Your account information, including your account number and IBAN, will be shared securely, and the process is complete.",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S04_en",
+            "CHK-SHARE_ACCOUNT_INFO-CLOSE_en"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SHARE_ACCOUNT_INFO-DUMP-EN",
+      "flow_id": "SHARE_ACCOUNT_INFO",
+      "pair_id": "SHARE_ACCOUNT_INFO-DUMP",
+      "mode": "full_dump",
+      "language": "en",
+      "topic": "KnowledgeHub",
+      "sub_topic": "Share Account Info",
+      "question": "How can I share my account or IBAN details? Just give me all the steps at once, please don't stop to confirm each one.",
+      "expected_answer": "1) From the home screen, select the account whose details you want to share. 2) Tap the ⋯ (More) icon on the selected account -- a menu of available options will appear. 3) Tap Share Account Information and choose how you want to share your details: WhatsApp, SMS, Email, or Copy to Clipboard. 4) Select the recipient or sharing method. Your account information, including your account number and IBAN, will be shared securely, and the process is complete.",
+      "chunk_ids": [
+        "CHK-SHARE_ACCOUNT_INFO-S01_en",
+        "CHK-SHARE_ACCOUNT_INFO-S02_en",
+        "CHK-SHARE_ACCOUNT_INFO-S03_en",
+        "CHK-SHARE_ACCOUNT_INFO-S04_en",
+        "CHK-SHARE_ACCOUNT_INFO-CLOSE_en"
+      ]
+    },
+    {
+      "id": "SHARE_ACCOUNT_INFO-INC-AR",
+      "flow_id": "SHARE_ACCOUNT_INFO",
+      "pair_id": "SHARE_ACCOUNT_INFO-INC",
+      "mode": "incremental",
+      "language": "ar",
+      "topic": "KnowledgeHub",
+      "sub_topic": "Share Account Info",
+      "question": "كيف أقدر أشارك معلومات حسابي أو الآيبان تبعي عن طريق التطبيق؟",
+      "steps": [
+        {
+          "step_n": 1,
+          "stimulus": "كيف أقدر أشارك معلومات حسابي أو الآيبان تبعي عن طريق التطبيق؟",
+          "expected_answer": "تحتوي الشاشة الرئيسية على قائمة بجميع حساباتك. استمر بالسحب لأعلى حتى الوصول إلى الحساب الذي تريده.",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S01"
+          ]
+        },
+        {
+          "step_n": 2,
+          "stimulus": "نعم",
+          "expected_answer": "عند الوصول للحساب الذي تريد مشاركة معلوماته، اضغط على ايقونة\"...\" الموجودة في الصندوق الذي يحتوي معلومات الحساب. ستظهر لك قائمة بها عدة خيارات.",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S02"
+          ]
+        },
+        {
+          "step_n": 3,
+          "stimulus": "تمام",
+          "expected_answer": "اضغط على ايقونة مشاركة معلومات الحساب. ستظهر لك قائمة بوسائل التواصل ومنها واتساب ورسالة قصيرة وبريد الكتروني ويمكنك أيضا نسخها على الهاتف.",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S03"
+          ]
+        },
+        {
+          "step_n": 4,
+          "stimulus": "كمّل",
+          "expected_answer": "اختر الجهة التي تريد مشاركة الحساب معها. بهذا تكون قد أتممت عملية مشاركة معلومات حسابك بنجاح.",
+          "chunk_ids": [
+            "CHK-SHARE_ACCOUNT_INFO-S04",
+            "CHK-SHARE_ACCOUNT_INFO-CLOSE"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SHARE_ACCOUNT_INFO-DUMP-AR",
+      "flow_id": "SHARE_ACCOUNT_INFO",
+      "pair_id": "SHARE_ACCOUNT_INFO-DUMP",
+      "mode": "full_dump",
+      "language": "ar",
+      "topic": "KnowledgeHub",
+      "sub_topic": "Share Account Info",
+      "question": "كيف أقدر أشارك معلومات حسابي أو الآيبان تبعي عن طريق التطبيق؟ بس عطيني كل الخطوات مرة وحدة من غير ما توقف تتأكد مني بكل خطوة.",
+      "expected_answer": "1) تحتوي الشاشة الرئيسية على قائمة بجميع حساباتك، استمر بالسحب لأعلى حتى الوصول إلى الحساب الذي تريده. 2) اضغط على ايقونة \"...\" الموجودة في الصندوق الذي يحتوي معلومات الحساب، رح تظهر لك قائمة بها عدة خيارات. 3) اضغط على ايقونة مشاركة معلومات الحساب، رح تظهر لك قائمة بوسائل التواصل ومنها واتساب ورسالة قصيرة وبريد الكتروني، وفيك كمان تنسخها على الهاتف. 4) اختر الجهة التي تريد مشاركة الحساب معها. بهذا تكون قد أتممت عملية مشاركة معلومات حسابك بنجاح.",
+      "chunk_ids": [
+        "CHK-SHARE_ACCOUNT_INFO-S01",
+        "CHK-SHARE_ACCOUNT_INFO-S02",
+        "CHK-SHARE_ACCOUNT_INFO-S03",
+        "CHK-SHARE_ACCOUNT_INFO-S04",
+        "CHK-SHARE_ACCOUNT_INFO-CLOSE"
+      ]
+    }
+  ]
+}

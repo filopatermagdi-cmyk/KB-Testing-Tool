@@ -22,3 +22,11 @@ data/runs/
 
 # ad-hoc diagnostic probes (kept locally, not tracked)
 _probe_*.ts
+tmp/
+*.log
+data/questions/
+data/sessions/
+data/runs/
+data/flows/KnowledgeHub/
+data/kb_flows/replies/
+data/kb_flows/prompts/

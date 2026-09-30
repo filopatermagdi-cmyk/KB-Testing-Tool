@@ -10,6 +10,7 @@
     "validate-questions": "tsx src/question-generator/validate.ts",
     "generate-audio": "tsx src/tts/generate_audio.ts",
     "build-sessions": "tsx src/session-runner/build_sessions.ts",
+    "build-multiflow": "tsx src/session-runner/build_multiflow_sessions.ts",
     "run-sessions": "tsx src/session-runner/run_sessions.ts",
     "run-sessions-ws": "tsx src/session-runner/run_sessions_ws.ts",
     "get-token": "tsx src/session-runner/get-token.ts",
@@ -17,6 +18,10 @@
     "agents": "tsx src/agents/agents.ts",
     "clean": "tsx src/clean.ts",
     "evaluate": "python3 -X utf8 -u src/evaluator/evaluate.py",
+    "kb-extract": "python src/kb_flows/extract_sources.py",
+    "kb-prompts": "tsx src/kb_flows/make_prompts.ts",
+    "kb-import": "tsx src/kb_flows/import_unified.ts data/kb_flows/replies",
+    "kb-convert": "tsx src/kb_flows/flows_to_questions.ts",
     "ui": "tsx src/ui/server.ts"
   },
   "dependencies": {

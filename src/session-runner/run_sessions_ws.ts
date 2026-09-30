@@ -19,6 +19,7 @@
  */
 import fs from "fs";
 import path from "path";
+import os from "os";
 import dotenv from "dotenv";
 import WebSocket from "ws";
 
@@ -41,6 +42,8 @@ interface Check {
   clip: string;
   responded: boolean;
   latencyMs: number | null;
+  answerText: string;
+  error?: string | null;
 }
 interface SessionResult {
   session_id: string;
@@ -62,7 +65,10 @@ const ROOT = process.cwd();
 const SESSIONS_PATH = path.join(ROOT, "data", "sessions.json");
 const RUNS_DIR = process.env.RUNS_DIR ? path.resolve(process.env.RUNS_DIR) : path.join(ROOT, "data", "runs");
 
-const WS_URL = process.env.WS_URL || "";
+// Connect target: --url overrides WS_URL (used by "relay" mode which talks to
+// the same Ziila protocol through a relay gateway). Empty WS_URL + empty --url
+// is a hard error, so the relay must supply its URL explicitly.
+const WS_URL = arg("url", "") || process.env.WS_URL || "";
 const WS_MODE = (process.env.WS_MODE || "text").toLowerCase();
 const WS_SETTLE_MS = intEnv("WS_SETTLE_MS", 5000);
 const WS_TURN_TIMEOUT_MS = intEnv("WS_TURN_TIMEOUT_MS", 20000);
@@ -77,6 +83,12 @@ const WS_CONFIRM_MS = intEnv("WS_CONFIRM_MS", 500);
 const WS_CONNECT_TIMEOUT_MS = intEnv("WS_CONNECT_TIMEOUT_MS", 10000);
 // Max connect attempts per session. Each failed attempt is a fresh socket.
 const WS_CONNECT_ATTEMPTS = intEnv("WS_CONNECT_ATTEMPTS", 3);
+// Session-level retries: when the relay/backend rejects the session request
+// before ANY turn ran (e.g. transient "MCP session request failed"), the whole
+// run is empty (no conversation id). Retry the session from scratch up to this
+// many TIMES (fresh socket + handshake), so a one-off backend hiccup — common
+// while several concurrent sessions start at once — doesn't nuke the call.
+const WS_SESSION_ATTEMPTS = intEnv("WS_SESSION_ATTEMPTS", 3);
 // Random stagger (ms) applied before the first connect of a session and
 // between retries, so a whole batch doesn't hammer the proxy at once.
 const WS_CONNECT_STAGGER_MS = intEnv("WS_CONNECT_STAGGER_MS", 2500);
@@ -84,6 +96,25 @@ const CONCURRENCY = intEnv("CONCURRENCY", 1);
 const CONCURRENT_AR = intEnv("CONCURRENT_AR", 0);
 const CONCURRENT_EN = intEnv("CONCURRENT_EN", 0);
 const MIXED = CONCURRENT_AR > 0 || CONCURRENT_EN > 0;
+
+// Memory guard: don't start another WS session when free RAM is critically low.
+// WS clients are much lighter than browsers, so the default floor is lower.
+// Any concurrency target is safe — sessions simply wait for RAM to free up.
+const MIN_FREE_RAM_GB = parseFloat(process.env.MIN_FREE_RAM_GB || "") || 0.8;
+const RAM_CHECK_MS = parseInt(process.env.RAM_CHECK_MS || "", 10) || 2000;
+
+function freeRamGb(): number {
+  return os.freemem() / 1024 ** 3;
+}
+
+async function waitForRam(): Promise<void> {
+  while (freeRamGb() < MIN_FREE_RAM_GB) {
+    console.log(
+      `  [ram] ${freeRamGb().toFixed(1)}GB free < ${MIN_FREE_RAM_GB}GB — waiting ${RAM_CHECK_MS / 1000}s before the next session...`
+    );
+    await sleep(RAM_CHECK_MS);
+  }
+}
 
 function intEnv(name: string, def: number): number {
   const n = parseInt(process.env[name] || "", 10);
@@ -232,6 +263,7 @@ interface TurnOutcome {
   fileIds?: string[];
   loadedFiles?: string[];
   playId?: string | null;
+  sawSource?: boolean;
 }
 
 // Runs every turn of one session over a single WS connection. Resolves with
@@ -305,6 +337,7 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
     let ctxFileIds: string[] = [];
     let ctxLoadedFiles: string[] = [];
     let ctxPlayId: string | null = null;
+    let ctxSawSource = false;
 
     const clearTimers = () => {
       if (settleTimer) clearTimeout(settleTimer);
@@ -391,9 +424,9 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
         sessionIdFromServer = msg.session_id;
         console.log(`[${session.session_id}] session confirmed: ${msg.session_id}`);
       }
-      if (Array.isArray(msg.file_ids) && msg.file_ids.length) ctxFileIds = msg.file_ids;
-      if (Array.isArray(msg.loaded_files) && msg.loaded_files.length) ctxLoadedFiles = msg.loaded_files;
-      if (typeof msg.play_id === "string" && msg.play_id) ctxPlayId = msg.play_id;
+      if (Array.isArray(msg.file_ids)) { ctxFileIds = msg.file_ids; ctxSawSource = true; }
+      if (Array.isArray(msg.loaded_files)) { ctxLoadedFiles = msg.loaded_files; ctxSawSource = true; }
+      if (typeof msg.play_id === "string") { ctxPlayId = msg.play_id; ctxSawSource = true; }
       if (typeof msg.llm_message_sentence === "string") {
         if (firstFrameAt === null) firstFrameAt = Date.now();
         sentences.push(msg.llm_message_sentence);
@@ -479,6 +512,7 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
         ctxFileIds = [];
         ctxLoadedFiles = [];
         ctxPlayId = null;
+        ctxSawSource = false;
         const turnError = fatalError;
         fatalError = null;
         sentAt = Date.now();
@@ -524,9 +558,10 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
           latencyMs,
           sessionIdFromServer,
           error: answerText.length === 0 ? fatalError || turnError || "no reply" : null,
-          ...(ctxFileIds.length ? { fileIds: [...ctxFileIds] } : {}),
-          ...(ctxLoadedFiles.length ? { loadedFiles: [...ctxLoadedFiles] } : {}),
-          ...(ctxPlayId ? { playId: ctxPlayId } : {}),
+          fileIds: [...ctxFileIds],
+          loadedFiles: [...ctxLoadedFiles],
+          playId: ctxPlayId,
+          sawSource: ctxSawSource,
         });
         if (ws.readyState !== WebSocket.OPEN) break;
         await new Promise((r) => setTimeout(r, WS_INTER_TURN_MS));
@@ -602,6 +637,7 @@ async function sessionWithStagger(session: Session): Promise<SessionResult> {
 }
 
 async function runSession(session: Session): Promise<SessionResult> {
+  await waitForRam();
   const agentId = agentIdFor(session);
   if (!agentId) {
     console.warn(
@@ -610,13 +646,37 @@ async function runSession(session: Session): Promise<SessionResult> {
     );
   }
   const started = Date.now();
-  const outcomes = await runSessionOverWs(session, agentId);
+  let outcomes = await runSessionOverWs(session, agentId);
   const wallMs = Date.now() - started;
+
+  // A session that never started (backend rejected the MCP/session request
+  // before any turn) produces a full batch of empty outcomes with no
+  // conversation id — indistinguishable per-outcome from a real run, but its
+  // signature is "0 replies + no sessionIdFromServer anywhere". Retry the
+  // session from scratch (fresh socket + handshake) to ride out the transient.
+  const neverStarted =
+    outcomes.every((o) => !o.responded) && outcomes.every((o) => !o.sessionIdFromServer);
+  if (neverStarted && outcomes.length > 0 && WS_SESSION_ATTEMPTS > 0) {
+    const sessionAttempts = Math.max(WS_SESSION_ATTEMPTS, 1);
+    for (let a = 1; a <= sessionAttempts; a++) {
+      const reasonErr = outcomes.find((o) => o.error)?.error || "session request failed";
+      console.warn(
+        `  [${session.session_id}] session not started (attempt ${a}/${sessionAttempts}): ${reasonErr}` +
+          ` — retrying the whole session...`
+      );
+      await sleep(Math.round(Math.random() * WS_CONNECT_STAGGER_MS) + 1000);
+      outcomes = await runSessionOverWs(session, agentId);
+      const againEmpty = outcomes.every((o) => !o.responded) && outcomes.every((o) => !o.sessionIdFromServer);
+      if (!againEmpty) break;
+    }
+  }
 
   const checks: Check[] = outcomes.map((o) => ({
     clip: o.question_id,
     responded: o.responded,
     latencyMs: o.latencyMs,
+    answerText: o.answerText,
+    error: o.error || null,
   }));
   const replies = checks.filter((c) => c.responded).length;
   const passed = checks.length === session.messages.length && checks.every((c) => c.responded);
@@ -631,22 +691,21 @@ async function runSession(session: Session): Promise<SessionResult> {
   const outDir = path.join(RUNS_DIR, session.session_id);
   fs.mkdirSync(outDir, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
-  const sourceFilesByTurn = outcomes
-    .map((o, i) => ({
+  const sourceFilesByTurn = outcomes.map((o, i) => ({
       turn: i + 1,
       question_id: o.question_id,
       file_ids: o.fileIds || [],
       loaded_files: o.loadedFiles || [],
       play_id: o.playId || null,
-    }))
-    .filter((r) => r.file_ids.length || r.loaded_files.length || r.play_id);
+      saw_source_frame: o.sawSource === true,
+    }));
   const sourceFilesUsed = [...new Set(sourceFilesByTurn.flatMap((r) => r.file_ids))].sort();
   const summary = {
     passed,
     reason,
     agentId,
     conversationId,
-    env: { appUrl: "" },
+    env: { appUrl: process.env.APP_URL || "" },
     checks,
     flags: { zillaReply: replies > 0, transcriptSaved: true, recordingUrl: false },
     latency: { maxMs, avgMs },
@@ -758,8 +817,9 @@ async function main(): Promise<void> {
   const arQueue = sessions.filter((s) => s.language === "ar");
   const enQueue = sessions.filter((s) => s.language === "en");
 
+  const connKind = arg("url", "") ? "relay" : "direct";
   console.log(
-    `Running ${sessions.length} session(s) over direct WebSocket (${WS_URL.replace(/\/[^/]+$/, "/***")}) ` +
+    `Running ${sessions.length} session(s) over ${connKind} WebSocket (${WS_URL.replace(/\/[^/]+$/, "/***")}) ` +
       `mode=${WS_MODE} — AR=${arQueue.length} conc=${concAR}, EN=${enQueue.length} conc=${concEN}...`
   );
 
@@ -808,7 +868,12 @@ async function main(): Promise<void> {
   const report = {
     stamp,
     startedAt: new Date().toISOString(),
-    scheduling: { type: "batch-ws", concurrentAR: concAR, concurrentEN: concEN, batches: batchNum },
+    scheduling: {
+      type: arg("url", "") ? "batch-relay" : "batch-ws",
+      concurrentAR: concAR,
+      concurrentEN: concEN,
+      batches: batchNum,
+    },
     selection: { shuffleSessions: false, sessionsPerRun: null, picked: results.length },
     sessions: results.length,
     passed: results.filter((r) => r.passed).length,

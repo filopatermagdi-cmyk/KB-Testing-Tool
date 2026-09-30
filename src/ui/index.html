@@ -74,9 +74,9 @@
   .phase-actions .note { font-size: 12px; color: var(--muted); }
 
   /* ---- output console ---- */
-  pre#output {
+  pre#output, pre#mf-output, pre#au-output, pre#kbf-output, pre#sr-output, pre#bs-output {
     background: #0d1117; color: #c9d1d9; padding: 14px; border-radius: 10px; overflow: auto;
-    max-height: 380px; font-size: 12px; line-height: 1.5; font-family: Consolas, monospace;
+    max-height: 280px; font-size: 12px; line-height: 1.5; font-family: Consolas, monospace;
     white-space: pre-wrap; word-break: break-word; border: 1px solid var(--border);
   }
 
@@ -282,6 +282,40 @@
     <pre id="bs-output"></pre>
   </section>
 
+  <section id="multiflow-sec">
+    <h2>Multi-Flow Sessions (3-flow pattern)</h2>
+    <div class="import-card">
+      <div class="import-row">
+        <label>Language</label>
+        <select id="mf-lang"></select>
+        <label style="width:auto;margin-left:16px">First flow (incremental)</label>
+        <select id="mf-first" style="flex:1"></select>
+        <label style="width:auto;margin-left:16px">Second flow (incremental)</label>
+        <select id="mf-second" style="flex:1"></select>
+      </div>
+      <div class="import-row">
+        <label>Third flow (full-dump)</label>
+        <select id="mf-third"></select>
+        <label style="width:auto;margin-left:16px">#Sessions</label>
+        <input type="number" id="mf-count" value="1" min="1" style="width:60px" title="How many sessions (used with RANDOM third)" />
+        <label style="width:auto;margin-left:16px">Seed</label>
+        <input type="text" id="mf-seed" placeholder="(empty = random)" style="width:140px" title="Deterministic flow selection for the random third flow" />
+        <label style="width:auto;margin-left:16px">Session name</label>
+        <input type="text" id="mf-name" value="MultiFlow" style="width:140px" title="File name (and session_id prefix)" />
+      </div>
+      <div class="import-row">
+        <span id="mf-info" class="note" style="flex:1"></span>
+      </div>
+      <div class="import-row">
+        <button id="mf-build">🔨 Build Multi-Flow Sessions</button>
+        <button id="mf-auto" class="secondary">🎲 Auto-Build (N = #flows ÷ 2)</button>
+        <span id="mf-status" class="note"></span>
+      </div>
+    </div>
+    <h2 style="margin-top:18px">Multi-Flow Output</h2>
+    <pre id="mf-output"></pre>
+  </section>
+
   <section id="audio-sec">
     <h2>Generate Audio (TTS)</h2>
     <div class="import-card">
@@ -298,11 +332,54 @@
       </div>
       <div class="import-row">
         <button id="au-generate">🎙 Generate Audio</button>
+        <button id="au-generate-all" class="secondary">🎙️ Generate ALL (one press)</button>
         <span id="au-status" class="note"></span>
       </div>
     </div>
     <h2 style="margin-top:18px">Generate Audio Output</h2>
     <pre id="au-output"></pre>
+  </section>
+
+  <section id="kb-flows-sec">
+    <h2>KB Flows (66-docx batch)</h2>
+    <div class="import-card">
+      <div class="import-row">
+        <label>KB sources</label>
+        <span class="note" style="flex:1" id="kbf-sources-note">Set KB_AR_DIR / KB_EN_DIR in .env (the 66-docx folders), then Extract.</span>
+      </div>
+      <div class="import-row">
+        <label>Step 1 — Extract docx</label>
+        <button id="kbf-extract">📄 Extract 66 pairs</button>
+        <span class="note" style="flex:1" id="kbf-extract-note"></span>
+      </div>
+      <div class="import-row">
+        <label>Step 2 — Claude prompts</label>
+        <button id="kbf-prompts">✍️ Make prompts</button>
+        <label style="width:auto">per batch</label>
+        <input type="number" id="kbf-batch" value="8" min="1" style="width:60px" />
+        <span class="note" style="flex:1" id="kbf-prompts-note"></span>
+      </div>
+      <div class="import-row">
+        <label>Step 3 — Claude reply files</label>
+        <span class="note" style="flex:1">Drop the 167 files into <b>data/kb_flows/replies/</b>, then press Import (below). To import from a pasted file instead, paste its JSON into the box.</span>
+      </div>
+      <div class="import-row">
+        <label>Paste (optional)</label>
+        <textarea id="kbf-reply" placeholder='Optional: paste a single {"chunks":[...],"flows":[...]} reply here. Leave empty to import everything already in data/kb_flows/replies/.' style="flex:1;height:70px;font-family:Consolas,monospace;font-size:12px;padding:8px;border:1px solid var(--input-border);border-radius:8px;background:var(--input-bg);color:var(--text)"></textarea>
+      </div>
+      <div class="import-row">
+        <button id="kbf-import">📥 Import into flow files</button>
+        <button id="kbf-import-preview" class="secondary">🔬 Dry-run only</button>
+        <span class="note" style="flex:1" id="kbf-import-note"></span>
+      </div>
+      <div class="import-row">
+        <label>Step 4 — Convert to questions</label>
+        <button id="kbf-convert">🔄 Flows → questions</button>
+        <span class="note" style="flex:1" id="kbf-convert-note"></span>
+      </div>
+    </div>
+    <h2 style="margin-top:18px">KB Flows Status</h2>
+    <pre id="kbf-output"></pre>
   </section>
 
   <section id="session-runner-sec">
@@ -312,6 +389,7 @@
         <label>Run via</label>
         <div style="display:flex;gap:8px;align-items:center;">
           <button id="sr-mode-ws" class="sr-mode" data-mode="ws">🔌 Direct WebSocket</button>
+          <button id="sr-mode-relay" class="sr-mode" data-mode="relay">🔁 Relay</button>
           <button id="sr-mode-ui" class="sr-mode active" data-mode="ui">🌐 Browser (CallRunner)</button>
         </div>
       </div>
@@ -345,6 +423,13 @@
         <label>Auto-refresh token</label>
         <input type="checkbox" id="sr-auto-token" checked style="width:18px;height:18px;accent-color:var(--accent)" />
         <span class="note">Login & refresh WS_TOKEN before running (needs ZILLA_EMAIL + ZILLA_PASSWORD in .env)</span>
+      </div>
+      <div class="import-row">
+        <label>Min free RAM (GB)</label>
+        <input type="number" id="sr-min-ram" value="1.5" min="0.2" step="0.1" style="width:60px" title="Don't launch a new call when free RAM drops below this — the runner waits (memory guard)" />
+        <label style="width:auto;margin-left:16px">Launch stagger (ms)</label>
+        <input type="number" id="sr-stagger" value="4000" min="0" step="500" style="width:80px" title="Min gap between Chromium spawns so a big batch ramps up smoothly" />
+        <span class="note">Two settings that make high concurrency safe on a low-RAM laptop.</span>
       </div>
       <div class="import-row">
         <span id="sr-info" class="note" style="flex:1"></span>
@@ -387,6 +472,11 @@
 
 <script>
 const $ = (id) => document.getElementById(id);
+
+function autoScroll(el) {
+  const atBottom = el.scrollHeight - el.scrollTop - el.clientHeight < 50;
+  if (atBottom) el.scrollTop = el.scrollHeight;
+}
 
 const PHASES = [
   { id: "extractChunks", label: "1. Extract KB chunks", script: "extract-chunks", hint: "spl_kb.docx data/chunks.json", on: false },
@@ -444,7 +534,7 @@ async function runPhase(id, args) {
       const { done, value } = await reader.read();
       if (done) break;
       out.textContent += dec.decode(value, { stream: true });
-      out.scrollTop = out.scrollHeight;
+      autoScroll(out);
     }
   } catch (err) {
     out.textContent += "\n[fetch error] " + err.message + "\n";
@@ -823,6 +913,10 @@ $("btn-import").addEventListener("click", async () => {
 let sessionFiles = {};
 let srRunning = false;
 let srMode = "ws"; // "ws" or "ui"
+(() => {
+  const activeBtn = document.querySelector(".sr-mode.active");
+  if (activeBtn) srMode = activeBtn.dataset.mode;
+})();
 
 async function loadSessionFiles() {
   try {
@@ -874,7 +968,7 @@ function updateSrInfo() {
   else if (lang === "en") { arCount = 0; }
   const total = arCount + enCount;
   const batches = Math.max(Math.ceil(arCount / concAr), Math.ceil(enCount / concEn));
-  const modeLabel = srMode === "ws" ? "Direct WebSocket" : "Browser (CallRunner)";
+  const modeLabel = srMode === "ws" ? "Direct WebSocket" : srMode === "relay" ? "Relay" : "Browser (CallRunner)";
   info.textContent = `${modeLabel} — ${total} calls (AR:${arCount} conc:${concAr} + EN:${enCount} conc:${concEn}) — ~${batches} batch(es) — ~${total * 10} questions`;
 }
 
@@ -899,6 +993,8 @@ async function runSessionRunner() {
         concurrentEn: $("sr-concurrent-en").value,
         mode: srMode,
         autoToken: $("sr-auto-token").checked,
+        minRam: $("sr-min-ram").value,
+        stagger: $("sr-stagger").value,
       }),
     });
     const reader = res.body.getReader();
@@ -907,7 +1003,7 @@ async function runSessionRunner() {
       const { done, value } = await reader.read();
       if (done) break;
       $("sr-output").textContent += dec.decode(value, { stream: true });
-      $("sr-output").scrollTop = $("sr-output").scrollHeight;
+      autoScroll($("sr-output"));
     }
     $("sr-status").textContent = "Done ✓";
     loadStatus();
@@ -1030,7 +1126,7 @@ async function runBuildSessions() {
       const { done, value } = await reader.read();
       if (done) break;
       $("bs-output").textContent += dec.decode(value, { stream: true });
-      $("bs-output").scrollTop = $("bs-output").scrollHeight;
+      autoScroll($("bs-output"));
     }
     $("bs-status").textContent = "Done ✓";
     await loadSessionFiles(); // refresh Session Runner dropdowns with the new files
@@ -1081,33 +1177,49 @@ function updateAudioFiles() {
 async function runGenerateAudio() {
   const file = $("au-file").value;
   if (!file) { $("au-status").textContent = "Pick a questions file first"; return; }
-  $("au-generate").disabled = true;
-  $("au-status").textContent = "Generating...";
+  await streamGenerateAudio({ file });
+}
+
+async function runGenerateAll() {
+  const topic = $("au-topic").value;
+  if (!topic) { $("au-status").textContent = "Pick a topic first"; return; }
+  $("au-status").textContent = "Generating ALL (skips existing wavs)...";
+  // Send the topic folder ("questions/<topic>") — generate_audio treats it as a
+  // folder: it processes every question file inside, and RESUME (default true)
+  // skips any question whose wav already exists → only NEW files get generated.
+  await streamGenerateAudio({ file: "questions/" + topic });
+}
+
+async function streamGenerateAudio(payload) {
+  const btn = $("au-generate").disabled ? $("au-generate") : $("au-generate-all");
+  btn.disabled = true;
   $("au-output").textContent = "";
   try {
     const res = await fetch("/api/generate-audio", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ file }),
+      body: JSON.stringify(payload),
     });
+    if (!res.ok) { $("au-status").textContent = "HTTP " + res.status; return; }
     const reader = res.body.getReader();
     const dec = new TextDecoder();
     while (true) {
       const { done, value } = await reader.read();
       if (done) break;
       $("au-output").textContent += dec.decode(value, { stream: true });
-      $("au-output").scrollTop = $("au-output").scrollHeight;
+      autoScroll($("au-output"));
     }
     $("au-status").textContent = "Done ✓";
   } catch (err) {
     $("au-status").textContent = "Error: " + err.message;
   } finally {
-    $("au-generate").disabled = false;
+    btn.disabled = false;
   }
 }
 
 $("au-topic").addEventListener("change", updateAudioFiles);
 $("au-generate").addEventListener("click", runGenerateAudio);
+$("au-generate-all").addEventListener("click", runGenerateAll);
 
 renderPhases();
 loadEnv();
@@ -1116,6 +1228,245 @@ loadStatus();
 loadCalls();
 loadAgents();
 loadSessionFiles();
+
+/* ---------- KB Flows (66-docx batch) ---------- */
+async function runKbPhase(endpoint, body) {
+  const out = $("kbf-output");
+  out.textContent = "";
+  try {
+    const res = await fetch("/api/" + endpoint, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body || {}),
+    });
+    if (!res.ok) { out.textContent = "HTTP " + res.status + ": " + (await res.text()); return false; }
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      out.textContent += dec.decode(value, { stream: true });
+      autoScroll(out);
+    }
+    loadEnv();
+    return true;
+  } catch (err) {
+    out.textContent += "\n[fetch error] " + err.message + "\n";
+    return false;
+  }
+}
+
+let kbfRepliesCount = 0;
+
+async function loadKbFlowsStatus() {
+  try {
+    const r = await (await fetch("/api/kb-flows")).json();
+    kbfRepliesCount = r.replies.length;
+    const p = (x) => (x ? x.count + " pairs" : "none");
+    $("kbf-extract-note").textContent = r.sources ? `sources.json: ${p(r.sources)}` : "no sources.json yet";
+    $("kbf-prompts-note").textContent = `${r.prompts.length} prompt(s) ready`;
+    $("kbf-import-note").textContent = `${r.replies.length} saved reply(ies), ${r.flows.length} flow file(s)`;
+    $("kbf-convert-note").textContent = `${r.questionFiles.length} questions file(s) in data/questions/KnowledgeHub`;
+    const kbf = $("kbf-output");
+    kbf.textContent = JSON.stringify(r, null, 2);
+    if (r.flows.length) {
+      $("kbf-import-note").textContent += ` — latest: ${r.flows[r.flows.length - 1].file}`;
+    }
+  } catch (e) {
+    $("kbf-extract-note").textContent = "status error: " + e.message;
+  }
+}
+
+$("kbf-extract").addEventListener("click", async () => {
+  const vals = envValues;
+  const arDir = vals.KB_AR_DIR || "";
+  const enDir = vals.KB_EN_DIR || "";
+  if (!arDir || !enDir) { $("kbf-output").textContent = "Set KB_AR_DIR and KB_EN_DIR in .env first"; return; }
+  $("kbf-extract").disabled = true;
+  await runKbPhase("kb-flows/extract", { arDir, enDir });
+  $("kbf-extract").disabled = false;
+  loadKbFlowsStatus();
+});
+
+$("kbf-prompts").addEventListener("click", async () => {
+  const batch = parseInt($("kbf-batch").value, 10) || 8;
+  $("kbf-prompts").disabled = true;
+  await runKbPhase("kb-flows/prompts", { batch });
+  $("kbf-prompts").disabled = false;
+  loadKbFlowsStatus();
+});
+
+async function doImport(preview) {
+  const text = $("kbf-reply").value.trim();
+  if (preview && !text) { $("kbf-import-note").textContent = "Paste Claude's reply to use Dry-run (or leave empty and press Import to read the folder)"; return; }
+  if (!preview && !text && kbfRepliesCount === 0) {
+    $("kbf-import-note").textContent = "No files in data/kb_flows/replies/ and nothing pasted";
+    return;
+  }
+  $("kbf-import").disabled = true;
+  $("kbf-import-preview").disabled = true;
+  if (preview) {
+    try {
+      const data = JSON.parse(text);
+      const flows = Array.isArray(data) ? data : (data.flows || []);
+      const byFlow = new Map();
+      for (const f of flows) {
+        const key = f.flow_id || f.id || "UNKNOWN";
+        const l = byFlow.get(key) || [];
+        l.push(f); byFlow.set(key, l);
+      }
+      $("kbf-output").textContent = `DRY RUN: ${flows.length} scenario(s) in ${byFlow.size} flow(s)`;
+      for (const [k, v] of byFlow) $("kbf-output").textContent += `\n  ${k}: ${v.length} scenario(s) (${v.map((x) => x.language + "/" + x.mode).join(", ")})`;
+      let problems = 0;
+      for (const f of flows) {
+        if (f.mode === "full_dump" && !f.expected_answer) problems++;
+        if (f.mode === "incremental" && !Array.isArray(f.steps)) problems++;
+      }
+      if (problems) $("kbf-output").textContent += `\n!\n! ${problems} scenario(s) look incomplete`;
+    } catch (e) {
+      $("kbf-output").textContent = "Bad JSON: " + e.message;
+    }
+  } else {
+    await runKbPhase("kb-flows/import", { text });
+    $("kbf-reply").value = "";
+    loadKbFlowsStatus();
+  }
+  $("kbf-import").disabled = false;
+  $("kbf-import-preview").disabled = false;
+}
+$("kbf-import").addEventListener("click", () => doImport(false));
+$("kbf-import-preview").addEventListener("click", () => doImport(true));
+
+$("kbf-convert").addEventListener("click", async () => {
+  $("kbf-convert").disabled = true;
+  await runKbPhase("kb-flows/convert", {});
+  $("kbf-convert").disabled = false;
+  loadKbFlowsStatus();
+});
+
+loadKbFlowsStatus();
+
+/* ---------- Multi-Flow Sessions (3-flow pattern) ---------- */
+let mfPools = {};
+
+async function loadMfPools() {
+  try {
+    const r = await (await fetch("/api/kb-flows")).json();
+    mfPools = r.multiflowPools || {};
+    const langs = [...new Set(Object.values(mfPools).flatMap((p) => Object.keys(p.incremental).concat(Object.keys(p.fullDump))))];
+    const langSel = $("mf-lang");
+    langSel.innerHTML = "";
+    // Add "Both" option first if more than one language
+    if (langs.length > 1) {
+      const both = document.createElement("option");
+      both.value = langs.join(",");
+      both.textContent = `Both (${langs.map((l) => l.toUpperCase()).join(" + ")})`;
+      langSel.appendChild(both);
+    }
+    for (const l of langs.sort()) {
+      const o = document.createElement("option");
+      o.value = l;
+      o.textContent = l.toUpperCase();
+      langSel.appendChild(o);
+    }
+    if (langs.length) {
+      langSel.value = langs.includes("ar") ? "ar" : langs[0];
+      populateMfSelects();
+    } else {
+      $("mf-info").textContent = "No converted question files yet — run Flows → questions first.";
+    }
+  } catch (e) {
+    $("mf-info").textContent = "load error: " + e.message;
+  }
+}
+
+function mfBasesForLang() {
+  const lang = $("mf-lang").value;
+  const bases = Object.keys(mfPools);
+  return bases.filter((b) => (mfPools[b].incremental[lang] || []).length && (mfPools[b].fullDump[lang] || []).length);
+}
+
+function fillSelect(sel, options, label) {
+  sel.innerHTML = "";
+  const o = document.createElement("option");
+  o.value = "";
+  o.textContent = label;
+  sel.appendChild(o);
+  for (const opt of options) {
+    const e = document.createElement("option");
+    e.value = opt;
+    e.textContent = opt;
+    sel.appendChild(e);
+  }
+}
+
+function populateMfSelects() {
+  const bases = mfBasesForLang().sort();
+  fillSelect($("mf-first"), bases, "(select first flow)");
+  fillSelect($("mf-second"), bases, "(select second flow)");
+  const third = $("mf-third");
+  fillSelect(third, bases.filter((b) => b !== $("mf-first").value && b !== $("mf-second").value), "🎲 RANDOM");
+  third.value = "";
+  third.options[0].value = "RANDOM";
+  $("mf-info").textContent = `${bases.length} flow(s) ready — Auto-Build makes ${Math.floor(bases.length / 2)} sessions (flows ÷ 2). The first/second/third dropdowns are for MANUAL mode only.`;
+}
+
+$("mf-lang").addEventListener("change", populateMfSelects);
+$("mf-first").addEventListener("change", populateMfSelects);
+$("mf-second").addEventListener("change", populateMfSelects);
+
+$("mf-build").addEventListener("click", async () => {
+  const first = $("mf-first").value, second = $("mf-second").value, third = $("mf-third").value;
+  if (!first || !second) { $("mf-status").textContent = "Pick first and second flows"; return; }
+  await mfRun({
+    langs: $("mf-lang").value.split(","),
+    first, second,
+    third: third || "RANDOM",
+    name: $("mf-name").value || "MultiFlow",
+    count: $("mf-count").value,
+    seed: $("mf-seed").value,
+  });
+});
+
+$("mf-auto").addEventListener("click", async () => {
+  await mfRun({
+    auto: true,
+    langs: $("mf-lang").value.split(","),
+    name: $("mf-name").value || "MultiFlow",
+    seed: $("mf-seed").value,
+  });
+});
+
+async function mfRun(body) {
+  const btn = body.auto ? $("mf-auto") : $("mf-build");
+  btn.disabled = true;
+  $("mf-status").textContent = "Building...";
+  $("mf-output").textContent = "";
+  try {
+    const res = await fetch("/api/kb-flows/build-multiflow", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    });
+    if (!res.ok) { $("mf-status").textContent = "HTTP " + res.status + ": " + (await res.text()); return; }
+    const reader = res.body.getReader();
+    const dec = new TextDecoder();
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      $("mf-output").textContent += dec.decode(value, { stream: true });
+      autoScroll($("mf-output"));
+    }
+    $("mf-status").textContent = "Done ✓";
+    loadSessionFiles();
+  } catch (err) {
+    $("mf-status").textContent = "Error: " + err.message;
+  } finally {
+    btn.disabled = false;
+  }
+}
+
+loadMfPools();
 </script>
 </body>
 </html>

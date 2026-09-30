@@ -4,11 +4,25 @@
     "General": {
       "sub_topics": [
         {
+          "sub_topic": "200QA179",
+          "file": "questions/General/200QA179.json",
+          "ar": 200,
+          "en": 200,
+          "total": 400
+        },
+        {
           "sub_topic": "AllTopics",
           "file": "questions/General/AllTopics.json",
           "ar": 220,
           "en": 220,
           "total": 440
+        },
+        {
+          "sub_topic": "discrepancy-test",
+          "file": "questions/General/discrepancy-test.json",
+          "ar": 6,
+          "en": 6,
+          "total": 12
         },
         {
           "sub_topic": "real-client",
@@ -18,7 +32,1860 @@
           "total": 200
         }
       ],
-      "total": 640
+      "total": 1052
+    },
+    "KnowledgeHub": {
+      "sub_topics": [
+        {
+          "sub_topic": "Access Bill Payments-FullDump_AR",
+          "file": "questions/KnowledgeHub/Access Bill Payments-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Access Bill Payments-FullDump_EN",
+          "file": "questions/KnowledgeHub/Access Bill Payments-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Access Bill Payments-Incremental_AR",
+          "file": "questions/KnowledgeHub/Access Bill Payments-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        },
+        {
+          "sub_topic": "Access Bill Payments-Incremental_EN",
+          "file": "questions/KnowledgeHub/Access Bill Payments-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Access Your Debit Card-FullDump_AR",
+          "file": "questions/KnowledgeHub/Access Your Debit Card-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Access Your Debit Card-FullDump_EN",
+          "file": "questions/KnowledgeHub/Access Your Debit Card-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Access Your Debit Card-Incremental_AR",
+          "file": "questions/KnowledgeHub/Access Your Debit Card-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        },
+        {
+          "sub_topic": "Access Your Debit Card-Incremental_EN",
+          "file": "questions/KnowledgeHub/Access Your Debit Card-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Access Your Deposits-FullDump_AR",
+          "file": "questions/KnowledgeHub/Access Your Deposits-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Access Your Deposits-FullDump_EN",
+          "file": "questions/KnowledgeHub/Access Your Deposits-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Access Your Deposits-Incremental_AR",
+          "file": "questions/KnowledgeHub/Access Your Deposits-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        },
+        {
+          "sub_topic": "Access Your Deposits-Incremental_EN",
+          "file": "questions/KnowledgeHub/Access Your Deposits-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Activate SMS Notifications-FullDump_AR",
+          "file": "questions/KnowledgeHub/Activate SMS Notifications-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Activate SMS Notifications-FullDump_EN",
+          "file": "questions/KnowledgeHub/Activate SMS Notifications-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Activate SMS Notifications-Incremental_AR",
+          "file": "questions/KnowledgeHub/Activate SMS Notifications-Incremental_AR.json",
+          "ar": 3,
+          "en": 0,
+          "total": 3
+        },
+        {
+          "sub_topic": "Activate SMS Notifications-Incremental_EN",
+          "file": "questions/KnowledgeHub/Activate SMS Notifications-Incremental_EN.json",
+          "ar": 0,
+          "en": 3,
+          "total": 3
+        },
+        {
+          "sub_topic": "Add a Card to Apple Pay via the Bank al Etihad App-FullDump_AR",
+          "file": "questions/KnowledgeHub/Add a Card to Apple Pay via the Bank al Etihad App-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Add a Card to Apple Pay via the Bank al Etihad App-FullDump_EN",
+          "file": "questions/KnowledgeHub/Add a Card to Apple Pay via the Bank al Etihad App-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Add a Card to Apple Pay via the Bank al Etihad App-Incremental_AR",
+          "file": "questions/KnowledgeHub/Add a Card to Apple Pay via the Bank al Etihad App-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "Add a Card to Apple Pay via the Bank al Etihad App-Incremental_EN",
+          "file": "questions/KnowledgeHub/Add a Card to Apple Pay via the Bank al Etihad App-Incremental_EN.json",
+          "ar": 0,
+          "en": 4,
+          "total": 4
+        },
+        {
+          "sub_topic": "Buying stocks-FullDump_AR",
+          "file": "questions/KnowledgeHub/Buying stocks-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Buying stocks-FullDump_EN",
+          "file": "questions/KnowledgeHub/Buying stocks-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Buying stocks-Incremental_AR",
+          "file": "questions/KnowledgeHub/Buying stocks-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Buying stocks-Incremental_EN",
+          "file": "questions/KnowledgeHub/Buying stocks-Incremental_EN.json",
+          "ar": 0,
+          "en": 7,
+          "total": 7
+        },
+        {
+          "sub_topic": "Close a Sub-Account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Close a Sub-Account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Close a Sub-Account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Close a Sub-Account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Close a Sub-Account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Close a Sub-Account-Incremental_AR.json",
+          "ar": 5,
+          "en": 0,
+          "total": 5
+        },
+        {
+          "sub_topic": "Close a Sub-Account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Close a Sub-Account-Incremental_EN.json",
+          "ar": 0,
+          "en": 5,
+          "total": 5
+        },
+        {
+          "sub_topic": "Create a card-FullDump_AR",
+          "file": "questions/KnowledgeHub/Create a card-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Create a card-FullDump_EN",
+          "file": "questions/KnowledgeHub/Create a card-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Create a card-Incremental_AR",
+          "file": "questions/KnowledgeHub/Create a card-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Create a card-Incremental_EN",
+          "file": "questions/KnowledgeHub/Create a card-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Create a CliQ Alias-FullDump_AR",
+          "file": "questions/KnowledgeHub/Create a CliQ Alias-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Create a CliQ Alias-FullDump_EN",
+          "file": "questions/KnowledgeHub/Create a CliQ Alias-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Create a CliQ Alias-Incremental_AR",
+          "file": "questions/KnowledgeHub/Create a CliQ Alias-Incremental_AR.json",
+          "ar": 5,
+          "en": 0,
+          "total": 5
+        },
+        {
+          "sub_topic": "Create a CliQ Alias-Incremental_EN",
+          "file": "questions/KnowledgeHub/Create a CliQ Alias-Incremental_EN.json",
+          "ar": 0,
+          "en": 5,
+          "total": 5
+        },
+        {
+          "sub_topic": "Dispute a transaction on the Bank al Etihad app-FullDump_AR",
+          "file": "questions/KnowledgeHub/Dispute a transaction on the Bank al Etihad app-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Dispute a transaction on the Bank al Etihad app-FullDump_EN",
+          "file": "questions/KnowledgeHub/Dispute a transaction on the Bank al Etihad app-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Dispute a transaction on the Bank al Etihad app-Incremental_AR",
+          "file": "questions/KnowledgeHub/Dispute a transaction on the Bank al Etihad app-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Dispute a transaction on the Bank al Etihad app-Incremental_EN",
+          "file": "questions/KnowledgeHub/Dispute a transaction on the Bank al Etihad app-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Filter Your Transactions-FullDump_AR",
+          "file": "questions/KnowledgeHub/Filter Your Transactions-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Filter Your Transactions-FullDump_EN",
+          "file": "questions/KnowledgeHub/Filter Your Transactions-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Filter Your Transactions-Incremental_AR",
+          "file": "questions/KnowledgeHub/Filter Your Transactions-Incremental_AR.json",
+          "ar": 3,
+          "en": 0,
+          "total": 3
+        },
+        {
+          "sub_topic": "Filter Your Transactions-Incremental_EN",
+          "file": "questions/KnowledgeHub/Filter Your Transactions-Incremental_EN.json",
+          "ar": 0,
+          "en": 3,
+          "total": 3
+        },
+        {
+          "sub_topic": "Freeze or Unfreeze Your Card-FullDump_AR",
+          "file": "questions/KnowledgeHub/Freeze or Unfreeze Your Card-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Freeze or Unfreeze Your Card-FullDump_EN",
+          "file": "questions/KnowledgeHub/Freeze or Unfreeze Your Card-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Freeze or Unfreeze Your Card-Incremental_AR",
+          "file": "questions/KnowledgeHub/Freeze or Unfreeze Your Card-Incremental_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Freeze or Unfreeze Your Card-Incremental_EN",
+          "file": "questions/KnowledgeHub/Freeze or Unfreeze Your Card-Incremental_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Generate a Debit Card for Apple Pay-FullDump_AR",
+          "file": "questions/KnowledgeHub/Generate a Debit Card for Apple Pay-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Generate a Debit Card for Apple Pay-FullDump_EN",
+          "file": "questions/KnowledgeHub/Generate a Debit Card for Apple Pay-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Generate a Debit Card for Apple Pay-Incremental_AR",
+          "file": "questions/KnowledgeHub/Generate a Debit Card for Apple Pay-Incremental_AR.json",
+          "ar": 3,
+          "en": 0,
+          "total": 3
+        },
+        {
+          "sub_topic": "Generate a Debit Card for Apple Pay-Incremental_EN",
+          "file": "questions/KnowledgeHub/Generate a Debit Card for Apple Pay-Incremental_EN.json",
+          "ar": 0,
+          "en": 3,
+          "total": 3
+        },
+        {
+          "sub_topic": "Generating statements-FullDump_AR",
+          "file": "questions/KnowledgeHub/Generating statements-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Generating statements-FullDump_EN",
+          "file": "questions/KnowledgeHub/Generating statements-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Generating statements-Incremental_AR",
+          "file": "questions/KnowledgeHub/Generating statements-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "Generating statements-Incremental_EN",
+          "file": "questions/KnowledgeHub/Generating statements-Incremental_EN.json",
+          "ar": 0,
+          "en": 4,
+          "total": 4
+        },
+        {
+          "sub_topic": "Get travel insurance in just a few steps-FullDump_AR",
+          "file": "questions/KnowledgeHub/Get travel insurance in just a few steps-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Get travel insurance in just a few steps-FullDump_EN",
+          "file": "questions/KnowledgeHub/Get travel insurance in just a few steps-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Get travel insurance in just a few steps-Incremental_AR",
+          "file": "questions/KnowledgeHub/Get travel insurance in just a few steps-Incremental_AR.json",
+          "ar": 13,
+          "en": 0,
+          "total": 13
+        },
+        {
+          "sub_topic": "Get travel insurance in just a few steps-Incremental_EN",
+          "file": "questions/KnowledgeHub/Get travel insurance in just a few steps-Incremental_EN.json",
+          "ar": 0,
+          "en": 13,
+          "total": 13
+        },
+        {
+          "sub_topic": "Hide or Unhide Accounts-FullDump_AR",
+          "file": "questions/KnowledgeHub/Hide or Unhide Accounts-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Hide or Unhide Accounts-FullDump_EN",
+          "file": "questions/KnowledgeHub/Hide or Unhide Accounts-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Hide or Unhide Accounts-Incremental_AR",
+          "file": "questions/KnowledgeHub/Hide or Unhide Accounts-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "Hide or Unhide Accounts-Incremental_EN",
+          "file": "questions/KnowledgeHub/Hide or Unhide Accounts-Incremental_EN.json",
+          "ar": 0,
+          "en": 4,
+          "total": 4
+        },
+        {
+          "sub_topic": "How to buy gold bar-FullDump_AR",
+          "file": "questions/KnowledgeHub/How to buy gold bar-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "How to buy gold bar-FullDump_EN",
+          "file": "questions/KnowledgeHub/How to buy gold bar-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "How to buy gold bar-Incremental_AR",
+          "file": "questions/KnowledgeHub/How to buy gold bar-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "How to buy gold bar-Incremental_EN",
+          "file": "questions/KnowledgeHub/How to buy gold bar-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Increase to your credit card limit through our App!-FullDump_AR",
+          "file": "questions/KnowledgeHub/Increase to your credit card limit through our App!-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Increase to your credit card limit through our App!-FullDump_EN",
+          "file": "questions/KnowledgeHub/Increase to your credit card limit through our App!-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Increase to your credit card limit through our App!-Incremental_AR",
+          "file": "questions/KnowledgeHub/Increase to your credit card limit through our App!-Incremental_AR.json",
+          "ar": 9,
+          "en": 0,
+          "total": 9
+        },
+        {
+          "sub_topic": "Increase to your credit card limit through our App!-Incremental_EN",
+          "file": "questions/KnowledgeHub/Increase to your credit card limit through our App!-Incremental_EN.json",
+          "ar": 0,
+          "en": 9,
+          "total": 9
+        },
+        {
+          "sub_topic": "Link Your Debit Card to Multiple Accounts-FullDump_AR",
+          "file": "questions/KnowledgeHub/Link Your Debit Card to Multiple Accounts-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Link Your Debit Card to Multiple Accounts-FullDump_EN",
+          "file": "questions/KnowledgeHub/Link Your Debit Card to Multiple Accounts-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Link Your Debit Card to Multiple Accounts-Incremental_AR",
+          "file": "questions/KnowledgeHub/Link Your Debit Card to Multiple Accounts-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        },
+        {
+          "sub_topic": "Link Your Debit Card to Multiple Accounts-Incremental_EN",
+          "file": "questions/KnowledgeHub/Link Your Debit Card to Multiple Accounts-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Log in to another account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Log in to another account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Log in to another account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Log in to another account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Log in to another account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Log in to another account-Incremental_AR.json",
+          "ar": 15,
+          "en": 0,
+          "total": 15
+        },
+        {
+          "sub_topic": "Log in to another account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Log in to another account-Incremental_EN.json",
+          "ar": 0,
+          "en": 16,
+          "total": 16
+        },
+        {
+          "sub_topic": "Logging out of your account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Logging out of your account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Logging out of your account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Logging out of your account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Logging out of your account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Logging out of your account-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Logging out of your account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Logging out of your account-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Make a CliQ Payment (Alias or Mobile Number)-FullDump_AR",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment (Alias or Mobile Number)-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Make a CliQ Payment (Alias or Mobile Number)-FullDump_EN",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment (Alias or Mobile Number)-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Make a CliQ Payment (Alias or Mobile Number)-Incremental_AR",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment (Alias or Mobile Number)-Incremental_AR.json",
+          "ar": 10,
+          "en": 0,
+          "total": 10
+        },
+        {
+          "sub_topic": "Make a CliQ Payment (Alias or Mobile Number)-Incremental_EN",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment (Alias or Mobile Number)-Incremental_EN.json",
+          "ar": 0,
+          "en": 10,
+          "total": 10
+        },
+        {
+          "sub_topic": "Make a CliQ Payment to an IBAN-FullDump_AR",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment to an IBAN-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Make a CliQ Payment to an IBAN-FullDump_EN",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment to an IBAN-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Make a CliQ Payment to an IBAN-Incremental_AR",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment to an IBAN-Incremental_AR.json",
+          "ar": 9,
+          "en": 0,
+          "total": 9
+        },
+        {
+          "sub_topic": "Make a CliQ Payment to an IBAN-Incremental_EN",
+          "file": "questions/KnowledgeHub/Make a CliQ Payment to an IBAN-Incremental_EN.json",
+          "ar": 0,
+          "en": 9,
+          "total": 9
+        },
+        {
+          "sub_topic": "Manage Your Apple Pay Contactless Limit-FullDump_AR",
+          "file": "questions/KnowledgeHub/Manage Your Apple Pay Contactless Limit-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Manage Your Apple Pay Contactless Limit-FullDump_EN",
+          "file": "questions/KnowledgeHub/Manage Your Apple Pay Contactless Limit-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Manage Your Apple Pay Contactless Limit-Incremental_AR",
+          "file": "questions/KnowledgeHub/Manage Your Apple Pay Contactless Limit-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        },
+        {
+          "sub_topic": "Manage Your Apple Pay Contactless Limit-Incremental_EN",
+          "file": "questions/KnowledgeHub/Manage Your Apple Pay Contactless Limit-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Manage Your Card Settings-FullDump_AR",
+          "file": "questions/KnowledgeHub/Manage Your Card Settings-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Manage Your Card Settings-FullDump_EN",
+          "file": "questions/KnowledgeHub/Manage Your Card Settings-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Manage Your Card Settings-Incremental_AR",
+          "file": "questions/KnowledgeHub/Manage Your Card Settings-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        },
+        {
+          "sub_topic": "Manage Your Card Settings-Incremental_EN",
+          "file": "questions/KnowledgeHub/Manage Your Card Settings-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Monitor Your Spending-FullDump_AR",
+          "file": "questions/KnowledgeHub/Monitor Your Spending-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Monitor Your Spending-FullDump_EN",
+          "file": "questions/KnowledgeHub/Monitor Your Spending-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Monitor Your Spending-Incremental_AR",
+          "file": "questions/KnowledgeHub/Monitor Your Spending-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        },
+        {
+          "sub_topic": "Monitor Your Spending-Incremental_EN",
+          "file": "questions/KnowledgeHub/Monitor Your Spending-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Notification Center-FullDump_AR",
+          "file": "questions/KnowledgeHub/Notification Center-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Notification Center-FullDump_EN",
+          "file": "questions/KnowledgeHub/Notification Center-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Notification Center-Incremental_AR",
+          "file": "questions/KnowledgeHub/Notification Center-Incremental_AR.json",
+          "ar": 3,
+          "en": 0,
+          "total": 3
+        },
+        {
+          "sub_topic": "Notification Center-Incremental_EN",
+          "file": "questions/KnowledgeHub/Notification Center-Incremental_EN.json",
+          "ar": 0,
+          "en": 3,
+          "total": 3
+        },
+        {
+          "sub_topic": "Open a Certificate of Deposit-FullDump_AR",
+          "file": "questions/KnowledgeHub/Open a Certificate of Deposit-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open a Certificate of Deposit-FullDump_EN",
+          "file": "questions/KnowledgeHub/Open a Certificate of Deposit-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open a Certificate of Deposit-Incremental_AR",
+          "file": "questions/KnowledgeHub/Open a Certificate of Deposit-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Open a Certificate of Deposit-Incremental_EN",
+          "file": "questions/KnowledgeHub/Open a Certificate of Deposit-Incremental_EN.json",
+          "ar": 0,
+          "en": 7,
+          "total": 7
+        },
+        {
+          "sub_topic": "Open a New Sub-Account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Open a New Sub-Account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open a New Sub-Account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Open a New Sub-Account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open a New Sub-Account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Open a New Sub-Account-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Open a New Sub-Account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Open a New Sub-Account-Incremental_EN.json",
+          "ar": 0,
+          "en": 7,
+          "total": 7
+        },
+        {
+          "sub_topic": "Open a Term Deposit-FullDump_AR",
+          "file": "questions/KnowledgeHub/Open a Term Deposit-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open a Term Deposit-FullDump_EN",
+          "file": "questions/KnowledgeHub/Open a Term Deposit-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open a Term Deposit-Incremental_AR",
+          "file": "questions/KnowledgeHub/Open a Term Deposit-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Open a Term Deposit-Incremental_EN",
+          "file": "questions/KnowledgeHub/Open a Term Deposit-Incremental_EN.json",
+          "ar": 0,
+          "en": 7,
+          "total": 7
+        },
+        {
+          "sub_topic": "Open an Account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Open an Account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open an Account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Open an Account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Open an Account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Open an Account-Incremental_AR.json",
+          "ar": 28,
+          "en": 0,
+          "total": 28
+        },
+        {
+          "sub_topic": "Open an Account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Open an Account-Incremental_EN.json",
+          "ar": 0,
+          "en": 29,
+          "total": 29
+        },
+        {
+          "sub_topic": "Opening a trading account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Opening a trading account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Opening a trading account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Opening a trading account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Opening a trading account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Opening a trading account-Incremental_AR.json",
+          "ar": 8,
+          "en": 0,
+          "total": 8
+        },
+        {
+          "sub_topic": "Opening a trading account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Opening a trading account-Incremental_EN.json",
+          "ar": 0,
+          "en": 8,
+          "total": 8
+        },
+        {
+          "sub_topic": "Organize Your Accounts-FullDump_AR",
+          "file": "questions/KnowledgeHub/Organize Your Accounts-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Organize Your Accounts-FullDump_EN",
+          "file": "questions/KnowledgeHub/Organize Your Accounts-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Organize Your Accounts-Incremental_AR",
+          "file": "questions/KnowledgeHub/Organize Your Accounts-Incremental_AR.json",
+          "ar": 5,
+          "en": 0,
+          "total": 5
+        },
+        {
+          "sub_topic": "Organize Your Accounts-Incremental_EN",
+          "file": "questions/KnowledgeHub/Organize Your Accounts-Incremental_EN.json",
+          "ar": 0,
+          "en": 5,
+          "total": 5
+        },
+        {
+          "sub_topic": "Pay All Bills with QuickPay-FullDump_EN",
+          "file": "questions/KnowledgeHub/Pay All Bills with QuickPay-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Pay All Bills with QuickPay-Incremental_EN",
+          "file": "questions/KnowledgeHub/Pay All Bills with QuickPay-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Pay Bills Individually-FullDump_EN",
+          "file": "questions/KnowledgeHub/Pay Bills Individually-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Pay Bills Individually-Incremental_EN",
+          "file": "questions/KnowledgeHub/Pay Bills Individually-Incremental_EN.json",
+          "ar": 0,
+          "en": 2,
+          "total": 2
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Over 25000 JOD-FullDump_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Over 25000 JOD-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Over 25000 JOD-FullDump_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Over 25000 JOD-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Over 25000 JOD-Incremental_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Over 25000 JOD-Incremental_AR.json",
+          "ar": 8,
+          "en": 0,
+          "total": 8
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Over 25000 JOD-Incremental_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Over 25000 JOD-Incremental_EN.json",
+          "ar": 0,
+          "en": 8,
+          "total": 8
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Under 25000 JOD-FullDump_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Under 25000 JOD-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Under 25000 JOD-FullDump_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Under 25000 JOD-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Under 25000 JOD-Incremental_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Under 25000 JOD-Incremental_AR.json",
+          "ar": 8,
+          "en": 0,
+          "total": 8
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Not Subscribed, Under 25000 JOD-Incremental_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Not Subscribed, Under 25000 JOD-Incremental_EN.json",
+          "ar": 0,
+          "en": 8,
+          "total": 8
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Over 25000 JOD-FullDump_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Over 25000 JOD-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Over 25000 JOD-FullDump_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Over 25000 JOD-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Over 25000 JOD-Incremental_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Over 25000 JOD-Incremental_AR.json",
+          "ar": 9,
+          "en": 0,
+          "total": 9
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Over 25000 JOD-Incremental_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Over 25000 JOD-Incremental_EN.json",
+          "ar": 0,
+          "en": 9,
+          "total": 9
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Under 25000 JOD-FullDump_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Under 25000 JOD-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Under 25000 JOD-FullDump_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Under 25000 JOD-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Under 25000 JOD-Incremental_AR",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Under 25000 JOD-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Personal Financing - SSC Subscribed, Under 25000 JOD-Incremental_EN",
+          "file": "questions/KnowledgeHub/Personal Financing - SSC Subscribed, Under 25000 JOD-Incremental_EN.json",
+          "ar": 0,
+          "en": 7,
+          "total": 7
+        },
+        {
+          "sub_topic": "Print a Card-FullDump_AR",
+          "file": "questions/KnowledgeHub/Print a Card-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Print a Card-FullDump_EN",
+          "file": "questions/KnowledgeHub/Print a Card-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Print a Card-Incremental_AR",
+          "file": "questions/KnowledgeHub/Print a Card-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Print a Card-Incremental_EN",
+          "file": "questions/KnowledgeHub/Print a Card-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Protect your home with ease-FullDump_AR",
+          "file": "questions/KnowledgeHub/Protect your home with ease-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Protect your home with ease-FullDump_EN",
+          "file": "questions/KnowledgeHub/Protect your home with ease-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Protect your home with ease-Incremental_AR",
+          "file": "questions/KnowledgeHub/Protect your home with ease-Incremental_AR.json",
+          "ar": 9,
+          "en": 0,
+          "total": 9
+        },
+        {
+          "sub_topic": "Protect your home with ease-Incremental_EN",
+          "file": "questions/KnowledgeHub/Protect your home with ease-Incremental_EN.json",
+          "ar": 0,
+          "en": 9,
+          "total": 9
+        },
+        {
+          "sub_topic": "Recover your username-FullDump_AR",
+          "file": "questions/KnowledgeHub/Recover your username-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Recover your username-FullDump_EN",
+          "file": "questions/KnowledgeHub/Recover your username-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Recover your username-Incremental_AR",
+          "file": "questions/KnowledgeHub/Recover your username-Incremental_AR.json",
+          "ar": 5,
+          "en": 0,
+          "total": 5
+        },
+        {
+          "sub_topic": "Recover your username-Incremental_EN",
+          "file": "questions/KnowledgeHub/Recover your username-Incremental_EN.json",
+          "ar": 0,
+          "en": 8,
+          "total": 8
+        },
+        {
+          "sub_topic": "Rename an Account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Rename an Account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Rename an Account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Rename an Account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Rename an Account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Rename an Account-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Rename an Account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Rename an Account-Incremental_EN.json",
+          "ar": 0,
+          "en": 7,
+          "total": 7
+        },
+        {
+          "sub_topic": "Replace Your Debit Card-FullDump_AR",
+          "file": "questions/KnowledgeHub/Replace Your Debit Card-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Replace Your Debit Card-FullDump_EN",
+          "file": "questions/KnowledgeHub/Replace Your Debit Card-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Replace Your Debit Card-Incremental_AR",
+          "file": "questions/KnowledgeHub/Replace Your Debit Card-Incremental_AR.json",
+          "ar": 8,
+          "en": 0,
+          "total": 8
+        },
+        {
+          "sub_topic": "Replace Your Debit Card-Incremental_EN",
+          "file": "questions/KnowledgeHub/Replace Your Debit Card-Incremental_EN.json",
+          "ar": 0,
+          "en": 8,
+          "total": 8
+        },
+        {
+          "sub_topic": "Request a CliQ Payment-FullDump_AR",
+          "file": "questions/KnowledgeHub/Request a CliQ Payment-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request a CliQ Payment-FullDump_EN",
+          "file": "questions/KnowledgeHub/Request a CliQ Payment-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request a CliQ Payment-Incremental_AR",
+          "file": "questions/KnowledgeHub/Request a CliQ Payment-Incremental_AR.json",
+          "ar": 10,
+          "en": 0,
+          "total": 10
+        },
+        {
+          "sub_topic": "Request a CliQ Payment-Incremental_EN",
+          "file": "questions/KnowledgeHub/Request a CliQ Payment-Incremental_EN.json",
+          "ar": 0,
+          "en": 10,
+          "total": 10
+        },
+        {
+          "sub_topic": "Request your car insurance-FullDump_AR",
+          "file": "questions/KnowledgeHub/Request your car insurance-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request your car insurance-FullDump_EN",
+          "file": "questions/KnowledgeHub/Request your car insurance-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request your car insurance-Incremental_AR",
+          "file": "questions/KnowledgeHub/Request your car insurance-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Request your car insurance-Incremental_EN",
+          "file": "questions/KnowledgeHub/Request your car insurance-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Request Your Cheque Book-FullDump_AR",
+          "file": "questions/KnowledgeHub/Request Your Cheque Book-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request Your Cheque Book-FullDump_EN",
+          "file": "questions/KnowledgeHub/Request Your Cheque Book-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request Your Cheque Book-Incremental_AR",
+          "file": "questions/KnowledgeHub/Request Your Cheque Book-Incremental_AR.json",
+          "ar": 9,
+          "en": 0,
+          "total": 9
+        },
+        {
+          "sub_topic": "Request Your Cheque Book-Incremental_EN",
+          "file": "questions/KnowledgeHub/Request Your Cheque Book-Incremental_EN.json",
+          "ar": 0,
+          "en": 9,
+          "total": 9
+        },
+        {
+          "sub_topic": "Request your Credit Card Now!-FullDump_AR",
+          "file": "questions/KnowledgeHub/Request your Credit Card Now!-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request your Credit Card Now!-FullDump_EN",
+          "file": "questions/KnowledgeHub/Request your Credit Card Now!-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Request your Credit Card Now!-Incremental_AR",
+          "file": "questions/KnowledgeHub/Request your Credit Card Now!-Incremental_AR.json",
+          "ar": 10,
+          "en": 0,
+          "total": 10
+        },
+        {
+          "sub_topic": "Request your Credit Card Now!-Incremental_EN",
+          "file": "questions/KnowledgeHub/Request your Credit Card Now!-Incremental_EN.json",
+          "ar": 0,
+          "en": 10,
+          "total": 10
+        },
+        {
+          "sub_topic": "Reset your password-FullDump_AR",
+          "file": "questions/KnowledgeHub/Reset your password-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Reset your password-FullDump_EN",
+          "file": "questions/KnowledgeHub/Reset your password-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Reset your password-Incremental_AR",
+          "file": "questions/KnowledgeHub/Reset your password-Incremental_AR.json",
+          "ar": 9,
+          "en": 0,
+          "total": 9
+        },
+        {
+          "sub_topic": "Reset your password-Incremental_EN",
+          "file": "questions/KnowledgeHub/Reset your password-Incremental_EN.json",
+          "ar": 0,
+          "en": 10,
+          "total": 10
+        },
+        {
+          "sub_topic": "Respond to a CliQ Payment Request-FullDump_AR",
+          "file": "questions/KnowledgeHub/Respond to a CliQ Payment Request-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Respond to a CliQ Payment Request-FullDump_EN",
+          "file": "questions/KnowledgeHub/Respond to a CliQ Payment Request-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Respond to a CliQ Payment Request-Incremental_AR",
+          "file": "questions/KnowledgeHub/Respond to a CliQ Payment Request-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "Respond to a CliQ Payment Request-Incremental_EN",
+          "file": "questions/KnowledgeHub/Respond to a CliQ Payment Request-Incremental_EN.json",
+          "ar": 0,
+          "en": 4,
+          "total": 4
+        },
+        {
+          "sub_topic": "Return a CliQ Payment-FullDump_AR",
+          "file": "questions/KnowledgeHub/Return a CliQ Payment-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Return a CliQ Payment-FullDump_EN",
+          "file": "questions/KnowledgeHub/Return a CliQ Payment-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Return a CliQ Payment-Incremental_AR",
+          "file": "questions/KnowledgeHub/Return a CliQ Payment-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Return a CliQ Payment-Incremental_EN",
+          "file": "questions/KnowledgeHub/Return a CliQ Payment-Incremental_EN.json",
+          "ar": 0,
+          "en": 7,
+          "total": 7
+        },
+        {
+          "sub_topic": "Search for Transactions-FullDump_AR",
+          "file": "questions/KnowledgeHub/Search for Transactions-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Search for Transactions-FullDump_EN",
+          "file": "questions/KnowledgeHub/Search for Transactions-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Search for Transactions-Incremental_AR",
+          "file": "questions/KnowledgeHub/Search for Transactions-Incremental_AR.json",
+          "ar": 3,
+          "en": 0,
+          "total": 3
+        },
+        {
+          "sub_topic": "Search for Transactions-Incremental_EN",
+          "file": "questions/KnowledgeHub/Search for Transactions-Incremental_EN.json",
+          "ar": 0,
+          "en": 3,
+          "total": 3
+        },
+        {
+          "sub_topic": "Selling stocks-FullDump_AR",
+          "file": "questions/KnowledgeHub/Selling stocks-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Selling stocks-FullDump_EN",
+          "file": "questions/KnowledgeHub/Selling stocks-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Selling stocks-Incremental_AR",
+          "file": "questions/KnowledgeHub/Selling stocks-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Selling stocks-Incremental_EN",
+          "file": "questions/KnowledgeHub/Selling stocks-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Share Account Info-FullDump_AR",
+          "file": "questions/KnowledgeHub/Share Account Info-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Share Account Info-FullDump_EN",
+          "file": "questions/KnowledgeHub/Share Account Info-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Share Account Info-Incremental_AR",
+          "file": "questions/KnowledgeHub/Share Account Info-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "Share Account Info-Incremental_EN",
+          "file": "questions/KnowledgeHub/Share Account Info-Incremental_EN.json",
+          "ar": 0,
+          "en": 4,
+          "total": 4
+        },
+        {
+          "sub_topic": "Share Your Account Details-FullDump_AR",
+          "file": "questions/KnowledgeHub/Share Your Account Details-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Share Your Account Details-FullDump_EN",
+          "file": "questions/KnowledgeHub/Share Your Account Details-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Share Your Account Details-Incremental_AR",
+          "file": "questions/KnowledgeHub/Share Your Account Details-Incremental_AR.json",
+          "ar": 5,
+          "en": 0,
+          "total": 5
+        },
+        {
+          "sub_topic": "Share Your Account Details-Incremental_EN",
+          "file": "questions/KnowledgeHub/Share Your Account Details-Incremental_EN.json",
+          "ar": 0,
+          "en": 5,
+          "total": 5
+        },
+        {
+          "sub_topic": "Sign in to your account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Sign in to your account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Sign in to your account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Sign in to your account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Sign in to your account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Sign in to your account-Incremental_AR.json",
+          "ar": 3,
+          "en": 0,
+          "total": 3
+        },
+        {
+          "sub_topic": "Sign in to your account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Sign in to your account-Incremental_EN.json",
+          "ar": 0,
+          "en": 3,
+          "total": 3
+        },
+        {
+          "sub_topic": "Split a Bill-FullDump_AR",
+          "file": "questions/KnowledgeHub/Split a Bill-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Split a Bill-FullDump_EN",
+          "file": "questions/KnowledgeHub/Split a Bill-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Split a Bill-Incremental_AR",
+          "file": "questions/KnowledgeHub/Split a Bill-Incremental_AR.json",
+          "ar": 5,
+          "en": 0,
+          "total": 5
+        },
+        {
+          "sub_topic": "Split a Bill-Incremental_EN",
+          "file": "questions/KnowledgeHub/Split a Bill-Incremental_EN.json",
+          "ar": 0,
+          "en": 5,
+          "total": 5
+        },
+        {
+          "sub_topic": "Start now! (CRIF report)-FullDump_AR",
+          "file": "questions/KnowledgeHub/Start now! (CRIF report)-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Start now! (CRIF report)-FullDump_EN",
+          "file": "questions/KnowledgeHub/Start now! (CRIF report)-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Start now! (CRIF report)-Incremental_AR",
+          "file": "questions/KnowledgeHub/Start now! (CRIF report)-Incremental_AR.json",
+          "ar": 9,
+          "en": 0,
+          "total": 9
+        },
+        {
+          "sub_topic": "Start now! (CRIF report)-Incremental_EN",
+          "file": "questions/KnowledgeHub/Start now! (CRIF report)-Incremental_EN.json",
+          "ar": 0,
+          "en": 9,
+          "total": 9
+        },
+        {
+          "sub_topic": "Start now! (Register an account)-FullDump_AR",
+          "file": "questions/KnowledgeHub/Start now! (Register an account)-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Start now! (Register an account)-FullDump_EN",
+          "file": "questions/KnowledgeHub/Start now! (Register an account)-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Start now! (Register an account)-Incremental_AR",
+          "file": "questions/KnowledgeHub/Start now! (Register an account)-Incremental_AR.json",
+          "ar": 7,
+          "en": 0,
+          "total": 7
+        },
+        {
+          "sub_topic": "Start now! (Register an account)-Incremental_EN",
+          "file": "questions/KnowledgeHub/Start now! (Register an account)-Incremental_EN.json",
+          "ar": 0,
+          "en": 10,
+          "total": 10
+        },
+        {
+          "sub_topic": "Topping up your account-FullDump_AR",
+          "file": "questions/KnowledgeHub/Topping up your account-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Topping up your account-FullDump_EN",
+          "file": "questions/KnowledgeHub/Topping up your account-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Topping up your account-Incremental_AR",
+          "file": "questions/KnowledgeHub/Topping up your account-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Topping up your account-Incremental_EN",
+          "file": "questions/KnowledgeHub/Topping up your account-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "Track Your Inward and Outward Cheques-FullDump_AR",
+          "file": "questions/KnowledgeHub/Track Your Inward and Outward Cheques-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Track Your Inward and Outward Cheques-FullDump_EN",
+          "file": "questions/KnowledgeHub/Track Your Inward and Outward Cheques-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Track Your Inward and Outward Cheques-Incremental_AR",
+          "file": "questions/KnowledgeHub/Track Your Inward and Outward Cheques-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "Track Your Inward and Outward Cheques-Incremental_EN",
+          "file": "questions/KnowledgeHub/Track Your Inward and Outward Cheques-Incremental_EN.json",
+          "ar": 0,
+          "en": 4,
+          "total": 4
+        },
+        {
+          "sub_topic": "View Bill Details Before Payment-FullDump_AR",
+          "file": "questions/KnowledgeHub/View Bill Details Before Payment-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Bill Details Before Payment-FullDump_EN",
+          "file": "questions/KnowledgeHub/View Bill Details Before Payment-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Bill Details Before Payment-Incremental_AR",
+          "file": "questions/KnowledgeHub/View Bill Details Before Payment-Incremental_AR.json",
+          "ar": 3,
+          "en": 0,
+          "total": 3
+        },
+        {
+          "sub_topic": "View Bill Details Before Payment-Incremental_EN",
+          "file": "questions/KnowledgeHub/View Bill Details Before Payment-Incremental_EN.json",
+          "ar": 0,
+          "en": 3,
+          "total": 3
+        },
+        {
+          "sub_topic": "View Transaction Details-FullDump_AR",
+          "file": "questions/KnowledgeHub/View Transaction Details-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Transaction Details-FullDump_EN",
+          "file": "questions/KnowledgeHub/View Transaction Details-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Transaction Details-Incremental_AR",
+          "file": "questions/KnowledgeHub/View Transaction Details-Incremental_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Transaction Details-Incremental_EN",
+          "file": "questions/KnowledgeHub/View Transaction Details-Incremental_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Your Card Transactions-FullDump_AR",
+          "file": "questions/KnowledgeHub/View Your Card Transactions-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Your Card Transactions-FullDump_EN",
+          "file": "questions/KnowledgeHub/View Your Card Transactions-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Your Card Transactions-Incremental_AR",
+          "file": "questions/KnowledgeHub/View Your Card Transactions-Incremental_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "View Your Card Transactions-Incremental_EN",
+          "file": "questions/KnowledgeHub/View Your Card Transactions-Incremental_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Viewing trading history-FullDump_AR",
+          "file": "questions/KnowledgeHub/Viewing trading history-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Viewing trading history-FullDump_EN",
+          "file": "questions/KnowledgeHub/Viewing trading history-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Viewing trading history-Incremental_AR",
+          "file": "questions/KnowledgeHub/Viewing trading history-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "Viewing trading history-Incremental_EN",
+          "file": "questions/KnowledgeHub/Viewing trading history-Incremental_EN.json",
+          "ar": 0,
+          "en": 4,
+          "total": 4
+        },
+        {
+          "sub_topic": "Withdrawing funds-FullDump_AR",
+          "file": "questions/KnowledgeHub/Withdrawing funds-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "Withdrawing funds-FullDump_EN",
+          "file": "questions/KnowledgeHub/Withdrawing funds-FullDump_EN.json",
+          "ar": 0,
+          "en": 1,
+          "total": 1
+        },
+        {
+          "sub_topic": "Withdrawing funds-Incremental_AR",
+          "file": "questions/KnowledgeHub/Withdrawing funds-Incremental_AR.json",
+          "ar": 6,
+          "en": 0,
+          "total": 6
+        },
+        {
+          "sub_topic": "Withdrawing funds-Incremental_EN",
+          "file": "questions/KnowledgeHub/Withdrawing funds-Incremental_EN.json",
+          "ar": 0,
+          "en": 6,
+          "total": 6
+        },
+        {
+          "sub_topic": "إلغاء بطاقة-FullDump_AR",
+          "file": "questions/KnowledgeHub/إلغاء بطاقة-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "إلغاء بطاقة-Incremental_AR",
+          "file": "questions/KnowledgeHub/إلغاء بطاقة-Incremental_AR.json",
+          "ar": 4,
+          "en": 0,
+          "total": 4
+        },
+        {
+          "sub_topic": "كيف تقوم بالدفع؟-FullDump_AR",
+          "file": "questions/KnowledgeHub/كيف تقوم بالدفع؟-FullDump_AR.json",
+          "ar": 1,
+          "en": 0,
+          "total": 1
+        },
+        {
+          "sub_topic": "كيف تقوم بالدفع؟-Incremental_AR",
+          "file": "questions/KnowledgeHub/كيف تقوم بالدفع؟-Incremental_AR.json",
+          "ar": 2,
+          "en": 0,
+          "total": 2
+        }
+      ],
+      "total": 925
     },
     "Loan": {
       "sub_topics": [
@@ -94,6 +1961,25 @@
         }
       ],
       "total": 1124
+    },
+    "SPL": {
+      "sub_topics": [
+        {
+          "sub_topic": "old KB",
+          "file": "questions/SPL/old KB.json",
+          "ar": 104,
+          "en": 104,
+          "total": 208
+        },
+        {
+          "sub_topic": "SPL allQA",
+          "file": "questions/SPL/SPL allQA.json",
+          "ar": 175,
+          "en": 175,
+          "total": 350
+        }
+      ],
+      "total": 558
     }
   }
 }

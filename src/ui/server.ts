@@ -25,6 +25,7 @@ const DATA_DIR = path.join(ROOT, "data");
 const RUNS_DIR = path.join(DATA_DIR, "runs");
 const WAV_DIR = path.join(ROOT, "wav");
 const SESSIONS_DIR = path.join(DATA_DIR, "sessions");
+const KB_FLOWS_DIR = path.join(DATA_DIR, "kb_flows");
 
 const PORT_BASE = parseInt(process.env.UI_PORT || "5173", 10);
 
@@ -42,6 +43,56 @@ const PHASES: Array<{ id: string; label: string; script: string; hint: string; n
   { id: "clean", label: "9. Clean / reset data", script: "clean", hint: "--from 5 (delete outputs of phase 5..8)" },
 ];
 const PHASE_BY_ID = new Map(PHASES.map((p) => [p.id, p]));
+for (const p of [
+  { id: "kbExtract", label: "KB extract", script: "kb-extract", hint: "" },
+  { id: "kbPrompts", label: "KB prompts", script: "kb-prompts", hint: "" },
+  { id: "kbImport", label: "KB import", script: "kb-import", hint: "" },
+  { id: "kbConvert", label: "KB convert", script: "kb-convert", hint: "" },
+  { id: "buildMultiflow", label: "Multi-flow sessions", script: "build-multiflow", hint: "" },
+]) PHASE_BY_ID.set(p.id, p);
+
+// --- KB Flows helpers (66-docx batch: extract -> prompts -> import -> convert)
+function kbFlowsStatus(): any {
+  const sourcesPath = path.join(KB_FLOWS_DIR, "sources.json");
+  const sources = readJson(sourcesPath) || null;
+  const promptsDir = path.join(KB_FLOWS_DIR, "prompts");
+  const prompts = fs.existsSync(promptsDir)
+    ? fs.readdirSync(promptsDir).filter((f) => f.endsWith(".md")).sort()
+    : [];
+  const flowsDir = path.join(DATA_DIR, "flows", "KnowledgeHub");
+  const flowFiles = fs.existsSync(flowsDir)
+    ? fs.readdirSync(flowsDir).filter((f) => f.endsWith(".json")).sort()
+    : [];
+  const questionsDirQ = path.join(DATA_DIR, "questions", "KnowledgeHub");
+  const questionFiles = fs.existsSync(questionsDirQ)
+    ? fs.readdirSync(questionsDirQ).filter((f) => f.endsWith(".json") && !f.endsWith(".chunks.json")).sort()
+    : [];
+  const repliesDir = path.join(KB_FLOWS_DIR, "replies");
+  const replies = fs.existsSync(repliesDir)
+    ? fs.readdirSync(repliesDir).filter((f) => f.endsWith(".json")).sort()
+    : [];
+  // Pools for the 3-flow multi-session composer, keyed off the flat question files:
+  // "<base>" -> { incremental: {ar, en}, fullDump: {ar, en} }
+  const multiflowPools: Record<string, any> = {};
+  const baseRe = /^(.+?)-(Incremental|FullDump)_(ar|en)\.json$/i;
+  for (const f of questionFiles) {
+    const m = f.match(baseRe);
+    if (!m) continue;
+    const [, base, mode, lang] = m;
+    const langLower = lang.toLowerCase();
+    multiflowPools[base] = multiflowPools[base] || { incremental: {}, fullDump: {} };
+    const modeKey = mode.toLowerCase() === "incremental" ? "incremental" : "fullDump";
+    multiflowPools[base][modeKey][langLower] = (multiflowPools[base][modeKey][langLower] || 0) + 1;
+  }
+  return {
+    sources: sources ? { count: sources.count, unpairedAr: sources.unpaired_ar?.length || 0, unpairedEn: sources.unpaired_en?.length || 0, file: sourcesPath } : null,
+    prompts,
+    flows: flowFiles.map((f) => ({ file: f, size: fs.statSync(path.join(flowsDir, f)).size })),
+    questionFiles,
+    replies,
+    multiflowPools,
+  };
+}
 
 // --- config docs (Arabic tooltips for the ℹ️ icons) ---------------------------
 const CONFIG_DOCS: Record<string, string> = {
@@ -65,10 +116,24 @@ const CONFIG_DOCS: Record<string, string> = {
   ZILLA_AGENT_ID_EN: "Zilla agent id (English) - updated automatically by `npm run agents`.",
   ZILLA_AGENT_AR: "Arabic agent NAME - type it here, run `npm run agents` to resolve to the id.",
   ZILLA_AGENT_EN: "English agent NAME - type it here, run `npm run agents` to resolve to the id.",
-  APP_URL: "Zilla platform URL.",
-  ZILLA_EMAIL: "Zilla login email.",
-  ZILLA_PASSWORD: "Zilla login password.",
-  VITE_API_BASE_URL: "Zilla API base URL.",
+  APP_URL: "Zilla platform URL (change per env, e.g. https://app.bae-poc.intella.me).",
+  ZILLA_EMAIL: "Zilla login email (per env).",
+  ZILLA_PASSWORD: "Zilla login password (per env).",
+  VITE_API_BASE_URL: "Zilla API base URL (per env, e.g. https://api.bae-poc.intella.me/api).",
+  LOGIN_PATH: "Login route template, default {locale}/auth/login (used by --auto-token).",
+  APP_LOCALE: "Locale used in the login/agent URLs, default en (e.g. ar).",
+  WS_URL: "Relay WebSocket URL used by run-sessions-ws (e.g. wss://relay.bae-poc.intella.me/ws).",
+  RELAY_URL: "Relay WebSocket URL - same as WS_URL when running the WS runner.",
+  WS_TOKEN: "WebSocket relay token/JWT - refreshed automatically by --auto-token (per env).",
+  WS_MODE: "WS message mode: text (relay) or audio (raw socket).",
+  WS_SETTLE_MS: "How long to wait for a reply to settle per WS turn (ms).",
+  WS_TURN_TIMEOUT_MS: "Hard timeout for one WS turn (ms); longer questions need more headroom.",
+  WS_INTER_TURN_MS: "Pause between WS turns (ms).",
+  WS_CONFIRM_MS: "Confirmed-idle window before a reply is final (ms).",
+  WS_CONNECT_TIMEOUT_MS: "Timeout for one WS socket to reach OPEN (ms).",
+  WS_CONNECT_ATTEMPTS: "Max socket connect attempts per session.",
+  WS_CONNECT_STAGGER_MS: "Random stagger before/ between socket connects (ms).",
+  WS_SESSION_ATTEMPTS: "Whole-session retries when the relay rejects session start (0 = off).",
   CONCURRENCY: "Max calls running at once (when not splitting per language).",
   CONCURRENT_AR: "Max Arabic calls running at the same time.",
   CONCURRENT_EN: "Max English calls running at the same time.",
@@ -86,6 +151,8 @@ const CONFIG_DOCS: Record<string, string> = {
   TTS_REQUEST_DELAY_MS: "Pause between each audio file (ms).",
   TTS_MAX_RETRIES: "Retry count for audio generation failures.",
   PYTHON_CMD: "Python command (default python on Windows / python3 elsewhere).",
+  KB_AR_DIR: "Folder with the Arabic Knowledge Hub .docx files (the 66-docx batch source).",
+  KB_EN_DIR: "Folder with the English Knowledge Hub .docx files (the 66-docx batch source).",
   UI_PORT: "Dashboard port (default 5173).",
 };
 
@@ -106,11 +173,20 @@ const CONFIG_GROUPS: { header: string; keys: string[] }[] = [
   },
   {
     header: "Phase 5 — Build sessions",
-    keys: ["MESSAGES_PER_SESSION", "TOTAL_SESSIONS_AR", "TOTAL_SESSIONS_EN", "RANDOM_SEED", "ALLOW_REPEAT_QUESTIONS", "ZILLA_AGENT_ID_AR", "ZILLA_AGENT_ID_EN"],
+    keys: ["MESSAGES_PER_SESSION", "TOTAL_SESSIONS_AR", "TOTAL_SESSIONS_EN", "RANDOM_SEED", "ALLOW_REPEAT_QUESTIONS"],
   },
   {
     header: "Agents (Zilla) — used by Phase 5/6 + agents tool",
     keys: ["APP_URL", "VITE_API_BASE_URL", "ZILLA_EMAIL", "ZILLA_PASSWORD", "ZILLA_AGENT_AR", "ZILLA_AGENT_EN"],
+  },
+  {
+    header: "Run modes — env/URL switching (direct WS · relay · browser)",
+    keys: [
+      "APP_URL", "LOGIN_PATH", "APP_LOCALE", "ZILLA_AGENT_ID_AR", "ZILLA_AGENT_ID_EN",
+      "WS_URL", "RELAY_URL", "WS_TOKEN", "WS_MODE",
+      "WS_SETTLE_MS", "WS_TURN_TIMEOUT_MS", "WS_INTER_TURN_MS", "WS_CONFIRM_MS",
+      "WS_CONNECT_TIMEOUT_MS", "WS_CONNECT_ATTEMPTS", "WS_CONNECT_STAGGER_MS", "WS_SESSION_ATTEMPTS",
+    ],
   },
   {
     header: "Phase 6 — Run sessions (live calls)",
@@ -119,6 +195,10 @@ const CONFIG_GROUPS: { header: string; keys: string[] }[] = [
   {
     header: "Phase 8 — Evaluate (DeepEval)",
     keys: ["EVAL_LLM_PROVIDER", "EVAL_MODEL", "EVAL_LLM_BASE_URL", "GROQ_API_KEY"],
+  },
+  {
+    header: "KB Flows (66-docx batch)",
+    keys: ["KB_AR_DIR", "KB_EN_DIR"],
   },
   {
     header: "Dashboard",
@@ -263,19 +343,18 @@ function turnsFromSummary(sessionId: string): any[] {
 
     // Per-turn source file IDs: files Zilla loaded/used for THAT question, not
     // cumulative. Turns with no relay frame inherit the most recent known set.
-    const perTurnByIdx = new Map<number, string[]>();
+    const perTurnByIdx = new Map<number, { files: string[]; saw: boolean }>();
     for (const entry of summary.sourceFilesByTurn || []) {
-      perTurnByIdx.set(
-        entry.turn,
-        [...new Set([...(entry.fileIds || []), ...(entry.loadedFiles || [])])],
-      );
+      perTurnByIdx.set(entry.turn, {
+        files: [...new Set([...(entry.fileIds ?? entry.file_ids ?? []), ...(entry.loadedFiles ?? entry.loaded_files ?? [])])],
+        saw: entry.saw_source_frame === true || !("saw_source_frame" in entry),
+      });
     }
     const sourceIdsForTurn = (turn: number): string[] => {
-      const direct = perTurnByIdx.get(turn);
-      if (direct && direct.length) return direct;
-      for (let t = turn - 1; t >= 1; t--) {
-        const prev = perTurnByIdx.get(t);
-        if (prev && prev.length) return prev;
+      for (let t = turn; t >= 1; t--) {
+        const e = perTurnByIdx.get(t);
+        if (!e) continue;
+        if (e.saw) return e.files;
       }
       return [];
     };
@@ -400,7 +479,7 @@ function killProcessTree(child: any): void {
 // Phases that should auto-trigger capture-answers after successful completion
 const CHAIN_CAPTURE = new Set(["runSessions", "runSessionsWs"]);
 
-function runPhase(phaseId: string, args: string[], res: http.ServerResponse): void {
+function runPhase(phaseId: string, args: string[], res: http.ServerResponse, extraEnv: Record<string, string> = {}): void {
   const cfg = PHASE_BY_ID.get(phaseId);
   if (!cfg) {
     res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" });
@@ -412,7 +491,13 @@ function runPhase(phaseId: string, args: string[], res: http.ServerResponse): vo
   const fullArgs = isWin ? ["/c", "npm", "run", cfg.script, "--", ...args] : ["run", cfg.script, "--", ...args];
   res.writeHead(200, { "Content-Type": "text/plain; charset=utf-8", "Cache-Control": "no-cache", "X-Accel-Buffering": "no" });
   res.write(`> npm run ${cfg.script}${args.length ? " -- " + args.join(" ") : ""}\n`);
-  const child = spawn(cmd, fullArgs, { cwd: ROOT });
+  if (Object.keys(extraEnv).length) {
+    res.write("  env: " + JSON.stringify(extraEnv) + "\n");
+  }
+  const child = spawn(cmd, fullArgs, {
+    cwd: ROOT,
+    env: { ...process.env, ...extraEnv },
+  });
   running.add(child);
   const done = () => { running.delete(child); };
   child.stdout.on("data", (d) => res.write(d));
@@ -635,6 +720,8 @@ const server = http.createServer(async (req, res) => {
       const concurrentEn = String(body.concurrentEn || "3").trim();
       const mode = String(body.mode || "ws").trim();
       const autoToken = body.autoToken === true;
+      const minRam = parseFloat(String(body.minRam || ""));
+      const stagger = parseInt(String(body.stagger || ""), 10);
 
       if (!file) {
         res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" });
@@ -648,12 +735,23 @@ const server = http.createServer(async (req, res) => {
       args.push("--concurrent-en", concurrentEn);
       if (parseInt(totalAr) > 0) args.push("--total-ar", totalAr);
       if (parseInt(totalEn) > 0) args.push("--total-en", totalEn);
-      if (autoToken && mode === "ws") args.push("--auto-token");
+      if (autoToken && (mode === "ws" || mode === "relay")) args.push("--auto-token");
+      const extraEnv: Record<string, string> = {};
+      if (Number.isFinite(minRam) && minRam > 0) extraEnv.MIN_FREE_RAM_GB = String(minRam);
+      if (Number.isFinite(stagger) && stagger >= 0) extraEnv.LAUNCH_STAGGER_MS = String(stagger);
 
       if (mode === "ui") {
-        runPhase("runSessions", args, res);
+        runPhase("runSessions", args, res, extraEnv);
+      } else if (mode === "relay") {
+        const relayUrl = process.env.RELAY_URL || readEnv().values.RELAY_URL || "";
+        if (!relayUrl) {
+          res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" });
+          res.end("RELAY_URL is not set in .env");
+          return;
+        }
+        runPhase("runSessionsWs", [...args, "--url", relayUrl], res, extraEnv);
       } else {
-        runPhase("runSessionsWs", args, res);
+        runPhase("runSessionsWs", args, res, extraEnv);
       }
       return;
     }
@@ -695,6 +793,74 @@ const server = http.createServer(async (req, res) => {
       // Pass the full relative path (e.g. "questions/Loan/Car Loan.json") so the
       // UI can pick any question file from a dropdown instead of typing a command.
       runPhase("generateAudio", ["--only", file], res);
+      return;
+    }
+    if (req.method === "GET" && url.pathname === "/api/kb-flows") {
+      sendJson(res, kbFlowsStatus());
+      return;
+    }
+    if (req.method === "POST" && url.pathname === "/api/kb-flows/extract") {
+      const body = JSON.parse(await readBody(req));
+      const { arDir, enDir } = body;
+      if (!arDir || !enDir) {
+        res.writeHead(400, { "Content-Type": "text/plain; charset=utf-8" });
+        res.end("missing arDir/enDir");
+        return;
+      }
+      const args = ["--ar", String(arDir), "--en", String(enDir), "--out", "data/kb_flows/sources.json"];
+      if (body.pairing) args.push("--pairing", String(body.pairing));
+      runPhase("kbExtract", args, res);
+      return;
+    }
+    if (req.method === "POST" && url.pathname === "/api/kb-flows/prompts") {
+      const body = JSON.parse(await readBody(req));
+      const args = ["--out", "data/kb_flows/prompts"];
+      if (body.batch) args.push("--batch", String(body.batch));
+      if (body.flows) args.push("--flows", String(body.flows));
+      runPhase("kbPrompts", args, res);
+      return;
+    }
+    if (req.method === "POST" && url.pathname === "/api/kb-flows/import") {
+      const body = JSON.parse(await readBody(req));
+      const repliesDir = path.join(KB_FLOWS_DIR, "replies");
+      fs.mkdirSync(repliesDir, { recursive: true });
+      const replyCount = fs.existsSync(repliesDir)
+        ? fs.readdirSync(repliesDir).filter((f) => f.endsWith(".json")).length
+        : 0;
+      const text = String(body.text || "").trim();
+      if (text) {
+        // Pasted single reply → save it into the folder so the importer picks it up.
+        const stamp = new Date().toISOString().replace(/[:.]/g, "-");
+        const fname = `pasted-${stamp}.json`;
+        fs.writeFileSync(path.join(repliesDir, fname), text, "utf8");
+      }
+      if (!text && replyCount === 0) {
+        sendJson(res, { error: "no files in data/kb_flows/replies/ and nothing pasted" });
+        return;
+      }
+      runPhase("kbImport", [""], res);
+      return;
+    }
+    if (req.method === "POST" && url.pathname === "/api/kb-flows/convert") {
+      const body = JSON.parse(await readBody(req));
+      const args: string[] = [];
+      if (body.flows) args.push("--flows", String(body.flows));
+      if (body.topic) args.push("--topic", String(body.topic));
+      runPhase("kbConvert", args, res);
+      return;
+    }
+    if (req.method === "POST" && url.pathname === "/api/kb-flows/build-multiflow") {
+      const body = JSON.parse(await readBody(req));
+      const args: string[] = [];
+      if (body.auto) args.push("--auto");
+      if (body.langs?.length) args.push("--langs", body.langs.join(","));
+      if (body.first) args.push("--first", String(body.first));
+      if (body.second) args.push("--second", String(body.second));
+      if (body.third) args.push("--third", String(body.third));
+      if (body.name) args.push("--name", String(body.name));
+      if (body.count) args.push("--count", String(body.count));
+      if (body.seed) args.push("--seed", String(body.seed));
+      runPhase("buildMultiflow", args, res);
       return;
     }
     res.writeHead(404, { "Content-Type": "text/plain" });

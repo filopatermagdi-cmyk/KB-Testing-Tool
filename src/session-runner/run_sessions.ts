@@ -32,6 +32,7 @@
  */
 import fs from "fs";
 import path from "path";
+import os from "os";
 import { spawn } from "child_process";
 import dotenv from "dotenv";
 import { pairTranscript } from "../lib/transcript-pairing";
@@ -104,6 +105,49 @@ const CONCURRENT_EN = !Number.isNaN(CLI_CONCURRENT_EN) && CLI_CONCURRENT_EN > 0
   ? CLI_CONCURRENT_EN
   : intEnv("CONCURRENT_EN", 0);
 const MIXED = CONCURRENT_AR > 0 || CONCURRENT_EN > 0;
+
+// Memory guard: never launch a CallRunner/browser when free RAM (as reported by
+// the OS) drops below MIN_FREE_RAM_GB. The launcher waits until memory frees up.
+// This makes ANY concurrency setting safe on a low-RAM laptop — concurrency only
+// controls the *target*, the guard controls the *actual* in-flight peak.
+// SETTINGS (all optional):
+//   MIN_FREE_RAM_GB=2         wait if less than 2GB free (default 1.5)
+//   RAM_CHECK_MS=2000         how often to re-check free RAM while waiting
+//   LAUNCH_STAGGER_MS=4000    min gap between consecutive CallRunner spawns
+//                             (Chromium start-up bursts are heavy — staggering
+//                             keeps the launch *ramp* smooth instead of one spike)
+const MIN_FREE_RAM_GB = (() => {
+  const v = process.env.MIN_FREE_RAM_GB;
+  if (v !== undefined && v !== "") {
+    const n = parseFloat(v);
+    if (!Number.isNaN(n)) return n; // allows 0 to disable the guard
+  }
+  return 0.8;
+})();
+const RAM_CHECK_MS = parseInt(process.env.RAM_CHECK_MS || "", 10) || 2000;
+const LAUNCH_STAGGER_MS = parseInt(process.env.LAUNCH_STAGGER_MS || "", 10) || 4000;
+
+function freeRamGb(): number {
+  return os.freemem() / 1024 ** 3;
+}
+
+async function waitForRam(): Promise<void> {
+  while (freeRamGb() < MIN_FREE_RAM_GB) {
+    console.log(
+      `  [ram] ${freeRamGb().toFixed(1)}GB free < ${MIN_FREE_RAM_GB}GB — waiting ${RAM_CHECK_MS / 1000}s before launching the next call...`
+    );
+    await new Promise((r) => setTimeout(r, RAM_CHECK_MS));
+  }
+}
+
+// Keeps spawns at least LAUNCH_STAGGER_MS apart so a big batch ramps up smoothly.
+let lastLaunchAt = 0;
+async function staggerLaunch(): Promise<void> {
+  if (LAUNCH_STAGGER_MS <= 0) return;
+  const wait = lastLaunchAt + LAUNCH_STAGGER_MS - Date.now();
+  if (wait > 0) await new Promise((r) => setTimeout(r, wait));
+  lastLaunchAt = Date.now();
+}
 
 // RESHUFFLE=true -> re-randomize the question order INSIDE each session on
 // every run (no rebuild needed). RESHUFFLE=false (default) -> play each
@@ -187,19 +231,6 @@ function runCallrunner(
   });
 }
 
-async function pool<T>(tasks: Array<() => Promise<T>>, limit: number): Promise<T[]> {
-  const results = new Array<T>(tasks.length);
-  let next = 0;
-  const worker = async () => {
-    while (next < tasks.length) {
-      const i = next++;
-      results[i] = await tasks[i]();
-    }
-  };
-  await Promise.all(Array.from({ length: Math.max(1, Math.min(limit, tasks.length)) }, worker));
-  return results;
-}
-
 async function safeRunSession(session: Session, callrunnerDir: string): Promise<SessionResult> {
   try {
     return await runSession(session, callrunnerDir);
@@ -227,46 +258,54 @@ async function safeRunSession(session: Session, callrunnerDir: string): Promise<
 // Mixed scheduler: keeps at most maxAR Arabic + maxEN English sessions in
 // flight at the same time. A slot that frees up is immediately reused by the
 // next session of the same language, so a batch of 4ar+6en naturally drains
-// and refills as a series of 10-call waves.
+// and refills as a series of 10-call waves. When `cycle` is set (total calls
+// exceed available sessions), sessions are re-cycled and never run twice
+// within the same set of in-flight slots, avoiding folder collisions.
 async function runMixed(
   arSessions: Session[],
   enSessions: Session[],
   maxAR: number,
   maxEN: number,
-  callrunnerDir: string
+  callrunnerDir: string,
+  cycleAR: boolean,
+  cycleEN: boolean
 ): Promise<SessionResult[]> {
   const results: SessionResult[] = [];
-  let arIdx = 0;
-  let enIdx = 0;
-  let runningAR = 0;
-  let runningEN = 0;
+  let arPtr = 0;
+  let enPtr = 0;
+  const runningAR: Session[] = [];
+  const runningEN: Session[] = [];
   await new Promise<void>((resolve) => {
+    const canAddAR = () => cycleAR ? !runningAR.some((s) => s.session_id === arSessions[arPtr % arSessions.length].session_id) : arPtr < arSessions.length;
+    const canAddEN = () => cycleEN ? !runningEN.some((s) => s.session_id === enSessions[enPtr % enSessions.length].session_id) : enPtr < enSessions.length;
     const pump = () => {
-      while (runningAR < maxAR && arIdx < arSessions.length) {
-        const s = arSessions[arIdx++];
-        runningAR++;
+      while (runningAR.length < maxAR && arPtr < arSessions.length + (cycleAR ? maxAR : 0) && canAddAR()) {
+        const s = arSessions[arPtr % arSessions.length];
+        arPtr++;
+        runningAR.push(s);
         safeRunSession(s, callrunnerDir)
           .then((r) => {
             results.push(r);
-            runningAR--;
+            runningAR.splice(runningAR.indexOf(s), 1);
             pump();
           });
       }
-      while (runningEN < maxEN && enIdx < enSessions.length) {
-        const s = enSessions[enIdx++];
-        runningEN++;
+      while (runningEN.length < maxEN && enPtr < enSessions.length + (cycleEN ? maxEN : 0) && canAddEN()) {
+        const s = enSessions[enPtr % enSessions.length];
+        enPtr++;
+        runningEN.push(s);
         safeRunSession(s, callrunnerDir)
           .then((r) => {
             results.push(r);
-            runningEN--;
+            runningEN.splice(runningEN.indexOf(s), 1);
             pump();
           });
       }
       if (
-        arIdx >= arSessions.length &&
-        enIdx >= enSessions.length &&
-        runningAR === 0 &&
-        runningEN === 0
+        runningAR.length === 0 &&
+        runningEN.length === 0 &&
+        arPtr >= arSessions.length + (cycleAR ? maxAR : 0) &&
+        enPtr >= enSessions.length + (cycleEN ? maxEN : 0)
       ) {
         resolve();
       }
@@ -329,6 +368,8 @@ function agentIdFor(session: Session): string {
 }
 
 async function runSession(session: Session, callrunnerDir: string): Promise<SessionResult> {
+  await waitForRam();
+  await staggerLaunch();
   const outDir = path.join(RUNS_DIR, session.session_id);
   try {
     fs.rmSync(outDir, { recursive: true, force: true });
@@ -510,67 +551,33 @@ async function main(): Promise<void> {
   );
   const started = Date.now();
   const results: SessionResult[] = [];
-  let arSent = 0;
-  let enSent = 0;
-  let arIdx = 0;
-  let enIdx = 0;
   let batchNum = 0;
 
-  while (arSent < totalAR || enSent < totalEN) {
-    batchNum++;
-    const batchAR: Session[] = [];
-    const takenAR = new Set<string>();
-    while (batchAR.length < concAR && arSent < totalAR) {
-      let placed = false;
-      for (let k = 0; k < arSessions.length; k++) {
-        const s = arSessions[arIdx % arSessions.length];
-        arIdx++;
-        if (!takenAR.has(s.session_id)) {
-          batchAR.push(s);
-          takenAR.add(s.session_id);
-          arSent++;
-          placed = true;
-          break;
-        }
-      }
-      if (!placed) break;
-    }
-    const batchEN: Session[] = [];
-    const takenEN = new Set<string>();
-    while (batchEN.length < concEN && enSent < totalEN) {
-      let placed = false;
-      for (let k = 0; k < enSessions.length; k++) {
-        const s = enSessions[enIdx % enSessions.length];
-        enIdx++;
-        if (!takenEN.has(s.session_id)) {
-          batchEN.push(s);
-          takenEN.add(s.session_id);
-          enSent++;
-          placed = true;
-          break;
-        }
-      }
-      if (!placed) break;
-    }
-    const batch = [...batchAR, ...batchEN];
-    if (!batch.length) break;
+  const cycleAR = totalAR > Math.max(arSessions.length, 1);
+  const cycleEN = totalEN > Math.max(enSessions.length, 1);
 
-    console.log(
-      `  batch ${batchNum}: ${batchAR.length} AR (${arSent}/${totalAR}) + ` +
-        `${batchEN.length} EN (${enSent}/${totalEN}) = ${batch.length} call(s)...`
-    );
+  console.log(
+    `  mixed-slot scheduler: AR slots=${concAR} (cycle=${cycleAR}) + EN slots=${concEN} (cycle=${cycleEN}) — a freed slot is refilled immediately`
+  );
 
-    const batchResults = await pool(batch.map((s) => () => safeRunSession(s, callrunnerDir)), batch.length);
-    results.push(...batchResults);
-  }
-
+  const mixedResults = await runMixed(
+    arSessions,
+    enSessions,
+    concAR,
+    concEN,
+    callrunnerDir,
+    cycleAR,
+    cycleEN
+  );
+  batchNum = 1;
+  results.push(...mixedResults);
   results.sort((a, b) => a.session_id.localeCompare(b.session_id));
   const wallMs = Date.now() - started;
 
   const report = {
     stamp,
     startedAt: new Date().toISOString(),
-    scheduling: { type: "batch", concurrentAR: concAR, concurrentEN: concEN, batches: batchNum },
+    scheduling: { type: "mixed-slot", concurrentAR: concAR, concurrentEN: concEN, batches: batchNum },
     selection: {
       shuffleSessions: SHUFFLE_SESSIONS,
       sessionsPerRun: SESSIONS_PER_RUN > 0 ? SESSIONS_PER_RUN : null,

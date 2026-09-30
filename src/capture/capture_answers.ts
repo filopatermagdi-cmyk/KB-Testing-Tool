@@ -92,21 +92,90 @@ function readJson(p: string): any {
   return JSON.parse(fs.readFileSync(p, "utf8"));
 }
 
-function latestSummary(sessionId: string): any {
+// A run report (data/runs/run-results-<stamp>.json) is written once per run; its
+// per-session artifacts (summary-<stamp>.json, zilla-responses-<stamp>.json) come
+// from that same run. Match artifacts by their conversationId (or, failing that,
+// second-level stamp) instead of "newest file in the session dir" — the session
+// folder accumulates artifacts across MANY runs (browser + direct-WS), and
+// zilla-responses is only written by the browser callrunner, so .sort().pop()
+// would pair a fresh WS run with a stale browser run's pairing and scramble
+// every answer.
+function stampSecond(stamp: string): string {
+  // run-results-2026-09-09T08-37-43-430Z.json -> 2026-09-09T08-37-43
+  return stamp.replace(/\.\d{3}Z?$/, "");
+}
+
+function artifactFiles(sessionId: string, kind: "summary" | "zilla-responses"): string[] {
   const dir = path.join(RUNS_DIR, sessionId);
-  if (!fs.existsSync(dir)) return null;
-  const f = fs
+  if (!fs.existsSync(dir)) return [];
+  return fs
     .readdirSync(dir)
-    .filter((x) => /^summary-.*\.json$/.test(x))
-    .sort()
+    .filter((x) => x.startsWith(`${kind}-`) && x.endsWith(".json"))
+    .sort();
+}
+
+function matchConversation(relPath: string, conversationId: string): boolean {
+  if (!conversationId) return false;
+  try {
+    const j = readJson(path.join(RUNS_DIR, relPath));
+    return j.conversationId === conversationId;
+  } catch {
+    return false;
+  }
+}
+
+// Load the summary-<stamp>.*.json for a session that belongs to the run being
+// captured. Preferred match: the summary whose conversationId equals the report
+// result's conversationId (survives batch reports whose one stamp differs from
+// each session's artifact stamp). Fallbacks: second-level stamp, then newest.
+function latestSummary(sessionId: string, runStamp: string, conversationId: string): any {
+  let pick = artifactFiles(sessionId, "summary")
+    .filter((f) => matchConversation(path.join(sessionId, f), conversationId))
     .pop();
-  return f ? readJson(path.join(dir, f)) : null;
+  if (!pick) {
+    const want = `summary-${stampSecond(runStamp)}`;
+    pick = artifactFiles(sessionId, "summary").filter((x) => x.startsWith(want)).pop();
+  }
+  if (!pick) {
+    const legacy = artifactFiles(sessionId, "summary").pop();
+    if (!legacy) return null;
+    pick = legacy;
+  }
+  return readJson(path.join(RUNS_DIR, sessionId, pick));
+}
+
+// Load the zilla-responses-<stamp>.*.json for a session. Built by the callrunner
+// during the call; it pairs each clip (in play order) with `responded` and the
+// reply text. This is the authoritative "did Ziila actually answer" signal,
+// independent of how STT garbled the short confirmations. Only valid when it
+// belongs to the SAME run as the summary — a zr file from another run (e.g. an
+// older browser run lingering in the session dir) must NOT be paired with this
+// run's transcript. If no zr matches the run, return null (never the newest).
+function latestZillaResponses(sessionId: string, runStamp: string, conversationId: string): any {
+  let pick = artifactFiles(sessionId, "zilla-responses")
+    .filter((f) => matchConversation(path.join(sessionId, f), conversationId))
+    .pop();
+  if (!pick) {
+    const want = `zilla-responses-${stampSecond(runStamp)}`;
+    pick = artifactFiles(sessionId, "zilla-responses").filter((x) => x.startsWith(want)).pop();
+  }
+  if (!pick) return null;
+  return readJson(path.join(RUNS_DIR, sessionId, pick));
 }
 
 // The runner stages clips as <NNN>_<questionId>.wav in the ACTUAL play order
 // (RESHUFFLE may reorder them at run time, so data/sessions.json is NOT the
 // order that was actually spoken). Parse that order so each transcript answer
 // gets paired with the question that was really asked, not the built order.
+function playedOrderFromSummary(summary: any): string[] {
+  const checks = summary?.checks ?? [];
+  if (!Array.isArray(checks) || checks.length === 0) return [];
+  const order = checks.map((c: any) => String(c?.clip ?? "").replace(/^\d+_/, "").replace(/\.wav$/i, ""));
+  return order.filter(Boolean);
+}
+
+// Legacy source (#1 back then): the staged clips folder. Kept for old runs whose
+// summary predates `checks` — for them the clips are still the play-order record.
 function playedQuestionOrder(sessionId: string): string[] {
   const clipDir = path.join(RUNS_DIR, sessionId, "clips");
   try {
@@ -127,8 +196,8 @@ function playedQuestionOrder(sessionId: string): string[] {
   }
 }
 
-function captureForSession(session: Session): CaptureRecord[] {
-  const summary = latestSummary(session.session_id);
+function captureForSession(session: Session, runStamp: string, reportConversationId: string): CaptureRecord[] {
+  const summary = latestSummary(session.session_id, runStamp, reportConversationId);
   if (!summary) {
     console.warn(`  [${session.session_id}] no summary found in ${RUNS_DIR}/${session.session_id} - skipping.`);
     return [];
@@ -136,6 +205,14 @@ function captureForSession(session: Session): CaptureRecord[] {
 
   const transcript: TranscriptEntry[] = summary.liveTranscript || [];
   const checks: any[] = summary.checks || [];
+
+  // The zilla-responses file is the most faithful pairing: it records, in the
+  // exact staged-clip order, one entry per clip with `responded` (was there a
+  // reply) and the reply text. Unlike the content-based liveTranscript align,
+  // it does NOT drop short/stt-garbled confirmations (e.g. "كمّل"→"تمن") — so
+  // it is the authoritative source for whether a turn got a real answer.
+  // Must belong to the same run/conversation as the summary we just loaded.
+  const zr = latestZillaResponses(session.session_id, runStamp, reportConversationId);
   const appUrl = summary.env?.appUrl || "";
   const conversationId = summary.conversationId || "";
   const agentId = session.agent_id || summary.agentId || "";
@@ -146,10 +223,13 @@ function captureForSession(session: Session): CaptureRecord[] {
 
   const byId = new Map(questions.map((q) => [q.id, q]));
 
-  // Which question was actually asked at each position (authoritative from the
-  // staged clip filenames). Falls back to the built order only if clips are
-  // missing (e.g. an old run that predates this pairing fix).
-  const played = playedQuestionOrder(session.session_id);
+  // Which question was actually asked at each position. The summary's own checks
+  // record the play order FOR THIS RUN (covers text-only relay/direct runs,
+  // which never stage clips and would otherwise be poisoned by clips left over
+  // from an older browser run). Falls back to the staged clip filenames for
+  // legacy summaries without checks, then to the built session order.
+  const fromChecks = playedOrderFromSummary(summary);
+  const played = fromChecks.length === session.messages.length ? fromChecks : playedQuestionOrder(session.session_id);
   const order = played.length === session.messages.length ? played : null;
   if (!order) {
     console.warn(
@@ -180,19 +260,22 @@ function captureForSession(session: Session): CaptureRecord[] {
   // accumulation. Turns with no relay frame (first question before any
   // load_files, or a trailing turn) inherit the most recent known set, since
   // the answer was produced from the same context.
-  const perTurnByIdx = new Map<number, string[]>();
+  const perTurnByIdx = new Map<number, { files: string[]; saw: boolean }>();
   for (const entry of summary.sourceFilesByTurn || []) {
-    perTurnByIdx.set(
-      entry.turn,
-      [...new Set([...(entry.fileIds || []), ...(entry.loadedFiles || [])])],
-    );
+    perTurnByIdx.set(entry.turn, {
+      files: [...new Set([...(entry.fileIds ?? entry.file_ids ?? []), ...(entry.loadedFiles ?? entry.loaded_files ?? [])])],
+      saw: entry.saw_source_frame === true || !("saw_source_frame" in entry),
+    });
   }
   const sourceIdsForTurn = (turn: number): string[] => {
-    const direct = perTurnByIdx.get(turn);
-    if (direct && direct.length) return direct;
-    for (let t = turn - 1; t >= 1; t--) {
-      const prev = perTurnByIdx.get(t);
-      if (prev && prev.length) return prev;
+    // Walk backwards from this turn to the most recent answer that actually had
+    // a source frame. A turn whose frame arrived with an explicit empty set is
+    // authoritative too ([] stays []), so it becomes the new baseline; turns
+    // with no frame at all inherit from whatever the last frame said.
+    for (let t = turn; t >= 1; t--) {
+      const e = perTurnByIdx.get(t);
+      if (!e) continue;
+      if (e.saw) return e.files;
     }
     return [];
   };
@@ -200,7 +283,29 @@ function captureForSession(session: Session): CaptureRecord[] {
   return session.messages.map((m, i) => {
     const qid = order ? order[i] : m.question_id;
     const src = byId.get(qid);
-    const al = aligned[i];
+    // Prefer the authoritative zilla-responses pairing (one per clip, in play
+    // order). exchanges[0] is the opening greeting (ours:null), so exchanges[i+1]
+    // is the reply to clip i. replied[] gives the reliable responded flag.
+    const zrExchange = zr?.exchanges?.[i + 1];
+    const zrReplied = zr?.replies?.[i]?.responded;
+    const zrAnswer = (zrExchange?.zilla || "").trim() || null;
+    const haveZr =
+      zrExchange !== undefined ||
+      zr?.replies?.[i] !== undefined;
+    const checkAnswer = (checks[i]?.answerText || "").trim();
+    const answer = haveZr
+      ? zrAnswer
+      : checkAnswer.length > 0
+        ? checkAnswer
+        : (aligned[i]?.answer ?? null);
+    // checks[i].responded is the runner's authoritative per-turn verdict for
+    // text/WS runs (which never write zilla-responses): use it when we trust
+    // the checks record, so a real reply isn't lost during content alignment.
+    const checkResponded = checks[i]?.responded === true &&
+      (checkAnswer.length > 0 || !aligned[i]?.answer);
+    const answered = haveZr
+      ? !!zrReplied || !!zrAnswer
+      : checkResponded || !!aligned[i]?.answer;
     return {
       session_id: session.session_id,
       language: session.language,
@@ -211,12 +316,12 @@ function captureForSession(session: Session): CaptureRecord[] {
       question_id: qid,
       question: src?.question ?? m.question,
       expected_answer: src?.expected_answer ?? m.expected_answer,
-      zilla_answer: al?.answer ?? null,
-      answered: !!al?.answer,
+      zilla_answer: answer,
+      answered,
       source_chunks: src?.source_chunks || [],
       source_file_ids: sourceIdsForTurn(i + 1),
-      latency_ms: checks[i]?.latencyMs ?? null,
-      latency_first_audio_chunk_ms: checks[i]?.latencyMsToFirstAudioChunk ?? null,
+      latency_ms: zr?.replies?.[i]?.latencyMs ?? checks[i]?.latencyMs ?? null,
+      latency_first_audio_chunk_ms: zr?.replies?.[i]?.latencyMsToFirstAudioChunk ?? checks[i]?.latencyMsToFirstAudioChunk ?? null,
     };
   });
 }
@@ -310,6 +415,9 @@ function main() {
   }
 
   console.log(`Capturing answers from ${path.basename(reportPath)}...`);
+  // The report's own stamp scopes which per-session artifacts belong to this run.
+  // run-results-2026-09-09T08-37-43-430Z.json -> 2026-09-09T08-37-43-430Z
+  const runStamp = path.basename(reportPath).replace(/^run-results-/, "").replace(/\.json$/, "");
   const records: CaptureRecord[] = [];
   for (const r of report.results as Array<{ session_id: string }>) {
     const session = bySessionId.get(r.session_id);
@@ -317,7 +425,7 @@ function main() {
       console.warn(`  [${r.session_id}] session not in sessions.json - skipping.`);
       continue;
     }
-    records.push(...captureForSession(session));
+    records.push(...captureForSession(session, runStamp, (r as any)?.conversationId || ""));
   }
 
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");

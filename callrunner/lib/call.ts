@@ -276,14 +276,27 @@ async function waitForReplyAfterClip(
   timeoutMs: number = TURN_TIMEOUT_MS,
 ): Promise<ReplyWaitResult> {
   let baseline = beforeClip;
+  const blindUntil = clipEnd + REPLY_MIN_LATENCY_MS;
   while (Date.now() - clipEnd < timeoutMs) {
     const current = await agentSnapshot(zillaMsgs);
-    if (Date.now() - clipEnd < REPLY_MIN_LATENCY_MS) {
+    const now = Date.now();
+    if (now < blindUntil) {
+      // Blind window: absorb text-only changes (streaming of the PRIOR reply).
+      // But a new message bubble (count bump) right after this clip is a real,
+      // fast reply (e.g. a confirmation) — by the time waitZillaIdle returned,
+      // the prior turn had fully settled, so a fresh count bump is ours.
+      if (current.count > baseline.count) {
+        return {
+          responded: true,
+          latencyMs: now - clipEnd,
+          signal: 'message-count',
+        };
+      }
       if (changedAgentSnapshot(current, baseline)) baseline = current;
     } else if (changedAgentSnapshot(current, baseline)) {
       return {
         responded: true,
-        latencyMs: Date.now() - clipEnd,
+        latencyMs: now - clipEnd,
         signal: current.count !== baseline.count ? 'message-count' : 'text-change',
       };
     }

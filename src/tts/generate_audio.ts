@@ -59,50 +59,44 @@ function collectAllQuestions(onlyFile?: string): Question[] {
     fs.statSync(path.join(QUESTIONS_DIR, f)).isDirectory()
   );
 
-  // Support passing a full relative path like "questions/Loan/Car Loan.json"
-  // (covering any leading "data/" or "questions/" prefix) in addition to the
-  // legacy bare file name. The UI sends the full topic/file path.
-  let onlyAsSubPath: string | null = null;
-  if (onlyFile) {
-    const normalized = onlyFile.replace(/\\/g, "/").replace(/^\.?\//, "").toLowerCase();
-    const noDataPrefix = normalized.replace(/^data\//, "");
-    const noQPrefix = noDataPrefix.replace(/^questions\//, "");
-    if (noQPrefix.includes("/")) onlyAsSubPath = noQPrefix;
-  }
-  
-  for (const topic of topics) {
-    const topicDir = path.join(QUESTIONS_DIR, topic);
-    const jsonFiles = fs.readdirSync(topicDir).filter(f => f.endsWith('.json') && !f.endsWith('.chunks.json'));
-    
-    for (const jsonFile of jsonFiles) {
-      const filePath = path.join(topicDir, jsonFile);
-
-      if (onlyAsSubPath) {
-        // Full path given: match only the exact "<topic>/<file>.json".
-        const rel = `${topic}/${jsonFile}`.toLowerCase().replace(/\\/g, "/");
-        if (rel !== onlyAsSubPath) continue;
-      } else if (onlyFile) {
-        // Windows filenames are case-insensitive, so compare everything
-        // lowercased, tolerate stray quotes, and auto-append ".json" when the
-        // user only typed the base name ("Loans Gen" -> "Loans Gen.json").
-        const clean = onlyFile.replace(/^["']|["']$/g, "").trim();
-        const withExt = clean.toLowerCase().endsWith(".json") ? clean : `${clean}.json`;
-        const target = withExt.toLowerCase().replace(/\\/g, "/");
-
-        const rel = path.join(topic, jsonFile).replace(/\\/g, "/").toLowerCase();
-        const base = path.basename(jsonFile).toLowerCase();
-        const baseOnly = base.replace(/\.json$/, "");
-        const filePathLower = filePath.toLowerCase();
-
-        const matches = filePathLower === target
-          || base === target
-          || base === path.basename(target)
-          || baseOnly === path.basename(target, path.extname(target))
-          || rel === target
-          || rel.endsWith(`/${target}`)
-          || target.endsWith(`/${rel}`);
-        if (!matches) continue;
+  // Support passing a full relative path ("questions/Loan/Car Loan.json"),
+      // a bare file name ("Car Loan.json"), OR a whole-topic folder
+      // ("KnowledgeHub" or "questions/KnowledgeHub") → generate ALL files in it.
+      let onlyAsSubPath: string | null = null;
+      let onlyAsBare: string | null = null;
+      let onlyAsTopic: string | null = null;
+      if (onlyFile) {
+        const normalized = onlyFile.replace(/\\/g, "/").replace(/^\.?\//, "").toLowerCase();
+        const noDataPrefix = normalized.replace(/^data\//, "");
+        const noQPrefix = noDataPrefix.replace(/^questions\//, "");
+        if (noQPrefix.includes("/")) {
+          onlyAsSubPath = noQPrefix; // "<topic>/<file>.json"
+          onlyAsBare = path.basename(noQPrefix).replace(/\.json$/, "");
+        } else {
+          // No slash → either a bare "<file>.json" or a whole "<topic>" folder.
+          onlyAsTopic = noQPrefix;
+          onlyAsBare = noQPrefix.replace(/\.json$/, "");
+        }
       }
+      
+      for (const topic of topics) {
+        const topicDir = path.join(QUESTIONS_DIR, topic);
+        const jsonFiles = fs.readdirSync(topicDir).filter(f => f.endsWith('.json') && !f.endsWith('.chunks.json'));
+        
+        for (const jsonFile of jsonFiles) {
+          const filePath = path.join(topicDir, jsonFile);
+
+          if (onlyFile) {
+            const rel = `${topic}/${jsonFile}`.toLowerCase().replace(/\\/g, "/");
+            const topicOnly = topic.toLowerCase().replace(/\\/g, "/");
+            const baseOnly = jsonFile.toLowerCase().replace(/\.json$/, "");
+            const matches = (
+              (onlyAsSubPath && rel === onlyAsSubPath) ||          // full path
+              (onlyAsTopic && topicOnly === onlyAsTopic) ||        // whole topic folder
+              (onlyAsBare && baseOnly === onlyAsBare)              // bare file name
+            );
+            if (!matches) continue;
+          }
 
       const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
       questions.push(...data);

@@ -1,0 +1,3124 @@
+{
+  "questions": [
+    {
+      "id": "SPLKB-Q001",
+      "pair_id": "SPLKB-P001",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "أقدر أحذف كل عناويني الوطنية وأصير بدون عنوان مسجل؟",
+      "expected_answer": "لا، لا يمكن إزالة جميع العناوين، ولا بد من وجود عنوان واحد على الأقل مسجل للعميل.",
+      "source_chunks": [
+        "ماهي طريقة حذف العنوان ؟ (لايمكن إزالة جميع العناوين لابد من وجود عنوان واحد على الأقل)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P001_NATADDR_chunk_040"
+      ]
+    },
+    {
+      "id": "SPLKB-Q002",
+      "pair_id": "SPLKB-P001",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "Can I delete all my national addresses and end up with none registered?",
+      "expected_answer": "No, all addresses cannot be removed; there must be at least one address registered for the customer.",
+      "source_chunks": [
+        "ماهي طريقة حذف العنوان ؟ (لايمكن إزالة جميع العناوين لابد من وجود عنوان واحد على الأقل)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P001_NATADDR_chunk_040"
+      ]
+    },
+    {
+      "id": "SPLKB-Q003",
+      "pair_id": "SPLKB-P002",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "وش يعني «تكرار رقم مبنى»؟",
+      "expected_answer": "يعني وجود مبنيين أو أكثر لهما نفس رقم المبنى، ويتطلب من العميل تزويدنا بالرمز البريدي ورمز المبنى والرمز الفرعي لمعالجة الأمر.",
+      "source_chunks": [
+        "مامعنى تكرار رقم مبنى ؟ يوجد مبنيان أو أكثر لهم نفس رقم المبنى , يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P002_NATADDR_chunk_068"
+      ]
+    },
+    {
+      "id": "SPLKB-Q004",
+      "pair_id": "SPLKB-P002",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "What does 'duplicate building number' mean?",
+      "expected_answer": "It means there are two or more buildings sharing the same building number; the customer needs to provide the postal code, building code, and secondary number to resolve it.",
+      "source_chunks": [
+        "مامعنى تكرار رقم مبنى ؟ يوجد مبنيان أو أكثر لهم نفس رقم المبنى , يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P002_NATADDR_chunk_068"
+      ]
+    },
+    {
+      "id": "SPLKB-Q005",
+      "pair_id": "SPLKB-P003",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "وش معنى «استحداث عنوان جديد»؟",
+      "expected_answer": "هو طلب إنشاء عنوان جديد على الخريطة من قِبل إدارة العنوان حتى يتمكن العميل من التسجيل عليه، ويتطلب من العميل تزويدنا بالإحداثيات.",
+      "source_chunks": [
+        "مامعنى استحداث عنوان جديد ؟ هو طلب إنشاء عنوان جديد على الخريطة من قبل إدارة العنوان حتى يتمكن العميل من التسجيل عليه ويتطلب من العميل تزويدنا بـ(الإحداثيات)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P003_NATADDR_chunk_035"
+      ]
+    },
+    {
+      "id": "SPLKB-Q006",
+      "pair_id": "SPLKB-P003",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "What does 'creating a new address' mean?",
+      "expected_answer": "It's a request to create a new address on the map by the address management team so the customer can register on it, which requires the customer to provide us with the coordinates.",
+      "source_chunks": [
+        "مامعنى استحداث عنوان جديد ؟ هو طلب إنشاء عنوان جديد على الخريطة من قبل إدارة العنوان حتى يتمكن العميل من التسجيل عليه ويتطلب من العميل تزويدنا بـ(الإحداثيات)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P003_NATADDR_chunk_035"
+      ]
+    },
+    {
+      "id": "SPLKB-Q007",
+      "pair_id": "SPLKB-P004",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "كم تاخذ مدة تركيب اللوحة إذا كنت خارج الرياض؟",
+      "expected_answer": "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل بحد أقصى، بينما داخل مدينة الرياض هي 12 يوم عمل.",
+      "source_chunks": [
+        "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل بحد اقصى. مدة تركيب اللوحات بمدينة الرياض هي 12 يوم عمل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P004_PLATE_chunk_002"
+      ]
+    },
+    {
+      "id": "SPLKB-Q008",
+      "pair_id": "SPLKB-P004",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "How long does it take to install the address plate if I'm outside Riyadh?",
+      "expected_answer": "Installing the address plate outside Riyadh takes up to 22 business days maximum, while within Riyadh it takes 12 business days.",
+      "source_chunks": [
+        "مدة تركيب لوحة العنوان خارج مدينة الرياض هي 22 يوم عمل بحد اقصى. مدة تركيب اللوحات بمدينة الرياض هي 12 يوم عمل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P004_PLATE_chunk_002"
+      ]
+    },
+    {
+      "id": "SPLKB-Q009",
+      "pair_id": "SPLKB-P005",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "وش أقدر أسوي من خلال إدارة العنوان الوطني بحسابي؟",
+      "expected_answer": "من خلال إدارة العنوان الوطني للأفراد، يمكنك تعديل العنوان الوطني، إضافة الأفراد (التابعين)، إرسال رسالة بتفاصيل العنوان، وطباعة إثبات العنوان.",
+      "source_chunks": [
+        "اتاحة ادارة العنوان الوطني للأفراد والذي يمكن للعميل من خلالها تعديل العنوان الوطني واضافة الأفراد وارسال رسالة بتفاصيل العنوان وطباعة اثبات العنوان"
+      ],
+      "chunk_ids": [
+        "SPLKB-P005_NATADDR_chunk_010"
+      ]
+    },
+    {
+      "id": "SPLKB-Q010",
+      "pair_id": "SPLKB-P005",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "What can I do through my national address management in my account?",
+      "expected_answer": "Through individual national address management, you can edit your national address, add dependents, send a message with the address details, and print proof of address.",
+      "source_chunks": [
+        "اتاحة ادارة العنوان الوطني للأفراد والذي يمكن للعميل من خلالها تعديل العنوان الوطني واضافة الأفراد وارسال رسالة بتفاصيل العنوان وطباعة اثبات العنوان"
+      ],
+      "chunk_ids": [
+        "SPLKB-P005_NATADDR_chunk_010"
+      ]
+    },
+    {
+      "id": "SPLKB-Q011",
+      "pair_id": "SPLKB-P006",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "أنا مقيم، أقدر أضيف قريبي السعودي كتابع على عنواني الوطني؟",
+      "expected_answer": "لا، لا يستطيع المقيم إضافة فرد سعودي الجنسية إلى عنوانه الوطني.",
+      "source_chunks": [
+        "لايستطيع المقيم إضافة فرد سعودي/ة الجنسية لعنوانه الوطني"
+      ],
+      "chunk_ids": [
+        "SPLKB-P006_NATADDR_chunk_005"
+      ]
+    },
+    {
+      "id": "SPLKB-Q012",
+      "pair_id": "SPLKB-P006",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "I'm a resident (iqama holder), can I add my Saudi relative as a dependent on my national address?",
+      "expected_answer": "No, a resident cannot add a Saudi national as a dependent to their national address.",
+      "source_chunks": [
+        "لايستطيع المقيم إضافة فرد سعودي/ة الجنسية لعنوانه الوطني"
+      ],
+      "chunk_ids": [
+        "SPLKB-P006_NATADDR_chunk_005"
+      ]
+    },
+    {
+      "id": "SPLKB-Q013",
+      "pair_id": "SPLKB-P007",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أبغى ألوان مميزة زي الذهبي للوحة عنواني، متاح؟",
+      "expected_answer": "لا، فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها، وسيتم إشعار العملاء حال إعادتها.",
+      "source_chunks": [
+        "فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها وسيتم اشعاركم حال تم اعادتها."
+      ],
+      "chunk_ids": [
+        "SPLKB-P007_PLATE_chunk_004"
+      ]
+    },
+    {
+      "id": "SPLKB-Q014",
+      "pair_id": "SPLKB-P007",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I want something special like a gold plate for my address, is that available?",
+      "expected_answer": "No, the company implementing the project has stopped producing gold plates for now, and customers will be notified once they are reintroduced.",
+      "source_chunks": [
+        "فيما يخص اللوحات الذهبية فقد توقفت الشركة المنفذة للمشروع عن تنفيذها وسيتم اشعاركم حال تم اعادتها."
+      ],
+      "chunk_ids": [
+        "SPLKB-P007_PLATE_chunk_004"
+      ]
+    },
+    {
+      "id": "SPLKB-Q015",
+      "pair_id": "SPLKB-P008",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "فعّلت خدمة تحويل من صندوق البريد للعنوان الوطني، هل هذا يخليني أستلم الطرود على عنواني؟",
+      "expected_answer": "نعم، يتم تحويل استلام الطرود من خلال هذه الخدمة، ما عدا البريد المسجل فلا يشمله التحويل.",
+      "source_chunks": [
+        "هل خدمة تحويل من ص.ب الى العنوان الوطني هل تتيح العميل استلام الطرود؟ نعم يتم تحويلها ماعدا البريد المسجل"
+      ],
+      "chunk_ids": [
+        "SPLKB-P008_NATADDR_chunk_025"
+      ]
+    },
+    {
+      "id": "SPLKB-Q016",
+      "pair_id": "SPLKB-P008",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "I activated the PO box to national address transfer service, does that let me receive parcels at my address?",
+      "expected_answer": "Yes, parcel receipt is transferred through this service, except for registered mail, which is not included in the transfer.",
+      "source_chunks": [
+        "هل خدمة تحويل من ص.ب الى العنوان الوطني هل تتيح العميل استلام الطرود؟ نعم يتم تحويلها ماعدا البريد المسجل"
+      ],
+      "chunk_ids": [
+        "SPLKB-P008_NATADDR_chunk_025"
+      ]
+    },
+    {
+      "id": "SPLKB-Q017",
+      "pair_id": "SPLKB-P009",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "كم عنوان وطني أقدر أسجل على حسابي؟",
+      "expected_answer": "الحد الأقصى للعناوين المسجلة لكل حساب هو 4 عناوين للسعودي، وعنوانين لغير السعودي، ويتم أيضًا احتساب العناوين الملغاة ضمن هذا الحد إلا إذا تجاوز الإلغاء 6 أشهر.",
+      "source_chunks": [
+        "تطبيق الحد الأقصى للعناوين المسجلة لكل حساب 4 للسعودي وعنوانين لغير سعودي بحيث يتم ايضا احتساب العناوين الملغاة ( في حال أنه تجاوز 6 أشهر من اللألغاء لايتم إحتسابه )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P009_NATADDR_chunk_003"
+      ]
+    },
+    {
+      "id": "SPLKB-Q018",
+      "pair_id": "SPLKB-P009",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "How many national addresses can I register on my account?",
+      "expected_answer": "The maximum number of registered addresses per account is 4 for Saudis and 2 for non-Saudis; canceled addresses are also counted toward this limit unless more than 6 months have passed since cancellation.",
+      "source_chunks": [
+        "تطبيق الحد الأقصى للعناوين المسجلة لكل حساب 4 للسعودي وعنوانين لغير سعودي بحيث يتم ايضا احتساب العناوين الملغاة ( في حال أنه تجاوز 6 أشهر من اللألغاء لايتم إحتسابه )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P009_NATADDR_chunk_003"
+      ]
+    },
+    {
+      "id": "SPLKB-Q019",
+      "pair_id": "SPLKB-P010",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Support",
+      "question": "احنا جمعية خيرية، كيف نسجل بالعنوان الوطني؟",
+      "expected_answer": "يتم تسجيل الجمعيات الخيرية ومكاتب المحاماة برقم هوية المالك أو الرقم الموحد بالإضافة إلى رقم الملف في مكتب العمل (رقم الترخيص) ضمن فئة (الجمعيات الخيرية)، ثم يُرفع بلاغ لتعديل الفئة إلى (أنشطة أخرى) بمسار العنوان الوطني، ويُسند البلاغ لفريق الجغرافية.",
+      "source_chunks": [
+        "كيف يتم التسجيل بالعنوان الوطني للجمعيات الخيرية ومكاتب المحاماة ماشابهها؟ يتم تسجيل العميل برقم هوية المالك او الرقم الموحد + رقم الملف في مكتب العمل (رقم الترخيص) بفئة (الجمعيات الخيرية) ومن ثم رفع بلاغ لتعديل الفئة الى (أنشطة أخرى) بمسار العنوان الوطني - تسجيل جمعيات خيرية والمحاماة، ويتم اسناد البلاغ من فريق البلاغات الى الجغرافية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P010_NATADDR_chunk_023"
+      ]
+    },
+    {
+      "id": "SPLKB-Q020",
+      "pair_id": "SPLKB-P010",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Support",
+      "question": "We are a charity organization, how do we register for the national address?",
+      "expected_answer": "Charities and law firms are registered using the owner's ID number or unified number plus the license/file number from the labor office, under the (Charities) category, and then a complaint is raised to change the category to (Other Activities) via the national address path, which is assigned to the geographic team.",
+      "source_chunks": [
+        "كيف يتم التسجيل بالعنوان الوطني للجمعيات الخيرية ومكاتب المحاماة ماشابهها؟ يتم تسجيل العميل برقم هوية المالك او الرقم الموحد + رقم الملف في مكتب العمل (رقم الترخيص) بفئة (الجمعيات الخيرية) ومن ثم رفع بلاغ لتعديل الفئة الى (أنشطة أخرى) بمسار العنوان الوطني - تسجيل جمعيات خيرية والمحاماة، ويتم اسناد البلاغ من فريق البلاغات الى الجغرافية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P010_NATADDR_chunk_023"
+      ]
+    },
+    {
+      "id": "SPLKB-Q021",
+      "pair_id": "SPLKB-P011",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "أنا مضاف كفرد إضافي على عنوان شخص ثاني وأبغى أشيل اشتراكي من عنده، أقدر؟",
+      "expected_answer": "نعم، يمكنك حذف اشتراكك كفرد إضافي مضاف على عنوان وطني، بشرط ألا يكون هذا هو العنوان الوحيد المسجل باسمك.",
+      "source_chunks": [
+        "هل يمكن لعميل مضاف بالعنوان الوطني مع فرد اخر ويرغب بإزالة إشتراكة من العنوان ؟ يمكن للمستخدم حذف عنوان وطني مسجل عليه كفرد اضافي، بشرط أن لا يكون هو العنوان الوحيد المسجل للمستخدم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P011_NATADDR_chunk_036"
+      ]
+    },
+    {
+      "id": "SPLKB-Q022",
+      "pair_id": "SPLKB-P011",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "I'm added as an additional person on someone else's national address and want to remove myself, can I?",
+      "expected_answer": "Yes, you can delete your subscription as an additional person added to a national address, as long as it is not the only address registered under your name.",
+      "source_chunks": [
+        "هل يمكن لعميل مضاف بالعنوان الوطني مع فرد اخر ويرغب بإزالة إشتراكة من العنوان ؟ يمكن للمستخدم حذف عنوان وطني مسجل عليه كفرد اضافي، بشرط أن لا يكون هو العنوان الوحيد المسجل للمستخدم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P011_NATADDR_chunk_036"
+      ]
+    },
+    {
+      "id": "SPLKB-Q023",
+      "pair_id": "SPLKB-P012",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Support",
+      "question": "الرصيد اللي شحنته في محفظتي له مدة صلاحية معينة، بينتهي؟",
+      "expected_answer": "الرصيد الذي يتم شحنه من قبل العميل على المحفظة (أفراد/قطاع أعمال) غير محدد بمهلة انتهاء، بعكس الرصيد المجاني أو رصيد الهدية المرتبط بنهاية الاشتراك.",
+      "source_chunks": [
+        "كم مدة صلاحية رصيد العميل (افراد / قطاع اعمال) الرصيد الذي يتم شحنه من خلال العميل على المحفظة غير محدد بمهلة انتهاء (افراد/ قطاع اعمال),بعكس الرصيد المجاني او الهدية الذي مرتبط بنهاية بالاشتراك وهوالذي تم ذكره بالتعميم السابق (قطاع اعمال)."
+      ],
+      "chunk_ids": [
+        "SPLKB-P012_NATADDR_chunk_069"
+      ]
+    },
+    {
+      "id": "SPLKB-Q024",
+      "pair_id": "SPLKB-P012",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Support",
+      "question": "Does the balance I topped up in my wallet have an expiry period?",
+      "expected_answer": "Balance that the customer tops up in the wallet (individuals/business sector) has no expiration deadline, unlike free or gift balance, which is tied to the end of the subscription.",
+      "source_chunks": [
+        "كم مدة صلاحية رصيد العميل (افراد / قطاع اعمال) الرصيد الذي يتم شحنه من خلال العميل على المحفظة غير محدد بمهلة انتهاء (افراد/ قطاع اعمال),بعكس الرصيد المجاني او الهدية الذي مرتبط بنهاية بالاشتراك وهوالذي تم ذكره بالتعميم السابق (قطاع اعمال)."
+      ],
+      "chunk_ids": [
+        "SPLKB-P012_NATADDR_chunk_069"
+      ]
+    },
+    {
+      "id": "SPLKB-Q025",
+      "pair_id": "SPLKB-P013",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أقدر أدفع رسوم تركيب اللوحة من رصيدي بالمحفظة؟",
+      "expected_answer": "نعم، يمكن الدفع بنفس وسائل الدفع المتاحة حاليًا في موقع سبل.",
+      "source_chunks": [
+        "هل يمكن الدفع من خالل الرصيد؟ يمكن الدفع للعميل بنفس وسائل الدفع المتاحة حاليا في موقع سبل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P013_PLATE_chunk_016"
+      ]
+    },
+    {
+      "id": "SPLKB-Q026",
+      "pair_id": "SPLKB-P013",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Can I pay the plate installation fee using my wallet balance?",
+      "expected_answer": "Yes, payment can be made using the same payment methods currently available on the Sabl website.",
+      "source_chunks": [
+        "هل يمكن الدفع من خالل الرصيد؟ يمكن الدفع للعميل بنفس وسائل الدفع المتاحة حاليا في موقع سبل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P013_PLATE_chunk_016"
+      ]
+    },
+    {
+      "id": "SPLKB-Q027",
+      "pair_id": "SPLKB-P014",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "فعّلت تحويل صندوق البريد للعنوان الوطني بس ما توصلني أي رسائل، وش الحل؟",
+      "expected_answer": "يتم التأكد أولًا من صحة عنوان العميل عن طريق المحدد السعودي؛ فإذا كان العنوان خاطئًا يتم تصحيحه، وإذا كان صحيحًا يتم التحقق من تاريخ التحويل: إذا كان أقل من أسبوع فيُطلب من العميل الانتظار أسبوعًا آخر، أما إذا تجاوز الأسبوع يُرفع بلاغ للعميل.",
+      "source_chunks": [
+        "عميل يفيد بأنه فعل خدمة تحويل ص.ب الي عنوان وطني لكن لم تصل له الرسائل ؟ يتم التأكد من صحة عنوان العميل عن طريق المحدد السعودي ، في حال كان خاطئ يتم تصحيحه أما اذا كان صحيح يتم التحقق من تاريخ التحويل اذا كان أقل من أسبوع على العميل الانتظار اسبوع اخر اما اذا كان اكثر يرفع للعميل بلاغ"
+      ],
+      "chunk_ids": [
+        "SPLKB-P014_NATADDR_chunk_029"
+      ]
+    },
+    {
+      "id": "SPLKB-Q028",
+      "pair_id": "SPLKB-P014",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "I activated PO box transfer to my national address but I'm not receiving any messages, what's the solution?",
+      "expected_answer": "First, the customer's address is verified using the Saudi geocoder; if it's incorrect it's corrected, and if it's correct the transfer date is checked: if it's been less than a week the customer is asked to wait another week, and if more than a week has passed a complaint is raised for the customer.",
+      "source_chunks": [
+        "عميل يفيد بأنه فعل خدمة تحويل ص.ب الي عنوان وطني لكن لم تصل له الرسائل ؟ يتم التأكد من صحة عنوان العميل عن طريق المحدد السعودي ، في حال كان خاطئ يتم تصحيحه أما اذا كان صحيح يتم التحقق من تاريخ التحويل اذا كان أقل من أسبوع على العميل الانتظار اسبوع اخر اما اذا كان اكثر يرفع للعميل بلاغ"
+      ],
+      "chunk_ids": [
+        "SPLKB-P014_NATADDR_chunk_029"
+      ]
+    },
+    {
+      "id": "SPLKB-Q029",
+      "pair_id": "SPLKB-P015",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "مدة تنفيذ طلب اللوحة نفس المدة دايمًا ولا تختلف؟",
+      "expected_answer": "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة، ويُعرض للعميل أثناء اختيار اللوحة، وفي حال كان التأخير من طرف فريق التركيب سيتم تعويض العميل.",
+      "source_chunks": [
+        "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة ويعرض للعميل أثناء اختيار اللوحة ، وسيتم تعويض العميل في حال كان التأخير من طرف فريق التركيب."
+      ],
+      "chunk_ids": [
+        "SPLKB-P015_PLATE_chunk_020"
+      ]
+    },
+    {
+      "id": "SPLKB-Q030",
+      "pair_id": "SPLKB-P015",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Is the plate order execution time always the same or does it vary?",
+      "expected_answer": "The maximum execution time varies depending on the plate type, and is shown to the customer while selecting the plate; if the delay is caused by the installation team, the customer will be compensated.",
+      "source_chunks": [
+        "الحد الأقصى لتنفيذ الطلب يختلف باختلاف نوع اللوحة ويعرض للعميل أثناء اختيار اللوحة ، وسيتم تعويض العميل في حال كان التأخير من طرف فريق التركيب."
+      ],
+      "chunk_ids": [
+        "SPLKB-P015_PLATE_chunk_020"
+      ]
+    },
+    {
+      "id": "SPLKB-Q031",
+      "pair_id": "SPLKB-P016",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "مين اللي يركب لوحة العنوان الوطني فعليًا، سبل نفسها؟",
+      "expected_answer": "لا، يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة، وذلك تحت إشراف وتشغيل الشركة السعودية للخدمات البريدية واللوجستية (سبل).",
+      "source_chunks": [
+        "يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة تحت إشراف و تشغيل الشركة السعودية للخدمات البريدية و اللوجستية )سبل.("
+      ],
+      "chunk_ids": [
+        "SPLKB-P016_PLATE_chunk_025"
+      ]
+    },
+    {
+      "id": "SPLKB-Q032",
+      "pair_id": "SPLKB-P016",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Who actually installs the national address plate, Sabl itself?",
+      "expected_answer": "No, the plate is installed by an external party contracted with licensed factories, under the supervision and operation of the Saudi Postal and Logistics Services Company (Sabl).",
+      "source_chunks": [
+        "يتم تركيب اللوحة من قبل طرف خارجي بالتعاقد مع مصانع مرخصة تحت إشراف و تشغيل الشركة السعودية للخدمات البريدية و اللوجستية )سبل.("
+      ],
+      "chunk_ids": [
+        "SPLKB-P016_PLATE_chunk_025"
+      ]
+    },
+    {
+      "id": "SPLKB-Q033",
+      "pair_id": "SPLKB-P017",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "أنا زائر (أو جمعية خيرية/مكتب محاماة)، أقدر أكمل كل خدمات العنوان الوطني بنفسي أونلاين؟",
+      "expected_answer": "لا، فئات الزوار والجمعيات الخيرية ومكاتب المحاماة لا يمكنها إتمام جميع الخدمات عبر الموقع، ويتم خدمتها مباشرة من خلال مركز الاتصال.",
+      "source_chunks": [
+        "الفئات التي يتم خدمتها مباشرة: الزائرون. الجمعيات الخيرية. مكاتب المحاماة. هذه الفئات لا يمكنها إتمام جميع الخدمات عبر الموقع ويتم خدمتها من خلال المركز."
+      ],
+      "chunk_ids": [
+        "SPLKB-P017_NATADDR_chunk_049"
+      ]
+    },
+    {
+      "id": "SPLKB-Q034",
+      "pair_id": "SPLKB-P017",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "I'm a visitor (or a charity/law firm), can I complete all national address services myself online?",
+      "expected_answer": "No, visitors, charities, and law firms cannot complete all services through the website; they are served directly through the call center.",
+      "source_chunks": [
+        "الفئات التي يتم خدمتها مباشرة: الزائرون. الجمعيات الخيرية. مكاتب المحاماة. هذه الفئات لا يمكنها إتمام جميع الخدمات عبر الموقع ويتم خدمتها من خلال المركز."
+      ],
+      "chunk_ids": [
+        "SPLKB-P017_NATADDR_chunk_049"
+      ]
+    },
+    {
+      "id": "SPLKB-Q035",
+      "pair_id": "SPLKB-P018",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "لو غيّرت رقم جوالي في طلب تركيب اللوحة، هل بينعكس على عنواني الوطني؟",
+      "expected_answer": "نعم، تغيير رقم الجوال في الطلب ينعكس على العنوان الوطني، وسيتم توجيه العميل لصفحة بياناته الشخصية لإجراء التغيير.",
+      "source_chunks": [
+        "عند تغيير رقم الجوال بالطلب هل سينعكس بالعنوان الوطني ,أم فقط يقتصر على الطلب نفسه؟ نعم, وسينقل العميل لصفحة بياناته الشخصية للتغيير."
+      ],
+      "chunk_ids": [
+        "SPLKB-P018_PLATE_chunk_018"
+      ]
+    },
+    {
+      "id": "SPLKB-Q036",
+      "pair_id": "SPLKB-P018",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "If I change my mobile number in the plate installation request, will it reflect on my national address too?",
+      "expected_answer": "Yes, changing the mobile number in the request reflects on the national address as well, and the customer is redirected to their personal data page to make the change.",
+      "source_chunks": [
+        "عند تغيير رقم الجوال بالطلب هل سينعكس بالعنوان الوطني ,أم فقط يقتصر على الطلب نفسه؟ نعم, وسينقل العميل لصفحة بياناته الشخصية للتغيير."
+      ],
+      "chunk_ids": [
+        "SPLKB-P018_PLATE_chunk_018"
+      ]
+    },
+    {
+      "id": "SPLKB-Q037",
+      "pair_id": "SPLKB-P019",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "ركّبوا لي اللوحة غلط والجودة مو مطابقة، وش الحل؟",
+      "expected_answer": "في حال تركيب اللوحة بشكل خاطئ أو كانت جودتها غير مطابقة للمواصفات المعتمدة، فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+      "source_chunks": [
+        "في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي."
+      ],
+      "chunk_ids": [
+        "SPLKB-P019_PLATE_chunk_006"
+      ]
+    },
+    {
+      "id": "SPLKB-Q038",
+      "pair_id": "SPLKB-P019",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "The plate was installed incorrectly and the quality doesn't match the specs, what can be done?",
+      "expected_answer": "If the plate is installed incorrectly or its quality does not match the approved specifications, the manufacturer is obligated to replace it for the customer within 7 business days at no cost.",
+      "source_chunks": [
+        "في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي."
+      ],
+      "chunk_ids": [
+        "SPLKB-P019_PLATE_chunk_006"
+      ]
+    },
+    {
+      "id": "SPLKB-Q039",
+      "pair_id": "SPLKB-P020",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "الجمعيات الخيرية تدفع كم على اشتراك العنوان الوطني؟",
+      "expected_answer": "تدفع الجمعيات الخيرية 500 ريال سنويًا يشمل جميع الخدمات المميزة، وتصدر لها فواتير سنوية.",
+      "source_chunks": [
+        "تجاري الجمعيات الخيرية | بقيمة 500 ريال سنويا يشمل جميع الخدمات المميزة ؛ فيما يخص مكاتب المحاماة والجمعيات الخيرية فستصدر لهم فواتير سنوية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P020_NATADDR_chunk_051"
+      ]
+    },
+    {
+      "id": "SPLKB-Q040",
+      "pair_id": "SPLKB-P020",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "How much do charities pay for the national address subscription?",
+      "expected_answer": "Charities pay 500 SAR per year, which includes all premium services, and they are issued annual invoices.",
+      "source_chunks": [
+        "تجاري الجمعيات الخيرية | بقيمة 500 ريال سنويا يشمل جميع الخدمات المميزة ؛ فيما يخص مكاتب المحاماة والجمعيات الخيرية فستصدر لهم فواتير سنوية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P020_NATADDR_chunk_051"
+      ]
+    },
+    {
+      "id": "SPLKB-Q041",
+      "pair_id": "SPLKB-P021",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "عندي محل تجاري (أو نشاط نقل/رعاية)، كم رسوم اشتراكي بالعنوان الوطني؟",
+      "expected_answer": "الأنشطة الأخرى مثل المحلات التجارية والرعاة والنقل تدفع 500 ريال سنويًا للمنشأة الرئيسية، و100 ريال سنويًا للمنشأة الفرعية، وكلاهما يشمل جميع الخدمات المميزة.",
+      "source_chunks": [
+        "تجاري أنشطة اخرى | محلات تجارية , رعاة , نقل , اخرى برسم سنوي 500ريال للمنشأة الرئيسية يشمل جميع الخدمات المميزة ,وبرسم سنوي 100ريال للمنشأة الفرعية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P021_NATADDR_chunk_052"
+      ]
+    },
+    {
+      "id": "SPLKB-Q042",
+      "pair_id": "SPLKB-P021",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "I have a shop (or a transport/sponsorship activity), how much is my national address subscription fee?",
+      "expected_answer": "Other activities such as shops, sponsors, and transport pay 500 SAR per year for the main establishment and 100 SAR per year for a branch establishment, both including all premium services.",
+      "source_chunks": [
+        "تجاري أنشطة اخرى | محلات تجارية , رعاة , نقل , اخرى برسم سنوي 500ريال للمنشأة الرئيسية يشمل جميع الخدمات المميزة ,وبرسم سنوي 100ريال للمنشأة الفرعية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P021_NATADDR_chunk_052"
+      ]
+    },
+    {
+      "id": "SPLKB-Q043",
+      "pair_id": "SPLKB-P022",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أبغى أطلب لوحتين بتصميمين مختلفين في نفس الطلب، ممكن؟",
+      "expected_answer": "لا، لا يستطيع العميل اختيار أكثر من تصميم واحد في حال اختار أكثر من لوحة واحدة في نفس الطلب.",
+      "source_chunks": [
+        "لا يستطيع العميل اختيار أكثر من تصميم واحد في حال اختار أكثر من لوحة واحدة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P022_PLATE_chunk_013"
+      ]
+    },
+    {
+      "id": "SPLKB-Q044",
+      "pair_id": "SPLKB-P022",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I want to order two plates with two different designs in the same order, is that possible?",
+      "expected_answer": "No, a customer cannot select more than one design if they choose more than one plate in the same order.",
+      "source_chunks": [
+        "لا يستطيع العميل اختيار أكثر من تصميم واحد في حال اختار أكثر من لوحة واحدة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P022_PLATE_chunk_013"
+      ]
+    },
+    {
+      "id": "SPLKB-Q045",
+      "pair_id": "SPLKB-P023",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Mobile Update",
+      "question": "ابني عمره أقل من 18 سنة وأبغى أعدل رقم جواله في العنوان الوطني، كيف؟",
+      "expected_answer": "يتم رفع بلاغ بهوية الوصي عبر مسار (مركز الاتصال – أخرى) مع كتابة رقم جوال الوصي في الوصف، وسيتمكن الوصي من إضافة التابع فور معالجة البلاغ.",
+      "source_chunks": [
+        "لمن هم أقل من 18 سنة يتم عمل الآتي: يتم رفع بلاغ بهوية الوصي بمسار ( مركز الاتصال – أخرى ) وكتابة رقم جوال الوصي بالوصف وإبلاغ الوصي بأنه فور معالجة البلاغ سيمكنه إضافة التابع"
+      ],
+      "chunk_ids": [
+        "SPLKB-P023_NATADDR_chunk_011"
+      ]
+    },
+    {
+      "id": "SPLKB-Q046",
+      "pair_id": "SPLKB-P023",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Mobile Update",
+      "question": "My son is under 18 and I want to update his mobile number on the national address, how do I do that?",
+      "expected_answer": "A complaint is filed with the guardian's ID under the path (Call Center – Other), stating the guardian's mobile number in the description, and the guardian will be able to add the dependent once the complaint is processed.",
+      "source_chunks": [
+        "لمن هم أقل من 18 سنة يتم عمل الآتي: يتم رفع بلاغ بهوية الوصي بمسار ( مركز الاتصال – أخرى ) وكتابة رقم جوال الوصي بالوصف وإبلاغ الوصي بأنه فور معالجة البلاغ سيمكنه إضافة التابع"
+      ],
+      "chunk_ids": [
+        "SPLKB-P023_NATADDR_chunk_011"
+      ]
+    },
+    {
+      "id": "SPLKB-Q047",
+      "pair_id": "SPLKB-P024",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أقدر أشوف فواتير خدمة تركيب اللوحة من حسابي؟",
+      "expected_answer": "نعم، يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة (فواتيري).",
+      "source_chunks": [
+        "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة )فواتيري.("
+      ],
+      "chunk_ids": [
+        "SPLKB-P024_PLATE_chunk_015"
+      ]
+    },
+    {
+      "id": "SPLKB-Q048",
+      "pair_id": "SPLKB-P024",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Can I view the invoices for the plate installation service from my account?",
+      "expected_answer": "Yes, the customer can view their invoices related to the service through the (My Invoices) page.",
+      "source_chunks": [
+        "يستطيع العميل استعراض فواتيره المتعلقة بالخدمة عبر صفحة )فواتيري.("
+      ],
+      "chunk_ids": [
+        "SPLKB-P024_PLATE_chunk_015"
+      ]
+    },
+    {
+      "id": "SPLKB-Q049",
+      "pair_id": "SPLKB-P025",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "وش يعني «دمج عناوين»؟",
+      "expected_answer": "يعني وجود مبنى واحد يحتوي على عنوانين أو أكثر، ويجب على العميل رفع العناوين المراد معالجتها، مع تزويدنا بالرمز البريدي ورمز المبنى والرمز الفرعي.",
+      "source_chunks": [
+        "مامعنى دمج عناوين ؟ مبنى واحد يحتوي على عنوانين أو أكثر , يجب على العميل رفع العناوين المراد معالجتها , يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P025_NATADDR_chunk_065"
+      ]
+    },
+    {
+      "id": "SPLKB-Q050",
+      "pair_id": "SPLKB-P025",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "What does 'merging addresses' mean?",
+      "expected_answer": "It means one building has two or more addresses; the customer must submit the addresses to be processed, along with the postal code, building code, and secondary number.",
+      "source_chunks": [
+        "مامعنى دمج عناوين ؟ مبنى واحد يحتوي على عنوانين أو أكثر , يجب على العميل رفع العناوين المراد معالجتها , يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P025_NATADDR_chunk_065"
+      ]
+    },
+    {
+      "id": "SPLKB-Q051",
+      "pair_id": "SPLKB-P026",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Login Issues",
+      "question": "ما أقدر أدخل حسابي في سبل أونلاين بسبب اختلاف رقم جوالي عن نفاذ، وش الحل؟",
+      "expected_answer": "يتم رفع بلاغ تحت مسار (سبل أونلاين – عدم القدرة على الدخول من خلال النفاذ الوطني الموحد)، ويُرسل للعميل رابط مرفقات ليرفق صورة من المشكلة التي ظهرت له في الموقع.",
+      "source_chunks": [
+        "وفي حال واجه العميل مشكلة في الدخول الى سبل اون لاين بسبب اختلاف رقم الجوال وعدم قبول الدخول عبر النفاذ يتم رفع بلاغ تحت مسار ( سبل اون لاين – عدم القدرة على الدخول من خلال النفاذ الوطني الموحد ) وارسال رابط المرفقات للعميل ليرفق صورة من المشكلة"
+      ],
+      "chunk_ids": [
+        "SPLKB-P026_NATADDR_chunk_013"
+      ]
+    },
+    {
+      "id": "SPLKB-Q052",
+      "pair_id": "SPLKB-P026",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Login Issues",
+      "question": "I can't log into my Sabl Online account because my mobile number doesn't match Nafath, what's the solution?",
+      "expected_answer": "A complaint is filed under the path (Sabl Online – Unable to log in through the National Single Sign-On/Nafath), and the customer is sent an attachment link to upload a screenshot of the issue they encountered on the site.",
+      "source_chunks": [
+        "وفي حال واجه العميل مشكلة في الدخول الى سبل اون لاين بسبب اختلاف رقم الجوال وعدم قبول الدخول عبر النفاذ يتم رفع بلاغ تحت مسار ( سبل اون لاين – عدم القدرة على الدخول من خلال النفاذ الوطني الموحد ) وارسال رابط المرفقات للعميل ليرفق صورة من المشكلة"
+      ],
+      "chunk_ids": [
+        "SPLKB-P026_NATADDR_chunk_013"
+      ]
+    },
+    {
+      "id": "SPLKB-Q053",
+      "pair_id": "SPLKB-P027",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "عندي طلب لوحة قائم تحت المعالجة، أقدر أسوي طلب ثاني؟",
+      "expected_answer": "لا، لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جارٍ تحت المعالجة.",
+      "source_chunks": [
+        "لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P027_PLATE_chunk_014"
+      ]
+    },
+    {
+      "id": "SPLKB-Q054",
+      "pair_id": "SPLKB-P027",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I already have a plate order in progress, can I submit another one?",
+      "expected_answer": "No, a customer cannot create a new order if they already have an order currently being processed.",
+      "source_chunks": [
+        "لا يستطيع العميل إنشاء طلب جديد إذا كان لديه طلب جاري تحت المعالجة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P027_PLATE_chunk_014"
+      ]
+    },
+    {
+      "id": "SPLKB-Q055",
+      "pair_id": "SPLKB-P028",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "وش يعني «فصل عنوان» في العنوان الوطني؟",
+      "expected_answer": "يعني وجود أكثر من مبنى يتبعون نفس العنوان الوطني الواحد، ويجب على العميل إرفاق العنوان بالتفصيل (الرمز البريدي، رمز المبنى، الرمز الفرعي) لمعالجة الطلب.",
+      "source_chunks": [
+        "مامعنى فصل عنوان ؟ هو وجود مبنى فأكثر ويتبعون عنوان وطني واحد . يجب على العميل إرفاق العنوان بالتفصيل لمعالجته (الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P028_NATADDR_chunk_034"
+      ]
+    },
+    {
+      "id": "SPLKB-Q056",
+      "pair_id": "SPLKB-P028",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "What does 'address split' mean for the national address?",
+      "expected_answer": "It means there is more than one building following the same single national address; the customer must provide the detailed address (postal code, building code, secondary number) for the request to be processed.",
+      "source_chunks": [
+        "مامعنى فصل عنوان ؟ هو وجود مبنى فأكثر ويتبعون عنوان وطني واحد . يجب على العميل إرفاق العنوان بالتفصيل لمعالجته (الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P028_NATADDR_chunk_034"
+      ]
+    },
+    {
+      "id": "SPLKB-Q057",
+      "pair_id": "SPLKB-P029",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "لما أفتح عنواني الوطني المسجل، وش المعلومات اللي بتظهر لي؟",
+      "expected_answer": "يعرض النظام مكونات العنوان الوطني، تفاصيل المبنى، والتابعين إن وجدوا. وإذا كان المستخدم «تابع»، يظهر له اسم مالك الحساب الرئيسي، مع عرض نص «تابع للعنوان». كما يظهر زر «عرض إثبات العنوان الوطني» ضمن تفاصيل العنوان.",
+      "source_chunks": [
+        "كيف يتم عرض العنوان الوطني المسجل؟ يقوم النظام بعرض العناوين المسجلة وتفاصيلها التالية: مكونات العنوان الوطني, تفاصيل المبنى, التابعين إن وجد. إذا كان المستخدم \"تابع\", فإن سيتم عرض اسم مالك الحساب الرئيسي للعنوان. يتم عرض النص \"تابع للعنوان\" على العنوان الوطني في حال كان المستخدم تابع لهذا العنوان الوطني. تم تضمين زر\"عرض إثبات العنوان الوطني\" في تفاصيل العنوان"
+      ],
+      "chunk_ids": [
+        "SPLKB-P029_NATADDR_chunk_063"
+      ]
+    },
+    {
+      "id": "SPLKB-Q058",
+      "pair_id": "SPLKB-P029",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "When I open my registered national address, what information shows up?",
+      "expected_answer": "The system displays the national address components, building details, and dependents if any. If the user is a 'dependent', it shows the primary account holder's name along with the label 'Dependent of this address'. A 'View Proof of National Address' button is also included in the address details.",
+      "source_chunks": [
+        "كيف يتم عرض العنوان الوطني المسجل؟ يقوم النظام بعرض العناوين المسجلة وتفاصيلها التالية: مكونات العنوان الوطني, تفاصيل المبنى, التابعين إن وجد. إذا كان المستخدم \"تابع\", فإن سيتم عرض اسم مالك الحساب الرئيسي للعنوان. يتم عرض النص \"تابع للعنوان\" على العنوان الوطني في حال كان المستخدم تابع لهذا العنوان الوطني. تم تضمين زر\"عرض إثبات العنوان الوطني\" في تفاصيل العنوان"
+      ],
+      "chunk_ids": [
+        "SPLKB-P029_NATADDR_chunk_063"
+      ]
+    },
+    {
+      "id": "SPLKB-Q059",
+      "pair_id": "SPLKB-P030",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "ليه حالة اشتراكي المؤسسي (الفردي) بالعنوان الوطني صارت «مرفوض»؟",
+      "expected_answer": "في حال اشترك العميل بالعنوان الوطني ومضى على اشتراكه 7 أيام دون سداد، يصبح اشتراكه مرفوضًا، وعلى العميل الاشتراك من جديد.",
+      "source_chunks": [
+        "عميل يسأل لماذا حالة اشتراكة المؤسسي في العنوان الوطني مرفوض ؟ في حال ان العميل أشترك في العنوان الوطني ومضى على اشتراكة 7 أيام ولم يسدد يصبح اشتراكه مرفوض وعلى العميل يشترك من جديد"
+      ],
+      "chunk_ids": [
+        "SPLKB-P030_NATADDR_chunk_072"
+      ]
+    },
+    {
+      "id": "SPLKB-Q060",
+      "pair_id": "SPLKB-P030",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "Why did my individual commercial subscription status for the national address become 'rejected'?",
+      "expected_answer": "If a customer subscribes to the national address and 7 days pass without payment, their subscription becomes rejected, and the customer must subscribe again.",
+      "source_chunks": [
+        "عميل يسأل لماذا حالة اشتراكة المؤسسي في العنوان الوطني مرفوض ؟ في حال ان العميل أشترك في العنوان الوطني ومضى على اشتراكة 7 أيام ولم يسدد يصبح اشتراكه مرفوض وعلى العميل يشترك من جديد"
+      ],
+      "chunk_ids": [
+        "SPLKB-P030_NATADDR_chunk_072"
+      ]
+    },
+    {
+      "id": "SPLKB-Q061",
+      "pair_id": "SPLKB-P031",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "كم حساب أقدر أسجل بنفس رقم الجوال في العنوان الوطني؟",
+      "expected_answer": "الحد الأقصى لإجمالي الحسابات المسجلة على نفس رقم الجوال هو 12 حساب للعميل.",
+      "source_chunks": [
+        "تطبيق الحد الأقصى لإجمالي المسجلين على نفس رقم الجوال ليكون 12 حساب للعميل"
+      ],
+      "chunk_ids": [
+        "SPLKB-P031_NATADDR_chunk_007"
+      ]
+    },
+    {
+      "id": "SPLKB-Q062",
+      "pair_id": "SPLKB-P031",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "How many accounts can I register using the same phone number for the national address?",
+      "expected_answer": "The maximum total number of accounts registered under the same phone number is 12 accounts per customer.",
+      "source_chunks": [
+        "تطبيق الحد الأقصى لإجمالي المسجلين على نفس رقم الجوال ليكون 12 حساب للعميل"
+      ],
+      "chunk_ids": [
+        "SPLKB-P031_NATADDR_chunk_007"
+      ]
+    },
+    {
+      "id": "SPLKB-Q063",
+      "pair_id": "SPLKB-P032",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "قدمت طلب تركيب لوحة من فترة، كيف أتأكد من حالته؟",
+      "expected_answer": "يمكن التحقق من حالة الطلب عبر رقم الطلب الذي يظهر في صفحة (طلباتي)، من خلال الذهاب لخدمة العملاء واختيار طلبات تركيب العنوان الوطني، ثم البحث برقم الطلب لمعرفة حالته.",
+      "source_chunks": [
+        "يمكن التحقق من حالة طلب العميل عبر البحث عن رقم الطلب الذي يظهر للعميل في صفحة)طلباتي( و من ثم البحث في نظام CRM: الذهاب لخدمة العملاء و اختيار طلبات تركيب العنوان الوطني. ستظهر قائمة طلبات تركيب لوحات العنوان ويمكن البحث برقم الطلب لمعرفة حالته"
+      ],
+      "chunk_ids": [
+        "SPLKB-P032_PLATE_chunk_017"
+      ]
+    },
+    {
+      "id": "SPLKB-Q064",
+      "pair_id": "SPLKB-P032",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I submitted a plate installation request a while ago, how can I check its status?",
+      "expected_answer": "The order status can be checked using the order number shown on the (My Orders) page, by going to customer service, selecting national address plate installation requests, and searching by order number to see its status.",
+      "source_chunks": [
+        "يمكن التحقق من حالة طلب العميل عبر البحث عن رقم الطلب الذي يظهر للعميل في صفحة)طلباتي( و من ثم البحث في نظام CRM: الذهاب لخدمة العملاء و اختيار طلبات تركيب العنوان الوطني. ستظهر قائمة طلبات تركيب لوحات العنوان ويمكن البحث برقم الطلب لمعرفة حالته"
+      ],
+      "chunk_ids": [
+        "SPLKB-P032_PLATE_chunk_017"
+      ]
+    },
+    {
+      "id": "SPLKB-Q065",
+      "pair_id": "SPLKB-P033",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "اشتراكي التجاري انتهى وباقي 4 أشهر بس على نهاية السجل التجاري، بكم بيطلعون لي فاتورة التجديد؟",
+      "expected_answer": "إذا كانت المدة المتبقية على نهاية السجل التجاري أقل من سنة، تُصدر فاتورة بقيمة سنة كاملة، فمثلًا مؤسسة رئيسية متبقٍ على سجلها 4 أشهر تصدر لها فاتورة بقيمة 500 ريال.",
+      "source_chunks": [
+        "في حال لدى العميل اشتراك قطاع اعمال وتم انتهاء الاشتراك ويرغب بتجديد الاشتراك... وكانت المدة المتبقيه على نهاية السجل التجاري اقل من سنه يتم اصدار فاتورة للعميل بقيمة سنه كامله. مثال ذلك: اشتراك مؤسسة رئيسية ونهاية السجل التجاري بعد 4 اشهر... سيتم اصدار فاتورة بقيمة 500 ريال للعميل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P033_NATADDR_chunk_006"
+      ]
+    },
+    {
+      "id": "SPLKB-Q066",
+      "pair_id": "SPLKB-P033",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "My business subscription ended and I only have 4 months left on my commercial registration, how much will the renewal invoice be?",
+      "expected_answer": "If the remaining time on the commercial registration is less than a year, a full year's invoice is issued. For example, a main establishment with 4 months remaining on its registration would be issued an invoice for 500 SAR.",
+      "source_chunks": [
+        "في حال لدى العميل اشتراك قطاع اعمال وتم انتهاء الاشتراك ويرغب بتجديد الاشتراك... وكانت المدة المتبقيه على نهاية السجل التجاري اقل من سنه يتم اصدار فاتورة للعميل بقيمة سنه كامله. مثال ذلك: اشتراك مؤسسة رئيسية ونهاية السجل التجاري بعد 4 اشهر... سيتم اصدار فاتورة بقيمة 500 ريال للعميل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P033_NATADDR_chunk_006"
+      ]
+    },
+    {
+      "id": "SPLKB-Q067",
+      "pair_id": "SPLKB-P034",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أسكن في مجمع سكني يحتاج تصريح دخول، من المسؤول عن استخراجه لفريق التركيب؟",
+      "expected_answer": "العميل هو المسؤول عن توفير التصاريح اللازمة لدخول فريق التركيب عند اللزوم (مثل بعض المجمعات السكنية)، وفي حال كانت منطقته تستلزم تصريح دخول فإنه يتحمل مسؤولية إصدار التصاريح اللازمة.",
+      "source_chunks": [
+        "يجب على العميل توفيرالتصاريح اللازمة لدخول فريق التركيب عند اللزوم )مثل بعض المجمعات السكنية.( في حال كان العميل يسكن في منطقة تستلزم إصدار تصريح دخول لفريق التركيب فإن العميل يتحمل مسؤولية إصدارالتصاريح اللازمة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P034_PLATE_chunk_019"
+      ]
+    },
+    {
+      "id": "SPLKB-Q068",
+      "pair_id": "SPLKB-P034",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I live in a residential compound that requires an entry permit, who's responsible for getting one for the installation team?",
+      "expected_answer": "The customer is responsible for providing the necessary permits for the installation team to enter when needed (such as for some residential compounds), and if their area requires an entry permit, they bear responsibility for issuing the necessary permits.",
+      "source_chunks": [
+        "يجب على العميل توفيرالتصاريح اللازمة لدخول فريق التركيب عند اللزوم )مثل بعض المجمعات السكنية.( في حال كان العميل يسكن في منطقة تستلزم إصدار تصريح دخول لفريق التركيب فإن العميل يتحمل مسؤولية إصدارالتصاريح اللازمة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P034_PLATE_chunk_019"
+      ]
+    },
+    {
+      "id": "SPLKB-Q069",
+      "pair_id": "SPLKB-P035",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أقدر أطلب تركيب لوحة عنوان بدون ما أكون مسجل بالعنوان الوطني؟",
+      "expected_answer": "لا، لا يستطيع العميل إنشاء طلب لتركيب اللوحة إلا إذا كان مسجلًا في العنوان الوطني.",
+      "source_chunks": [
+        "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجل في العنوان الوطني."
+      ],
+      "chunk_ids": [
+        "SPLKB-P035_PLATE_chunk_030"
+      ]
+    },
+    {
+      "id": "SPLKB-Q070",
+      "pair_id": "SPLKB-P035",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Can I request an address plate installation without being registered for the national address?",
+      "expected_answer": "No, a customer cannot create a plate installation request unless they are already registered for the national address.",
+      "source_chunks": [
+        "لا يستطيع العميل إنشاء طلب إلا إذا كان مسجل في العنوان الوطني."
+      ],
+      "chunk_ids": [
+        "SPLKB-P035_PLATE_chunk_030"
+      ]
+    },
+    {
+      "id": "SPLKB-Q071",
+      "pair_id": "SPLKB-P036",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Components",
+      "question": "وش المعلومات اللي يتكون منها العنوان الوطني؟",
+      "expected_answer": "يتكون العنوان الوطني من: العنوان المختصر (أربعة حروف وأربعة أرقام)، رقم المبنى (4 أرقام)، اسم الشارع، الرقم الفرعي (4 أرقام)، اسم الحي، الرمز البريدي (5 أرقام)، والمدينة.",
+      "source_chunks": [
+        "مكونات العنوان الوطني: العنوان المختصر (عنوان بسيط... يحتوي على أربعة حروف وأربعة أرقام فقط)، رقم المبنى: 4 أرقام، اسم الشارع، الرقم الفرعي: 4 أرقام، اسم الحي، الرمز البريدي: 5 أرقام، المدينة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P036_NATADDR_chunk_001"
+      ]
+    },
+    {
+      "id": "SPLKB-Q072",
+      "pair_id": "SPLKB-P036",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Components",
+      "question": "What information makes up the national address?",
+      "expected_answer": "The national address consists of: the short address (four letters and four digits), the building number (4 digits), the street name, the secondary number (4 digits), the district name, the postal code (5 digits), and the city.",
+      "source_chunks": [
+        "مكونات العنوان الوطني: العنوان المختصر (عنوان بسيط... يحتوي على أربعة حروف وأربعة أرقام فقط)، رقم المبنى: 4 أرقام، اسم الشارع، الرقم الفرعي: 4 أرقام، اسم الحي، الرمز البريدي: 5 أرقام، المدينة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P036_NATADDR_chunk_001"
+      ]
+    },
+    {
+      "id": "SPLKB-Q073",
+      "pair_id": "SPLKB-P037",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "اشتراكي التجاري منتهي وحالته مرفوض، أقدر أجدده؟",
+      "expected_answer": "لا، لا يمكن تجديده في هذه الحالة، ويتم توجيه العميل للتسجيل من جديد.",
+      "source_chunks": [
+        "عميل لدية تجاري لمنشاة منتهي وحالة الاشتراك مرفوض ماهو الاجراء؟ لايتم تجديده للعميل ويتم توجية العميل للتسجيل من جديد"
+      ],
+      "chunk_ids": [
+        "SPLKB-P037_NATADDR_chunk_044"
+      ]
+    },
+    {
+      "id": "SPLKB-Q074",
+      "pair_id": "SPLKB-P037",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "My commercial subscription has expired and its status is rejected, can I renew it?",
+      "expected_answer": "No, it cannot be renewed in this case, and the customer is directed to register again from scratch.",
+      "source_chunks": [
+        "عميل لدية تجاري لمنشاة منتهي وحالة الاشتراك مرفوض ماهو الاجراء؟ لايتم تجديده للعميل ويتم توجية العميل للتسجيل من جديد"
+      ],
+      "chunk_ids": [
+        "SPLKB-P037_NATADDR_chunk_044"
+      ]
+    },
+    {
+      "id": "SPLKB-Q075",
+      "pair_id": "SPLKB-P038",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "أبغى ألغي مؤسسة أو شركة قائمة من العنوان الوطني، وش الخطوات؟",
+      "expected_answer": "أولًا يقوم العميل بإلغاء المنشأة عن طريق مكتب العمل، وبعد التأكد من الإلغاء عبر مصدر التحقق (وزارة العمل) يتم التأكد أن المنشأة ملغية، ثم يتم إلغاء أي فاتورة قائمة إن وجدت، وأخيرًا يتم الذهاب للاشتراكات وإلغاء الاشتراك ووضع حالة السجل (مغلق).",
+      "source_chunks": [
+        "عميل يريد الغاء مؤسسة او شركة قائمة؟ أولا يقوم بإلغاء المنشأة عن طريق مكتب العمل. في حال قام بالإلغاء عن طريق مكتب العمل نقوم بأخذ رقم السجل وأختيار مصدر التحقق (وزارة العمل )للتأكد بأن المنشأة ملغية. ثانيا في حال وجود فاتورة نقوم بإلغائها. ثالثا نذهب الى الأشتراكات ثم الغاء الأشتراكات ونقوم بوضع حالة السجل مغلق"
+      ],
+      "chunk_ids": [
+        "SPLKB-P038_NATADDR_chunk_043"
+      ]
+    },
+    {
+      "id": "SPLKB-Q076",
+      "pair_id": "SPLKB-P038",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "I want to cancel an existing company or establishment from the national address, what are the steps?",
+      "expected_answer": "First, the customer cancels the establishment through the labor office; after confirming the cancellation through the verification source (Ministry of Labor) to ensure the establishment is canceled, any outstanding invoice is canceled, and finally, the subscription is opened and canceled with the record status set to (Closed).",
+      "source_chunks": [
+        "عميل يريد الغاء مؤسسة او شركة قائمة؟ أولا يقوم بإلغاء المنشأة عن طريق مكتب العمل. في حال قام بالإلغاء عن طريق مكتب العمل نقوم بأخذ رقم السجل وأختيار مصدر التحقق (وزارة العمل )للتأكد بأن المنشأة ملغية. ثانيا في حال وجود فاتورة نقوم بإلغائها. ثالثا نذهب الى الأشتراكات ثم الغاء الأشتراكات ونقوم بوضع حالة السجل مغلق"
+      ],
+      "chunk_ids": [
+        "SPLKB-P038_NATADDR_chunk_043"
+      ]
+    },
+    {
+      "id": "SPLKB-Q077",
+      "pair_id": "SPLKB-P039",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Mobile Update",
+      "question": "أنا صاحب منشأة تجارية، كيف أعدّل رقم الجوال المرتبط بالعنوان الوطني؟",
+      "expected_answer": "يتم تحويل العميل إلى الموظف المختص لتتم خدمته بخصوص تعديل رقم الجوال للأعمال.",
+      "source_chunks": [
+        "تعديل رقم الجوال (للأعمال): يتم تحويل العميل الى التحويلة التالية ليتم خدمته من قبل الموظف المختص"
+      ],
+      "chunk_ids": [
+        "SPLKB-P039_NATADDR_chunk_054"
+      ]
+    },
+    {
+      "id": "SPLKB-Q078",
+      "pair_id": "SPLKB-P039",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Mobile Update",
+      "question": "I own a commercial establishment, how do I update the mobile number linked to the national address?",
+      "expected_answer": "The customer is transferred to the relevant specialized employee to be served regarding the business mobile number update.",
+      "source_chunks": [
+        "تعديل رقم الجوال (للأعمال): يتم تحويل العميل الى التحويلة التالية ليتم خدمته من قبل الموظف المختص"
+      ],
+      "chunk_ids": [
+        "SPLKB-P039_NATADDR_chunk_054"
+      ]
+    },
+    {
+      "id": "SPLKB-Q079",
+      "pair_id": "SPLKB-P040",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "سجلي التجاري جديد، بضطر أدفع رسوم تجاري للعنوان الوطني من أول سنة؟",
+      "expected_answer": "لا، يتم إعفاء المنشآت التجارية من رسوم تجاري للسنة الأولى، وذلك للسجلات التجارية الجديدة الصادرة من وزارة التجارة، ويتم التأكد من تاريخ إصدار السجل التجاري في نظام CRM.",
+      "source_chunks": [
+        "يتم اعفاء المنشات التجارية من رسوم تجاري للسنة الاولى وذلك للسجلات التجارية الجديدة الصادرة من وزارة التجارة ويتم التأكد من تاريخ إصدار السجل التجاري في نظام CRM"
+      ],
+      "chunk_ids": [
+        "SPLKB-P040_NATADDR_chunk_053"
+      ]
+    },
+    {
+      "id": "SPLKB-Q080",
+      "pair_id": "SPLKB-P040",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "My commercial registration is new, do I have to pay the commercial fee for the national address from the first year?",
+      "expected_answer": "No, commercial establishments are exempted from the commercial fee for the first year, for new commercial registrations issued by the Ministry of Commerce; the issue date of the commercial registration is verified in the CRM system.",
+      "source_chunks": [
+        "يتم اعفاء المنشات التجارية من رسوم تجاري للسنة الاولى وذلك للسجلات التجارية الجديدة الصادرة من وزارة التجارة ويتم التأكد من تاريخ إصدار السجل التجاري في نظام CRM"
+      ],
+      "chunk_ids": [
+        "SPLKB-P040_NATADDR_chunk_053"
+      ]
+    },
+    {
+      "id": "SPLKB-Q081",
+      "pair_id": "SPLKB-P041",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "أنا زائر (أو جمعية خيرية/مكتب محاماة)، كيف أقدر أحصل على إثبات العنوان الوطني؟",
+      "expected_answer": "يتم رفع بلاغ للعميل في نظام CRM بمسار (مركز اتصال - طباعة اشتراك) للحصول على إثبات العنوان الوطني.",
+      "source_chunks": [
+        "كيف يمكن الحصول على اثبات العنوان الوطني لمكاتب المحاماة والجمعيات الخيرية والزائرين ؟ يتم رفع بلاغ للعميل بنظام السي ار ام بمسار ( مركز اتصال - طباعة اشتراك)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P041_NATADDR_chunk_037"
+      ]
+    },
+    {
+      "id": "SPLKB-Q082",
+      "pair_id": "SPLKB-P041",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "I'm a visitor (or a charity/law firm), how can I get proof of my national address?",
+      "expected_answer": "A complaint is filed for the customer in the CRM system under the path (Call Center – Print Subscription) to obtain proof of the national address.",
+      "source_chunks": [
+        "كيف يمكن الحصول على اثبات العنوان الوطني لمكاتب المحاماة والجمعيات الخيرية والزائرين ؟ يتم رفع بلاغ للعميل بنظام السي ار ام بمسار ( مركز اتصال - طباعة اشتراك)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P041_NATADDR_chunk_037"
+      ]
+    },
+    {
+      "id": "SPLKB-Q083",
+      "pair_id": "SPLKB-P042",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "إقامتي منتهية من مدة طويلة، أقدر أسجل عنوان وطني؟",
+      "expected_answer": "نعم، يُسمح لغير السعودي بالتسجيل حتى لو كانت الإقامة منتهية، بشرط أن تكون منتهية من عام 1439 أو بعده.",
+      "source_chunks": [
+        "السماح لتسجيل غير سعودي بإقامة منتهية من عام 1439"
+      ],
+      "chunk_ids": [
+        "SPLKB-P042_NATADDR_chunk_009"
+      ]
+    },
+    {
+      "id": "SPLKB-Q084",
+      "pair_id": "SPLKB-P042",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "My residency permit expired a long time ago, can I still register for a national address?",
+      "expected_answer": "Yes, non-Saudis are allowed to register even with an expired residency permit, as long as it expired from the year 1439 AH onward.",
+      "source_chunks": [
+        "السماح لتسجيل غير سعودي بإقامة منتهية من عام 1439"
+      ],
+      "chunk_ids": [
+        "SPLKB-P042_NATADDR_chunk_009"
+      ]
+    },
+    {
+      "id": "SPLKB-Q085",
+      "pair_id": "SPLKB-P043",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "هل البريد المسجل يوصل مباشرة إلى العنوان الوطني؟",
+      "expected_answer": "لا، لا يتم توصيل البريد المسجل مباشرة إلى العنوان الوطني.",
+      "source_chunks": [
+        "هل يتم توصيل البريد المسجل مباشرة الى العنوان الوطني ؟ لا"
+      ],
+      "chunk_ids": [
+        "SPLKB-P043_NATADDR_chunk_018"
+      ]
+    },
+    {
+      "id": "SPLKB-Q086",
+      "pair_id": "SPLKB-P043",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "Is registered mail delivered directly to the national address?",
+      "expected_answer": "No, registered mail is not delivered directly to the national address.",
+      "source_chunks": [
+        "هل يتم توصيل البريد المسجل مباشرة الى العنوان الوطني ؟ لا"
+      ],
+      "chunk_ids": [
+        "SPLKB-P043_NATADDR_chunk_018"
+      ]
+    },
+    {
+      "id": "SPLKB-Q087",
+      "pair_id": "SPLKB-P044",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "لو عندي بلاغ أو شكوى على خدمة تركيب اللوحة، كم تاخذ مدة حلها؟",
+      "expected_answer": "الحد الأقصى لمعالجة البلاغات والشكاوى المتعلقة بخدمة تركيب اللوحة هو 72 ساعة.",
+      "source_chunks": [
+        "72 ساعة عمل . مدة حل البلاغات ؛ والحد الأقصى لمعالجة الشكاوى و البلاغات هو 72 ساعة"
+      ],
+      "chunk_ids": [
+        "SPLKB-P044_PLATE_chunk_009"
+      ]
+    },
+    {
+      "id": "SPLKB-Q088",
+      "pair_id": "SPLKB-P044",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "If I file a complaint about the plate installation service, how long does it take to resolve?",
+      "expected_answer": "The maximum time for handling complaints and reports related to the plate installation service is 72 hours.",
+      "source_chunks": [
+        "72 ساعة عمل . مدة حل البلاغات ؛ والحد الأقصى لمعالجة الشكاوى و البلاغات هو 72 ساعة"
+      ],
+      "chunk_ids": [
+        "SPLKB-P044_PLATE_chunk_009"
+      ]
+    },
+    {
+      "id": "SPLKB-Q089",
+      "pair_id": "SPLKB-P045",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "أنا صاحب منشأة، ما فيه سجل تجاري، كيف أسجل بالعنوان الوطني؟",
+      "expected_answer": "يتم التسجيل بالرقم الموحد – رقم المنشأة الصادر من مكتب العمل، وفي حال واجه العميل مشكلة يتم رفع بلاغ ببياناته للتحقق منها.",
+      "source_chunks": [
+        "قطاع الأعمال الذي ليس لديه سجل تجاري: يقوم بالتسجيل بالرقم الموحد – رقم المنشأة بمكتب العمل، وفي حال واجه مشكلة يتم رفع بلاغ ببياناته للتحقق منها"
+      ],
+      "chunk_ids": [
+        "SPLKB-P045_NATADDR_chunk_020"
+      ]
+    },
+    {
+      "id": "SPLKB-Q090",
+      "pair_id": "SPLKB-P045",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "I own an establishment with no commercial registration, how do I register for the national address?",
+      "expected_answer": "Registration is done using the unified number — the establishment number issued by the labor office. If the customer faces an issue, a complaint is filed with their details for verification.",
+      "source_chunks": [
+        "قطاع الأعمال الذي ليس لديه سجل تجاري: يقوم بالتسجيل بالرقم الموحد – رقم المنشأة بمكتب العمل، وفي حال واجه مشكلة يتم رفع بلاغ ببياناته للتحقق منها"
+      ],
+      "chunk_ids": [
+        "SPLKB-P045_NATADDR_chunk_020"
+      ]
+    },
+    {
+      "id": "SPLKB-Q091",
+      "pair_id": "SPLKB-P046",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "كيف أصدر بطاقة العنوان الوطني؟",
+      "expected_answer": "يتم إصدار بطاقة العنوان عن طريق التطبيق.",
+      "source_chunks": [
+        "كيف يتم اصدار بطاقة العنوان ؟ عن طريق التطبيق"
+      ],
+      "chunk_ids": [
+        "SPLKB-P046_NATADDR_chunk_028"
+      ]
+    },
+    {
+      "id": "SPLKB-Q092",
+      "pair_id": "SPLKB-P046",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "How do I issue a national address card?",
+      "expected_answer": "The address card is issued through the app.",
+      "source_chunks": [
+        "كيف يتم اصدار بطاقة العنوان ؟ عن طريق التطبيق"
+      ],
+      "chunk_ids": [
+        "SPLKB-P046_NATADDR_chunk_028"
+      ]
+    },
+    {
+      "id": "SPLKB-Q093",
+      "pair_id": "SPLKB-P047",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "وش الخدمات اللي أقدر أستخدمها من خلال تشات بوت سبل؟",
+      "expected_answer": "يوفر تشات بوت سبل خدمات مثل: متابعة شحناتي، مشاركة الموقع للحصول على العنوان الوطني، استخراج إثبات العنوان الوطني، ومعرفة أقرب الفروع أو محطات الطرود.",
+      "source_chunks": [
+        "ما الخدمات المتاحة بالتشات بوت ؟ شحناتي. مشاركة الموقع للحصول على العنوان الوطني. اثبات العنوان الوطني. اقرب الفروع او محطات الطرود"
+      ],
+      "chunk_ids": [
+        "SPLKB-P047_NATADDR_chunk_033"
+      ]
+    },
+    {
+      "id": "SPLKB-Q094",
+      "pair_id": "SPLKB-P047",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "What services can I use through Sabl's chatbot?",
+      "expected_answer": "Sabl's chatbot offers services such as: tracking my shipments, sharing location to get the national address, obtaining proof of the national address, and finding the nearest branches or parcel stations.",
+      "source_chunks": [
+        "ما الخدمات المتاحة بالتشات بوت ؟ شحناتي. مشاركة الموقع للحصول على العنوان الوطني. اثبات العنوان الوطني. اقرب الفروع او محطات الطرود"
+      ],
+      "chunk_ids": [
+        "SPLKB-P047_NATADDR_chunk_033"
+      ]
+    },
+    {
+      "id": "SPLKB-Q095",
+      "pair_id": "SPLKB-P048",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "كم سعر تركيب لوحة العنوان الوطني؟",
+      "expected_answer": "الرسوم الحالية للوحة الواحدة 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، وقد تتغير الرسوم حسب تصميم اللوحة.",
+      "source_chunks": [
+        "الرسوم الحالية للوحة الواحدة 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، تتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع."
+      ],
+      "chunk_ids": [
+        "SPLKB-P048_PLATE_chunk_001"
+      ]
+    },
+    {
+      "id": "SPLKB-Q096",
+      "pair_id": "SPLKB-P048",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "How much does it cost to install a national address plate?",
+      "expected_answer": "The current fee for one plate is 138 Saudi riyals, excluding VAT, and the fee may vary depending on the plate design.",
+      "source_chunks": [
+        "الرسوم الحالية للوحة الواحدة 138 ريال سعودي غير شاملة ضريبة القيمة المضافة، تتغير الرسوم حسب تصميم اللوحات بالاتفاق مع المصنع."
+      ],
+      "chunk_ids": [
+        "SPLKB-P048_PLATE_chunk_001"
+      ]
+    },
+    {
+      "id": "SPLKB-Q097",
+      "pair_id": "SPLKB-P049",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "عندي سجل تجاري رئيسي وعندي فرعين، هل أسجل عنوان وطني واحد لكل الفروع؟",
+      "expected_answer": "قطاع الأعمال الذي لديه سجل تجاري يسجّل عنوانًا وطنيًا واحدًا برقم السجل التجاري الرئيسي، وفي حال وجود أكثر من فرع، يجب إصدار رخص تجارية من بلدي والتسجيل بها في سبل أونلاين لكل فرع.",
+      "source_chunks": [
+        "قطاع الأعمال الذي لديه سجل تجاري: يقوم بالتسجيل برقم السجل التجاري الرئيسي ويكون لديه عنوان وطني واحد، في حال وجود اكثر من فرع فإنه يقوم بإصدار رخص تجارية من بلدي والتسجيل بها بسبل اونلاين"
+      ],
+      "chunk_ids": [
+        "SPLKB-P049_NATADDR_chunk_021"
+      ]
+    },
+    {
+      "id": "SPLKB-Q098",
+      "pair_id": "SPLKB-P049",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "I have a main commercial registration and two branches, do I register one national address for all branches?",
+      "expected_answer": "A business with a commercial registration registers one national address under the main CR number. If there is more than one branch, commercial licenses must be issued from Baladi and registered separately in Sabl Online for each branch.",
+      "source_chunks": [
+        "قطاع الأعمال الذي لديه سجل تجاري: يقوم بالتسجيل برقم السجل التجاري الرئيسي ويكون لديه عنوان وطني واحد، في حال وجود اكثر من فرع فإنه يقوم بإصدار رخص تجارية من بلدي والتسجيل بها بسبل اونلاين"
+      ],
+      "chunk_ids": [
+        "SPLKB-P049_NATADDR_chunk_021"
+      ]
+    },
+    {
+      "id": "SPLKB-Q099",
+      "pair_id": "SPLKB-P050",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "اخترت سبب الحذف «وفاة» لتابع لكن السبب مو صحيح، وش بيصير؟",
+      "expected_answer": "في حال كان سبب الحذف هو الوفاة وكان السبب غير صحيح، ستظهر رسالة «لا يمكنك حذف التابع، لعدم صحة السبب المحدد».",
+      "source_chunks": [
+        "في حال تم اختيار سبب الحذف هو الوفاة وكان السبب غير صحيح ، سيتم عرض رسالة \"لا يمكنك حذف التابع، لعدم صحة السبب المحدد\""
+      ],
+      "chunk_ids": [
+        "SPLKB-P050_NATADDR_chunk_056"
+      ]
+    },
+    {
+      "id": "SPLKB-Q100",
+      "pair_id": "SPLKB-P050",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "I selected 'deceased' as the deletion reason for a dependent, but the reason isn't actually correct, what happens?",
+      "expected_answer": "If the deletion reason selected is death and the reason is incorrect, a message will appear: 'You cannot delete the dependent, the specified reason is invalid.'",
+      "source_chunks": [
+        "في حال تم اختيار سبب الحذف هو الوفاة وكان السبب غير صحيح ، سيتم عرض رسالة \"لا يمكنك حذف التابع، لعدم صحة السبب المحدد\""
+      ],
+      "chunk_ids": [
+        "SPLKB-P050_NATADDR_chunk_056"
+      ]
+    },
+    {
+      "id": "SPLKB-Q101",
+      "pair_id": "SPLKB-P051",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "أبغى أضيف منشأة أو شركة فرعية جديدة للعنوان الوطني، كيف؟",
+      "expected_answer": "يتم توجيه العميل لعمل اشتراك جديد لها عبر موقع البريد السعودي سبل، مع وضع نوع المنشأة (فرعي).",
+      "source_chunks": [
+        "عميل يريد اضافة منشاة فرعية او شركة فرعية كيف تتم خدمته؟ يتم توجيه العميل لعمل اشتراك جديد لها موقع البريد السعودي سبل ويتم وضع نوع المنشاة فرعي"
+      ],
+      "chunk_ids": [
+        "SPLKB-P051_NATADDR_chunk_047"
+      ]
+    },
+    {
+      "id": "SPLKB-Q102",
+      "pair_id": "SPLKB-P051",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "I want to add a new branch establishment or company to the national address, how do I do that?",
+      "expected_answer": "The customer is directed to create a new subscription for it through the Saudi Post Sabl website, setting the establishment type as (Branch).",
+      "source_chunks": [
+        "عميل يريد اضافة منشاة فرعية او شركة فرعية كيف تتم خدمته؟ يتم توجيه العميل لعمل اشتراك جديد لها موقع البريد السعودي سبل ويتم وضع نوع المنشاة فرعي"
+      ],
+      "chunk_ids": [
+        "SPLKB-P051_NATADDR_chunk_047"
+      ]
+    },
+    {
+      "id": "SPLKB-Q103",
+      "pair_id": "SPLKB-P052",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "حيّي مو موجود بالنظام أو اسمه تغيّر، كيف أعدّل اسم المدينة أو الحي؟",
+      "expected_answer": "في حال كان الحي غير موجود مسبقًا أو تم تعديل اسمه ولم يتحدث في العنوان، يتطلب من العميل تزويدنا بالرمز البريدي ورمز المبنى والرمز الفرعي لمعالجة الطلب.",
+      "source_chunks": [
+        "مامعنى أضافة أو تعديل اسم مدينة أو قرية أو حي ؟ الحي لم يكن موجود مسبقا أو تم تعديل أسمه ولم يتحدث في العنوان يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P052_NATADDR_chunk_067"
+      ]
+    },
+    {
+      "id": "SPLKB-Q104",
+      "pair_id": "SPLKB-P052",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "My district isn't in the system or its name has changed, how do I update the city or district name?",
+      "expected_answer": "If the district didn't previously exist or its name was changed and hasn't been updated on the address, the customer needs to provide the postal code, building code, and secondary number for the request to be processed.",
+      "source_chunks": [
+        "مامعنى أضافة أو تعديل اسم مدينة أو قرية أو حي ؟ الحي لم يكن موجود مسبقا أو تم تعديل أسمه ولم يتحدث في العنوان يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P052_NATADDR_chunk_067"
+      ]
+    },
+    {
+      "id": "SPLKB-Q105",
+      "pair_id": "SPLKB-P053",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أسكن في مدينة صغيرة، هل خدمة تركيب اللوحة متاحة عندي؟",
+      "expected_answer": "الخدمة حاليًا متاحة فقط في مدن محددة هي: الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، أبها، خميس مشيط، سيهات، تاروت، عنك، والقطيف. إذا لم تكن مدينتك ضمن هذه القائمة فلن تتمكن من طلب الخدمة حاليًا.",
+      "source_chunks": [
+        "حاليا هي فقط متاحة في المدن التالية : ) الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت ، عنك ،القطيف("
+      ],
+      "chunk_ids": [
+        "SPLKB-P053_PLATE_chunk_010"
+      ]
+    },
+    {
+      "id": "SPLKB-Q106",
+      "pair_id": "SPLKB-P053",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I live in a small city, is the plate installation service available where I am?",
+      "expected_answer": "The service is currently only available in specific cities: Riyadh, Dammam, Madinah, Jeddah, Khobar, Dhahran, Makkah, Hail, Jazan, Hafar Al-Batin, Najran, Unaizah, Buraidah, Abha, Khamis Mushait, Sayhat, Tarout, Ank, and Qatif. If your city isn't on this list, you won't be able to request the service at this time.",
+      "source_chunks": [
+        "حاليا هي فقط متاحة في المدن التالية : ) الرياض، الدمام، المدينة المنورة، جدة، الخبر، الظهران، مكة المكرمة، حائل، جازان، حفر الباطن، نجران، عنيزة، بريدة، ابها، خميس مشيط، سيهات، تاروت ، عنك ،القطيف("
+      ],
+      "chunk_ids": [
+        "SPLKB-P053_PLATE_chunk_010"
+      ]
+    },
+    {
+      "id": "SPLKB-Q107",
+      "pair_id": "SPLKB-P054",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "ما عندي رقم جوال مسجل بحسابي، أو عندي رقم يبدأ بـ966 بس ناقص، بتضيفون لي رقم؟",
+      "expected_answer": "نعم، يتم إضافة رقم الجوال للعميل في هذه الحالة.",
+      "source_chunks": [
+        "في حال أن العميل لايوجد لديه رقم جوال بحسابه او وجود رقم مكون من 966 فقط فهل يتم اضافة الرقم للعميل ام لا ؟ نعم يتم اضافتة"
+      ],
+      "chunk_ids": [
+        "SPLKB-P054_NATADDR_chunk_016"
+      ]
+    },
+    {
+      "id": "SPLKB-Q108",
+      "pair_id": "SPLKB-P054",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "I don't have a mobile number on my account, or I have one starting with only 966, will you add a number for me?",
+      "expected_answer": "Yes, the mobile number will be added for the customer in this case.",
+      "source_chunks": [
+        "في حال أن العميل لايوجد لديه رقم جوال بحسابه او وجود رقم مكون من 966 فقط فهل يتم اضافة الرقم للعميل ام لا ؟ نعم يتم اضافتة"
+      ],
+      "chunk_ids": [
+        "SPLKB-P054_NATADDR_chunk_016"
+      ]
+    },
+    {
+      "id": "SPLKB-Q109",
+      "pair_id": "SPLKB-P055",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Support",
+      "question": "شركتنا تبغى تستخدم بيانات العنوان الوطني داخل نظامنا مباشرة، فيه خدمة لذلك؟",
+      "expected_answer": "نعم، توجد خدمة API خاصة بالعنوان الوطني تُتاح لقطاع الأعمال للاستفادة من خدمات العنوان الوطني، ويتم توجيه الراغبين بها لإرسال طلبهم على البريد الإلكتروني NASupport@splonline.com.sa.",
+      "source_chunks": [
+        "ماهي خدمة API الخاصه بالعنوان الوطني ؟ هي خدمة يتم اتاحتها لقطاع الأعمال للأستفادة من خدمات العنوان الوطني. في حال رغبة اصحاب قطاع الأعمال للإستفاده من الخدمه يتم توجيهه لإرسال طلبه على الأيميل التالي NASupport@splonline.com.sa"
+      ],
+      "chunk_ids": [
+        "SPLKB-P055_NATADDR_chunk_022"
+      ]
+    },
+    {
+      "id": "SPLKB-Q110",
+      "pair_id": "SPLKB-P055",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Support",
+      "question": "Our company wants to use national address data directly within our own system, is there a service for that?",
+      "expected_answer": "Yes, there is a national address API service made available to the business sector to make use of national address services. Interested businesses are directed to send their request to NASupport@splonline.com.sa.",
+      "source_chunks": [
+        "ماهي خدمة API الخاصه بالعنوان الوطني ؟ هي خدمة يتم اتاحتها لقطاع الأعمال للأستفادة من خدمات العنوان الوطني. في حال رغبة اصحاب قطاع الأعمال للإستفاده من الخدمه يتم توجيهه لإرسال طلبه على الأيميل التالي NASupport@splonline.com.sa"
+      ],
+      "chunk_ids": [
+        "SPLKB-P055_NATADDR_chunk_022"
+      ]
+    },
+    {
+      "id": "SPLKB-Q111",
+      "pair_id": "SPLKB-P056",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "وفّرت التصريح المطلوب، كيف بيتواصل معي فريق التركيب لتحديد الموعد؟",
+      "expected_answer": "فرق التركيب هي فرق خارجية تتواصل مع العميل مباشرة لتنسيق موعد التركيب والحصول على التصريح من العميل.",
+      "source_chunks": [
+        "كيف ستكون الجدولة لتواصل الفريق لتركيب اللوحة بعد توفير التصريح خلال 30 يوم من الطلب؟ فرق التركيب هي فرق تركيب خارجية تتواصل مع العميل لتنسيق التركيب والحصول على التصريح من العميل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P056_PLATE_chunk_021"
+      ]
+    },
+    {
+      "id": "SPLKB-Q112",
+      "pair_id": "SPLKB-P056",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I've provided the required permit, how will the installation team get in touch to schedule the appointment?",
+      "expected_answer": "The installation teams are external teams that contact the customer directly to coordinate the installation appointment and obtain the permit from the customer.",
+      "source_chunks": [
+        "كيف ستكون الجدولة لتواصل الفريق لتركيب اللوحة بعد توفير التصريح خلال 30 يوم من الطلب؟ فرق التركيب هي فرق تركيب خارجية تتواصل مع العميل لتنسيق التركيب والحصول على التصريح من العميل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P056_PLATE_chunk_021"
+      ]
+    },
+    {
+      "id": "SPLKB-Q113",
+      "pair_id": "SPLKB-P057",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "كم رسوم اشتراك العنوان الوطني لو أنا شركة أو جهة حكومية؟",
+      "expected_answer": "رسوم تجاري الشركات والجهات الحكومية هي 1000 ريال سنويًا للمنشأة الرئيسية تشمل جميع الخدمات المميزة، و300 ريال سنويًا للمنشأة الفرعية.",
+      "source_chunks": [
+        "تجاري الشركات والجهات الحكومية | 1000ريال سنويا للمنشأة الرئيسية يشمل جميع الخدمات المميزة , و 300ريال سنويا للمنشأة الفرعي"
+      ],
+      "chunk_ids": [
+        "SPLKB-P057_NATADDR_chunk_050"
+      ]
+    },
+    {
+      "id": "SPLKB-Q114",
+      "pair_id": "SPLKB-P057",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "How much is the national address subscription fee if I'm a company or a government entity?",
+      "expected_answer": "The fee for companies and government entities is 1000 SAR per year for the main establishment (including all premium services) and 300 SAR per year for a branch establishment.",
+      "source_chunks": [
+        "تجاري الشركات والجهات الحكومية | 1000ريال سنويا للمنشأة الرئيسية يشمل جميع الخدمات المميزة , و 300ريال سنويا للمنشأة الفرعي"
+      ],
+      "chunk_ids": [
+        "SPLKB-P057_NATADDR_chunk_050"
+      ]
+    },
+    {
+      "id": "SPLKB-Q115",
+      "pair_id": "SPLKB-P058",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "لو ما ألغيت اشتراكي التجاري، هل راح تترتب علي مديونية؟",
+      "expected_answer": "لا، لا يتم فرض رسوم أو مديونية على العميل في هذه الحالة.",
+      "source_chunks": [
+        "كيف يتم عمل الغاء تجاري لمؤسسة او شركة وفي حال عدم الالغاء هل سيصبح المبلغ مديونية على العميل؟ لايتم فرض رسوم بمديونية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P058_NATADDR_chunk_046"
+      ]
+    },
+    {
+      "id": "SPLKB-Q116",
+      "pair_id": "SPLKB-P058",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "If I don't cancel my commercial subscription, will I be charged a debt?",
+      "expected_answer": "No, no fees or debt are imposed on the customer in this case.",
+      "source_chunks": [
+        "كيف يتم عمل الغاء تجاري لمؤسسة او شركة وفي حال عدم الالغاء هل سيصبح المبلغ مديونية على العميل؟ لايتم فرض رسوم بمديونية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P058_NATADDR_chunk_046"
+      ]
+    },
+    {
+      "id": "SPLKB-Q117",
+      "pair_id": "SPLKB-P059",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "عدّلت عنواني الوطني، بعد كم بيظهر التعديل بالنظام؟",
+      "expected_answer": "يستغرق تعديل العنوان 48 ساعة حتى ينعكس بالنظام.",
+      "source_chunks": [
+        "ماهي طريقة تعديل العنوان ؟ وكم يستغرق من الوقت ؟ (يستغرق التعديل 48 ساعة حتى ينعكس بالنظام )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P059_NATADDR_chunk_039"
+      ]
+    },
+    {
+      "id": "SPLKB-Q118",
+      "pair_id": "SPLKB-P059",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "I edited my national address, how long until the change appears in the system?",
+      "expected_answer": "Editing the address takes 48 hours to be reflected in the system.",
+      "source_chunks": [
+        "ماهي طريقة تعديل العنوان ؟ وكم يستغرق من الوقت ؟ (يستغرق التعديل 48 ساعة حتى ينعكس بالنظام )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P059_NATADDR_chunk_039"
+      ]
+    },
+    {
+      "id": "SPLKB-Q119",
+      "pair_id": "SPLKB-P060",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Overview",
+      "question": "وش خدمات العنوان الوطني اللي أقدر أستفيد منها بشكل عام؟",
+      "expected_answer": "تشمل خدمات العنوان الوطني: استخراج وثيقة إثبات العنوان الوطني (وثيقة إلكترونية معتمدة لدى الجهات الرسمية)، إدارة عناوينك الوطنية (تسجيل، تحديث، حذف، إضافة أو إزالة تابعين)، التحقق من صلاحية إثبات العنوان، طلب تركيب لوحة لمكان سكنك أو عملك، بطاقة العنوان الوطني في محفظة أبل، إنشاء دعوة تتضمن العنوان الوطني، ومشاركة العنوان الوطني مع تطبيقات أخرى.",
+      "source_chunks": [
+        "ماهي خدمات العنوان الوطني؟ استخراج وثيقة اثبات العنوان الوطني... إدارة عناوينك الوطنية... خدمة التحقق من صلاحية اثبات العنوان الوطني. طلب تركيب لوحة لمكان سكنك وعملك. بطاقة العنوان الوطني: إضافة بطاقة العنوان في محفظة أبل... انشاء دعوة... مشاركة العنوان الوطني"
+      ],
+      "chunk_ids": [
+        "SPLKB-P060_NATADDR_chunk_059"
+      ]
+    },
+    {
+      "id": "SPLKB-Q120",
+      "pair_id": "SPLKB-P060",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Overview",
+      "question": "What national address services can I generally benefit from?",
+      "expected_answer": "National address services include: obtaining a proof-of-address document (an electronic document recognized by official entities), managing your national addresses (registering, updating, deleting, adding or removing dependents), verifying the validity of your address proof, requesting a plate installation for your home or workplace, adding the national address card to Apple Wallet, creating an invitation that includes your national address, and sharing your national address with other apps.",
+      "source_chunks": [
+        "ماهي خدمات العنوان الوطني؟ استخراج وثيقة اثبات العنوان الوطني... إدارة عناوينك الوطنية... خدمة التحقق من صلاحية اثبات العنوان الوطني. طلب تركيب لوحة لمكان سكنك وعملك. بطاقة العنوان الوطني: إضافة بطاقة العنوان في محفظة أبل... انشاء دعوة... مشاركة العنوان الوطني"
+      ],
+      "chunk_ids": [
+        "SPLKB-P060_NATADDR_chunk_059"
+      ]
+    },
+    {
+      "id": "SPLKB-Q121",
+      "pair_id": "SPLKB-P061",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "أبغى أرجع عنواني الوطني اللي كان ملغي زمان، تقدرون تفعّلونه؟",
+      "expected_answer": "لا، فيما يخص الطلبات المتعلقة باستعادة أو تفعيل عناوين العملاء القديمة أو الملغاة، لا يمكن تنفيذ ذلك.",
+      "source_chunks": [
+        "فيما يخص الطلبات المتعلقة باستعادة أو تفعيل عناوين العملاء القديمة أو الملغاة، يرجى عدم تنفيذ أي إجراء وافادة العميل بأنه لا يمكن ذلك."
+      ],
+      "chunk_ids": [
+        "SPLKB-P061_NATADDR_chunk_004"
+      ]
+    },
+    {
+      "id": "SPLKB-Q122",
+      "pair_id": "SPLKB-P061",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "I want to restore my old canceled national address, can you reactivate it?",
+      "expected_answer": "No, requests to restore or reactivate customers' old or canceled addresses cannot be carried out.",
+      "source_chunks": [
+        "فيما يخص الطلبات المتعلقة باستعادة أو تفعيل عناوين العملاء القديمة أو الملغاة، يرجى عدم تنفيذ أي إجراء وافادة العميل بأنه لا يمكن ذلك."
+      ],
+      "chunk_ids": [
+        "SPLKB-P061_NATADDR_chunk_004"
+      ]
+    },
+    {
+      "id": "SPLKB-Q123",
+      "pair_id": "SPLKB-P062",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أنا حساب أعمال أو جهة حكومية، أقدر أطلب تركيب لوحة عنوان؟",
+      "expected_answer": "لا، الخدمة متاحة فقط للأفراد (المواطنين والمقيمين) المسجلين في العنوان الوطني والقاطنين في فيلا أو دوبلكس، وهي غير متاحة لحسابات الأعمال والحسابات الحكومية.",
+      "source_chunks": [
+        "الأفراد )الموطنين والمقيمين( المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس، الخدمة غير متاحة لأصحاب الشقق وحسابات الأعمال و الحسابات الحكومية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P062_PLATE_chunk_026"
+      ]
+    },
+    {
+      "id": "SPLKB-Q124",
+      "pair_id": "SPLKB-P062",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I have a business or government account, can I request an address plate installation?",
+      "expected_answer": "No, the service is only available to individuals (citizens and residents) registered for the national address who live in a villa or duplex; it is not available for business accounts or government accounts.",
+      "source_chunks": [
+        "الأفراد )الموطنين والمقيمين( المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس، الخدمة غير متاحة لأصحاب الشقق وحسابات الأعمال و الحسابات الحكومية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P062_PLATE_chunk_026"
+      ]
+    },
+    {
+      "id": "SPLKB-Q125",
+      "pair_id": "SPLKB-P063",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "كم أقصى عدد لوحات أقدر أطلبها في نفس الطلب؟",
+      "expected_answer": "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات.",
+      "source_chunks": [
+        "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات."
+      ],
+      "chunk_ids": [
+        "SPLKB-P063_PLATE_chunk_005"
+      ]
+    },
+    {
+      "id": "SPLKB-Q126",
+      "pair_id": "SPLKB-P063",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "What's the maximum number of plates I can request in one order?",
+      "expected_answer": "The maximum number of plates per order is 3.",
+      "source_chunks": [
+        "الحد الأقصى للوحات في الطلب الواحد هو 3 لوحات."
+      ],
+      "chunk_ids": [
+        "SPLKB-P063_PLATE_chunk_005"
+      ]
+    },
+    {
+      "id": "SPLKB-Q127",
+      "pair_id": "SPLKB-P064",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "التصاميم اللي عندكم ما عجبتني، أقدر أصنع اللوحة بنفسي عند مصنع ثاني؟",
+      "expected_answer": "نعم، يمكنك تصنيع وتصميم اللوحة بنفسك أو التعامل مع مصانع أخرى، بشرط الامتثال للمواصفات المعتمدة لتصنيع وتركيب اللوحات، ويمكنك تحميل ملف المواصفات والمقاسات من الموقع.",
+      "source_chunks": [
+        "نعم , بإمكان العميل أن يقوم بتصنيع و تصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع و تركيب اللوحات. يمكن للعميل استعراض و تحميل ملف )مواصفات و مقاسات اللوح ( في حال رغب في تصنيع اللوحة عبر مزود آخر."
+      ],
+      "chunk_ids": [
+        "SPLKB-P064_PLATE_chunk_008"
+      ]
+    },
+    {
+      "id": "SPLKB-Q128",
+      "pair_id": "SPLKB-P064",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I don't like your available designs, can I manufacture the plate myself with another factory?",
+      "expected_answer": "Yes, you can manufacture and design the plate yourself or work with other factories, as long as you comply with the approved specifications for manufacturing and installing plates; you can download the specifications and dimensions file from the site.",
+      "source_chunks": [
+        "نعم , بإمكان العميل أن يقوم بتصنيع و تصميم اللوحة بنفسه أو بالتعامل مع مصانع أخرى، شريطة أن يمتثل العميل للمواصفات المعتمدة لتصنيع و تركيب اللوحات. يمكن للعميل استعراض و تحميل ملف )مواصفات و مقاسات اللوح ( في حال رغب في تصنيع اللوحة عبر مزود آخر."
+      ],
+      "chunk_ids": [
+        "SPLKB-P064_PLATE_chunk_008"
+      ]
+    },
+    {
+      "id": "SPLKB-Q129",
+      "pair_id": "SPLKB-P065",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "وش الفرق بين اللوحات المعروضة علي كخيارات للتصميم؟",
+      "expected_answer": "تختلف اللوحات في تصاميمها والمواد المصنّعة لها حسب العقد مع الشركة المصنعة، وتُعرض على العميل صورة اللوحة وتفاصيلها قبل الاختيار.",
+      "source_chunks": [
+        "ماهي الفروقات والمميزات بين اللوحات ؟ تختلف اللوحات في تصاميمها و المواد المصنعة لها حسب العقد مع الشركة المصنعة. ستظهر للعميل النهائي صورة اللوحة و تفاصيلها"
+      ],
+      "chunk_ids": [
+        "SPLKB-P065_PLATE_chunk_023"
+      ]
+    },
+    {
+      "id": "SPLKB-Q130",
+      "pair_id": "SPLKB-P065",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "What's the difference between the plate design options shown to me?",
+      "expected_answer": "The plates differ in their designs and the materials used to manufacture them, depending on the contract with the manufacturer, and the customer is shown an image of the plate and its details before choosing.",
+      "source_chunks": [
+        "ماهي الفروقات والمميزات بين اللوحات ؟ تختلف اللوحات في تصاميمها و المواد المصنعة لها حسب العقد مع الشركة المصنعة. ستظهر للعميل النهائي صورة اللوحة و تفاصيلها"
+      ],
+      "chunk_ids": [
+        "SPLKB-P065_PLATE_chunk_023"
+      ]
+    },
+    {
+      "id": "SPLKB-Q131",
+      "pair_id": "SPLKB-P066",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "لو سجلت عنواني الوطني وفترة الإقامة «مؤقت»، كم مدة يبقى العنوان محفوظ؟",
+      "expected_answer": "في حال اختيار فترة الإقامة «مؤقت»، سيتم الاحتفاظ بالعنوان الوطني لمدة 6 أشهر، ثم يُرسل إشعار للتحديث كل 6 أشهر.",
+      "source_chunks": [
+        "للتنويه: في حال تم اختيار فترة الإقامة \"مؤقت\", سيتم الإحتفاظ بالعنوان الوطني لمدة 6 شهور، ثم سيتم إرسال إشعارللتحديث كل 6 شهور"
+      ],
+      "chunk_ids": [
+        "SPLKB-P066_NATADDR_chunk_061"
+      ]
+    },
+    {
+      "id": "SPLKB-Q132",
+      "pair_id": "SPLKB-P066",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "If I register my national address with the residency period set to 'temporary', how long will the address stay saved?",
+      "expected_answer": "If the residency period is set to 'temporary', the national address will be kept for 6 months, and then an update notification is sent every 6 months.",
+      "source_chunks": [
+        "للتنويه: في حال تم اختيار فترة الإقامة \"مؤقت\", سيتم الإحتفاظ بالعنوان الوطني لمدة 6 شهور، ثم سيتم إرسال إشعارللتحديث كل 6 شهور"
+      ],
+      "chunk_ids": [
+        "SPLKB-P066_NATADDR_chunk_061"
+      ]
+    },
+    {
+      "id": "SPLKB-Q133",
+      "pair_id": "SPLKB-P067",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "فيه سياسة تعويض عامة للعملاء غير الحالات اللي ذكرتوها (تأخير التركيب أو عدم الأهلية)؟",
+      "expected_answer": "نعم، يتم تعويض العملاء بنفس الوضع الحالي المعتمد لدى الشركة لتعويض العملاء بشكل عام.",
+      "source_chunks": [
+        "يتم تعويض العملاء بنفس الوضع الحالي المعتمد لتعويض العملاء."
+      ],
+      "chunk_ids": [
+        "SPLKB-P067_PLATE_chunk_031"
+      ]
+    },
+    {
+      "id": "SPLKB-Q134",
+      "pair_id": "SPLKB-P067",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Is there a general customer compensation policy beyond the cases you mentioned (installation delay or site ineligibility)?",
+      "expected_answer": "Yes, customers are compensated according to the company's currently approved general customer compensation policy.",
+      "source_chunks": [
+        "يتم تعويض العملاء بنفس الوضع الحالي المعتمد لتعويض العملاء."
+      ],
+      "chunk_ids": [
+        "SPLKB-P067_PLATE_chunk_031"
+      ]
+    },
+    {
+      "id": "SPLKB-Q135",
+      "pair_id": "SPLKB-P068",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "وصلني إشعار من مكتب العمل إن اشتراكي التجاري بينتهي بعد 15 يوم، مع إني سددت، وش أسوي؟",
+      "expected_answer": "يتم التأكد من تاريخ نهاية الاشتراك للعميل من النظام للتحقق من الحالة الفعلية.",
+      "source_chunks": [
+        "عميل يفيد انه وصل له اشعار من مكتب العمل محتواها سينتهي اشتراكك في تجاري بعد 15 يوم للمنشاة رقم مع العلم انني قام بالسداد؟ التأكد من تاريخ نهاية الاشتراك للعميل من النظام"
+      ],
+      "chunk_ids": [
+        "SPLKB-P068_NATADDR_chunk_071"
+      ]
+    },
+    {
+      "id": "SPLKB-Q136",
+      "pair_id": "SPLKB-P068",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "I got a notice from the labor office that my commercial subscription is ending in 15 days, even though I already paid, what should I do?",
+      "expected_answer": "The customer's subscription end date is verified from the system to check the actual status.",
+      "source_chunks": [
+        "عميل يفيد انه وصل له اشعار من مكتب العمل محتواها سينتهي اشتراكك في تجاري بعد 15 يوم للمنشاة رقم مع العلم انني قام بالسداد؟ التأكد من تاريخ نهاية الاشتراك للعميل من النظام"
+      ],
+      "chunk_ids": [
+        "SPLKB-P068_NATADDR_chunk_071"
+      ]
+    },
+    {
+      "id": "SPLKB-Q137",
+      "pair_id": "SPLKB-P069",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "عندي أكثر من عنوان وطني، كيف أحدد وحد رئيسي منهم؟",
+      "expected_answer": "من خلال سبل أونلاين، في خانة (اشتراكاتي)، يتم اختيار أيقونة (تعيين كعنوان افتراضي) للعنوان المطلوب جعله رئيسيًا.",
+      "source_chunks": [
+        "في حال ان العميل لديه أكثر من عنوان وطني ويرغب بإختيار واحد من العناوين لتكون رئيسية فما هو الأجراء ؟ عن طريق سبل أون لاين في خانة اشتراكاتي يتم أختيار الأيقونة (تعيين كعنوان افتراضي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P069_NATADDR_chunk_030"
+      ]
+    },
+    {
+      "id": "SPLKB-Q138",
+      "pair_id": "SPLKB-P069",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "I have more than one national address, how do I set one of them as the primary?",
+      "expected_answer": "Through Sabl Online, under (My Subscriptions), you select the (Set as Default Address) icon for the address you want to make primary.",
+      "source_chunks": [
+        "في حال ان العميل لديه أكثر من عنوان وطني ويرغب بإختيار واحد من العناوين لتكون رئيسية فما هو الأجراء ؟ عن طريق سبل أون لاين في خانة اشتراكاتي يتم أختيار الأيقونة (تعيين كعنوان افتراضي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P069_NATADDR_chunk_030"
+      ]
+    },
+    {
+      "id": "SPLKB-Q139",
+      "pair_id": "SPLKB-P070",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أنا ساكن شقة، أقدر أطلب لوحة عنوان وطني؟",
+      "expected_answer": "لا، الخدمة متاحة فقط للأفراد المسجلين في العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس، ولا يتم تركيب اللوحات على الشقق.",
+      "source_chunks": [
+        "الأفراد )الموطنين والمقيمين( المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس، الخدمة غير متاحة لأصحاب الشقق. لا يتم تركيب اللوحات على الشقق."
+      ],
+      "chunk_ids": [
+        "SPLKB-P070_PLATE_chunk_003"
+      ]
+    },
+    {
+      "id": "SPLKB-Q140",
+      "pair_id": "SPLKB-P070",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I live in an apartment, can I request a national address plate?",
+      "expected_answer": "No, the service is only available to individuals registered for the national address who live in villa or duplex units; plates are not installed on apartments.",
+      "source_chunks": [
+        "الأفراد )الموطنين والمقيمين( المسجلين في خدمة العنوان الوطني والقاطنين في وحدات سكنية من نوع فيلا أو دوبلكس، الخدمة غير متاحة لأصحاب الشقق. لا يتم تركيب اللوحات على الشقق."
+      ],
+      "chunk_ids": [
+        "SPLKB-P070_PLATE_chunk_003"
+      ]
+    },
+    {
+      "id": "SPLKB-Q141",
+      "pair_id": "SPLKB-P071",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "هل ممكن توصيل الطرود إلى عنواني الوطني مباشرة بدون صندوق بريد؟",
+      "expected_answer": "نعم، يوجد خيار توصيل الطرود إلى العنوان الوطني مباشرة.",
+      "source_chunks": [
+        "هل يوجد خيار توصيل الطرود الى العنوان الوطني مباشرة ؟ نعم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P071_NATADDR_chunk_017"
+      ]
+    },
+    {
+      "id": "SPLKB-Q142",
+      "pair_id": "SPLKB-P071",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Delivery",
+      "question": "Can parcels be delivered directly to my national address without a PO box?",
+      "expected_answer": "Yes, there is an option to have parcels delivered directly to the national address.",
+      "source_chunks": [
+        "هل يوجد خيار توصيل الطرود الى العنوان الوطني مباشرة ؟ نعم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P071_NATADDR_chunk_017"
+      ]
+    },
+    {
+      "id": "SPLKB-Q143",
+      "pair_id": "SPLKB-P072",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "أقدر أعرف عنواني الوطني بس بمشاركة موقعي الجغرافي؟",
+      "expected_answer": "نعم، عن طريق التشات بوت الخاص بسبل (سواء عبر الموقع الإلكتروني أو واتساب رقم 0112898888)، تختار خدمة العنوان الوطني وتشارك موقعك مباشرة (بشرط أن يقع ضمن حدود المبنى)، وبعدها سيظهر لك العنوان الوطني والعنوان المختصر.",
+      "source_chunks": [
+        "هل أستطيع معرفة عنواني الوطني والعنوان المختصر عن طريق مشاركة موقعي؟ من خلال التشات بوت الخاص بسبل عن طريق الموقع الإلكتروني أو عن طريق الواتس أب رقم 0112898888. اختيار خدمة العنوان الوطني. مشاركة الموقع مباشرة (يجب أن يقع في حدود المبنى المراد معرفة عنوان)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P072_NATADDR_chunk_032"
+      ]
+    },
+    {
+      "id": "SPLKB-Q144",
+      "pair_id": "SPLKB-P072",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "Can I find out my national address just by sharing my location?",
+      "expected_answer": "Yes, through the Sabl chatbot (via the website or WhatsApp number 0112898888), you choose the national address service and share your location directly (as long as it's within the building's boundaries), after which your national address and short address will appear.",
+      "source_chunks": [
+        "هل أستطيع معرفة عنواني الوطني والعنوان المختصر عن طريق مشاركة موقعي؟ من خلال التشات بوت الخاص بسبل عن طريق الموقع الإلكتروني أو عن طريق الواتس أب رقم 0112898888. اختيار خدمة العنوان الوطني. مشاركة الموقع مباشرة (يجب أن يقع في حدود المبنى المراد معرفة عنوان)"
+      ],
+      "chunk_ids": [
+        "SPLKB-P072_NATADDR_chunk_032"
+      ]
+    },
+    {
+      "id": "SPLKB-Q145",
+      "pair_id": "SPLKB-P073",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Overview",
+      "question": "وش هو العنوان الوطني بالضبط وليه مهم؟",
+      "expected_answer": "العنوان الوطني هو خدمة مقدمة من البريد السعودي (سبل) تهدف إلى تسهيل الوصول إلى المواقع الجغرافية للمواطنين والمقيمين، ويُعد جزءًا أساسيًا في الشحن والتوصيل والخدمات الحكومية.",
+      "source_chunks": [
+        "العنوان الوطني هو خدمة مقدمة من البريد السعودي سبل يهدف إلى تسهيل الوصول إلى المواقع الجغرافية للمواطنين والمقيمين وحيث يعد العنوان الوطني جزءًا أساسيًا في الشحن والتوصيل والخدمات الحكومية."
+      ],
+      "chunk_ids": [
+        "SPLKB-P073_NATADDR_chunk_048"
+      ]
+    },
+    {
+      "id": "SPLKB-Q146",
+      "pair_id": "SPLKB-P073",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Overview",
+      "question": "What exactly is the national address and why does it matter?",
+      "expected_answer": "The national address is a service provided by Saudi Post (Sabl) that aims to make it easier to locate the geographic locations of citizens and residents, and it is a core part of shipping, delivery, and government services.",
+      "source_chunks": [
+        "العنوان الوطني هو خدمة مقدمة من البريد السعودي سبل يهدف إلى تسهيل الوصول إلى المواقع الجغرافية للمواطنين والمقيمين وحيث يعد العنوان الوطني جزءًا أساسيًا في الشحن والتوصيل والخدمات الحكومية."
+      ],
+      "chunk_ids": [
+        "SPLKB-P073_NATADDR_chunk_048"
+      ]
+    },
+    {
+      "id": "SPLKB-Q147",
+      "pair_id": "SPLKB-P074",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أبغى أحدّث رقم جوالي المرتبط بحساب طلب اللوحة، فيه خيار مباشر؟",
+      "expected_answer": "نعم، يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار (تحديث الرقم)، وستصل الرسائل النصية على الرقم المعروض الجديد.",
+      "source_chunks": [
+        "يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار )تحديث الرقم(، ستصل الرسائل النصية على الرقم المعروض."
+      ],
+      "chunk_ids": [
+        "SPLKB-P074_PLATE_chunk_028"
+      ]
+    },
+    {
+      "id": "SPLKB-Q148",
+      "pair_id": "SPLKB-P074",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I want to update the mobile number linked to my plate order account, is there a direct option?",
+      "expected_answer": "Yes, the customer can update the mobile number linked to the account via the (Update Number) option, and SMS messages will then be sent to the newly displayed number.",
+      "source_chunks": [
+        "يستطيع العميل تحديث رقم جواله المرتبط بالحساب عبر خيار )تحديث الرقم(، ستصل الرسائل النصية على الرقم المعروض."
+      ],
+      "chunk_ids": [
+        "SPLKB-P074_PLATE_chunk_028"
+      ]
+    },
+    {
+      "id": "SPLKB-Q149",
+      "pair_id": "SPLKB-P075",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "وش معنى «الموقع مخصص لأحد المعالم» اللي ظهرت لي كرسالة وأنا أسجل؟",
+      "expected_answer": "تعني عدم قدرة العميل على التسجيل لوجود حجب على الموقع، لأنه مصنّف في النظام كمبنى حكومي أو أرض فضاء أو مبنى تجاري، ويتطلب من العميل تزويدنا بالرمز البريدي ورمز المبنى والرمز الفرعي.",
+      "source_chunks": [
+        "مامعنى الموقع مخصص لأحد المعالم ؟ عدم قدرة العميل على التسجيل لوجود حجب على الموقع لأنه مصنف في النظام (مبنى حكومي - أرض فضاء - مبنى تجاري) يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P075_NATADDR_chunk_064"
+      ]
+    },
+    {
+      "id": "SPLKB-Q150",
+      "pair_id": "SPLKB-P075",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "What does 'location assigned to a landmark' mean, a message I got while registering?",
+      "expected_answer": "It means the customer cannot register because the location is blocked, as it's classified in the system as a government building, vacant land, or commercial building, requiring the customer to provide the postal code, building code, and secondary number.",
+      "source_chunks": [
+        "مامعنى الموقع مخصص لأحد المعالم ؟ عدم قدرة العميل على التسجيل لوجود حجب على الموقع لأنه مصنف في النظام (مبنى حكومي - أرض فضاء - مبنى تجاري) يتطلب من العميل تزويدنا بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P075_NATADDR_chunk_064"
+      ]
+    },
+    {
+      "id": "SPLKB-Q151",
+      "pair_id": "SPLKB-P076",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "عندي وثيقة عمل حر، كيف أسجل بالعنوان الوطني؟",
+      "expected_answer": "يتم توجيهك للتسجيل كفرد برقم الهوية.",
+      "source_chunks": [
+        "كيف يتم تسجيل من لديه وثيقة عمل حر بالتسجيل بالعنوان الوطني ؟ نقوم بتوجيهه بالتسجيل كفرد برقم الهويه"
+      ],
+      "chunk_ids": [
+        "SPLKB-P076_NATADDR_chunk_038"
+      ]
+    },
+    {
+      "id": "SPLKB-Q152",
+      "pair_id": "SPLKB-P076",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "I have a freelance work document, how do I register for the national address?",
+      "expected_answer": "You are directed to register as an individual using your ID number.",
+      "source_chunks": [
+        "كيف يتم تسجيل من لديه وثيقة عمل حر بالتسجيل بالعنوان الوطني ؟ نقوم بتوجيهه بالتسجيل كفرد برقم الهويه"
+      ],
+      "chunk_ids": [
+        "SPLKB-P076_NATADDR_chunk_038"
+      ]
+    },
+    {
+      "id": "SPLKB-Q153",
+      "pair_id": "SPLKB-P077",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "وش خامة أو لون لوحة العنوان اللي راح تُركب؟",
+      "expected_answer": "نوع اللوحة هو استيل فضي، وهو نفس النوع المعتمد لجميع المدن المشمولة بالخدمة.",
+      "source_chunks": [
+        "نوع اللوحة: استيل فضي لجميع المدن"
+      ],
+      "chunk_ids": [
+        "SPLKB-P077_PLATE_chunk_011"
+      ]
+    },
+    {
+      "id": "SPLKB-Q154",
+      "pair_id": "SPLKB-P077",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "What material or color is the address plate that will be installed?",
+      "expected_answer": "The plate type is silver steel, which is the same approved type used across all cities covered by the service.",
+      "source_chunks": [
+        "نوع اللوحة: استيل فضي لجميع المدن"
+      ],
+      "chunk_ids": [
+        "SPLKB-P077_PLATE_chunk_011"
+      ]
+    },
+    {
+      "id": "SPLKB-Q155",
+      "pair_id": "SPLKB-P078",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "اسم الشارع اللي عندي غلط أو مو موجود، كيف أعدّله أو أضيفه؟",
+      "expected_answer": "تعديل أو إضافة اسم شارع للعنوان يتطلب من العميل رفع بلاغ، مع تزويدنا بالرمز البريدي ورمز المبنى والرمز الفرعي.",
+      "source_chunks": [
+        "مامعنى إضافة أو تعديل اسم الشارع ؟ تعديل أو اضافة شارع للعنوان يتطلب من العميل رفع بلاغ بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P078_NATADDR_chunk_066"
+      ]
+    },
+    {
+      "id": "SPLKB-Q156",
+      "pair_id": "SPLKB-P078",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Definitions",
+      "question": "The street name on my address is wrong or missing, how do I edit or add it?",
+      "expected_answer": "Editing or adding a street name for the address requires the customer to file a complaint, providing the postal code, building code, and secondary number.",
+      "source_chunks": [
+        "مامعنى إضافة أو تعديل اسم الشارع ؟ تعديل أو اضافة شارع للعنوان يتطلب من العميل رفع بلاغ بـ(الرمز البريدي . رمز المبنى . الرمز الفرعي )"
+      ],
+      "chunk_ids": [
+        "SPLKB-P078_NATADDR_chunk_066"
+      ]
+    },
+    {
+      "id": "SPLKB-Q157",
+      "pair_id": "SPLKB-P079",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "عندي شركة رئيسية غير مرتبطة بمقيّم، كيف أحل المشكلة؟",
+      "expected_answer": "يجب التأكد هل المنشأة مضاف إليها رقم 700 أو لا، وذلك بعد الدخول على حساب العميل والتحقق من وزارة العمل، وسيظهر الرقم، ومن ثم يتم الضغط على حفظ.",
+      "source_chunks": [
+        "عميل لدية اشتراك لمنشاة شركة رئيسيه تواصل معنا وافاد بان الشركة غير مرتبطة مع مقييم كيف يمكن حل المشكلة ؟ يجب التاكد هل المنشاه مضاف اليها رقم 700 او غير مضاف بعد الدخول على حساب العميل والتحقق من وزارة العمل وسيظهر الرقم ومن ثم الضغط على حفظ"
+      ],
+      "chunk_ids": [
+        "SPLKB-P079_NATADDR_chunk_045"
+      ]
+    },
+    {
+      "id": "SPLKB-Q158",
+      "pair_id": "SPLKB-P079",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "My main company isn't linked to an appraiser, how do I fix this?",
+      "expected_answer": "It must be checked whether the establishment has the 700 number added or not, by accessing the customer's account and verifying with the Ministry of Labor; the number will appear, and then it's saved.",
+      "source_chunks": [
+        "عميل لدية اشتراك لمنشاة شركة رئيسيه تواصل معنا وافاد بان الشركة غير مرتبطة مع مقييم كيف يمكن حل المشكلة ؟ يجب التاكد هل المنشاه مضاف اليها رقم 700 او غير مضاف بعد الدخول على حساب العميل والتحقق من وزارة العمل وسيظهر الرقم ومن ثم الضغط على حفظ"
+      ],
+      "chunk_ids": [
+        "SPLKB-P079_NATADDR_chunk_045"
+      ]
+    },
+    {
+      "id": "SPLKB-Q159",
+      "pair_id": "SPLKB-P080",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "طلعت لي فاتورة تفعيل مؤسسة رئيسية بقيمة 670 ريال مع إن قيمة الاشتراك السنوي 500 ريال بس، ليه؟",
+      "expected_answer": "لأن العميل يُلزم بتجديد الاشتراك ما دامت المنشأة قائمة لدى مكتب العمل، وعند التأخر عن السداد تُضاف غرامة عن كل يوم تأخير إلى القيمة الأصلية؛ كما يُرسل للعميل تذكير بالسداد قبل 15 يومًا من انتهاء الاشتراك.",
+      "source_chunks": [
+        "تم تفعيل فاتورة مؤسسة رئيسية لعميل ظهرت قيمة الفاتورة 670 ريال لماذا اصدرت فاتورة بهذة القيمة... لان عندما ينتهي الاشتراك يلزم العميل بتجديد الاشتراك مادام المنشاة قائمة الى الان من مكتب العمل وعندما يتاخر العميل عن السداد يضاف قيمة الايام التي لم يتم التجديد فيها الى القيمة الرئيسيه اي عن كل يوم تاخير يوجد غرامة وعلى العميل سدادها ويتم تذكير العميل برسالة لسداد قبل 15 يوم من الانتهاء"
+      ],
+      "chunk_ids": [
+        "SPLKB-P080_NATADDR_chunk_042"
+      ]
+    },
+    {
+      "id": "SPLKB-Q160",
+      "pair_id": "SPLKB-P080",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "I got an activation invoice for a main establishment for 670 riyals even though the annual subscription is only 500 riyals, why?",
+      "expected_answer": "Because the customer must renew the subscription as long as the establishment is still active with the labor office, and when payment is delayed a late fee is added for each day of delay on top of the original amount; a payment reminder is also sent to the customer 15 days before the subscription ends.",
+      "source_chunks": [
+        "تم تفعيل فاتورة مؤسسة رئيسية لعميل ظهرت قيمة الفاتورة 670 ريال لماذا اصدرت فاتورة بهذة القيمة... لان عندما ينتهي الاشتراك يلزم العميل بتجديد الاشتراك مادام المنشاة قائمة الى الان من مكتب العمل وعندما يتاخر العميل عن السداد يضاف قيمة الايام التي لم يتم التجديد فيها الى القيمة الرئيسيه اي عن كل يوم تاخير يوجد غرامة وعلى العميل سدادها ويتم تذكير العميل برسالة لسداد قبل 15 يوم من الانتهاء"
+      ],
+      "chunk_ids": [
+        "SPLKB-P080_NATADDR_chunk_042"
+      ]
+    },
+    {
+      "id": "SPLKB-Q161",
+      "pair_id": "SPLKB-P081",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "كيف أطلب تركيب لوحة العنوان الوطني، وش الخطوات؟",
+      "expected_answer": "يتم الطلب فقط عبر موقع سبل بعد تسجيل الدخول، ثم اختيار العنوان المرتبط بحسابك، وتحديد نوع اللوحة وعددها والتصميم، ثم الإقرار بصحة البيانات والموافقة على الشروط، وبعدها إتمام الدفع عبر وسائل الدفع المتاحة، وستصلك رسالة نصية بتأكيد الدفع ورقم الطلب.",
+      "source_chunks": [
+        "1.عبر الموقع )سبل( فقط , بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني. 2. يتم من خلال حساب العميل عرض واختيار العناوين المرتبطة بالعميل. 3.يختار العميل نوع اللوحة، عددها والتصميم المناسب. 4. يتم الإقرار بصحة العنوان والبيانات والموافقة على الشروط والأحكام. 5.يقوم العميل بإتمام الدفع عبر وسائل الدفع المتاحة. 6.ترسل رسالة نصية للعميل لإشعاره بإتمام الدفع ورقم الطلب وقنوات الدعم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P081_PLATE_chunk_012"
+      ]
+    },
+    {
+      "id": "SPLKB-Q162",
+      "pair_id": "SPLKB-P081",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "How do I request the national address plate installation, what are the steps?",
+      "expected_answer": "The request can only be made via the Sabl website after logging in; you then select the address linked to your account, choose the plate type, quantity, and design, confirm your details and agree to the terms, then complete payment through the available payment methods. You'll receive an SMS confirming payment and your order number.",
+      "source_chunks": [
+        "1.عبر الموقع )سبل( فقط , بعد تسجيل الدخول ثم الذهاب لصفحة العنوان الوطني. 2. يتم من خلال حساب العميل عرض واختيار العناوين المرتبطة بالعميل. 3.يختار العميل نوع اللوحة، عددها والتصميم المناسب. 4. يتم الإقرار بصحة العنوان والبيانات والموافقة على الشروط والأحكام. 5.يقوم العميل بإتمام الدفع عبر وسائل الدفع المتاحة. 6.ترسل رسالة نصية للعميل لإشعاره بإتمام الدفع ورقم الطلب وقنوات الدعم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P081_PLATE_chunk_012"
+      ]
+    },
+    {
+      "id": "SPLKB-Q163",
+      "pair_id": "SPLKB-P082",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "كيف أضيف عنواني الوطني كبطاقة في محفظة أبل، وليه أسويها؟",
+      "expected_answer": "من خلال حسابك، تختار العناوين ثم العنوان الوطني، ومن الخيارات تختار إصدار بطاقة عنوان. فائدتها: سهولة الوصول للعنوان بشكل أسرع ومشاركته مع الآخرين.",
+      "source_chunks": [
+        "كيف يتم إضافة العنوان كبطاقة في محفظة أبل ؟ ومافائدتها ؟ من خلال حسابك ثم أختيار العناوين ثم عنوان وطني ومن خلال الأختيارات يوجد خيار إصدار بطاقة عنوان. فائدتها : سهولة الوصول للعنوان بشكل أسرع ومشاركته مع الأخرين"
+      ],
+      "chunk_ids": [
+        "SPLKB-P082_NATADDR_chunk_062"
+      ]
+    },
+    {
+      "id": "SPLKB-Q164",
+      "pair_id": "SPLKB-P082",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "How do I add my national address as a card in Apple Wallet, and what's the point of doing that?",
+      "expected_answer": "From your account, choose Addresses, then National Address, and from the options choose Issue Address Card. Its benefit is easier, faster access to the address and being able to share it with others.",
+      "source_chunks": [
+        "كيف يتم إضافة العنوان كبطاقة في محفظة أبل ؟ ومافائدتها ؟ من خلال حسابك ثم أختيار العناوين ثم عنوان وطني ومن خلال الأختيارات يوجد خيار إصدار بطاقة عنوان. فائدتها : سهولة الوصول للعنوان بشكل أسرع ومشاركته مع الأخرين"
+      ],
+      "chunk_ids": [
+        "SPLKB-P082_NATADDR_chunk_062"
+      ]
+    },
+    {
+      "id": "SPLKB-Q165",
+      "pair_id": "SPLKB-P083",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "أنا مسجل تجاري فردي، أقدر أحوّل اشتراكي لتجاري شركات؟",
+      "expected_answer": "لا، لا يمكن التحويل إلا من نفس نوع الاشتراك: من فردي إلى فردي، أو من شركة إلى شركة، أو من مؤسسة إلى مؤسسة فقط.",
+      "source_chunks": [
+        "عميل لدية اشتراك بتجاري فردي ويريد تحويله الى تجاري شركات او موسسات هل بامكانه ذلك؟ لايمكن التحويل الا من نفس نوع الاشتراك فردي الى فردي او من شركة الى شركة او من موسسة الى موسسة فقط"
+      ],
+      "chunk_ids": [
+        "SPLKB-P083_NATADDR_chunk_019"
+      ]
+    },
+    {
+      "id": "SPLKB-Q166",
+      "pair_id": "SPLKB-P083",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "I'm registered as an individual commercial subscriber, can I convert my subscription to a company subscription?",
+      "expected_answer": "No, conversion is only allowed between subscriptions of the same type: individual to individual, company to company, or institution to institution only.",
+      "source_chunks": [
+        "عميل لدية اشتراك بتجاري فردي ويريد تحويله الى تجاري شركات او موسسات هل بامكانه ذلك؟ لايمكن التحويل الا من نفس نوع الاشتراك فردي الى فردي او من شركة الى شركة او من موسسة الى موسسة فقط"
+      ],
+      "chunk_ids": [
+        "SPLKB-P083_NATADDR_chunk_019"
+      ]
+    },
+    {
+      "id": "SPLKB-Q167",
+      "pair_id": "SPLKB-P084",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "نظام أبشر يلزمني بالتسجيل في العنوان الوطني؟",
+      "expected_answer": "نعم، نظام أبشر يلزم العملاء بالتسجيل في العنوان الوطني.",
+      "source_chunks": [
+        "هل نظام ابشر يلزم العملاء بتسجيل بالعنوان الوطني؟ نعم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P084_NATADDR_chunk_027"
+      ]
+    },
+    {
+      "id": "SPLKB-Q168",
+      "pair_id": "SPLKB-P084",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "Does the Absher system require me to register for the national address?",
+      "expected_answer": "Yes, the Absher system requires customers to register for the national address.",
+      "source_chunks": [
+        "هل نظام ابشر يلزم العملاء بتسجيل بالعنوان الوطني؟ نعم"
+      ],
+      "chunk_ids": [
+        "SPLKB-P084_NATADDR_chunk_027"
+      ]
+    },
+    {
+      "id": "SPLKB-Q169",
+      "pair_id": "SPLKB-P085",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "أنا مشترك تجاري (أو عندي صندوق بريد) وأبغى أطبع عنواني، أقدر أسويها من المكتب؟",
+      "expected_answer": "لا، لا يمكن طباعة العنوان عن طريق المكتب؛ يتم توجيه العميل للدخول على حسابه في سبل أونلاين ثم إدارة عنوانك الوطني، حيث يُطلب إدخال رقم الهوية والجوال، ويصل رمز تحقق، وعند الدخول تتوفر أيقونة طباعة التفاصيل.",
+      "source_chunks": [
+        "عميل يريد طباعة عنوانه في تجاري او صندوق البريد؟ لايمكن طباعته عن طريق المكتب و يتم توجيهه العميل لدخول على حسابة في سبل اون لاين ثم ادارة عنوانك الوطني تنقلك لصفحة يتم وضع رقم الهوية والجوال ثم يصل للعميل رمز تحقق وعند الدخول متاح للعميل ايقونة طباعة التفاصيل"
+      ],
+      "chunk_ids": [
+        "SPLKB-P085_NATADDR_chunk_026"
+      ]
+    },
+    {
+      "id": "SPLKB-Q170",
+      "pair_id": "SPLKB-P085",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "I'm a commercial subscriber (or have a PO box) and want to print my address, can I do that at the office?",
+      "expected_answer": "No, the address can't be printed at the office; the customer is directed to log into their Sabl Online account, go to manage your national address, enter their ID number and mobile, receive a verification code, and once logged in the print-details icon becomes available.",
+      "source_chunks": [
+        "عميل يريد طباعة عنوانه في تجاري او صندوق البريد؟ لايمكن طباعته عن طريق المكتب و يتم توجيهه العميل لدخول على حسابة في سبل اون لاين ثم ادارة عنوانك الوطني تنقلك لصفحة يتم وضع رقم الهوية والجوال ثم يصل للعميل رمز تحقق وعند الدخول متاح للعميل ايقونة طباعة التفاصيل"
+      ],
+      "chunk_ids": [
+        "SPLKB-P085_NATADDR_chunk_026"
+      ]
+    },
+    {
+      "id": "SPLKB-Q171",
+      "pair_id": "SPLKB-P086",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "كيف تصدرون فاتورة تجديد الاشتراك التجاري للمنشأة؟",
+      "expected_answer": "يُطلب رقم السجل التجاري، ويتم التأكد من العميل بمطابقة الاسم الثنائي، ثم الدخول على العنوان الوطني والضغط عليه مرتين، ثم الضغط على أيقونة (إصدار فاتورة التجديد)، وسيقوم النظام بإرسالها تلقائيًا لنظام الفواتير مع إفادة العميل برقم الاشتراك للسداد.",
+      "source_chunks": [
+        "كيف يتم اصدار فاتورة تجديد تجاري للمنشات او الشركات؟ طلب رقم السجل التجاري ويتم التاكد من العميل عن الاسم الثنائي والدخول على العنوان الوطني بالضغط عليه مرتين ثم الضغط على ايقونة إصدار فاتورة التجديد وسيقوم النظام بارسالها لنظام الفواتير تلقائيا وافادة العميل برقم الاشتراك لسداد"
+      ],
+      "chunk_ids": [
+        "SPLKB-P086_NATADDR_chunk_041"
+      ]
+    },
+    {
+      "id": "SPLKB-Q172",
+      "pair_id": "SPLKB-P086",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "How do you issue a commercial subscription renewal invoice for an establishment?",
+      "expected_answer": "The commercial registration number is requested, the customer's identity is confirmed by matching their two-part name, then the national address is opened by clicking it twice, followed by clicking the (Issue Renewal Invoice) icon; the system automatically sends it to the billing system and provides the customer with the subscription number for payment.",
+      "source_chunks": [
+        "كيف يتم اصدار فاتورة تجديد تجاري للمنشات او الشركات؟ طلب رقم السجل التجاري ويتم التاكد من العميل عن الاسم الثنائي والدخول على العنوان الوطني بالضغط عليه مرتين ثم الضغط على ايقونة إصدار فاتورة التجديد وسيقوم النظام بارسالها لنظام الفواتير تلقائيا وافادة العميل برقم الاشتراك لسداد"
+      ],
+      "chunk_ids": [
+        "SPLKB-P086_NATADDR_chunk_041"
+      ]
+    },
+    {
+      "id": "SPLKB-Q173",
+      "pair_id": "SPLKB-P087",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "لاحظت مشكلة أو عندي اعتراض على جودة اللوحة المركبة وأبغى تبديلها، وش الآلية بالضبط؟",
+      "expected_answer": "يرفع العميل شكوى عبر الموقع على الطلب المحدد، وستصل الشكوى للشركة المصنعة مباشرة. وفي حال تركيب اللوحة بشكل خاطئ أو كانت جودتها غير مطابقة للمواصفات المعتمدة، فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي.",
+      "source_chunks": [
+        "في حال وجود اي ملاحظات او اعتراض على جودة اللوحة ويرغب العميل بتبديلها ,كيف ستكون الآلية؟ يرفع العميل شكوى عبر الموقع على الطلب المحدد و ستصل الشكوى للشركة المصنعة. في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي."
+      ],
+      "chunk_ids": [
+        "SPLKB-P087_PLATE_chunk_032"
+      ]
+    },
+    {
+      "id": "SPLKB-Q174",
+      "pair_id": "SPLKB-P087",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I noticed an issue or have an objection to the quality of the installed plate and want it replaced, what's the exact mechanism?",
+      "expected_answer": "The customer files a complaint via the website on the specific order, and the complaint goes directly to the manufacturer. If the plate was installed incorrectly or its quality doesn't match the approved specifications, the manufacturer is obligated to replace it for the customer within 7 business days at no cost.",
+      "source_chunks": [
+        "في حال وجود اي ملاحظات او اعتراض على جودة اللوحة ويرغب العميل بتبديلها ,كيف ستكون الآلية؟ يرفع العميل شكوى عبر الموقع على الطلب المحدد و ستصل الشكوى للشركة المصنعة. في حال تركيب اللوحة بشكل خاطئ أو جودة اللوحة المركبة غير مطابقة للمواصفات المعتمدة فإن الشركة المصنعة ملزمة بتبديلها للعميل خلال 7 أيام عمل وبدون أي مقابل مالي."
+      ],
+      "chunk_ids": [
+        "SPLKB-P087_PLATE_chunk_032"
+      ]
+    },
+    {
+      "id": "SPLKB-Q175",
+      "pair_id": "SPLKB-P088",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "أبغى أعرف رقم الحساب أو الاشتراك اللي أسدد عليه فاتورة العنوان الوطني، وين ألقاه؟",
+      "expected_answer": "يتم الدخول على تفاصيل عنوان العميل، وإفادته برقم الاشتراك المستخدم للسداد.",
+      "source_chunks": [
+        "عميل يستفسر عن رقم الحساب لسداد للعنوان الوطني؟ الدخول على تفاصيل عنوان العميل وافادته برقم الاشتراك"
+      ],
+      "chunk_ids": [
+        "SPLKB-P088_NATADDR_chunk_070"
+      ]
+    },
+    {
+      "id": "SPLKB-Q176",
+      "pair_id": "SPLKB-P088",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Business Renewal",
+      "question": "I want to know the account/subscription number I should use to pay the national address invoice, where do I find it?",
+      "expected_answer": "The customer's address details are opened, and they are informed of the subscription number used for payment.",
+      "source_chunks": [
+        "عميل يستفسر عن رقم الحساب لسداد للعنوان الوطني؟ الدخول على تفاصيل عنوان العميل وافادته برقم الاشتراك"
+      ],
+      "chunk_ids": [
+        "SPLKB-P088_NATADDR_chunk_070"
+      ]
+    },
+    {
+      "id": "SPLKB-Q177",
+      "pair_id": "SPLKB-P089",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Mobile Update",
+      "question": "أخوي عمره أكبر من 18، يبغى يغيّر رقم جواله المسجل بالعنوان الوطني، وش الطريقة؟",
+      "expected_answer": "في حال كان التابع أكبر من 18 سنة، يتم توجيهه لتسجيل الدخول من خلال منصة سبل بواسطة (نفاذ) وتعديل رقم الجوال والعنوان الوطني بنفسه.",
+      "source_chunks": [
+        "و في حال كان التابع أكبر من 18 سنة: يتم توجيه التابع لتسجيل الدخول من خلال منصة سبل بواسطة نفاذ وتعديل رقم الجوال والعنوان الوطني"
+      ],
+      "chunk_ids": [
+        "SPLKB-P089_NATADDR_chunk_012"
+      ]
+    },
+    {
+      "id": "SPLKB-Q178",
+      "pair_id": "SPLKB-P089",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Mobile Update",
+      "question": "My brother is over 18 and wants to change his mobile number registered on the national address, how is that done?",
+      "expected_answer": "If the dependent is over 18, they are directed to log in to the Sabl platform using Nafath and update their own mobile number and national address themselves.",
+      "source_chunks": [
+        "و في حال كان التابع أكبر من 18 سنة: يتم توجيه التابع لتسجيل الدخول من خلال منصة سبل بواسطة نفاذ وتعديل رقم الجوال والعنوان الوطني"
+      ],
+      "chunk_ids": [
+        "SPLKB-P089_NATADDR_chunk_012"
+      ]
+    },
+    {
+      "id": "SPLKB-Q179",
+      "pair_id": "SPLKB-P090",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "ما يظهر لي خيار طلب لوحة عنوان بحسابي، مع إني أسكن فيلا، وش السبب؟",
+      "expected_answer": "غالبًا يكون السبب أن نوع الوحدة في اشتراكك مسجل كـ«شقة» وليس «فيلا»؛ يلزمك تحديث نوع الوحدة في اشتراكك حتى يظهر لك خيار طلب اللوحة.",
+      "source_chunks": [
+        "وفيما يخص عدم ظهور طلب لوحة العنوان من خلال حساب العميل وذلك بسبب ان نوع الوحدة في الاشتراك هي شقة وليست فيلا، وعليه يلزم بأن يقوم العميل بتحديث نوع الوحدة ليتم ظهور طلب اللوحة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P090_PLATE_chunk_024"
+      ]
+    },
+    {
+      "id": "SPLKB-Q180",
+      "pair_id": "SPLKB-P090",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "The option to request an address plate doesn't appear in my account even though I live in a villa, why is that?",
+      "expected_answer": "This is usually because the unit type in your subscription is registered as 'apartment' rather than 'villa'; you need to update the unit type in your subscription for the plate request option to appear.",
+      "source_chunks": [
+        "وفيما يخص عدم ظهور طلب لوحة العنوان من خلال حساب العميل وذلك بسبب ان نوع الوحدة في الاشتراك هي شقة وليست فيلا، وعليه يلزم بأن يقوم العميل بتحديث نوع الوحدة ليتم ظهور طلب اللوحة."
+      ],
+      "chunk_ids": [
+        "SPLKB-P090_PLATE_chunk_024"
+      ]
+    },
+    {
+      "id": "SPLKB-Q181",
+      "pair_id": "SPLKB-P091",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "اشتركت بالعنوان الوطني تجاري بس ما ظهر لي عنوان عالمي، ليه؟",
+      "expected_answer": "لأن خدمة العنوان العالمي غير متوفرة لقطاع الأعمال.",
+      "source_chunks": [
+        "عميل قام بالاشتراك بالعنوان الوطني تجاري ولكن لم يظهر له عنوان عالمي؟ لا تتوفر خدمة عالمي لقطاع الأعمال"
+      ],
+      "chunk_ids": [
+        "SPLKB-P091_NATADDR_chunk_057"
+      ]
+    },
+    {
+      "id": "SPLKB-Q182",
+      "pair_id": "SPLKB-P091",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "I subscribed to a business national address but no international address showed up for me, why?",
+      "expected_answer": "Because the international address service is not available for the business sector.",
+      "source_chunks": [
+        "عميل قام بالاشتراك بالعنوان الوطني تجاري ولكن لم يظهر له عنوان عالمي؟ لا تتوفر خدمة عالمي لقطاع الأعمال"
+      ],
+      "chunk_ids": [
+        "SPLKB-P091_NATADDR_chunk_057"
+      ]
+    },
+    {
+      "id": "SPLKB-Q183",
+      "pair_id": "SPLKB-P092",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "أبغى أرفع شكوى على طلب معين لتركيب اللوحة، من وين؟",
+      "expected_answer": "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة (طلباتي) أو من خلال صفحة خدمة العملاء.",
+      "source_chunks": [
+        "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة) طلباتي( أو من خلال صفحة خدمة العملاء."
+      ],
+      "chunk_ids": [
+        "SPLKB-P092_PLATE_chunk_027"
+      ]
+    },
+    {
+      "id": "SPLKB-Q184",
+      "pair_id": "SPLKB-P092",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I want to raise a complaint about a specific plate installation order, where do I do that?",
+      "expected_answer": "The customer can raise a complaint about a specific order through the (My Orders) page or through the customer service page.",
+      "source_chunks": [
+        "يستطيع العميل رفع شكوى على طلب معين من خلال صفحة) طلباتي( أو من خلال صفحة خدمة العملاء."
+      ],
+      "chunk_ids": [
+        "SPLKB-P092_PLATE_chunk_027"
+      ]
+    },
+    {
+      "id": "SPLKB-Q185",
+      "pair_id": "SPLKB-P093",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "وش الطرق اللي أقدر أعرف فيها عنواني المختصر؟",
+      "expected_answer": "يمكن الحصول على العنوان المختصر عبر عدة قنوات: التشات بوت الخاص بسبل، تطبيق سبل (من خلال أيقونة العناوين بعد تسجيل الدخول)، الموقع الإلكتروني لسبل (من خلال إدارة العناوين)، وتطبيق توكلنا (من خلال لوحة البيانات ثم العنوان الوطني).",
+      "source_chunks": [
+        "يستطيع العميل الحصول على العنوان المختصر من خلال التالي: التشات بوت الخاص بسبل. تطبيق سبل. الموقع الإلكتروني لسبل. تطبيق توكلنا"
+      ],
+      "chunk_ids": [
+        "SPLKB-P093_NATADDR_chunk_031"
+      ]
+    },
+    {
+      "id": "SPLKB-Q186",
+      "pair_id": "SPLKB-P093",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "What are the ways I can find out my short address?",
+      "expected_answer": "The short address can be obtained through several channels: the Sabl chatbot, the Sabl app (via the Addresses icon after logging in), the Sabl website (via Manage Addresses), and the Tawakkalna app (via the dashboard then National Address).",
+      "source_chunks": [
+        "يستطيع العميل الحصول على العنوان المختصر من خلال التالي: التشات بوت الخاص بسبل. تطبيق سبل. الموقع الإلكتروني لسبل. تطبيق توكلنا"
+      ],
+      "chunk_ids": [
+        "SPLKB-P093_NATADDR_chunk_031"
+      ]
+    },
+    {
+      "id": "SPLKB-Q187",
+      "pair_id": "SPLKB-P094",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "وش خطوات إضافة عنوان وطني جديد لحسابي؟",
+      "expected_answer": "من خلال حسابك في سبل أونلاين، تضغط على إدارة العناوين ثم العنوان الوطني ثم التسجيل بالعنوان الوطني، وتُدخل نوع الوحدة، ورقم الدور (يظهر فقط لو نوع الوحدة شقة)، ونوع الملكية، وفترة الإقامة، وصورة المبنى (اختيارية، بحد أقصى صورتين). بعدها تظهر لك صفحة مراجعة لكل البيانات، ثم تضغط على الإقرارات المطلوبة وتُدخل رمز التحقق.",
+      "source_chunks": [
+        "من خلال حسابك في سبل اون لاين عن طريق الضغط على إدارة العناوين ثم الضغط على العنوان الوطني ثم التسجيل بالعنوان الوطني وعند الإضافة يتم ادخال: نوع الوحدة, رقم الدور (يظهر فقط عند اختيار نوع الوحدة شقة), نوع الملكية, فترة الإقامة, صورة المبنى اختيارية، الحد الأقصى صورتين ,ومن ثم يتم عرض صفحة المراجعة لإستعراض كافة بيانات العنوان الوطني والمبنى المدخلة، مسبقا ثم يقوم المستخدم بالضغط على الاقرارات المطلوبة، وإدخال رمز التحقق"
+      ],
+      "chunk_ids": [
+        "SPLKB-P094_NATADDR_chunk_060"
+      ]
+    },
+    {
+      "id": "SPLKB-Q188",
+      "pair_id": "SPLKB-P094",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Registration",
+      "question": "What are the steps to add a new national address to my account?",
+      "expected_answer": "Through your Sabl Online account, you click Manage Addresses, then National Address, then Register for National Address, and enter the unit type, floor number (only shown if the unit type is apartment), ownership type, residency period, and a building photo (optional, up to two photos). You'll then see a review page with all the entered details, then click the required acknowledgments and enter the verification code.",
+      "source_chunks": [
+        "من خلال حسابك في سبل اون لاين عن طريق الضغط على إدارة العناوين ثم الضغط على العنوان الوطني ثم التسجيل بالعنوان الوطني وعند الإضافة يتم ادخال: نوع الوحدة, رقم الدور (يظهر فقط عند اختيار نوع الوحدة شقة), نوع الملكية, فترة الإقامة, صورة المبنى اختيارية، الحد الأقصى صورتين ,ومن ثم يتم عرض صفحة المراجعة لإستعراض كافة بيانات العنوان الوطني والمبنى المدخلة، مسبقا ثم يقوم المستخدم بالضغط على الاقرارات المطلوبة، وإدخال رمز التحقق"
+      ],
+      "chunk_ids": [
+        "SPLKB-P094_NATADDR_chunk_060"
+      ]
+    },
+    {
+      "id": "SPLKB-Q189",
+      "pair_id": "SPLKB-P095",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "متبقي على سجلي التجاري 3 سنوات وأبغى أجدد اشتراكي بالعنوان الوطني، كم راح تكون الفاتورة؟",
+      "expected_answer": "بما أن المدة المتبقية على نهاية السجل التجاري أكثر من سنة، تُصدر الفاتورة على كامل المدة المتبقية. فمثلًا مؤسسة رئيسية متبقٍ على سجلها 3 سنوات تصدر لها فاتورة بقيمة 1500 ريال.",
+      "source_chunks": [
+        "اكثر من سنة: في حال لدى العميل اشتراك قطاع اعمال وتم انتهاء الاشتراك ويرغب العميل بتجديد الاشتراك لدينا وكانت المدة المتبقية على نهاية السجل اكثر من سنه يتم اصدار فاتورة على المدة المتبقية كامله. مثال ذلك: اشتراك مؤسسة رئيسية ونهاية السجل التجاري بعد 3 سنوات... سيتم اصدار فاتورة بقيمة 1500 ريال"
+      ],
+      "chunk_ids": [
+        "SPLKB-P095_NATADDR_chunk_024"
+      ]
+    },
+    {
+      "id": "SPLKB-Q190",
+      "pair_id": "SPLKB-P095",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "I have 3 years left on my commercial registration and want to renew my national address subscription, how much will the invoice be?",
+      "expected_answer": "Since the remaining time on the commercial registration is more than a year, the invoice is issued for the entire remaining period. For example, a main establishment with 3 years remaining would be issued an invoice for 1500 SAR.",
+      "source_chunks": [
+        "اكثر من سنة: في حال لدى العميل اشتراك قطاع اعمال وتم انتهاء الاشتراك ويرغب العميل بتجديد الاشتراك لدينا وكانت المدة المتبقية على نهاية السجل اكثر من سنه يتم اصدار فاتورة على المدة المتبقية كامله. مثال ذلك: اشتراك مؤسسة رئيسية ونهاية السجل التجاري بعد 3 سنوات... سيتم اصدار فاتورة بقيمة 1500 ريال"
+      ],
+      "chunk_ids": [
+        "SPLKB-P095_NATADDR_chunk_024"
+      ]
+    },
+    {
+      "id": "SPLKB-Q191",
+      "pair_id": "SPLKB-P096",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "وش خطوات حذف تابع من العنوان الوطني، ومين أقدر أحذفه مباشرة؟",
+      "expected_answer": "يضغط المستخدم على (حذف) بجانب اسم التابع في صفحة العنوان الوطني، ثم يختار سبب الحذف. ويمكن حذف التابع مباشرة إذا كان: مقيمًا، أو مواطنًا سعوديًا عمره أقل من 18 سنة، أو شخصًا متوفيًا.",
+      "source_chunks": [
+        "يقوم المستخدم بالضغط على «حذف» بجانب اسم التابع المطلوب حذفه في صفحة العنوان الوطني، ثم يختار سبب الحذف. يمكن للمستخدم حذف التابع مباشر إذا كان: مقيم - مواطن وعمره اقل من 18 - شخص متوفي"
+      ],
+      "chunk_ids": [
+        "SPLKB-P096_NATADDR_chunk_055"
+      ]
+    },
+    {
+      "id": "SPLKB-Q192",
+      "pair_id": "SPLKB-P096",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "What are the steps to delete a dependent from the national address, and who can I delete directly?",
+      "expected_answer": "The user clicks (Delete) next to the dependent's name on the national address page, then chooses the reason for deletion. A dependent can be deleted directly if they are: a resident, a Saudi citizen under 18 years old, or a deceased person.",
+      "source_chunks": [
+        "يقوم المستخدم بالضغط على «حذف» بجانب اسم التابع المطلوب حذفه في صفحة العنوان الوطني، ثم يختار سبب الحذف. يمكن للمستخدم حذف التابع مباشر إذا كان: مقيم - مواطن وعمره اقل من 18 - شخص متوفي"
+      ],
+      "chunk_ids": [
+        "SPLKB-P096_NATADDR_chunk_055"
+      ]
+    },
+    {
+      "id": "SPLKB-Q193",
+      "pair_id": "SPLKB-P097",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "كم تابع أقدر أضيف على حسابي بالعنوان الوطني؟",
+      "expected_answer": "الحد الأقصى للمضافين لكل حساب هو 11 فرد للسعودي و4 لغير السعودي، ويتم احتساب الأفراد المحذوفين والفعالين ضمن هذا العدد، وفي حال الوصول للحد الأقصى ثم حذف تابع، يمكن إضافة تابع جديد بعد مضي 6 أشهر من حذف أقدم تابع.",
+      "source_chunks": [
+        "تطببيق الحد الأقصى للمضافين لكل حساب 11 فرد للسعودي و 4 لغير السعودي بحيث يتم ايضا احتساب الأفراد المحذوفين والفعالين في العدد وفي حال تم حذف تابع بعد وصول المسخدم للحد الأقصى فإن المستخدم يستطيع إضافة تابع جديد بعد مضي 6 شهور من حذف أقدم تابع"
+      ],
+      "chunk_ids": [
+        "SPLKB-P097_NATADDR_chunk_008"
+      ]
+    },
+    {
+      "id": "SPLKB-Q194",
+      "pair_id": "SPLKB-P097",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "How many dependents can I add to my national address account?",
+      "expected_answer": "The maximum number of dependents per account is 11 for Saudis and 4 for non-Saudis; both active and deleted dependents count toward this limit. If the maximum is reached and a dependent is then removed, a new dependent can only be added 6 months after the oldest one was removed.",
+      "source_chunks": [
+        "تطببيق الحد الأقصى للمضافين لكل حساب 11 فرد للسعودي و 4 لغير السعودي بحيث يتم ايضا احتساب الأفراد المحذوفين والفعالين في العدد وفي حال تم حذف تابع بعد وصول المسخدم للحد الأقصى فإن المستخدم يستطيع إضافة تابع جديد بعد مضي 6 شهور من حذف أقدم تابع"
+      ],
+      "chunk_ids": [
+        "SPLKB-P097_NATADDR_chunk_008"
+      ]
+    },
+    {
+      "id": "SPLKB-Q195",
+      "pair_id": "SPLKB-P098",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "هل التسجيل بالعنوان الوطني له رسوم لو أنا فرد، وكم يكلف لو مؤسسة تجارية؟",
+      "expected_answer": "التسجيل مجاني للأفراد، أما للمؤسسات التجارية فالرسوم 500 ريال سنويًا للمنشأة الرئيسية تشمل جميع الخدمات المميزة، و100 ريال سنويًا للمنشأة الفرعية.",
+      "source_chunks": [
+        "الأفراد | مجانا ؛ تجاري المؤسسات | 500ريال سنويا للمنشأة الرئيسية يشمل جميع الخدمات المميزة , و 100ريال سنويا للمنشأة الفرعية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P098_NATADDR_chunk_002"
+      ]
+    },
+    {
+      "id": "SPLKB-Q196",
+      "pair_id": "SPLKB-P098",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Fees",
+      "question": "Is there a fee to register for the national address as an individual, and how much for a commercial establishment?",
+      "expected_answer": "Registration is free for individuals. For commercial establishments, the fee is 500 SAR per year for the main establishment (including all premium services) and 100 SAR per year for a branch establishment.",
+      "source_chunks": [
+        "الأفراد | مجانا ؛ تجاري المؤسسات | 500ريال سنويا للمنشأة الرئيسية يشمل جميع الخدمات المميزة , و 100ريال سنويا للمنشأة الفرعية"
+      ],
+      "chunk_ids": [
+        "SPLKB-P098_NATADDR_chunk_002"
+      ]
+    },
+    {
+      "id": "SPLKB-Q197",
+      "pair_id": "SPLKB-P099",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "وش البيانات المطلوبة عشان أضيف تابع جديد لعنواني، وين يوصلني رمز التحقق؟",
+      "expected_answer": "تُطلب البيانات التالية: رقم الهوية الوطنية/الإقامة، تاريخ الميلاد، صلة القرابة، رقم الجوال، والبريد الإلكتروني (اختياري). إذا لم يكن للتابع حساب في نظام CRM، يُرسل رمز التحقق إلى رقم الجوال المدخل في نموذج الإضافة، أما إذا كان له حساب في CRM فيُرسل الرمز إلى رقم الجوال المسجل في النظام.",
+      "source_chunks": [
+        "من خلال صفحة العناوين الوطنية، يقوم المستخدم بإختيار إضافة تابع... ويقوم بتعبئة البيانات التالية: رقم الهوية الوطنية/الإقامة, تاريخ الميلاد, صلة القرابة, رقم الجوال, البريد الإلكتروني (اختياري). يتم إرسال رمز التحقق إلى رقم الجوال المدخل في نموذج إضافة التابع, في حال كانت الهوية لا تملك حساب في نظام CRM وفي حال كان التابع يملك حساب في نظام CRM، سيتم إرسال رمز التحقق إلى رقم الجوال المسجل في النظام"
+      ],
+      "chunk_ids": [
+        "SPLKB-P099_NATADDR_chunk_014"
+      ]
+    },
+    {
+      "id": "SPLKB-Q198",
+      "pair_id": "SPLKB-P099",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "What information is needed to add a new dependent, and where does the verification code go?",
+      "expected_answer": "The required fields are: national ID/iqama number, date of birth, relationship, mobile number, and email (optional). If the dependent doesn't have a CRM account, the verification code is sent to the mobile number entered in the form; if they already have a CRM account, the code is sent to their mobile number registered in the system.",
+      "source_chunks": [
+        "من خلال صفحة العناوين الوطنية، يقوم المستخدم بإختيار إضافة تابع... ويقوم بتعبئة البيانات التالية: رقم الهوية الوطنية/الإقامة, تاريخ الميلاد, صلة القرابة, رقم الجوال, البريد الإلكتروني (اختياري). يتم إرسال رمز التحقق إلى رقم الجوال المدخل في نموذج إضافة التابع, في حال كانت الهوية لا تملك حساب في نظام CRM وفي حال كان التابع يملك حساب في نظام CRM، سيتم إرسال رمز التحقق إلى رقم الجوال المسجل في النظام"
+      ],
+      "chunk_ids": [
+        "SPLKB-P099_NATADDR_chunk_014"
+      ]
+    },
+    {
+      "id": "SPLKB-Q199",
+      "pair_id": "SPLKB-P100",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "أبغى أحذف تابع من عنواني الوطني بس عمره فوق 18، تقدر تحذفونه مباشرة؟",
+      "expected_answer": "لا، لا يمكن حذف التابع إذا كان عمره 18 سنة أو أكبر وليس لديه أي عنوان وطني آخر؛ يجب عليه إضافة عنوان وطني آخر أولًا ليتمكن صاحب العنوان الرئيسي من حذفه.",
+      "source_chunks": [
+        "لا يمكن حذف التابع إذا كان عمره أكبر من أو يساوي 18 سنة، وليس لديه أي عنوان وطني آخر يجب على التابع إضافة عنوان وطني آخر ليتمكن صاحب العنوان الرئيس ي من حذفه"
+      ],
+      "chunk_ids": [
+        "SPLKB-P100_NATADDR_chunk_015"
+      ]
+    },
+    {
+      "id": "SPLKB-Q200",
+      "pair_id": "SPLKB-P100",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Dependents",
+      "question": "I want to delete a dependent from my national address who's over 18, can you delete them directly?",
+      "expected_answer": "No, a dependent who is 18 or older and has no other national address cannot be deleted; they must first add another national address before the primary account holder can delete them.",
+      "source_chunks": [
+        "لا يمكن حذف التابع إذا كان عمره أكبر من أو يساوي 18 سنة، وليس لديه أي عنوان وطني آخر يجب على التابع إضافة عنوان وطني آخر ليتمكن صاحب العنوان الرئيس ي من حذفه"
+      ],
+      "chunk_ids": [
+        "SPLKB-P100_NATADDR_chunk_015"
+      ]
+    },
+    {
+      "id": "SPLKB-Q201",
+      "pair_id": "SPLKB-P101",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "من يتحقق إذا موقعي مؤهل أو غير مؤهل لتركيب اللوحة؟",
+      "expected_answer": "التحقق من أهلية الموقع هي مسؤولية فريق نظم المعلومات الجغرافية، وفي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن هذا الفريق هو المخوّل بالتحقق من الأمر.",
+      "source_chunks": [
+        "كيف يتم التحقق من عدم أهلية الموقع للتركيب ؟ التحقق من أهلية املوقع هي مسؤولية فريق نظم المعلومات الجغرافية ففي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر."
+      ],
+      "chunk_ids": [
+        "SPLKB-P101_PLATE_chunk_022"
+      ]
+    },
+    {
+      "id": "SPLKB-Q202",
+      "pair_id": "SPLKB-P101",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Who checks whether my site is eligible or not eligible for plate installation?",
+      "expected_answer": "Verifying site eligibility is the responsibility of the Geographic Information Systems (GIS) team, and if the customer raises a complaint about site ineligibility, this team is the one authorized to investigate the matter.",
+      "source_chunks": [
+        "كيف يتم التحقق من عدم أهلية الموقع للتركيب ؟ التحقق من أهلية املوقع هي مسؤولية فريق نظم المعلومات الجغرافية ففي حال رفع العميل شكوى متعلقة بعدم أهلية الموقع فإن فريق نظم المعلومات الجغرافية هو المخول بالتحقق من الأمر."
+      ],
+      "chunk_ids": [
+        "SPLKB-P101_PLATE_chunk_022"
+      ]
+    },
+    {
+      "id": "SPLKB-Q203",
+      "pair_id": "SPLKB-P102",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "لازم أوافق على شروط وأحكام معينة قبل ما أقدّم طلب اللوحة؟",
+      "expected_answer": "نعم، يمكن للعميل استعراض الشروط والأحكام المتعلقة بالخدمة، ويجب عليه الموافقة عليها قبل تقديم الطلب.",
+      "source_chunks": [
+        "يمكن للعميل استعراض الشروط والأحكام المتعلقة بالخدمة. يجب على العميل الموافقة على شروط وأحكام الخدمة قبل تقديم الطلب."
+      ],
+      "chunk_ids": [
+        "SPLKB-P102_PLATE_chunk_029"
+      ]
+    },
+    {
+      "id": "SPLKB-Q204",
+      "pair_id": "SPLKB-P102",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "Do I need to agree to specific terms and conditions before submitting a plate order?",
+      "expected_answer": "Yes, the customer can review the terms and conditions related to the service, and must agree to them before submitting the request.",
+      "source_chunks": [
+        "يمكن للعميل استعراض الشروط والأحكام المتعلقة بالخدمة. يجب على العميل الموافقة على شروط وأحكام الخدمة قبل تقديم الطلب."
+      ],
+      "chunk_ids": [
+        "SPLKB-P102_PLATE_chunk_029"
+      ]
+    },
+    {
+      "id": "SPLKB-Q205",
+      "pair_id": "SPLKB-P103",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "أقدر أطبع إثبات العنوان الوطني عن طريق التشات بوت؟",
+      "expected_answer": "نعم، تكتب (قائمة الخدمات) في التشات بوت ثم تختار (الحصول على إثبات العنوان).",
+      "source_chunks": [
+        "هل بالإمكان طباعة أثبات العنوان الوطني عن طريق التشات بوت ؟ نعم. يتم كتابة (قائمة الخدمات). ثم اختر الحصول على اثبات العنوان"
+      ],
+      "chunk_ids": [
+        "SPLKB-P103_NATADDR_chunk_058"
+      ]
+    },
+    {
+      "id": "SPLKB-Q206",
+      "pair_id": "SPLKB-P103",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "National Address Individual Management",
+      "question": "Can I print proof of my national address through the chatbot?",
+      "expected_answer": "Yes, you type (list of services) in the chatbot, then choose (Get Proof of Address).",
+      "source_chunks": [
+        "هل بالإمكان طباعة أثبات العنوان الوطني عن طريق التشات بوت ؟ نعم. يتم كتابة (قائمة الخدمات). ثم اختر الحصول على اثبات العنوان"
+      ],
+      "chunk_ids": [
+        "SPLKB-P103_NATADDR_chunk_058"
+      ]
+    },
+    {
+      "id": "SPLKB-Q207",
+      "pair_id": "SPLKB-P104",
+      "language": "ar",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "دفعت لطلب لوحة لكن قالوا موقعي مو مؤهل للتركيب، بيرجعون لي فلوسي؟",
+      "expected_answer": "نعم، تلتزم الشركة بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة بسبب عدم أهلية الموقع للتركيب، وذلك خلال 14 يوم عمل.",
+      "source_chunks": [
+        "تلتزم الشركة السعودية للخدمات البريدية و اللوجستية بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة للموقع بسبب عدم أهلية الموقع للتركيب خلال 14 يوم عمل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P104_PLATE_chunk_007"
+      ]
+    },
+    {
+      "id": "SPLKB-Q208",
+      "pair_id": "SPLKB-P104",
+      "language": "en",
+      "topic": "National Address",
+      "sub_topic": "Address Plate Installation",
+      "question": "I paid for a plate order but they said my site isn't eligible for installation, will I get my money back?",
+      "expected_answer": "Yes, the company is committed to refunding the amount paid to the customer within 14 business days if the plate cannot be installed because the site is not eligible for installation.",
+      "source_chunks": [
+        "تلتزم الشركة السعودية للخدمات البريدية و اللوجستية بإعادة المبلغ المدفوع للعميل في حال تعذر تركيب اللوحة للموقع بسبب عدم أهلية الموقع للتركيب خلال 14 يوم عمل."
+      ],
+      "chunk_ids": [
+        "SPLKB-P104_PLATE_chunk_007"
+      ]
+    }
+  ]
+}
