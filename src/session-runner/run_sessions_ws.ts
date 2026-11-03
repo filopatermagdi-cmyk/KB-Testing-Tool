@@ -89,6 +89,9 @@ const WS_CONNECT_ATTEMPTS = intEnv("WS_CONNECT_ATTEMPTS", 3);
 // many TIMES (fresh socket + handshake), so a one-off backend hiccup — common
 // while several concurrent sessions start at once — doesn't nuke the call.
 const WS_SESSION_ATTEMPTS = intEnv("WS_SESSION_ATTEMPTS", 3);
+// Sent as `chatType` in the handshake alongside agentId + token. Defaults to
+// "chat_assistant"; set WS_CHAT_TYPE= (empty) in .env to omit the field.
+const WS_CHAT_TYPE = process.env.WS_CHAT_TYPE ?? "chat_assistant";
 // Random stagger (ms) applied before the first connect of a session and
 // between retries, so a whole batch doesn't hammer the proxy at once.
 const WS_CONNECT_STAGGER_MS = intEnv("WS_CONNECT_STAGGER_MS", 2500);
@@ -96,6 +99,67 @@ const CONCURRENCY = intEnv("CONCURRENCY", 1);
 const CONCURRENT_AR = intEnv("CONCURRENT_AR", 0);
 const CONCURRENT_EN = intEnv("CONCURRENT_EN", 0);
 const MIXED = CONCURRENT_AR > 0 || CONCURRENT_EN > 0;
+
+// Source-provenance key aliases for OTHER clients. Different Ziila deployments
+// report the source files that produced each answer under different frame keys
+// (e.g. "file_ids" for the bank client, but "doc_ids"/"source_ids"/... for
+// another client). WS_SOURCE_KEYS maps each canonical bucket to a list of
+// alternate keys to also read, e.g.:
+//   WS_SOURCE_KEYS={"file_ids":["doc_ids","source_ids"],"play_id":["voice_id"]}
+// The canonical keys (file_ids / loaded_files / play_id) are ALWAYS read first,
+// so the bank behavior is unchanged when nothing is configured.
+function sourceKeyAliases(): Record<string, string[]> {
+  const raw = process.env.WS_SOURCE_KEYS || "";
+  const out: Record<string, string[]> = {};
+  if (!raw.trim()) return out;
+  try {
+    const parsed = JSON.parse(raw);
+    for (const bucket of ["file_ids", "loaded_files", "play_id"]) {
+      const keys = parsed[bucket];
+      if (Array.isArray(keys)) out[bucket] = keys.map(String);
+    }
+  } catch (e) {
+    console.warn(`[run_sessions_ws] WS_SOURCE_KEYS is not valid JSON ("${raw}") — ignoring.`);
+  }
+  return out;
+}
+const WS_SOURCE_KEY_ALIASES = sourceKeyAliases();
+
+// Reads a canonical source bucket from msg: tries the canonical key first, then
+// any configured aliases. Returns { value, key } so we can also report WHICH
+// frame key actually carried the data (useful to confirm a client's key).
+function readSourceBucket(
+  msg: any,
+  bucket: "file_ids" | "loaded_files" | "play_id",
+  aliases: Record<string, string[]>
+): { value: any; key: string | null } {
+  const candidates = [bucket, ...(aliases[bucket] || [])];
+  for (const k of candidates) {
+    if (Object.prototype.hasOwnProperty.call(msg, k)) return { value: msg[k], key: k };
+  }
+  return { value: undefined, key: null };
+}
+
+// Event-based source provenance for OTHER clients: some Ziila deployments send
+// the source files as a standalone frame, e.g.
+//   {"event": "knowledge_files", "files": ["6_en.md", "5_en.md"]}
+// instead of (or in addition to) the inline file_ids/loaded_files/play_id keys.
+// WS_SOURCE_EVENT_KEYS maps an event name to the field that carries the file
+// list (default: knowledge_files -> files). BOTH mechanisms are captured — the
+// bank's inline keys and any configured event — whichever the server sends.
+function sourceEventKeys(): Record<string, string> {
+  const def: Record<string, string> = { knowledge_files: "files" };
+  const raw = process.env.WS_SOURCE_EVENT_KEYS || "";
+  if (!raw.trim()) return def;
+  try {
+    const parsed = JSON.parse(raw);
+    return { ...def, ...parsed };
+  } catch (e) {
+    console.warn(`[run_sessions_ws] WS_SOURCE_EVENT_KEYS is not valid JSON ("${raw}") — using default.`);
+    return def;
+  }
+}
+const WS_SOURCE_EVENT_KEYS = sourceEventKeys();
 
 // Memory guard: don't start another WS session when free RAM is critically low.
 // WS clients are much lighter than browsers, so the default floor is lower.
@@ -263,6 +327,7 @@ interface TurnOutcome {
   fileIds?: string[];
   loadedFiles?: string[];
   playId?: string | null;
+  sourceKeys?: string[];
   sawSource?: boolean;
 }
 
@@ -332,11 +397,13 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
     let sentences: string[] = [];
     let sessionIdFromServer: string | null = null;
     // Source provenance Ziila reports per turn (file_ids / loaded_files /
-    // play_id) — reset on every turn start, captured from whatever frames
-    // arrive while that turn is in flight.
+    // play_id, plus event-based frames like {"event":"knowledge_files",
+    // "files":[...]}) — reset on every turn start, captured from whatever
+    // frames arrive while that turn is in flight.
     let ctxFileIds: string[] = [];
     let ctxLoadedFiles: string[] = [];
     let ctxPlayId: string | null = null;
+    let ctxSourceKeys: Set<string> = new Set();
     let ctxSawSource = false;
 
     const clearTimers = () => {
@@ -424,9 +491,23 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
         sessionIdFromServer = msg.session_id;
         console.log(`[${session.session_id}] session confirmed: ${msg.session_id}`);
       }
-      if (Array.isArray(msg.file_ids)) { ctxFileIds = msg.file_ids; ctxSawSource = true; }
-      if (Array.isArray(msg.loaded_files)) { ctxLoadedFiles = msg.loaded_files; ctxSawSource = true; }
-      if (typeof msg.play_id === "string") { ctxPlayId = msg.play_id; ctxSawSource = true; }
+      // Source provenance: capture the bank's inline keys AND any event-based
+      // source frames (other clients) — whichever the server sends. We also
+      // record which frame keys actually carried data so a new client's key
+      // name is visible in the summary without guessing.
+      const fIds = readSourceBucket(msg, "file_ids", WS_SOURCE_KEY_ALIASES);
+      if (Array.isArray(fIds.value)) { ctxFileIds = fIds.value; ctxSawSource = true; if (fIds.key) ctxSourceKeys.add(fIds.key); }
+      const lFiles = readSourceBucket(msg, "loaded_files", WS_SOURCE_KEY_ALIASES);
+      if (Array.isArray(lFiles.value)) { ctxLoadedFiles = lFiles.value; ctxSawSource = true; if (lFiles.key) ctxSourceKeys.add(lFiles.key); }
+      const pId = readSourceBucket(msg, "play_id", WS_SOURCE_KEY_ALIASES);
+      if (typeof pId.value === "string") { ctxPlayId = pId.value; ctxSawSource = true; if (pId.key) ctxSourceKeys.add(pId.key); }
+      for (const [evKey, filesKey] of Object.entries(WS_SOURCE_EVENT_KEYS)) {
+        if (msg.event === evKey && Array.isArray(msg[filesKey])) {
+          ctxFileIds = msg[filesKey];
+          ctxSawSource = true;
+          ctxSourceKeys.add(`${evKey}.${filesKey}`);
+        }
+      }
       if (typeof msg.llm_message_sentence === "string") {
         if (firstFrameAt === null) firstFrameAt = Date.now();
         sentences.push(msg.llm_message_sentence);
@@ -512,6 +593,7 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
         ctxFileIds = [];
         ctxLoadedFiles = [];
         ctxPlayId = null;
+        ctxSourceKeys = new Set();
         ctxSawSource = false;
         const turnError = fatalError;
         fatalError = null;
@@ -546,9 +628,10 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
         const answerText = sentences.join(" ").trim();
         const latencyMs = firstFrameAt !== null ? firstFrameAt - sentAt : null;
         const srcTag = ctxFileIds.length ? ` [src: ${ctxFileIds.join(", ")}]` : "";
+        const srcKeyTag = ctxSourceKeys.size ? ` [via: ${[...ctxSourceKeys].join(", ")}]` : "";
         console.log(
           `[${session.session_id}]   ${answerText.length > 0 ? "✓" : "✗ no reply"}` +
-            `${latencyMs !== null ? ` after ${latencyMs}ms` : ""}${srcTag} → ${answerText.slice(0, 80) || "(empty)"}`
+            `${latencyMs !== null ? ` after ${latencyMs}ms` : ""}${srcTag}${srcKeyTag} → ${answerText.slice(0, 80) || "(empty)"}`
         );
         outcomes.push({
           question_id: m.question_id,
@@ -561,6 +644,7 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
           fileIds: [...ctxFileIds],
           loadedFiles: [...ctxLoadedFiles],
           playId: ctxPlayId,
+          sourceKeys: [...ctxSourceKeys],
           sawSource: ctxSawSource,
         });
         if (ws.readyState !== WebSocket.OPEN) break;
@@ -572,9 +656,11 @@ function runSessionOverWs(session: Session, agentId: string): Promise<TurnOutcom
     // run the turns directly. Connection-open failures are handled above by the
     // retry loop; mid-session drops are covered by the hard turn timeouts.
     try {
-      ws.send(JSON.stringify({ agentId, token }));
+      ws.send(JSON.stringify(WS_CHAT_TYPE ? { agentId, token, chatType: WS_CHAT_TYPE } : { agentId, token }));
       ws.send(JSON.stringify({ type: "session", sessionId: session.session_id }));
-      console.log(`[${session.session_id}] ws open → handshake sent (agentId=${agentId || "<empty>"})`);
+      console.log(
+        `[${session.session_id}] ws open → handshake sent (agentId=${agentId || "<empty>"}, chatType=${WS_CHAT_TYPE || "<omitted>"})`
+      );
     } catch (e) {
       fatalError = `handshake send failed: ${(e as Error).message}`;
       settled = true;
@@ -697,9 +783,15 @@ async function runSession(session: Session): Promise<SessionResult> {
       file_ids: o.fileIds || [],
       loaded_files: o.loadedFiles || [],
       play_id: o.playId || null,
+      source_keys: o.sourceKeys || [],
       saw_source_frame: o.sawSource === true,
     }));
-  const sourceFilesUsed = [...new Set(sourceFilesByTurn.flatMap((r) => r.file_ids))].sort();
+  const sourceFilesUsed = [
+    ...new Set([
+      ...sourceFilesByTurn.flatMap((r) => r.file_ids),
+      ...sourceFilesByTurn.flatMap((r) => r.loaded_files),
+    ]),
+  ].sort();
   const summary = {
     passed,
     reason,
@@ -814,51 +906,58 @@ async function main(): Promise<void> {
   const concAR = Math.max(parseInt(arg("concurrent-ar", ""), 10) || CONCURRENT_AR || 1, 1);
   const concEN = Math.max(parseInt(arg("concurrent-en", ""), 10) || CONCURRENT_EN || 1, 1);
 
+  // --repeat N: run every selected session N times total (1 = as-is, 0 = same).
+  // Each repeat gets a fresh session_id suffix ("#2", "#3", ...) so the new
+  // handshake/call is a distinct session on Ziila's side and the results,
+  // output folders and the capture/export step stay unambiguous.
+  const repeat = Math.max(parseInt(arg("repeat", ""), 10) || 1, 1);
+  const repeatSuffix = (s: Session, r: number): Session =>
+    r === 1 ? s : { ...s, session_id: `${s.session_id}#${r}` };
+
   const arQueue = sessions.filter((s) => s.language === "ar");
   const enQueue = sessions.filter((s) => s.language === "en");
+  // Effective concurrency: never run more calls per language than it has
+  // sessions, even if the dashboard sent a concurrent-en for a language we're
+  // not running (Arabic-only still sends --concurrent-en 3, which must not
+  // turn into 3 idle AR-slots + 3 EN-slots = 6 parallel AR calls).
+  const effAR = Math.min(concAR, arQueue.length);
+  const effEN = Math.min(concEN, enQueue.length);
+  const maxConc = (effAR + effEN) || 1;
+  // Repeat cycles are the OUTER loop: [s1..sN, s1#2..sN#2, ...]. The first
+  // window (slice 0..concAR) is then all base sessions, and the #N cycle only
+  // starts after that cycle's sessions finish — never alongside their originals.
+  const arQueueR = Array.from({ length: repeat }, (_, r) => r + 1).flatMap((r) => arQueue.map((s) => repeatSuffix(s, r)));
+  const enQueueR = Array.from({ length: repeat }, (_, r) => r + 1).flatMap((r) => enQueue.map((s) => repeatSuffix(s, r)));
+  const totalCalls = arQueueR.length + enQueueR.length;
 
   const connKind = arg("url", "") ? "relay" : "direct";
   console.log(
-    `Running ${sessions.length} session(s) over ${connKind} WebSocket (${WS_URL.replace(/\/[^/]+$/, "/***")}) ` +
-      `mode=${WS_MODE} — AR=${arQueue.length} conc=${concAR}, EN=${enQueue.length} conc=${concEN}...`
+    `Running ${totalCalls} session call(s) (${arQueueR.length} AR + ${enQueueR.length} EN, repeat=${repeat}) over ${connKind} WebSocket ` +
+      `(${WS_URL.replace(/\/[^/]+$/, "/***")}) mode=${WS_MODE} — conc AR=${effAR} + EN=${effEN} (max ${maxConc})...`
   );
 
   const started = Date.now();
   const results: SessionResult[] = [];
-  let arIdx = 0;
-  let enIdx = 0;
-  let batchNum = 0;
 
-  while (arIdx < arQueue.length || enIdx < enQueue.length) {
-    batchNum++;
-    const batchAR = arQueue.slice(arIdx, arIdx + concAR);
-    const batchEN = enQueue.slice(enIdx, enIdx + concEN);
-    const batch = [...batchAR, ...batchEN];
-    if (!batch.length) break;
-
+  // Sliding-window shared pool: total in-flight calls never exceed
+  // maxConcurrent = effective AR + effective EN. The initial window starts
+  // with up to concAR AR calls + concEN EN calls, then every finished call
+  // (AR or EN) is immediately replaced by the next waiting one from EITHER
+  // language — a language that runs out frees its slots to the other. The
+  // total number of concurrent calls stays fixed the whole run.
+  const taskList = [
+    ...arQueueR.slice(0, effAR),
+    ...enQueueR.slice(0, effEN),
+    ...arQueueR.slice(effAR),
+    ...enQueueR.slice(effEN),
+  ];
+  const done = await pool(taskList.map((s) => (): Promise<SessionResult> => sessionWithStagger(s)), maxConc);
+  results.push(...done);
+  for (const r of done) {
     console.log(
-      `  batch ${batchNum}: ${batchAR.length} AR + ${batchEN.length} EN = ${batch.length} call(s)...`
+      `    ${r.passed ? "PASS" : "FAIL"}  ${r.session_id}  ${r.replies}/${r.turns} replies  ` +
+        `avg ${r.latencyMs.avg ?? "-"}ms${r.passed ? "" : `  (${r.reason})`}`
     );
-
-    const batchResults = await pool(
-      batch.map(
-        (s) =>
-          () =>
-            sessionWithStagger(s)
-      ),
-      batch.length
-    );
-    results.push(...batchResults);
-
-    for (const r of batchResults) {
-      console.log(
-        `    ${r.passed ? "PASS" : "FAIL"}  ${r.session_id}  ${r.replies}/${r.turns} replies  ` +
-          `avg ${r.latencyMs.avg ?? "-"}ms${r.passed ? "" : `  (${r.reason})`}`
-      );
-    }
-
-    arIdx += batchAR.length;
-    enIdx += batchEN.length;
   }
 
   results.sort((a, b) => a.session_id.localeCompare(b.session_id));
@@ -869,10 +968,12 @@ async function main(): Promise<void> {
     stamp,
     startedAt: new Date().toISOString(),
     scheduling: {
-      type: arg("url", "") ? "batch-relay" : "batch-ws",
-      concurrentAR: concAR,
-      concurrentEN: concEN,
-      batches: batchNum,
+      type: arg("url", "") ? "sliding-relay" : "sliding-ws",
+      concurrentAR: effAR,
+      concurrentEN: effEN,
+      maxConcurrent: maxConc,
+      repeat,
+      batches: 1,
     },
     selection: { shuffleSessions: false, sessionsPerRun: null, picked: results.length },
     sessions: results.length,

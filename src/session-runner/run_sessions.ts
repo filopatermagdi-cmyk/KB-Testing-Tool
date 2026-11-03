@@ -278,8 +278,16 @@ async function runMixed(
   await new Promise<void>((resolve) => {
     const canAddAR = () => cycleAR ? !runningAR.some((s) => s.session_id === arSessions[arPtr % arSessions.length].session_id) : arPtr < arSessions.length;
     const canAddEN = () => cycleEN ? !runningEN.some((s) => s.session_id === enSessions[enPtr % enSessions.length].session_id) : enPtr < enSessions.length;
+    // Shared total budget: total in-flight never exceeds maxAR+maxEN. A
+    // language may borrow the other's slots only once the other has NO queued
+    // calls left (its pre-queued running calls still finish normally).
+    const totalRunning = () => runningAR.length + runningEN.length;
+    const enNoMore = () => enPtr >= enSessions.length + (cycleEN ? maxEN : 0);
+    const arNoMore = () => arPtr >= arSessions.length + (cycleAR ? maxAR : 0);
+    const arBudget = () => runningAR.length < maxAR || (enNoMore() && totalRunning() < maxAR + maxEN);
+    const enBudget = () => runningEN.length < maxEN || (arNoMore() && totalRunning() < maxAR + maxEN);
     const pump = () => {
-      while (runningAR.length < maxAR && arPtr < arSessions.length + (cycleAR ? maxAR : 0) && canAddAR()) {
+      while (arBudget() && arPtr < arSessions.length + (cycleAR ? maxAR : 0) && canAddAR()) {
         const s = arSessions[arPtr % arSessions.length];
         arPtr++;
         runningAR.push(s);
@@ -290,7 +298,7 @@ async function runMixed(
             pump();
           });
       }
-      while (runningEN.length < maxEN && enPtr < enSessions.length + (cycleEN ? maxEN : 0) && canAddEN()) {
+      while (enBudget() && enPtr < enSessions.length + (cycleEN ? maxEN : 0) && canAddEN()) {
         const s = enSessions[enPtr % enSessions.length];
         enPtr++;
         runningEN.push(s);
@@ -521,16 +529,30 @@ async function main(): Promise<void> {
   }
 
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
-  const arSessions = sessions.filter((s) => s.language === "ar");
-  const enSessions = sessions.filter((s) => s.language === "en");
+  let arSessions = sessions.filter((s) => s.language === "ar");
+  let enSessions = sessions.filter((s) => s.language === "en");
   const concAR = Math.max(parseInt(arg("concurrent-ar", ""), 10) || CONCURRENT_AR || 1, 1);
   const concEN = Math.max(parseInt(arg("concurrent-en", ""), 10) || CONCURRENT_EN || 1, 1);
+  // --repeat N: run every selected session N times total (1 = as-is, 0 = same).
+  // Each repeat gets a fresh session_id suffix ("#2", "#3", ...) so each is a
+  // distinct call/session on Ziila and the output folder stays unambiguous.
+  const repeat = Math.max(parseInt(arg("repeat", ""), 10) || 1, 1);
+  const repeatSuffix = (s: Session, r: number): Session =>
+    r === 1 ? s : { ...s, session_id: `${s.session_id}#${r}` };
+  if (repeat > 1) {
+    arSessions = Array.from({ length: repeat }, (_, r) => r + 1).flatMap((r) =>
+      arSessions.map((s) => repeatSuffix(s, r))
+    );
+    enSessions = Array.from({ length: repeat }, (_, r) => r + 1).flatMap((r) =>
+      enSessions.map((s) => repeatSuffix(s, r))
+    );
+  }
   // Call quota per language: --total-ar/--total-en is a TARGET number of CALLS.
   // When it exceeds the available sessions, sessions are re-cycled across
   // batches (never twice within one batch, so two copies of the same
   // session_id never touch its output folder at the same time).
-  let totalAR = totalARArg > 0 ? totalARArg : arSessions.length;
-  let totalEN = totalENArg > 0 ? totalENArg : enSessions.length;
+  let totalAR = totalARArg > 0 ? totalARArg * repeat : arSessions.length;
+  let totalEN = totalENArg > 0 ? totalENArg * repeat : enSessions.length;
   if (arSessions.length === 0 && totalAR > 0) {
     console.warn(`  [warn] --total-ar ${totalAR} but 0 Arabic sessions in this file — skipping Arabic calls`);
     totalAR = 0;
@@ -546,8 +568,8 @@ async function main(): Promise<void> {
     (totalAR !== arSessions.length || totalEN !== enSessions.length
       ? `+ cycle to ${totalAR}ar/${totalEN}en calls ` : "");
   console.log(
-    `Running ${sessions.length} unique session(s) (AR ${arSessions.length} -> ${totalAR} call(s) conc=${concAR} / ` +
-      `EN ${enSessions.length} -> ${totalEN} call(s) conc=${concEN}) (${selection})via ${callrunnerDir}...`
+    `Running ${arSessions.length + enSessions.length} call(s) (AR ${arSessions.length} conc=${concAR} / ` +
+      `EN ${enSessions.length} conc=${concEN}, repeat=${repeat}) (${selection})via ${callrunnerDir}...`
   );
   const started = Date.now();
   const results: SessionResult[] = [];
@@ -577,7 +599,7 @@ async function main(): Promise<void> {
   const report = {
     stamp,
     startedAt: new Date().toISOString(),
-    scheduling: { type: "mixed-slot", concurrentAR: concAR, concurrentEN: concEN, batches: batchNum },
+    scheduling: { type: "mixed-slot", concurrentAR: concAR, concurrentEN: concEN, maxConcurrent: concAR + concEN, repeat, batches: batchNum },
     selection: {
       shuffleSessions: SHUFFLE_SESSIONS,
       sessionsPerRun: SESSIONS_PER_RUN > 0 ? SESSIONS_PER_RUN : null,

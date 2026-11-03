@@ -418,6 +418,8 @@
         <input type="number" id="sr-total-en" value="0" min="0" style="width:60px" title="Total English calls (0 = all)" />
         <label style="width:auto;margin-left:8px">EN conc</label>
         <input type="number" id="sr-concurrent-en" value="3" min="1" style="width:60px" title="English concurrency per batch" />
+        <label style="width:auto;margin-left:16px">Repeat</label>
+        <input type="number" id="sr-repeat" value="1" min="1" style="width:60px" title="Run every selected session this many times (1 = once). Repeats get a #2/#3… session_id suffix so each is a fresh call on Ziila." />
       </div>
       <div class="import-row">
         <label>Auto-refresh token</label>
@@ -955,6 +957,7 @@ function updateSrInfo() {
   const lang = $("sr-lang").value;
   const concAr = parseInt($("sr-concurrent-ar").value) || 1;
   const concEn = parseInt($("sr-concurrent-en").value) || 1;
+  const repeat = Math.max(parseInt($("sr-repeat").value) || 1, 1);
   const info = $("sr-info");
   if (!file) { info.textContent = "Select a sub-topic to see details."; return; }
   const topic = $("sr-topic").value;
@@ -966,10 +969,10 @@ function updateSrInfo() {
   let enCount = totalEn > 0 ? Math.min(totalEn, f.enSessions) : f.enSessions;
   if (lang === "ar") { enCount = 0; }
   else if (lang === "en") { arCount = 0; }
-  const total = arCount + enCount;
+  const total = (arCount + enCount) * repeat;
   const batches = Math.max(Math.ceil(arCount / concAr), Math.ceil(enCount / concEn));
   const modeLabel = srMode === "ws" ? "Direct WebSocket" : srMode === "relay" ? "Relay" : "Browser (CallRunner)";
-  info.textContent = `${modeLabel} — ${total} calls (AR:${arCount} conc:${concAr} + EN:${enCount} conc:${concEn}) — ~${batches} batch(es) — ~${total * 10} questions`;
+  info.textContent = `${modeLabel} — ${total} call(s) (AR:${arCount} conc:${concAr} + EN:${enCount} conc:${concEn})${repeat > 1 ? ` ×${repeat} repeat` : ""} — ~${batches} wave(s) — ~${total * 10} questions`;
 }
 
 async function runSessionRunner() {
@@ -991,6 +994,7 @@ async function runSessionRunner() {
         totalEn: $("sr-total-en").value,
         concurrentAr: $("sr-concurrent-ar").value,
         concurrentEn: $("sr-concurrent-en").value,
+        repeat: $("sr-repeat").value,
         mode: srMode,
         autoToken: $("sr-auto-token").checked,
         minRam: $("sr-min-ram").value,
@@ -1043,6 +1047,7 @@ $("sr-total-ar").addEventListener("input", updateSrInfo);
 $("sr-total-en").addEventListener("input", updateSrInfo);
 $("sr-concurrent-ar").addEventListener("input", updateSrInfo);
 $("sr-concurrent-en").addEventListener("input", updateSrInfo);
+$("sr-repeat").addEventListener("input", updateSrInfo);
 $("sr-run").addEventListener("click", runSessionRunner);
 $("sr-stop").addEventListener("click", stopSessionRunner);
 

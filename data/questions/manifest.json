@@ -1,6 +1,44 @@
 {
   "version": 1,
   "topics": {
+    "chat agent": {
+      "sub_topics": [
+        {
+          "sub_topic": "chat QA",
+          "file": "questions/chat agent/chat QA.json",
+          "ar": 819,
+          "en": 0,
+          "total": 819
+        },
+        {
+          "sub_topic": "chat QA3",
+          "file": "questions/chat agent/chat QA3.json",
+          "ar": 1203,
+          "en": 0,
+          "total": 1203
+        },
+        {
+          "sub_topic": "chat QAF",
+          "file": "questions/chat agent/chat QAF.json",
+          "ar": 421,
+          "en": 0,
+          "total": 421
+        }
+      ],
+      "total": 2443
+    },
+    "chat agent2": {
+      "sub_topics": [
+        {
+          "sub_topic": "chat QA2",
+          "file": "questions/chat agent2/chat QA2.json",
+          "ar": 819,
+          "en": 0,
+          "total": 819
+        }
+      ],
+      "total": 819
+    },
     "General": {
       "sub_topics": [
         {
@@ -1965,6 +2003,13 @@
     "SPL": {
       "sub_topics": [
         {
+          "sub_topic": "NEWKB",
+          "file": "questions/SPL/NEWKB.json",
+          "ar": 155,
+          "en": 155,
+          "total": 310
+        },
+        {
           "sub_topic": "old KB",
           "file": "questions/SPL/old KB.json",
           "ar": 104,
@@ -1979,7 +2024,7 @@
           "total": 350
         }
       ],
-      "total": 558
+      "total": 868
     }
   }
 }

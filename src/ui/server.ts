@@ -500,14 +500,28 @@ function runPhase(phaseId: string, args: string[], res: http.ServerResponse, ext
   });
   running.add(child);
   const done = () => { running.delete(child); };
-  child.stdout.on("data", (d) => res.write(d));
+  const childOut: Buffer[] = [];
+  child.stdout.on("data", (d): void => {
+    childOut.push(Buffer.from(d));
+    res.write(d);
+  });
   child.stderr.on("data", (d) => res.write(d));
   child.on("close", (code) => {
     done();
     res.write(`\n[exit ${code}]\n`);
     if (code === 0 && CHAIN_CAPTURE.has(phaseId)) {
       res.write(`\n--- auto: capture-answers ---\n`);
-      const capArgs = isWin ? ["/c", "npm", "run", "capture-answers"] : ["run", "capture-answers"];
+      // Capture should read the report this run JUST wrote, not the newest
+      // run-results which may come from an unrelated/older run. The runner
+      // prints `report: <path>` on its last line before exiting.
+      const out = Buffer.concat(childOut).toString("utf8");
+      const m = out.match(/report:\s*([^\r\n]+)/);
+      const reportArg = m && /^run-results-.*\.json$/.test(path.basename(m[1].trim()))
+        ? ["--report", m[1].trim()]
+        : [];
+      const capArgs = isWin
+        ? ["/c", "npm", "run", "capture-answers", "--", ...reportArg]
+        : ["run", "capture-answers", "--", ...reportArg];
       const capChild = spawn(cmd, capArgs, { cwd: ROOT });
       running.add(capChild);
       capChild.stdout.on("data", (d) => res.write(d));
@@ -581,7 +595,8 @@ const server = http.createServer(async (req, res) => {
       if (!topic || !sub_topic) { sendJson(res, { error: "missing topic or sub_topic" }); return; }
       if (!Array.isArray(questions) || questions.length === 0) { sendJson(res, { error: "empty questions array" }); return; }
 
-      const REQ = ["id", "pair_id", "language", "topic", "sub_topic", "question", "expected_answer", "source_chunks"];
+      // pair_id is optional: nothing downstream reads it, and single-language datasets have no twin.
+      const REQ = ["id", "language", "topic", "sub_topic", "question", "expected_answer", "source_chunks"];
       const issues: string[] = [];
       const seen = new Set<string>();
       const dups: string[] = [];
@@ -718,6 +733,7 @@ const server = http.createServer(async (req, res) => {
       const totalEn = String(body.totalEn || "0").trim();
       const concurrentAr = String(body.concurrentAr || "3").trim();
       const concurrentEn = String(body.concurrentEn || "3").trim();
+      const repeatArg = String(body.repeat || "1").trim();
       const mode = String(body.mode || "ws").trim();
       const autoToken = body.autoToken === true;
       const minRam = parseFloat(String(body.minRam || ""));
@@ -735,6 +751,7 @@ const server = http.createServer(async (req, res) => {
       args.push("--concurrent-en", concurrentEn);
       if (parseInt(totalAr) > 0) args.push("--total-ar", totalAr);
       if (parseInt(totalEn) > 0) args.push("--total-en", totalEn);
+      if (parseInt(repeatArg) > 1) args.push("--repeat", repeatArg);
       if (autoToken && (mode === "ws" || mode === "relay")) args.push("--auto-token");
       const extraEnv: Record<string, string> = {};
       if (Number.isFinite(minRam) && minRam > 0) extraEnv.MIN_FREE_RAM_GB = String(minRam);

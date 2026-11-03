@@ -39,6 +39,21 @@ const WS_CONNECT_TIMEOUT_MS = intEnv("WS_CONNECT_TIMEOUT_MS", 10000);
 const WS_CONNECT_ATTEMPTS = intEnv("WS_CONNECT_ATTEMPTS", 3);
 const WS_CONNECT_STAGGER_MS = intEnv("WS_CONNECT_STAGGER_MS", 1500);
 
+// Event-based source frames from other clients, e.g.
+//   {"event":"knowledge_files","files":["6_en.md","5_en.md"]}
+// WS_SOURCE_EVENT_KEYS maps an event name to the field carrying the file list.
+function sourceEventKeys(): Record<string, string> {
+  const def: Record<string, string> = { knowledge_files: "files" };
+  const raw = process.env.WS_SOURCE_EVENT_KEYS || "";
+  if (!raw.trim()) return def;
+  try {
+    return { ...def, ...JSON.parse(raw) };
+  } catch {
+    return def;
+  }
+}
+const WS_SOURCE_EVENT_KEYS = sourceEventKeys();
+
 // ---- LLM backend resolution (see header) ----
 const OLLAMA_ROOT = process.env.OLLAMA_BASE_URL || "http://localhost:11434";
 const OLLAMA_V1 = `${OLLAMA_ROOT}/v1`;
@@ -349,6 +364,11 @@ async function main(): Promise<void> {
       console.log(`  session confirmed: ${msg.session_id}`);
     }
     if (Array.isArray(msg.file_ids) && msg.file_ids.length) ctxFileIds = msg.file_ids;
+    for (const [evKey, filesKey] of Object.entries(WS_SOURCE_EVENT_KEYS)) {
+      if (msg.event === evKey && Array.isArray(msg[filesKey]) && msg[filesKey].length) {
+        ctxFileIds = msg[filesKey];
+      }
+    }
     if (typeof msg.llm_message_sentence === "string") {
       if (firstFrameAt === null) firstFrameAt = Date.now();
       sentences.push(msg.llm_message_sentence);

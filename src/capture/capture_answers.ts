@@ -418,12 +418,19 @@ function main() {
   // The report's own stamp scopes which per-session artifacts belong to this run.
   // run-results-2026-09-09T08-37-43-430Z.json -> 2026-09-09T08-37-43-430Z
   const runStamp = path.basename(reportPath).replace(/^run-results-/, "").replace(/\.json$/, "");
+  // The report may list repeated sessions as "<id>#<n>" (--repeat N). sessions.json
+  // only knows the base id, so match by stripping the "#<n>" run suffix before the
+  // lookup; the full id is kept on the record so the judge/user sees the attempt.
+  const baseSessionId = (id: string): string => id.replace(/#\d+$/, "");
   const records: CaptureRecord[] = [];
   for (const r of report.results as Array<{ session_id: string }>) {
-    const session = bySessionId.get(r.session_id);
+    let session = bySessionId.get(baseSessionId(r.session_id));
     if (!session) {
       console.warn(`  [${r.session_id}] session not in sessions.json - skipping.`);
       continue;
+    }
+    if (r.session_id !== session.session_id) {
+      session = { ...session, session_id: r.session_id, messages: session.messages.map((m: SessionTurn) => ({ ...m })) };
     }
     records.push(...captureForSession(session, runStamp, (r as any)?.conversationId || ""));
   }
